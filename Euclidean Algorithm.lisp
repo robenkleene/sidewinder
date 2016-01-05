@@ -66,11 +66,12 @@
         ((and (null l1)
               (null l2))
          (nreverse res))
-        (let ((e1 (car l1))
-              (e2 (car l2)))
-          (push (append e1 e2) res)))))
+      (let ((e1 (car l1))
+            (e2 (car l2)))
+        (push (append e1 e2) res)))))
 
-;; CL-USER> (INTERLEAVE-SEQS '((1) (1) (1))' ((0) (0) (0) (0) (0))) ((1 0) (1 0) (1 0) (0) (0))
+;; CL-USER> (INTERLEAVE-SEQS '((1) (1) (1))' ((0) (0) (0) (0) (0)))
+;; ((1 0) (1 0) (1 0) (0) (0))
 ;; 
 ;; Finally the last step is just to build the iteration until the
 ;; remainder is empty or of length 1, and I did by using standard
