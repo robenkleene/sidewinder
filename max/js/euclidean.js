@@ -14,14 +14,14 @@ function euclidean(pulses, steps) {
         return false;
       }
     }
-    return true; 
+    return true;
   };
 
   var l;
   while (l = groups.length - 1) {
     var start = 0;
     var first = groups[0];
-    
+
     while (start < l && arraysAreEqual(first, groups[start])) start++;
     if (start === l) break;
 
@@ -42,15 +42,37 @@ function euclidean(pulses, steps) {
 
 // function euclidean(pulses, steps) {
 //   var pauses = steps - pulses;
-//   var perPulse = Math.floor(pauses / pulses);
-//   var remainder = pauses % pulses;
+//   var pausesPerPulse = Math.floor(pauses / pulses);
+//   var leftOverPauses = pauses % pulses;
+//
+//   var groups = [];
+//   for (var i = 0; i < pulses; i++) {
+//     var group = [1];
+//     for(var j = 0; j < pausesPerPulse; j++) {
+//       group.push(0);
+//     }
+//     groups.push(group);
+//   }
+//
+//   for (var k = leftOverPauses; k > 0; k--) {
+//     var index = groups.length - k;
+//     groups[index].push(0);
+//   }
+//
+//   return [].concat.apply([], groups);
+// }
+
+// function euclidean(pulses, steps) {
+//   var pauses = steps - pulses;
+//   var pausesPerPulse = Math.floor(pauses / pulses);
+//   var leftOverPauses = pauses % pulses;
 //   var pattern = [];
 //   for (var i = 0; i < pulses; i++) {
 //     pattern.push(1);
-//     for(var j = 0; j < perPulse; j++) {
+//     for(var j = 0; j < pausesPerPulse; j++) {
 //       pattern.push(0);
 //     }
-//     if (i < remainder) {
+//     if (i < leftOverPauses) {
 //       pattern.push(0);
 //     }
 //   }

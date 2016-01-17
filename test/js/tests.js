@@ -11,15 +11,15 @@ describe('euclidean', function() {
   it('should return the right value for 4 pulses and 12 steps', function () {
     euclidean(4,12).should.deep.equal([1,0,0,1,0,0,1,0,0,1,0,0]);
   });
-  // it('should return the right value for 2 pulses and 3 steps', function () {
-  //   euclidean(2,3).should.deep.equal([1,0,1]);
-  // });
+  it('should return the right value for 2 pulses and 3 steps', function () {
+    euclidean(2,3).should.deep.equal([1,0,1]);
+  });
   it('should return the right value for 2 pulses and 5 steps', function () {
     euclidean(2,5).should.deep.equal([1,0,1,0,0]);
   });
-  // it('should return the right values for 3 pulses and 4 steps', function () {
-  //   euclidean(3,4).should.deep.equal([1,0,1,1]);
-  // });
+  it('should return the right values for 3 pulses and 4 steps', function () {
+    euclidean(3,4).should.deep.equal([1,0,1,1]);
+  });
   it('should return the right values for 3 pulses and 5 steps', function () {
     euclidean(3,5).should.deep.equal([1,0,1,0,1]);
   });
@@ -47,12 +47,12 @@ describe('euclidean', function() {
   it('should return the right values for 5 pulses and 11 steps', function () {
     euclidean(5,11).should.deep.equal([1,0,1,0,1,0,1,0,1,0,0]);
   });
-  // it('should return the right values for 5 pulses and 16 steps', function () {
-  //   euclidean(5,16).should.deep.equal([1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0]);
-  // });
-  // it('should return the right values for 7 pulses and 8 steps', function () {
-  //   euclidean(7,8).should.deep.equal([1,0,1,1,1,1,1,1]);
-  // });
+  it('should return the right values for 5 pulses and 16 steps', function () {
+    euclidean(5,16).should.deep.equal([1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0]);
+  });
+  it('should return the right values for 7 pulses and 8 steps', function () {
+    euclidean(7,8).should.deep.equal([1,0,1,1,1,1,1,1]);
+  });
   it('should return the right values for 7 pulses and 12 steps', function () {
     euclidean(7,12).should.deep.equal([1,0,1,1,0,1,0,1,1,0,1,0]);
   });
