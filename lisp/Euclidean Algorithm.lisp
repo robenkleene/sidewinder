@@ -87,7 +87,7 @@
                            (return-from bjorklund (apply #'append (append real remainder)))
                          (bjorklund (interleave-seqs real remainder)))))
 
-(defun euclidian-rhythm (k n)
+(defun euclidean-rhythm (k n)
   (bjorklund (append (make-list k :initial-element '(1))
                      (make-list (- n k) :initial-element '(0)))))
 
