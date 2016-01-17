@@ -1,0 +1,15 @@
+{
+  "name": "euclidean-sequencer",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robenkleene/euclidean-sequencer.git"
+  },
+  "scripts": {
+    "test": "test/scripts/run_tests.js"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
