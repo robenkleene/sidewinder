@@ -27,3 +27,21 @@ function compareArrays (a, b) {
   // TODO: optimize
   return JSON.stringify(a) === JSON.stringify(b);
 };
+
+// function euclidean(pulses, steps) {
+//   var pauses = steps - pulses;
+//   var perPulse = Math.floor(pauses / pulses);
+//   var remainder = pauses % pulses;
+//   var pattern = [];
+//   for (var i = 0; i < pulses; i++) {
+//     pattern.push(1);
+//     for(var j = 0; j < perPulse; j++) {
+//       pattern.push(0);
+//     }
+//     if (i < remainder) {
+//       pattern.push(0);
+//     }
+//   }
+//
+//   return pattern;
+// }
