@@ -11,9 +11,9 @@ function euclidean(pulses, steps) {
   var compareArrays = function(arrayOne, arrayTwo) {
     if (arrayOne.length !== arrayTwo.length) return false;
     for (var i = 0, len = arrayOne.length; i < len; i++){
-        if (arrayOne[i] !== arrayTwo[i]){
-            return false;
-        }
+      if (arrayOne[i] !== arrayTwo[i]){
+        return false;
+      }
     }
     return true; 
   };
