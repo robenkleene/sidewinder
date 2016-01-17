@@ -1,50 +1,29 @@
-// Adapted from https://gist.github.com/withakay/1286731
+// Adapted from https://github.com/dbkaplun/euclidean-rhythm
 
-function euclidean(pulses, steps) {
+function euclidean(onNotes, totalNotes) {
+  var groups = [];
+  for (var i = 0; i < totalNotes; i++) groups.push([Number(i < onNotes)]);
 
-  steps = Math.round(steps);
-  pulses = Math.round(pulses);  
+  var l;
+  while (l = groups.length - 1) {
+    var start = 0, first = groups[0];
+    while (start < l && compareArrays(first, groups[start])) start++;
+    if (start === l) break;
 
-  if(pulses > steps || pulses == 0 || steps == 0) {
-    return new Array();
+    var end = l, last = groups[l];
+    while (end > 0 && compareArrays(last, groups[end])) end--;
+    if (end === 0) break;
+
+    var count = Math.min(start, l - end);
+    groups = groups
+      .slice(0, count)
+      .map(function (group, i) { return group.concat(groups[l - i]); })
+      .concat(groups.slice(count, -count));
   }
+  return [].concat.apply([], groups);
+};
 
-  pattern = [];
-  counts = [];
-  remainders = [];
-  divisor = steps - pulses;
-  remainders.push(pulses);
-  level = 0;
-
-  while(true) {
-    counts.push(Math.floor(divisor / remainders[level]));
-    remainders.push(divisor % remainders[level]);
-    divisor = remainders[level]; 
-         level += 1;
-    if (remainders[level] <= 1) {
-      break;
-    }
-  }
-  
-  counts.push(divisor);
-
-  var r = 0;
-  var build = function(level) {
-    r++;
-    if (level > -1) {
-      for (var i=0; i < counts[level]; i++) {
-        build(level-1); 
-      } 
-      if (remainders[level] != 0) {
-            build(level-2);
-      }
-    } else if (level == -1) {
-             pattern.push(0); 
-    } else if (level == -2) {
-           pattern.push(1);        
-    } 
-  };
-
-  build(level);
-  return pattern.reverse();
-}
+function compareArrays (a, b) {
+  // TODO: optimize
+  return JSON.stringify(a) === JSON.stringify(b);
+};
