@@ -1,5 +1,5 @@
 describe('euclidean', function() {
-	it('should have the right result', function () {
-		1.should.equal(1);
+	it('should return the right value', function () {
+		(1).should.equal(1);
 	});
 });
