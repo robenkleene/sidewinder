@@ -1,8 +1,18 @@
 // Adapted from https://github.com/dbkaplun/euclidean-rhythm
 
-function euclidean(onNotes, totalNotes) {
+function euclidean(pulses, steps) {
   var groups = [];
-  for (var i = 0; i < totalNotes; i++) groups.push([Number(i < onNotes)]);
+  for (var i = 0; i < steps; i++) {
+    var valueArray = [Number(i < pulses)];
+    groups.push(valueArray);
+  }
+
+
+  var compareArrays = function(a, b) {
+    // TODO: optimize
+    return JSON.stringify(a) === JSON.stringify(b);
+  };
+
 
   var l;
   while (l = groups.length - 1) {
@@ -23,10 +33,6 @@ function euclidean(onNotes, totalNotes) {
   return [].concat.apply([], groups);
 };
 
-function compareArrays (a, b) {
-  // TODO: optimize
-  return JSON.stringify(a) === JSON.stringify(b);
-};
 
 // function euclidean(pulses, steps) {
 //   var pauses = steps - pulses;
