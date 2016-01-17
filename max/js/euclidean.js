@@ -7,8 +7,7 @@ function euclidean(pulses, steps) {
     groups.push(valueArray);
   }
 
-
-  var compareArrays = function(arrayOne, arrayTwo) {
+  var arraysAreEqual = function(arrayOne, arrayTwo) {
     if (arrayOne.length !== arrayTwo.length) return false;
     for (var i = 0, len = arrayOne.length; i < len; i++){
       if (arrayOne[i] !== arrayTwo[i]){
@@ -18,15 +17,17 @@ function euclidean(pulses, steps) {
     return true; 
   };
 
-
   var l;
   while (l = groups.length - 1) {
-    var start = 0, first = groups[0];
-    while (start < l && compareArrays(first, groups[start])) start++;
+    var start = 0;
+    var first = groups[0];
+    
+    while (start < l && arraysAreEqual(first, groups[start])) start++;
     if (start === l) break;
 
-    var end = l, last = groups[l];
-    while (end > 0 && compareArrays(last, groups[end])) end--;
+    var end = l;
+    var last = groups[l];
+    while (end > 0 && arraysAreEqual(last, groups[end])) end--;
     if (end === 0) break;
 
     var count = Math.min(start, l - end);
