@@ -1,6 +1,6 @@
 // Adapted from https://gist.github.com/withakay/1286731
 
-function euclidean(steps, pulses) {
+function euclidean(pulses, steps) {
 
   steps = Math.round(steps);
   pulses = Math.round(pulses);  
