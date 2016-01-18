@@ -36,8 +36,8 @@ function bjorklund(pulses, steps) {
     }
   }
 
-  console.log("groupA = " + JSON.stringify(groupA));
-  console.log("groupB = " + JSON.stringify(groupB));
+console.log("groupA = " + JSON.stringify(groupA));
+console.log("groupB = " + JSON.stringify(groupB));
 
 
   var stringsToRemove = Math.floor(groupA.length / groupB.length);
@@ -56,6 +56,13 @@ console.log("joined = " + JSON.stringify(joined));
   }
 
 console.log("joined = " + JSON.stringify(joined));
+
+  var splicePoint = groupB.length;
+  groupA = joined.splice(0, splicePoint);
+  groupB = joined;
+
+console.log("groupA = " + JSON.stringify(groupA));
+console.log("groupB = " + JSON.stringify(groupB));
 }
 
 bjorklund(7, 17);
