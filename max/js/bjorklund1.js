@@ -24,10 +24,10 @@ bjorklund = function(n, k) {
         value = removed[j];
         joined[j] = joined[j].concat(value);
       }
-      splicePoint = groupB.length;
-      groupA = joined.splice(0, splicePoint);
-      groupB = joined;
     }
+    splicePoint = groupB.length;
+    groupA = joined.splice(0, splicePoint);
+    groupB = joined;
     if (!(groupB.length > 1)) {
       break;
     }

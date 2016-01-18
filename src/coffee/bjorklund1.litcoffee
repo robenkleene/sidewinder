@@ -22,10 +22,9 @@
           for value, j in removed
             joined[j] = joined[j].concat(value)
         
-          splicePoint = groupB.length
-          groupA = joined.splice(0, splicePoint)
-          groupB = joined
-        
+        splicePoint = groupB.length
+        groupA = joined.splice(0, splicePoint)
+        groupB = joined
         break unless groupB.length > 1
     
       joined = groupA.concat(groupB)
