@@ -1,6 +1,6 @@
 # Euclidean Sequencer
 
-Example rhythms from [*The Euclidean Algorithm Generates Traditional Musical Rhythms* by Godfried Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)
+Example rhythms from ["The Euclidean Algorithm Generates Traditional Musical Rhythms" by Godfried Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)
 
 > * `E(2,3) = [x . x]` is a common Afro-Cuban drum pattern. For example, it is the conga rhythm of the 6/8-time Swing Tumbao. It is also common in Latin American music, as for example in the Cueca.
 > * `E(2,5) = [x . x . .]` is a thirteenth century Persian rhythm called Khafif-e-ramal. It is also the metric pattern of the second movement of Tchaikovsky’s Symphony No. 6. When it is started on the second onset (`[x . . x .]`) it is the metric pattern of Dave Brubeck’s Take Five as well as Mars from The Planets by Gustav Holst.
