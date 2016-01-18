@@ -7,18 +7,18 @@ function bjorklund(pulses, steps) {
   var groupA = [];
   var groupB = [];
 
-  // var flattenArray = function(value) {
-  //   var result = [];
-  //   for (var i = 0; i < value.length; i++) {
-  //     if(Array.isArray(value[i])) {
-  //       var flattened = flattenArray(value[i])
-  //       result = result.concat(flattened);
-  //     } else {
-  //       result.push(value[i]);
-  //     }
-  //   }
-  //   return result;
-  // }
+  var flattenArray = function(value) {
+    var result = [];
+    for (var i = 0; i < value.length; i++) {
+      if(Array.isArray(value[i])) {
+        var flattened = flattenArray(value[i])
+        result = result.concat(flattened);
+      } else {
+        result.push(value[i]);
+      }
+    }
+    return result;
+  }
 
   for (var i = 0; i < steps; i++) {
     if (i < pulses) {
@@ -36,33 +36,40 @@ function bjorklund(pulses, steps) {
     }
   }
 
-console.log("groupA = " + JSON.stringify(groupA));
-console.log("groupB = " + JSON.stringify(groupB));
+// console.log("groupA = " + JSON.stringify(groupA));
+// console.log("groupB = " + JSON.stringify(groupB));
 
 
-  var stringsToRemove = Math.floor(groupA.length / groupB.length);
-  var lengthOfStringToRemove = groupB.length;
+  while (groupB.length > 1) {
+    var stringsToRemove = Math.floor(groupA.length / groupB.length);
+    var lengthOfStringToRemove = groupB.length;
 
-  var joined = groupA.concat(groupB);
+    var joined = groupA.concat(groupB);
 
-console.log("joined = " + JSON.stringify(joined));
+// console.log("joined = " + JSON.stringify(joined));
 
-  // Merge this with the above similar method
-  for (i = 0; i < stringsToRemove; i++) {
-    var removed = joined.splice(joined.length - lengthOfStringToRemove, lengthOfStringToRemove);
-    for (j = 0; j < removed.length; j++) {
-      joined[j] = joined[j].concat(removed[j]);
+    // Merge this with the above similar method
+    for (i = 0; i < stringsToRemove; i++) {
+      var removed = joined.splice(joined.length - lengthOfStringToRemove, lengthOfStringToRemove);
+      for (j = 0; j < removed.length; j++) {
+        joined[j] = joined[j].concat(removed[j]);
+      }h
     }
+
+// console.log("joined = " + JSON.stringify(joined));
+
+    var splicePoint = groupB.length;
+    groupA = joined.splice(0, splicePoint);
+    groupB = joined;
+
+// console.log("groupA = " + JSON.stringify(groupA));
+// console.log("groupB = " + JSON.stringify(groupB));
   }
 
-console.log("joined = " + JSON.stringify(joined));
-
-  var splicePoint = groupB.length;
-  groupA = joined.splice(0, splicePoint);
-  groupB = joined;
-
-console.log("groupA = " + JSON.stringify(groupA));
-console.log("groupB = " + JSON.stringify(groupB));
+  return flattenArray(groupA.concat(groupB));
 }
 
-bjorklund(7, 17);
+// var result = bjorklund(7, 17);
+var result = bjorklund(2, 3);
+console.log("result = " + result);
+
