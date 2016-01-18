@@ -35,6 +35,10 @@ function bjorklund(pulses, steps) {
     groupA[i] = groupA[i].concat(removed);
   }
 
+
+  var bitsToRemove = Math.floor(groupA.length / groupB.length);
+  
+
 console.log("groupA = " + JSON.stringify(groupA));
 console.log("groupB = " + JSON.stringify(groupB));
 }
