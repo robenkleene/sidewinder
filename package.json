@@ -5,6 +5,7 @@
     "type": "git",
     "url": "https://github.com/robenkleene/euclidean-sequencer.git"
   },
+  "license": "BSD-2-Clause",
   "scripts": {
     "test": "test/scripts/run_tests.js"
   },
