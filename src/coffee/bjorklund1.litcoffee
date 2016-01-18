@@ -28,6 +28,6 @@
         
         break unless groupB.length > 1
     
-    joined = groupA.concat(groupB)
-    return [].concat.apply([], joined)
+      joined = groupA.concat(groupB)
+      return [].concat.apply([], joined)
       
