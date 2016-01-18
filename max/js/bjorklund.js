@@ -36,22 +36,22 @@ console.log("Initialization");
 console.log("groupA = " + JSON.stringify(groupA));
 console.log("groupB = " + JSON.stringify(groupB));
   
-  var count = Math.floor(groupB.length / groupA.length);
-  for (i = 0; i < groupA.length; i++) {
-    var removed = groupB.splice(groupB.length - count, count);
-    for (var j = 0; j < count; j++) {
-      groupA[i] = groupA[i].concat(removed[j]);
-    }
-  }
+  // var count = Math.floor(groupB.length / groupA.length);
+  // for (i = 0; i < groupA.length; i++) {
+  //   var removed = groupB.splice(groupB.length - count, count);
+  //   for (var j = 0; j < count; j++) {
+  //     groupA[i] = groupA[i].concat(removed[j]);
+  //   }
+  // }
 
 console.log("groupA = " + JSON.stringify(groupA));
 console.log("groupB = " + JSON.stringify(groupB));
 
 console.log("Subtraction");
 
-  // if (groupB.length > 0) {
-  //   do {
-    while (groupB.length > 1) {
+  if (groupB.length > 0) {
+    do {
+    // while (groupB.length > 1) {
       var stringsToRemove = Math.floor(groupA.length / groupB.length);
       var lengthOfStringToRemove = groupB.length;
 console.log("groupA.length = " + groupA.length);
@@ -79,7 +79,7 @@ console.log("joined = " + JSON.stringify(joined));
 
 console.log("groupA = " + JSON.stringify(groupA));
 console.log("groupB = " + JSON.stringify(groupB));
-    // } while (groupB.length > 1);
+    } while (groupB.length > 1);
   }
 
 
