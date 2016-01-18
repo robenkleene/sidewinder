@@ -1,21 +1,25 @@
 #!/usr/bin/env node
 
-function euclidean(pulses, steps) {
-  // Figure out how to break these into the correct groups
+// pulses: k
+// steps: n
 
-  var a = [];
-  var b = [];
-
+function bjorklund(pulses, steps) {
+  var groupA = [];
+  var groupB = [];
+  
   for (var i = 0; i < steps; i++) {
     if (i < pulses) {
-      a.push(1);
+      groupA.push([1]);
     } else {
-      b.push(0);
+      groupB.push([0]);
     }
   }
 
-  console.log(a);
-  console.log(b);
+  var count = Math.floor(groupB.length / groupA.length);
+  for (var i = 0; i < groupA.length; i++) {
+    var removed = groupB.splice(0, count);
+    groupA[i].push(removed);
+  }
 }
 
-euclidean(7, 17);
+bjorklund(7, 17);
