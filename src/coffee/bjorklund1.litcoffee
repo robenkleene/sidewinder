@@ -6,9 +6,10 @@
       groupA = []
       groupB = []
       
-      for i in [0..k]
-        if i < n then groupA.push(1) else groupB.push(0)
+      for i in [0...k]
       
+        if i < n then groupA.push([1]) else groupB.push([0])
+        
       return groupA if groupB.length == 0
       
       loop
@@ -16,8 +17,7 @@
         lengthOfStringToRemove = groupB.length
         
         joined = groupA.concat(groupB)
-        
-        for i in [0..stringsToRemove]
+        for i in [0...stringsToRemove]
           removed = joined.splice(joined.length - lengthOfStringToRemove, lengthOfStringToRemove)
           for value, j in removed
             joined[j] = joined[j].concat(value)
