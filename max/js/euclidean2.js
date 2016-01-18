@@ -36,40 +36,40 @@ function bjorklund(pulses, steps) {
     }
   }
 
-// console.log("groupA = " + JSON.stringify(groupA));
-// console.log("groupB = " + JSON.stringify(groupB));
+console.log("groupA = " + JSON.stringify(groupA));
+console.log("groupB = " + JSON.stringify(groupB));
 
 
-  while (groupB.length > 1) {
+  do {
     var stringsToRemove = Math.floor(groupA.length / groupB.length);
     var lengthOfStringToRemove = groupB.length;
 
     var joined = groupA.concat(groupB);
 
-// console.log("joined = " + JSON.stringify(joined));
+console.log("joined = " + JSON.stringify(joined));
 
     // Merge this with the above similar method
     for (i = 0; i < stringsToRemove; i++) {
       var removed = joined.splice(joined.length - lengthOfStringToRemove, lengthOfStringToRemove);
       for (j = 0; j < removed.length; j++) {
         joined[j] = joined[j].concat(removed[j]);
-      }h
+      }
     }
 
-// console.log("joined = " + JSON.stringify(joined));
+console.log("joined = " + JSON.stringify(joined));
 
     var splicePoint = groupB.length;
     groupA = joined.splice(0, splicePoint);
     groupB = joined;
 
-// console.log("groupA = " + JSON.stringify(groupA));
-// console.log("groupB = " + JSON.stringify(groupB));
-  }
+console.log("groupA = " + JSON.stringify(groupA));
+console.log("groupB = " + JSON.stringify(groupB));
+  } while (groupB.length > 1);
 
   return flattenArray(groupA.concat(groupB));
 }
 
 // var result = bjorklund(7, 17);
-var result = bjorklund(2, 3);
+// var result = bjorklund(2, 3);
 console.log("result = " + result);
 
