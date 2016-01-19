@@ -1,4 +1,4 @@
-# Bjorklund
+# Toussaint
 
 `k` are pulses, `n` is steps.
 
@@ -6,12 +6,9 @@
       groupA = []
       groupB = []
       
-      for i in [0...k]
-      
+      for i in [0...k]      
         if i < n then groupA.push([1]) else groupB.push([0])
         
-      return groupA if groupB.length == 0
-      
       loop
         stringsToRemove = Math.floor(groupA.length / groupB.length)
         lengthOfStringToRemove = groupB.length

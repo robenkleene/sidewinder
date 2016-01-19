@@ -30,15 +30,15 @@ function bjorklund(pulses, steps) {
   //     groupA[i] = groupA[i].concat(removed[j]);
   //   }
   // }
+  // if (!groupB.length > 0) {
+  //   return [].concat.apply([], groupA)
+  // }
 
 // console.log("groupA = " + JSON.stringify(groupA));
 // console.log("groupB = " + JSON.stringify(groupB));
 // 
 // console.log("Subtraction");
 
-  if (!groupB.length > 0) {
-    return groupA;
-  }
 
   do {
   // while (groupB.length > 1) {
