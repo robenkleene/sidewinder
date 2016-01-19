@@ -1,6 +1,6 @@
-var bjorklund;
+var toussaint;
 
-bjorklund = function(n, k) {
+toussaint = function(n, k) {
   var groupA, groupB, i, j, joined, l, len, lengthOfStringToRemove, m, o, ref, ref1, removed, splicePoint, stringsToRemove, value;
   groupA = [];
   groupB = [];

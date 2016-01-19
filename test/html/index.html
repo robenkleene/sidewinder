@@ -7,6 +7,7 @@
     <script src="../../node_modules/chai/chai.js"></script>
     <link rel="stylesheet" href="../../node_modules/mocha/mocha.css">
     <script src="../../max/js/toussaint.js"></script>
+    <script src="../../max/js/bjorklund.js"></script>
   </head>
   <body>
 	<div id="mocha"></div>
@@ -15,7 +16,8 @@
 	  mocha.reporter('html');
 	  var should = chai.should();
 	</script>
-	<script src="../js/tests.js"></script>
+	<script src="../js/bjorklund_tests.js"></script>
+	<script src="../js/toussaint_tests.js"></script>
 	<script>
 	  if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
 	  else { mocha.run(); }

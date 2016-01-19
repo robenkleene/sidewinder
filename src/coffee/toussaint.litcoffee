@@ -2,7 +2,7 @@
 
 `k` are pulses, `n` is steps.
 
-    bjorklund = (n, k) ->
+    toussaint = (n, k) ->
       groupA = []
       groupB = []
       
