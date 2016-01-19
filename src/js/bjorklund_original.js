@@ -1,5 +1,7 @@
 // #!/usr/bin/env node
 
+// Archived original version
+
 // pulses: k
 // steps: n
 
