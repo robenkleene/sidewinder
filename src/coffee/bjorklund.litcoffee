@@ -4,7 +4,7 @@ This is an implementation of the algorithm described by Bjorklund, that's been a
 
 > **Bjorklund’s algorithm.** Bjorklund’s algorithm consists of two steps: an initialization step, performed once at the beginning; and a subtraction step, performed repeatedly until the stopping condition is satisfied. At all times Bjorklund’s algorithm maintains two lists `A` and `B` of strings of bits, with `a` and `b` representing the number of strings in each list, respectively.
 
-	# `k` are pulses, `n` is steps.
+	# `k` is pulses, `n` is steps
     bjorklund = (n, k) ->
 
 > 1. **Initialization step.** In this step the algorithm builds the string `{1,..k..,1,0,..n..,0}`, and sets `A` as the first `a = min{k,n−k}` bits of that string, and `B` as the remaining `b = max{k, n − k} bits`.
