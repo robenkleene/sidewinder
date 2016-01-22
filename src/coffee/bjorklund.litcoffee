@@ -27,7 +27,7 @@ This is an implementation of the algorithm described by Bjorklund, that's been a
 
       return [].concat.apply([], A) if B.length == 0 # Return early to prevent dividing by zero later
 
-> **Subtraction step.** At a subtraction step, the algorithm removes `a/b` strings of `b` consecutive bits (or columns) from `B` and `A`, starting with the rightmost bit of `B` and continuing with the rightmost bit of `A`, and places them at the bottom-left of the strings in `A` one below the other.
+> 2. **Subtraction step.** At a subtraction step, the algorithm removes `a/b` strings of `b` consecutive bits (or columns) from `B` and `A`, starting with the rightmost bit of `B` and continuing with the rightmost bit of `A`, and places them at the bottom-left of the strings in `A` one below the other.
 
       loop
         a = A.length
