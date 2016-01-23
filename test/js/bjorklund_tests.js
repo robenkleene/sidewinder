@@ -1,4 +1,26 @@
 describe('bjorklund', function() {
+
+  // Edge Case Tests
+  it('should return the right value for 0 pulses and 0 steps', function () {
+    bjorklund(0,0).should.deep.equal([]);
+  });
+  it('should return the right value for 0 pulses and 3 steps', function () {
+    bjorklund(0,3).should.deep.equal([0, 0, 0]);
+  });
+  it('should return the right value for 3 pulses and 0 steps', function () {
+    bjorklund(3,0).should.deep.equal([]);
+  });
+  it('should return the right value for 1 pulses and 1 steps', function () {
+    bjorklund(1,1).should.deep.equal([1]);
+  });
+  it('should return the right value for 3 pulses and 3 steps', function () {
+    bjorklund(3,3).should.deep.equal([1, 1, 1]);
+  });
+  it('should return the right value for 6 pulses and 3 steps', function () {
+    bjorklund(6,3).should.deep.equal([1, 1, 1]);
+  });
+
+  // "The Euclidean Algorithm Generates Traditional Musical Rhythms" Tests
   it('should return the right value for 1 pulses and 2 steps', function () {
     bjorklund(1,2).should.deep.equal([1,0]);
   });

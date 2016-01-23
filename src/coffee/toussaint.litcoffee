@@ -11,7 +11,9 @@ The below implementation is slightly more elegant it gets identical results to T
       
       for i in [0...k]      
         if i < n then groupA.push([1]) else groupB.push([0])
-        
+      
+      return [].concat.apply([], groupA) if groupB.length == 0 # Return early to prevent dividing by zero later
+      
       loop
         stringsToRemove = Math.floor(groupA.length / groupB.length)
         lengthOfStringToRemove = groupB.length
