@@ -11,6 +11,9 @@ toussaint = function(n, k) {
       groupB.push([0]);
     }
   }
+  if (groupB.length === 0) {
+    return [].concat.apply([], groupA);
+  }
   while (true) {
     stringsToRemove = Math.floor(groupA.length / groupB.length);
     lengthOfStringToRemove = groupB.length;
