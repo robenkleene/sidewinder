@@ -1,8 +1,10 @@
-// simple example of a binary operator (plus) that works 
-// like typical max binops do
-// global varables and code
-
 autowatch = 1;
+
+include("toussaint");
+var generate = toussaint;
+
+// var testResult = generate(5, 7);
+// post("testResult = " + testResult);
 
 inlets = 2;
 outlets = 2;
@@ -14,6 +16,9 @@ function msg_int(value) {
 }
 
 function bang() {
+  var result = generate(values[0], values[1]);
+  post("result = " + result);
+
   var valueOne = values[0] + values[1];
   var valueTwo = values[0] - values[1];
   outlet(0, valueOne);
