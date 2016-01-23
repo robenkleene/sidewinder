@@ -1,6 +1,14 @@
 # Euclidean Sequencer
 
-Example rhythms from ["The Euclidean Algorithm Generates Traditional Musical Rhythms" by Godfried Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)
+This repo contains two implementations of the (colloquially named) "Bjorklund's Algorithm" for spacing pulses in a count of steps that have an uncanny resemblance to traditional rhythm patterns across times periods and cultures.
+
+The reason for two implementations is that the most direct implementation of the algorithm based on the steps detailed in ["Structural properties of Euclidean rhythms"](http://student.ulb.ac.be/~ptaslaki/publications/structuralProperties.pdf) gets different results from the original paper by Toussaint detailing this technique, ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). This implementation is called [bjorklund](src/coffee/bjorklund.litcoffee).
+
+A slightly modified version of the algorithm gets the same results as in that paper, and is also shorter and more elegant. This implementation is called [toussaint](src/coffee/toussaint.litcoffee).
+
+## Examples
+
+Example rhythms from ["The Euclidean Algorithm Generates Traditional Musical Rhythms" by Godfried Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf):
 
 > * `E(2,3) = [x . x]` is a common Afro-Cuban drum pattern. For example, it is the conga rhythm of the 6/8-time Swing Tumbao. It is also common in Latin American music, as for example in the Cueca.
 > * `E(2,5) = [x . x . .]` is a thirteenth century Persian rhythm called Khafif-e-ramal. It is also the metric pattern of the second movement of Tchaikovsky’s Symphony No. 6. When it is started on the second onset (`[x . . x .]`) it is the metric pattern of Dave Brubeck’s Take Five as well as Mars from The Planets by Gustav Holst.
