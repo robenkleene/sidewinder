@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 188.0, 79.0, 612.0, 555.0 ],
+		"rect" : [ 98.0, 79.0, 626.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"maximum" : 32,
-					"minimum" : 1,
+					"minimum" : 7,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -278,6 +278,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "wrapper.js",
 				"bootpath" : "~/Development/Projects/Music Production/euclidean-sequencer/max",
