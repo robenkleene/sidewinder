@@ -12,12 +12,6 @@ include("toussaint");
 var generate = toussaint;
 
 
-
-// For Debugging
-bang(); // Remove
-
-
-
 function msg_int(value) {
   values[inlet] = value;
   bang();
