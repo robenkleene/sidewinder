@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 190.0, 79.0, 792.0, 787.0 ],
+		"rect" : [ 234.0, 79.0, 835.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -121,19 +121,6 @@
 					"patching_rect" : [ 345.0, 255.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "1 0 1 1 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-28",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 615.0, 150.0, 33.0 ],
-					"style" : "",
-					"text" : "Two `multisteps` for velocity and duration."
 				}
 
 			}
@@ -527,26 +514,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-14",
-					"linecount" : 7,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 495.0, 150.0, 100.0 ],
-					"style" : "",
-					"text" : "The `live.step` should be used with three values, note, duration, and velocity. Then I should be able to change a notes velocity and duration dynamically."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 165.0, 675.0, 405.0, 150.0 ],
+					"patching_rect" : [ 585.0, 495.0, 405.0, 165.0 ],
+					"size" : 5,
 					"style" : ""
 				}
 
@@ -855,6 +830,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
