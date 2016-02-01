@@ -5,7 +5,7 @@ var path = require('path');
 
 var paths = {
     src: './src/',
-    build: './max/'
+    build: '../javascript'
 };
 
 gulp.task('coffee', function() {
