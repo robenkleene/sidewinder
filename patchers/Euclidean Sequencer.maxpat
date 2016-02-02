@@ -9,14 +9,14 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 88.0, 79.0, 626.0, 680.0 ],
+		"rect" : [ 88.0, 79.0, 954.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
+		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Arial Bold",
 		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
@@ -2253,7 +2253,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "wrapper.js",
-				"bootpath" : "~/Development/Projects/Music Production/euclidean-sequencer/max",
+				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
