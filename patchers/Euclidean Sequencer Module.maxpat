@@ -443,7 +443,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 568.0, 225.0, 20.0 ],
 					"style" : "",
-					"text" : "3 70 0 960. 0 0"
+					"text" : "2 72 0 120. 0 0"
 				}
 
 			}
@@ -562,9 +562,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 90.0, 75.0, 231.0, 22.0 ],
+									"patching_rect" : [ 90.0, 75.0, 244.0, 22.0 ],
 									"style" : "",
-									"text" : "metro @interval 5 ticks @quantize 5 ticks"
+									"text" : "metro @interval 10 ticks @quantize 10 ticks"
 								}
 
 							}
@@ -1901,7 +1901,7 @@
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"maximum" : 32,
-					"minimum" : 5,
+					"minimum" : 4,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
