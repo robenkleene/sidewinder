@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 212.0, 315.0, 431.0, 551.0 ],
+		"rect" : [ 105.0, 109.0, 746.0, 757.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -47,11 +47,11 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Euclidean Sequencer Module Bank.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 80.0, 248.0, 128.0, 128.0 ],
+					"patching_rect" : [ 80.0, 248.0, 624.0, 216.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -116,7 +116,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 464.0, 30.0, 30.0 ],
+					"patching_rect" : [ 96.0, 528.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -158,6 +158,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
