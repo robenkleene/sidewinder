@@ -11,7 +11,7 @@
 ,
 		"rect" : [ 105.0, 109.0, 746.0, 757.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial Bold",
@@ -53,7 +53,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 8.0, 192.0, 624.0, 216.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 8.0, 624.0, 216.0 ],
+					"presentation_rect" : [ 40.0, 0.0, 624.0, 216.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -194,9 +194,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-8::obj-13::obj-8" : [ "live.step[2]", "live.step", 0 ],
-			"obj-8::obj-1::obj-8" : [ "live.step[3]", "live.step", 0 ],
 			"obj-8::obj-21::obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-8::obj-1::obj-8" : [ "live.step[3]", "live.step", 0 ],
+			"obj-8::obj-13::obj-8" : [ "live.step[2]", "live.step", 0 ],
 			"obj-8::obj-18::obj-8" : [ "live.step[1]", "live.step", 0 ]
 		}
 ,
