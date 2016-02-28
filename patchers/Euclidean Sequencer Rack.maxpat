@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 105.0, 109.0, 746.0, 757.0 ],
+		"rect" : [ 105.0, 109.0, 902.0, 693.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -54,6 +54,7 @@
 					"patching_rect" : [ 8.0, 192.0, 624.0, 216.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 0.0, 624.0, 216.0 ],
+					"varname" : "Euclidean Sequencer Module Bank",
 					"viewvisibility" : 1
 				}
 

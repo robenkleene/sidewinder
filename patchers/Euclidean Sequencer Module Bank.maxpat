@@ -106,6 +106,7 @@
 					"patching_rect" : [ 8.0, 856.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 504.0, 576.0, 168.0 ],
+					"varname" : "Euclidean Sequencer Module 4",
 					"viewvisibility" : 1
 				}
 
@@ -153,6 +154,7 @@
 					"patching_rect" : [ 8.0, 604.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 336.0, 576.0, 168.0 ],
+					"varname" : "Euclidean Sequencer Module 3",
 					"viewvisibility" : 1
 				}
 
@@ -200,6 +202,7 @@
 					"patching_rect" : [ 8.0, 352.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 168.0, 576.0, 168.0 ],
+					"varname" : "Euclidean Sequencer Module 2",
 					"viewvisibility" : 1
 				}
 
@@ -297,6 +300,7 @@
 					"patching_rect" : [ 8.0, 104.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 576.0, 168.0 ],
+					"varname" : "Euclidean Sequencer Module 1",
 					"viewvisibility" : 1
 				}
 
@@ -448,9 +452,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-8" : [ "live.step[2]", "live.step", 0 ],
-			"obj-21::obj-8" : [ "live.step[3]", "live.step", 0 ],
 			"obj-1::obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-21::obj-8" : [ "live.step[3]", "live.step", 0 ],
+			"obj-18::obj-8" : [ "live.step[2]", "live.step", 0 ],
 			"obj-13::obj-8" : [ "live.step[1]", "live.step", 0 ]
 		}
 ,

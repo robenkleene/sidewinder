@@ -225,6 +225,7 @@
 					"patching_rect" : [ 8.0, 64.0, 128.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 8.0, 128.0, 32.0 ],
+					"varname" : "Pulses Steps",
 					"viewvisibility" : 1
 				}
 
@@ -854,7 +855,8 @@
 					"patching_rect" : [ 128.0, 72.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 16.0, 24.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"varname" : "Play"
 				}
 
 			}
@@ -922,7 +924,8 @@
 					"patching_rect" : [ 336.0, 72.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 72.0, 16.0, 24.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"varname" : "Set"
 				}
 
 			}
@@ -1772,7 +1775,8 @@
 					"patching_rect" : [ 368.0, 72.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 16.0, 24.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"varname" : "Auto"
 				}
 
 			}
