@@ -2148,6 +2148,8 @@
 							"parameter_longname" : "live.step",
 							"parameter_shortname" : "live.step",
 							"parameter_type" : 3,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
 							"parameter_invisible" : 1
 						}
 
