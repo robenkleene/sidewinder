@@ -126,7 +126,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.0, 32.0, 32.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 32.0, 72.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 32.0, 152.0 ],
 					"style" : "",
 					"tabs" : [ "1", "2", "3", "4" ],
 					"varname" : "Selected_Rack"
@@ -218,8 +218,8 @@
 			"obj-8::obj-21::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
 			"obj-8::obj-21::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
 			"obj-8::obj-1::obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-8::obj-21::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
 			"obj-8::obj-21::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
+			"obj-8::obj-21::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
 			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
 			"obj-8::obj-21::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
 			"obj-8::obj-1::obj-8" : [ "live.step[3]", "live.step", 0 ],
