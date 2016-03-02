@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 214.0, 79.0, 640.0, 751.0 ],
+		"rect" : [ 214.0, 79.0, 640.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -106,7 +106,7 @@
 					"patching_rect" : [ 8.0, 856.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 504.0, 576.0, 168.0 ],
-					"varname" : "Euclidean Sequencer Module 4",
+					"varname" : "Euclidean_Sequencer_Module_4",
 					"viewvisibility" : 1
 				}
 
@@ -154,7 +154,7 @@
 					"patching_rect" : [ 8.0, 604.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 336.0, 576.0, 168.0 ],
-					"varname" : "Euclidean Sequencer Module 3",
+					"varname" : "Euclidean_Sequencer_Module_3",
 					"viewvisibility" : 1
 				}
 
@@ -202,7 +202,7 @@
 					"patching_rect" : [ 8.0, 352.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 168.0, 576.0, 168.0 ],
-					"varname" : "Euclidean Sequencer Module 2",
+					"varname" : "Euclidean_Sequencer_Module_2",
 					"viewvisibility" : 1
 				}
 
@@ -300,7 +300,7 @@
 					"patching_rect" : [ 8.0, 104.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 576.0, 168.0 ],
-					"varname" : "Euclidean Sequencer Module 1",
+					"varname" : "Euclidean_Sequencer_Module_1",
 					"viewvisibility" : 1
 				}
 
@@ -453,9 +453,9 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-8" : [ "live.step", "live.step", 0 ],
-			"obj-21::obj-8" : [ "live.step[3]", "live.step", 0 ],
 			"obj-18::obj-8" : [ "live.step[2]", "live.step", 0 ],
-			"obj-13::obj-8" : [ "live.step[1]", "live.step", 0 ]
+			"obj-13::obj-8" : [ "live.step[1]", "live.step", 0 ],
+			"obj-21::obj-8" : [ "live.step[3]", "live.step", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
