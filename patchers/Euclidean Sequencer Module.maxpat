@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 79.0, 1162.0, 687.0 ],
+		"rect" : [ 84.0, 79.0, 778.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -44,9 +44,21 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 536.0, 8.0, 117.0, 20.0 ],
-					"restore" : [ 0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "Stored_Play",
+							"parameter_shortname" : "Stored_Play",
+							"parameter_type" : 1
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"annotation_name" : "",
+						"initial" : [ 0.0 ],
+						"parameter_enable" : 1
 					}
 ,
 					"style" : "",
@@ -2668,6 +2680,7 @@
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
 			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ]
 		}
