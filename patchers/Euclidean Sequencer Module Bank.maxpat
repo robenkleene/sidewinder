@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 214.0, 79.0, 640.0, 687.0 ],
+		"rect" : [ 214.0, 79.0, 1035.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -103,9 +103,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 856.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 856.0, 632.0, 168.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 504.0, 576.0, 168.0 ],
+					"presentation_rect" : [ 0.0, 504.0, 632.0, 168.0 ],
 					"varname" : "Euclidean_Sequencer_Module_4",
 					"viewvisibility" : 1
 				}
@@ -151,9 +151,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 604.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 604.0, 632.0, 172.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 336.0, 576.0, 168.0 ],
+					"presentation_rect" : [ 0.0, 336.0, 632.0, 168.0 ],
 					"varname" : "Euclidean_Sequencer_Module_3",
 					"viewvisibility" : 1
 				}
@@ -199,9 +199,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 352.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 352.0, 632.0, 168.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 168.0, 576.0, 168.0 ],
+					"presentation_rect" : [ 0.0, 168.0, 632.0, 168.0 ],
 					"varname" : "Euclidean_Sequencer_Module_2",
 					"viewvisibility" : 1
 				}
@@ -297,9 +297,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 104.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 104.0, 632.0, 168.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 576.0, 168.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 632.0, 168.0 ],
 					"varname" : "Euclidean_Sequencer_Module_1",
 					"viewvisibility" : 1
 				}
@@ -452,10 +452,38 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-13::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
+			"obj-21::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
 			"obj-18::obj-8" : [ "live.step[2]", "live.step", 0 ],
+			"obj-13::obj-31" : [ "Stored_Play[1]", "Stored_Play", 0 ],
 			"obj-13::obj-8" : [ "live.step[1]", "live.step", 0 ],
-			"obj-21::obj-8" : [ "live.step[3]", "live.step", 0 ]
+			"obj-21::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
+			"obj-13::obj-43" : [ "Stored_Velocity[1]", "Stored_Velocity", 0 ],
+			"obj-18::obj-5" : [ "Stored_Auto[2]", "Stored_Auto", 0 ],
+			"obj-21::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
+			"obj-1::obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-21::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
+			"obj-1::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
+			"obj-1::obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-1::obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
+			"obj-1::obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
+			"obj-13::obj-45" : [ "Stored_Pitch[1]", "Stored_Pitch", 0 ],
+			"obj-21::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
+			"obj-13::obj-42" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-21::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
+			"obj-18::obj-45" : [ "Stored_Pitch[2]", "Stored_Pitch", 0 ],
+			"obj-18::obj-42" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
+			"obj-21::obj-8" : [ "live.step[3]", "live.step", 0 ],
+			"obj-13::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
+			"obj-18::obj-67" : [ "Stored_Steps[2]", "Stored_Steps", 0 ],
+			"obj-18::obj-31" : [ "Stored_Play[2]", "Stored_Play", 0 ],
+			"obj-18::obj-66" : [ "Stored_Pulses[2]", "Stored_Pulses", 0 ],
+			"obj-1::obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
+			"obj-13::obj-5" : [ "Stored_Auto[1]", "Stored_Auto", 0 ],
+			"obj-18::obj-43" : [ "Stored_Velocity[2]", "Stored_Velocity", 0 ],
+			"obj-1::obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-1::obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-21::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
