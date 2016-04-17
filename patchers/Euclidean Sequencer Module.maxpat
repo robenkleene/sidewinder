@@ -2157,11 +2157,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 408.0, 56.0, 30.0, 18.0 ],
+					"patching_rect" : [ 408.0, 56.0, 52.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 0.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 384.0, 0.0, 52.0, 18.0 ],
 					"style" : "",
-					"text" : "ms"
+					"text" : "Duration"
 				}
 
 			}
@@ -2872,14 +2872,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
+			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-8" : [ "live.step", "live.step", 0 ],
 			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
-			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-8" : [ "live.step", "live.step", 0 ],
-			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ]
+			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
