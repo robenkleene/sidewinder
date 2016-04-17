@@ -38,6 +38,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 128.0, 296.0, 52.0, 20.0 ],
+					"style" : "",
+					"text" : "zoom_fit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 296.0, 264.0, 31.0, 20.0 ],
+					"style" : "",
+					"text" : "t b s"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -85,7 +111,7 @@
 				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "number",
-					"maximum" : 4,
+					"maximum" : 8,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -1926,7 +1952,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 296.0, 264.0, 119.0, 20.0 ],
+					"patching_rect" : [ 296.0, 232.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2351,6 +2377,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2567,7 +2611,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
@@ -2661,6 +2705,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 0 ]
 				}
 
 			}
@@ -2819,14 +2872,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
 			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
-			"obj-8" : [ "live.step", "live.step", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ]
+			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
