@@ -1,14 +1,32 @@
 # Euclidean Sequencer
 
+An Euclidean Sequencer in Max for Live.
+
+<img src="source/assets/euclidean_sequencer.png" alt="Animation" height="193">
+
+Four pulses (notes) positioned as equidistant as possible in eleven steps.
+
+The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) computes greatest common divisor of two numbers. Godfried Toussaint discovered it's musical application and published ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). Given `k` pulses (notes) and `n` steps, the algorithm calculates the most equidistant distribution of pulses in the steps.
+
+It turns out that an equidistant distribution between notes as a key to creating musical rhythms. An extraordinary number of traditional rhythms can be generated using this simple process, as the [Example Rhythms](#example-rhythms).
+
+## Installation
+
+Implemented as a  [Max Package](https://docs.cycling74.com/max7/vignettes/packages). The best way to install it is to clone the respository into your Packages folder.
+
+<!-- TODO: Default packages folder -->
+
+## The JavaScript Implementation
+
 This repo contains two implementations of the (colloquially named) "Bjorklund's Algorithm" for spacing pulses in a count of steps that have an uncanny resemblance to traditional rhythm patterns across times periods and cultures.
 
 The reason for two implementations is that the most direct implementation of the algorithm based on the steps detailed in ["Structural properties of Euclidean rhythms"](http://student.ulb.ac.be/~ptaslaki/publications/structuralProperties.pdf) gets different results from the original paper by Toussaint detailing this technique, ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). This implementation is called [bjorklund](src/coffee/bjorklund.litcoffee).
 
 A slightly modified version of the algorithm gets the same results as in that paper, and is also shorter and more elegant. This implementation is called [toussaint](src/coffee/toussaint.litcoffee).
 
-## Examples
+## Example Rhythms
 
-Example rhythms from ["The Euclidean Algorithm Generates Traditional Musical Rhythms" by Godfried Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf):
+Example rhythms from ["The Euclidean Algorithm Generates Traditional Musical Rhythms" by Godfried Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) formatted:
 
 > * `E(2,3) = [x . x]` is a common Afro-Cuban drum pattern. For example, it is the conga rhythm of the 6/8-time Swing Tumbao. It is also common in Latin American music, as for example in the Cueca.
 > * `E(2,5) = [x . x . .]` is a thirteenth century Persian rhythm called Khafif-e-ramal. It is also the metric pattern of the second movement of Tchaikovsky’s Symphony No. 6. When it is started on the second onset (`[x . . x .]`) it is the metric pattern of Dave Brubeck’s Take Five as well as Mars from The Planets by Gustav Holst.
