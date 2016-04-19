@@ -1,25 +1,25 @@
 # Euclidean Sequencer
 
-An Euclidean Sequencer in Max for Live. Four pulses (notes) positioned as equidistant as possible in eleven steps:
+An Euclidean Sequencer in Max for Live. Example with four pulses (notes) positioned as equidistant as possible in eleven steps:
 
 <img src="source/assets/euclidean_sequencer.png" alt="Animation" height="193">
 
-The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) computes greatest common divisor of two numbers. Godfried Toussaint is credited for discovering it's musical applications, publishing ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). Applied to music, the algorithm takes `k` pulses (notes) and distributes them as equidistant as possible in `n` steps.
+The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) computes greatest common divisor of two numbers. Godfried Toussaint discovered its musical applications and published them in ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). Applied to music, the algorithm takes `k` pulses (notes) and distributes them as equidistant as possible in `n` steps.
 
-It turns out that equidistant distribution of notes is a key to creating musical rhythms. An extraordinary number of traditional rhythms can be generated using this process, as the [Example Rhythms](#example-rhythms).
+It turns out that equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [Example Rhythms](#example-rhythms) section.
 
 ## Installation
 
-It's implemented as a [Max Package](https://docs.cycling74.com/max7/vignettes/packages). The best way to install it is to `git` clone it into your Packages folder.
+This is a [Max Package](https://docs.cycling74.com/max7/vignettes/packages). The best way to install it is to simply `git clone` this repo it into your Max Packages folder.
 
 ## JavaScript Implementation
 
-Included in the repository are two JavaScript implementations of the algorithm (both annotated in [Literate CoffeeScript](http://coffeescript.org/#literate)):
+Two JavaScript implementations of the algorithm are included (annotated as [Literate CoffeeScript](http://coffeescript.org/#literate)):
 
-* [`bjorklund.litcoffee`](source/src/coffee/bjorklund.litcoffee): This version follows the algorithm verbatim as described in ["Structural properties of Euclidean rhythms"](http://student.ulb.ac.be/~ptaslaki/publications/structuralProperties.pdf), but it also gets slightly different results than the examples listed in Toussaint's other paper.
+* [`bjorklund.litcoffee`](source/src/coffee/bjorklund.litcoffee): This follows the description of the algorithm verbatim from ["Structural properties of Euclidean rhythms"](http://student.ulb.ac.be/~ptaslaki/publications/structuralProperties.pdf), but it also gets slightly different results than the examples listed in Toussaint's other paper.
 * [`toussaint.litcoffee`](source/src/coffee/toussaint.litcoffee): This version is slightly more elegant, and it's corrected to get identical results to the examples listed in ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf).
 
-The `toussaint` version is used by the sequencer by default.
+The sequencer uses the `toussaint` version by default.
 
 ## Example Rhythms
 
