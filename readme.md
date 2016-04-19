@@ -1,6 +1,6 @@
 # Euclidean Sequencer
 
-An Euclidean Sequencer in Max for Live. Example with four pulses (notes) positioned as equidistant as possible in eleven steps:
+An Euclidean Sequencer written in [Max for Live](https://www.ableton.com/en/live/max-for-live/) for use in [Ableton Live](https://www.ableton.com/en/live/). Example with four pulses (notes) positioned as equidistant as possible in eleven steps:
 
 <img src="source/assets/euclidean_sequencer.png" alt="Animation" height="193">
 
