@@ -1,4 +1,4 @@
-# Euclidean Sequencer
+# Snake: Euclidean Sequencer for Max for Live
 
 An Euclidean Sequencer written in [Max for Live](https://www.ableton.com/en/live/max-for-live/) for use in [Ableton Live](https://www.ableton.com/en/live/). Example with four pulses (notes) positioned as equidistant as possible in eleven steps:
 
