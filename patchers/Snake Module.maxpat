@@ -536,7 +536,7 @@
 					"id" : "obj-53",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Min-Max Numbers.maxpat",
+					"name" : "Snake Min-Max Numbers.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2616,7 +2616,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Min-Max Numbers.maxpat",
+				"name" : "Snake Min-Max Numbers.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

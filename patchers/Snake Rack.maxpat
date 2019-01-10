@@ -77,7 +77,7 @@
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Euclidean Sequencer Module Bank.maxpat",
+					"name" : "Snake Module Bank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -85,7 +85,7 @@
 					"patching_rect" : [ 8.0, 192.0, 632.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 0.0, 632.0, 168.0 ],
-					"varname" : "Euclidean_Sequencer_Module_Rack",
+					"varname" : "Snake_Module_Rack",
 					"viewvisibility" : 1
 				}
 
@@ -232,14 +232,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Euclidean Sequencer Module Bank.maxpat",
+				"name" : "Snake Module Bank.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Euclidean Sequencer Module.maxpat",
+				"name" : "Snake Module.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -253,7 +253,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Min-Max Numbers.maxpat",
+				"name" : "Snake Min-Max Numbers.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
