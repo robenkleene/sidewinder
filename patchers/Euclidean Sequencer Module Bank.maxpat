@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 2,
-			"revision" : 1,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 214.0, 79.0, 1035.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -45,7 +46,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 8.0, 56.0, 64.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"style" : "",
 					"text" : "thispatcher"
 				}
 
@@ -54,12 +54,12 @@
 				"box" : 				{
 					"comment" : "messages: Patcher",
 					"id" : "obj-2",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 8.0, 8.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -71,7 +71,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 1040.0, 33.0, 20.0 ],
-					"style" : "",
 					"text" : "pack"
 				}
 
@@ -83,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 1072.0, 51.0, 20.0 ],
-					"style" : "",
 					"text" : "s #0note"
 				}
 
@@ -119,7 +117,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 788.0, 33.0, 20.0 ],
-					"style" : "",
 					"text" : "pack"
 				}
 
@@ -131,7 +128,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 820.0, 51.0, 20.0 ],
-					"style" : "",
 					"text" : "s #0note"
 				}
 
@@ -167,7 +163,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 536.0, 33.0, 20.0 ],
-					"style" : "",
 					"text" : "pack"
 				}
 
@@ -179,7 +174,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 568.0, 51.0, 20.0 ],
-					"style" : "",
 					"text" : "s #0note"
 				}
 
@@ -211,11 +205,11 @@
 				"box" : 				{
 					"comment" : "int: Velocity",
 					"id" : "obj-12",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 1176.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 56.0, 1176.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -227,7 +221,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 8.0, 1144.0, 46.0, 20.0 ],
-					"style" : "",
 					"text" : "unpack"
 				}
 
@@ -240,7 +233,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 1112.0, 49.0, 20.0 ],
-					"style" : "",
 					"text" : "r #0note"
 				}
 
@@ -253,7 +245,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 288.0, 33.0, 20.0 ],
-					"style" : "",
 					"text" : "pack"
 				}
 
@@ -262,11 +253,11 @@
 				"box" : 				{
 					"comment" : "int: Pitch",
 					"id" : "obj-6",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 1176.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 8.0, 1176.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -277,7 +268,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 320.0, 51.0, 20.0 ],
-					"style" : "",
 					"text" : "s #0note"
 				}
 
@@ -309,8 +299,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -318,8 +306,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -327,8 +313,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -336,8 +320,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -345,8 +327,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -354,8 +334,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -363,8 +341,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -372,8 +348,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -381,8 +355,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -390,8 +362,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-18", 1 ]
 				}
 
@@ -399,8 +369,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -408,8 +376,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -417,8 +383,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -426,8 +390,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -435,8 +397,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -444,74 +404,73 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
-			"obj-21::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
-			"obj-18::obj-8" : [ "live.step[2]", "live.step", 0 ],
-			"obj-13::obj-31" : [ "Stored_Play[1]", "Stored_Play", 0 ],
-			"obj-13::obj-8" : [ "live.step[1]", "live.step", 0 ],
-			"obj-21::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
-			"obj-13::obj-43" : [ "Stored_Velocity[1]", "Stored_Velocity", 0 ],
-			"obj-18::obj-5" : [ "Stored_Auto[2]", "Stored_Auto", 0 ],
-			"obj-21::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
-			"obj-1::obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
-			"obj-21::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
-			"obj-1::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
-			"obj-1::obj-8" : [ "live.step", "live.step", 0 ],
-			"obj-1::obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
-			"obj-1::obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-13::obj-45" : [ "Stored_Pitch[1]", "Stored_Pitch", 0 ],
-			"obj-21::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
-			"obj-13::obj-42" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-21::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
-			"obj-18::obj-45" : [ "Stored_Pitch[2]", "Stored_Pitch", 0 ],
-			"obj-18::obj-42" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
-			"obj-21::obj-8" : [ "live.step[3]", "live.step", 0 ],
-			"obj-13::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
-			"obj-18::obj-67" : [ "Stored_Steps[2]", "Stored_Steps", 0 ],
-			"obj-18::obj-31" : [ "Stored_Play[2]", "Stored_Play", 0 ],
-			"obj-18::obj-66" : [ "Stored_Pulses[2]", "Stored_Pulses", 0 ],
-			"obj-1::obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-13::obj-5" : [ "Stored_Auto[1]", "Stored_Auto", 0 ],
-			"obj-18::obj-43" : [ "Stored_Velocity[2]", "Stored_Velocity", 0 ],
-			"obj-1::obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-1::obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
-			"obj-21::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ]
+			"obj-13::obj-67" : [ "Stored_Steps[5]", "Stored_Steps", 0 ],
+			"obj-1::obj-43" : [ "Stored_Velocity[6]", "Stored_Velocity", 0 ],
+			"obj-21::obj-43" : [ "Stored_Velocity[4]", "Stored_Velocity", 0 ],
+			"obj-1::obj-66" : [ "Stored_Pulses[6]", "Stored_Pulses", 0 ],
+			"obj-18::obj-8" : [ "live.step[3]", "live.step", 0 ],
+			"obj-13::obj-66" : [ "Stored_Pulses[5]", "Stored_Pulses", 0 ],
+			"obj-1::obj-45" : [ "Stored_Pitch[6]", "Stored_Pitch", 0 ],
+			"obj-21::obj-42" : [ "Stored_Duration[4]", "Stored_Duration", 0 ],
+			"obj-1::obj-42" : [ "Stored_Duration[6]", "Stored_Duration", 0 ],
+			"obj-13::obj-45" : [ "Stored_Pitch[5]", "Stored_Pitch", 0 ],
+			"obj-1::obj-31" : [ "Stored_Play[6]", "Stored_Play", 0 ],
+			"obj-21::obj-5" : [ "Stored_Auto[4]", "Stored_Auto", 0 ],
+			"obj-18::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
+			"obj-21::obj-8" : [ "live.step[4]", "live.step", 0 ],
+			"obj-18::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
+			"obj-13::obj-31" : [ "Stored_Play[5]", "Stored_Play", 0 ],
+			"obj-1::obj-67" : [ "Stored_Steps[6]", "Stored_Steps", 0 ],
+			"obj-21::obj-67" : [ "Stored_Steps[4]", "Stored_Steps", 0 ],
+			"obj-18::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
+			"obj-1::obj-8" : [ "live.step[6]", "live.step", 0 ],
+			"obj-21::obj-66" : [ "Stored_Pulses[4]", "Stored_Pulses", 0 ],
+			"obj-18::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
+			"obj-13::obj-43" : [ "Stored_Velocity[5]", "Stored_Velocity", 0 ],
+			"obj-1::obj-5" : [ "Stored_Auto[6]", "Stored_Auto", 0 ],
+			"obj-21::obj-45" : [ "Stored_Pitch[4]", "Stored_Pitch", 0 ],
+			"obj-18::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
+			"obj-13::obj-42" : [ "Stored_Duration[5]", "Stored_Duration", 0 ],
+			"obj-21::obj-31" : [ "Stored_Play[4]", "Stored_Play", 0 ],
+			"obj-13::obj-5" : [ "Stored_Auto[5]", "Stored_Auto", 0 ],
+			"obj-18::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
+			"obj-13::obj-8" : [ "live.step[5]", "live.step", 0 ],
+			"obj-18::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Euclidean Sequencer Module.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wrapper.js",
-				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Min-Max Numbers.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_angle" : 270.0,
-		"bgfillcolor_proportion" : 0.39
+		"autosave" : 0
 	}
 
 }

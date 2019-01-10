@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 2,
-			"revision" : 1,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 179.0, 99.0, 1081.0, 767.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -56,12 +57,11 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"annotation_name" : "",
 						"initial" : [ 0.0 ],
-						"parameter_enable" : 1
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr Stored_Selected_Rack Selected_Rack",
 					"varname" : "Stored_Selected_Rack"
 				}
@@ -98,7 +98,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 160.0, 60.0, 20.0 ],
-					"style" : "",
 					"text" : "offset 0 $1"
 				}
 
@@ -111,7 +110,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 8.0, 128.0, 37.0, 20.0 ],
-					"style" : "",
 					"text" : "* -168"
 				}
 
@@ -127,7 +125,6 @@
 					"patching_rect" : [ 8.0, 32.0, 32.0, 88.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 32.0, 152.0 ],
-					"style" : "",
 					"tabs" : [ "1", "2", "3", "4" ],
 					"varname" : "Selected_Rack"
 				}
@@ -137,11 +134,11 @@
 				"box" : 				{
 					"comment" : "int: Velocity",
 					"id" : "obj-2",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 384.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 64.0, 384.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -149,11 +146,11 @@
 				"box" : 				{
 					"comment" : "int: Pitch",
 					"id" : "obj-1",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 384.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 8.0, 384.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -161,8 +158,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -170,8 +165,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -179,8 +172,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -188,8 +179,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -197,81 +186,81 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-8", 1 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-8::obj-1::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
-			"obj-8::obj-18::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
-			"obj-8::obj-13::obj-8" : [ "live.step[2]", "live.step", 0 ],
-			"obj-8::obj-18::obj-31" : [ "Stored_Play[1]", "Stored_Play", 0 ],
-			"obj-8::obj-18::obj-8" : [ "live.step[1]", "live.step", 0 ],
-			"obj-8::obj-1::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
-			"obj-8::obj-13::obj-5" : [ "Stored_Auto[2]", "Stored_Auto", 0 ],
-			"obj-8::obj-18::obj-43" : [ "Stored_Velocity[1]", "Stored_Velocity", 0 ],
-			"obj-8::obj-1::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
-			"obj-8::obj-21::obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
-			"obj-8::obj-1::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
-			"obj-8::obj-21::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
-			"obj-8::obj-21::obj-8" : [ "live.step", "live.step", 0 ],
-			"obj-8::obj-21::obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
-			"obj-8::obj-18::obj-45" : [ "Stored_Pitch[1]", "Stored_Pitch", 0 ],
-			"obj-8::obj-21::obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-8::obj-1::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
-			"obj-8::obj-1::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
-			"obj-8::obj-18::obj-42" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-8::obj-13::obj-45" : [ "Stored_Pitch[2]", "Stored_Pitch", 0 ],
 			"obj-8::obj-13::obj-42" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
 			"obj-8::obj-1::obj-8" : [ "live.step[3]", "live.step", 0 ],
-			"obj-8::obj-13::obj-67" : [ "Stored_Steps[2]", "Stored_Steps", 0 ],
-			"obj-8::obj-18::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
-			"obj-8::obj-13::obj-31" : [ "Stored_Play[2]", "Stored_Play", 0 ],
-			"obj-8::obj-13::obj-66" : [ "Stored_Pulses[2]", "Stored_Pulses", 0 ],
-			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
-			"obj-8::obj-21::obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-8::obj-13::obj-43" : [ "Stored_Velocity[2]", "Stored_Velocity", 0 ],
-			"obj-8::obj-18::obj-5" : [ "Stored_Auto[1]", "Stored_Auto", 0 ],
 			"obj-8::obj-21::obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-8::obj-18::obj-43" : [ "Stored_Velocity[1]", "Stored_Velocity", 0 ],
+			"obj-8::obj-21::obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-8::obj-18::obj-45" : [ "Stored_Pitch[1]", "Stored_Pitch", 0 ],
+			"obj-8::obj-13::obj-43" : [ "Stored_Velocity[2]", "Stored_Velocity", 0 ],
+			"obj-8::obj-21::obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
+			"obj-8::obj-13::obj-66" : [ "Stored_Pulses[2]", "Stored_Pulses", 0 ],
+			"obj-8::obj-21::obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
+			"obj-8::obj-1::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
+			"obj-8::obj-1::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
+			"obj-8::obj-18::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
+			"obj-8::obj-18::obj-5" : [ "Stored_Auto[1]", "Stored_Auto", 0 ],
+			"obj-8::obj-13::obj-8" : [ "live.step[2]", "live.step", 0 ],
+			"obj-8::obj-13::obj-45" : [ "Stored_Pitch[2]", "Stored_Pitch", 0 ],
+			"obj-8::obj-1::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
+			"obj-8::obj-1::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
+			"obj-8::obj-18::obj-42" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-8::obj-21::obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-8::obj-21::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
+			"obj-8::obj-13::obj-31" : [ "Stored_Play[2]", "Stored_Play", 0 ],
+			"obj-8::obj-21::obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
+			"obj-8::obj-1::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
+			"obj-8::obj-21::obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-8::obj-18::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
+			"obj-8::obj-18::obj-8" : [ "live.step[1]", "live.step", 0 ],
+			"obj-8::obj-13::obj-5" : [ "Stored_Auto[2]", "Stored_Auto", 0 ],
+			"obj-8::obj-13::obj-67" : [ "Stored_Steps[2]", "Stored_Steps", 0 ],
+			"obj-8::obj-1::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
+			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
 			"obj-8::obj-1::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
-			"obj-8::obj-21::obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ]
+			"obj-8::obj-18::obj-31" : [ "Stored_Play[1]", "Stored_Play", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Euclidean Sequencer Module Bank.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Euclidean Sequencer Module.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wrapper.js",
-				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Min-Max Numbers.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/euclidean-sequencer/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_angle" : 270.0,
-		"bgfillcolor_proportion" : 0.39
+		"autosave" : 0
 	}
 
 }
