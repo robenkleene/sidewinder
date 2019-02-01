@@ -24,7 +24,7 @@ while getopts ":fh" option; do
 done
 
 cd "$(dirname "$0")"
-filename="Snake.amxd"
+filename="Sidewinder.amxd"
 
 file=max-for-live/$filename
 if [[ ! -f "$file" ]]; then

@@ -96,7 +96,7 @@
 					"id" : "obj-21",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Snake Module.maxpat",
+					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -104,7 +104,7 @@
 					"patching_rect" : [ 8.0, 856.0, 632.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 504.0, 632.0, 168.0 ],
-					"varname" : "Snake_Module_4",
+					"varname" : "Sidewinder_Module_4",
 					"viewvisibility" : 1
 				}
 
@@ -142,7 +142,7 @@
 					"id" : "obj-18",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Snake Module.maxpat",
+					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -150,7 +150,7 @@
 					"patching_rect" : [ 8.0, 604.0, 632.0, 172.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 336.0, 632.0, 168.0 ],
-					"varname" : "Snake_Module_3",
+					"varname" : "Sidewinder_Module_3",
 					"viewvisibility" : 1
 				}
 
@@ -188,7 +188,7 @@
 					"id" : "obj-13",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Snake Module.maxpat",
+					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -196,7 +196,7 @@
 					"patching_rect" : [ 8.0, 352.0, 632.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 168.0, 632.0, 168.0 ],
-					"varname" : "Snake_Module_2",
+					"varname" : "Sidewinder_Module_2",
 					"viewvisibility" : 1
 				}
 
@@ -282,7 +282,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Snake Module.maxpat",
+					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -290,7 +290,7 @@
 					"patching_rect" : [ 8.0, 104.0, 632.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 632.0, 168.0 ],
-					"varname" : "Snake_Module_1",
+					"varname" : "Sidewinder_Module_1",
 					"viewvisibility" : 1
 				}
 
@@ -449,7 +449,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Snake Module.maxpat",
+				"name" : "Sidewinder Module.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -463,7 +463,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Snake Min-Max Numbers.maxpat",
+				"name" : "Sidewinder Min-Max Numbers.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

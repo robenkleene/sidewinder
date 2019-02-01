@@ -1,4 +1,4 @@
-# Snake: Euclidean Sequencer for Max for Live
+# Sidewinder: Euclidean Sequencer for Max for Live
 
 An Euclidean Sequencer written in [Max for Live](https://www.ableton.com/en/live/max-for-live/) for use in [Ableton Live](https://www.ableton.com/en/live/). Example with four pulses (notes) positioned as equidistant as possible in eleven steps:
 
@@ -10,7 +10,7 @@ It turns out that equidistant distribution is a key to creating rhythms that are
 
 ## Installation
 
-Drag `max-for-live/Snake.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
+Drag `max-for-live/Sidewinder.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
 
 ## JavaScript Implementation
 
