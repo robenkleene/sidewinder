@@ -10,7 +10,7 @@ It turns out that equidistant distribution is a key to creating rhythms that are
 
 ## Installation
 
-This is a [Max Package](https://docs.cycling74.com/max7/vignettes/packages). The best way to install it is to simply `git clone` this repo it into your Max Packages folder.
+Drag `max-for-live/Snake.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
 
 ## JavaScript Implementation
 
