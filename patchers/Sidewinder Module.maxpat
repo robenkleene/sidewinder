@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 87.0, 79.0, 770.0, 749.0 ],
+		"rect" : [ 87.0, 79.0, 1075.0, 744.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,25 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 664.0, 152.0, 176.0, 20.0 ],
+					"restore" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Sequencer Sequencer",
+					"varname" : "Stored_Sequencer"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-61",
 					"maxclass" : "message",
@@ -570,17 +589,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.0, 608.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-58",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 672.0, 168.0, 150.0, 18.0 ],
-					"text" : "Device Limit"
 				}
 
 			}
@@ -2115,17 +2123,17 @@
 					"presentation_rect" : [ 8.0, 48.0, 616.0, 112.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_invisible" : 1,
 							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
 							"parameter_shortname" : "live.step",
 							"parameter_type" : 3,
 							"parameter_longname" : "live.step",
-							"parameter_initial_enable" : 1
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1
 						}
 
 					}
 ,
-					"varname" : "live.step"
+					"varname" : "Sequencer"
 				}
 
 			}
@@ -2419,7 +2427,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-53", 1 ]
 				}
 
@@ -2427,6 +2435,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -2434,7 +2443,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-53", 1 ]
 				}
 
@@ -2594,14 +2603,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-8" : [ "live.step", "live.step", 0 ],
-			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2610,14 +2619,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "wrapper.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Numbers.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/euclidean-sequencer/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
