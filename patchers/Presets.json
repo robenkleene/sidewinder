@@ -49,7 +49,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 1 ],
+					"Stored_Selected_Rack" : [ 0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Auto" : [ 1 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Duration" : [ 100 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Velocity" : [ 127 ],
