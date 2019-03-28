@@ -8,6 +8,10 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 It turns out that equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [Example Rhythms](#example-rhythms) section.
 
+## Documentation
+
+- **Auto**: When on, moving a control automatically updates the steps (when off, use the "Set" button to set the steps)
+
 ## Installation
 
 Drag `max-for-live/Sidewinder.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
