@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,11 +50,11 @@
 					"presentation_rect" : [ 26.0, 111.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.toggle",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.toggle",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "live.toggle"
+							"parameter_longname" : "live.toggle"
 						}
 
 					}
@@ -170,8 +170,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 16.0, 106.0, 20.0 ],
-					"text" : "pattrstorage Presets"
+					"patching_rect" : [ 520.0, 16.0, 123.0, 20.0 ],
+					"text" : "pattrstorage Sidewinder"
 				}
 
 			}
@@ -209,7 +209,7 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "Presets.json",
+					"autorestore" : "Sidewinder.json",
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
@@ -217,7 +217,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.0, 160.0, 106.0, 20.0 ],
+					"patching_rect" : [ 512.0, 160.0, 123.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 512, 45, 1386, 819 ],
 						"parameter_enable" : 0,
@@ -225,8 +225,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage Presets",
-					"varname" : "Presets"
+					"text" : "pattrstorage Sidewinder",
+					"varname" : "Sidewinder"
 				}
 
 			}
@@ -238,7 +238,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 456.0, 72.0, 32.0, 34.0 ],
-					"pattrstorage" : "Presets",
+					"pattrstorage" : "Sidewinder",
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 131.0, 29.0, 30.0 ]
 				}
@@ -483,48 +483,48 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-8::obj-13::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
-			"obj-8::obj-1::obj-45" : [ "Stored_Pitch[4]", "Stored_Pitch", 0 ],
-			"obj-8::obj-21::obj-42" : [ "Stored_Duration[6]", "Stored_Duration", 0 ],
 			"obj-8::obj-18::obj-31" : [ "Stored_Play[5]", "Stored_Play", 0 ],
-			"obj-8::obj-13::obj-33" : [ "Stored_Sequencer[1]", "Stored_Sequencer", 0 ],
-			"obj-8::obj-21::obj-31" : [ "Stored_Play[6]", "Stored_Play", 0 ],
-			"obj-8::obj-13::obj-76" : [ "Stored_Rotate[1]", "Stored_Rotate", 0 ],
-			"obj-8::obj-1::obj-31" : [ "Stored_Play[4]", "Stored_Play", 0 ],
+			"obj-8::obj-1::obj-43" : [ "Stored_Velocity[4]", "Stored_Velocity", 0 ],
+			"obj-8::obj-21::obj-5" : [ "Stored_Auto[6]", "Stored_Auto", 0 ],
+			"obj-8::obj-1::obj-8" : [ "live.step[4]", "live.step", 0 ],
 			"obj-8::obj-21::obj-8" : [ "live.step[6]", "live.step", 0 ],
+			"obj-8::obj-13::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
+			"obj-8::obj-13::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
+			"obj-8::obj-18::obj-76" : [ "Stored_Rotate[2]", "Stored_Rotate", 0 ],
 			"obj-8::obj-18::obj-45" : [ "Stored_Pitch[5]", "Stored_Pitch", 0 ],
 			"obj-8::obj-1::obj-5" : [ "Stored_Auto[4]", "Stored_Auto", 0 ],
-			"obj-8::obj-21::obj-33" : [ "Stored_Sequencer[3]", "Stored_Sequencer", 0 ],
-			"obj-8::obj-1::obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
-			"obj-8::obj-18::obj-43" : [ "Stored_Velocity[5]", "Stored_Velocity", 0 ],
-			"obj-8::obj-13::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
 			"obj-8::obj-21::obj-76" : [ "Stored_Rotate[3]", "Stored_Rotate", 0 ],
-			"obj-8::obj-1::obj-43" : [ "Stored_Velocity[4]", "Stored_Velocity", 0 ],
-			"obj-8::obj-13::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
-			"obj-8::obj-21::obj-5" : [ "Stored_Auto[6]", "Stored_Auto", 0 ],
-			"obj-8::obj-18::obj-67" : [ "Stored_Steps[5]", "Stored_Steps", 0 ],
-			"obj-8::obj-13::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
-			"obj-8::obj-21::obj-67" : [ "Stored_Steps[6]", "Stored_Steps", 0 ],
-			"obj-8::obj-21::obj-66" : [ "Stored_Pulses[6]", "Stored_Pulses", 0 ],
-			"obj-8::obj-1::obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
-			"obj-8::obj-13::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
 			"obj-8::obj-1::obj-66" : [ "Stored_Pulses[4]", "Stored_Pulses", 0 ],
+			"obj-8::obj-21::obj-31" : [ "Stored_Play[6]", "Stored_Play", 0 ],
+			"obj-8::obj-13::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
+			"obj-8::obj-13::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
+			"obj-8::obj-18::obj-67" : [ "Stored_Steps[5]", "Stored_Steps", 0 ],
+			"obj-8::obj-18::obj-43" : [ "Stored_Velocity[5]", "Stored_Velocity", 0 ],
+			"obj-8::obj-1::obj-45" : [ "Stored_Pitch[4]", "Stored_Pitch", 0 ],
+			"obj-8::obj-21::obj-33" : [ "Stored_Sequencer[3]", "Stored_Sequencer", 0 ],
 			"obj-8::obj-21::obj-43" : [ "Stored_Velocity[6]", "Stored_Velocity", 0 ],
+			"obj-8::obj-1::obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
+			"obj-8::obj-13::obj-76" : [ "Stored_Rotate[1]", "Stored_Rotate", 0 ],
+			"obj-8::obj-13::obj-8" : [ "live.step[3]", "live.step", 0 ],
 			"obj-8::obj-18::obj-5" : [ "Stored_Auto[5]", "Stored_Auto", 0 ],
+			"obj-8::obj-18::obj-66" : [ "Stored_Pulses[5]", "Stored_Pulses", 0 ],
 			"obj-8::obj-1::obj-42" : [ "Stored_Duration[4]", "Stored_Duration", 0 ],
+			"obj-8::obj-21::obj-66" : [ "Stored_Pulses[6]", "Stored_Pulses", 0 ],
+			"obj-8::obj-1::obj-67" : [ "Stored_Steps[4]", "Stored_Steps", 0 ],
+			"obj-8::obj-21::obj-42" : [ "Stored_Duration[6]", "Stored_Duration", 0 ],
+			"obj-8::obj-13::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
+			"obj-8::obj-13::obj-33" : [ "Stored_Sequencer[1]", "Stored_Sequencer", 0 ],
+			"obj-8::obj-1::obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-8::obj-18::obj-8" : [ "live.step[5]", "live.step", 0 ],
 			"obj-8::obj-18::obj-33" : [ "Stored_Sequencer[2]", "Stored_Sequencer", 0 ],
-			"obj-8::obj-13::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
-			"obj-8::obj-18::obj-76" : [ "Stored_Rotate[2]", "Stored_Rotate", 0 ],
-			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
-			"obj-8::obj-1::obj-8" : [ "live.step[4]", "live.step", 0 ],
 			"obj-8::obj-21::obj-45" : [ "Stored_Pitch[6]", "Stored_Pitch", 0 ],
-			"obj-8::obj-1::obj-67" : [ "Stored_Steps[4]", "Stored_Steps", 0 ],
-			"obj-9" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
+			"obj-8::obj-1::obj-31" : [ "Stored_Play[4]", "Stored_Play", 0 ],
+			"obj-8::obj-21::obj-67" : [ "Stored_Steps[6]", "Stored_Steps", 0 ],
 			"obj-8::obj-13::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
+			"obj-8::obj-13::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
 			"obj-8::obj-18::obj-42" : [ "Stored_Duration[5]", "Stored_Duration", 0 ],
-			"obj-8::obj-18::obj-66" : [ "Stored_Pulses[5]", "Stored_Pulses", 0 ],
-			"obj-8::obj-13::obj-8" : [ "live.step[3]", "live.step", 0 ],
+			"obj-9" : [ "live.toggle", "live.toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -560,7 +560,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Presets.json",
+				"name" : "Sidewinder.json",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
