@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 86.0, 79.0, 824.0, 744.0 ],
+		"rect" : [ 86.0, 79.0, 940.0, 748.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -259,10 +259,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 960.0, 40.0, 100.0, 20.0 ],
+					"restore" : [ 8.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 8.0 ],
-							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Stored_Steps",
 							"parameter_shortname" : "Stored_Steps",
@@ -272,7 +272,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"initial" : [ 8.0 ],
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
@@ -290,10 +289,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 848.0, 40.0, 105.0, 20.0 ],
+					"restore" : [ 4.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4.0 ],
-							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Stored_Pulses",
 							"parameter_shortname" : "Stored_Pulses",
@@ -303,7 +302,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"initial" : [ 4.0 ],
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
@@ -696,7 +694,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -923,7 +921,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1209,7 +1207,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1294,7 +1292,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2145,12 +2143,12 @@
 					"presentation_rect" : [ 8.0, 48.0, 616.0, 112.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.step",
 							"parameter_type" : 3,
 							"parameter_longname" : "live.step",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
-							"parameter_shortname" : "live.step"
+							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ]
 						}
 
 					}
@@ -2625,16 +2623,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
+			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
 			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
-			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
+			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"parameterbanks" : 			{
 
 			}
