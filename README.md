@@ -8,9 +8,28 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 It turns out that equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [Example Rhythms](#example-rhythms) section.
 
-## Documentation
+## Interface
 
+- Track Tabs: There are four tracks tabs that can be selected on the right, all of the rest of the sections are per track (except "Presets").
+
+### Presets Section
+
+- `r`: Read presets from a file
+- `w`: Write the presets to a file
+- Toggle: Write the presets again to the same file
+
+### Track Section
+
+- **Play**: Whether this track outputs MIDI notes
 - **Auto**: When on, moving a control automatically updates the steps (when off, use the "Set" button to set the steps)
+- **Set**: When **Auto** is off, this sets the steps based on the current settings
+- **Pulses**: The number of notes
+- **Steps**: The total number of steps
+- **Rotate**: Offset the notes
+- **Pitch**: The pitch of the notes (this can also be changed in the step sequencer)
+- **Velocity**: The velocity of the notes (this can also be changed in the step sequencer)
+- **Duration**: The duration of the notes (this can also be changed in the step sequencer)
+- **All** & **Pitch** & **Velocity** & **Duration**: Change what is displayed in the step sequencer
 
 ## Installation
 
