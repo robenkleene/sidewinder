@@ -10,7 +10,7 @@ It turns out that equidistant distribution is a key to creating rhythms that are
 
 ## Documentation
 
-- Track Tabs: There are four tracks all of the rest of the sections are per track (except "Preset").
+- Track Tabs: There are four tracks tabs that can be selected on the right, all of the rest of the sections are per track (except "Preset").
 
 ### Preset Section
 
