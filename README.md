@@ -8,11 +8,11 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 It turns out that equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [Example Rhythms](#example-rhythms) section.
 
-## Documentation
+## Interface
 
-- Track Tabs: There are four tracks tabs that can be selected on the right, all of the rest of the sections are per track (except "Preset").
+- Track Tabs: There are four tracks tabs that can be selected on the right, all of the rest of the sections are per track (except "Presets").
 
-### Preset Section
+### Presets Section
 
 - `r`: Read presets from a file
 - `w`: Write the presets to a file
