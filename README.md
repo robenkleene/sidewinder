@@ -17,6 +17,9 @@ It turns out that equidistant distribution is a key to creating rhythms that are
 - `r`: Read presets from a file
 - `w`: Write the presets to a file
 - Toggle: Write the presets again to the same file
+- To recall, click a box
+- To save a preset, shift-click a box
+- To delete a preset, option-click a box
 
 ### Track Section
 
