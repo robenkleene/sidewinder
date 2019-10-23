@@ -1,6 +1,6 @@
 # Sidewinder
 
-Sidewinder is an Euclidean sequencer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). Sidewinder takes a number of pulses (notes) and positions them as equidistant as possible into a number of steps. It turns out that equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [Example Rhythms](#example-rhythms) section.
+Sidewinder is an Euclidean sequencer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). Sidewinder takes a number of pulses (notes) and positions them as equidistant as possible into a number of steps. Equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [example rhythms](#example-rhythms) section.
 
 ![Sidewinder](Sidewinder.png)
 
