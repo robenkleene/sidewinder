@@ -1,12 +1,10 @@
-# Sidewinder: Euclidean Sequencer for Max for Live
+# Sidewinder
 
-An Euclidean Sequencer written in [Max for Live](https://www.ableton.com/en/live/max-for-live/) for use in [Ableton Live](https://www.ableton.com/en/live/). Example with four pulses (notes) positioned as equidistant as possible in eleven steps:
+Sidewinder is an Euclidean sequencer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). Sidewinder takes a number of pulses (notes) and positions them as equidistant as possible into a number of steps. Equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [example rhythms](#example-rhythms) section.
 
-<img src="source/assets/euclidean_sequencer.png" alt="Animation" height="193">
+![Sidewinder](Sidewinder.png)
 
 The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) computes greatest common divisor of two numbers. Godfried Toussaint discovered its musical applications and published them in ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). Applied to music, the algorithm takes `k` pulses (notes) and distributes them as equidistant as possible in `n` steps.
-
-It turns out that equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [Example Rhythms](#example-rhythms) section.
 
 ## Interface
 
