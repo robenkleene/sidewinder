@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -502,49 +502,100 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-8::obj-21::obj-42" : [ "Stored_Duration[6]", "Stored_Duration", 0 ],
-			"obj-8::obj-1::obj-45" : [ "Stored_Pitch[4]", "Stored_Pitch", 0 ],
-			"obj-8::obj-21::obj-5" : [ "Stored_Auto[6]", "Stored_Auto", 0 ],
-			"obj-8::obj-1::obj-5" : [ "Stored_Auto[4]", "Stored_Auto", 0 ],
-			"obj-8::obj-13::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
-			"obj-8::obj-13::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
-			"obj-8::obj-18::obj-45" : [ "Stored_Pitch[5]", "Stored_Pitch", 0 ],
-			"obj-8::obj-18::obj-33" : [ "Stored_Sequencer[2]", "Stored_Sequencer", 0 ],
-			"obj-8::obj-21::obj-31" : [ "Stored_Play[6]", "Stored_Play", 0 ],
 			"obj-8::obj-1::obj-67" : [ "Stored_Steps[4]", "Stored_Steps", 0 ],
+			"obj-8::obj-1::obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
+			"obj-8::obj-21::obj-77" : [ "live.text[3]", "live.text", 0 ],
+			"obj-8::obj-21::obj-42" : [ "Stored_Duration[6]", "Stored_Duration", 0 ],
+			"obj-8::obj-1::obj-8" : [ "live.step[4]", "live.step", 0 ],
+			"obj-8::obj-21::obj-76" : [ "Stored_Rotate[3]", "Stored_Rotate", 0 ],
+			"obj-8::obj-13::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
+			"obj-8::obj-13::obj-53::obj-6" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-9" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-8::obj-13::obj-76" : [ "Stored_Rotate[1]", "Stored_Rotate", 0 ],
+			"obj-8::obj-18::obj-31" : [ "Stored_Play[5]", "Stored_Play", 0 ],
+			"obj-8::obj-18::obj-43" : [ "Stored_Velocity[5]", "Stored_Velocity", 0 ],
+			"obj-8::obj-1::obj-43" : [ "Stored_Velocity[4]", "Stored_Velocity", 0 ],
+			"obj-8::obj-21::obj-45" : [ "Stored_Pitch[6]", "Stored_Pitch", 0 ],
+			"obj-8::obj-1::obj-42" : [ "Stored_Duration[4]", "Stored_Duration", 0 ],
+			"obj-8::obj-21::obj-43" : [ "Stored_Velocity[6]", "Stored_Velocity", 0 ],
+			"obj-8::obj-13::obj-67" : [ "Stored_Steps[3]", "Stored_Steps", 0 ],
+			"obj-8::obj-1::obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
+			"obj-8::obj-1::obj-53::obj-17" : [ "Max", "Max", 0 ],
+			"obj-8::obj-13::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
+			"obj-8::obj-18::obj-45" : [ "Stored_Pitch[5]", "Stored_Pitch", 0 ],
+			"obj-8::obj-1::obj-53::obj-6" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-8::obj-13::obj-53::obj-17" : [ "Max[1]", "Max", 0 ],
+			"obj-8::obj-18::obj-66" : [ "Stored_Pulses[5]", "Stored_Pulses", 0 ],
+			"obj-8::obj-1::obj-45" : [ "Stored_Pitch[4]", "Stored_Pitch", 0 ],
+			"obj-8::obj-18::obj-77" : [ "live.text[2]", "live.text", 0 ],
+			"obj-8::obj-21::obj-8" : [ "live.step[6]", "live.step", 0 ],
+			"obj-8::obj-21::obj-53::obj-6" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-8::obj-21::obj-5" : [ "Stored_Auto[6]", "Stored_Auto", 0 ],
+			"obj-8::obj-13::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
+			"obj-8::obj-21::obj-53::obj-17" : [ "Max[3]", "Max", 0 ],
+			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
+			"obj-8::obj-13::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
+			"obj-8::obj-18::obj-42" : [ "Stored_Duration[5]", "Stored_Duration", 0 ],
+			"obj-8::obj-1::obj-77" : [ "live.text", "live.text", 0 ],
+			"obj-8::obj-18::obj-5" : [ "Stored_Auto[5]", "Stored_Auto", 0 ],
+			"obj-8::obj-1::obj-5" : [ "Stored_Auto[4]", "Stored_Auto", 0 ],
+			"obj-8::obj-21::obj-33" : [ "Stored_Sequencer[3]", "Stored_Sequencer", 0 ],
+			"obj-8::obj-1::obj-66" : [ "Stored_Pulses[4]", "Stored_Pulses", 0 ],
+			"obj-8::obj-21::obj-67" : [ "Stored_Steps[6]", "Stored_Steps", 0 ],
+			"obj-8::obj-13::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
+			"obj-8::obj-13::obj-8" : [ "live.step[3]", "live.step", 0 ],
+			"obj-8::obj-18::obj-53::obj-6" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-8::obj-18::obj-8" : [ "live.step[5]", "live.step", 0 ],
+			"obj-8::obj-18::obj-76" : [ "Stored_Rotate[2]", "Stored_Rotate", 0 ],
+			"obj-8::obj-21::obj-31" : [ "Stored_Play[6]", "Stored_Play", 0 ],
+			"obj-8::obj-1::obj-31" : [ "Stored_Play[4]", "Stored_Play", 0 ],
+			"obj-8::obj-13::obj-77" : [ "live.text[1]", "live.text", 0 ],
 			"obj-8::obj-21::obj-66" : [ "Stored_Pulses[6]", "Stored_Pulses", 0 ],
 			"obj-8::obj-13::obj-5" : [ "Stored_Auto[3]", "Stored_Auto", 0 ],
 			"obj-8::obj-13::obj-33" : [ "Stored_Sequencer[1]", "Stored_Sequencer", 0 ],
-			"obj-8::obj-18::obj-66" : [ "Stored_Pulses[5]", "Stored_Pulses", 0 ],
-			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
+			"obj-8::obj-18::obj-53::obj-17" : [ "Max[2]", "Max", 0 ],
+			"obj-8::obj-18::obj-33" : [ "Stored_Sequencer[2]", "Stored_Sequencer", 0 ],
 			"obj-8::obj-18::obj-67" : [ "Stored_Steps[5]", "Stored_Steps", 0 ],
-			"obj-8::obj-21::obj-45" : [ "Stored_Pitch[6]", "Stored_Pitch", 0 ],
-			"obj-8::obj-1::obj-66" : [ "Stored_Pulses[4]", "Stored_Pulses", 0 ],
-			"obj-8::obj-21::obj-76" : [ "Stored_Rotate[3]", "Stored_Rotate", 0 ],
-			"obj-8::obj-13::obj-8" : [ "live.step[3]", "live.step", 0 ],
-			"obj-9" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-8::obj-1::obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
-			"obj-8::obj-18::obj-8" : [ "live.step[5]", "live.step", 0 ],
-			"obj-8::obj-1::obj-43" : [ "Stored_Velocity[4]", "Stored_Velocity", 0 ],
-			"obj-8::obj-21::obj-67" : [ "Stored_Steps[6]", "Stored_Steps", 0 ],
-			"obj-8::obj-1::obj-31" : [ "Stored_Play[4]", "Stored_Play", 0 ],
-			"obj-8::obj-18::obj-42" : [ "Stored_Duration[5]", "Stored_Duration", 0 ],
-			"obj-8::obj-13::obj-42" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
-			"obj-8::obj-21::obj-8" : [ "live.step[6]", "live.step", 0 ],
-			"obj-8::obj-1::obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
-			"obj-8::obj-13::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
-			"obj-8::obj-13::obj-76" : [ "Stored_Rotate[1]", "Stored_Rotate", 0 ],
-			"obj-8::obj-18::obj-43" : [ "Stored_Velocity[5]", "Stored_Velocity", 0 ],
-			"obj-8::obj-18::obj-5" : [ "Stored_Auto[5]", "Stored_Auto", 0 ],
-			"obj-8::obj-21::obj-33" : [ "Stored_Sequencer[3]", "Stored_Sequencer", 0 ],
-			"obj-8::obj-1::obj-8" : [ "live.step[4]", "live.step", 0 ],
-			"obj-8::obj-21::obj-43" : [ "Stored_Velocity[6]", "Stored_Velocity", 0 ],
-			"obj-8::obj-13::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
-			"obj-8::obj-13::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
-			"obj-8::obj-1::obj-42" : [ "Stored_Duration[4]", "Stored_Duration", 0 ],
-			"obj-8::obj-18::obj-76" : [ "Stored_Rotate[2]", "Stored_Rotate", 0 ],
-			"obj-8::obj-18::obj-31" : [ "Stored_Play[5]", "Stored_Play", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-8::obj-21::obj-77" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-8::obj-13::obj-53::obj-6" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-8::obj-13::obj-53::obj-17" : 				{
+					"parameter_longname" : "Max[1]"
+				}
+,
+				"obj-8::obj-18::obj-77" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-8::obj-21::obj-53::obj-6" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-8::obj-21::obj-53::obj-17" : 				{
+					"parameter_longname" : "Max[3]"
+				}
+,
+				"obj-8::obj-18::obj-53::obj-6" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-8::obj-13::obj-77" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-8::obj-18::obj-53::obj-17" : 				{
+					"parameter_longname" : "Max[2]"
+				}
 
 			}
 

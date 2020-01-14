@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 624.0, 336.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.text"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -543,30 +567,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-65",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 93.0, 20.0 ],
-					"text" : "loadmess max 32"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-64",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 8.0, 86.0, 20.0 ],
-					"text" : "loadmess min 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -580,7 +580,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 64.0, 128.0, 32.0 ],
+					"patching_rect" : [ 8.0, 72.0, 128.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 8.0, 128.0, 32.0 ],
 					"varname" : "Pulses_Steps",
@@ -693,8 +693,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -920,8 +920,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1206,8 +1206,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1291,8 +1291,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 5,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2143,11 +2143,11 @@
 					"presentation_rect" : [ 8.0, 48.0, 616.0, 112.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.step",
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
 							"parameter_shortname" : "live.step",
-							"parameter_type" : 3,
-							"parameter_longname" : "live.step"
+							"parameter_type" : 3
 						}
 
 					}
@@ -2511,38 +2511,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 1 ],
-					"order" : 0,
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"order" : 1,
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 1 ],
-					"order" : 0,
-					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"order" : 1,
-					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-66", 0 ]
 				}
@@ -2622,16 +2590,19 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
+			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
+			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
+			"obj-53::obj-17" : [ "Max", "Max", 0 ],
+			"obj-53::obj-6" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-77" : [ "live.text", "live.text", 0 ],
+			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
-			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
-			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
-			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
-			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-8" : [ "live.step", "live.step", 0 ],
 			"parameterbanks" : 			{
 
 			}

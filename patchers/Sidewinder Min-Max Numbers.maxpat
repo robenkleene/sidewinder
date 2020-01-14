@@ -52,6 +52,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Max",
+							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "Max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -77,6 +78,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
+							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
