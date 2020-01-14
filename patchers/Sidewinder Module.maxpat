@@ -39,30 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "live.text",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 624.0, 336.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.text",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text",
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"varname" : "live.text"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2590,15 +2566,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-8" : [ "live.step", "live.step", 0 ],
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
+			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"obj-53::obj-17" : [ "Max", "Max", 0 ],
 			"obj-53::obj-6" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
-			"obj-77" : [ "live.text", "live.text", 0 ],
 			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
