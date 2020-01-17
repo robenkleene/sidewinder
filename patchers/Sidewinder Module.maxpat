@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 194.0, 172.0, 710.0, 773.0 ],
+		"rect" : [ 194.0, 93.0, 710.0, 773.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 96.0, 64.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 136.0, 8.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "Rotate",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "Rotate",
+							"parameter_mmax" : 32.0
+						}
+
+					}
+,
+					"varname" : "Rotate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -118,32 +144,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 96.0, 120.0, 31.0, 20.0 ],
 					"text" : "% 32"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 128.0, 80.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 16.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_shortname" : "Rotate",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Rotate",
-							"parameter_mmax" : 32.0
-						}
-
-					}
-,
-					"varname" : "Rotate"
 				}
 
 			}
@@ -460,19 +460,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-70",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 64.0, 42.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 0.0, 42.0, 18.0 ],
-					"text" : "Rotate"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -635,32 +622,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 40.0, 45.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 0.0, 45.0, 18.0 ],
-					"text" : "Steps"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 40.0, 47.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 0.0, 47.0, 18.0 ],
-					"text" : "Pulses"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -674,9 +635,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 72.0, 104.0, 32.0 ],
+					"patching_rect" : [ 8.0, 64.0, 80.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 8.0, 128.0, 32.0 ],
+					"presentation_rect" : [ 56.0, 8.0, 80.0, 48.0 ],
 					"varname" : "Pulses_Steps",
 					"viewvisibility" : 1
 				}
@@ -1947,7 +1908,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.0, 376.0, 450.0, 165.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 40.0, 472.0, 104.0 ],
+					"presentation_rect" : [ 0.0, 56.0, 472.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
@@ -1985,6 +1946,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -2053,6 +2021,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 1 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -2109,13 +2091,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
@@ -2146,6 +2121,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-51", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"source" : [ "obj-53", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-53", 0 ]
 				}
 
 			}
@@ -2272,10 +2261,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
 			"obj-42" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-77" : [ "Play", "Play", 0 ],
 			"obj-84" : [ "Mode", "Mode", 0 ],
-			"obj-4" : [ "Rotate", "Rotate", 0 ],
+			"obj-11" : [ "Rotate", "Rotate", 0 ],
 			"obj-53::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
 			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-65" : [ "live.text", "live.text", 0 ],
@@ -2284,29 +2274,15 @@
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
 			"obj-78" : [ "PItch", "Pitch", 0 ],
 			"obj-53::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
-			"obj-53::obj-17" : [ "Max", "Max", 0 ],
 			"obj-8" : [ "live.step", "live.step", 0 ],
 			"obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
 			"obj-82" : [ "Duration", "Duration", 0 ],
+			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
 			"obj-64" : [ "Auto", "Auto", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
-			"obj-53::obj-6" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-53::obj-17" : 				{
-					"parameter_longname" : "Max",
-					"parameter_shortname" : "Max"
-				}
-,
-				"obj-53::obj-6" : 				{
-					"parameter_longname" : "live.numbox",
-					"parameter_shortname" : "live.numbox"
-				}
 
 			}
 
