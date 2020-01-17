@@ -131,7 +131,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.0, 80.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 24.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 144.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Rotate",
@@ -188,7 +188,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 360.0, 312.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 520.0, 24.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 336.0, 16.0, 176.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Mode",
@@ -215,7 +215,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 408.0, 40.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 472.0, 0.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 472.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Duration",
@@ -240,7 +240,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 352.0, 40.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 432.0, 0.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 472.0, 40.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Velocity",
@@ -265,7 +265,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 296.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 24.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 192.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Pitch",
@@ -291,7 +291,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 464.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 24.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 240.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.text",
@@ -318,7 +318,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 512.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 376.0, 24.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 288.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Auto",
@@ -346,7 +346,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 248.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 24.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Play",
@@ -466,7 +466,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.0, 64.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 0.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 144.0, 0.0, 42.0, 18.0 ],
 					"text" : "Rotate"
 				}
 
@@ -737,7 +737,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 40.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.0, 0.0, 45.0, 18.0 ],
+					"presentation_rect" : [ 96.0, 0.0, 45.0, 18.0 ],
 					"text" : "Steps"
 				}
 
@@ -750,7 +750,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 40.0, 47.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, 0.0, 47.0, 18.0 ],
+					"presentation_rect" : [ 48.0, 0.0, 47.0, 18.0 ],
 					"text" : "Pulses"
 				}
 
@@ -772,7 +772,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 8.0, 72.0, 104.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 16.0, 128.0, 32.0 ],
+					"presentation_rect" : [ 40.0, 8.0, 128.0, 32.0 ],
 					"varname" : "Pulses_Steps",
 					"viewvisibility" : 1
 				}
@@ -2043,7 +2043,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.0, 376.0, 450.0, 165.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 48.0, 616.0, 112.0 ],
+					"presentation_rect" : [ 0.0, 40.0, 472.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
@@ -2445,8 +2445,8 @@
 			"obj-77" : [ "Play", "Play", 0 ],
 			"obj-84" : [ "Mode", "Mode", 0 ],
 			"obj-4" : [ "Rotate", "Rotate", 0 ],
-			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-65" : [ "live.text", "live.text", 0 ],
+			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-81" : [ "Velocity", "Velocity", 0 ],
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
