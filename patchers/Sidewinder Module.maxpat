@@ -2127,6 +2127,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
+					"order" : 1,
 					"source" : [ "obj-53", 1 ]
 				}
 
@@ -2135,6 +2136,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"order" : 0,
+					"source" : [ "obj-53", 1 ]
 				}
 
 			}
@@ -2267,8 +2276,8 @@
 			"obj-84" : [ "Mode", "Mode", 0 ],
 			"obj-11" : [ "Rotate", "Rotate", 0 ],
 			"obj-53::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
-			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-65" : [ "live.text", "live.text", 0 ],
+			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-81" : [ "Velocity", "Velocity", 0 ],
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
