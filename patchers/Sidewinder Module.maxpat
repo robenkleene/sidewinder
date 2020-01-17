@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 194.0, 93.0, 643.0, 773.0 ],
+		"rect" : [ 194.0, 93.0, 813.0, 773.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -384,7 +384,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 664.0, 152.0, 176.0, 20.0 ],
-					"restore" : [ 1, 11, 0, 1, 12, 0, 11, 60.0, 73.0, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0 ],
+					"restore" : [ 1, 11, 0, 1, 12, 0, 11, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -2313,8 +2313,8 @@
 			"obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
 			"obj-82" : [ "Duration", "Duration", 0 ],
 			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
-			"obj-64" : [ "Auto", "Auto", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-64" : [ "Auto", "Auto", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"parameterbanks" : 			{
