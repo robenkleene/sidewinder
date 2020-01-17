@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 173.0, 162.0, 565.0, 680.0 ],
+		"rect" : [ 122.0, 161.0, 689.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,66 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
+					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 8.0 ],
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Steps",
+							"parameter_shortname" : "Stored_Steps",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Steps Steps",
+					"varname" : "Stored_Steps"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 368.0, 56.0, 138.0, 20.0 ],
+					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 4.0 ],
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Pulses",
+							"parameter_shortname" : "Stored_Pulses",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Pulses Pulses",
+					"varname" : "Stored_Pulses"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -51,16 +111,16 @@
 					"presentation_rect" : [ 56.0, 8.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Max",
-							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "Max",
+							"parameter_shortname" : "Steps",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "Steps",
+							"parameter_mmax" : 32.0
 						}
 
 					}
 ,
-					"varname" : "Max"
+					"varname" : "Steps"
 				}
 
 			}
@@ -77,16 +137,16 @@
 					"presentation_rect" : [ 8.0, 8.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox",
-							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "live.numbox",
+							"parameter_shortname" : "Pulses",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "Pulses",
+							"parameter_mmax" : 32.0
 						}
 
 					}
 ,
-					"varname" : "live.numbox"
+					"varname" : "Pulses"
 				}
 
 			}
@@ -335,8 +395,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17" : [ "Max", "Max", 0 ],
-			"obj-6" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-6" : [ "Pulses", "Pulses", 0 ],
+			"obj-17" : [ "Steps", "Steps", 0 ],
+			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
+			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"parameterbanks" : 			{
 
 			}

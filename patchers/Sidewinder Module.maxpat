@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 214.0, 86.0, 1046.0, 773.0 ],
+		"rect" : [ 194.0, 172.0, 710.0, 773.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -515,102 +515,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 848.0, 8.0, 108.0, 20.0 ],
-					"text" : "pvar Pulses_Steps 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-73",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 960.0, 72.0, 39.0, 20.0 ],
-					"text" : "in1 $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-71",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 960.0, 104.0, 137.0, 20.0 ],
-					"text" : "pattrforward Pulses_Steps"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 960.0, 40.0, 100.0, 20.0 ],
-					"restore" : [ 11 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 8.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Steps",
-							"parameter_shortname" : "Stored_Steps",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Steps",
-					"varname" : "Stored_Steps"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-66",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 848.0, 40.0, 105.0, 20.0 ],
-					"restore" : [ 6 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 4.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Pulses",
-							"parameter_shortname" : "Stored_Pulses",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Pulses",
-					"varname" : "Stored_Pulses"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -765,7 +669,7 @@
 					"id" : "obj-53",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Numbers.maxpat",
+					"name" : "Sidewinder Pulses-Steps.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -1029,7 +933,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 788.0, 270.0, 46.0, 18.0 ],
+					"patching_rect" : [ 664.0, 378.0, 46.0, 18.0 ],
 					"text" : "Debug"
 				}
 
@@ -1041,7 +945,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 788.0, 300.0, 132.0, 20.0 ],
+					"patching_rect" : [ 664.0, 408.0, 132.0, 20.0 ],
 					"text" : "Open Global Transport"
 				}
 
@@ -1055,7 +959,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 788.0, 330.0, 163.0, 22.0 ],
+					"patching_rect" : [ 664.0, 438.0, 163.0, 22.0 ],
 					"text" : "load globaltransport.maxpat"
 				}
 
@@ -1069,7 +973,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 788.0, 360.0, 54.0, 22.0 ],
+					"patching_rect" : [ 664.0, 468.0, 54.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2149,20 +2053,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 1 ],
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -2179,20 +2069,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-66", 0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"source" : [ "obj-32", 1 ]
 				}
 
 			}
@@ -2275,30 +2151,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"order" : 2,
-					"source" : [ "obj-53", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"order" : 1,
-					"source" : [ "obj-53", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-36", 1 ],
 					"source" : [ "obj-54", 0 ]
 				}
@@ -2341,29 +2193,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
-					"source" : [ "obj-66", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
-					"source" : [ "obj-73", 0 ]
 				}
 
 			}
@@ -2445,24 +2276,37 @@
 			"obj-77" : [ "Play", "Play", 0 ],
 			"obj-84" : [ "Mode", "Mode", 0 ],
 			"obj-4" : [ "Rotate", "Rotate", 0 ],
-			"obj-65" : [ "live.text", "live.text", 0 ],
+			"obj-53::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
 			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
+			"obj-65" : [ "live.text", "live.text", 0 ],
 			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-81" : [ "Velocity", "Velocity", 0 ],
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
 			"obj-78" : [ "PItch", "Pitch", 0 ],
+			"obj-53::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
 			"obj-53::obj-17" : [ "Max", "Max", 0 ],
 			"obj-8" : [ "live.step", "live.step", 0 ],
 			"obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
 			"obj-82" : [ "Duration", "Duration", 0 ],
-			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"obj-64" : [ "Auto", "Auto", 0 ],
-			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
-			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
+			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-53::obj-6" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-53::obj-6" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-53::obj-17" : 				{
+					"parameter_longname" : "Max",
+					"parameter_shortname" : "Max"
+				}
+,
+				"obj-53::obj-6" : 				{
+					"parameter_longname" : "live.numbox",
+					"parameter_shortname" : "live.numbox"
+				}
 
 			}
 
@@ -2476,7 +2320,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Numbers.maxpat",
+				"name" : "Sidewinder Pulses-Steps.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
