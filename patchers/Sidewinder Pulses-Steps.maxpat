@@ -47,7 +47,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.0, 56.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 0.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 48.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Steps",
@@ -97,7 +97,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 8.0 ],
@@ -127,7 +127,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 56.0, 138.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4.0 ],
@@ -394,10 +394,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Pulses", "Pulses", 0 ],
-			"obj-2" : [ "Steps", "Steps", 0 ],
 			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
+			"obj-1" : [ "Pulses", "Pulses", 0 ],
+			"obj-2" : [ "Steps", "Steps", 0 ],
 			"parameterbanks" : 			{
 
 			}
