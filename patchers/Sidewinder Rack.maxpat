@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 305.0, 200.0, 910.0, 402.0 ],
+		"rect" : [ 127.0, 79.0, 823.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,34 @@
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 560.0, 48.0, 24.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 64.0, 96.0, 24.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.text[10]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text[10]",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "OW",
+					"texton" : "OW",
+					"varname" : "live.text[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Medium Regular",
 					"fontsize" : 11.0,
 					"hidden" : 1,
@@ -64,7 +92,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 592.0, 48.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 552.0, 176.0, 16.0, 16.0 ],
+					"presentation_rect" : [ 72.0, 80.0, 16.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[9]",
@@ -92,7 +120,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 512.0, 48.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 568.0, 176.0, 16.0, 16.0 ],
+					"presentation_rect" : [ 56.0, 80.0, 16.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[8]",
@@ -121,7 +149,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 8.0, 16.0, 24.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 152.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Selected_Rack",
@@ -147,32 +175,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 624.0, 120.0, 63.0, 20.0 ],
 					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "live.toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 560.0, 48.0, 15.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 568.0, 192.0, 15.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.toggle",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.toggle",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"varname" : "live.toggle"
 				}
 
 			}
@@ -321,7 +323,7 @@
 					"patching_rect" : [ 456.0, 72.0, 32.0, 34.0 ],
 					"pattrstorage" : "Sidewinder",
 					"presentation" : 1,
-					"presentation_rect" : [ 552.0, 208.0, 40.0, 40.0 ]
+					"presentation_rect" : [ 48.0, 120.0, 40.0, 40.0 ]
 				}
 
 			}
@@ -352,29 +354,6 @@
 ,
 					"text" : "pattr Stored_Selected_Rack Selected_Rack",
 					"varname" : "Stored_Selected_Rack"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-8",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Module Bank.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 192.0, 632.0, 168.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 0.0, 552.0, 168.0 ],
-					"varname" : "Sidewinder_Module_Rack",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -426,6 +405,46 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-19",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 671.0, 119.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 48.0, 80.0, 40.0, 32.0 ],
+					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-8",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Sidewinder Module Bank.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 8.0, 192.0, 632.0, 168.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 48.0, 0.0, 624.0, 168.0 ],
+					"varname" : "Sidewinder_Module_Rack",
+					"viewvisibility" : 1
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -473,6 +492,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -546,18 +572,10 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-8::obj-18::obj-5" : [ "Stored_Auto[5]", "Stored_Auto", 0 ],
 			"obj-8::obj-13::obj-53::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
-			"obj-9" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-8::obj-21::obj-53::obj-66" : [ "Stored_Pulses[3]", "Stored_Pulses", 0 ],
 			"obj-8::obj-13::obj-81" : [ "Velocity[1]", "Velocity", 0 ],
 			"obj-8::obj-1::obj-53::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
@@ -584,6 +602,7 @@
 			"obj-8::obj-1::obj-11" : [ "Rotate", "Rotate", 0 ],
 			"obj-8::obj-13::obj-8" : [ "live.step[3]", "live.step", 0 ],
 			"obj-8::obj-18::obj-78" : [ "PItch[2]", "Pitch", 0 ],
+			"obj-17" : [ "live.text[10]", "live.text[10]", 0 ],
 			"obj-8::obj-21::obj-33" : [ "Stored_Sequencer[3]", "Stored_Sequencer", 0 ],
 			"obj-11" : [ "live.text[8]", "live.text[8]", 0 ],
 			"obj-8::obj-13::obj-77" : [ "live.text[2]", "live.text", 0 ],
@@ -600,8 +619,8 @@
 			"obj-10" : [ "Selected_Rack", "Selected_Rack", 0 ],
 			"obj-8::obj-1::obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
 			"obj-8::obj-21::obj-86" : [ "Stored_Mode[3]", "Stored_Mode", 0 ],
-			"obj-8::obj-1::obj-84" : [ "Mode", "Mode", 0 ],
 			"obj-8::obj-1::obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
+			"obj-8::obj-1::obj-84" : [ "Mode", "Mode", 0 ],
 			"obj-8::obj-13::obj-65" : [ "live.text[3]", "live.text", 0 ],
 			"obj-8::obj-18::obj-53::obj-1" : [ "Pulses[2]", "Pulses", 0 ],
 			"obj-8::obj-1::obj-65" : [ "live.text", "live.text", 0 ],
