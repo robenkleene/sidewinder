@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1036.0, 787.0 ],
+		"rect" : [ 248.0, 338.0, 1036.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -76,7 +76,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 408.0, 72.0, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 80.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 528.0, 64.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
@@ -105,7 +105,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 872.0, 128.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 32.0, 40.0, 48.0 ],
+					"presentation_rect" : [ 528.0, 16.0, 40.0, 48.0 ],
 					"rounded" : 10
 				}
 
@@ -122,7 +122,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 872.0, 104.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 16.0, 40.0, 144.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 144.0 ],
 					"rounded" : 10
 				}
 
@@ -149,7 +149,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 96.0, 64.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 112.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 0,
@@ -290,7 +290,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 360.0, 304.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 0.0, 168.0, 16.0 ],
+					"presentation_rect" : [ 352.0, 0.0, 168.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "All", "Pitch", "Velocity", "Duration" ],
@@ -317,7 +317,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 352.0, 40.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 32.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 528.0, 16.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 0,
@@ -342,7 +342,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 296.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 16.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 528.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 0,
@@ -368,7 +368,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 464.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 48.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -395,7 +395,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 512.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 48.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 96.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -423,7 +423,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 248.0, 72.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -684,7 +684,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 8.0, 64.0, 80.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 16.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 96.0 ],
 					"varname" : "Pulses_Steps",
 					"viewvisibility" : 1
 				}
@@ -1956,7 +1956,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.0, 376.0, 450.0, 165.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 16.0, 472.0, 144.0 ],
+					"presentation_rect" : [ 48.0, 16.0, 472.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 3,
@@ -2335,8 +2335,8 @@
 			"obj-53::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
 			"obj-11" : [ "Rotate", "Rotate", 0 ],
 			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
+			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"obj-64" : [ "Auto", "Auto", 0 ],
