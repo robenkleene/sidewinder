@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 248.0, 338.0, 1036.0, 787.0 ],
+		"rect" : [ 146.0, 79.0, 794.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 188.0, 0.0, 20.0, 140.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
@@ -79,12 +91,12 @@
 					"presentation_rect" : [ 528.0, 64.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Duration",
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 2,
 							"parameter_longname" : "Duration",
-							"parameter_mmax" : 7,
-							"parameter_shortname" : "Duration"
+							"parameter_mmax" : 7
 						}
 
 					}
@@ -152,11 +164,11 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Rotate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "Rotate",
-							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "Rotate"
+							"parameter_mmax" : 32.0
 						}
 
 					}
@@ -257,7 +269,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 664.0, 176.0, 126.0, 20.0 ],
-					"restore" : [ 3.0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -293,12 +305,12 @@
 					"presentation_rect" : [ 352.0, 0.0, 168.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Mode",
 							"parameter_enum" : [ "All", "Pitch", "Velocity", "Duration" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "Mode",
-							"parameter_mmax" : 3,
-							"parameter_shortname" : "Mode"
+							"parameter_mmax" : 3
 						}
 
 					}
@@ -320,10 +332,10 @@
 					"presentation_rect" : [ 528.0, 16.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Velocity",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Velocity",
-							"parameter_shortname" : "Velocity"
+							"parameter_longname" : "Velocity"
 						}
 
 					}
@@ -345,10 +357,10 @@
 					"presentation_rect" : [ 528.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8,
-							"parameter_longname" : "PItch",
-							"parameter_shortname" : "Pitch"
+							"parameter_longname" : "PItch"
 						}
 
 					}
@@ -371,11 +383,11 @@
 					"presentation_rect" : [ 48.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text"
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -398,11 +410,11 @@
 					"presentation_rect" : [ 96.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Auto",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "Auto",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "Auto"
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -426,11 +438,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Play",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "Play",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "Play"
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -542,7 +554,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 192.0, 34.0, 20.0 ],
+					"patching_rect" : [ 8.0, 240.0, 34.0, 20.0 ],
 					"text" : "zl rot"
 				}
 
@@ -682,7 +694,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 64.0, 80.0, 48.0 ],
+					"patching_rect" : [ 8.0, 64.0, 40.0, 96.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 96.0 ],
 					"varname" : "Pulses_Steps",
@@ -720,7 +732,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 296.0, 76.0, 20.0 ],
+					"patching_rect" : [ 8.0, 344.0, 76.0, 20.0 ],
 					"text" : "s #0sequence"
 				}
 
@@ -743,7 +755,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 264.0, 54.0, 20.0 ],
+					"patching_rect" : [ 8.0, 312.0, 54.0, 20.0 ],
 					"text" : "s #0bang"
 				}
 
@@ -1211,7 +1223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 232.0, 30.0, 20.0 ],
+					"patching_rect" : [ 8.0, 280.0, 30.0, 20.0 ],
 					"text" : "t b l"
 				}
 
@@ -1949,7 +1961,6 @@
 					"fontname" : "Arial",
 					"id" : "obj-8",
 					"maxclass" : "live.step",
-					"mode" : 3,
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
@@ -1959,11 +1970,11 @@
 					"presentation_rect" : [ 48.0, 16.0, 472.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
+							"parameter_shortname" : "live.step",
 							"parameter_type" : 3,
 							"parameter_longname" : "live.step",
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
-							"parameter_shortname" : "live.step"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -1979,7 +1990,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 152.0, 77.0, 20.0 ],
+					"patching_rect" : [ 8.0, 200.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "wrapper.js",
 						"parameter_enable" : 0
@@ -2332,27 +2343,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-53::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
+			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-78" : [ "PItch", "Pitch", 0 ],
 			"obj-11" : [ "Rotate", "Rotate", 0 ],
-			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
-			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
-			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
 			"obj-64" : [ "Auto", "Auto", 0 ],
 			"obj-77" : [ "Play", "Play", 0 ],
 			"obj-53::obj-67" : [ "Stored_Steps[1]", "Stored_Steps", 0 ],
-			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
-			"obj-84" : [ "Mode", "Mode", 0 ],
-			"obj-65" : [ "live.text", "live.text", 0 ],
-			"obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
-			"obj-78" : [ "PItch", "Pitch", 0 ],
-			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
-			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
+			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
+			"obj-65" : [ "live.text", "live.text", 0 ],
+			"obj-53::obj-66" : [ "Stored_Pulses[1]", "Stored_Pulses", 0 ],
+			"obj-28" : [ "Duration", "Duration", 0 ],
+			"obj-31" : [ "Stored_Play", "Stored_Play", 0 ],
+			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
+			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-81" : [ "Velocity", "Velocity", 0 ],
+			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-84" : [ "Mode", "Mode", 0 ],
+			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
 			"parameterbanks" : 			{
 
 			}
