@@ -45,7 +45,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 560.0, 48.0, 24.0, 16.0 ],
+					"patching_rect" : [ 592.0, 464.0, 24.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 592.0, 104.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
@@ -90,7 +90,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 592.0, 48.0, 44.0, 15.0 ],
+					"patching_rect" : [ 624.0, 464.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 88.0, 16.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
@@ -118,7 +118,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 512.0, 48.0, 44.0, 15.0 ],
+					"patching_rect" : [ 544.0, 464.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 584.0, 88.0, 16.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
@@ -173,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.0, 120.0, 63.0, 20.0 ],
+					"patching_rect" : [ 408.0, 536.0, 63.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -187,7 +187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.0, 72.0, 32.0, 20.0 ],
+					"patching_rect" : [ 624.0, 488.0, 32.0, 20.0 ],
 					"text" : "write"
 				}
 
@@ -201,7 +201,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.0, 80.0, 30.0, 20.0 ],
+					"patching_rect" : [ 544.0, 496.0, 30.0, 20.0 ],
 					"text" : "read"
 				}
 
@@ -215,7 +215,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 120.0, 81.0, 20.0 ],
+					"patching_rect" : [ 488.0, 536.0, 81.0, 20.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -229,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 560.0, 72.0, 29.5, 20.0 ],
+					"patching_rect" : [ 592.0, 488.0, 29.5, 20.0 ],
 					"text" : "+ 1"
 				}
 
@@ -243,7 +243,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 136.0, 58.0, 20.0 ],
+					"patching_rect" : [ 592.0, 552.0, 58.0, 20.0 ],
 					"text" : "writeagain"
 				}
 
@@ -257,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 560.0, 104.0, 46.0, 20.0 ],
+					"patching_rect" : [ 592.0, 520.0, 46.0, 20.0 ],
 					"text" : "gate 2 1"
 				}
 
@@ -271,7 +271,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 456.0, 16.0, 53.0, 20.0 ],
+					"patching_rect" : [ 464.0, 416.0, 53.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -285,7 +285,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 16.0, 123.0, 20.0 ],
+					"patching_rect" : [ 488.0, 440.0, 123.0, 20.0 ],
 					"text" : "pattrstorage Sidewinder"
 				}
 
@@ -300,7 +300,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.0, 160.0, 123.0, 20.0 ],
+					"patching_rect" : [ 544.0, 576.0, 123.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -320,7 +320,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 456.0, 72.0, 32.0, 34.0 ],
+					"patching_rect" : [ 488.0, 488.0, 32.0, 34.0 ],
 					"pattrstorage" : "Sidewinder",
 					"presentation" : 1,
 					"presentation_rect" : [ 576.0, 120.0, 40.0, 40.0 ]
@@ -334,7 +334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 56.0, 32.0, 217.0, 20.0 ],
+					"patching_rect" : [ 56.0, 16.0, 217.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -364,7 +364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 160.0, 60.0, 20.0 ],
+					"patching_rect" : [ 8.0, 136.0, 60.0, 20.0 ],
 					"text" : "offset 0 $1"
 				}
 
@@ -376,7 +376,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 8.0, 128.0, 37.0, 20.0 ],
+					"patching_rect" : [ 8.0, 112.0, 37.0, 20.0 ],
 					"text" : "* -168"
 				}
 
@@ -389,7 +389,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 384.0, 30.0, 30.0 ]
+					"patching_rect" : [ 64.0, 392.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -401,7 +401,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 384.0, 30.0, 30.0 ]
+					"patching_rect" : [ 8.0, 392.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -415,7 +415,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 671.0, 119.0, 16.0, 16.0 ],
+					"patching_rect" : [ 280.0, 16.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 576.0, 88.0, 40.0, 32.0 ],
 					"rounded" : 10
@@ -437,7 +437,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 192.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 200.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 0.0, 576.0, 168.0 ],
 					"varname" : "Sidewinder_Module_Rack",
@@ -585,8 +585,8 @@
 			"obj-8::obj-13::obj-33" : [ "Stored_Sequencer[1]", "Stored_Sequencer", 0 ],
 			"obj-8::obj-21::obj-64" : [ "Auto[3]", "Auto", 0 ],
 			"obj-8::obj-1::obj-5" : [ "Stored_Auto[4]", "Stored_Auto", 0 ],
-			"obj-8::obj-13::obj-77" : [ "live.text[2]", "live.text", 0 ],
 			"obj-8::obj-13::obj-45" : [ "Stored_Pitch[3]", "Stored_Pitch", 0 ],
+			"obj-8::obj-13::obj-77" : [ "live.text[2]", "live.text", 0 ],
 			"obj-8::obj-21::obj-43" : [ "Stored_Velocity[6]", "Stored_Velocity", 0 ],
 			"obj-8::obj-18::obj-53::obj-67" : [ "Stored_Steps[2]", "Stored_Steps", 0 ],
 			"obj-8::obj-18::obj-31" : [ "Stored_Play[5]", "Stored_Play", 0 ],
