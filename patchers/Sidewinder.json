@@ -12,7 +12,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Play" : [ 1 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Rotate" : [ 0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Sequencer" : [ 1, 17, 0, 1, 12, 0, 17, 36.0, 49.0, 0, 0, 44, 127, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 127, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 127, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0, 44, 0, 4, 0, 0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Mode" : [  ],
+					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Mode" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Stored_Duration" : [ 4.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Pulses_Steps::Stored_Pulses" : [  ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::Pulses_Steps::Stored_Steps" : [  ],
