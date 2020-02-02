@@ -1,6 +1,6 @@
 # Sidewinder
 
-Sidewinder is an Euclidean sequencer for [Max for Live](https://www.ableton.com/en/live/max-for-live/) that creates polyrhythms. Sidewinder takes a number of pulses (notes) and positions them as equidistant as possible into a number of steps. Equidistant distribution is a key to creating rhythms that are inherently musical. An extraordinary number of traditional rhythms can be generated through this simple process, see the [example rhythms](#example-rhythms) section.
+Sidewinder is an Euclidean sequencer for [Max for Live](https://www.ableton.com/en/live/max-for-live/) that creates polyrhythms. Sidewinder takes a number of pulses (notes) and positions them as equidistant as possible into a number of steps. Equidistant distribution is a key to creating rhythms that are inherently musical. Many traditional rhythms can be generated through this simple process, see the [example rhythms](#example-rhythms) section.
 
 ![Sidewinder](Sidewinder.png)
 
@@ -10,27 +10,33 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 - Track Tabs: There are four tracks tabs that can be selected on the right, all of the rest of the sections are per track (except "Presets").
 
-### Presets Section
+### Presets
 
-- `r`: Read presets from a file
-- `w`: Write the presets to a file
-- Toggle: Write the presets again to the same file
-- To recall, click a box
+- **R**: Read presets from a file
+- **W**: Write the presets to a file
+- **OW**: When toggled on, **W** will automatically write again to the sample file
+- To recall a preset, click a box
 - To save a preset, shift-click a box
-- To delete a preset, option-click a box
+- To delete a preset, shift-option-click a box
 
 ### Track Section
 
-- **Play**: Whether this track outputs MIDI notes
-- **Auto**: When on, moving a control automatically updates the steps (when off, use the "Set" button to set the steps)
+- **On**: Whether this track outputs MIDI notes
 - **Set**: When **Auto** is off, this sets the steps based on the current settings
-- **Pulses**: The number of notes
-- **Steps**: The total number of steps
-- **Rotate**: Offset the notes
-- **Pitch**: The pitch of the notes (this can also be changed in the step sequencer)
-- **Velocity**: The velocity of the notes (this can also be changed in the step sequencer)
-- **Duration**: The duration of the notes (this can also be changed in the step sequencer)
+- **Auto**: When on, moving a control automatically updates the steps (when off, use the "Set" button to set the steps)
 - **All** & **Pitch** & **Velocity** & **Duration**: Change what is displayed in the step sequencer
+
+#### Pulses
+
+- **Pulses**: The number of pulses
+- **Steps**: The total number of steps
+- **Rotate**: Offset the pulses
+
+#### MIDI Output
+
+- **Pitch**: The pitch of the notes
+- **Velocity**: The velocity of the notes
+- **Duration**: The duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the `live.step` sequencer.
 
 ## Installation
 
