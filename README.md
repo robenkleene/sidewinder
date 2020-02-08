@@ -8,9 +8,12 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 ## Interface
 
-- Track Tabs: There are four tracks tabs that can be selected on the right, all of the rest of the sections are per track (except "Presets").
+### Global
 
-### Presets
+- **Play**: Toggle whether all four tracks are on
+- Track Tabs: There are four tracks tabs that can be selected on the left
+
+#### Presets
 
 - **R**: Read presets from a file
 - **W**: Write the presets to a file
@@ -19,12 +22,12 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
 
-### Track Section
+### Tracks
 
 - **On**: Whether this track outputs MIDI notes
 - **Set**: When **Auto** is off, this sets the steps based on the current settings
 - **Auto**: When on, moving a control automatically updates the steps (when off, use the "Set" button to set the steps)
-- **All** & **Pitch** & **Velocity** & **Duration**: Change what is displayed in the step sequencer
+- Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer.
 
 #### Pulses
 
@@ -32,11 +35,11 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 - **Steps**: The total number of steps
 - **Rotate**: Offset the pulses
 
-#### MIDI Output
+#### Notes
 
-- **Pitch**: The pitch of the notes
+- Pitch: The pitch of the notes
 - **Velocity**: The velocity of the notes
-- **Duration**: The duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the `live.step` sequencer.
+- **Duration**: The duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer.
 
 ## Installation
 
