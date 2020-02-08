@@ -87,11 +87,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "On",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "On",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "On"
+							"parameter_longname" : "On"
 						}
 
 					}
@@ -144,12 +144,12 @@
 					"presentation_rect" : [ 528.0, 64.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 7,
+							"parameter_shortname" : "Duration",
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 2,
-							"parameter_longname" : "Duration",
-							"parameter_mmax" : 7,
-							"parameter_shortname" : "Duration"
+							"parameter_longname" : "Duration"
 						}
 
 					}
@@ -217,11 +217,11 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 32.0,
+							"parameter_shortname" : "Rotate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Rotate",
-							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "Rotate"
+							"parameter_longname" : "Rotate"
 						}
 
 					}
@@ -358,12 +358,12 @@
 					"presentation_rect" : [ 352.0, 0.0, 168.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 3,
+							"parameter_shortname" : "Mode",
 							"parameter_enum" : [ "All", "Pitch", "Velocity", "Duration" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Mode",
-							"parameter_mmax" : 3,
-							"parameter_shortname" : "Mode"
+							"parameter_longname" : "Mode"
 						}
 
 					}
@@ -385,10 +385,10 @@
 					"presentation_rect" : [ 528.0, 16.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Velocity",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Velocity",
-							"parameter_shortname" : "Velocity"
+							"parameter_longname" : "Velocity"
 						}
 
 					}
@@ -410,10 +410,10 @@
 					"presentation_rect" : [ 528.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8,
-							"parameter_longname" : "PItch",
-							"parameter_shortname" : "Pitch"
+							"parameter_longname" : "PItch"
 						}
 
 					}
@@ -436,11 +436,11 @@
 					"presentation_rect" : [ 48.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text"
+							"parameter_longname" : "live.text"
 						}
 
 					}
@@ -463,11 +463,11 @@
 					"presentation_rect" : [ 96.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Auto",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "Auto",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "Auto"
+							"parameter_longname" : "Auto"
 						}
 
 					}
@@ -1982,11 +1982,11 @@
 					"presentation_rect" : [ 48.0, 16.0, 472.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 3,
-							"parameter_longname" : "live.step",
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
-							"parameter_shortname" : "live.step"
+							"parameter_shortname" : "live.step",
+							"parameter_type" : 3,
+							"parameter_longname" : "live.step"
 						}
 
 					}
@@ -2367,27 +2367,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-53::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
+			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
+			"obj-53::obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-25" : [ "On", "On", 0 ],
-			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
-			"obj-65" : [ "live.text", "live.text", 0 ],
-			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
-			"obj-31" : [ "Stored_On", "Stored_On", 0 ],
-			"obj-64" : [ "Auto", "Auto", 0 ],
-			"obj-81" : [ "Velocity", "Velocity", 0 ],
-			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
-			"obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
-			"obj-53::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
-			"obj-53::obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-28" : [ "Duration", "Duration", 0 ],
+			"obj-11" : [ "Rotate", "Rotate", 0 ],
+			"obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
+			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
+			"obj-78" : [ "PItch", "Pitch", 0 ],
+			"obj-84" : [ "Mode", "Mode", 0 ],
+			"obj-31" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-81" : [ "Velocity", "Velocity", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
 			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
-			"obj-11" : [ "Rotate", "Rotate", 0 ],
-			"obj-84" : [ "Mode", "Mode", 0 ],
-			"obj-78" : [ "PItch", "Pitch", 0 ],
+			"obj-64" : [ "Auto", "Auto", 0 ],
+			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
+			"obj-65" : [ "live.text", "live.text", 0 ],
+			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
