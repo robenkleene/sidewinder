@@ -31,7 +31,7 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 #### Pulses
 
-- **Pulses**: The number of pulses
+- **Pulses**: The number of pulses (notes)
 - **Steps**: The total number of steps
 - **Rotate**: Offset the pulses
 
