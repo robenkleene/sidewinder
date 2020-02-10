@@ -11,35 +11,37 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 ### Global
 
 - **Play**: Toggle whether all four tracks are on
-- Track Tabs: There are four tracks tabs that can be selected on the left
+- Track Tabs: Select which track is displayed
 
 #### Presets
 
 - **R**: Read presets from a file
 - **W**: Write the presets to a file
-- **OW**: When toggled on, **W** will automatically write again to the sample file
+- **OW**: When toggled on, **W** will automatically write again to the same file
 - To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
 
 ### Tracks
 
-- **On**: Whether this track outputs MIDI notes
-- **Set**: When **Auto** is off, this sets the steps based on the current settings
-- **Auto**: When on, moving a control automatically updates the steps (when off, use the "Set" button to set the steps)
+- **On**: Toggle whether the track is on
+- **Set**: Set the steps based on the current settings
+- **Auto**: Toggle whether moving a control automatically updates the steps
 - Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer.
+
+When **Auto** is on, making a change automatically updates the steps. When **Auto** is off, use **Set** to update the steps.
 
 #### Pulses
 
-- **Pulses**: The number of pulses (notes)
-- **Steps**: The total number of steps
-- **Rotate**: Offset the pulses
+- **Pulses**: Set the number of pulses (notes)
+- **Steps**: Set the total number of steps
+- **Rotate**: Set the offset for the pulses
 
 #### Notes
 
-- Pitch: The pitch of the notes
-- **Velocity**: The velocity of the notes
-- **Duration**: The duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer.
+- Pitch: Set the pitch of the notes
+- **Velocity**: Set the velocity of the notes
+- **Duration**: Set the duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer.
 
 ## Installation
 
