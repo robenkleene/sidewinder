@@ -10,7 +10,7 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 ### Global
 
-- **Play**: Toggle whether all four tracks are on
+- **Play**: Toggle playback
 - Track Tabs: Select which track is displayed
 
 #### Presets
@@ -24,7 +24,7 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 ### Tracks
 
-- **On**: Toggle whether the track is on
+- **On**: Toggle playback for this track
 - **Set**: Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps
 - Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer.
