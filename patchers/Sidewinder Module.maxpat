@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,52 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 8.0, 408.0, 153.0, 29.0 ],
+					"text" : "Add these so they're included when the device is frozen"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 464.0, 76.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "bjorklund.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js bjorklund.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 440.0, 75.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "toussaint.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js toussaint.js"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
@@ -87,11 +133,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "On",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "On"
+							"parameter_longname" : "On",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "On"
 						}
 
 					}
@@ -144,12 +190,12 @@
 					"presentation_rect" : [ 528.0, 64.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 7,
-							"parameter_shortname" : "Duration",
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 2,
-							"parameter_longname" : "Duration"
+							"parameter_longname" : "Duration",
+							"parameter_mmax" : 7,
+							"parameter_shortname" : "Duration"
 						}
 
 					}
@@ -217,11 +263,11 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "Rotate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Rotate"
+							"parameter_longname" : "Rotate",
+							"parameter_mmax" : 32.0,
+							"parameter_shortname" : "Rotate"
 						}
 
 					}
@@ -358,12 +404,12 @@
 					"presentation_rect" : [ 352.0, 0.0, 168.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 3,
-							"parameter_shortname" : "Mode",
 							"parameter_enum" : [ "All", "Pitch", "Velocity", "Duration" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Mode"
+							"parameter_longname" : "Mode",
+							"parameter_mmax" : 3,
+							"parameter_shortname" : "Mode"
 						}
 
 					}
@@ -385,10 +431,10 @@
 					"presentation_rect" : [ 528.0, 16.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Velocity",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Velocity"
+							"parameter_longname" : "Velocity",
+							"parameter_shortname" : "Velocity"
 						}
 
 					}
@@ -410,10 +456,10 @@
 					"presentation_rect" : [ 528.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8,
-							"parameter_longname" : "PItch"
+							"parameter_longname" : "PItch",
+							"parameter_shortname" : "Pitch"
 						}
 
 					}
@@ -436,11 +482,11 @@
 					"presentation_rect" : [ 48.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text"
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text"
 						}
 
 					}
@@ -463,11 +509,11 @@
 					"presentation_rect" : [ 96.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "Auto",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "Auto"
+							"parameter_longname" : "Auto",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Auto"
 						}
 
 					}
@@ -819,7 +865,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1034,7 +1080,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1264,7 +1310,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1349,7 +1395,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1982,11 +2028,11 @@
 					"presentation_rect" : [ 48.0, 16.0, 472.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 3,
+							"parameter_longname" : "live.step",
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
-							"parameter_shortname" : "live.step",
-							"parameter_type" : 3,
-							"parameter_longname" : "live.step"
+							"parameter_shortname" : "live.step"
 						}
 
 					}
@@ -2367,27 +2413,27 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-28" : [ "Duration", "Duration", 0 ],
 			"obj-53::obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
-			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-53::obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
-			"obj-25" : [ "On", "On", 0 ],
-			"obj-8" : [ "live.step", "live.step", 0 ],
-			"obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-11" : [ "Rotate", "Rotate", 0 ],
+			"obj-64" : [ "Auto", "Auto", 0 ],
+			"obj-65" : [ "live.text", "live.text", 0 ],
 			"obj-86" : [ "Stored_Mode", "Stored_Mode", 0 ],
+			"obj-76" : [ "Stored_Rotate", "Stored_Rotate", 0 ],
 			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
 			"obj-78" : [ "PItch", "Pitch", 0 ],
-			"obj-84" : [ "Mode", "Mode", 0 ],
+			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
+			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-31" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-81" : [ "Velocity", "Velocity", 0 ],
+			"obj-84" : [ "Mode", "Mode", 0 ],
 			"obj-45" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
-			"obj-64" : [ "Auto", "Auto", 0 ],
 			"obj-43" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
 			"obj-5" : [ "Stored_Auto", "Stored_Auto", 0 ],
-			"obj-65" : [ "live.text", "live.text", 0 ],
-			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-11" : [ "Rotate", "Rotate", 0 ],
+			"obj-8" : [ "live.step", "live.step", 0 ],
+			"obj-25" : [ "On", "On", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2406,6 +2452,20 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toussaint.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bjorklund.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
