@@ -39,12 +39,61 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 648.0, 80.0, 70.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 400.0, 176.0, 70.0, 20.0 ],
+					"text" : "Audio Status"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 648.0, 112.0, 32.0, 20.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 688.0, 144.0, 150.0, 29.0 ],
+					"text" : "Just to get an Audio Status shortcut."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 648.0, 144.0, 32.0, 20.0 ],
+					"text" : "dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 808.0, 8.0, 150.0, 51.0 ],
+					"patching_rect" : [ 800.0, 8.0, 150.0, 51.0 ],
 					"text" : "For some reason this doesn't work when set as an attribute? E.g., `transport @clocksource rewire`."
 				}
 
@@ -89,6 +138,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 8.0, 8.0, 624.0, 168.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 8.0, 624.0, 168.0 ],
 					"varname" : "Sidewinder Rack",
 					"viewvisibility" : 1
 				}
@@ -109,12 +160,28 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 472.0, 176.0, 160.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 472.0, 176.0, 160.0, 30.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
