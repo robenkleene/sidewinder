@@ -2,6 +2,8 @@
 
 set -e
 
+cd "$(dirname "$0")" || exit 1
+
 force=false
 while getopts ":fh" option; do
   case "$option" in
