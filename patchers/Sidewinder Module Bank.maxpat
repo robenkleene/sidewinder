@@ -53,7 +53,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 48.0, 760.0, 128.0, 128.0 ],
+					"patching_rect" : [ 8.0, 1224.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 672.0, 632.0, 168.0 ],
 					"varname" : "Sidewinder_Randomize",
@@ -317,7 +317,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 1288.0, 30.0, 30.0 ]
+					"patching_rect" : [ 56.0, 1512.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -328,7 +328,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 1256.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1480.0, 46.0, 20.0 ],
 					"text" : "unpack"
 				}
 
@@ -340,7 +340,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 1224.0, 49.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1448.0, 49.0, 20.0 ],
 					"text" : "r #0note"
 				}
 
@@ -365,7 +365,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 1288.0, 30.0, 30.0 ]
+					"patching_rect" : [ 8.0, 1512.0, 30.0, 30.0 ]
 				}
 
 			}
