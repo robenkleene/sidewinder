@@ -460,8 +460,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 485.0, 190.0, 108.0, 22.0 ],
-									"text" : "prepend channel 4"
+									"patching_rect" : [ 485.0, 190.0, 101.0, 22.0 ],
+									"text" : "append channel4"
 								}
 
 							}
@@ -472,8 +472,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 365.0, 190.0, 108.0, 22.0 ],
-									"text" : "prepend channel 3"
+									"patching_rect" : [ 365.0, 190.0, 101.0, 22.0 ],
+									"text" : "append channel3"
 								}
 
 							}
@@ -484,8 +484,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 245.0, 190.0, 108.0, 22.0 ],
-									"text" : "prepend channel 2"
+									"patching_rect" : [ 245.0, 190.0, 101.0, 22.0 ],
+									"text" : "append channel2"
 								}
 
 							}
@@ -496,8 +496,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 125.0, 190.0, 108.0, 22.0 ],
-									"text" : "prepend channel 1"
+									"patching_rect" : [ 125.0, 190.0, 101.0, 22.0 ],
+									"text" : "append channel1"
 								}
 
 							}
