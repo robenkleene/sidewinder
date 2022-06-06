@@ -40,6 +40,65 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 136.0, 70.0, 20.0 ],
+					"text" : "r #0channel1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 408.0, 70.0, 20.0 ],
+					"text" : "r #0channel2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 688.0, 70.0, 20.0 ],
+					"text" : "r #0channel3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 960.0, 70.0, 20.0 ],
+					"text" : "r #0channel4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 112.0, 1456.0, 31.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -51,9 +110,10 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Randomize.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 8.0, 1224.0, 576.0, 168.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 1248.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 672.0, 632.0, 168.0 ],
 					"varname" : "Sidewinder_Randomize",
@@ -70,7 +130,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 400.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 408.0, 46.0, 20.0 ],
 					"text" : "r #0play"
 				}
 
@@ -84,7 +144,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 672.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 688.0, 46.0, 20.0 ],
 					"text" : "r #0play"
 				}
 
@@ -98,7 +158,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 944.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 960.0, 46.0, 20.0 ],
 					"text" : "r #0play"
 				}
 
@@ -175,7 +235,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 1152.0, 33.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1176.0, 33.0, 20.0 ],
 					"text" : "pack"
 				}
 
@@ -186,7 +246,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 1184.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1208.0, 51.0, 20.0 ],
 					"text" : "s #0note"
 				}
 
@@ -207,7 +267,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 968.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 992.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 504.0, 632.0, 168.0 ],
 					"varname" : "Sidewinder_Module_4",
@@ -222,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 884.0, 33.0, 20.0 ],
+					"patching_rect" : [ 8.0, 900.0, 33.0, 20.0 ],
 					"text" : "pack"
 				}
 
@@ -233,7 +293,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 912.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 928.0, 51.0, 20.0 ],
 					"text" : "s #0note"
 				}
 
@@ -254,7 +314,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 700.0, 576.0, 164.0 ],
+					"patching_rect" : [ 8.0, 716.0, 576.0, 164.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 336.0, 632.0, 168.0 ],
 					"varname" : "Sidewinder_Module_3",
@@ -269,7 +329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 608.0, 33.0, 20.0 ],
+					"patching_rect" : [ 8.0, 624.0, 33.0, 20.0 ],
 					"text" : "pack"
 				}
 
@@ -280,7 +340,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 640.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 656.0, 51.0, 20.0 ],
 					"text" : "s #0note"
 				}
 
@@ -301,7 +361,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 424.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 440.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 168.0, 632.0, 168.0 ],
 					"varname" : "Sidewinder_Module_2",
@@ -317,7 +377,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 1512.0, 30.0, 30.0 ]
+					"patching_rect" : [ 56.0, 1560.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -328,7 +388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 1480.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1528.0, 46.0, 20.0 ],
 					"text" : "unpack"
 				}
 
@@ -340,7 +400,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 1448.0, 49.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1496.0, 49.0, 20.0 ],
 					"text" : "r #0note"
 				}
 
@@ -352,7 +412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 344.0, 33.0, 20.0 ],
+					"patching_rect" : [ 8.0, 352.0, 33.0, 20.0 ],
 					"text" : "pack"
 				}
 
@@ -365,7 +425,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 1512.0, 30.0, 30.0 ]
+					"patching_rect" : [ 8.0, 1560.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -375,7 +435,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 368.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 376.0, 51.0, 20.0 ],
 					"text" : "s #0note"
 				}
 
@@ -396,7 +456,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 8.0, 160.0, 576.0, 168.0 ],
+					"patching_rect" : [ 8.0, 168.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 632.0, 168.0 ],
 					"varname" : "Sidewinder_Module_1",
@@ -513,6 +573,27 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -540,6 +621,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -549,6 +637,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -645,6 +740,13 @@
 			"obj-21::obj-81" : [ "Velocity[3]", "Velocity", 0 ],
 			"obj-21::obj-84" : [ "Mode[3]", "Mode", 0 ],
 			"obj-21::obj-86" : [ "Stored_Mode[3]", "Stored_Mode", 0 ],
+			"obj-7::obj-1" : [ "live.text[12]", "live.text", 0 ],
+			"obj-7::obj-10" : [ "live.text[8]", "live.text[2]", 0 ],
+			"obj-7::obj-11" : [ "live.text[13]", "live.text[2]", 0 ],
+			"obj-7::obj-6" : [ "live.text[11]", "live.text[1]", 0 ],
+			"obj-7::obj-7" : [ "Velocity Amount", "Amount", 0 ],
+			"obj-7::obj-8" : [ "live.text[10]", "live.text[2]", 0 ],
+			"obj-7::obj-9" : [ "live.text[9]", "live.text[2]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -776,6 +878,30 @@
 ,
 				"obj-21::obj-84" : 				{
 					"parameter_longname" : "Mode[3]"
+				}
+,
+				"obj-7::obj-1" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-7::obj-10" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-7::obj-11" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-7::obj-6" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-7::obj-8" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-7::obj-9" : 				{
+					"parameter_longname" : "live.text[9]"
 				}
 
 			}
