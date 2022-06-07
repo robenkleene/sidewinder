@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 415.0, 517.0, 640.0, 480.0 ],
+						"rect" : [ 706.0, 371.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -96,6 +96,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -115,8 +116,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 60.0, 270.0, 115.0, 22.0 ],
-									"text" : "prepend set velocity"
+									"patching_rect" : [ 60.0, 270.0, 175.0, 22.0 ],
+									"text" : "prepend set randomize velocity"
 								}
 
 							}
