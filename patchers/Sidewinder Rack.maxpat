@@ -445,7 +445,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 56.0, 8.0, 217.0, 20.0 ],
-					"restore" : [ 4.0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
@@ -546,7 +546,7 @@
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"offset" : [ 0.0, -672.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 8.0, 200.0, 576.0, 168.0 ],
 					"presentation" : 1,
