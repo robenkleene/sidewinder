@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 116.0, 81.0, 626.0, 168.0 ],
+		"openrect" : [ 116.0, 81.0, 626.0, 132.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,46 @@
 		"subpatcher_template" : "max-for-live",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 160.0, 59.0, 20.0 ],
+					"text" : "randomize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 160.0, 136.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 144.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text[13]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text[13]",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "R",
+					"varname" : "live.text[3]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "newobj",
@@ -166,7 +206,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
@@ -194,7 +234,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[8]",
+							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
@@ -219,7 +259,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 8.0, 8.0, 24.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 144.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 128.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "R" ],
@@ -405,7 +445,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 56.0, 8.0, 217.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 4.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
@@ -506,7 +546,7 @@
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ 0.0, -672.0 ],
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 8.0, 200.0, 576.0, 168.0 ],
 					"presentation" : 1,
@@ -582,8 +622,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -660,15 +714,16 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "Selected_Rack", "Selected_Rack", 0 ],
-			"obj-11" : [ "live.text[8]", "live.text[8]", 0 ],
-			"obj-13" : [ "live.text[9]", "live.text[8]", 0 ],
+			"obj-11" : [ "live.text[12]", "live.text[8]", 0 ],
+			"obj-13" : [ "live.text[11]", "live.text[8]", 0 ],
 			"obj-17" : [ "live.text[10]", "live.text[10]", 0 ],
+			"obj-20" : [ "live.text[13]", "live.text[13]", 0 ],
 			"obj-27" : [ "Stored_Play", "Stored_Play", 0 ],
 			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
 			"obj-8::obj-13::obj-11" : [ "Rotate[1]", "Rotate", 0 ],
 			"obj-8::obj-13::obj-25" : [ "On[1]", "On", 0 ],
 			"obj-8::obj-13::obj-28" : [ "Duration[1]", "Duration", 0 ],
-			"obj-8::obj-13::obj-31" : [ "Stored_Play[3]", "Stored_Play", 0 ],
+			"obj-8::obj-13::obj-31" : [ "Stored_Play[3]", "Stored_On", 0 ],
 			"obj-8::obj-13::obj-32" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"obj-8::obj-13::obj-33" : [ "Stored_Sequencer[1]", "Stored_Sequencer", 0 ],
 			"obj-8::obj-13::obj-43" : [ "Stored_Velocity[3]", "Stored_Velocity", 0 ],
@@ -689,7 +744,7 @@
 			"obj-8::obj-18::obj-11" : [ "Rotate[2]", "Rotate", 0 ],
 			"obj-8::obj-18::obj-25" : [ "On[2]", "On", 0 ],
 			"obj-8::obj-18::obj-28" : [ "Duration[2]", "Duration", 0 ],
-			"obj-8::obj-18::obj-31" : [ "Stored_Play[5]", "Stored_Play", 0 ],
+			"obj-8::obj-18::obj-31" : [ "Stored_Play[5]", "Stored_On", 0 ],
 			"obj-8::obj-18::obj-32" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
 			"obj-8::obj-18::obj-33" : [ "Stored_Sequencer[2]", "Stored_Sequencer", 0 ],
 			"obj-8::obj-18::obj-43" : [ "Stored_Velocity[5]", "Stored_Velocity", 0 ],
@@ -710,7 +765,7 @@
 			"obj-8::obj-1::obj-11" : [ "Rotate", "Rotate", 0 ],
 			"obj-8::obj-1::obj-25" : [ "On", "On", 0 ],
 			"obj-8::obj-1::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-8::obj-1::obj-31" : [ "Stored_Play[4]", "Stored_Play", 0 ],
+			"obj-8::obj-1::obj-31" : [ "Stored_Play[4]", "Stored_On", 0 ],
 			"obj-8::obj-1::obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-8::obj-1::obj-33" : [ "Stored_Sequencer", "Stored_Sequencer", 0 ],
 			"obj-8::obj-1::obj-43" : [ "Stored_Velocity[4]", "Stored_Velocity", 0 ],
@@ -731,7 +786,7 @@
 			"obj-8::obj-21::obj-11" : [ "Rotate[3]", "Rotate", 0 ],
 			"obj-8::obj-21::obj-25" : [ "On[3]", "On", 0 ],
 			"obj-8::obj-21::obj-28" : [ "Duration[3]", "Duration", 0 ],
-			"obj-8::obj-21::obj-31" : [ "Stored_Play[6]", "Stored_Play", 0 ],
+			"obj-8::obj-21::obj-31" : [ "Stored_Play[6]", "Stored_On", 0 ],
 			"obj-8::obj-21::obj-32" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
 			"obj-8::obj-21::obj-33" : [ "Stored_Sequencer[3]", "Stored_Sequencer", 0 ],
 			"obj-8::obj-21::obj-43" : [ "Stored_Velocity[6]", "Stored_Velocity", 0 ],
@@ -749,6 +804,13 @@
 			"obj-8::obj-21::obj-81" : [ "Velocity[3]", "Velocity", 0 ],
 			"obj-8::obj-21::obj-84" : [ "Mode[3]", "Mode", 0 ],
 			"obj-8::obj-21::obj-86" : [ "Stored_Mode[3]", "Stored_Mode", 0 ],
+			"obj-8::obj-7::obj-1" : [ "live.text[9]", "live.text", 0 ],
+			"obj-8::obj-7::obj-10" : [ "live.text[4]", "live.text[2]", 0 ],
+			"obj-8::obj-7::obj-11" : [ "live.text[6]", "live.text[2]", 0 ],
+			"obj-8::obj-7::obj-6" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-8::obj-7::obj-7" : [ "Velocity Amount", "Amount", 0 ],
+			"obj-8::obj-7::obj-8" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-8::obj-7::obj-9" : [ "live.text[8]", "live.text[2]", 0 ],
 			"obj-9" : [ "Play", "Play", 0 ],
 			"parameterbanks" : 			{
 
@@ -873,6 +935,18 @@
 ,
 				"obj-8::obj-21::obj-84" : 				{
 					"parameter_longname" : "Mode[3]"
+				}
+,
+				"obj-8::obj-7::obj-1" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-8::obj-7::obj-11" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-8::obj-7::obj-9" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 
 			}
