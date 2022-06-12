@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 671.0, 100.0, 696.0, 972.0 ],
+		"rect" : [ 311.0, 100.0, 900.0, 972.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -900,13 +900,19 @@
 			"obj-21::obj-81" : [ "Velocity[3]", "Velocity", 0 ],
 			"obj-21::obj-84" : [ "Mode[3]", "Mode", 0 ],
 			"obj-21::obj-86" : [ "Stored_Mode[3]", "Stored_Mode", 0 ],
-			"obj-7::obj-1" : [ "live.text[12]", "live.text", 0 ],
-			"obj-7::obj-10" : [ "live.text[8]", "live.text[2]", 0 ],
+			"obj-7::obj-1" : [ "live.text[15]", "live.text", 0 ],
+			"obj-7::obj-10" : [ "live.text[10]", "live.text[2]", 0 ],
 			"obj-7::obj-11" : [ "live.text[13]", "live.text[2]", 0 ],
-			"obj-7::obj-6" : [ "live.text[11]", "live.text[1]", 0 ],
-			"obj-7::obj-7" : [ "Velocity Amount", "Amount", 0 ],
-			"obj-7::obj-8" : [ "live.text[10]", "live.text[2]", 0 ],
-			"obj-7::obj-9" : [ "live.text[9]", "live.text[2]", 0 ],
+			"obj-7::obj-15" : [ "live.text[9]", "live.text[6]", 0 ],
+			"obj-7::obj-16" : [ "live.text[8]", "live.text[7]", 0 ],
+			"obj-7::obj-53::obj-1" : [ "Pulses[4]", "Pulses", 0 ],
+			"obj-7::obj-53::obj-2" : [ "Steps[4]", "Steps", 0 ],
+			"obj-7::obj-53::obj-66" : [ "Stored_Pulses[4]", "Stored_Pulses", 0 ],
+			"obj-7::obj-53::obj-67" : [ "Stored_Steps[4]", "Stored_Steps", 0 ],
+			"obj-7::obj-6" : [ "live.text[14]", "live.text[1]", 0 ],
+			"obj-7::obj-7" : [ "Velocity Amount", "Velocity", 0 ],
+			"obj-7::obj-8" : [ "live.text[12]", "live.text[2]", 0 ],
+			"obj-7::obj-9" : [ "live.text[11]", "live.text[2]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1041,27 +1047,47 @@
 				}
 ,
 				"obj-7::obj-1" : 				{
-					"parameter_longname" : "live.text[12]"
+					"parameter_longname" : "live.text[15]"
 				}
 ,
 				"obj-7::obj-10" : 				{
-					"parameter_longname" : "live.text[8]"
+					"parameter_longname" : "live.text[10]"
 				}
 ,
 				"obj-7::obj-11" : 				{
 					"parameter_longname" : "live.text[13]"
 				}
 ,
+				"obj-7::obj-15" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-7::obj-16" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-7::obj-53::obj-1" : 				{
+					"parameter_longname" : "Pulses[4]"
+				}
+,
+				"obj-7::obj-53::obj-2" : 				{
+					"parameter_longname" : "Steps[4]"
+				}
+,
 				"obj-7::obj-6" : 				{
-					"parameter_longname" : "live.text[11]"
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-7::obj-7" : 				{
+					"parameter_longname" : "Velocity Amount"
 				}
 ,
 				"obj-7::obj-8" : 				{
-					"parameter_longname" : "live.text[10]"
+					"parameter_longname" : "live.text[12]"
 				}
 ,
 				"obj-7::obj-9" : 				{
-					"parameter_longname" : "live.text[9]"
+					"parameter_longname" : "live.text[11]"
 				}
 
 			}

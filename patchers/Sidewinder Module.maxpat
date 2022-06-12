@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 344.0, 476.0, 734.0, 406.0 ],
+		"rect" : [ 132.0, 407.0, 1320.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 992.0, 80.0, 29.5, 20.0 ],
+					"patching_rect" : [ 920.0, 160.0, 29.5, 20.0 ],
 					"text" : "+"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1080.0, 48.0, 31.0, 20.0 ],
+					"patching_rect" : [ 936.0, 128.0, 31.0, 20.0 ],
 					"text" : "/ 127"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 992.0, 112.0, 108.0, 20.0 ],
+					"patching_rect" : [ 920.0, 184.0, 108.0, 20.0 ],
 					"text" : "pattrforward Velocity"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1080.0, 16.0, 114.0, 20.0 ],
+					"patching_rect" : [ 936.0, 104.0, 114.0, 20.0 ],
 					"restore" : [ 127.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -97,11 +97,11 @@
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 992.0, 48.0, 74.0, 20.0 ],
-					"text" : "route velocity"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 920.0, 48.0, 137.0, 20.0 ],
+					"text" : "route velocity pulses steps"
 				}
 
 			}
@@ -112,7 +112,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 992.0, 16.0, 63.0, 20.0 ],
+					"patching_rect" : [ 920.0, 16.0, 63.0, 20.0 ],
 					"text" : "r #0random"
 				}
 
