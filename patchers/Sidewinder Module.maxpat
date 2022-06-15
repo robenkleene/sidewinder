@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 186.0, 1660.0, 599.0 ],
+		"rect" : [ 49.0, 454.0, 1660.0, 599.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -44,8 +44,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 200.0, 54.0, 20.0 ],
-					"text" : "s #0steps"
+					"patching_rect" : [ 24.0, 200.0, 80.0, 20.0 ],
+					"text" : "s #0stepsvalue"
 				}
 
 			}
@@ -55,8 +55,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 176.0, 60.0, 20.0 ],
-					"text" : "s #0pulses"
+					"patching_rect" : [ 24.0, 176.0, 85.0, 20.0 ],
+					"text" : "s #0pulsesvalue"
 				}
 
 			}
