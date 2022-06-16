@@ -905,6 +905,8 @@
 			"obj-7::obj-11" : [ "live.text[13]", "live.text[2]", 0 ],
 			"obj-7::obj-15" : [ "live.text[9]", "live.text[6]", 0 ],
 			"obj-7::obj-16" : [ "live.text[8]", "live.text[7]", 0 ],
+			"obj-7::obj-21" : [ "Rotate[4]", "Rotate", 0 ],
+			"obj-7::obj-25" : [ "live.text[16]", "live.text[8]", 0 ],
 			"obj-7::obj-53::obj-1" : [ "Pulses[4]", "Pulses", 0 ],
 			"obj-7::obj-53::obj-2" : [ "Steps[4]", "Steps", 0 ],
 			"obj-7::obj-53::obj-66" : [ "Stored_Pulses[4]", "Stored_Pulses", 0 ],
@@ -1064,6 +1066,14 @@
 ,
 				"obj-7::obj-16" : 				{
 					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-7::obj-21" : 				{
+					"parameter_longname" : "Rotate[4]"
+				}
+,
+				"obj-7::obj-25" : 				{
+					"parameter_longname" : "live.text[16]"
 				}
 ,
 				"obj-7::obj-53::obj-1" : 				{
