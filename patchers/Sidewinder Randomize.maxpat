@@ -344,6 +344,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 615.0, 330.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 30.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -382,6 +384,8 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 690.0, 330.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 45.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Rotate",
