@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 857.0, 776.0 ],
+		"rect" : [ 34.0, 100.0, 624.0, 797.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1050.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 30.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 45.0, 120.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[2]",
@@ -395,7 +395,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 975.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 15.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 45.0, 105.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -732,7 +732,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 885.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 30.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 90.0, 120.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
@@ -771,7 +771,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 795.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 15.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 90.0, 105.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1096,7 +1096,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 405.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 15.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 45.0, 30.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1136,7 +1136,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 480.0, 315.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 30.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Rotate",
@@ -2612,7 +2612,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 690.0, 315.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 30.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 90.0, 45.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Velocity",
@@ -2637,7 +2637,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 615.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 15.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 90.0, 30.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
