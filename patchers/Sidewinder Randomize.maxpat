@@ -40,6 +40,146 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1110.0, 375.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 120.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Pitch_Wrap",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Pitch_Wrap",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Wrap",
+					"texton" : "Wrap",
+					"varname" : "Pitch_Wrap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 930.0, 375.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 90.0, 120.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Duration_Wrap",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Duration_Wrap",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Wrap",
+					"texton" : "Wrap",
+					"varname" : "Duration_Wrap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 735.0, 375.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 90.0, 30.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Velocity_Wrap",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Velocity_Wrap",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Wrap",
+					"texton" : "Wrap",
+					"varname" : "Velocity_Wrap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 525.0, 375.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 30.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Rotate_Wrap",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Rotate_Wrap",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Wrap",
+					"texton" : "Wrap",
+					"varname" : "Rotate_Wrap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 270.0, 420.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 45.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Steps_Pulses_Wrap",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Steps_Pulses_Wrap",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Wrap",
+					"texton" : "Wrap",
+					"varname" : "Steps_Pulses_Wrap"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1050.0, 285.0, 83.0, 22.0 ],
+					"patching_rect" : [ 1080.0, 285.0, 83.0, 22.0 ],
 					"text" : "loadmess 127"
 				}
 
@@ -70,9 +210,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1050.0, 315.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1080.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 120.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 45.0, 135.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Pitch",
@@ -349,7 +489,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 975.0, 375.0, 91.0, 22.0 ],
+					"patching_rect" : [ 1005.0, 375.0, 91.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -368,7 +508,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 975.0, 345.0, 32.0, 22.0 ],
+					"patching_rect" : [ 1005.0, 345.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -380,7 +520,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 975.0, 285.0, 70.0, 22.0 ],
+					"patching_rect" : [ 1005.0, 285.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -393,7 +533,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 975.0, 315.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1005.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 105.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -674,7 +814,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 795.0, 375.0, 109.0, 22.0 ],
+					"patching_rect" : [ 810.0, 375.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -705,7 +845,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 795.0, 345.0, 32.0, 22.0 ],
+					"patching_rect" : [ 810.0, 345.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -717,7 +857,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 795.0, 285.0, 70.0, 22.0 ],
+					"patching_rect" : [ 810.0, 285.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -730,9 +870,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 885.0, 315.0, 44.0, 15.0 ],
+					"patching_rect" : [ 900.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 120.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 90.0, 135.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Duration",
@@ -756,7 +896,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 885.0, 285.0, 70.0, 22.0 ],
+					"patching_rect" : [ 900.0, 285.0, 70.0, 22.0 ],
 					"text" : "loadmess 8"
 				}
 
@@ -769,7 +909,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 795.0, 315.0, 44.0, 15.0 ],
+					"patching_rect" : [ 810.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 105.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1096,7 +1236,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 405.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 30.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 45.0, 15.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1737,7 +1877,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 195.0, 315.0, 40.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 45.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 0.0, 60.0, 40.0, 96.0 ],
 					"varname" : "Pulses_Steps",
 					"viewvisibility" : 1
 				}
@@ -2637,7 +2777,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 615.0, 315.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 30.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 90.0, 15.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -3087,6 +3227,11 @@
 			"obj-30" : [ "Randomize_Duration", "Randomize_Duration", 0 ],
 			"obj-33" : [ "Duration", "Duration", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
+			"obj-44" : [ "Steps_Pulses_Wrap", "Steps_Pulses_Wrap", 0 ],
+			"obj-45" : [ "Rotate_Wrap", "Rotate_Wrap", 0 ],
+			"obj-46" : [ "Velocity_Wrap", "Velocity_Wrap", 0 ],
+			"obj-47" : [ "Duration_Wrap", "Duration_Wrap", 0 ],
+			"obj-48" : [ "Pitch_Wrap", "Pitch_Wrap", 0 ],
 			"obj-49" : [ "Pitch", "Pitch", 0 ],
 			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
 			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
