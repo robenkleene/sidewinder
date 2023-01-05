@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1218.0, 879.0 ],
+		"rect" : [ 34.0, 100.0, 1262.0, 882.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,18 +64,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-57",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 195.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -100,17 +88,17 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Pitch_Wrap",
+							"parameter_longname" : "Pitch_Inc",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Pitch_Wrap",
+							"parameter_shortname" : "Pitch_Inc",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Wrap",
-					"texton" : "Wrap",
-					"varname" : "Pitch_Wrap"
+					"text" : "Inc",
+					"texton" : "Inc",
+					"varname" : "Pitch_Inc"
 				}
 
 			}
@@ -128,17 +116,17 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Duration_Wrap",
+							"parameter_longname" : "Duration_Inc",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Duration_Wrap",
+							"parameter_shortname" : "Duration_Inc",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Wrap",
-					"texton" : "Wrap",
-					"varname" : "Duration_Wrap"
+					"text" : "Inc",
+					"texton" : "Inc",
+					"varname" : "Duration_Inc"
 				}
 
 			}
@@ -156,17 +144,17 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Velocity_Wrap",
+							"parameter_longname" : "Velocity_Inc",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Velocity_Wrap",
+							"parameter_shortname" : "Velocity_Inc",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Wrap",
-					"texton" : "Wrap",
-					"varname" : "Velocity_Wrap"
+					"text" : "Inc",
+					"texton" : "Inc",
+					"varname" : "Velocity_Inc"
 				}
 
 			}
@@ -184,17 +172,17 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Rotate_Wrap",
+							"parameter_longname" : "Rotate_Inc",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Rotate_Wrap",
+							"parameter_shortname" : "Rotate_Inc",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Wrap",
-					"texton" : "Wrap",
-					"varname" : "Rotate_Wrap"
+					"text" : "Inc",
+					"texton" : "Inc",
+					"varname" : "Rotate_Inc"
 				}
 
 			}
@@ -212,17 +200,17 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Steps_Pulses_Wrap",
+							"parameter_longname" : "Steps_Pulses_Inc",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Steps_Pulses_Wrap",
+							"parameter_shortname" : "Steps_Pulses_Inc",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Wrap",
-					"texton" : "Wrap",
-					"varname" : "Steps_Pulses_Wrap"
+					"text" : "Inc",
+					"texton" : "Inc",
+					"varname" : "Steps_Pulses_Inc"
 				}
 
 			}
@@ -3251,13 +3239,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-59", 0 ]
 				}
@@ -3317,11 +3298,11 @@
 			"obj-30" : [ "Randomize_Duration", "Randomize_Duration", 0 ],
 			"obj-33" : [ "Duration", "Duration", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
-			"obj-44" : [ "Steps_Pulses_Wrap", "Steps_Pulses_Wrap", 0 ],
-			"obj-45" : [ "Rotate_Wrap", "Rotate_Wrap", 0 ],
-			"obj-46" : [ "Velocity_Wrap", "Velocity_Wrap", 0 ],
-			"obj-47" : [ "Duration_Wrap", "Duration_Wrap", 0 ],
-			"obj-48" : [ "Pitch_Wrap", "Pitch_Wrap", 0 ],
+			"obj-44" : [ "Steps_Pulses_Inc", "Steps_Pulses_Inc", 0 ],
+			"obj-45" : [ "Rotate_Inc", "Rotate_Inc", 0 ],
+			"obj-46" : [ "Velocity_Inc", "Velocity_Inc", 0 ],
+			"obj-47" : [ "Duration_Inc", "Duration_Inc", 0 ],
+			"obj-48" : [ "Pitch_Inc", "Pitch_Inc", 0 ],
 			"obj-49" : [ "Pitch", "Pitch", 0 ],
 			"obj-53::obj-1" : [ "Pulses", "Pulses", 0 ],
 			"obj-53::obj-2" : [ "Steps", "Steps", 0 ],
