@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 64.0, 179.0, 1394.0, 814.0 ],
+		"rect" : [ 276.0, 138.0, 1394.0, 814.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 792.0, 320.0, 31.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 920.0, 224.0, 81.0, 20.0 ],
+					"text" : "sidewinder_inc"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-101",
 					"maxclass" : "newobj",
@@ -297,20 +320,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1040.0, 232.0, 29.5, 20.0 ],
-					"text" : "+"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 920.0, 232.0, 29.5, 20.0 ],
-					"text" : "+"
+					"patching_rect" : [ 1040.0, 224.0, 81.0, 20.0 ],
+					"text" : "sidewinder_inc"
 				}
 
 			}
@@ -321,7 +332,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1056.0, 208.0, 78.0, 20.0 ],
+					"patching_rect" : [ 1056.0, 192.0, 78.0, 20.0 ],
 					"text" : "r #0stepsvalue"
 				}
 
@@ -333,7 +344,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 936.0, 208.0, 84.0, 20.0 ],
+					"patching_rect" : [ 936.0, 192.0, 84.0, 20.0 ],
 					"text" : "r #0pulsesvalue"
 				}
 
@@ -2724,14 +2735,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
+					"order" : 0,
 					"source" : [ "obj-42", 1 ]
 				}
 
@@ -2754,6 +2759,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-42", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"order" : 1,
+					"source" : [ "obj-42", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"order" : 1,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"order" : 0,
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -2841,7 +2870,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 1 ],
+					"destination" : [ "obj-83", 1 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -2871,13 +2900,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -3009,6 +3031,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-84", 0 ]
 				}
@@ -3119,6 +3148,13 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_inc.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

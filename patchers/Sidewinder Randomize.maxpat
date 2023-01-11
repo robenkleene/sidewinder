@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 300.0, 42.0, 22.0 ],
+					"patching_rect" : [ 120.0, 300.0, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 330.0, 67.0, 22.0 ],
+					"patching_rect" : [ 150.0, 330.0, 67.0, 22.0 ],
 					"text" : "append inc"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 75.0, 255.0, 29.5, 22.0 ],
+					"patching_rect" : [ 120.0, 270.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -194,7 +194,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 75.0, 225.0, 44.0, 15.0 ],
+					"patching_rect" : [ 120.0, 240.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 45.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1334,7 +1334,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 555.0, 32.0, 22.0 ],
+					"patching_rect" : [ 150.0, 630.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -1346,7 +1346,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 555.0, 32.0, 22.0 ],
+					"patching_rect" : [ 105.0, 630.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -1810,7 +1810,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 435.0, 70.0, 22.0 ],
+					"patching_rect" : [ 45.0, 525.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1823,7 +1823,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 75.0, 480.0, 44.0, 15.0 ],
+					"patching_rect" : [ 45.0, 570.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 30.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1851,7 +1851,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 135.0, 480.0, 44.0, 15.0 ],
+					"patching_rect" : [ 150.0, 570.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 15.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
