@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-3",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 330.0, 30.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -141,9 +154,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 180.0, 420.0, 32.0, 22.0 ],
-					"text" : "/ 32."
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 180.0, 420.0, 29.5, 22.0 ],
+					"text" : "/"
 				}
 
 			}
@@ -156,18 +169,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 30.0, 465.0, 29.5, 22.0 ],
 					"text" : "* 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 555.0, 110.0, 22.0 ],
-					"text" : "prepend set pulses"
 				}
 
 			}
@@ -205,7 +206,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 105.0, 375.0, 29.5, 22.0 ],
-					"text" : "- 32"
+					"text" : "-"
 				}
 
 			}
@@ -238,7 +239,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -301,15 +302,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
-					"source" : [ "obj-4", 0 ]
+					"destination" : [ "obj-10", 1 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-20", 1 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
