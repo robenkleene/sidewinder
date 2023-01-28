@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1276.0, 950.0 ],
+		"rect" : [ 34.0, 100.0, 1110.0, 950.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 495.0, 130.0, 22.0 ],
-					"text" : "sidewinder_inc_concat"
+					"patching_rect" : [ 240.0, 495.0, 155.0, 22.0 ],
+					"text" : "sidewinder_random_concat"
 				}
 
 			}
@@ -245,8 +245,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 540.0, 135.0, 22.0 ],
-					"text" : "sidewinder_inc_append"
+					"patching_rect" : [ 45.0, 540.0, 160.0, 22.0 ],
+					"text" : "sidewinder_random_append"
 				}
 
 			}
@@ -257,8 +257,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 615.0, 135.0, 22.0 ],
-					"text" : "sidewinder_inc_append"
+					"patching_rect" : [ 240.0, 615.0, 160.0, 22.0 ],
+					"text" : "sidewinder_random_append"
 				}
 
 			}
@@ -3114,14 +3114,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "sidewinder_inc_append.maxpat",
+				"name" : "sidewinder_random_append.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_inc_concat.maxpat",
+				"name" : "sidewinder_random_concat.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
