@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 756.0, 137.0, 640.0, 480.0 ],
+		"rect" : [ 756.0, 137.0, 458.0, 763.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Succeeding message to concat",
 					"id" : "obj-2",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Preceding message to concat",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
