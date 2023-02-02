@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "Message to modify",
+					"comment" : "Message to decorate",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : ">0 to append inc",
+					"comment" : ">0 to open gate to output message",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",

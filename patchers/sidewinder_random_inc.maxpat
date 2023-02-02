@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 296.0, 100.0, 1230.0, 834.0 ],
+		"rect" : [ 774.0, 268.0, 968.0, 834.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,7 +101,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : ">0 Outputs message",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -187,7 +187,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Bang outputs value",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",

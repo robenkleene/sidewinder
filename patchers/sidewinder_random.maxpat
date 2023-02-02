@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 732.0, 193.0, 994.0, 721.0 ],
+		"rect" : [ 407.0, 300.0, 994.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -115,7 +115,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : ">0 to open gate to output message",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -128,7 +128,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : ">0 Open gate to output message",
 					"id" : "obj-2",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -141,7 +141,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Message to decorate",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
