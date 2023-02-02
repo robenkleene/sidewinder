@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 587.0, 191.0, 640.0, 480.0 ],
+		"rect" : [ 587.0, 191.0, 825.0, 813.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Message to modify",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : ">0 to append inc",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
