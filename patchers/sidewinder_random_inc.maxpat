@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 774.0, 268.0, 968.0, 834.0 ],
+		"rect" : [ 686.0, 179.0, 706.0, 834.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "int: Max value",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 30.0, 30.0, 30.0 ]
+					"patching_rect" : [ 240.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -94,21 +94,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 255.0, 90.0, 29.5, 22.0 ],
+					"patching_rect" : [ 75.0, 105.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : ">0 Outputs message",
+					"comment" : ">0 to include negative numbers",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 30.0, 30.0, 30.0 ]
+					"patching_rect" : [ 75.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -174,7 +174,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "int: Current value",
 					"id" : "obj-2",
 					"index" : 0,
 					"maxclass" : "inlet",
