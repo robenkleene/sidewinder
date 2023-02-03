@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : ">0 to open gate to output message",
+					"comment" : "Non-zero opens gate",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",

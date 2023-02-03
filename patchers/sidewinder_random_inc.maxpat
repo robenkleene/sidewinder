@@ -101,7 +101,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : ">0 to include negative numbers",
+					"comment" : "Non-zero includes negative numbers",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "inlet",
