@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 407.0, 300.0, 994.0, 721.0 ],
+		"rect" : [ 386.0, 233.0, 470.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "message: Message to prepend",
 					"id" : "obj-7",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -89,7 +89,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "int: Max value",
 					"id" : "obj-5",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -102,20 +102,20 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Non-zero opens gate",
 					"id" : "obj-4",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 60.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : ">0 to open gate to output message",
+					"comment" : "Non-zero includes negative numbers",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -128,14 +128,14 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : ">0 Open gate to output message",
+					"comment" : "int: Current value",
 					"id" : "obj-2",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 150.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -234,7 +234,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 1 ],
+					"destination" : [ "obj-62", 2 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -256,7 +256,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 2 ],
+					"destination" : [ "obj-62", 1 ],
 					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
