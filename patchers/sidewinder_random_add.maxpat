@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 567.0, 229.0, 890.0, 854.0 ],
+		"rect" : [ 464.0, 229.0, 890.0, 854.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Initial value",
 					"id" : "obj-4",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -101,7 +101,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "New value, precede with inc to adjust initial value",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
