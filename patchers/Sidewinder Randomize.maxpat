@@ -805,6 +805,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Rotate",
+							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "Rotate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
