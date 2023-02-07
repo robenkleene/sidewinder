@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 147.0, 1128.0, 814.0 ],
+		"rect" : [ 34.0, 147.0, 1641.0, 814.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -177,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1424.0, 232.0, 29.5, 20.0 ],
+					"patching_rect" : [ 1432.0, 232.0, 29.5, 20.0 ],
 					"text" : "+"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1424.0, 264.0, 111.0, 20.0 ],
+					"patching_rect" : [ 1432.0, 264.0, 111.0, 20.0 ],
 					"text" : "pattrforward Duration"
 				}
 
@@ -201,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1440.0, 208.0, 118.0, 20.0 ],
+					"patching_rect" : [ 1448.0, 192.0, 118.0, 20.0 ],
 					"restore" : [ 4.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -220,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1168.0, 224.0, 29.5, 20.0 ],
+					"patching_rect" : [ 1176.0, 224.0, 29.5, 20.0 ],
 					"text" : "+"
 				}
 
@@ -232,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1168.0, 264.0, 101.0, 20.0 ],
+					"patching_rect" : [ 1176.0, 264.0, 101.0, 20.0 ],
 					"text" : "pattrforward Rotate"
 				}
 
@@ -244,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1184.0, 192.0, 108.0, 20.0 ],
+					"patching_rect" : [ 1192.0, 192.0, 108.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -309,7 +309,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1040.0, 224.0, 126.0, 20.0 ],
+					"patching_rect" : [ 1048.0, 224.0, 126.0, 20.0 ],
 					"text" : "sidewinder_random_add"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1056.0, 192.0, 78.0, 20.0 ],
+					"patching_rect" : [ 1064.0, 192.0, 78.0, 20.0 ],
 					"text" : "r #0stepsvalue"
 				}
 
@@ -344,7 +344,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1040.0, 264.0, 54.0, 20.0 ],
+					"patching_rect" : [ 1048.0, 264.0, 54.0, 20.0 ],
 					"text" : "s #0steps"
 				}
 
@@ -367,7 +367,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1288.0, 224.0, 29.5, 20.0 ],
+					"patching_rect" : [ 1296.0, 224.0, 29.5, 20.0 ],
 					"text" : "+"
 				}
 
@@ -379,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1288.0, 264.0, 108.0, 20.0 ],
+					"patching_rect" : [ 1296.0, 264.0, 108.0, 20.0 ],
 					"text" : "pattrforward Velocity"
 				}
 
@@ -391,7 +391,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1304.0, 192.0, 114.0, 20.0 ],
+					"patching_rect" : [ 1312.0, 192.0, 114.0, 20.0 ],
 					"restore" : [ 127.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -410,7 +410,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 920.0, 48.0, 210.0, 20.0 ],
+					"patching_rect" : [ 920.0, 48.0, 656.0, 20.0 ],
 					"text" : "route pulses steps rotate velocity duration"
 				}
 
