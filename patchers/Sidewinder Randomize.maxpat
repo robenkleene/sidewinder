@@ -130,7 +130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1335.0, 405.0, 53.0, 22.0 ],
-					"text" : "set pitch"
+					"text" : "pitch"
 				}
 
 			}
@@ -153,8 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1095.0, 405.0, 71.0, 22.0 ],
-					"text" : "set duration"
+					"patching_rect" : [ 1095.0, 405.0, 52.0, 22.0 ],
+					"text" : "duration"
 				}
 
 			}
@@ -177,8 +177,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.0, 405.0, 68.0, 22.0 ],
-					"text" : "set velocity"
+					"patching_rect" : [ 840.0, 405.0, 49.0, 22.0 ],
+					"text" : "velocity"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 615.0, 405.0, 59.0, 22.0 ],
-					"text" : "set rotate"
+					"text" : "rotate"
 				}
 
 			}
@@ -249,8 +249,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 405.0, 63.0, 22.0 ],
-					"text" : "set pulses"
+					"patching_rect" : [ 390.0, 405.0, 43.0, 22.0 ],
+					"text" : "pulses"
 				}
 
 			}
@@ -286,7 +286,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 405.0, 57.0, 22.0 ],
-					"text" : "set steps"
+					"text" : "steps"
 				}
 
 			}
