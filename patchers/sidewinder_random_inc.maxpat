@@ -154,9 +154,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 180.0, 420.0, 29.5, 22.0 ],
-					"text" : "/"
+					"text" : "/ 1."
 				}
 
 			}
