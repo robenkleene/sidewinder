@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.0, 570.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-29",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Sidewinder Min-Max.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 180.0, 480.0, 45.0, 105.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 180.0, 480.0, 45.0, 105.0 ],
+					"varname" : "Sidewinder Min-Max",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -377,32 +413,6 @@
 					}
 ,
 					"varname" : "Steps"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-59",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 120.0, 375.0, 41.0, 48.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 45.0, 41.0, 48.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "Pulses[1]",
-							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "Pulses",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "Pulses"
 				}
 
 			}
@@ -1645,16 +1655,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"order" : 1,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 4 ],
-					"order" : 0,
+					"destination" : [ "obj-29", 1 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -1716,6 +1717,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 4 ],
+					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 3 ],
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -1841,6 +1856,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-37", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -2004,13 +2026,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 3 ],
-					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -2137,6 +2152,10 @@
 			"obj-16" : [ "Randomize_Steps", "Randomize_Steps", 0 ],
 			"obj-21" : [ "Rotate", "Rotate", 0 ],
 			"obj-25" : [ "Randomize_Rotate", "Randomize_Rotate", 0 ],
+			"obj-29::obj-1" : [ "Min", "Min", 0 ],
+			"obj-29::obj-2" : [ "Max", "Max", 0 ],
+			"obj-29::obj-66" : [ "Stored_Min", "Stored_Min", 0 ],
+			"obj-29::obj-67" : [ "Stored_Max", "Stored_Max", 0 ],
 			"obj-30" : [ "Randomize_Duration", "Randomize_Duration", 0 ],
 			"obj-33" : [ "Duration", "Duration", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
@@ -2147,7 +2166,6 @@
 			"obj-48" : [ "Pitch_Inc", "Pitch_Inc", 0 ],
 			"obj-49" : [ "Pitch", "Pitch", 0 ],
 			"obj-56" : [ "Steps[1]", "Steps", 0 ],
-			"obj-59" : [ "Pulses[1]", "Pulses", 0 ],
 			"obj-6" : [ "Randomize_Velocity", "Randomize_Velocity", 0 ],
 			"obj-64" : [ "Steps_Pulses_Inc[1]", "Steps_Pulses_Inc", 0 ],
 			"obj-7" : [ "Velocity", "Velocity", 0 ],
@@ -2166,6 +2184,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Sidewinder Min-Max.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sidewinder_random.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",

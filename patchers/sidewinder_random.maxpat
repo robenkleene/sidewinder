@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 180.0, 72.0, 22.0 ],
+					"patching_rect" : [ 390.0, 180.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 150.0, 57.0, 22.0 ],
+					"patching_rect" : [ 390.0, 150.0, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -71,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 390.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 330.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -128,14 +128,14 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "int: Current value",
+					"comment" : "int: Min value",
 					"id" : "obj-2",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 240.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -195,7 +195,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 60.0, 180.0, 195.0, 22.0 ],
+					"patching_rect" : [ 60.0, 180.0, 285.0, 22.0 ],
 					"text" : "sidewinder_random_inc"
 				}
 
