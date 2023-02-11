@@ -68,7 +68,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 180.0, 480.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 480.0, 45.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 45.0, 45.0, 105.0 ],
 					"varname" : "Sidewinder Min-Max",
 					"viewvisibility" : 1
 				}
