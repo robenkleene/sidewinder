@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 570.0, 70.0, 22.0 ],
+					"patching_rect" : [ 120.0, 285.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -66,7 +66,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 180.0, 480.0, 45.0, 105.0 ],
+					"patching_rect" : [ 120.0, 315.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 45.0, 45.0, 105.0 ],
 					"varname" : "Sidewinder Min-Max",
@@ -309,7 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 165.0, 375.0, 58.0, 22.0 ],
+					"patching_rect" : [ 180.0, 375.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 405.0, 57.0, 22.0 ],
+					"patching_rect" : [ 180.0, 405.0, 57.0, 22.0 ],
 					"text" : "steps"
 				}
 
@@ -914,7 +914,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 345.0, 77.0, 22.0 ],
+					"patching_rect" : [ 180.0, 315.0, 77.0, 22.0 ],
 					"text" : "loadmess 32"
 				}
 
