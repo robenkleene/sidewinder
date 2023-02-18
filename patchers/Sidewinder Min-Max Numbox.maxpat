@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 153.0, 173.0, 1097.0, 910.0 ],
+		"rect" : [ 516.0, 454.0, 323.0, 180.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -48,7 +48,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 8.0, 304.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[1]",
@@ -73,7 +73,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.0, 304.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 24.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",

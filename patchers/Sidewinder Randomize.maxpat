@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 202.0, 100.0, 561.0, 715.0 ],
+		"rect" : [ 202.0, 100.0, 1187.0, 865.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Sidewinder Min-Max Numbox.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1035.0, 375.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 285.0, 45.0, 45.0, 45.0 ],
+					"varname" : "Sidewinder Min-Max Numbox",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
@@ -777,40 +801,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1035.0, 405.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 45.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "Duration",
-							"parameter_mmax" : 8.0,
-							"parameter_mmin" : 1.0,
-							"parameter_shortname" : "Duration",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "Duration"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1080.0, 345.0, 70.0, 22.0 ],
-					"text" : "loadmess 8"
+					"patching_rect" : [ 1065.0, 300.0, 113.0, 22.0 ],
+					"text" : "loadmess setup 1 8"
 				}
 
 			}
@@ -1750,24 +1747,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 4 ],
-					"order" : 0,
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"order" : 1,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 3 ],
-					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -1870,6 +1851,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 1 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 4 ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 3 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -2184,7 +2179,6 @@
 			"obj-29::obj-66" : [ "Stored_Min", "Stored_Min", 0 ],
 			"obj-29::obj-67" : [ "Stored_Max", "Stored_Max", 0 ],
 			"obj-30" : [ "Randomize_Duration", "Randomize_Duration", 0 ],
-			"obj-33" : [ "Duration", "Duration", 0 ],
 			"obj-35::obj-1" : [ "Min[1]", "Min", 0 ],
 			"obj-35::obj-2" : [ "Max[1]", "Max", 0 ],
 			"obj-35::obj-66" : [ "Stored_Min[1]", "Stored_Min", 0 ],
@@ -2196,6 +2190,10 @@
 			"obj-47" : [ "Duration_Inc", "Duration_Inc", 0 ],
 			"obj-48" : [ "Pitch_Inc", "Pitch_Inc", 0 ],
 			"obj-49" : [ "Pitch", "Pitch", 0 ],
+			"obj-4::obj-6" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-4::obj-66" : [ "Stored_Min[4]", "Stored_Min", 0 ],
+			"obj-4::obj-67" : [ "Stored_Max[4]", "Stored_Max", 0 ],
+			"obj-4::obj-7" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-56::obj-1" : [ "Min[2]", "Min", 0 ],
 			"obj-56::obj-2" : [ "Max[2]", "Max", 0 ],
 			"obj-56::obj-66" : [ "Stored_Min[2]", "Stored_Min", 0 ],
@@ -2234,6 +2232,14 @@
 					"parameter_longname" : "Max[1]"
 				}
 ,
+				"obj-4::obj-6" : 				{
+					"parameter_range" : [ 1.0, 8.0 ]
+				}
+,
+				"obj-4::obj-7" : 				{
+					"parameter_range" : [ 1.0, 8.0 ]
+				}
+,
 				"obj-56::obj-1" : 				{
 					"parameter_longname" : "Min[2]"
 				}
@@ -2259,6 +2265,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sidewinder Min-Max Numbox.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
