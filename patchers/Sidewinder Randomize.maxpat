@@ -84,7 +84,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max.maxpat",
+					"name" : "Sidewinder Min-Max Dial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -92,7 +92,7 @@
 					"patching_rect" : [ 765.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 195.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max[3]",
+					"varname" : "Sidewinder Min-Max Dial[3]",
 					"viewvisibility" : 1
 				}
 
@@ -120,7 +120,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max.maxpat",
+					"name" : "Sidewinder Min-Max Dial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -128,7 +128,7 @@
 					"patching_rect" : [ 555.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 150.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max[2]",
+					"varname" : "Sidewinder Min-Max Dial[2]",
 					"viewvisibility" : 1
 				}
 
@@ -156,7 +156,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max.maxpat",
+					"name" : "Sidewinder Min-Max Dial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -164,7 +164,7 @@
 					"patching_rect" : [ 345.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max[1]",
+					"varname" : "Sidewinder Min-Max Dial[1]",
 					"viewvisibility" : 1
 				}
 
@@ -180,7 +180,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max.maxpat",
+					"name" : "Sidewinder Min-Max Dial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -188,7 +188,7 @@
 					"patching_rect" : [ 135.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 60.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max",
+					"varname" : "Sidewinder Min-Max Dial",
 					"viewvisibility" : 1
 				}
 
@@ -2258,7 +2258,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Sidewinder Min-Max.maxpat",
+				"name" : "Sidewinder Min-Max Dial.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
