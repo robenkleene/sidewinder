@@ -40,6 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "live.tab",
+					"num_lines_patching" : 0,
+					"num_lines_presentation" : 3,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 435.0, 120.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.0, 15.0, 60.0, 60.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "none", "random", "scramble" ],
+							"parameter_longname" : "Randomize_Step",
+							"parameter_mmax" : 2,
+							"parameter_shortname" : "Randomize_Step",
+							"parameter_type" : 2,
+							"parameter_unitstyle" : 9
+						}
+
+					}
+,
+					"varname" : "Randomize_Step"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -57,7 +86,7 @@
 					"patching_rect" : [ 1185.0, 390.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 240.0, 45.0, 45.0, 45.0 ],
-					"varname" : "Sidewinder Min-Max Numbox[1]",
+					"varname" : "Pitch_Min_Max",
 					"viewvisibility" : 1
 				}
 
@@ -117,7 +146,7 @@
 					"patching_rect" : [ 975.0, 390.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 285.0, 45.0, 45.0, 45.0 ],
-					"varname" : "Sidewinder Min-Max Numbox",
+					"varname" : "Duration_Min_Max",
 					"viewvisibility" : 1
 				}
 
@@ -165,7 +194,7 @@
 					"patching_rect" : [ 765.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 195.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max Dial[3]",
+					"varname" : "Velocity_Min_Max",
 					"viewvisibility" : 1
 				}
 
@@ -189,7 +218,7 @@
 					"patching_rect" : [ 555.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 150.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max Dial[2]",
+					"varname" : "Rotate_Min_Max",
 					"viewvisibility" : 1
 				}
 
@@ -213,7 +242,7 @@
 					"patching_rect" : [ 345.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max Dial[1]",
+					"varname" : "Steps_Min_Max",
 					"viewvisibility" : 1
 				}
 
@@ -237,7 +266,7 @@
 					"patching_rect" : [ 135.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 60.0, 45.0, 45.0, 105.0 ],
-					"varname" : "Sidewinder Min-Max Dial",
+					"varname" : "Pulses_Min_Max",
 					"viewvisibility" : 1
 				}
 
@@ -2125,6 +2154,7 @@
 			"obj-35::obj-2" : [ "Max[1]", "Max", 0 ],
 			"obj-35::obj-66" : [ "Stored_Min[1]", "Stored_Min", 0 ],
 			"obj-35::obj-67" : [ "Stored_Max[1]", "Stored_Max", 0 ],
+			"obj-38" : [ "Randomize_Step", "Randomize_Step", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
 			"obj-44" : [ "Steps_Pulses_Inc", "Steps_Pulses_Inc", 0 ],
 			"obj-45" : [ "Rotate_Inc", "Rotate_Inc", 0 ],
