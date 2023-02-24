@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 487.0, 114.0, 1136.0, 983.0 ],
+		"rect" : [ 187.0, 104.0, 1136.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 49.0, 16.0, 16.0 ],
+					"patching_rect" : [ 816.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 192.0, 48.0, 40.0, 104.0 ],
 					"rounded" : 10
@@ -65,7 +65,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 48.0, 16.0, 16.0 ],
+					"patching_rect" : [ 792.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 144.0, 48.0, 40.0, 104.0 ],
 					"rounded" : 10
@@ -82,7 +82,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 49.0, 16.0, 16.0 ],
+					"patching_rect" : [ 768.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 48.0, 40.0, 104.0 ],
 					"rounded" : 10
@@ -1677,7 +1677,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 795.0, 105.0, 16.0, 16.0 ],
+					"patching_rect" : [ 840.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 48.0, 40.0, 104.0 ],
 					"rounded" : 10
