@@ -108,8 +108,19 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 56.0, 176.0, 29.5, 22.0 ],
+									"text" : "t i i"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
@@ -128,7 +139,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 24.0, 328.0, 22.0, 22.0 ],
+									"patching_rect" : [ 24.0, 392.0, 22.0, 22.0 ],
 									"text" : "t b"
 								}
 
@@ -140,7 +151,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 104.0, 248.0, 29.5, 22.0 ],
+									"patching_rect" : [ 32.0, 272.0, 29.5, 22.0 ],
 									"text" : "+ 1"
 								}
 
@@ -152,7 +163,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 104.0, 280.0, 42.0, 22.0 ],
+									"patching_rect" : [ 32.0, 304.0, 42.0, 22.0 ],
 									"text" : "gate 2"
 								}
 
@@ -164,7 +175,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 8.0, 360.0, 29.5, 22.0 ],
+									"patching_rect" : [ 8.0, 424.0, 29.5, 22.0 ],
 									"text" : "int"
 								}
 
@@ -176,7 +187,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 104.0, 192.0, 29.5, 22.0 ],
+									"patching_rect" : [ 88.0, 240.0, 29.5, 22.0 ],
 									"text" : "<"
 								}
 
@@ -200,7 +211,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 192.0, 48.0, 150.0, 181.0 ],
+									"patching_rect" : [ 224.0, 40.0, 150.0, 181.0 ],
 									"text" : "Since pulses and steps max aren't linked, and pulses greater than steps are invalid. To get better random pulses, use steps ouput as max instead of pulses max under these conditions:\n\n1. `inc` is toggled off for pulses\n2. Pulses max is greater than steps output"
 								}
 
@@ -213,7 +224,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 80.0, 440.0, 30.0, 30.0 ]
+									"patching_rect" : [ 56.0, 504.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -261,6 +272,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 1 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-12", 1 ]
 								}
 
 							}
@@ -315,7 +340,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
