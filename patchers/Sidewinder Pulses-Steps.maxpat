@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 122.0, 161.0, 689.0, 680.0 ],
+		"rect" : [ 788.0, 192.0, 593.0, 891.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
@@ -50,11 +51,11 @@
 					"presentation_rect" : [ 0.0, 48.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Steps",
+							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "Steps",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Steps",
-							"parameter_mmax" : 32.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -76,11 +77,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Pulses",
+							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "Pulses",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Pulses",
-							"parameter_mmax" : 32.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -97,7 +98,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 11.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 8.0 ],
@@ -127,7 +128,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 56.0, 138.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 11.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4.0 ],
@@ -394,14 +395,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
-			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
 			"obj-1" : [ "Pulses", "Pulses", 0 ],
 			"obj-2" : [ "Steps", "Steps", 0 ],
+			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
+			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],
