@@ -683,7 +683,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 347.0, 330.0, 45.0, 105.0 ],
+					"patching_rect" : [ 552.0, 328.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 48.0, 40.0, 105.0 ],
 					"varname" : "Steps_Min_Max",
@@ -707,7 +707,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 555.0, 330.0, 45.0, 105.0 ],
+					"patching_rect" : [ 344.0, 328.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 48.0, 40.0, 104.0 ],
 					"varname" : "Pulses_Min_Max",
@@ -2123,7 +2123,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -2172,15 +2172,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 4 ],
-					"source" : [ "obj-29", 1 ]
+					"destination" : [ "obj-19", 3 ],
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 3 ],
-					"source" : [ "obj-29", 0 ]
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-29", 1 ]
 				}
 
 			}
@@ -2235,15 +2235,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 3 ],
-					"source" : [ "obj-35", 0 ]
+					"destination" : [ "obj-69", 4 ],
+					"source" : [ "obj-35", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-35", 1 ]
+					"destination" : [ "obj-69", 3 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -2561,7 +2561,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
