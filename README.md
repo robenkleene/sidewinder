@@ -11,7 +11,9 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 ### Global
 
 - **Play**: Toggle playback
-- Track Tabs: Select which track is displayed
+- **1-4 Tabs**: Select which track to display
+- **R Tab**: Display the randomize pan
+- **R**: Trigger randomize
 
 #### Presets
 
