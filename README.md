@@ -49,6 +49,14 @@ When **Auto** is on, making a change automatically updates the steps. When **Aut
 
 ![Randomize](Randomize.png)
 
+* **1-4 Buttons:** Which tracks to randomize
+* **Pulses, Steps, Rotate, Velocity, Pitch:** Whether to randomize that parameter
+* **Inc:** Increment (or decrement) the value by the random amount instead of replacing it
+* **Min:** Minimum random amount
+* **Max:** Maximum random amount
+* For Pitch and Duration, the top number is the minimum and the bottom number is the maximum
+* **None, Random, Scramble:** Random randomizes all parameters, this overrides all other options. Scramble randomizes the note order.
+
 ## Installation
 
 Drag `max-for-live/Sidewinder.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
