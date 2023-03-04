@@ -11,7 +11,9 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 ### Global
 
 - **Play**: Toggle playback
-- Track Tabs: Select which track is displayed
+- **1-4 Tabs**: Select which track to display
+- **R Tab**: Display the randomize pan
+- **R**: Trigger randomize
 
 #### Presets
 
@@ -42,6 +44,18 @@ When **Auto** is on, making a change automatically updates the steps. When **Aut
 - Pitch: Set the pitch of the notes
 - **Velocity**: Set the velocity of the notes
 - **Duration**: Set the duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer.
+
+### Randomize
+
+![Randomize](Randomize.png)
+
+* **1-4 Buttons:** Which tracks to randomize
+* **Pulses, Steps, Rotate, Velocity, Pitch:** Whether to randomize that parameter
+* **Inc:** Increment (or decrement) the value by the random amount instead of replacing it
+* **Min:** Minimum random amount
+* **Max:** Maximum random amount
+* For Pitch and Duration, the top number is the minimum and the bottom number is the maximum
+* **None, Random, Scramble:** Random randomizes all parameters, this overrides all other options. Scramble randomizes the note order.
 
 ## Installation
 
