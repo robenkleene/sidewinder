@@ -45,6 +45,10 @@ When **Auto** is on, making a change automatically updates the steps. When **Aut
 - **Velocity**: Set the velocity of the notes
 - **Duration**: Set the duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer.
 
+### Randomize
+
+![Randomize](Randomize.png)
+
 ## Installation
 
 Drag `max-for-live/Sidewinder.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
