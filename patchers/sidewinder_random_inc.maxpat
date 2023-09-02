@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 512.0, 128.0, 869.0, 894.0 ],
+		"rect" : [ 512.0, 128.0, 745.0, 894.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 160.0, 528.0, 31.0, 22.0 ],
+					"patching_rect" : [ 160.0, 480.0, 31.0, 22.0 ],
 					"text" : "* -1."
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 136.0, 448.0, 29.5, 22.0 ],
+					"patching_rect" : [ 136.0, 416.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 136.0, 488.0, 42.0, 22.0 ],
+					"patching_rect" : [ 136.0, 448.0, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 152.0, 408.0, 59.0, 22.0 ],
+					"patching_rect" : [ 152.0, 376.0, 59.0, 22.0 ],
 					"text" : "random 2"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 136.0, 368.0, 29.5, 22.0 ],
+					"patching_rect" : [ 136.0, 344.0, 29.5, 22.0 ],
 					"text" : "t f b"
 				}
 
@@ -228,7 +228,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 112.0, 320.0, 42.0, 22.0 ],
+					"patching_rect" : [ 112.0, 312.0, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -241,7 +241,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 616.0, 30.0, 30.0 ]
+					"patching_rect" : [ 112.0, 560.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 112.0, 576.0, 29.5, 22.0 ],
+					"patching_rect" : [ 112.0, 512.0, 29.5, 22.0 ],
 					"text" : "int"
 				}
 
