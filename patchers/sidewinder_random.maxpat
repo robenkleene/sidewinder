@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 386.0, 233.0, 804.0, 721.0 ],
+		"rect" : [ 672.0, 329.0, 478.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -96,7 +96,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 300.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 210.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 270.0, 155.0, 22.0 ],
+					"patching_rect" : [ 15.0, 270.0, 155.0, 22.0 ],
 					"text" : "sidewinder_random_concat"
 				}
 
@@ -183,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 225.0, 53.0, 22.0 ],
+					"patching_rect" : [ 150.0, 225.0, 53.0, 22.0 ],
 					"text" : "prepend"
 				}
 
@@ -195,7 +195,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 60.0, 180.0, 285.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 285.0, 22.0 ],
 					"text" : "sidewinder_random_inc"
 				}
 
@@ -207,7 +207,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 375.0, 160.0, 22.0 ],
+					"patching_rect" : [ 15.0, 360.0, 160.0, 22.0 ],
 					"text" : "sidewinder_random_append"
 				}
 
