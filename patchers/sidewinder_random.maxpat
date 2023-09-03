@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 672.0, 329.0, 478.0, 721.0 ],
+		"rect" : [ 226.0, 184.0, 895.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 480.0, 45.0, 120.0, 100.0 ],
+					"text" : "Having `inc` include/exclude negative numbers both make sense, passing `1` to `sidewinder_random_inc` includes them."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -115,7 +127,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Non-zero includes negative numbers",
+					"comment" : "Non-zero increments the current value (instead of replacing)",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -249,15 +261,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 1 ],
-					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
