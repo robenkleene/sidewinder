@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 226.0, 184.0, 895.0, 784.0 ],
+		"rect" : [ 629.0, 190.0, 895.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 120.0, 150.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
-					"linecount" : 7,
+					"linecount" : 13,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 45.0, 120.0, 100.0 ],
-					"text" : "Having `inc` include/exclude negative numbers both make sense, passing `1` to `sidewinder_random_inc` includes them."
+					"patching_rect" : [ 480.0, 45.0, 120.0, 181.0 ],
+					"text" : "Having `inc` include/exclude negative numbers both make sense, passing `1` to `sidewinder_random_inc` includes them.\n\nNote the `loadmess 0` to the negative number input is necessary so the gate is opened."
 				}
 
 			}
@@ -241,6 +253,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 1 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
