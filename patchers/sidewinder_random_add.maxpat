@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 152.0, 248.0, 29.5, 22.0 ],
+					"patching_rect" : [ 232.0, 288.0, 29.5, 22.0 ],
 					"text" : "t i 1"
 				}
 
@@ -70,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 344.0, 30.0, 30.0 ]
+					"patching_rect" : [ 232.0, 384.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.0, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 240.0, 8.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -94,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 152.0, 184.0, 29.5, 22.0 ],
+					"patching_rect" : [ 232.0, 224.0, 29.5, 22.0 ],
 					"text" : "+"
 				}
 
@@ -131,7 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 248.0, 42.0, 22.0 ],
+					"patching_rect" : [ 160.0, 160.0, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
