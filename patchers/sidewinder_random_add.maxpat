@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 264.0, 312.0, 29.5, 22.0 ],
+					"patching_rect" : [ 264.0, 328.0, 29.5, 22.0 ],
 					"text" : "t i 1"
 				}
 
@@ -82,7 +82,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 432.0, 30.0, 30.0 ]
+					"patching_rect" : [ 264.0, 408.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 264.0, 272.0, 29.5, 22.0 ],
+					"patching_rect" : [ 264.0, 288.0, 29.5, 22.0 ],
 					"text" : "+"
 				}
 
