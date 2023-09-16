@@ -4,20 +4,20 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 386.0, 233.0, 804.0, 721.0 ],
+		"rect" : [ 629.0, 190.0, 895.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 480.0, 45.0, 120.0, 181.0 ],
+					"text" : "Having `inc` include/exclude negative numbers both make sense, passing `1` to `sidewinder_random_inc` includes them.\n\nNote the `loadmess 0` to the negative number input is necessary so the gate is opened."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -96,7 +108,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 300.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -115,7 +127,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Non-zero includes negative numbers",
+					"comment" : "Non-zero increments the current value (instead of replacing)",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -135,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 210.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -159,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 270.0, 155.0, 22.0 ],
+					"patching_rect" : [ 15.0, 270.0, 155.0, 22.0 ],
 					"text" : "sidewinder_random_concat"
 				}
 
@@ -183,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 225.0, 53.0, 22.0 ],
+					"patching_rect" : [ 150.0, 225.0, 53.0, 22.0 ],
 					"text" : "prepend"
 				}
 
@@ -195,7 +207,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 60.0, 180.0, 285.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 285.0, 22.0 ],
 					"text" : "sidewinder_random_inc"
 				}
 
@@ -207,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 375.0, 160.0, 22.0 ],
+					"patching_rect" : [ 15.0, 360.0, 160.0, 22.0 ],
 					"text" : "sidewinder_random_append"
 				}
 
