@@ -479,7 +479,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 816.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 64.0, 40.0, 104.0 ],
+					"presentation_rect" : [ 200.0, 64.0, 40.0, 96.0 ],
 					"rounded" : 10
 				}
 
@@ -496,7 +496,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 792.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 64.0, 40.0, 104.0 ],
+					"presentation_rect" : [ 144.0, 64.0, 40.0, 96.0 ],
 					"rounded" : 10
 				}
 
@@ -513,7 +513,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 768.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 64.0, 40.0, 104.0 ],
+					"presentation_rect" : [ 96.0, 64.0, 40.0, 96.0 ],
 					"rounded" : 10
 				}
 
@@ -721,7 +721,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 975.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 64.0, 40.0, 105.0 ],
+					"presentation_rect" : [ 200.0, 64.0, 40.0, 96.0 ],
 					"varname" : "Velocity_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -745,7 +745,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 765.0, 330.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 64.0, 40.0, 105.0 ],
+					"presentation_rect" : [ 144.0, 64.0, 40.0, 96.0 ],
 					"varname" : "Rotate_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -769,7 +769,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 552.0, 328.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 64.0, 40.0, 105.0 ],
+					"presentation_rect" : [ 96.0, 64.0, 40.0, 96.0 ],
 					"varname" : "Steps_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -793,7 +793,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 344.0, 328.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 64.0, 40.0, 104.0 ],
+					"presentation_rect" : [ 48.0, 64.0, 40.0, 96.0 ],
 					"varname" : "Pulses_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -2108,7 +2108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 840.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 64.0, 40.0, 104.0 ],
+					"presentation_rect" : [ 48.0, 64.0, 40.0, 96.0 ],
 					"rounded" : 10
 				}
 
