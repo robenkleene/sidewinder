@@ -830,11 +830,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 464.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "bjorklund.js",
+						"filename" : "sidewinder_bjorklund.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js bjorklund.js"
+					"text" : "js sidewinder_bjorklund.js"
 				}
 
 			}
@@ -847,11 +847,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 440.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "toussaint.js",
+						"filename" : "sidewinder_toussaint.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js toussaint.js"
+					"text" : "js sidewinder_toussaint.js"
 				}
 
 			}
@@ -2827,11 +2827,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 240.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "wrapper.js",
+						"filename" : "sidewinder_wrapper.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js wrapper.js"
+					"text" : "js sidewinder_wrapper.js"
 				}
 
 			}
@@ -3540,14 +3540,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bjorklund.js",
+				"name" : "sidewinder_bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomize.js",
+				"name" : "sidewinder_randomize.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/javascript",
 				"patcherrelativepath" : "../../clementine/javascript",
 				"type" : "TEXT",
@@ -3568,14 +3568,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "toussaint.js",
+				"name" : "sidewinder_toussaint.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wrapper.js",
+				"name" : "sidewinder_wrapper.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
