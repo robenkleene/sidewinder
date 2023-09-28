@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 825.0, 588.0 ],
+		"rect" : [ 59.0, 119.0, 1432.0, 897.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 216.0, 168.0, 47.0, 22.0 ],
+					"text" : "unpack"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-89",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 256.0, 131.0, 22.0 ],
-					"text" : "randomize $1 $2 $3 $4"
+					"patching_rect" : [ 216.0, 256.0, 89.0, 22.0 ],
+					"text" : "$1 $2 $3 $4 $5"
 				}
 
 			}
@@ -54,11 +66,11 @@
 				"box" : 				{
 					"id" : "obj-88",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 216.0, 105.0, 22.0 ],
-					"text" : "pack sym sym 0 0"
+					"patching_rect" : [ 216.0, 216.0, 130.0, 22.0 ],
+					"text" : "pack sym sym sym 0 0"
 				}
 
 			}
@@ -230,6 +242,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-88", 1 ],
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 3 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
@@ -238,7 +264,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 2 ],
+					"destination" : [ "obj-88", 3 ],
 					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -268,7 +294,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 3 ],
+					"destination" : [ "obj-88", 4 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -291,7 +317,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 1 ],
+					"destination" : [ "obj-88", 2 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -306,15 +332,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"source" : [ "obj-82", 0 ]
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-82", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 0 ],
-					"source" : [ "obj-82", 1 ]
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-82", 0 ]
 				}
 
 			}
@@ -340,19 +366,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "sidewinder_random.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
