@@ -57,8 +57,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 256.0, 89.0, 22.0 ],
-					"text" : "$1 $2 $3 $4 $5"
+					"patching_rect" : [ 216.0, 256.0, 121.0, 22.0 ],
+					"text" : "$1 $2 $3 notes $4 $5"
 				}
 
 			}
