@@ -44,9 +44,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 216.0, 168.0, 47.0, 22.0 ],
-					"text" : "unpack"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 216.0, 168.0, 98.0, 22.0 ],
+					"text" : "unpack sym sym"
 				}
 
 			}
