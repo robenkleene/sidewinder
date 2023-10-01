@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 216.0, 168.0, 98.0, 22.0 ],
+					"patching_rect" : [ 144.0, 264.0, 98.0, 22.0 ],
 					"text" : "unpack sym sym"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 256.0, 121.0, 22.0 ],
+					"patching_rect" : [ 144.0, 328.0, 121.0, 22.0 ],
 					"text" : "$1 $2 $3 notes $4 $5"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 216.0, 130.0, 22.0 ],
+					"patching_rect" : [ 144.0, 296.0, 130.0, 22.0 ],
 					"text" : "pack sym sym sym 0 0"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.0, 104.0, 70.0, 22.0 ],
+					"patching_rect" : [ 488.0, 120.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 456.0, 104.0, 29.5, 22.0 ],
+					"patching_rect" : [ 456.0, 120.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 456.0, 152.0, 42.0, 22.0 ],
+					"patching_rect" : [ 456.0, 168.0, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -131,7 +131,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 328.0, 30.0, 30.0 ]
+					"patching_rect" : [ 8.0, 384.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 256.0, 8.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -196,7 +196,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 224.0, 8.0, 30.0, 30.0 ]
 				}
 
 			}
