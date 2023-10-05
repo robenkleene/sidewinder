@@ -1583,7 +1583,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 60.0, 65.0, 22.0 ],
+					"patching_rect" : [ 336.0, 64.0, 65.0, 22.0 ],
 					"text" : "randomize"
 				}
 
@@ -1595,7 +1595,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 15.0, 70.0, 22.0 ],
+					"patching_rect" : [ 408.0, 32.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1998,7 +1998,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 480.0, 120.0, 44.0, 15.0 ],
+					"patching_rect" : [ 472.0, 136.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 94.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2026,7 +2026,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 450.0, 90.0, 44.0, 15.0 ],
+					"patching_rect" : [ 448.0, 112.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 68.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2054,7 +2054,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 420.0, 60.0, 44.0, 15.0 ],
+					"patching_rect" : [ 424.0, 88.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 42.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2082,7 +2082,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 405.0, 30.0, 44.0, 15.0 ],
+					"patching_rect" : [ 408.0, 64.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2139,7 +2139,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 345.0, 15.0, 44.0, 15.0 ],
+					"patching_rect" : [ 336.0, 40.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
