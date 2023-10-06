@@ -46,7 +46,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 1952.0, 160.0, 152.0, 20.0 ],
-					"text" : "sidewinder_random_split_inc"
+					"text" : "sidewinder_random_split"
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 1744.0, 160.0, 152.0, 20.0 ],
-					"text" : "sidewinder_random_split_inc"
+					"text" : "sidewinder_random_split"
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 1544.0, 160.0, 152.0, 20.0 ],
-					"text" : "sidewinder_random_split_inc"
+					"text" : "sidewinder_random_split"
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 1336.0, 160.0, 152.0, 20.0 ],
-					"text" : "sidewinder_random_split_inc"
+					"text" : "sidewinder_random_split"
 				}
 
 			}
@@ -94,7 +94,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 1128.0, 160.0, 152.0, 20.0 ],
-					"text" : "sidewinder_random_split_inc"
+					"text" : "sidewinder_random_split"
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 920.0, 160.0, 152.0, 20.0 ],
-					"text" : "sidewinder_random_split_inc"
+					"text" : "sidewinder_random_split"
 				}
 
 			}
@@ -3561,7 +3561,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_split_inc.maxpat",
+				"name" : "sidewinder_random_split.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
