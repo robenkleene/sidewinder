@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 144.0, 376.0, 98.0, 22.0 ],
+					"patching_rect" : [ 192.0, 376.0, 98.0, 22.0 ],
 					"text" : "unpack sym sym"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 440.0, 121.0, 22.0 ],
+					"patching_rect" : [ 192.0, 440.0, 121.0, 22.0 ],
 					"text" : "$1 $2 $3 notes $4 $5"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 408.0, 130.0, 22.0 ],
+					"patching_rect" : [ 192.0, 408.0, 130.0, 22.0 ],
 					"text" : "pack sym sym sym 0 0"
 				}
 
@@ -267,8 +267,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 2 ],
+					"destination" : [ "obj-57", 1 ],
 					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 2 ],
+					"order" : 2,
 					"source" : [ "obj-3", 0 ]
 				}
 

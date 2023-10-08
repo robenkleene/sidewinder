@@ -77,7 +77,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Non-zero opens gate",
+					"comment" : "int: 0 message, 1 append inc, 2 append notes",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
