@@ -3097,13 +3097,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_append.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sidewinder_random_concat.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
