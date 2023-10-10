@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -187.0, 195.0, 1657.0, 814.0 ],
+		"rect" : [ 34.0, 195.0, 1657.0, 814.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -43,8 +43,8 @@
 					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1952.0, 160.0, 152.0, 20.0 ],
 					"text" : "sidewinder_random_split"
 				}
@@ -55,8 +55,8 @@
 					"id" : "obj-98",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1744.0, 160.0, 152.0, 20.0 ],
 					"text" : "sidewinder_random_split"
 				}
@@ -67,8 +67,8 @@
 					"id" : "obj-97",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1544.0, 160.0, 152.0, 20.0 ],
 					"text" : "sidewinder_random_split"
 				}
@@ -79,8 +79,8 @@
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1336.0, 160.0, 152.0, 20.0 ],
 					"text" : "sidewinder_random_split"
 				}
@@ -91,8 +91,8 @@
 					"id" : "obj-93",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1128.0, 160.0, 152.0, 20.0 ],
 					"text" : "sidewinder_random_split"
 				}
@@ -103,8 +103,8 @@
 					"id" : "obj-90",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 920.0, 160.0, 152.0, 20.0 ],
 					"text" : "sidewinder_random_split"
 				}
@@ -828,7 +828,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 464.0, 76.0, 20.0 ],
+					"patching_rect" : [ 8.0, 464.0, 134.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sidewinder_bjorklund.js",
 						"parameter_enable" : 0
@@ -845,7 +845,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 440.0, 75.0, 20.0 ],
+					"patching_rect" : [ 8.0, 440.0, 133.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sidewinder_toussaint.js",
 						"parameter_enable" : 0
@@ -2825,7 +2825,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 240.0, 77.0, 20.0 ],
+					"patching_rect" : [ 8.0, 240.0, 127.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sidewinder_wrapper.js",
 						"parameter_enable" : 0
@@ -3154,7 +3154,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-53", 1 ]
 				}
 
@@ -3170,7 +3170,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-53", 1 ]
 				}
 
@@ -3540,16 +3540,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_bjorklund.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
-				"patcherrelativepath" : "../javascript",
+				"name" : "randomize.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/javascript",
+				"patcherrelativepath" : "../../clementine/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_randomize.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/javascript",
-				"patcherrelativepath" : "../../clementine/javascript",
+				"name" : "sidewinder_bjorklund.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
