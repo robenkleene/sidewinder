@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 399.0, 100.0, 978.0, 983.0 ],
+		"rect" : [ 399.0, 100.0, 1295.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -770,8 +770,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1320.0, 240.0, 126.0, 22.0 ],
-					"text" : "loadmess setup 1 127"
+					"patching_rect" : [ 1320.0, 240.0, 136.0, 22.0 ],
+					"text" : "loadmess setup 60 72 8"
 				}
 
 			}
@@ -3024,12 +3024,14 @@
 ,
 				"obj-33::obj-6" : 				{
 					"parameter_longname" : "live.numbox[3]",
-					"parameter_range" : [ 1.0, 127.0 ]
+					"parameter_range" : [ 1.0, 127.0 ],
+					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-33::obj-7" : 				{
 					"parameter_longname" : "live.numbox[2]",
-					"parameter_range" : [ 1.0, 127.0 ]
+					"parameter_range" : [ 1.0, 127.0 ],
+					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-35::obj-1" : 				{
