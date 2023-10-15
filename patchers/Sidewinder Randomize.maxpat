@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 399.0, 100.0, 1295.0, 983.0 ],
+		"rect" : [ 399.0, 100.0, 978.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -69,8 +69,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 648.0, 80.0, 22.0 ],
-					"text" : "symbol Major"
+					"patching_rect" : [ 704.0, 680.0, 105.0, 22.0 ],
+					"text" : "symbol Chromatic"
 				}
 
 			}
@@ -116,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 792.0, 704.0, 50.0, 22.0 ],
+					"patching_rect" : [ 792.0, 712.0, 50.0, 22.0 ],
 					"text" : "getkeys"
 				}
 
@@ -147,7 +147,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-104",
-					"items" : [ "Lydian", ",", "Aeolian", ",", "Major", ",", "Minor" ],
+					"items" : [ "Chromatic", ",", "Lydian", ",", "Aeolian", ",", "Major", ",", "Minor" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -155,7 +155,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 600.0, 720.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 96.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 248.0, 88.0, 96.0, 22.0 ]
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 792.0, 648.0, 169.0, 22.0 ],
+					"patching_rect" : [ 816.0, 648.0, 169.0, 22.0 ],
 					"text" : "import sidewinder_scales.json"
 				}
 
