@@ -48,7 +48,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 600.0, 720.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.0, 88.0, 96.0, 15.0 ],
+					"presentation_rect" : [ 248.0, 80.0, 88.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Chromatic", "Lydian", "Aeolian", "Major", "Minor" ],
@@ -899,14 +899,12 @@
 					"id" : "obj-38",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
-					"num_lines_presentation" : 3,
+					"num_lines_presentation" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 60.0, 390.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 344.0, 16.0, 56.0, 60.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "none", "random", "scramble" ],
