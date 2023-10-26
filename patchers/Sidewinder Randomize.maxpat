@@ -69,8 +69,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1304.0, 648.0, 80.0, 22.0 ],
-					"text" : "append scale"
+					"patching_rect" : [ 1304.0, 648.0, 81.0, 22.0 ],
+					"text" : "append steps"
 				}
 
 			}
