@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1440.0, 576.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1304.0, 576.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1304.0, 648.0, 81.0, 22.0 ],
+					"patching_rect" : [ 1304.0, 640.0, 81.0, 22.0 ],
 					"text" : "append steps"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1304.0, 688.0, 49.0, 22.0 ],
+					"patching_rect" : [ 1304.0, 672.0, 49.0, 22.0 ],
 					"text" : "append"
 				}
 
@@ -191,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1416.0, 736.0, 169.0, 22.0 ],
+					"patching_rect" : [ 1488.0, 736.0, 169.0, 22.0 ],
 					"text" : "import sidewinder_scales.json"
 				}
 
