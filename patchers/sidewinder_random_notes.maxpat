@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 192.0, 376.0, 98.0, 22.0 ],
+					"patching_rect" : [ 192.0, 368.0, 98.0, 22.0 ],
 					"text" : "unpack sym sym"
 				}
 
@@ -69,8 +69,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 440.0, 121.0, 22.0 ],
-					"text" : "$1 $2 $3 notes $4 $5"
+					"patching_rect" : [ 192.0, 440.0, 123.0, 22.0 ],
+					"text" : "$1 $2 $3 range $4 $5"
 				}
 
 			}
