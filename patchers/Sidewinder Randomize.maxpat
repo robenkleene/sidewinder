@@ -1006,7 +1006,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Numbox.maxpat",
+					"name" : "Sidewinder Min-Max Duration.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -1679,7 +1679,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1110.0, 240.0, 113.0, 22.0 ],
-					"text" : "loadmess setup 1 8"
+					"text" : "loadmess setup 0 8"
 				}
 
 			}
@@ -3316,10 +3316,10 @@
 			"obj-46" : [ "Velocity_Inc", "Velocity_Inc", 0 ],
 			"obj-47" : [ "Duration_Inc", "Duration_Inc", 0 ],
 			"obj-48" : [ "Pitch_Inc", "Pitch_Inc", 0 ],
-			"obj-4::obj-6" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-4::obj-1" : [ "Min[4]", "Min", 0 ],
+			"obj-4::obj-2" : [ "Max[4]", "Max", 0 ],
 			"obj-4::obj-66" : [ "Stored_Min[4]", "Stored_Min", 0 ],
 			"obj-4::obj-67" : [ "Stored_Max[4]", "Stored_Max", 0 ],
-			"obj-4::obj-7" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-56::obj-1" : [ "Min[2]", "Min", 0 ],
 			"obj-56::obj-2" : [ "Max[2]", "Max", 0 ],
 			"obj-56::obj-66" : [ "Stored_Min[2]", "Stored_Min", 0 ],
@@ -3376,12 +3376,12 @@
 					"parameter_range" : [ 1.0, 32.0 ]
 				}
 ,
-				"obj-4::obj-6" : 				{
-					"parameter_range" : [ 1.0, 8.0 ]
+				"obj-4::obj-1" : 				{
+					"parameter_longname" : "Min[4]"
 				}
 ,
-				"obj-4::obj-7" : 				{
-					"parameter_range" : [ 1.0, 8.0 ]
+				"obj-4::obj-2" : 				{
+					"parameter_longname" : "Max[4]"
 				}
 ,
 				"obj-56::obj-1" : 				{
@@ -3411,6 +3411,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sidewinder Min-Max Duration.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

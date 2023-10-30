@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 654.0, 342.0, 753.0, 580.0 ],
+		"rect" : [ 654.0, 342.0, 436.0, 580.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -63,8 +63,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[1]",
-							"parameter_shortname" : "live.numbox[1]",
+							"parameter_longname" : "Min",
+							"parameter_shortname" : "Min",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -88,8 +88,8 @@
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "Max",
+							"parameter_shortname" : "Max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -534,10 +534,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-6" : [ "Max", "Max", 0 ],
 			"obj-66" : [ "Stored_Min", "Stored_Min", 0 ],
 			"obj-67" : [ "Stored_Max", "Stored_Max", 0 ],
-			"obj-7" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
+			"obj-7" : [ "Min", "Min", 0 ],
 			"parameterbanks" : 			{
 
 			}
