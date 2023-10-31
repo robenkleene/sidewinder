@@ -60,7 +60,7 @@
 
 					}
 ,
-					"varname" : "Max[1]"
+					"varname" : "Max"
 				}
 
 			}
@@ -86,7 +86,7 @@
 
 					}
 ,
-					"varname" : "Min[1]"
+					"varname" : "Min"
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 8.0 ],
@@ -151,21 +151,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 368.0, 56.0, 138.0, 20.0 ],
-					"restore" : [ 0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 4.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Min",
-							"parameter_shortname" : "Stored_Min",
-							"parameter_type" : 3
-						}
-
-					}
-,
+					"patching_rect" : [ 368.0, 56.0, 108.0, 20.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
@@ -449,7 +438,6 @@
 		"parameters" : 		{
 			"obj-1" : [ "Min", "Min", 0 ],
 			"obj-2" : [ "Max", "Max", 0 ],
-			"obj-66" : [ "Stored_Min", "Stored_Min", 0 ],
 			"obj-67" : [ "Stored_Max", "Stored_Max", 0 ],
 			"parameterbanks" : 			{
 
