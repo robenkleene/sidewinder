@@ -168,7 +168,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1456.0, 600.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 96.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 304.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Rests",
@@ -194,7 +194,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1416.0, 600.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 96.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 272.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Order",
