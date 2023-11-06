@@ -600,7 +600,7 @@
 				"box" : 				{
 					"id" : "obj-96",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 8,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patcher" : 					{
@@ -614,7 +614,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 857.0, 269.0, 711.0, 695.0 ],
+						"rect" : [ 857.0, 269.0, 394.0, 695.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -645,6 +645,32 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"comment" : "int: randomize velocity max",
+									"id" : "obj-11",
+									"index" : 6,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 288.0, 16.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "float: randomize duration min",
+									"id" : "obj-8",
+									"index" : 7,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 344.0, 16.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -659,16 +685,16 @@
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "newobj",
-									"numinlets" : 6,
+									"numinlets" : 8,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 104.0, 296.0, 22.0 ],
+									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "randomize",
+										"filename" : "sidewinder_randomize",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js randomize"
+									"text" : "js sidewinder_randomize"
 								}
 
 							}
@@ -686,14 +712,14 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "float: randomize duration factor",
+									"comment" : "float: randomize duration max",
 									"id" : "obj-3",
-									"index" : 6,
+									"index" : 8,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 288.0, 16.0, 30.0, 30.0 ]
+									"patching_rect" : [ 400.0, 16.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -712,7 +738,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "float: randomize velocity factor",
+									"comment" : "int: randomize velocity min",
 									"id" : "obj-7",
 									"index" : 5,
 									"maxclass" : "inlet",
@@ -779,6 +805,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 5 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-2", 0 ]
 								}
@@ -786,7 +819,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 5 ],
+									"destination" : [ "obj-9", 7 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -809,6 +842,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 4 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 6 ],
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -3938,13 +3978,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomize.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/javascript",
-				"patcherrelativepath" : "../../clementine/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sidewinder_bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
@@ -3963,6 +3996,13 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_randomize.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

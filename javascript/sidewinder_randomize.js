@@ -2,16 +2,18 @@
 autowatch = 1;
 
 // Inlets & Outlets
-inlets = 6;
+inlets = 8;
 outlets = 1;
 INLET_ORDER = 1;
 INLET_REPEAT = 2;
 INLET_RESTS = 3;
-INLET_VELOCITY = 4;
-INLET_DURATION = 5;
+INLET_VELOCITY_MIN = 4;
+INLET_VELOCITY_MAX = 5;
+INLET_DURATION_MIN = 6;
+INLET_DURATION_MAX = 7;
 
 // Store input
-var input = [[], 0, 0, 0, 0, 0];
+var input = [[], 0, 0, 0, 0, 0, 0, 0];
 
 function getRandomArbitrary(min, max) {
   if (min == max) {
