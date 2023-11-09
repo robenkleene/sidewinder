@@ -105,8 +105,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 8.0, 64.0, 119.0, 22.0 ],
-					"text" : "route value inc notes"
+					"patching_rect" : [ 8.0, 64.0, 121.0, 22.0 ],
+					"text" : "route value inc range"
 				}
 
 			}
