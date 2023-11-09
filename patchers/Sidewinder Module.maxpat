@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1960.0, 456.0, 44.0, 20.0 ],
+					"text" : "unpack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1960.0, 408.0, 50.0, 20.0 ],
+					"text" : "zl.slice 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-102",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1192.0, 336.0, 66.0, 20.0 ],
+					"patching_rect" : [ 2096.0, 600.0, 66.0, 20.0 ],
 					"text" : "r #0duration"
 				}
 
@@ -57,7 +81,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1120.0, 336.0, 64.0, 20.0 ],
+					"patching_rect" : [ 2024.0, 600.0, 64.0, 20.0 ],
 					"text" : "r #0velocity"
 				}
 
@@ -141,6 +165,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -307,11 +332,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 192.0, 152.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "notes",
+										"filename" : "sidewinder_scales",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js notes"
+									"text" : "js sidewinder_scales"
 								}
 
 							}
@@ -569,7 +594,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 920.0, 368.0, 352.0, 20.0 ],
+					"patching_rect" : [ 1824.0, 632.0, 352.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -918,7 +943,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 920.0, 408.0, 224.0, 20.0 ],
+					"patching_rect" : [ 1824.0, 672.0, 224.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3363,6 +3388,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -4011,6 +4043,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-99", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 2 ],
 					"source" : [ "obj-99", 1 ]
 				}
@@ -4068,13 +4107,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "notes.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/javascript",
-				"patcherrelativepath" : "../../clementine/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sidewinder_bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
@@ -4097,6 +4129,13 @@
 			}
 , 			{
 				"name" : "sidewinder_randomize.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_scales.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
