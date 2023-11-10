@@ -6,7 +6,9 @@
 INTERVALS = 0;
 STEP_COUNT = 1;
 BASE_NOTE = 2;
-inlets = 3;
+PITCH_MIN = 3;
+PITCH_MAX = 4;
+inlets = 5;
 outlets = 1;
 
 // Store input
