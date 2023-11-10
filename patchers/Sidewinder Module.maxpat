@@ -209,7 +209,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 40.0, 320.0, 37.0, 22.0 ],
+									"patching_rect" : [ 48.0, 328.0, 37.0, 22.0 ],
 									"text" : "zl.rev"
 								}
 
@@ -258,7 +258,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 360.0, 91.0, 22.0 ],
+									"patching_rect" : [ 16.0, 368.0, 91.0, 22.0 ],
 									"text" : "prepend pitch 1"
 								}
 
@@ -270,7 +270,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.0, 360.0, 106.0, 22.0 ],
+									"patching_rect" : [ 208.0, 368.0, 106.0, 22.0 ],
 									"text" : "prepend velocity 1"
 								}
 
@@ -282,7 +282,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 376.0, 360.0, 109.0, 22.0 ],
+									"patching_rect" : [ 376.0, 368.0, 109.0, 22.0 ],
 									"text" : "prepend duration 1"
 								}
 
@@ -327,7 +327,7 @@
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 192.0, 152.0, 22.0 ],
@@ -374,7 +374,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 408.0, 30.0, 30.0 ]
+									"patching_rect" : [ 16.0, 424.0, 30.0, 30.0 ]
 								}
 
 							}
