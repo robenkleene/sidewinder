@@ -11,6 +11,8 @@ PITCH_MAX = 4;
 inlets = 5;
 outlets = 1;
 
+OCTAVE_SIZE = 12;
+
 // Store input
 var values = [0, 0, []];
 
@@ -54,17 +56,12 @@ function trigger_output() {
       var index = i % intervals.length;
       note += intervals[index];
       if (note > max) {
-        note = base;
         while (note > min) {
-          note = note - 12;
+          note = note - OCTAVE_SIZE;
         };
-        while (note < min) {
-          for (var j = 0; j < intervals.length; j++) {
-            note += intervals[j];
-            if (note > min) {
-              break;
-            }
-          }
+        note = note + OCTAVE_SIZE;
+        if (note > max) {
+          note -= intervals[index];
         }
       }
     }
