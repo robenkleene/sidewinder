@@ -35,7 +35,16 @@ function list() {
 function trigger_output() {
   var intervals = values[INTERVALS];
   var stepCount = values[STEP_COUNT];
-  var note = values[BASE_NOTE];
+  var min = values[PITCH_MIN];
+  var max = values[PITCH_MAX];
+  var base = values[BASE_NOTE];
+  note = base;
+  if (note < min) {
+    note = min;
+  }
+  if (note < max) {
+    note = max;
+  }
   if (stepCount == 0) {
     return;
   }
@@ -44,6 +53,20 @@ function trigger_output() {
     if (intervals.length > 0) {
       var index = i % intervals.length;
       note += intervals[index];
+      if (note > max) {
+        note = base;
+        while (note > min) {
+          note = note - 12;
+        };
+        while (note < min) {
+          for (var j = 0; j < intervals.length; j++) {
+            note += intervals[j];
+            if (note > min) {
+              break;
+            }
+          }
+        }
+      }
       notes.push(note);
     }
   }
