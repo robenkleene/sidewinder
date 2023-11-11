@@ -67,8 +67,8 @@ function trigger_output() {
           }
         }
       }
-      notes.push(note);
     }
+    notes.push(note);
   }
   outlet(0, notes.join(' '));
 }
