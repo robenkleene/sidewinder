@@ -47,18 +47,20 @@ function trigger_output() {
   if (note < max) {
     note = max;
   }
-  if (stepCount == 0) {
-    return;
-  }
-  var notes = [note]
+
+  var notes = []
   for (var i = 0; i < pulses.length; i++) {
     var pulse = pulses[i];
     if (pulse == 0) {
       notes.push(0);
       continue;
     }
+    if (i == 0) {
+      notes.push(note);
+      continue;
+    }
     if (intervals.length > 0) {
-      var index = i % intervals.length;
+      var index = i - 1 % intervals.length;
       note += intervals[index];
       if (note > max) {
         while (note > min) {
