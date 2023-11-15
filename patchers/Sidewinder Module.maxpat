@@ -434,6 +434,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "int: Pitch max",
@@ -687,7 +688,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "int: Step count",
+									"comment" : "list: Pulses",
 									"id" : "obj-2",
 									"index" : 2,
 									"maxclass" : "inlet",
