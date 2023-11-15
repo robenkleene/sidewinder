@@ -45,8 +45,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 984.0, 392.0, 84.0, 20.0 ],
-					"text" : "r #0pulsesvalue"
+					"patching_rect" : [ 984.0, 392.0, 74.0, 20.0 ],
+					"text" : "r #0sequence"
 				}
 
 			}
