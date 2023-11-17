@@ -434,7 +434,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "int: Pitch max",
@@ -627,7 +626,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 192.0, 200.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_scales",
+										"filename" : "sidewinder_scales.js",
 										"parameter_enable" : 0
 									}
 ,

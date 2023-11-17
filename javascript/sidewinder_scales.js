@@ -4,7 +4,7 @@
 
 // Inlets & Outlets
 INTERVALS = 0;
-PULSES = 1;
+STEP_COUNT = 1;
 BASE_NOTE = 2;
 PITCH_MIN = 3;
 PITCH_MAX = 4;
@@ -14,7 +14,7 @@ outlets = 1;
 OCTAVE_SIZE = 12;
 
 // Store input
-var values = [[], [], 0, 0, 0];
+var values = [[], 0, 0, 0, 0];
 
 function msg_int(value) {
   values[inlet] = value;
@@ -36,7 +36,7 @@ function list() {
 
 function trigger_output() {
   var intervals = values[INTERVALS];
-  var pulses = values[PULSES];
+  var stepCount = values[STEP_COUNT];
   var min = values[PITCH_MIN];
   var max = values[PITCH_MAX];
   var base = values[BASE_NOTE];
@@ -48,19 +48,10 @@ function trigger_output() {
     note = max;
   }
 
-  var notes = []
-  for (var i = 0; i < pulses.length; i++) {
-    var pulse = pulses[i];
-    if (pulse == 0) {
-      notes.push(0);
-      continue;
-    }
-    if (i == 0) {
-      notes.push(note);
-      continue;
-    }
+  var notes = [note]
+  for (var i = 0; i < stepCount; i++) {
     if (intervals.length > 0) {
-      var index = i - 1 % intervals.length;
+      var index = i % intervals.length;
       note += intervals[index];
       if (note > max) {
         while (note > min) {
