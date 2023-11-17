@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 214.0, 176.0, 950.0, 814.0 ],
+		"rect" : [ 214.0, 176.0, 1479.0, 839.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 984.0, 392.0, 74.0, 20.0 ],
-					"text" : "r #0sequence"
+					"patching_rect" : [ 984.0, 392.0, 84.0, 20.0 ],
+					"text" : "r #0pulsesvalue"
 				}
 
 			}
@@ -434,6 +434,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "int: Pitch max",
@@ -527,9 +528,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
+									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 72.0, 112.0, 29.5, 22.0 ],
-									"text" : "t b l"
+									"text" : "t b i"
 								}
 
 							}
@@ -687,7 +688,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "list: Pulses",
+									"comment" : "int: Step count",
 									"id" : "obj-2",
 									"index" : 2,
 									"maxclass" : "inlet",
@@ -3887,6 +3888,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-121", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 1 ],
+					"source" : [ "obj-123", 0 ]
 				}
 
 			}
