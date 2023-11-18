@@ -626,7 +626,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 192.0, 200.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_scales.js",
+										"filename" : "sidewinder_scales",
 										"parameter_enable" : 0
 									}
 ,
@@ -2169,7 +2169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 336.0, 52.0, 20.0 ],
+					"patching_rect" : [ 280.0, 344.0, 52.0, 20.0 ],
 					"text" : "zoom_fit"
 				}
 
@@ -2181,7 +2181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 280.0, 304.0, 31.0, 20.0 ],
+					"patching_rect" : [ 280.0, 312.0, 31.0, 20.0 ],
 					"text" : "t b s"
 				}
 
