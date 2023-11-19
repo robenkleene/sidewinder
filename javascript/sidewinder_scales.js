@@ -18,11 +18,6 @@ var values = [[], 0, 0, 0, 0];
 
 function msg_int(value) {
   values[inlet] = value;
-  trigger_output();
-}
-
-function bang() {
-  trigger_output();
 }
 
 function list() {
