@@ -39,7 +39,7 @@ function trigger_output() {
   if (note < min) {
     note = min;
   }
-  if (note < max) {
+  if (note > max) {
     note = max;
   }
 
