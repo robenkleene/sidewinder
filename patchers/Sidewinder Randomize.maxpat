@@ -40,18 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-127",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 272.0, 440.0, 91.0, 22.0 ],
-					"text" : "routepass none"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-131",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1182,7 +1170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.0, 376.0, 70.0, 22.0 ],
+					"patching_rect" : [ 272.0, 416.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -1206,7 +1194,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.0, 304.0, 150.0, 60.0 ],
+					"patching_rect" : [ 272.0, 344.0, 150.0, 60.0 ],
 					"text" : "random / scramble should be processed last so random happens after other note settings."
 				}
 
@@ -1221,7 +1209,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 268.0, 406.0, 100.0, 20.0 ],
+					"patching_rect" : [ 268.0, 446.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.0, 128.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -3025,13 +3013,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
-					"source" : [ "obj-127", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
 					"source" : [ "obj-129", 0 ]
 				}
@@ -3298,7 +3279,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-127", 0 ],
+					"destination" : [ "obj-131", 0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
