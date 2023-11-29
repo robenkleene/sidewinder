@@ -1210,8 +1210,6 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 268.0, 446.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 128.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "none", "random", "scramble" ],
