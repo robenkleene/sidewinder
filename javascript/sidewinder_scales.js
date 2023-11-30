@@ -23,10 +23,10 @@ function msg_int(value) {
 function list() {
   var arr = arrayfromargs(arguments);
   values[inlet] = arr.map(Number);
+}
 
-  if (inlet == 0) {
-    trigger_output();
-  }
+function bang() {
+  trigger_output();
 }
 
 function trigger_output() {

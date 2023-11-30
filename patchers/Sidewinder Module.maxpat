@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-135",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1472.0, 280.0, 81.0, 20.0 ],
+					"text" : "r #0scale_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 920.0, 176.0, 82.0, 20.0 ],
+					"text" : "s #0scale_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-129",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -173,7 +196,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1472.0, 304.0, 97.0, 20.0 ],
+					"patching_rect" : [ 1488.0, 304.0, 97.0, 20.0 ],
 					"text" : "r #0pitch_intervals"
 				}
 
@@ -627,7 +650,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 192.0, 200.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_scales",
+										"filename" : "sidewinder_scales.js",
 										"parameter_enable" : 0
 									}
 ,
@@ -3888,6 +3911,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-100", 2 ],
 					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-129", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"source" : [ "obj-135", 0 ]
 				}
 
 			}
