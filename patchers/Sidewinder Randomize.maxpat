@@ -656,7 +656,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 288.0, 592.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 200.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1827,7 +1827,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 480.0, 368.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.0, 16.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 248.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1891,7 +1891,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1524.0, 368.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 16.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 360.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -2578,7 +2578,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1314.0, 368.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 16.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 200.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
