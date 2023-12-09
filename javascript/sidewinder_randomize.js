@@ -11,6 +11,7 @@ INLET_VELOCITY_MIN = 4;
 INLET_VELOCITY_MAX = 5;
 INLET_DURATION_MIN = 6;
 INLET_DURATION_MAX = 7;
+DURATION_VALUES = [7.5, 15, 30, 60, 120, 240, 480, 960];
 
 // Store input
 var input = [[], 0, 0, 0, 0, 0, 0, 0];
@@ -79,7 +80,7 @@ function duration(value) {
   var max = input[INLET_DURATION_MAX];
   var min = input[INLET_DURATION_MIN];
   for (var i = 0; i < values.length; i++) {
-    values[i] = getRandomInt(min, max);
+    values[i] = DURATION_VALUES[getRandomInt(min, max)];
   }
   arr = arr.slice(0, 2).concat(values);
   outlet(0, arr.join(" "));
