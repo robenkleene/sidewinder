@@ -1748,7 +1748,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 408.0, 153.0, 29.0 ],
+					"patching_rect" : [ 8.0, 480.0, 153.0, 29.0 ],
 					"text" : "Add these so they're included when the device is frozen"
 				}
 
@@ -1760,7 +1760,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 464.0, 134.0, 20.0 ],
+					"patching_rect" : [ 8.0, 536.0, 134.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sidewinder_bjorklund.js",
 						"parameter_enable" : 0
@@ -1777,7 +1777,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 440.0, 133.0, 20.0 ],
+					"patching_rect" : [ 8.0, 512.0, 133.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sidewinder_toussaint.js",
 						"parameter_enable" : 0
@@ -2329,7 +2329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 280.0, 34.0, 20.0 ],
+					"patching_rect" : [ 8.0, 312.0, 34.0, 20.0 ],
 					"text" : "zl rot"
 				}
 
@@ -2507,7 +2507,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 376.0, 76.0, 20.0 ],
+					"patching_rect" : [ 16.0, 408.0, 76.0, 20.0 ],
 					"text" : "s #0sequence"
 				}
 
@@ -2530,7 +2530,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 352.0, 54.0, 20.0 ],
+					"patching_rect" : [ 8.0, 384.0, 54.0, 20.0 ],
 					"text" : "s #0bang"
 				}
 
@@ -2988,7 +2988,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 312.0, 30.0, 20.0 ],
+					"patching_rect" : [ 8.0, 344.0, 30.0, 20.0 ],
 					"text" : "t b l"
 				}
 
@@ -3757,7 +3757,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 240.0, 127.0, 20.0 ],
+					"patching_rect" : [ 8.0, 256.0, 127.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sidewinder_wrapper.js",
 						"parameter_enable" : 0
