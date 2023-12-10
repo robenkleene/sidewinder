@@ -1174,7 +1174,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize.js",
+										"filename" : "sidewinder_randomize",
 										"parameter_enable" : 0
 									}
 ,
