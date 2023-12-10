@@ -209,7 +209,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p note_distributer"
+					"text" : "p note_distributor"
 				}
 
 			}
