@@ -45,7 +45,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.0, 344.0, 102.0, 20.0 ],
+					"patching_rect" : [ 416.0, 248.0, 102.0, 20.0 ],
 					"text" : "r #0step_sequencer"
 				}
 
@@ -5011,7 +5011,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-133", 0 ]
 				}
 
