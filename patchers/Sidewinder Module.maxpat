@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 160.0, 100.0, 1452.0, 839.0 ],
+		"rect" : [ 160.0, 100.0, 1514.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-141",
+					"id" : "obj-133",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 488.0, 344.0, 102.0, 20.0 ],
+					"text" : "r #0step_sequencer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-128",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1352.0, 552.0, 105.0, 20.0 ],
-					"text" : "print #0scale_maker"
+					"patching_rect" : [ 1456.0, 856.0, 104.0, 20.0 ],
+					"text" : "s #0step_sequencer"
 				}
 
 			}
@@ -167,7 +179,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-35",
@@ -286,8 +297,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 384.0, 728.0, 99.0, 22.0 ],
-									"text" : "prepend duration"
+									"patching_rect" : [ 384.0, 728.0, 109.0, 22.0 ],
+									"text" : "prepend duration 1"
 								}
 
 							}
@@ -298,8 +309,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 728.0, 96.0, 22.0 ],
-									"text" : "prepend velocity"
+									"patching_rect" : [ 280.0, 728.0, 106.0, 22.0 ],
+									"text" : "prepend velocity 1"
 								}
 
 							}
@@ -310,8 +321,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 184.0, 728.0, 81.0, 22.0 ],
-									"text" : "prepend pitch"
+									"patching_rect" : [ 184.0, 728.0, 91.0, 22.0 ],
+									"text" : "prepend pitch 1"
 								}
 
 							}
@@ -4718,16 +4729,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-141", 0 ],
-					"order" : 1,
-					"source" : [ "obj-100", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
-					"order" : 0,
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -5004,6 +5006,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"source" : [ "obj-132", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-133", 0 ]
 				}
 
 			}
@@ -5615,6 +5624,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-128", 0 ],
+					"source" : [ "obj-94", 0 ]
 				}
 
 			}
