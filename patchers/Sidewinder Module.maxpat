@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-140",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1472.0, 704.0, 72.0, 20.0 ],
+					"text" : "r #0sequence"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-133",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -68,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1680.0, 736.0, 63.0, 20.0 ],
+					"patching_rect" : [ 1704.0, 736.0, 63.0, 20.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -80,7 +92,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1624.0, 736.0, 50.0, 20.0 ],
+					"patching_rect" : [ 1648.0, 736.0, 50.0, 20.0 ],
 					"text" : "r #0pitch"
 				}
 
@@ -92,7 +104,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1752.0, 736.0, 66.0, 20.0 ],
+					"patching_rect" : [ 1776.0, 736.0, 66.0, 20.0 ],
 					"text" : "r #0duration"
 				}
 
@@ -104,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1456.0, 704.0, 35.0, 20.0 ],
+					"patching_rect" : [ 1456.0, 736.0, 35.0, 20.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -128,7 +140,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1472.0, 736.0, 143.0, 20.0 ],
+					"patching_rect" : [ 1496.0, 736.0, 143.0, 20.0 ],
 					"text" : "route pitch velocity duration"
 				}
 
@@ -5048,6 +5060,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-132", 1 ],
+					"source" : [ "obj-140", 0 ]
 				}
 
 			}
