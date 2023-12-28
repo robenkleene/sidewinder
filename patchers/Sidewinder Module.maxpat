@@ -2062,7 +2062,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 857.0, 269.0, 394.0, 695.0 ],
+						"rect" : [ 667.0, 147.0, 831.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2137,7 +2137,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize",
+										"filename" : "sidewinder_randomize.js",
 										"parameter_enable" : 0
 									}
 ,
