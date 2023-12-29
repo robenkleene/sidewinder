@@ -2137,7 +2137,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize.js",
+										"filename" : "sidewinder_randomize",
 										"parameter_enable" : 0
 									}
 ,
@@ -2340,7 +2340,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1304.0, 240.0, 95.0, 20.0 ],
+					"patching_rect" : [ 1264.0, 240.0, 95.0, 20.0 ],
 					"text" : "pattrforward Pitch"
 				}
 
@@ -2467,7 +2467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2176.0, 248.0, 111.0, 20.0 ],
+					"patching_rect" : [ 2144.0, 240.0, 111.0, 20.0 ],
 					"text" : "pattrforward Duration"
 				}
 
@@ -2498,7 +2498,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1760.0, 248.0, 101.0, 20.0 ],
+					"patching_rect" : [ 1760.0, 240.0, 101.0, 20.0 ],
 					"text" : "pattrforward Rotate"
 				}
 
@@ -2610,7 +2610,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1592.0, 248.0, 54.0, 20.0 ],
+					"patching_rect" : [ 1592.0, 240.0, 54.0, 20.0 ],
 					"text" : "s #0steps"
 				}
 
@@ -2633,7 +2633,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1976.0, 248.0, 108.0, 20.0 ],
+					"patching_rect" : [ 1944.0, 240.0, 108.0, 20.0 ],
 					"text" : "pattrforward Velocity"
 				}
 
