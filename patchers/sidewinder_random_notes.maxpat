@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 512.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
@@ -119,7 +131,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 376.0, 8.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -192,7 +204,7 @@
 				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 328.0, 113.0, 22.0 ],
@@ -231,7 +243,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 3 ],
+					"destination" : [ "obj-69", 2 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -255,7 +267,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 2 ],
+					"destination" : [ "obj-69", 1 ],
 					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -263,14 +275,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 1 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 4 ],
+					"destination" : [ "obj-69", 3 ],
 					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -286,14 +298,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 5 ],
+					"destination" : [ "obj-69", 4 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -304,6 +316,13 @@
 					"destination" : [ "obj-88", 2 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -337,7 +356,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-89", 0 ]
 				}
 
@@ -345,13 +364,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sidewinder_random.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sidewinder_random_concat.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
