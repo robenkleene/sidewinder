@@ -14,7 +14,7 @@ INLET_DURATION_MAX = 7;
 DURATION_VALUES = [7.5, 15, 30, 60, 120, 240, 480, 960];
 
 // Store input
-var input = [[], 0, 0, 0, 0, 0, 0, 0];
+reset(null);
 
 function getRandomArbitrary(min, max) {
   if (min == max) {
@@ -31,6 +31,10 @@ function getRandomInt(min, max) {
 
 function msg_float(value) {
   input[inlet] = value;
+}
+
+function reset(value) {
+  input = [[], 0, 0, 0, null, null, null, null];
 }
 
 function pitch(value) {
@@ -58,10 +62,14 @@ function pitch(value) {
 }
 
 function velocity(value) {
-  var arr = arrayfromargs(messagename, arguments);
-  var values = arr.slice(2)
   var min = input[INLET_VELOCITY_MIN];
   var max = input[INLET_VELOCITY_MAX];
+  var arr = arrayfromargs(messagename, arguments);
+  if (!min || !max) {
+    outlet(0, arr.join(" "));
+    return;
+  }
+  var values = arr.slice(2)
   var rests = input[INLET_RESTS];
   for (var i = 0; i < values.length; i++) {
     if (Math.random() < rests) {
@@ -75,10 +83,14 @@ function velocity(value) {
 }
 
 function duration(value) {
-  var arr = arrayfromargs(messagename, arguments);
-  var values = arr.slice(2)
   var max = input[INLET_DURATION_MAX];
   var min = input[INLET_DURATION_MIN];
+  var arr = arrayfromargs(messagename, arguments);
+  if (!min || !max) {
+    outlet(0, arr.join(" "));
+    return;
+  }
+  var values = arr.slice(2)
   for (var i = 0; i < values.length; i++) {
     values[i] = DURATION_VALUES[getRandomInt(min, max)];
   }
