@@ -2699,8 +2699,8 @@
 					"numinlets" : 11,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 920.0, 48.0, 1400.0, 20.0 ],
-					"text" : "route bang random scramble pitch pulses steps rotate velocity duration randomize"
+					"patching_rect" : [ 920.0, 48.0, 1472.0, 20.0 ],
+					"text" : "route bang random scramble pitch pulses steps rotate velocity duration reset"
 				}
 
 			}
