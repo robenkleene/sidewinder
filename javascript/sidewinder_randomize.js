@@ -65,7 +65,7 @@ function velocity(value) {
   var min = input[INLET_VELOCITY_MIN];
   var max = input[INLET_VELOCITY_MAX];
   var arr = arrayfromargs(messagename, arguments);
-  if (!min || !max) {
+  if (min == null || max == null) {
     outlet(0, arr.join(" "));
     return;
   }
@@ -86,7 +86,7 @@ function duration(value) {
   var max = input[INLET_DURATION_MAX];
   var min = input[INLET_DURATION_MIN];
   var arr = arrayfromargs(messagename, arguments);
-  if (!min || !max) {
+  if (min == null || max == null) {
     outlet(0, arr.join(" "));
     return;
   }
