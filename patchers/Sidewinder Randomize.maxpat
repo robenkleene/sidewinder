@@ -725,8 +725,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 1008.0, 105.0, 22.0 ],
-					"text" : "symbol Chromatic"
+					"patching_rect" : [ 464.0, 1008.0, 80.0, 22.0 ],
+					"text" : "symbol Major"
 				}
 
 			}
