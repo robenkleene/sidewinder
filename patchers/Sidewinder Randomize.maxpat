@@ -3932,13 +3932,13 @@
 ,
 				"obj-33::obj-6" : 				{
 					"parameter_longname" : "live.numbox[3]",
-					"parameter_range" : [ 60.0, 72.0 ],
+					"parameter_range" : [ 0.0, 127.0 ],
 					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-33::obj-7" : 				{
 					"parameter_longname" : "live.numbox[2]",
-					"parameter_range" : [ 60.0, 72.0 ],
+					"parameter_range" : [ 0.0, 127.0 ],
 					"parameter_unitstyle" : 8
 				}
 ,
