@@ -694,7 +694,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bjorklund.js",
+				"name" : "sidewinder_bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
@@ -736,14 +736,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "toussaint.js",
+				"name" : "sidewinder_toussaint.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wrapper.js",
+				"name" : "sidewinder_wrapper.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
