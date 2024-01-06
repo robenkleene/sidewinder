@@ -54,8 +54,16 @@ When **Auto** is on, making a change automatically updates the steps. When **Aut
 - **Min:** Minimum random amount
 - **Max:** Maximum random amount
 - **Notes**: Whether to randomize individual notes. If the notes is off, then randomize for Velocity, Pitch, and Duration will randomize changing those values on the individual track settings. If notes is on, then randomize for those values will create randomize the individual notes (and the track settings will be used for default values, e.g., for off notes with a velocity of 0).
-- For Pitch, Repeat, Order, and Rests are the percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest.
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
+- For Pitch, the top number and bottom pitches are the minimum and maximum pitches
+
+#### Pitch Note Controls
+
+With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
+
+- **Scale:** The scale the sequence will be generated in
+- **Rev:** Reverse the order of the generated sequence (from ascending to descending)
+- **Repeat, Order, Rests:** The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest.
 
 ## Installation
 
