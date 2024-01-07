@@ -49,7 +49,7 @@ When **Auto** is on, making a change automatically updates the steps. When **Aut
 
 ![Randomize](Randomize.png)
 
-Randomize generates a random sequence. The **Notes** setting is significant, with that setting turned off, a sequence that plays a single note will be generated. If it's turned on, a sequence playing notes from a scale will be generated.
+Randomize generates a random sequence. The **Notes** setting is significant, with that setting turned off, a sequence that plays a single note will be generated. If it's turned on, a sequence playing different notes from a scale will be generated.
 
 - **1-4 Buttons:** Which tracks to randomize
 - **Pulses, Steps, Rotate:** Whether to randomize those parameters
