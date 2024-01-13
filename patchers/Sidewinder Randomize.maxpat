@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 224.0, 100.0, 919.0, 983.0 ],
+		"rect" : [ 224.0, 100.0, 1325.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,54 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1000.0, 296.0, 77.0, 22.0 ],
+					"text" : "loadmess 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-138",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 968.0, 272.0, 77.0, 22.0 ],
+					"text" : "loadmess 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 792.0, 296.0, 77.0, 22.0 ],
+					"text" : "loadmess 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 272.0, 77.0, 22.0 ],
+					"text" : "loadmess 32"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-144",
 					"maxclass" : "newobj",
@@ -896,18 +944,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-79",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 742.0, 272.0, 150.0, 60.0 ],
-					"text" : "Pulses must come after steps because steps output can affect pulses max."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1372,8 +1408,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1104.0, 248.0, 119.0, 22.0 ],
-					"text" : "loadmess setup 1 32"
+					"patching_rect" : [ 1104.0, 248.0, 126.0, 22.0 ],
+					"text" : "loadmess setup 0 127"
 				}
 
 			}
@@ -1384,8 +1420,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 688.0, 248.0, 119.0, 22.0 ],
-					"text" : "loadmess setup 1 32"
+					"patching_rect" : [ 688.0, 240.0, 126.0, 22.0 ],
+					"text" : "loadmess setup 1 128"
 				}
 
 			}
@@ -1432,8 +1468,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 896.0, 248.0, 119.0, 22.0 ],
-					"text" : "loadmess setup 1 32"
+					"patching_rect" : [ 896.0, 248.0, 126.0, 22.0 ],
+					"text" : "loadmess setup 1 128"
 				}
 
 			}
@@ -1525,7 +1561,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 758.0, 336.0, 45.0, 105.0 ],
+					"patching_rect" : [ 760.0, 336.0, 45.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 48.0, 40.0, 96.0 ],
 					"varname" : "Pulses_Min_Max",
@@ -3158,6 +3194,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-138", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -3265,6 +3308,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -3767,6 +3817,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -3863,6 +3920,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-1" : [ "Randomize", "Randomize", 0 ],
@@ -3923,11 +3987,11 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-29::obj-1" : 				{
-					"parameter_range" : [ 1.0, 32.0 ]
+					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
 				"obj-29::obj-2" : 				{
-					"parameter_range" : [ 1.0, 32.0 ]
+					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
 				"obj-33::obj-6" : 				{
@@ -3944,12 +4008,12 @@
 ,
 				"obj-35::obj-1" : 				{
 					"parameter_longname" : "Min[1]",
-					"parameter_range" : [ 1.0, 32.0 ]
+					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
 				"obj-35::obj-2" : 				{
 					"parameter_longname" : "Max[1]",
-					"parameter_range" : [ 1.0, 32.0 ]
+					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
 				"obj-4::obj-1" : 				{
