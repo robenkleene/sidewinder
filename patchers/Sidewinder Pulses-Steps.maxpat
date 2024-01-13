@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 788.0, 192.0, 593.0, 891.0 ],
+		"rect" : [ 327.0, 160.0, 593.0, 891.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -52,9 +52,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Steps",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 128.0,
+							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "Steps",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -78,9 +79,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Pulses",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 128.0,
+							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "Pulses",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -98,7 +100,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
-					"restore" : [ 11.0 ],
+					"restore" : [ 9.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 8.0 ],
@@ -128,7 +130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 56.0, 138.0, 20.0 ],
-					"restore" : [ 11.0 ],
+					"restore" : [ 9.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4.0 ],

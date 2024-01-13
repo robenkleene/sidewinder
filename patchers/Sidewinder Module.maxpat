@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 99.0, 100.0, 1514.0, 963.0 ],
+		"rect" : [ 99.0, 100.0, 923.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -2172,7 +2172,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize.js",
+										"filename" : "sidewinder_randomize",
 										"parameter_enable" : 0
 									}
 ,
@@ -2966,9 +2966,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Rotate",
-							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "Rotate",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -3057,8 +3056,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 112.0, 200.0, 31.0, 20.0 ],
-					"text" : "% 32"
+					"patching_rect" : [ 112.0, 200.0, 29.5, 20.0 ],
+					"text" : "% 0"
 				}
 
 			}
