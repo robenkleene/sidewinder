@@ -57,8 +57,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 968.0, 272.0, 77.0, 22.0 ],
-					"text" : "loadmess 32"
+					"patching_rect" : [ 968.0, 272.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -81,8 +81,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 760.0, 272.0, 77.0, 22.0 ],
-					"text" : "loadmess 32"
+					"patching_rect" : [ 760.0, 272.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -4026,12 +4026,12 @@
 ,
 				"obj-56::obj-1" : 				{
 					"parameter_longname" : "Min[2]",
-					"parameter_range" : [ 1.0, 32.0 ]
+					"parameter_range" : [ 0.0, 127.0 ]
 				}
 ,
 				"obj-56::obj-2" : 				{
 					"parameter_longname" : "Max[2]",
-					"parameter_range" : [ 1.0, 32.0 ]
+					"parameter_range" : [ 0.0, 127.0 ]
 				}
 ,
 				"obj-73::obj-1" : 				{
