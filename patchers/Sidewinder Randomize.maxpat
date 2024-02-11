@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 224.0, 100.0, 1325.0, 983.0 ],
+		"rect" : [ 224.0, 100.0, 1048.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,46 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-139",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 912.0, 120.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"Duration_Inc" : [ 0.0 ],
+						"Order" : [ 50.0 ],
+						"Pitch_Inc" : [ 0.0 ],
+						"Pitch_Notes" : [ 0.0 ],
+						"Randomize" : [ 0.0 ],
+						"Randomize_1" : [ 1.0 ],
+						"Randomize_2" : [ 0.0 ],
+						"Randomize_3" : [ 0.0 ],
+						"Randomize_4" : [ 0.0 ],
+						"Randomize_Duration" : [ 1.0 ],
+						"Randomize_Pitch" : [ 1.0 ],
+						"Randomize_Pulses" : [ 1.0 ],
+						"Randomize_Rotate" : [ 1.0 ],
+						"Randomize_Step" : [ 0.0 ],
+						"Randomize_Steps" : [ 1.0 ],
+						"Randomize_Velocity" : [ 1.0 ],
+						"Repeat" : [ 50.0 ],
+						"Rests" : [ 50.0 ],
+						"Rotate_Inc" : [ 0.0 ],
+						"Steps_Pulses_Inc" : [ 0.0 ],
+						"Steps_Pulses_Inc[1]" : [ 0.0 ],
+						"Velocity_Inc" : [ 0.0 ],
+						"live.menu" : [ 14.0 ],
+						"live.text" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u457004162"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-99",
 					"maxclass" : "newobj",
@@ -841,11 +881,12 @@
 					"id" : "obj-109",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
 					"patching_rect" : [ 624.0, 1064.0, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
+						"legacy" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -953,8 +994,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2297,8 +2338,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
