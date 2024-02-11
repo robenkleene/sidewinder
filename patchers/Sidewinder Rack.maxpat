@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -65,7 +65,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[13]",
+							"parameter_longname" : "live.text[14]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[13]",
 							"parameter_type" : 2
@@ -161,7 +161,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[14]",
+							"parameter_longname" : "live.text[16]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[10]",
 							"parameter_type" : 2
@@ -234,7 +234,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[16]",
+							"parameter_longname" : "live.text[17]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
@@ -273,18 +273,6 @@
 					}
 ,
 					"varname" : "Selected_Rack"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 664.0, 320.0, 63.0, 20.0 ],
-					"text" : "loadmess 1"
 				}
 
 			}
@@ -402,7 +390,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "Sidewinder.json",
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
@@ -528,6 +515,7 @@
 					"patching_rect" : [ 280.0, 8.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 576.0, 88.0, 40.0, 32.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -664,13 +652,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"source" : [ "obj-32", 0 ]
 				}
@@ -714,10 +695,10 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "Selected_Rack", "Selected_Rack", 0 ],
-			"obj-11" : [ "live.text[16]", "live.text[8]", 0 ],
+			"obj-11" : [ "live.text[17]", "live.text[8]", 0 ],
 			"obj-13" : [ "live.text[15]", "live.text[8]", 0 ],
-			"obj-17" : [ "live.text[14]", "live.text[10]", 0 ],
-			"obj-20" : [ "live.text[13]", "live.text[13]", 0 ],
+			"obj-17" : [ "live.text[16]", "live.text[10]", 0 ],
+			"obj-20" : [ "live.text[14]", "live.text[13]", 0 ],
 			"obj-27" : [ "Stored_Play", "Stored_Play", 0 ],
 			"obj-6" : [ "Stored_Selected_Rack", "Stored_Selected_Rack", 0 ],
 			"obj-8::obj-13::obj-11" : [ "Rotate[1]", "Rotate", 0 ],
@@ -804,21 +785,53 @@
 			"obj-8::obj-21::obj-81" : [ "Velocity[3]", "Velocity", 0 ],
 			"obj-8::obj-21::obj-84" : [ "Mode[3]", "Mode", 0 ],
 			"obj-8::obj-21::obj-86" : [ "Stored_Mode[3]", "Stored_Mode", 0 ],
-			"obj-8::obj-7::obj-1" : [ "live.text[10]", "live.text", 0 ],
-			"obj-8::obj-7::obj-10" : [ "live.text[4]", "live.text[2]", 0 ],
-			"obj-8::obj-7::obj-11" : [ "live.text[6]", "live.text[2]", 0 ],
-			"obj-8::obj-7::obj-15" : [ "live.text[12]", "live.text[6]", 0 ],
-			"obj-8::obj-7::obj-16" : [ "live.text[11]", "live.text[7]", 0 ],
-			"obj-8::obj-7::obj-21" : [ "Rotate[4]", "Rotate", 0 ],
-			"obj-8::obj-7::obj-25" : [ "live.text[8]", "live.text[8]", 0 ],
-			"obj-8::obj-7::obj-53::obj-1" : [ "Pulses[4]", "Pulses", 0 ],
-			"obj-8::obj-7::obj-53::obj-2" : [ "Steps[4]", "Steps", 0 ],
-			"obj-8::obj-7::obj-53::obj-66" : [ "Stored_Pulses[4]", "Stored_Pulses", 0 ],
-			"obj-8::obj-7::obj-53::obj-67" : [ "Stored_Steps[4]", "Stored_Steps", 0 ],
-			"obj-8::obj-7::obj-6" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-8::obj-7::obj-7" : [ "Velocity Amount", "Velocity", 0 ],
-			"obj-8::obj-7::obj-8" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-8::obj-7::obj-9" : [ "live.text[9]", "live.text[2]", 0 ],
+			"obj-8::obj-7::obj-1" : [ "live.text[10]", "Randomize", 0 ],
+			"obj-8::obj-7::obj-10" : [ "live.text[4]", "Randomize_3", 0 ],
+			"obj-8::obj-7::obj-104" : [ "Order", "Order", 0 ],
+			"obj-8::obj-7::obj-11" : [ "live.text[6]", "Randomize_4", 0 ],
+			"obj-8::obj-7::obj-110" : [ "Rests", "Rests", 0 ],
+			"obj-8::obj-7::obj-111" : [ "live.text[8]", "live.text", 0 ],
+			"obj-8::obj-7::obj-15" : [ "live.text[12]", "Randomize_Pulses", 0 ],
+			"obj-8::obj-7::obj-16" : [ "live.text[11]", "Randomize_Steps", 0 ],
+			"obj-8::obj-7::obj-25" : [ "live.text[13]", "Randomize_Rotate", 0 ],
+			"obj-8::obj-7::obj-29::obj-1" : [ "Min", "Min", 0 ],
+			"obj-8::obj-7::obj-29::obj-2" : [ "Max", "Max", 0 ],
+			"obj-8::obj-7::obj-29::obj-66" : [ "Stored_Min", "Stored_Min", 0 ],
+			"obj-8::obj-7::obj-29::obj-67" : [ "Stored_Max", "Stored_Max", 0 ],
+			"obj-8::obj-7::obj-30" : [ "Randomize_Duration", "Randomize_Duration", 0 ],
+			"obj-8::obj-7::obj-33::obj-6" : [ "Max[5]", "Max", 0 ],
+			"obj-8::obj-7::obj-33::obj-66" : [ "Stored_Min[4]", "Stored_Min", 0 ],
+			"obj-8::obj-7::obj-33::obj-67" : [ "Stored_Max[5]", "Stored_Max", 0 ],
+			"obj-8::obj-7::obj-33::obj-7" : [ "Min[5]", "Min", 0 ],
+			"obj-8::obj-7::obj-35::obj-1" : [ "Min[1]", "Min", 0 ],
+			"obj-8::obj-7::obj-35::obj-2" : [ "Max[1]", "Max", 0 ],
+			"obj-8::obj-7::obj-35::obj-66" : [ "Stored_Min[1]", "Stored_Min", 0 ],
+			"obj-8::obj-7::obj-35::obj-67" : [ "Stored_Max[1]", "Stored_Max", 0 ],
+			"obj-8::obj-7::obj-38" : [ "Randomize_Step", "Randomize_Step", 0 ],
+			"obj-8::obj-7::obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
+			"obj-8::obj-7::obj-44" : [ "Steps_Pulses_Inc", "Steps_Pulses_Inc", 0 ],
+			"obj-8::obj-7::obj-45" : [ "Rotate_Inc", "Rotate_Inc", 0 ],
+			"obj-8::obj-7::obj-46" : [ "Velocity_Inc", "Velocity_Inc", 0 ],
+			"obj-8::obj-7::obj-47" : [ "Duration_Inc", "Duration_Inc", 0 ],
+			"obj-8::obj-7::obj-48" : [ "Pitch_Inc", "Pitch_Inc", 0 ],
+			"obj-8::obj-7::obj-4::obj-1" : [ "Min[4]", "Min", 0 ],
+			"obj-8::obj-7::obj-4::obj-2" : [ "Max[4]", "Max", 0 ],
+			"obj-8::obj-7::obj-4::obj-67" : [ "Stored_Max[4]", "Stored_Max", 0 ],
+			"obj-8::obj-7::obj-56::obj-1" : [ "Min[2]", "Min", 0 ],
+			"obj-8::obj-7::obj-56::obj-2" : [ "Max[2]", "Max", 0 ],
+			"obj-8::obj-7::obj-56::obj-66" : [ "Stored_Min[2]", "Stored_Min", 0 ],
+			"obj-8::obj-7::obj-56::obj-67" : [ "Stored_Max[2]", "Stored_Max", 0 ],
+			"obj-8::obj-7::obj-6" : [ "live.text[1]", "Randomize_Velocity", 0 ],
+			"obj-8::obj-7::obj-64" : [ "Steps_Pulses_Inc[1]", "Steps_Pulses_Inc", 0 ],
+			"obj-8::obj-7::obj-73::obj-1" : [ "Min[3]", "Min", 0 ],
+			"obj-8::obj-7::obj-73::obj-2" : [ "Max[3]", "Max", 0 ],
+			"obj-8::obj-7::obj-73::obj-66" : [ "Stored_Min[3]", "Stored_Min", 0 ],
+			"obj-8::obj-7::obj-73::obj-67" : [ "Stored_Max[3]", "Stored_Max", 0 ],
+			"obj-8::obj-7::obj-78" : [ "Pitch_Notes", "Pitch_Notes", 0 ],
+			"obj-8::obj-7::obj-8" : [ "live.text[2]", "Randomize_1", 0 ],
+			"obj-8::obj-7::obj-9" : [ "live.text[9]", "Randomize_2", 0 ],
+			"obj-8::obj-7::obj-93" : [ "Repeat", "Repeat", 0 ],
+			"obj-8::obj-7::obj-94" : [ "Key", "Key", 0 ],
 			"obj-9" : [ "Play", "Play", 0 ],
 			"parameterbanks" : 			{
 
@@ -949,8 +962,16 @@
 					"parameter_longname" : "live.text[10]"
 				}
 ,
+				"obj-8::obj-7::obj-10" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
 				"obj-8::obj-7::obj-11" : 				{
 					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-8::obj-7::obj-111" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-8::obj-7::obj-15" : 				{
@@ -961,20 +982,74 @@
 					"parameter_longname" : "live.text[11]"
 				}
 ,
-				"obj-8::obj-7::obj-21" : 				{
-					"parameter_longname" : "Rotate[4]"
+				"obj-8::obj-7::obj-25" : 				{
+					"parameter_longname" : "live.text[13]"
 				}
 ,
-				"obj-8::obj-7::obj-53::obj-1" : 				{
-					"parameter_longname" : "Pulses[4]"
+				"obj-8::obj-7::obj-29::obj-1" : 				{
+					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
-				"obj-8::obj-7::obj-53::obj-2" : 				{
-					"parameter_longname" : "Steps[4]"
+				"obj-8::obj-7::obj-29::obj-2" : 				{
+					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
-				"obj-8::obj-7::obj-7" : 				{
-					"parameter_longname" : "Velocity Amount"
+				"obj-8::obj-7::obj-33::obj-6" : 				{
+					"parameter_longname" : "Max[5]",
+					"parameter_range" : [ 0.0, 127.0 ],
+					"parameter_unitstyle" : 8
+				}
+,
+				"obj-8::obj-7::obj-33::obj-7" : 				{
+					"parameter_longname" : "Min[5]",
+					"parameter_range" : [ 0.0, 127.0 ],
+					"parameter_unitstyle" : 8
+				}
+,
+				"obj-8::obj-7::obj-35::obj-1" : 				{
+					"parameter_longname" : "Min[1]",
+					"parameter_range" : [ 1.0, 128.0 ]
+				}
+,
+				"obj-8::obj-7::obj-35::obj-2" : 				{
+					"parameter_longname" : "Max[1]",
+					"parameter_range" : [ 1.0, 128.0 ]
+				}
+,
+				"obj-8::obj-7::obj-4::obj-1" : 				{
+					"parameter_longname" : "Min[4]"
+				}
+,
+				"obj-8::obj-7::obj-4::obj-2" : 				{
+					"parameter_longname" : "Max[4]"
+				}
+,
+				"obj-8::obj-7::obj-56::obj-1" : 				{
+					"parameter_longname" : "Min[2]",
+					"parameter_range" : [ 0.0, 127.0 ]
+				}
+,
+				"obj-8::obj-7::obj-56::obj-2" : 				{
+					"parameter_longname" : "Max[2]",
+					"parameter_range" : [ 0.0, 127.0 ]
+				}
+,
+				"obj-8::obj-7::obj-6" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-8::obj-7::obj-73::obj-1" : 				{
+					"parameter_longname" : "Min[3]",
+					"parameter_range" : [ 1.0, 127.0 ]
+				}
+,
+				"obj-8::obj-7::obj-73::obj-2" : 				{
+					"parameter_longname" : "Max[3]",
+					"parameter_range" : [ 1.0, 127.0 ]
+				}
+,
+				"obj-8::obj-7::obj-8" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-8::obj-7::obj-9" : 				{
@@ -987,6 +1062,27 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Sidewinder Min-Max Dial.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sidewinder Min-Max Duration.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sidewinder Min-Max Numbox.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Sidewinder Module Bank.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
@@ -1022,7 +1118,63 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "clementine_list_one_value.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/patchers",
+				"patcherrelativepath" : "../../clementine/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sidewinder_bjorklund.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_random.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_random_add.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_random_inc.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_random_notes.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_random_split.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_randomize.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_scales.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
