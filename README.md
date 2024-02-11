@@ -33,6 +33,8 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 When **Auto** is on, making a change automatically updates the steps. When **Auto** is off, use **Set** to update the steps.
 
+**Note:** Due to a technical limitation, if Auto is on, changing *any* parameter that affects the steps (e.g., pulses, steps, rotate, pitch, velocity, or duration) *will overwrite any manual changes made in the step sequencer to pitch, velocity, or duration*.
+
 #### Pulses
 
 - **Pulses**: Set the number of pulses (notes)
@@ -41,7 +43,7 @@ When **Auto** is on, making a change automatically updates the steps. When **Aut
 
 #### Notes
 
-- Pitch: Set the pitch of the notes
+- **Pitch:** Set the pitch of the notes
 - **Velocity**: Set the velocity of the notes
 - **Duration**: Set the duration of the notes in DAW ticks. The duration can only be set to `7.5`, `15`, `30`, `60`, `120`, `240`, `480`, or `960`. This is limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer.
 
