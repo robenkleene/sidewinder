@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,23 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 400.0, 56.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Min" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u190004041"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "live.menu",
@@ -78,7 +95,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
-							"parameter_longname" : "Min",
+							"parameter_longname" : "#1-Min",
 							"parameter_mmax" : 7,
 							"parameter_shortname" : "Min",
 							"parameter_type" : 2
@@ -86,7 +103,7 @@
 
 					}
 ,
-					"varname" : "Min"
+					"varname" : "#1-Min"
 				}
 
 			}
@@ -111,55 +128,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 8.0, 64.0, 63.0, 20.0 ],
 					"text" : "route setup"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 8.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Max",
-							"parameter_shortname" : "Stored_Max",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Max Max",
-					"varname" : "Stored_Max"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-66",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 368.0, 56.0, 108.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Min Min",
-					"varname" : "Stored_Min"
 				}
 
 			}
@@ -436,9 +404,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Min", "Min", 0 ],
+			"obj-1" : [ "#1-Min", "Min", 0 ],
 			"obj-2" : [ "Max", "Max", 0 ],
-			"obj-67" : [ "Stored_Max", "Stored_Max", 0 ],
 			"parameterbanks" : 			{
 
 			}

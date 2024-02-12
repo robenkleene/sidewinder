@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 153.0, 463.0, 1097.0, 910.0 ],
+		"rect" : [ 153.0, 173.0, 1097.0, 910.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,24 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 360.0, 64.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Max" : [ 0.0 ],
+						"#1-Min" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u973012548"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
@@ -99,7 +117,7 @@
 					"presentation_rect" : [ 0.0, 48.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Max",
+							"parameter_longname" : "#1-Max",
 							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "Max",
 							"parameter_type" : 0,
@@ -108,7 +126,7 @@
 
 					}
 ,
-					"varname" : "Max"
+					"varname" : "#1-Max"
 				}
 
 			}
@@ -125,7 +143,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Min",
+							"parameter_longname" : "#1-Min",
 							"parameter_mmax" : 32.0,
 							"parameter_shortname" : "Min",
 							"parameter_type" : 0,
@@ -134,67 +152,7 @@
 
 					}
 ,
-					"varname" : "Min"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 8.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Max",
-							"parameter_shortname" : "Stored_Max",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Max Max",
-					"varname" : "Stored_Max"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-66",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 368.0, 56.0, 138.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 4.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Min",
-							"parameter_shortname" : "Stored_Min",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Min Min",
-					"varname" : "Stored_Min"
+					"varname" : "#1-Min"
 				}
 
 			}
@@ -501,10 +459,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Min", "Min", 0 ],
-			"obj-2" : [ "Max", "Max", 0 ],
-			"obj-66" : [ "Stored_Min", "Stored_Min", 0 ],
-			"obj-67" : [ "Stored_Max", "Stored_Max", 0 ],
+			"obj-1" : [ "#1-Min", "Min", 0 ],
+			"obj-2" : [ "#1-Max", "Max", 0 ],
 			"parameterbanks" : 			{
 
 			}

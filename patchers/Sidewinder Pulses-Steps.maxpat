@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 376.0, 48.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Pulses" : [ 9.0 ],
+						"#1-Steps" : [ 9.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u704005703"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -51,7 +69,7 @@
 					"presentation_rect" : [ 0.0, 48.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Steps",
+							"parameter_longname" : "#1-Steps",
 							"parameter_mmax" : 128.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "Steps",
@@ -61,7 +79,7 @@
 
 					}
 ,
-					"varname" : "Steps"
+					"varname" : "#1-Steps"
 				}
 
 			}
@@ -78,7 +96,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Pulses",
+							"parameter_longname" : "#1-Pulses",
 							"parameter_mmax" : 128.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "Pulses",
@@ -88,67 +106,7 @@
 
 					}
 ,
-					"varname" : "Pulses"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 368.0, 80.0, 128.0, 20.0 ],
-					"restore" : [ 9.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 8.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Steps",
-							"parameter_shortname" : "Stored_Steps",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Steps Steps",
-					"varname" : "Stored_Steps"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-66",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 368.0, 56.0, 138.0, 20.0 ],
-					"restore" : [ 9.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 4.0 ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Pulses",
-							"parameter_shortname" : "Stored_Pulses",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Pulses Pulses",
-					"varname" : "Stored_Pulses"
+					"varname" : "#1-Pulses"
 				}
 
 			}
@@ -397,10 +355,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Pulses", "Pulses", 0 ],
-			"obj-2" : [ "Steps", "Steps", 0 ],
-			"obj-66" : [ "Stored_Pulses", "Stored_Pulses", 0 ],
-			"obj-67" : [ "Stored_Steps", "Stored_Steps", 0 ],
+			"obj-1" : [ "#1-Pulses", "Pulses", 0 ],
+			"obj-2" : [ "#1-Steps", "Steps", 0 ],
 			"parameterbanks" : 			{
 
 			}
