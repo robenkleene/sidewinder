@@ -48,6 +48,7 @@
 					"patching_rect" : [ 912.0, 120.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Duration_Inc" : [ 0.0 ],
+						"Key" : [ 14.0 ],
 						"Order" : [ 50.0 ],
 						"Pitch_Inc" : [ 0.0 ],
 						"Pitch_Notes" : [ 0.0 ],
@@ -69,7 +70,6 @@
 						"Steps_Pulses_Inc" : [ 0.0 ],
 						"Steps_Pulses_Inc[1]" : [ 0.0 ],
 						"Velocity_Inc" : [ 0.0 ],
-						"live.menu" : [ 14.0 ],
 						"live.text" : [ 0.0 ]
 					}
 ,
@@ -240,7 +240,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 976.0, 65.0, 22.0 ],
+					"patching_rect" : [ 464.0, 1224.0, 65.0, 22.0 ],
 					"text" : "s #0output"
 				}
 
@@ -329,7 +329,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 1184.0, 63.0, 22.0 ],
+					"patching_rect" : [ 48.0, 1232.0, 63.0, 22.0 ],
 					"text" : "r #0output"
 				}
 
@@ -494,6 +494,7 @@
 					"patching_rect" : [ 864.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 248.0, 96.0, 104.0, 48.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -739,7 +740,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 1168.0, 72.0, 22.0 ],
+					"patching_rect" : [ 856.0, 1120.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -751,7 +752,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 944.0, 49.0, 22.0 ],
+					"patching_rect" : [ 464.0, 1192.0, 49.0, 22.0 ],
 					"text" : "append"
 				}
 
@@ -764,21 +765,21 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 464.0, 1040.0, 100.0, 15.0 ],
+					"patching_rect" : [ 672.0, 952.0, 100.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 248.0, 80.0, 64.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Aeolian", "Augmented", "Augmentedfifth", "Bluesmajor", "Bluesminor", "Chromatic", "Diminished", "Dorian", "Halfwhole", "Harmonicminor", "Ionian", "Japanese", "Locrian", "Lydian", "Major", "Melodicminor", "Minor", "Mixolydian", "Oriental", "Pentatonicmajor", "Pentatonicminor", "Phrygian", "Wholehalf", "Wholetone" ],
-							"parameter_longname" : "live.menu",
+							"parameter_longname" : "Key",
 							"parameter_mmax" : 23,
-							"parameter_shortname" : "live.menu",
+							"parameter_shortname" : "Key",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.menu"
+					"varname" : "Key"
 				}
 
 			}
@@ -789,7 +790,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 1136.0, 71.0, 22.0 ],
+					"patching_rect" : [ 856.0, 1088.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -801,7 +802,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 640.0, 1104.0, 55.0, 22.0 ],
+					"patching_rect" : [ 856.0, 1056.0, 55.0, 22.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -813,7 +814,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 1008.0, 80.0, 22.0 ],
+					"patching_rect" : [ 672.0, 920.0, 80.0, 22.0 ],
 					"text" : "symbol Major"
 				}
 
@@ -825,7 +826,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 1064.0, 73.0, 22.0 ],
+					"patching_rect" : [ 712.0, 976.0, 73.0, 22.0 ],
 					"text" : "prepend get"
 				}
 
@@ -837,7 +838,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 624.0, 944.0, 58.0, 22.0 ],
+					"patching_rect" : [ 824.0, 832.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -849,7 +850,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 1008.0, 169.0, 22.0 ],
+					"patching_rect" : [ 848.0, 912.0, 169.0, 22.0 ],
 					"text" : "import sidewinder_scales.json"
 				}
 
@@ -860,7 +861,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 1104.0, 160.0, 90.0 ]
+					"patching_rect" : [ 680.0, 1056.0, 160.0, 90.0 ]
 				}
 
 			}
@@ -871,7 +872,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 624.0, 976.0, 42.0, 22.0 ],
+					"patching_rect" : [ 824.0, 880.0, 42.0, 22.0 ],
 					"text" : "t b b b"
 				}
 
@@ -883,7 +884,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 624.0, 1064.0, 65.0, 22.0 ],
+					"patching_rect" : [ 840.0, 1016.0, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"legacy" : 1,
@@ -1317,6 +1318,7 @@
 					"patching_rect" : [ 816.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 200.0, 48.0, 40.0, 96.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -1334,6 +1336,7 @@
 					"patching_rect" : [ 792.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 144.0, 48.0, 40.0, 96.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -1351,6 +1354,7 @@
 					"patching_rect" : [ 768.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 48.0, 40.0, 96.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -2701,7 +2705,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 1216.0, 30.0, 30.0 ]
+					"patching_rect" : [ 32.0, 1264.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2896,6 +2900,7 @@
 					"patching_rect" : [ 840.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 48.0, 40.0, 96.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -4016,7 +4021,7 @@
 			"obj-8" : [ "Randomize_1", "Randomize_1", 0 ],
 			"obj-9" : [ "Randomize_2", "Randomize_2", 0 ],
 			"obj-93" : [ "Repeat", "Repeat", 0 ],
-			"obj-94" : [ "live.menu", "live.menu", 0 ],
+			"obj-94" : [ "Key", "Key", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
