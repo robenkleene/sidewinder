@@ -314,8 +314,8 @@
 			"obj-2::obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
 			"obj-2::obj-8::obj-13::obj-25" : [ "2-On", "On", 0 ],
 			"obj-2::obj-8::obj-13::obj-28" : [ "2-Duration", "Duration", 0 ],
-			"obj-2::obj-8::obj-13::obj-53::obj-1" : [ "0-Pulses[1]", "Pulses", 0 ],
-			"obj-2::obj-8::obj-13::obj-53::obj-2" : [ "0-Steps[1]", "Steps", 0 ],
+			"obj-2::obj-8::obj-13::obj-53::obj-1" : [ "2-Pulses", "Pulses", 0 ],
+			"obj-2::obj-8::obj-13::obj-53::obj-2" : [ "2-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-13::obj-64" : [ "2-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-13::obj-65" : [ "2-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-13::obj-78" : [ "2-PItch", "Pitch", 0 ],
@@ -325,8 +325,8 @@
 			"obj-2::obj-8::obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
 			"obj-2::obj-8::obj-18::obj-25" : [ "3-On", "On", 0 ],
 			"obj-2::obj-8::obj-18::obj-28" : [ "3-Duration", "Duration", 0 ],
-			"obj-2::obj-8::obj-18::obj-53::obj-1" : [ "0-Pulses[2]", "Pulses", 0 ],
-			"obj-2::obj-8::obj-18::obj-53::obj-2" : [ "0-Steps[2]", "Steps", 0 ],
+			"obj-2::obj-8::obj-18::obj-53::obj-1" : [ "3-Pulses", "Pulses", 0 ],
+			"obj-2::obj-8::obj-18::obj-53::obj-2" : [ "3-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-18::obj-64" : [ "3-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-18::obj-65" : [ "3-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-18::obj-78" : [ "3-PItch", "Pitch", 0 ],
@@ -336,8 +336,8 @@
 			"obj-2::obj-8::obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
 			"obj-2::obj-8::obj-1::obj-25" : [ "1-On", "On", 0 ],
 			"obj-2::obj-8::obj-1::obj-28" : [ "1-Duration", "Duration", 0 ],
-			"obj-2::obj-8::obj-1::obj-53::obj-1" : [ "0-Pulses", "Pulses", 0 ],
-			"obj-2::obj-8::obj-1::obj-53::obj-2" : [ "0-Steps", "Steps", 0 ],
+			"obj-2::obj-8::obj-1::obj-53::obj-1" : [ "1-Pulses", "Pulses", 0 ],
+			"obj-2::obj-8::obj-1::obj-53::obj-2" : [ "1-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-1::obj-64" : [ "1-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-1::obj-65" : [ "1-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-1::obj-78" : [ "1-PItch", "Pitch", 0 ],
@@ -347,8 +347,8 @@
 			"obj-2::obj-8::obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
 			"obj-2::obj-8::obj-21::obj-25" : [ "4-On", "On", 0 ],
 			"obj-2::obj-8::obj-21::obj-28" : [ "4-Duration", "Duration", 0 ],
-			"obj-2::obj-8::obj-21::obj-53::obj-1" : [ "0-Pulses[3]", "Pulses", 0 ],
-			"obj-2::obj-8::obj-21::obj-53::obj-2" : [ "0-Steps[3]", "Steps", 0 ],
+			"obj-2::obj-8::obj-21::obj-53::obj-1" : [ "4-Pulses", "Pulses", 0 ],
+			"obj-2::obj-8::obj-21::obj-53::obj-2" : [ "4-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-21::obj-64" : [ "4-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-21::obj-65" : [ "4-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-21::obj-78" : [ "4-PItch", "Pitch", 0 ],
@@ -356,10 +356,10 @@
 			"obj-2::obj-8::obj-21::obj-81" : [ "4-Velocity", "Velocity", 0 ],
 			"obj-2::obj-8::obj-21::obj-84" : [ "4-Mode", "Mode", 0 ],
 			"obj-2::obj-8::obj-7::obj-10" : [ "Randomize_3", "Randomize_3", 0 ],
-			"obj-2::obj-8::obj-7::obj-104" : [ "Order", "Order", 0 ],
+			"obj-2::obj-8::obj-7::obj-104" : [ "Randomize_Notes_Order", "Order", 0 ],
 			"obj-2::obj-8::obj-7::obj-11" : [ "Randomize_4", "Randomize_4", 0 ],
-			"obj-2::obj-8::obj-7::obj-110" : [ "Rests", "Rests", 0 ],
-			"obj-2::obj-8::obj-7::obj-111" : [ "Reverse", "Rev", 0 ],
+			"obj-2::obj-8::obj-7::obj-110" : [ "Randomize_Notes_Rests", "Rests", 0 ],
+			"obj-2::obj-8::obj-7::obj-111" : [ "Randomize_Notes_Reverse", "Rev", 0 ],
 			"obj-2::obj-8::obj-7::obj-15" : [ "Randomize_Pulses", "Randomize_Pulses", 0 ],
 			"obj-2::obj-8::obj-7::obj-16" : [ "Randomize_Steps", "Randomize_Steps", 0 ],
 			"obj-2::obj-8::obj-7::obj-25" : [ "Randomize_Rotate", "Randomize_Rotate", 0 ],
@@ -370,7 +370,7 @@
 			"obj-2::obj-8::obj-7::obj-33::obj-7" : [ "Randomize_Pitch-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-35::obj-1" : [ "Randomize_Steps-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-35::obj-2" : [ "Randomize_Steps-Max", "Max", 0 ],
-			"obj-2::obj-8::obj-7::obj-38" : [ "Randomize_Step", "Randomize_Sequencer", 0 ],
+			"obj-2::obj-8::obj-7::obj-38" : [ "Randomize_Sequencer", "Randomize_Sequencer", 0 ],
 			"obj-2::obj-8::obj-7::obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
 			"obj-2::obj-8::obj-7::obj-4::obj-1" : [ "Randomize_Duration-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-4::obj-2" : [ "Randomize_Duration-Max", "Max", 0 ],
@@ -379,53 +379,17 @@
 			"obj-2::obj-8::obj-7::obj-6" : [ "Randomize_Velocity", "Randomize_Velocity", 0 ],
 			"obj-2::obj-8::obj-7::obj-73::obj-1" : [ "Randomize_Velocity-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-73::obj-2" : [ "Randomize_Velocity-Max", "Max", 0 ],
-			"obj-2::obj-8::obj-7::obj-78" : [ "Pitch_Notes", "Notes", 0 ],
+			"obj-2::obj-8::obj-7::obj-78" : [ "Randomize_Notes_Pitch", "Notes", 0 ],
 			"obj-2::obj-8::obj-7::obj-8" : [ "Randomize_1", "Randomize_1", 0 ],
 			"obj-2::obj-8::obj-7::obj-9" : [ "Randomize_2", "Randomize_2", 0 ],
-			"obj-2::obj-8::obj-7::obj-93" : [ "Repeat", "Repeat", 0 ],
-			"obj-2::obj-8::obj-7::obj-94" : [ "Key", "Scale", 0 ],
+			"obj-2::obj-8::obj-7::obj-93" : [ "Randomize_Notes_Repeat", "Repeat", 0 ],
+			"obj-2::obj-8::obj-7::obj-94" : [ "Randomize_Notes_Scale", "Scale", 0 ],
 			"obj-2::obj-9" : [ "Play", "Play", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-8::obj-13::obj-53::obj-1" : 				{
-					"parameter_longname" : "0-Pulses[1]"
-				}
-,
-				"obj-2::obj-8::obj-13::obj-53::obj-2" : 				{
-					"parameter_longname" : "0-Steps[1]"
-				}
-,
-				"obj-2::obj-8::obj-18::obj-53::obj-1" : 				{
-					"parameter_longname" : "0-Pulses[2]"
-				}
-,
-				"obj-2::obj-8::obj-18::obj-53::obj-2" : 				{
-					"parameter_longname" : "0-Steps[2]"
-				}
-,
-				"obj-2::obj-8::obj-21::obj-53::obj-1" : 				{
-					"parameter_longname" : "0-Pulses[3]"
-				}
-,
-				"obj-2::obj-8::obj-21::obj-53::obj-2" : 				{
-					"parameter_longname" : "0-Steps[3]"
-				}
-,
-				"obj-2::obj-8::obj-7::obj-104" : 				{
-					"parameter_longname" : "Order"
-				}
-,
-				"obj-2::obj-8::obj-7::obj-110" : 				{
-					"parameter_longname" : "Rests"
-				}
-,
-				"obj-2::obj-8::obj-7::obj-111" : 				{
-					"parameter_longname" : "Reverse"
-				}
-,
 				"obj-2::obj-8::obj-7::obj-29::obj-1" : 				{
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
@@ -452,10 +416,6 @@
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
-				"obj-2::obj-8::obj-7::obj-38" : 				{
-					"parameter_longname" : "Randomize_Step"
-				}
-,
 				"obj-2::obj-8::obj-7::obj-56::obj-1" : 				{
 					"parameter_range" : [ 0.0, 127.0 ]
 				}
@@ -470,18 +430,6 @@
 ,
 				"obj-2::obj-8::obj-7::obj-73::obj-2" : 				{
 					"parameter_range" : [ 1.0, 127.0 ]
-				}
-,
-				"obj-2::obj-8::obj-7::obj-78" : 				{
-					"parameter_longname" : "Pitch_Notes"
-				}
-,
-				"obj-2::obj-8::obj-7::obj-93" : 				{
-					"parameter_longname" : "Repeat"
-				}
-,
-				"obj-2::obj-8::obj-7::obj-94" : 				{
-					"parameter_longname" : "Key"
 				}
 
 			}
