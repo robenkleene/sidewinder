@@ -47,6 +47,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 400.0, 56.0, 52.0, 20.0 ],
 					"restore" : 					{
+						"#1-Max" : [ 0.0 ],
 						"#1-Min" : [ 0.0 ]
 					}
 ,
@@ -69,7 +70,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
-							"parameter_longname" : "Max",
+							"parameter_longname" : "#1-Max",
 							"parameter_mmax" : 7,
 							"parameter_shortname" : "Max",
 							"parameter_type" : 2
@@ -77,7 +78,7 @@
 
 					}
 ,
-					"varname" : "Max"
+					"varname" : "#1-Max"
 				}
 
 			}
@@ -405,7 +406,7 @@
  ],
 		"parameters" : 		{
 			"obj-1" : [ "#1-Min", "Min", 0 ],
-			"obj-2" : [ "Max", "Max", 0 ],
+			"obj-2" : [ "#1-Max", "Max", 0 ],
 			"parameterbanks" : 			{
 
 			}
