@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 99.0, 100.0, 923.0, 963.0 ],
+		"rect" : [ 99.0, 100.0, 1068.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -47,15 +47,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 696.0, 88.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"#1-Duration" : [ 0.0 ],
 						"#1-Mode" : [ 0.0 ],
 						"#1-On" : [ 0.0 ],
-						"#1-Pitch" : [ 0.0 ],
-						"#1-Rotate" : [ 0.0 ],
-						"#1-Sequencer" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127, 74, 78, 4, 127, 127, 70, 35, 4, 127, 127, 67, 75, 4, 127, 127, 60, 114, 4, 127, 127, 70, 75, 4, 127, 127, 67, 59, 4, 127, 127, 79, 80, 4, 127, 127, 60, 100, 4, 127, 127, 70, 84, 4, 127, 127, 60, 114, 4, 127, 127, 63, 98, 4, 127, 127, 70, 97, 4, 127, 127, 62, 103, 4, 127, 127 ],
+						"#1-Sequencer" : [ 1, 11, 0, 1, 12, 0, 11, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0 ],
 						"#1-Set" : [ 0.0 ],
-						"#1-Velocity" : [ 0.0 ],
-						"Auto" : [ 0.0 ]
+						"Auto" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2400,8 +2396,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1264.0, 240.0, 95.0, 20.0 ],
-					"text" : "pattrforward Pitch"
+					"patching_rect" : [ 1264.0, 240.0, 109.0, 20.0 ],
+					"text" : "pattrforward #1-Pitch"
 				}
 
 			}
@@ -2412,14 +2408,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1280.0, 176.0, 101.0, 20.0 ],
+					"patching_rect" : [ 1280.0, 176.0, 115.0, 20.0 ],
 					"restore" : [ 60.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto Pitch",
+					"text" : "pattr @bindto #1-Pitch",
 					"varname" : "u479002052[3]"
 				}
 
@@ -2527,8 +2523,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2144.0, 240.0, 111.0, 20.0 ],
-					"text" : "pattrforward Duration"
+					"patching_rect" : [ 2144.0, 240.0, 126.0, 20.0 ],
+					"text" : "pattrforward #1-Duration"
 				}
 
 			}
@@ -2539,14 +2535,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2160.0, 176.0, 118.0, 20.0 ],
+					"patching_rect" : [ 2160.0, 176.0, 132.0, 20.0 ],
 					"restore" : [ 4.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto Duration",
+					"text" : "pattr @bindto #1-Duration",
 					"varname" : "u479002052[2]"
 				}
 
@@ -2558,8 +2554,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1760.0, 240.0, 101.0, 20.0 ],
-					"text" : "pattrforward Rotate"
+					"patching_rect" : [ 1760.0, 240.0, 116.0, 20.0 ],
+					"text" : "pattrforward #1-Rotate"
 				}
 
 			}
@@ -2570,14 +2566,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1776.0, 176.0, 108.0, 20.0 ],
+					"patching_rect" : [ 1776.0, 176.0, 122.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto Rotate",
+					"text" : "pattr @bindto #1-Rotate",
 					"varname" : "u479002052[1]"
 				}
 
@@ -2693,8 +2689,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1944.0, 240.0, 108.0, 20.0 ],
-					"text" : "pattrforward Velocity"
+					"patching_rect" : [ 1944.0, 240.0, 122.0, 20.0 ],
+					"text" : "pattrforward #1-Velocity"
 				}
 
 			}
@@ -2705,14 +2701,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1968.0, 176.0, 114.0, 20.0 ],
+					"patching_rect" : [ 1968.0, 176.0, 129.0, 20.0 ],
 					"restore" : [ 127.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto Velocity",
+					"text" : "pattr @bindto #1-Velocity",
 					"varname" : "u479002052"
 				}
 
