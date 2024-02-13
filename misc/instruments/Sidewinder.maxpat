@@ -370,7 +370,7 @@
 			"obj-2::obj-8::obj-7::obj-33::obj-7" : [ "Randomize_Pitch-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-35::obj-1" : [ "Randomize_Steps-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-35::obj-2" : [ "Randomize_Steps-Max", "Max", 0 ],
-			"obj-2::obj-8::obj-7::obj-38" : [ "Randomize_Step", "Randomize_Step", 0 ],
+			"obj-2::obj-8::obj-7::obj-38" : [ "Randomize_Step", "Randomize_Sequencer", 0 ],
 			"obj-2::obj-8::obj-7::obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
 			"obj-2::obj-8::obj-7::obj-4::obj-1" : [ "Randomize_Duration-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-4::obj-2" : [ "Randomize_Duration-Max", "Max", 0 ],
@@ -379,11 +379,11 @@
 			"obj-2::obj-8::obj-7::obj-6" : [ "Randomize_Velocity", "Randomize_Velocity", 0 ],
 			"obj-2::obj-8::obj-7::obj-73::obj-1" : [ "Randomize_Velocity-Min", "Min", 0 ],
 			"obj-2::obj-8::obj-7::obj-73::obj-2" : [ "Randomize_Velocity-Max", "Max", 0 ],
-			"obj-2::obj-8::obj-7::obj-78" : [ "Pitch_Notes", "Pitch_Notes", 0 ],
+			"obj-2::obj-8::obj-7::obj-78" : [ "Pitch_Notes", "Notes", 0 ],
 			"obj-2::obj-8::obj-7::obj-8" : [ "Randomize_1", "Randomize_1", 0 ],
 			"obj-2::obj-8::obj-7::obj-9" : [ "Randomize_2", "Randomize_2", 0 ],
 			"obj-2::obj-8::obj-7::obj-93" : [ "Repeat", "Repeat", 0 ],
-			"obj-2::obj-8::obj-7::obj-94" : [ "Key", "Key", 0 ],
+			"obj-2::obj-8::obj-7::obj-94" : [ "Key", "Scale", 0 ],
 			"obj-2::obj-9" : [ "Play", "Play", 0 ],
 			"parameterbanks" : 			{
 
@@ -414,6 +414,18 @@
 					"parameter_longname" : "0-Steps[3]"
 				}
 ,
+				"obj-2::obj-8::obj-7::obj-104" : 				{
+					"parameter_longname" : "Order"
+				}
+,
+				"obj-2::obj-8::obj-7::obj-110" : 				{
+					"parameter_longname" : "Rests"
+				}
+,
+				"obj-2::obj-8::obj-7::obj-111" : 				{
+					"parameter_longname" : "Reverse"
+				}
+,
 				"obj-2::obj-8::obj-7::obj-29::obj-1" : 				{
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
@@ -440,6 +452,10 @@
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
+				"obj-2::obj-8::obj-7::obj-38" : 				{
+					"parameter_longname" : "Randomize_Step"
+				}
+,
 				"obj-2::obj-8::obj-7::obj-56::obj-1" : 				{
 					"parameter_range" : [ 0.0, 127.0 ]
 				}
@@ -454,6 +470,18 @@
 ,
 				"obj-2::obj-8::obj-7::obj-73::obj-2" : 				{
 					"parameter_range" : [ 1.0, 127.0 ]
+				}
+,
+				"obj-2::obj-8::obj-7::obj-78" : 				{
+					"parameter_longname" : "Pitch_Notes"
+				}
+,
+				"obj-2::obj-8::obj-7::obj-93" : 				{
+					"parameter_longname" : "Repeat"
+				}
+,
+				"obj-2::obj-8::obj-7::obj-94" : 				{
+					"parameter_longname" : "Key"
 				}
 
 			}
