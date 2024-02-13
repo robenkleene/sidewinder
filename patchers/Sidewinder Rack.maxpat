@@ -662,50 +662,50 @@
 			"obj-13" : [ "Write", "Write", 0 ],
 			"obj-17" : [ "Overwrite", "Overwrite", 0 ],
 			"obj-20" : [ "Randomize", "Randomize", 0 ],
-			"obj-8::obj-13::obj-11" : [ "0-Rotate[1]", "Rotate", 0 ],
-			"obj-8::obj-13::obj-25" : [ "0-On[1]", "On", 0 ],
-			"obj-8::obj-13::obj-28" : [ "0-Duration[1]", "Duration", 0 ],
+			"obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
+			"obj-8::obj-13::obj-25" : [ "2-On", "On", 0 ],
+			"obj-8::obj-13::obj-28" : [ "2-Duration", "Duration", 0 ],
 			"obj-8::obj-13::obj-53::obj-1" : [ "0-Pulses[1]", "Pulses", 0 ],
 			"obj-8::obj-13::obj-53::obj-2" : [ "0-Steps[1]", "Steps", 0 ],
 			"obj-8::obj-13::obj-64" : [ "Auto[1]", "Auto", 0 ],
-			"obj-8::obj-13::obj-65" : [ "0-Set[1]", "Set", 0 ],
-			"obj-8::obj-13::obj-78" : [ "0-PItch[1]", "Pitch", 0 ],
-			"obj-8::obj-13::obj-8" : [ "0-Sequencer[1]", "Sequencer", 0 ],
-			"obj-8::obj-13::obj-81" : [ "0-Velocity[1]", "Velocity", 0 ],
-			"obj-8::obj-13::obj-84" : [ "0-Mode[1]", "Mode", 0 ],
-			"obj-8::obj-18::obj-11" : [ "0-Rotate[2]", "Rotate", 0 ],
-			"obj-8::obj-18::obj-25" : [ "0-On[2]", "On", 0 ],
-			"obj-8::obj-18::obj-28" : [ "0-Duration[2]", "Duration", 0 ],
+			"obj-8::obj-13::obj-65" : [ "2-Set", "Set", 0 ],
+			"obj-8::obj-13::obj-78" : [ "2-PItch", "Pitch", 0 ],
+			"obj-8::obj-13::obj-8" : [ "2-Sequencer", "Sequencer", 0 ],
+			"obj-8::obj-13::obj-81" : [ "2-Velocity", "Velocity", 0 ],
+			"obj-8::obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
+			"obj-8::obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
+			"obj-8::obj-18::obj-25" : [ "3-On", "On", 0 ],
+			"obj-8::obj-18::obj-28" : [ "3-Duration", "Duration", 0 ],
 			"obj-8::obj-18::obj-53::obj-1" : [ "0-Pulses[2]", "Pulses", 0 ],
 			"obj-8::obj-18::obj-53::obj-2" : [ "0-Steps[2]", "Steps", 0 ],
 			"obj-8::obj-18::obj-64" : [ "Auto[2]", "Auto", 0 ],
-			"obj-8::obj-18::obj-65" : [ "0-Set[2]", "Set", 0 ],
-			"obj-8::obj-18::obj-78" : [ "0-PItch[2]", "Pitch", 0 ],
-			"obj-8::obj-18::obj-8" : [ "0-Sequencer[2]", "Sequencer", 0 ],
-			"obj-8::obj-18::obj-81" : [ "0-Velocity[2]", "Velocity", 0 ],
-			"obj-8::obj-18::obj-84" : [ "0-Mode[2]", "Mode", 0 ],
-			"obj-8::obj-1::obj-11" : [ "0-Rotate", "Rotate", 0 ],
-			"obj-8::obj-1::obj-25" : [ "0-On", "On", 0 ],
-			"obj-8::obj-1::obj-28" : [ "0-Duration", "Duration", 0 ],
+			"obj-8::obj-18::obj-65" : [ "3-Set", "Set", 0 ],
+			"obj-8::obj-18::obj-78" : [ "3-PItch", "Pitch", 0 ],
+			"obj-8::obj-18::obj-8" : [ "3-Sequencer", "Sequencer", 0 ],
+			"obj-8::obj-18::obj-81" : [ "3-Velocity", "Velocity", 0 ],
+			"obj-8::obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
+			"obj-8::obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
+			"obj-8::obj-1::obj-25" : [ "1-On", "On", 0 ],
+			"obj-8::obj-1::obj-28" : [ "1-Duration", "Duration", 0 ],
 			"obj-8::obj-1::obj-53::obj-1" : [ "0-Pulses", "Pulses", 0 ],
 			"obj-8::obj-1::obj-53::obj-2" : [ "0-Steps", "Steps", 0 ],
 			"obj-8::obj-1::obj-64" : [ "Auto", "Auto", 0 ],
-			"obj-8::obj-1::obj-65" : [ "0-Set", "Set", 0 ],
-			"obj-8::obj-1::obj-78" : [ "0-PItch", "Pitch", 0 ],
-			"obj-8::obj-1::obj-8" : [ "0-Sequencer", "Sequencer", 0 ],
-			"obj-8::obj-1::obj-81" : [ "0-Velocity", "Velocity", 0 ],
-			"obj-8::obj-1::obj-84" : [ "0-Mode", "Mode", 0 ],
-			"obj-8::obj-21::obj-11" : [ "0-Rotate[3]", "Rotate", 0 ],
-			"obj-8::obj-21::obj-25" : [ "0-On[3]", "On", 0 ],
-			"obj-8::obj-21::obj-28" : [ "0-Duration[3]", "Duration", 0 ],
+			"obj-8::obj-1::obj-65" : [ "1-Set", "Set", 0 ],
+			"obj-8::obj-1::obj-78" : [ "1-PItch", "Pitch", 0 ],
+			"obj-8::obj-1::obj-8" : [ "1-Sequencer", "Sequencer", 0 ],
+			"obj-8::obj-1::obj-81" : [ "1-Velocity", "Velocity", 0 ],
+			"obj-8::obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
+			"obj-8::obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
+			"obj-8::obj-21::obj-25" : [ "4-On", "On", 0 ],
+			"obj-8::obj-21::obj-28" : [ "4-Duration", "Duration", 0 ],
 			"obj-8::obj-21::obj-53::obj-1" : [ "0-Pulses[3]", "Pulses", 0 ],
 			"obj-8::obj-21::obj-53::obj-2" : [ "0-Steps[3]", "Steps", 0 ],
 			"obj-8::obj-21::obj-64" : [ "Auto[3]", "Auto", 0 ],
-			"obj-8::obj-21::obj-65" : [ "0-Set[3]", "Set", 0 ],
-			"obj-8::obj-21::obj-78" : [ "0-PItch[3]", "Pitch", 0 ],
-			"obj-8::obj-21::obj-8" : [ "0-Sequencer[3]", "Sequencer", 0 ],
-			"obj-8::obj-21::obj-81" : [ "0-Velocity[3]", "Velocity", 0 ],
-			"obj-8::obj-21::obj-84" : [ "0-Mode[3]", "Mode", 0 ],
+			"obj-8::obj-21::obj-65" : [ "4-Set", "Set", 0 ],
+			"obj-8::obj-21::obj-78" : [ "4-PItch", "Pitch", 0 ],
+			"obj-8::obj-21::obj-8" : [ "4-Sequencer", "Sequencer", 0 ],
+			"obj-8::obj-21::obj-81" : [ "4-Velocity", "Velocity", 0 ],
+			"obj-8::obj-21::obj-84" : [ "4-Mode", "Mode", 0 ],
 			"obj-8::obj-7::obj-1" : [ "Randomize[1]", "Randomize", 0 ],
 			"obj-8::obj-7::obj-10" : [ "Randomize_3", "Randomize_3", 0 ],
 			"obj-8::obj-7::obj-104" : [ "Order", "Order", 0 ],
@@ -748,18 +748,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-8::obj-13::obj-11" : 				{
-					"parameter_longname" : "0-Rotate[1]"
-				}
-,
-				"obj-8::obj-13::obj-25" : 				{
-					"parameter_longname" : "0-On[1]"
-				}
-,
-				"obj-8::obj-13::obj-28" : 				{
-					"parameter_longname" : "0-Duration[1]"
-				}
-,
 				"obj-8::obj-13::obj-53::obj-1" : 				{
 					"parameter_longname" : "0-Pulses[1]"
 				}
@@ -770,34 +758,6 @@
 ,
 				"obj-8::obj-13::obj-64" : 				{
 					"parameter_longname" : "Auto[1]"
-				}
-,
-				"obj-8::obj-13::obj-65" : 				{
-					"parameter_longname" : "0-Set[1]"
-				}
-,
-				"obj-8::obj-13::obj-78" : 				{
-					"parameter_longname" : "0-PItch[1]"
-				}
-,
-				"obj-8::obj-13::obj-81" : 				{
-					"parameter_longname" : "0-Velocity[1]"
-				}
-,
-				"obj-8::obj-13::obj-84" : 				{
-					"parameter_longname" : "0-Mode[1]"
-				}
-,
-				"obj-8::obj-18::obj-11" : 				{
-					"parameter_longname" : "0-Rotate[2]"
-				}
-,
-				"obj-8::obj-18::obj-25" : 				{
-					"parameter_longname" : "0-On[2]"
-				}
-,
-				"obj-8::obj-18::obj-28" : 				{
-					"parameter_longname" : "0-Duration[2]"
 				}
 ,
 				"obj-8::obj-18::obj-53::obj-1" : 				{
@@ -812,34 +772,6 @@
 					"parameter_longname" : "Auto[2]"
 				}
 ,
-				"obj-8::obj-18::obj-65" : 				{
-					"parameter_longname" : "0-Set[2]"
-				}
-,
-				"obj-8::obj-18::obj-78" : 				{
-					"parameter_longname" : "0-PItch[2]"
-				}
-,
-				"obj-8::obj-18::obj-81" : 				{
-					"parameter_longname" : "0-Velocity[2]"
-				}
-,
-				"obj-8::obj-18::obj-84" : 				{
-					"parameter_longname" : "0-Mode[2]"
-				}
-,
-				"obj-8::obj-21::obj-11" : 				{
-					"parameter_longname" : "0-Rotate[3]"
-				}
-,
-				"obj-8::obj-21::obj-25" : 				{
-					"parameter_longname" : "0-On[3]"
-				}
-,
-				"obj-8::obj-21::obj-28" : 				{
-					"parameter_longname" : "0-Duration[3]"
-				}
-,
 				"obj-8::obj-21::obj-53::obj-1" : 				{
 					"parameter_longname" : "0-Pulses[3]"
 				}
@@ -850,22 +782,6 @@
 ,
 				"obj-8::obj-21::obj-64" : 				{
 					"parameter_longname" : "Auto[3]"
-				}
-,
-				"obj-8::obj-21::obj-65" : 				{
-					"parameter_longname" : "0-Set[3]"
-				}
-,
-				"obj-8::obj-21::obj-78" : 				{
-					"parameter_longname" : "0-PItch[3]"
-				}
-,
-				"obj-8::obj-21::obj-81" : 				{
-					"parameter_longname" : "0-Velocity[3]"
-				}
-,
-				"obj-8::obj-21::obj-84" : 				{
-					"parameter_longname" : "0-Mode[3]"
 				}
 ,
 				"obj-8::obj-7::obj-1" : 				{
