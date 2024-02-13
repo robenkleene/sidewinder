@@ -310,13 +310,13 @@
 			"obj-2::obj-11" : [ "Read", "Read", 0 ],
 			"obj-2::obj-13" : [ "Write", "Write", 0 ],
 			"obj-2::obj-17" : [ "Overwrite", "Overwrite", 0 ],
-			"obj-2::obj-20" : [ "Randomize[1]", "Randomize", 0 ],
+			"obj-2::obj-20" : [ "Randomize", "Randomize", 0 ],
 			"obj-2::obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
 			"obj-2::obj-8::obj-13::obj-25" : [ "2-On", "On", 0 ],
 			"obj-2::obj-8::obj-13::obj-28" : [ "2-Duration", "Duration", 0 ],
 			"obj-2::obj-8::obj-13::obj-53::obj-1" : [ "0-Pulses[1]", "Pulses", 0 ],
 			"obj-2::obj-8::obj-13::obj-53::obj-2" : [ "0-Steps[1]", "Steps", 0 ],
-			"obj-2::obj-8::obj-13::obj-64" : [ "Auto[1]", "Auto", 0 ],
+			"obj-2::obj-8::obj-13::obj-64" : [ "2-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-13::obj-65" : [ "2-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-13::obj-78" : [ "2-PItch", "Pitch", 0 ],
 			"obj-2::obj-8::obj-13::obj-8" : [ "2-Sequencer", "Sequencer", 0 ],
@@ -327,7 +327,7 @@
 			"obj-2::obj-8::obj-18::obj-28" : [ "3-Duration", "Duration", 0 ],
 			"obj-2::obj-8::obj-18::obj-53::obj-1" : [ "0-Pulses[2]", "Pulses", 0 ],
 			"obj-2::obj-8::obj-18::obj-53::obj-2" : [ "0-Steps[2]", "Steps", 0 ],
-			"obj-2::obj-8::obj-18::obj-64" : [ "Auto[2]", "Auto", 0 ],
+			"obj-2::obj-8::obj-18::obj-64" : [ "3-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-18::obj-65" : [ "3-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-18::obj-78" : [ "3-PItch", "Pitch", 0 ],
 			"obj-2::obj-8::obj-18::obj-8" : [ "3-Sequencer", "Sequencer", 0 ],
@@ -338,7 +338,7 @@
 			"obj-2::obj-8::obj-1::obj-28" : [ "1-Duration", "Duration", 0 ],
 			"obj-2::obj-8::obj-1::obj-53::obj-1" : [ "0-Pulses", "Pulses", 0 ],
 			"obj-2::obj-8::obj-1::obj-53::obj-2" : [ "0-Steps", "Steps", 0 ],
-			"obj-2::obj-8::obj-1::obj-64" : [ "Auto", "Auto", 0 ],
+			"obj-2::obj-8::obj-1::obj-64" : [ "1-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-1::obj-65" : [ "1-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-1::obj-78" : [ "1-PItch", "Pitch", 0 ],
 			"obj-2::obj-8::obj-1::obj-8" : [ "1-Sequencer", "Sequencer", 0 ],
@@ -349,43 +349,36 @@
 			"obj-2::obj-8::obj-21::obj-28" : [ "4-Duration", "Duration", 0 ],
 			"obj-2::obj-8::obj-21::obj-53::obj-1" : [ "0-Pulses[3]", "Pulses", 0 ],
 			"obj-2::obj-8::obj-21::obj-53::obj-2" : [ "0-Steps[3]", "Steps", 0 ],
-			"obj-2::obj-8::obj-21::obj-64" : [ "Auto[3]", "Auto", 0 ],
+			"obj-2::obj-8::obj-21::obj-64" : [ "4-Auto", "Auto", 0 ],
 			"obj-2::obj-8::obj-21::obj-65" : [ "4-Set", "Set", 0 ],
 			"obj-2::obj-8::obj-21::obj-78" : [ "4-PItch", "Pitch", 0 ],
 			"obj-2::obj-8::obj-21::obj-8" : [ "4-Sequencer", "Sequencer", 0 ],
 			"obj-2::obj-8::obj-21::obj-81" : [ "4-Velocity", "Velocity", 0 ],
 			"obj-2::obj-8::obj-21::obj-84" : [ "4-Mode", "Mode", 0 ],
-			"obj-2::obj-8::obj-7::obj-1" : [ "Randomize", "Randomize", 0 ],
 			"obj-2::obj-8::obj-7::obj-10" : [ "Randomize_3", "Randomize_3", 0 ],
 			"obj-2::obj-8::obj-7::obj-104" : [ "Order", "Order", 0 ],
 			"obj-2::obj-8::obj-7::obj-11" : [ "Randomize_4", "Randomize_4", 0 ],
 			"obj-2::obj-8::obj-7::obj-110" : [ "Rests", "Rests", 0 ],
-			"obj-2::obj-8::obj-7::obj-111" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-8::obj-7::obj-111" : [ "Reverse", "Rev", 0 ],
 			"obj-2::obj-8::obj-7::obj-15" : [ "Randomize_Pulses", "Randomize_Pulses", 0 ],
 			"obj-2::obj-8::obj-7::obj-16" : [ "Randomize_Steps", "Randomize_Steps", 0 ],
 			"obj-2::obj-8::obj-7::obj-25" : [ "Randomize_Rotate", "Randomize_Rotate", 0 ],
-			"obj-2::obj-8::obj-7::obj-29::obj-1" : [ "0-Min", "Min", 0 ],
-			"obj-2::obj-8::obj-7::obj-29::obj-2" : [ "0-Max", "Max", 0 ],
+			"obj-2::obj-8::obj-7::obj-29::obj-1" : [ "Randomize_Pulses-Min", "Min", 0 ],
+			"obj-2::obj-8::obj-7::obj-29::obj-2" : [ "Randomize_Pulses-Max", "Max", 0 ],
 			"obj-2::obj-8::obj-7::obj-30" : [ "Randomize_Duration", "Randomize_Duration", 0 ],
-			"obj-2::obj-8::obj-7::obj-33::obj-6" : [ "0-Max[4]", "Max", 0 ],
-			"obj-2::obj-8::obj-7::obj-33::obj-7" : [ "0-Min[5]", "Min", 0 ],
-			"obj-2::obj-8::obj-7::obj-35::obj-1" : [ "0-Min[1]", "Min", 0 ],
-			"obj-2::obj-8::obj-7::obj-35::obj-2" : [ "0-Max[1]", "Max", 0 ],
+			"obj-2::obj-8::obj-7::obj-33::obj-6" : [ "Randomize_Pitch-Max", "Max", 0 ],
+			"obj-2::obj-8::obj-7::obj-33::obj-7" : [ "Randomize_Pitch-Min", "Min", 0 ],
+			"obj-2::obj-8::obj-7::obj-35::obj-1" : [ "Randomize_Steps-Min", "Min", 0 ],
+			"obj-2::obj-8::obj-7::obj-35::obj-2" : [ "Randomize_Steps-Max", "Max", 0 ],
 			"obj-2::obj-8::obj-7::obj-38" : [ "Randomize_Step", "Randomize_Step", 0 ],
 			"obj-2::obj-8::obj-7::obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
-			"obj-2::obj-8::obj-7::obj-44" : [ "Steps_Pulses_Inc", "Steps_Pulses_Inc", 0 ],
-			"obj-2::obj-8::obj-7::obj-45" : [ "Rotate_Inc", "Rotate_Inc", 0 ],
-			"obj-2::obj-8::obj-7::obj-46" : [ "Velocity_Inc", "Velocity_Inc", 0 ],
-			"obj-2::obj-8::obj-7::obj-47" : [ "Duration_Inc", "Duration_Inc", 0 ],
-			"obj-2::obj-8::obj-7::obj-48" : [ "Pitch_Inc", "Pitch_Inc", 0 ],
-			"obj-2::obj-8::obj-7::obj-4::obj-1" : [ "0-Min[4]", "Min", 0 ],
-			"obj-2::obj-8::obj-7::obj-4::obj-2" : [ "Max", "Max", 0 ],
-			"obj-2::obj-8::obj-7::obj-56::obj-1" : [ "0-Min[2]", "Min", 0 ],
-			"obj-2::obj-8::obj-7::obj-56::obj-2" : [ "0-Max[2]", "Max", 0 ],
+			"obj-2::obj-8::obj-7::obj-4::obj-1" : [ "Randomize_Duration-Min", "Min", 0 ],
+			"obj-2::obj-8::obj-7::obj-4::obj-2" : [ "Randomize_Duration-Max", "Max", 0 ],
+			"obj-2::obj-8::obj-7::obj-56::obj-1" : [ "Randomize_Rotate-Min", "Min", 0 ],
+			"obj-2::obj-8::obj-7::obj-56::obj-2" : [ "Randomize_Rotate-Max", "Max", 0 ],
 			"obj-2::obj-8::obj-7::obj-6" : [ "Randomize_Velocity", "Randomize_Velocity", 0 ],
-			"obj-2::obj-8::obj-7::obj-64" : [ "Steps_Pulses_Inc[1]", "Steps_Pulses_Inc", 0 ],
-			"obj-2::obj-8::obj-7::obj-73::obj-1" : [ "0-Min[3]", "Min", 0 ],
-			"obj-2::obj-8::obj-7::obj-73::obj-2" : [ "0-Max[3]", "Max", 0 ],
+			"obj-2::obj-8::obj-7::obj-73::obj-1" : [ "Randomize_Velocity-Min", "Min", 0 ],
+			"obj-2::obj-8::obj-7::obj-73::obj-2" : [ "Randomize_Velocity-Max", "Max", 0 ],
 			"obj-2::obj-8::obj-7::obj-78" : [ "Pitch_Notes", "Pitch_Notes", 0 ],
 			"obj-2::obj-8::obj-7::obj-8" : [ "Randomize_1", "Randomize_1", 0 ],
 			"obj-2::obj-8::obj-7::obj-9" : [ "Randomize_2", "Randomize_2", 0 ],
@@ -397,20 +390,12 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-20" : 				{
-					"parameter_longname" : "Randomize[1]"
-				}
-,
 				"obj-2::obj-8::obj-13::obj-53::obj-1" : 				{
 					"parameter_longname" : "0-Pulses[1]"
 				}
 ,
 				"obj-2::obj-8::obj-13::obj-53::obj-2" : 				{
 					"parameter_longname" : "0-Steps[1]"
-				}
-,
-				"obj-2::obj-8::obj-13::obj-64" : 				{
-					"parameter_longname" : "Auto[1]"
 				}
 ,
 				"obj-2::obj-8::obj-18::obj-53::obj-1" : 				{
@@ -421,20 +406,12 @@
 					"parameter_longname" : "0-Steps[2]"
 				}
 ,
-				"obj-2::obj-8::obj-18::obj-64" : 				{
-					"parameter_longname" : "Auto[2]"
-				}
-,
 				"obj-2::obj-8::obj-21::obj-53::obj-1" : 				{
 					"parameter_longname" : "0-Pulses[3]"
 				}
 ,
 				"obj-2::obj-8::obj-21::obj-53::obj-2" : 				{
 					"parameter_longname" : "0-Steps[3]"
-				}
-,
-				"obj-2::obj-8::obj-21::obj-64" : 				{
-					"parameter_longname" : "Auto[3]"
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-29::obj-1" : 				{
@@ -446,48 +423,36 @@
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-33::obj-6" : 				{
-					"parameter_longname" : "0-Max[4]",
 					"parameter_range" : [ 0.0, 127.0 ],
 					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-33::obj-7" : 				{
-					"parameter_longname" : "0-Min[5]",
 					"parameter_range" : [ 0.0, 127.0 ],
 					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-35::obj-1" : 				{
-					"parameter_longname" : "0-Min[1]",
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-35::obj-2" : 				{
-					"parameter_longname" : "0-Max[1]",
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
-				"obj-2::obj-8::obj-7::obj-4::obj-1" : 				{
-					"parameter_longname" : "0-Min[4]"
-				}
-,
 				"obj-2::obj-8::obj-7::obj-56::obj-1" : 				{
-					"parameter_longname" : "0-Min[2]",
 					"parameter_range" : [ 0.0, 127.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-56::obj-2" : 				{
-					"parameter_longname" : "0-Max[2]",
 					"parameter_range" : [ 0.0, 127.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-73::obj-1" : 				{
-					"parameter_longname" : "0-Min[3]",
 					"parameter_range" : [ 1.0, 127.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-73::obj-2" : 				{
-					"parameter_longname" : "0-Max[3]",
 					"parameter_range" : [ 1.0, 127.0 ]
 				}
 

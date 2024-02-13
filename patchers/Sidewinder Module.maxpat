@@ -47,11 +47,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 696.0, 88.0, 52.0, 20.0 ],
 					"restore" : 					{
+						"#1-Auto" : [ 1.0 ],
 						"#1-Mode" : [ 0.0 ],
 						"#1-On" : [ 0.0 ],
-						"#1-Sequencer" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127, 74, 78, 4, 127, 127, 70, 35, 4, 127, 127, 67, 75, 4, 127, 127, 60, 114, 4, 127, 127, 70, 75, 4, 127, 127, 67, 59, 4, 127, 127, 79, 80, 4, 127, 127, 60, 100, 4, 127, 127, 70, 84, 4, 127, 127, 60, 114, 4, 127, 127, 63, 98, 4, 127, 127, 70, 97, 4, 127, 127, 62, 103, 4, 127, 127 ],
-						"#1-Set" : [ 0.0 ],
-						"Auto" : [ 0.0 ]
+						"#1-Sequencer" : [ 1, 11, 0, 1, 12, 0, 11, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0 ],
+						"#1-Set" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2409,7 +2409,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1280.0, 176.0, 115.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 60.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2536,7 +2536,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2160.0, 176.0, 132.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 4.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2702,7 +2702,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1968.0, 176.0, 129.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 127.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3136,6 +3136,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-65",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -3148,7 +3150,7 @@
 					"presentation_rect" : [ 48.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Set",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Set",
@@ -3164,6 +3166,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-64",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -3175,8 +3179,8 @@
 					"presentation_rect" : [ 96.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Auto",
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "#1-Auto",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Auto",
 							"parameter_type" : 2
@@ -3186,7 +3190,7 @@
 ,
 					"text" : "Auto",
 					"texton" : "Auto",
-					"varname" : "Auto"
+					"varname" : "#1-Auto"
 				}
 
 			}
@@ -5586,7 +5590,7 @@
 			"obj-28" : [ "#1-Duration", "Duration", 0 ],
 			"obj-53::obj-1" : [ "0-Pulses", "Pulses", 0 ],
 			"obj-53::obj-2" : [ "0-Steps", "Steps", 0 ],
-			"obj-64" : [ "Auto", "Auto", 0 ],
+			"obj-64" : [ "#1-Auto", "Auto", 0 ],
 			"obj-65" : [ "#1-Set", "Set", 0 ],
 			"obj-78" : [ "#1-PItch", "Pitch", 0 ],
 			"obj-8" : [ "#1-Sequencer", "Sequencer", 0 ],
