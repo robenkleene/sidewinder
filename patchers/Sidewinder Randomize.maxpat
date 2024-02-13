@@ -100,7 +100,7 @@
 						"Randomize_Velocity" : [ 1.0 ],
 						"Repeat" : [ 50.0 ],
 						"Rests" : [ 50.0 ],
-						"live.text" : [ 0.0 ]
+						"Reverse" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -485,6 +485,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-111",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -496,10 +498,10 @@
 					"presentation_rect" : [ 312.0, 80.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text",
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "Reverse",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Rev",
 							"parameter_type" : 2
 						}
 
@@ -507,7 +509,7 @@
 ,
 					"text" : "Rev",
 					"texton" : "Rev",
-					"varname" : "live.text"
+					"varname" : "Reverse"
 				}
 
 			}
@@ -1964,6 +1966,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-39",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1975,7 +1979,7 @@
 					"presentation_rect" : [ 248.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Pitch",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_Pitch",
@@ -2028,6 +2032,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-30",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2039,7 +2045,7 @@
 					"presentation_rect" : [ 360.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Duration",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_Duration",
@@ -2068,6 +2074,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-25",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2079,7 +2087,7 @@
 					"presentation_rect" : [ 144.0, 16.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Rotate",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_Rotate",
@@ -2108,6 +2116,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-16",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2119,7 +2129,7 @@
 					"presentation_rect" : [ 96.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Steps",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_Steps",
@@ -2136,6 +2146,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-15",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2147,7 +2159,7 @@
 					"presentation_rect" : [ 48.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Pulses",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_Pulses",
@@ -2715,6 +2727,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-6",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2726,7 +2740,7 @@
 					"presentation_rect" : [ 200.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Velocity",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_Velocity",
@@ -3809,7 +3823,7 @@
 			"obj-104" : [ "Order", "Order", 0 ],
 			"obj-11" : [ "Randomize_4", "Randomize_4", 0 ],
 			"obj-110" : [ "Rests", "Rests", 0 ],
-			"obj-111" : [ "live.text", "live.text", 0 ],
+			"obj-111" : [ "Reverse", "Rev", 0 ],
 			"obj-15" : [ "Randomize_Pulses", "Randomize_Pulses", 0 ],
 			"obj-16" : [ "Randomize_Steps", "Randomize_Steps", 0 ],
 			"obj-25" : [ "Randomize_Rotate", "Randomize_Rotate", 0 ],
