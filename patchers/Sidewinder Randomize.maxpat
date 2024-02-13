@@ -978,6 +978,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-78",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -989,7 +991,7 @@
 					"presentation_rect" : [ 200.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Pitch_Notes",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Pitch_Notes",
@@ -2615,6 +2617,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-11",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2626,7 +2630,7 @@
 					"presentation_rect" : [ 0.0, 94.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_4",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_4",
@@ -2643,6 +2647,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-10",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2654,7 +2660,7 @@
 					"presentation_rect" : [ 0.0, 68.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_3",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_3",
@@ -2671,6 +2677,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-9",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2682,7 +2690,7 @@
 					"presentation_rect" : [ 0.0, 42.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_2",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_2",
@@ -2699,6 +2707,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-8",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2710,7 +2720,7 @@
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_1",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize_1",
@@ -2757,6 +2767,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-1",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -2767,7 +2779,7 @@
 					"patching_rect" : [ 336.0, 40.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Randomize",
