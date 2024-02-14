@@ -2408,14 +2408,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1280.0, 176.0, 115.0, 20.0 ],
+					"patching_rect" : [ 1280.0, 176.0, 176.0, 20.0 ],
 					"restore" : [ 60.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto #1-Pitch",
+					"text" : "pattr @bindto #1-Pitch @invisible 1",
 					"varname" : "#1-Bind_Pitch"
 				}
 
@@ -2535,14 +2535,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2160.0, 176.0, 132.0, 20.0 ],
+					"patching_rect" : [ 2176.0, 176.0, 193.0, 20.0 ],
 					"restore" : [ 4.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto #1-Duration",
+					"text" : "pattr @bindto #1-Duration @invisible 1",
 					"varname" : "#1-Bind_Duration"
 				}
 
@@ -2566,14 +2566,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1776.0, 176.0, 122.0, 20.0 ],
+					"patching_rect" : [ 1776.0, 176.0, 183.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto #1-Rotate",
+					"text" : "pattr @bindto #1-Rotate @invisible 1",
 					"varname" : "#1-Bind_Rotate"
 				}
 
@@ -2655,7 +2655,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1456.0, 176.0, 84.0, 20.0 ],
+					"patching_rect" : [ 1464.0, 176.0, 84.0, 20.0 ],
 					"text" : "r #0pulsesvalue"
 				}
 
@@ -2701,14 +2701,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1968.0, 176.0, 129.0, 20.0 ],
+					"patching_rect" : [ 1968.0, 176.0, 190.0, 20.0 ],
 					"restore" : [ 127.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto #1-Velocity",
+					"text" : "pattr @bindto #1-Velocity @invisible 1",
 					"varname" : "#1-Bind_Velocity"
 				}
 
@@ -5591,8 +5591,8 @@
 			"obj-11" : [ "#1-Rotate", "Rotate", 0 ],
 			"obj-25" : [ "#1-On", "On", 0 ],
 			"obj-28" : [ "#1-Duration", "Duration", 0 ],
-			"obj-53::obj-1" : [ "0-Pulses", "Pulses", 0 ],
-			"obj-53::obj-2" : [ "0-Steps", "Steps", 0 ],
+			"obj-53::obj-1" : [ "#1-Pulses", "Pulses", 0 ],
+			"obj-53::obj-2" : [ "#1-Steps", "Steps", 0 ],
 			"obj-64" : [ "#1-Auto", "Auto", 0 ],
 			"obj-65" : [ "#1-Set", "Set", 0 ],
 			"obj-78" : [ "#1-Pitch", "Pitch", 0 ],
@@ -5600,16 +5600,10 @@
 			"obj-81" : [ "#1-Velocity", "Velocity", 0 ],
 			"obj-84" : [ "#1-Mode", "Mode", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-53::obj-1" : 				{
-					"parameter_longname" : "0-Pulses"
-				}
-,
-				"obj-53::obj-2" : 				{
-					"parameter_longname" : "0-Steps"
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
