@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -54,7 +54,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -103,7 +103,7 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -152,7 +152,7 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -201,7 +201,7 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -250,7 +250,7 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -299,7 +299,7 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -348,7 +348,7 @@
 			"8" : 			{
 				"id" : 8,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
@@ -397,7 +397,7 @@
 			"9" : 			{
 				"id" : 9,
 				"data" : 				{
-					"Stored_Selected_Rack" : [ 0.0 ],
+					"Tab" : [ 0.0 ],
 					"Stored_Play" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Auto" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Module_1::1-Velocity" : [ 127.0 ],
