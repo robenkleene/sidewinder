@@ -306,7 +306,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-10" : [ "Selected_Rack", "Selected_Rack", 0 ],
+			"obj-2::obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-2::obj-11" : [ "Read", "Read", 0 ],
 			"obj-2::obj-13" : [ "Write", "Write", 0 ],
 			"obj-2::obj-17" : [ "Overwrite", "Overwrite", 0 ],

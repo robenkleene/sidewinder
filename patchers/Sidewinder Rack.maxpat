@@ -51,7 +51,7 @@
 						"Play" : [ 0.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
-						"Selected_Rack" : [ 0.0 ],
+						"Tab" : [ 0.0 ],
 						"Write" : [ 0.0 ]
 					}
 ,
@@ -266,16 +266,16 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "R" ],
-							"parameter_longname" : "Selected_Rack",
+							"parameter_longname" : "Tab",
 							"parameter_mmax" : 4,
-							"parameter_shortname" : "Selected_Rack",
+							"parameter_shortname" : "Tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
 
 					}
 ,
-					"varname" : "Selected_Rack"
+					"varname" : "Tab"
 				}
 
 			}
@@ -667,7 +667,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10" : [ "Selected_Rack", "Selected_Rack", 0 ],
+			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
 			"obj-13" : [ "Write", "Write", 0 ],
 			"obj-17" : [ "Overwrite", "Overwrite", 0 ],
