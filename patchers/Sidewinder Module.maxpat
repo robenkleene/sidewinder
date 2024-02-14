@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 99.0, 100.0, 1068.0, 963.0 ],
+		"rect" : [ 99.0, 100.0, 1317.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -2416,7 +2416,7 @@
 					}
 ,
 					"text" : "pattr @bindto #1-Pitch",
-					"varname" : "u479002052[3]"
+					"varname" : "#1-Bind_Pitch"
 				}
 
 			}
@@ -2543,7 +2543,7 @@
 					}
 ,
 					"text" : "pattr @bindto #1-Duration",
-					"varname" : "u479002052[2]"
+					"varname" : "#1-Bind_Duration"
 				}
 
 			}
@@ -2574,7 +2574,7 @@
 					}
 ,
 					"text" : "pattr @bindto #1-Rotate",
-					"varname" : "u479002052[1]"
+					"varname" : "#1-Bind_Rotate"
 				}
 
 			}
@@ -2709,7 +2709,7 @@
 					}
 ,
 					"text" : "pattr @bindto #1-Velocity",
-					"varname" : "u479002052"
+					"varname" : "#1-Bind_Velocity"
 				}
 
 			}
