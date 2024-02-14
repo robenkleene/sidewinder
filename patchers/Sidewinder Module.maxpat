@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 99.0, 100.0, 1317.0, 963.0 ],
+		"rect" : [ 99.0, 100.0, 1040.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -3124,7 +3124,7 @@
 					"presentation_rect" : [ 528.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-PItch",
+							"parameter_longname" : "#1-Pitch",
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
@@ -5595,7 +5595,7 @@
 			"obj-53::obj-2" : [ "0-Steps", "Steps", 0 ],
 			"obj-64" : [ "#1-Auto", "Auto", 0 ],
 			"obj-65" : [ "#1-Set", "Set", 0 ],
-			"obj-78" : [ "#1-PItch", "Pitch", 0 ],
+			"obj-78" : [ "#1-Pitch", "Pitch", 0 ],
 			"obj-8" : [ "#1-Sequencer", "Sequencer", 0 ],
 			"obj-81" : [ "#1-Velocity", "Velocity", 0 ],
 			"obj-84" : [ "#1-Mode", "Mode", 0 ],
