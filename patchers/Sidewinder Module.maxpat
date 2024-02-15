@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 99.0, 100.0, 1595.0, 963.0 ],
+		"rect" : [ 99.0, 100.0, 1318.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -2880,7 +2880,7 @@
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
 							"parameter_longname" : "#1-Duration",
 							"parameter_mmax" : 7,
-							"parameter_shortname" : "Duration",
+							"parameter_shortname" : "Dur",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
@@ -3091,7 +3091,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Velocity",
-							"parameter_shortname" : "Velocity",
+							"parameter_shortname" : "Vel",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -4523,7 +4523,7 @@
 							"parameter_initial" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0, 72, 127, 4, 0, 0, 72, 0, 4, 0, 0 ],
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Sequencer",
-							"parameter_shortname" : "Sequencer",
+							"parameter_shortname" : "Seq",
 							"parameter_type" : 3
 						}
 
@@ -5590,14 +5590,14 @@
 		"parameters" : 		{
 			"obj-11" : [ "#1-Rotate", "Rotate", 0 ],
 			"obj-25" : [ "#1-On", "On", 0 ],
-			"obj-28" : [ "#1-Duration", "Duration", 0 ],
+			"obj-28" : [ "#1-Duration", "Dur", 0 ],
 			"obj-53::obj-1" : [ "#1-Pulses", "Pulses", 0 ],
 			"obj-53::obj-2" : [ "#1-Steps", "Steps", 0 ],
 			"obj-64" : [ "#1-Auto", "Auto", 0 ],
 			"obj-65" : [ "#1-Set", "Set", 0 ],
 			"obj-78" : [ "#1-Pitch", "Pitch", 0 ],
-			"obj-8" : [ "#1-Sequencer", "Sequencer", 0 ],
-			"obj-81" : [ "#1-Velocity", "Velocity", 0 ],
+			"obj-8" : [ "#1-Sequencer", "Seq", 0 ],
+			"obj-81" : [ "#1-Velocity", "Vel", 0 ],
 			"obj-84" : [ "#1-Mode", "Mode", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
