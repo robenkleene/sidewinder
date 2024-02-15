@@ -72,7 +72,7 @@
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
 							"parameter_longname" : "#1-Max",
 							"parameter_mmax" : 7,
-							"parameter_shortname" : "Max",
+							"parameter_shortname" : "#2Max",
 							"parameter_type" : 2
 						}
 
@@ -98,7 +98,7 @@
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
 							"parameter_longname" : "#1-Min",
 							"parameter_mmax" : 7,
-							"parameter_shortname" : "Min",
+							"parameter_shortname" : "#2Min",
 							"parameter_type" : 2
 						}
 
@@ -405,8 +405,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Min", "Min", 0 ],
-			"obj-2" : [ "#1-Max", "Max", 0 ],
+			"obj-1" : [ "#1-Min", "#2Min", 0 ],
+			"obj-2" : [ "#1-Max", "#2Max", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -82,7 +82,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Min",
-							"parameter_shortname" : "Min",
+							"parameter_shortname" : "#2Min",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -107,7 +107,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Max",
-							"parameter_shortname" : "Max",
+							"parameter_shortname" : "#2Max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -492,8 +492,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "#1-Max", "Max", 0 ],
-			"obj-7" : [ "#1-Min", "Min", 0 ],
+			"obj-6" : [ "#1-Max", "#2Max", 0 ],
+			"obj-7" : [ "#1-Min", "#2Min", 0 ],
 			"parameterbanks" : 			{
 
 			}

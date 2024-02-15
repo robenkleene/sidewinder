@@ -119,7 +119,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "#1-Max",
 							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "Max",
+							"parameter_shortname" : "#2Max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -145,7 +145,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "#1-Min",
 							"parameter_mmax" : 32.0,
-							"parameter_shortname" : "Min",
+							"parameter_shortname" : "#2Min",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -459,8 +459,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Min", "Min", 0 ],
-			"obj-2" : [ "#1-Max", "Max", 0 ],
+			"obj-1" : [ "#1-Min", "#2Min", 0 ],
+			"obj-2" : [ "#1-Max", "#2Max", 0 ],
 			"parameterbanks" : 			{
 
 			}

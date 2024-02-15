@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 224.0, 100.0, 916.0, 983.0 ],
+		"rect" : [ 224.0, 100.0, 1192.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1457,7 +1457,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Randomize_Pitch" ],
+					"args" : [ "Randomize_Pitch", "Pch" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1506,7 +1506,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Randomize_Duration" ],
+					"args" : [ "Randomize_Duration", "Dur" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1555,7 +1555,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Randomize_Velocity" ],
+					"args" : [ "Randomize_Velocity", "Vel" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1580,7 +1580,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Randomize_Rotate" ],
+					"args" : [ "Randomize_Rotate", "Rot" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1605,7 +1605,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Randomize_Steps" ],
+					"args" : [ "Randomize_Steps", "Stp" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1630,7 +1630,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Randomize_Pulses" ],
+					"args" : [ "Randomize_Pulses", "Pls" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3802,22 +3802,22 @@
 			"obj-15" : [ "Randomize_Pulses", "Randomize_Pulses", 0 ],
 			"obj-16" : [ "Randomize_Steps", "Randomize_Steps", 0 ],
 			"obj-25" : [ "Randomize_Rotate", "Randomize_Rotate", 0 ],
-			"obj-29::obj-1" : [ "Randomize_Pulses-Min", "Min", 0 ],
-			"obj-29::obj-2" : [ "Randomize_Pulses-Max", "Max", 0 ],
+			"obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
+			"obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],
 			"obj-30" : [ "Randomize_Duration", "Randomize_Duration", 0 ],
-			"obj-33::obj-6" : [ "Randomize_Pitch-Max", "Max", 0 ],
-			"obj-33::obj-7" : [ "Randomize_Pitch-Min", "Min", 0 ],
-			"obj-35::obj-1" : [ "Randomize_Steps-Min", "Min", 0 ],
-			"obj-35::obj-2" : [ "Randomize_Steps-Max", "Max", 0 ],
+			"obj-33::obj-6" : [ "Randomize_Pitch-Max", "PchMax", 0 ],
+			"obj-33::obj-7" : [ "Randomize_Pitch-Min", "PchMin", 0 ],
+			"obj-35::obj-1" : [ "Randomize_Steps-Min", "StpMin", 0 ],
+			"obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
 			"obj-38" : [ "Randomize_Sequencer", "Randomize_Sequencer", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Randomize_Pitch", 0 ],
-			"obj-4::obj-1" : [ "Randomize_Duration-Min", "Min", 0 ],
-			"obj-4::obj-2" : [ "Randomize_Duration-Max", "Max", 0 ],
-			"obj-56::obj-1" : [ "Randomize_Rotate-Min", "Min", 0 ],
-			"obj-56::obj-2" : [ "Randomize_Rotate-Max", "Max", 0 ],
+			"obj-4::obj-1" : [ "Randomize_Duration-Min", "DurMin", 0 ],
+			"obj-4::obj-2" : [ "Randomize_Duration-Max", "DurMax", 0 ],
+			"obj-56::obj-1" : [ "Randomize_Rotate-Min", "RotMin", 0 ],
+			"obj-56::obj-2" : [ "Randomize_Rotate-Max", "RotMax", 0 ],
 			"obj-6" : [ "Randomize_Velocity", "Randomize_Velocity", 0 ],
-			"obj-73::obj-1" : [ "Randomize_Velocity-Min", "Min", 0 ],
-			"obj-73::obj-2" : [ "Randomize_Velocity-Max", "Max", 0 ],
+			"obj-73::obj-1" : [ "Randomize_Velocity-Min", "VelMin", 0 ],
+			"obj-73::obj-2" : [ "Randomize_Velocity-Max", "VelMax", 0 ],
 			"obj-78" : [ "Randomize_Notes_Pitch", "Notes", 0 ],
 			"obj-8" : [ "Randomize_1", "Randomize_1", 0 ],
 			"obj-9" : [ "Randomize_2", "Randomize_2", 0 ],
