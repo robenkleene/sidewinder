@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 99.0, 100.0, 1318.0, 963.0 ],
+		"rect" : [ 99.0, 100.0, 1041.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -61,11 +61,11 @@
 						"#1-Auto" : [ 1.0 ],
 						"#1-Duration" : [ 4.0 ],
 						"#1-Mode" : [ 0.0 ],
-						"#1-On" : [ 0.0 ],
 						"#1-Pitch" : [ 60.0 ],
 						"#1-Rotate" : [ 0.0 ],
 						"#1-Sequencer" : [ 1, 11, 0, 1, 12, 0, 11, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 127, 4, 0, 0 ],
 						"#1-Set" : [ 0.0 ],
+						"#1-Track" : [ 0.0 ],
 						"#1-Velocity" : [ 127.0 ]
 					}
 ,
@@ -2850,17 +2850,17 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "#1-On",
+							"parameter_longname" : "#1-Track",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "On",
+							"parameter_shortname" : "Track",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "On",
-					"texton" : "On",
-					"varname" : "#1-On"
+					"text" : "Track",
+					"texton" : "Track",
+					"varname" : "#1-Track"
 				}
 
 			}
@@ -5589,7 +5589,7 @@
  ],
 		"parameters" : 		{
 			"obj-11" : [ "#1-Rotate", "Rotate", 0 ],
-			"obj-25" : [ "#1-On", "On", 0 ],
+			"obj-25" : [ "#1-Track", "Track", 0 ],
 			"obj-28" : [ "#1-Duration", "Dur", 0 ],
 			"obj-53::obj-1" : [ "#1-Pulses", "Pulses", 0 ],
 			"obj-53::obj-2" : [ "#1-Steps", "Steps", 0 ],
