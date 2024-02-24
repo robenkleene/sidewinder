@@ -3063,7 +3063,7 @@
 					"presentation_rect" : [ 352.0, 0.0, 168.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "All", "Pitch", "Velocity", "Duration" ],
+							"parameter_enum" : [ "All", "Pitch", "Vel", "Dur" ],
 							"parameter_longname" : "#1-Mode",
 							"parameter_mmax" : 3,
 							"parameter_shortname" : "Mode",

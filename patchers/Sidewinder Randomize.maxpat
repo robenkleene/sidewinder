@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 224.0, 100.0, 915.0, 983.0 ],
+		"rect" : [ 224.0, 100.0, 1123.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -87,7 +87,7 @@
 						"Randomize_2" : [ 0.0 ],
 						"Randomize_3" : [ 0.0 ],
 						"Randomize_4" : [ 0.0 ],
-						"Randomize_Duration" : [ 0.0 ],
+						"Randomize_Duration" : [ 1.0 ],
 						"Randomize_Notes_Order" : [ 50.0 ],
 						"Randomize_Notes_Repeat" : [ 50.0 ],
 						"Randomize_Notes_Rests" : [ 50.0 ],
@@ -2055,8 +2055,8 @@
 
 					}
 ,
-					"text" : "Duration",
-					"texton" : "Duration",
+					"text" : "Dur",
+					"texton" : "Dur",
 					"varname" : "Randomize_Duration"
 				}
 
@@ -2758,8 +2758,8 @@
 
 					}
 ,
-					"text" : "Velocity",
-					"texton" : "Velocity",
+					"text" : "Vel",
+					"texton" : "Vel",
 					"varname" : "Randomize_Velocity"
 				}
 
