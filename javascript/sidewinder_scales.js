@@ -44,7 +44,7 @@ function trigger_output() {
   }
 
   var notes = [note]
-  for (var i = 1; i < stepCount; i++) {
+  for (var i = 0; i < stepCount - 1; i++) {
     if (intervals.length > 0) {
       var index = i % intervals.length;
       note += intervals[index];
