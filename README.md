@@ -109,3 +109,68 @@ The sequencer uses the `toussaint` version by default.
 - `E(9,16) = [x.xx.x.x.xx.x.x.]` is a rhythm necklace used in the Central African Republic. When it is started on the fourth onset it is a rhythm played in West and Central Africa, as well as a cow-bell pattern in the Brazilian samba. When it is started on the penultimate onset it is the bell pattern of the Ngbaka-Maibo rhythms of the Central African Republic.
 - `E(11,24) = [x . . x . x . x . x . x . . x . x . x . x . x .]` is a rhythm necklace of the Aka Pygmies of Central Africa [2]. It is usually started on the seventh onset.
 - `E(13,24) = [x . x x . x . x . x . x . x x . x . x . x . x .]` is another rhythm necklace of the Aka Pygmies of the upper Sangha. It is usually started on the fourth onset.
+
+## Ableton Push
+
+Sidewinder supports Ableton Push. The first knob always controls which tab is visible. There's one `Main` bank for each of the four tracks, and four banks available when the randomize tab is selected.
+
+### Banks
+
+#### Tabs 1-4
+
+##### 0. Main
+
+1. `Tab`
+2. `Track`
+2. `Pulses`
+3. `Steps`
+4. `Rotate`
+5. `Pitch`
+6. `Velocity`
+7. `Duration`
+
+#### Tab 5: Randomize
+
+##### 0. Randomize
+
+1. `Tab`
+2. `Steps Min`
+3. `Steps Max`
+4. `Pulses Min`
+5. `Pulses Max`
+6. `Rotate Min`
+7. `Rotate Max`
+8. `Notes`
+
+##### 1. Toggles
+
+1. `Tab`
+2. `1`
+3. `2`
+4. `3`
+5. `4`
+6. `Pulses`
+7. `Steps`
+8. `Rotate`
+
+##### 2. Ranges
+
+1. `Tab`
+2. `Velocity Min`
+3. `Velocity Max`
+4. `Pitch Min`
+5. `Pitch Max`
+6. `Scale`
+7. `Duration Min`
+8. `Duration Max`
+
+##### 3. Notes
+
+1. `Tab`
+2. `Velocity`
+3. `Pitch`
+4. `Rev`
+5. `Duration`
+6. `Rests`
+7. `Repeat`
+8. `Order`
