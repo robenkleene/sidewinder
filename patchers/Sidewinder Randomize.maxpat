@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -88,13 +88,13 @@
 						"Randomize_3" : [ 0.0 ],
 						"Randomize_4" : [ 0.0 ],
 						"Randomize_Duration" : [ 1.0 ],
+						"Randomize_Notes" : [ 0.0 ],
 						"Randomize_Notes_Order" : [ 50.0 ],
 						"Randomize_Notes_Repeat" : [ 50.0 ],
 						"Randomize_Notes_Rests" : [ 50.0 ],
 						"Randomize_Notes_Reverse" : [ 0.0 ],
 						"Randomize_Notes_Scale" : [ 14.0 ],
 						"Randomize_Pitch" : [ 1.0 ],
-						"Randomize_Pitch_Notes" : [ 0.0 ],
 						"Randomize_Pulses" : [ 1.0 ],
 						"Randomize_Rotate" : [ 1.0 ],
 						"Randomize_Sequencer" : [ 0.0 ],
@@ -500,6 +500,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Notes_Reverse",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rev",
 							"parameter_type" : 2
 						}
@@ -665,6 +666,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Randomize_Notes_Rests",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rests",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -691,6 +693,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Randomize_Notes_Order",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Order",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -717,6 +720,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Randomize_Notes_Repeat",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Repeat",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -804,6 +808,7 @@
 							"parameter_enum" : [ "Aeolian", "Augmented", "Augmentedfifth", "Bluesmajor", "Bluesminor", "Chromatic", "Diminished", "Dorian", "Halfwhole", "Harmonicminor", "Ionian", "Japanese", "Locrian", "Lydian", "Major", "Melodicminor", "Minor", "Mixolydian", "Oriental", "Pentatonicmajor", "Pentatonicminor", "Phrygian", "Wholehalf", "Wholetone" ],
 							"parameter_longname" : "Randomize_Notes_Scale",
 							"parameter_mmax" : 23,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Scale",
 							"parameter_type" : 2
 						}
@@ -991,8 +996,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "Randomize_Notes_Pitch",
+							"parameter_longname" : "Randomize_Notes",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Notes",
 							"parameter_type" : 2
 						}
@@ -1001,7 +1007,7 @@
 ,
 					"text" : "Notes",
 					"texton" : "Notes",
-					"varname" : "Randomize_Pitch_Notes"
+					"varname" : "Randomize_Notes"
 				}
 
 			}
@@ -1029,7 +1035,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1444,6 +1450,7 @@
 							"parameter_enum" : [ "none", "random", "scramble" ],
 							"parameter_longname" : "Randomize_Sequencer",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Seq",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -1983,6 +1990,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Pitch",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 2
 						}
@@ -2049,6 +2057,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Duration",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dur",
 							"parameter_type" : 2
 						}
@@ -2091,6 +2100,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Rotate",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rotate",
 							"parameter_type" : 2
 						}
@@ -2133,6 +2143,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Steps",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Steps",
 							"parameter_type" : 2
 						}
@@ -2163,6 +2174,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Pulses",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pulses",
 							"parameter_type" : 2
 						}
@@ -2236,7 +2248,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2632,6 +2644,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_4",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "4",
 							"parameter_type" : 2
 						}
@@ -2662,6 +2675,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_3",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "3",
 							"parameter_type" : 2
 						}
@@ -2692,6 +2706,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_2",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "2",
 							"parameter_type" : 2
 						}
@@ -2722,6 +2737,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_1",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "1",
 							"parameter_type" : 2
 						}
@@ -2752,6 +2768,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Velocity",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Vel",
 							"parameter_type" : 2
 						}
@@ -3818,7 +3835,7 @@
 			"obj-6" : [ "Randomize_Velocity", "Vel", 0 ],
 			"obj-73::obj-1" : [ "Randomize_Velocity-Min", "VelMin", 0 ],
 			"obj-73::obj-2" : [ "Randomize_Velocity-Max", "VelMax", 0 ],
-			"obj-78" : [ "Randomize_Notes_Pitch", "Notes", 0 ],
+			"obj-78" : [ "Randomize_Notes", "Notes", 0 ],
 			"obj-8" : [ "Randomize_1", "1", 0 ],
 			"obj-9" : [ "Randomize_2", "2", 0 ],
 			"obj-93" : [ "Randomize_Notes_Repeat", "Repeat", 0 ],
