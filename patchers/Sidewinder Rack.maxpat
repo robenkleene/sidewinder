@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -115,6 +115,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rand",
 							"parameter_type" : 2
 						}
@@ -156,6 +157,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Play",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play",
 							"parameter_type" : 2
 						}
@@ -186,6 +188,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Overwrite",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "OW",
 							"parameter_type" : 2
 						}
@@ -233,6 +236,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Write",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Write",
 							"parameter_type" : 2
 						}
@@ -263,6 +267,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Read",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Read",
 							"parameter_type" : 2
 						}
@@ -292,6 +297,7 @@
 							"parameter_enum" : [ "1", "2", "3", "4", "R" ],
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 4,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -831,6 +837,10 @@
 ,
 				"obj-8::obj-7::obj-73::obj-2" : 				{
 					"parameter_range" : [ 1.0, 127.0 ]
+				}
+,
+				"obj-8::obj-7::obj-78" : 				{
+					"parameter_longname" : "Randomize_Notes_Pitch"
 				}
 
 			}

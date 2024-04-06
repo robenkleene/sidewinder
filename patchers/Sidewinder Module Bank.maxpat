@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -964,7 +964,7 @@
 			"obj-7::obj-6" : [ "Randomize_Velocity", "Vel", 0 ],
 			"obj-7::obj-73::obj-1" : [ "Randomize_Velocity-Min", "VelMin", 0 ],
 			"obj-7::obj-73::obj-2" : [ "Randomize_Velocity-Max", "VelMax", 0 ],
-			"obj-7::obj-78" : [ "Randomize_Notes_Pitch", "Notes", 0 ],
+			"obj-7::obj-78" : [ "Randomize_Notes", "Notes", 0 ],
 			"obj-7::obj-8" : [ "Randomize_1", "1", 0 ],
 			"obj-7::obj-9" : [ "Randomize_2", "2", 0 ],
 			"obj-7::obj-93" : [ "Randomize_Notes_Repeat", "Repeat", 0 ],

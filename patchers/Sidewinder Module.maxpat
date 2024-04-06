@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -75,7 +75,7 @@
 						"#1-Mode" : [ 0.0 ],
 						"#1-Pitch" : [ 0.0 ],
 						"#1-Rotate" : [ 0.0 ],
-						"#1-Sequencer" : [ 1, 9, 0, 1, 12, 0, 9, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0, 60, 127, 4, 0, 0 ],
+						"#1-Sequencer" : [ 1, 9, 0, 1, 12, 0, 9, 0.0, 13.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 						"#1-Set" : [ 0.0 ],
 						"#1-Track" : [ 0.0 ],
 						"#1-Velocity" : [ 0.0 ]
@@ -240,7 +240,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1470,7 +1470,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2139,7 +2139,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2864,6 +2864,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Track",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Track",
 							"parameter_type" : 2
 						}
@@ -2892,6 +2893,7 @@
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
 							"parameter_longname" : "#1-Duration",
 							"parameter_mmax" : 7,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dur",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -2965,6 +2967,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Rotate",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rotate",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -3018,6 +3021,7 @@
 							"parameter_enum" : [ "All", "Pitch", "Vel", "Dur" ],
 							"parameter_longname" : "#1-Mode",
 							"parameter_mmax" : 3,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Mode",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -3043,6 +3047,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Velocity",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Vel",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -3068,6 +3073,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Pitch",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
@@ -3098,6 +3104,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Set",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Set",
 							"parameter_type" : 2
 						}
@@ -3127,6 +3134,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Auto",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Auto",
 							"parameter_type" : 2
 						}
@@ -3305,7 +3313,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3521,7 +3529,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3752,7 +3760,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3838,7 +3846,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4474,6 +4482,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Sequencer",
+							"parameter_modmode" : 0,
 							"parameter_order" : 1,
 							"parameter_shortname" : "Seq",
 							"parameter_type" : 3
