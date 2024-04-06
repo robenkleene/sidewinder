@@ -2907,42 +2907,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-13",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 872.0, 128.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 528.0, 16.0, 40.0, 48.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-263",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 872.0, 104.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 144.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -4510,6 +4474,42 @@
 					}
 ,
 					"text" : "js sidewinder_wrapper.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-263",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 872.0, 104.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 144.0 ],
+					"proportion" : 0.39,
+					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-13",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 872.0, 128.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 528.0, 16.0, 40.0, 48.0 ],
+					"proportion" : 0.39,
+					"rounded" : 10
 				}
 
 			}

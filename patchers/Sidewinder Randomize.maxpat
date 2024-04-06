@@ -515,24 +515,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-92",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 864.0, 56.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 248.0, 96.0, 104.0, 48.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-125",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1341,60 +1323,6 @@
 					}
 ,
 					"text" : "p pulses_max"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-75",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 816.0, 56.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 48.0, 40.0, 96.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-49",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 792.0, 56.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 48.0, 40.0, 96.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-41",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 768.0, 56.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 48.0, 40.0, 96.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
 				}
 
 			}
@@ -2794,6 +2722,78 @@
 					"patching_rect" : [ 840.0, 56.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 48.0, 40.0, 96.0 ],
+					"proportion" : 0.39,
+					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-92",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 864.0, 56.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 248.0, 96.0, 104.0, 48.0 ],
+					"proportion" : 0.39,
+					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-75",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 816.0, 56.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 200.0, 48.0, 40.0, 96.0 ],
+					"proportion" : 0.39,
+					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-49",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 792.0, 56.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 144.0, 48.0, 40.0, 96.0 ],
+					"proportion" : 0.39,
+					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-41",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 768.0, 56.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 96.0, 48.0, 40.0, 96.0 ],
 					"proportion" : 0.39,
 					"rounded" : 10
 				}
