@@ -70,14 +70,14 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 696.0, 88.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"#1-Auto" : [ 0.0 ],
+						"#1-Auto" : [ 1.0 ],
 						"#1-Duration" : [ 0.0 ],
 						"#1-Mode" : [ 0.0 ],
 						"#1-Pitch" : [ 0.0 ],
 						"#1-Rotate" : [ 0.0 ],
 						"#1-Sequencer" : [ 1, 9, 0, 1, 12, 0, 9, 0.0, 13.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 						"#1-Set" : [ 0.0 ],
-						"#1-Track" : [ 0.0 ],
+						"#1-Track" : [ 1.0 ],
 						"#1-Velocity" : [ 0.0 ]
 					}
 ,
@@ -4480,6 +4480,8 @@
 					"presentation_rect" : [ 48.0, 16.0, 472.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1, 3, 0, 1, 12, 0, 3, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 0, 4, 0, 0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Sequencer",
 							"parameter_modmode" : 0,
