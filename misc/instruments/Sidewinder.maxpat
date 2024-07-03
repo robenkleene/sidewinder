@@ -386,6 +386,11 @@
 			"obj-2::obj-8::obj-7::obj-94" : [ "Randomize_Notes_Scale", "Scale", 0 ],
 			"obj-2::obj-9" : [ "Play", "Play", 0 ],
 			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
 
 			}
 ,
@@ -773,7 +778,7 @@
 				}
 ,
 				"obj-2::obj-9" : 				{
-					"parameter_initial" : 0.0,
+					"parameter_initial" : 1.0,
 					"parameter_initial_enable" : 1
 				}
 

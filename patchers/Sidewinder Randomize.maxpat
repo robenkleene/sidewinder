@@ -82,26 +82,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 912.0, 120.0, 56.0, 22.0 ],
-					"restore" : 					{
-						"Randomize_1" : [ 0.0 ],
-						"Randomize_2" : [ 0.0 ],
-						"Randomize_3" : [ 0.0 ],
-						"Randomize_4" : [ 0.0 ],
-						"Randomize_Duration" : [ 0.0 ],
-						"Randomize_Notes" : [ 0.0 ],
-						"Randomize_Notes_Order" : [ 0.0 ],
-						"Randomize_Notes_Repeat" : [ 0.0 ],
-						"Randomize_Notes_Rests" : [ 0.0 ],
-						"Randomize_Notes_Reverse" : [ 0.0 ],
-						"Randomize_Notes_Scale" : [ 0.0 ],
-						"Randomize_Pitch" : [ 0.0 ],
-						"Randomize_Pulses" : [ 0.0 ],
-						"Randomize_Rotate" : [ 0.0 ],
-						"Randomize_Sequencer" : [ 0.0 ],
-						"Randomize_Steps" : [ 0.0 ],
-						"Randomize_Velocity" : [ 0.0 ]
-					}
-,
 					"text" : "autopattr",
 					"varname" : "u457004162"
 				}
@@ -3603,93 +3583,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "Randomize_3", "3", 0 ],
-			"obj-104" : [ "Randomize_Notes_Order", "Order", 0 ],
-			"obj-11" : [ "Randomize_4", "4", 0 ],
-			"obj-110" : [ "Randomize_Notes_Rests", "Rests", 0 ],
-			"obj-111" : [ "Randomize_Notes_Reverse", "Rev", 0 ],
-			"obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
-			"obj-16" : [ "Randomize_Steps", "Steps", 0 ],
-			"obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
-			"obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
-			"obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],
-			"obj-30" : [ "Randomize_Duration", "Dur", 0 ],
-			"obj-33::obj-6" : [ "Randomize_Pitch-Max", "PchMax", 0 ],
-			"obj-33::obj-7" : [ "Randomize_Pitch-Min", "PchMin", 0 ],
-			"obj-35::obj-1" : [ "Randomize_Steps-Min", "StpMin", 0 ],
-			"obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
-			"obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
-			"obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
-			"obj-4::obj-1" : [ "Randomize_Duration-Min", "DurMin", 0 ],
-			"obj-4::obj-2" : [ "Randomize_Duration-Max", "DurMax", 0 ],
-			"obj-56::obj-1" : [ "Randomize_Rotate-Min", "RotMin", 0 ],
-			"obj-56::obj-2" : [ "Randomize_Rotate-Max", "RotMax", 0 ],
-			"obj-6" : [ "Randomize_Velocity", "Vel", 0 ],
-			"obj-73::obj-1" : [ "Randomize_Velocity-Min", "VelMin", 0 ],
-			"obj-73::obj-2" : [ "Randomize_Velocity-Max", "VelMax", 0 ],
-			"obj-78" : [ "Randomize_Notes", "Notes", 0 ],
-			"obj-8" : [ "Randomize_1", "1", 0 ],
-			"obj-9" : [ "Randomize_2", "2", 0 ],
-			"obj-93" : [ "Randomize_Notes_Repeat", "Repeat", 0 ],
-			"obj-94" : [ "Randomize_Notes_Scale", "Scale", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-29::obj-1" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-29::obj-2" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-33::obj-6" : 				{
-					"parameter_range" : [ 0.0, 127.0 ],
-					"parameter_unitstyle" : 8
-				}
-,
-				"obj-33::obj-7" : 				{
-					"parameter_range" : [ 0.0, 127.0 ],
-					"parameter_unitstyle" : 8
-				}
-,
-				"obj-35::obj-1" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-35::obj-2" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-56::obj-1" : 				{
-					"parameter_range" : [ 0.0, 127.0 ]
-				}
-,
-				"obj-56::obj-2" : 				{
-					"parameter_range" : [ 0.0, 127.0 ]
-				}
-,
-				"obj-73::obj-1" : 				{
-					"parameter_range" : [ 1.0, 127.0 ]
-				}
-,
-				"obj-73::obj-2" : 				{
-					"parameter_range" : [ 1.0, 127.0 ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
