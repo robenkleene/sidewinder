@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -92,7 +92,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 96.0, 98.0, 20.0 ],
+					"patching_rect" : [ 72.0, 96.0, 108.0, 20.0 ],
 					"text" : "s ---#0playrandomize"
 				}
 
@@ -104,7 +104,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 1240.0, 96.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1240.0, 106.0, 20.0 ],
 					"text" : "r ---#0playrandomize"
 				}
 
@@ -127,7 +127,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 736.0, 1528.0, 71.0, 20.0 ],
+					"patching_rect" : [ 736.0, 1528.0, 81.0, 20.0 ],
 					"text" : "s ---#0channel4"
 				}
 
@@ -138,7 +138,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 696.0, 1504.0, 71.0, 20.0 ],
+					"patching_rect" : [ 696.0, 1504.0, 81.0, 20.0 ],
 					"text" : "s ---#0channel3"
 				}
 
@@ -149,7 +149,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 656.0, 1480.0, 71.0, 20.0 ],
+					"patching_rect" : [ 656.0, 1480.0, 81.0, 20.0 ],
 					"text" : "s ---#0channel2"
 				}
 
@@ -160,7 +160,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 616.0, 1456.0, 71.0, 20.0 ],
+					"patching_rect" : [ 616.0, 1456.0, 81.0, 20.0 ],
 					"text" : "s ---#0channel1"
 				}
 
@@ -172,7 +172,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 1264.0, 76.0, 20.0 ],
+					"patching_rect" : [ 616.0, 1264.0, 86.0, 20.0 ],
 					"text" : "r ---#0randomize"
 				}
 
@@ -183,7 +183,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 1472.0, 78.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1472.0, 88.0, 20.0 ],
 					"text" : "s ---#0randomize"
 				}
 
@@ -208,7 +208,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 136.0, 70.0, 20.0 ],
+					"patching_rect" : [ 56.0, 136.0, 80.0, 20.0 ],
 					"text" : "r ---#0channel1"
 				}
 
@@ -220,7 +220,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 408.0, 70.0, 20.0 ],
+					"patching_rect" : [ 56.0, 408.0, 80.0, 20.0 ],
 					"text" : "r ---#0channel2"
 				}
 
@@ -232,7 +232,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 688.0, 70.0, 20.0 ],
+					"patching_rect" : [ 56.0, 688.0, 80.0, 20.0 ],
 					"text" : "r ---#0channel3"
 				}
 
@@ -244,7 +244,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 960.0, 70.0, 20.0 ],
+					"patching_rect" : [ 56.0, 960.0, 80.0, 20.0 ],
 					"text" : "r ---#0channel4"
 				}
 
@@ -282,7 +282,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 408.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 408.0, 56.0, 20.0 ],
 					"text" : "r ---#0play"
 				}
 
@@ -296,7 +296,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 688.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 688.0, 56.0, 20.0 ],
 					"text" : "r ---#0play"
 				}
 
@@ -310,7 +310,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 960.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 960.0, 56.0, 20.0 ],
 					"text" : "r ---#0play"
 				}
 
@@ -324,7 +324,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 136.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 136.0, 56.0, 20.0 ],
 					"text" : "r ---#0play"
 				}
 
@@ -337,7 +337,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 96.0, 48.0, 20.0 ],
+					"patching_rect" : [ 8.0, 96.0, 58.0, 20.0 ],
 					"text" : "s ---#0play"
 				}
 
@@ -398,7 +398,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 1208.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1208.0, 59.0, 20.0 ],
 					"text" : "s ---#0note"
 				}
 
@@ -446,7 +446,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 928.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 928.0, 59.0, 20.0 ],
 					"text" : "s ---#0note"
 				}
 
@@ -494,7 +494,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 656.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 656.0, 59.0, 20.0 ],
 					"text" : "s ---#0note"
 				}
 
@@ -555,7 +555,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 1504.0, 49.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1504.0, 57.0, 20.0 ],
 					"text" : "r ---#0note"
 				}
 
@@ -590,7 +590,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 376.0, 51.0, 20.0 ],
+					"patching_rect" : [ 8.0, 376.0, 59.0, 20.0 ],
 					"text" : "s ---#0note"
 				}
 
@@ -895,132 +895,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
-			"obj-13::obj-25" : [ "2-Track", "Track", 0 ],
-			"obj-13::obj-28" : [ "2-Duration", "Dur", 0 ],
-			"obj-13::obj-53::obj-1" : [ "2-Pulses", "Pulses", 0 ],
-			"obj-13::obj-53::obj-2" : [ "2-Steps", "Steps", 0 ],
-			"obj-13::obj-64" : [ "2-Auto", "Auto", 0 ],
-			"obj-13::obj-65" : [ "2-Set", "Set", 0 ],
-			"obj-13::obj-78" : [ "2-Pitch", "Pitch", 0 ],
-			"obj-13::obj-8" : [ "2-Sequencer", "Seq", 1 ],
-			"obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
-			"obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
-			"obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
-			"obj-18::obj-25" : [ "3-Track", "Track", 0 ],
-			"obj-18::obj-28" : [ "3-Duration", "Dur", 0 ],
-			"obj-18::obj-53::obj-1" : [ "3-Pulses", "Pulses", 0 ],
-			"obj-18::obj-53::obj-2" : [ "3-Steps", "Steps", 0 ],
-			"obj-18::obj-64" : [ "3-Auto", "Auto", 0 ],
-			"obj-18::obj-65" : [ "3-Set", "Set", 0 ],
-			"obj-18::obj-78" : [ "3-Pitch", "Pitch", 0 ],
-			"obj-18::obj-8" : [ "3-Sequencer", "Seq", 1 ],
-			"obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
-			"obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
-			"obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
-			"obj-1::obj-25" : [ "1-Track", "Track", 0 ],
-			"obj-1::obj-28" : [ "1-Duration", "Dur", 0 ],
-			"obj-1::obj-53::obj-1" : [ "1-Pulses", "Pulses", 0 ],
-			"obj-1::obj-53::obj-2" : [ "1-Steps", "Steps", 0 ],
-			"obj-1::obj-64" : [ "1-Auto", "Auto", 0 ],
-			"obj-1::obj-65" : [ "1-Set", "Set", 0 ],
-			"obj-1::obj-78" : [ "1-Pitch", "Pitch", 0 ],
-			"obj-1::obj-8" : [ "1-Sequencer", "Seq", 1 ],
-			"obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
-			"obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
-			"obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
-			"obj-21::obj-25" : [ "4-Track", "Track", 0 ],
-			"obj-21::obj-28" : [ "4-Duration", "Dur", 0 ],
-			"obj-21::obj-53::obj-1" : [ "4-Pulses", "Pulses", 0 ],
-			"obj-21::obj-53::obj-2" : [ "4-Steps", "Steps", 0 ],
-			"obj-21::obj-64" : [ "4-Auto", "Auto", 0 ],
-			"obj-21::obj-65" : [ "4-Set", "Set", 0 ],
-			"obj-21::obj-78" : [ "4-Pitch", "Pitch", 0 ],
-			"obj-21::obj-8" : [ "4-Sequencer", "Seq", 1 ],
-			"obj-21::obj-81" : [ "4-Velocity", "Vel", 0 ],
-			"obj-21::obj-84" : [ "4-Mode", "Mode", 0 ],
-			"obj-7::obj-10" : [ "Randomize_3", "3", 0 ],
-			"obj-7::obj-104" : [ "Randomize_Notes_Order", "Order", 0 ],
-			"obj-7::obj-11" : [ "Randomize_4", "4", 0 ],
-			"obj-7::obj-110" : [ "Randomize_Notes_Rests", "Rests", 0 ],
-			"obj-7::obj-111" : [ "Randomize_Notes_Reverse", "Rev", 0 ],
-			"obj-7::obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
-			"obj-7::obj-16" : [ "Randomize_Steps", "Steps", 0 ],
-			"obj-7::obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
-			"obj-7::obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
-			"obj-7::obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],
-			"obj-7::obj-30" : [ "Randomize_Duration", "Dur", 0 ],
-			"obj-7::obj-33::obj-6" : [ "Randomize_Pitch-Max", "PchMax", 0 ],
-			"obj-7::obj-33::obj-7" : [ "Randomize_Pitch-Min", "PchMin", 0 ],
-			"obj-7::obj-35::obj-1" : [ "Randomize_Steps-Min", "StpMin", 0 ],
-			"obj-7::obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
-			"obj-7::obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
-			"obj-7::obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
-			"obj-7::obj-4::obj-1" : [ "Randomize_Duration-Min", "DurMin", 0 ],
-			"obj-7::obj-4::obj-2" : [ "Randomize_Duration-Max", "DurMax", 0 ],
-			"obj-7::obj-56::obj-1" : [ "Randomize_Rotate-Min", "RotMin", 0 ],
-			"obj-7::obj-56::obj-2" : [ "Randomize_Rotate-Max", "RotMax", 0 ],
-			"obj-7::obj-6" : [ "Randomize_Velocity", "Vel", 0 ],
-			"obj-7::obj-73::obj-1" : [ "Randomize_Velocity-Min", "VelMin", 0 ],
-			"obj-7::obj-73::obj-2" : [ "Randomize_Velocity-Max", "VelMax", 0 ],
-			"obj-7::obj-78" : [ "Randomize_Notes", "Notes", 0 ],
-			"obj-7::obj-8" : [ "Randomize_1", "1", 0 ],
-			"obj-7::obj-9" : [ "Randomize_2", "2", 0 ],
-			"obj-7::obj-93" : [ "Randomize_Notes_Repeat", "Repeat", 0 ],
-			"obj-7::obj-94" : [ "Randomize_Notes_Scale", "Scale", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-7::obj-29::obj-1" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-7::obj-29::obj-2" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-7::obj-33::obj-6" : 				{
-					"parameter_range" : [ 0.0, 127.0 ],
-					"parameter_unitstyle" : 8
-				}
-,
-				"obj-7::obj-33::obj-7" : 				{
-					"parameter_range" : [ 0.0, 127.0 ],
-					"parameter_unitstyle" : 8
-				}
-,
-				"obj-7::obj-35::obj-1" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-7::obj-35::obj-2" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-7::obj-56::obj-1" : 				{
-					"parameter_range" : [ 0.0, 127.0 ]
-				}
-,
-				"obj-7::obj-56::obj-2" : 				{
-					"parameter_range" : [ 0.0, 127.0 ]
-				}
-,
-				"obj-7::obj-73::obj-1" : 				{
-					"parameter_range" : [ 1.0, 127.0 ]
-				}
-,
-				"obj-7::obj-73::obj-2" : 				{
-					"parameter_range" : [ 1.0, 127.0 ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
