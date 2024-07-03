@@ -773,7 +773,7 @@
 				}
 ,
 				"obj-2::obj-9" : 				{
-					"parameter_initial" : 1.0,
+					"parameter_initial" : 0.0,
 					"parameter_initial_enable" : 1
 				}
 
