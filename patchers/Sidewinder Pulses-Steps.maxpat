@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,8 +47,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 376.0, 48.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"#1-Pulses" : [ 9.0 ],
-						"#1-Steps" : [ 9.0 ]
+						"#1-Pulses" : [ 1.0 ],
+						"#1-Steps" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -72,6 +72,7 @@
 							"parameter_longname" : "#1-Steps",
 							"parameter_mmax" : 128.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Steps",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -99,6 +100,7 @@
 							"parameter_longname" : "#1-Pulses",
 							"parameter_mmax" : 128.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pulses",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -82,6 +82,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Min",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "#2Min",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -107,6 +108,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "#1-Max",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "#2Max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
