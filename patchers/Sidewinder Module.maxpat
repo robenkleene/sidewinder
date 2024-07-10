@@ -58,15 +58,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 696.0, 88.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"#1-Auto" : [ 0.0 ],
-						"#1-Duration" : [ 0.0 ],
-						"#1-Mode" : [ 0.0 ],
-						"#1-Pitch" : [ 0.0 ],
-						"#1-Rotate" : [ 0.0 ],
-						"#1-Sequencer" : [ 1, 1, 0, 1, 12, 0, 1, 0.0, 13.0, 0, 0, 0, 0, 0, 0, 0 ],
-						"#1-Set" : [ 0.0 ],
-						"#1-Track" : [ 0.0 ],
-						"#1-Velocity" : [ 0.0 ]
+						"#2-Auto" : [ 0.0 ],
+						"#2-Duration" : [ 0.0 ],
+						"#2-Mode" : [ 0.0 ],
+						"#2-Pitch" : [ 0.0 ],
+						"#2-Rotate" : [ 0.0 ],
+						"#2-Sequencer" : [ 1, 1, 0, 1, 12, 0, 1, 0.0, 13.0, 0, 0, 0, 0, 0, 0, 0 ],
+						"#2-Set" : [ 0.0 ],
+						"#2-Track" : [ 0.0 ],
+						"#2-Velocity" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2412,7 +2412,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1264.0, 240.0, 109.0, 20.0 ],
-					"text" : "pattrforward #1-Pitch"
+					"text" : "pattrforward #2-Pitch"
 				}
 
 			}
@@ -2533,7 +2533,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2144.0, 240.0, 126.0, 20.0 ],
-					"text" : "pattrforward #1-Duration"
+					"text" : "pattrforward #2-Duration"
 				}
 
 			}
@@ -2558,7 +2558,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1760.0, 240.0, 116.0, 20.0 ],
-					"text" : "pattrforward #1-Rotate"
+					"text" : "pattrforward #2-Rotate"
 				}
 
 			}
@@ -2687,7 +2687,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1944.0, 240.0, 122.0, 20.0 ],
-					"text" : "pattrforward #1-Velocity"
+					"text" : "pattrforward #2-Velocity"
 				}
 
 			}
@@ -2850,7 +2850,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "#1-Track",
+							"parameter_longname" : "#2-Track",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Track",
@@ -2861,7 +2861,7 @@
 ,
 					"text" : "Track",
 					"texton" : "Track",
-					"varname" : "#1-Track"
+					"varname" : "#2-Track"
 				}
 
 			}
@@ -2879,7 +2879,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "7.5", "15", "30", "60", "120", "240", "480", "960" ],
-							"parameter_longname" : "#1-Duration",
+							"parameter_longname" : "#2-Duration",
 							"parameter_mmax" : 7,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dur",
@@ -2889,7 +2889,7 @@
 
 					}
 ,
-					"varname" : "#1-Duration"
+					"varname" : "#2-Duration"
 				}
 
 			}
@@ -2918,7 +2918,7 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-Rotate",
+							"parameter_longname" : "#2-Rotate",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rotate",
 							"parameter_type" : 1,
@@ -2927,7 +2927,7 @@
 
 					}
 ,
-					"varname" : "#1-Rotate"
+					"varname" : "#2-Rotate"
 				}
 
 			}
@@ -2959,7 +2959,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "All", "Pitch", "Vel", "Dur" ],
-							"parameter_longname" : "#1-Mode",
+							"parameter_longname" : "#2-Mode",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Mode",
@@ -2969,7 +2969,7 @@
 
 					}
 ,
-					"varname" : "#1-Mode"
+					"varname" : "#2-Mode"
 				}
 
 			}
@@ -2986,7 +2986,7 @@
 					"presentation_rect" : [ 528.0, 16.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-Velocity",
+							"parameter_longname" : "#2-Velocity",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Vel",
 							"parameter_type" : 0,
@@ -2995,7 +2995,7 @@
 
 					}
 ,
-					"varname" : "#1-Velocity"
+					"varname" : "#2-Velocity"
 				}
 
 			}
@@ -3012,7 +3012,7 @@
 					"presentation_rect" : [ 528.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-Pitch",
+							"parameter_longname" : "#2-Pitch",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
@@ -3021,7 +3021,7 @@
 
 					}
 ,
-					"varname" : "#1-Pitch"
+					"varname" : "#2-Pitch"
 				}
 
 			}
@@ -3042,7 +3042,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "#1-Set",
+							"parameter_longname" : "#2-Set",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Set",
@@ -3052,7 +3052,7 @@
 					}
 ,
 					"text" : "Set",
-					"varname" : "#1-Set"
+					"varname" : "#2-Set"
 				}
 
 			}
@@ -3072,7 +3072,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "#1-Auto",
+							"parameter_longname" : "#2-Auto",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Auto",
@@ -3083,7 +3083,7 @@
 ,
 					"text" : "Auto",
 					"texton" : "Auto",
-					"varname" : "#1-Auto"
+					"varname" : "#2-Auto"
 				}
 
 			}
@@ -3137,7 +3137,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1" ],
+					"args" : [ "#2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -4423,7 +4423,7 @@
 							"parameter_initial" : [ 1, 3, 0, 1, 12, 0, 3, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 0, 4, 0, 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Sequencer",
+							"parameter_longname" : "#2-Sequencer",
 							"parameter_modmode" : 0,
 							"parameter_order" : 1,
 							"parameter_shortname" : "Seq",
@@ -4432,7 +4432,7 @@
 
 					}
 ,
-					"varname" : "#1-Sequencer"
+					"varname" : "#2-Sequencer"
 				}
 
 			}
@@ -5485,17 +5485,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "#1-Rotate", "Rotate", 0 ],
-			"obj-25" : [ "#1-Track", "Track", 0 ],
-			"obj-28" : [ "#1-Duration", "Dur", 0 ],
-			"obj-53::obj-1" : [ "#1-Pulses", "Pulses", 0 ],
-			"obj-53::obj-2" : [ "#1-Steps", "Steps", 0 ],
-			"obj-64" : [ "#1-Auto", "Auto", 0 ],
-			"obj-65" : [ "#1-Set", "Set", 0 ],
-			"obj-78" : [ "#1-Pitch", "Pitch", 0 ],
-			"obj-8" : [ "#1-Sequencer", "Seq", 1 ],
-			"obj-81" : [ "#1-Velocity", "Vel", 0 ],
-			"obj-84" : [ "#1-Mode", "Mode", 0 ],
+			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
+			"obj-25" : [ "#2-Track", "Track", 0 ],
+			"obj-28" : [ "#2-Duration", "Dur", 0 ],
+			"obj-53::obj-1" : [ "#2-Pulses", "Pulses", 0 ],
+			"obj-53::obj-2" : [ "#2-Steps", "Steps", 0 ],
+			"obj-64" : [ "#2-Auto", "Auto", 0 ],
+			"obj-65" : [ "#2-Set", "Set", 0 ],
+			"obj-78" : [ "#2-Pitch", "Pitch", 0 ],
+			"obj-8" : [ "#2-Sequencer", "Seq", 1 ],
+			"obj-81" : [ "#2-Velocity", "Vel", 0 ],
+			"obj-84" : [ "#2-Mode", "Mode", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
