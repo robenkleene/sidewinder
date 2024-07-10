@@ -251,6 +251,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -405,7 +406,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ "#1", 4 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -453,7 +454,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 3 ],
+					"args" : [ "#1", 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -501,7 +502,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2 ],
+					"args" : [ "#1", 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -597,7 +598,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1 ],
+					"args" : [ "#1", 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -979,6 +980,166 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-13::obj-11" : 				{
+					"parameter_longname" : "2-Rotate"
+				}
+,
+				"obj-13::obj-25" : 				{
+					"parameter_longname" : "2-Track"
+				}
+,
+				"obj-13::obj-28" : 				{
+					"parameter_longname" : "2-Duration"
+				}
+,
+				"obj-13::obj-53::obj-1" : 				{
+					"parameter_longname" : "2-Pulses"
+				}
+,
+				"obj-13::obj-53::obj-2" : 				{
+					"parameter_longname" : "2-Steps"
+				}
+,
+				"obj-13::obj-64" : 				{
+					"parameter_longname" : "2-Auto"
+				}
+,
+				"obj-13::obj-65" : 				{
+					"parameter_longname" : "2-Set"
+				}
+,
+				"obj-13::obj-78" : 				{
+					"parameter_longname" : "2-Pitch"
+				}
+,
+				"obj-13::obj-81" : 				{
+					"parameter_longname" : "2-Velocity"
+				}
+,
+				"obj-13::obj-84" : 				{
+					"parameter_longname" : "2-Mode"
+				}
+,
+				"obj-18::obj-11" : 				{
+					"parameter_longname" : "3-Rotate"
+				}
+,
+				"obj-18::obj-25" : 				{
+					"parameter_longname" : "3-Track"
+				}
+,
+				"obj-18::obj-28" : 				{
+					"parameter_longname" : "3-Duration"
+				}
+,
+				"obj-18::obj-53::obj-1" : 				{
+					"parameter_longname" : "3-Pulses"
+				}
+,
+				"obj-18::obj-53::obj-2" : 				{
+					"parameter_longname" : "3-Steps"
+				}
+,
+				"obj-18::obj-64" : 				{
+					"parameter_longname" : "3-Auto"
+				}
+,
+				"obj-18::obj-65" : 				{
+					"parameter_longname" : "3-Set"
+				}
+,
+				"obj-18::obj-78" : 				{
+					"parameter_longname" : "3-Pitch"
+				}
+,
+				"obj-18::obj-81" : 				{
+					"parameter_longname" : "3-Velocity"
+				}
+,
+				"obj-18::obj-84" : 				{
+					"parameter_longname" : "3-Mode"
+				}
+,
+				"obj-1::obj-11" : 				{
+					"parameter_longname" : "1-Rotate"
+				}
+,
+				"obj-1::obj-25" : 				{
+					"parameter_longname" : "1-Track"
+				}
+,
+				"obj-1::obj-28" : 				{
+					"parameter_longname" : "1-Duration"
+				}
+,
+				"obj-1::obj-53::obj-1" : 				{
+					"parameter_longname" : "1-Pulses"
+				}
+,
+				"obj-1::obj-53::obj-2" : 				{
+					"parameter_longname" : "1-Steps"
+				}
+,
+				"obj-1::obj-64" : 				{
+					"parameter_longname" : "1-Auto"
+				}
+,
+				"obj-1::obj-65" : 				{
+					"parameter_longname" : "1-Set"
+				}
+,
+				"obj-1::obj-78" : 				{
+					"parameter_longname" : "1-Pitch"
+				}
+,
+				"obj-1::obj-81" : 				{
+					"parameter_longname" : "1-Velocity"
+				}
+,
+				"obj-1::obj-84" : 				{
+					"parameter_longname" : "1-Mode"
+				}
+,
+				"obj-21::obj-11" : 				{
+					"parameter_longname" : "4-Rotate"
+				}
+,
+				"obj-21::obj-25" : 				{
+					"parameter_longname" : "4-Track"
+				}
+,
+				"obj-21::obj-28" : 				{
+					"parameter_longname" : "4-Duration"
+				}
+,
+				"obj-21::obj-53::obj-1" : 				{
+					"parameter_longname" : "4-Pulses"
+				}
+,
+				"obj-21::obj-53::obj-2" : 				{
+					"parameter_longname" : "4-Steps"
+				}
+,
+				"obj-21::obj-64" : 				{
+					"parameter_longname" : "4-Auto"
+				}
+,
+				"obj-21::obj-65" : 				{
+					"parameter_longname" : "4-Set"
+				}
+,
+				"obj-21::obj-78" : 				{
+					"parameter_longname" : "4-Pitch"
+				}
+,
+				"obj-21::obj-81" : 				{
+					"parameter_longname" : "4-Velocity"
+				}
+,
+				"obj-21::obj-84" : 				{
+					"parameter_longname" : "4-Mode"
+				}
+,
 				"obj-7::obj-29::obj-1" : 				{
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
