@@ -406,7 +406,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1", 4 ],
+					"args" : [ "#1_4", 4 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -454,7 +454,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1", 3 ],
+					"args" : [ "#1_3", 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -502,7 +502,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1", 2 ],
+					"args" : [ "#1_2", 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -598,7 +598,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1", 1 ],
+					"args" : [ "#1_1", 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
