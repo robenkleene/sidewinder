@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 96.0, 108.0, 20.0 ],
-					"text" : "s ---#0playrandomize"
+					"text" : "s #1-playrandomize"
 				}
 
 			}
@@ -105,7 +105,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 1240.0, 106.0, 20.0 ],
-					"text" : "r ---#0playrandomize"
+					"text" : "r #1-playrandomize"
 				}
 
 			}
@@ -128,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 736.0, 1528.0, 81.0, 20.0 ],
-					"text" : "s ---#0channel4"
+					"text" : "s #1-channel4"
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 696.0, 1504.0, 81.0, 20.0 ],
-					"text" : "s ---#0channel3"
+					"text" : "s #1-channel3"
 				}
 
 			}
@@ -150,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 656.0, 1480.0, 81.0, 20.0 ],
-					"text" : "s ---#0channel2"
+					"text" : "s #1-channel2"
 				}
 
 			}
@@ -161,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 616.0, 1456.0, 81.0, 20.0 ],
-					"text" : "s ---#0channel1"
+					"text" : "s #1-channel1"
 				}
 
 			}
@@ -173,7 +173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 616.0, 1264.0, 86.0, 20.0 ],
-					"text" : "r ---#0randomize"
+					"text" : "r #1-randomize"
 				}
 
 			}
@@ -184,7 +184,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 1472.0, 88.0, 20.0 ],
-					"text" : "s ---#0randomize"
+					"text" : "s #1-randomize"
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 56.0, 136.0, 80.0, 20.0 ],
-					"text" : "r ---#0channel1"
+					"text" : "r #1-channel1"
 				}
 
 			}
@@ -221,7 +221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 56.0, 408.0, 80.0, 20.0 ],
-					"text" : "r ---#0channel2"
+					"text" : "r #1-channel2"
 				}
 
 			}
@@ -233,7 +233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 56.0, 688.0, 80.0, 20.0 ],
-					"text" : "r ---#0channel3"
+					"text" : "r #1-channel3"
 				}
 
 			}
@@ -245,12 +245,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 56.0, 960.0, 80.0, 20.0 ],
-					"text" : "r ---#0channel4"
+					"text" : "r #1-channel4"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -283,7 +284,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 408.0, 56.0, 20.0 ],
-					"text" : "r ---#0play"
+					"text" : "r #1-play"
 				}
 
 			}
@@ -297,7 +298,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 688.0, 56.0, 20.0 ],
-					"text" : "r ---#0play"
+					"text" : "r #1-play"
 				}
 
 			}
@@ -311,7 +312,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 960.0, 56.0, 20.0 ],
-					"text" : "r ---#0play"
+					"text" : "r #1-play"
 				}
 
 			}
@@ -325,7 +326,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 136.0, 56.0, 20.0 ],
-					"text" : "r ---#0play"
+					"text" : "r #1-play"
 				}
 
 			}
@@ -338,7 +339,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 96.0, 58.0, 20.0 ],
-					"text" : "s ---#0play"
+					"text" : "s #1-play"
 				}
 
 			}
@@ -399,13 +400,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 1208.0, 59.0, 20.0 ],
-					"text" : "s ---#0note"
+					"text" : "s #1-note"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ "#1", 4 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -447,13 +448,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 928.0, 59.0, 20.0 ],
-					"text" : "s ---#0note"
+					"text" : "s #1-note"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 3 ],
+					"args" : [ "#1", 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -495,13 +496,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 656.0, 59.0, 20.0 ],
-					"text" : "s ---#0note"
+					"text" : "s #1-note"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2 ],
+					"args" : [ "#1", 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -556,7 +557,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 1504.0, 57.0, 20.0 ],
-					"text" : "r ---#0note"
+					"text" : "r #1-note"
 				}
 
 			}
@@ -591,13 +592,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 376.0, 59.0, 20.0 ],
-					"text" : "s ---#0note"
+					"text" : "s #1-note"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1 ],
+					"args" : [ "#1", 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -979,6 +980,166 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-13::obj-11" : 				{
+					"parameter_longname" : "2-Rotate"
+				}
+,
+				"obj-13::obj-25" : 				{
+					"parameter_longname" : "2-Track"
+				}
+,
+				"obj-13::obj-28" : 				{
+					"parameter_longname" : "2-Duration"
+				}
+,
+				"obj-13::obj-53::obj-1" : 				{
+					"parameter_longname" : "2-Pulses"
+				}
+,
+				"obj-13::obj-53::obj-2" : 				{
+					"parameter_longname" : "2-Steps"
+				}
+,
+				"obj-13::obj-64" : 				{
+					"parameter_longname" : "2-Auto"
+				}
+,
+				"obj-13::obj-65" : 				{
+					"parameter_longname" : "2-Set"
+				}
+,
+				"obj-13::obj-78" : 				{
+					"parameter_longname" : "2-Pitch"
+				}
+,
+				"obj-13::obj-81" : 				{
+					"parameter_longname" : "2-Velocity"
+				}
+,
+				"obj-13::obj-84" : 				{
+					"parameter_longname" : "2-Mode"
+				}
+,
+				"obj-18::obj-11" : 				{
+					"parameter_longname" : "3-Rotate"
+				}
+,
+				"obj-18::obj-25" : 				{
+					"parameter_longname" : "3-Track"
+				}
+,
+				"obj-18::obj-28" : 				{
+					"parameter_longname" : "3-Duration"
+				}
+,
+				"obj-18::obj-53::obj-1" : 				{
+					"parameter_longname" : "3-Pulses"
+				}
+,
+				"obj-18::obj-53::obj-2" : 				{
+					"parameter_longname" : "3-Steps"
+				}
+,
+				"obj-18::obj-64" : 				{
+					"parameter_longname" : "3-Auto"
+				}
+,
+				"obj-18::obj-65" : 				{
+					"parameter_longname" : "3-Set"
+				}
+,
+				"obj-18::obj-78" : 				{
+					"parameter_longname" : "3-Pitch"
+				}
+,
+				"obj-18::obj-81" : 				{
+					"parameter_longname" : "3-Velocity"
+				}
+,
+				"obj-18::obj-84" : 				{
+					"parameter_longname" : "3-Mode"
+				}
+,
+				"obj-1::obj-11" : 				{
+					"parameter_longname" : "1-Rotate"
+				}
+,
+				"obj-1::obj-25" : 				{
+					"parameter_longname" : "1-Track"
+				}
+,
+				"obj-1::obj-28" : 				{
+					"parameter_longname" : "1-Duration"
+				}
+,
+				"obj-1::obj-53::obj-1" : 				{
+					"parameter_longname" : "1-Pulses"
+				}
+,
+				"obj-1::obj-53::obj-2" : 				{
+					"parameter_longname" : "1-Steps"
+				}
+,
+				"obj-1::obj-64" : 				{
+					"parameter_longname" : "1-Auto"
+				}
+,
+				"obj-1::obj-65" : 				{
+					"parameter_longname" : "1-Set"
+				}
+,
+				"obj-1::obj-78" : 				{
+					"parameter_longname" : "1-Pitch"
+				}
+,
+				"obj-1::obj-81" : 				{
+					"parameter_longname" : "1-Velocity"
+				}
+,
+				"obj-1::obj-84" : 				{
+					"parameter_longname" : "1-Mode"
+				}
+,
+				"obj-21::obj-11" : 				{
+					"parameter_longname" : "4-Rotate"
+				}
+,
+				"obj-21::obj-25" : 				{
+					"parameter_longname" : "4-Track"
+				}
+,
+				"obj-21::obj-28" : 				{
+					"parameter_longname" : "4-Duration"
+				}
+,
+				"obj-21::obj-53::obj-1" : 				{
+					"parameter_longname" : "4-Pulses"
+				}
+,
+				"obj-21::obj-53::obj-2" : 				{
+					"parameter_longname" : "4-Steps"
+				}
+,
+				"obj-21::obj-64" : 				{
+					"parameter_longname" : "4-Auto"
+				}
+,
+				"obj-21::obj-65" : 				{
+					"parameter_longname" : "4-Set"
+				}
+,
+				"obj-21::obj-78" : 				{
+					"parameter_longname" : "4-Pitch"
+				}
+,
+				"obj-21::obj-81" : 				{
+					"parameter_longname" : "4-Velocity"
+				}
+,
+				"obj-21::obj-84" : 				{
+					"parameter_longname" : "4-Mode"
+				}
+,
 				"obj-7::obj-29::obj-1" : 				{
 					"parameter_range" : [ 1.0, 128.0 ]
 				}

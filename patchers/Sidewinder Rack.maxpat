@@ -72,7 +72,7 @@
 					"patching_rect" : [ 48.0, 8.0, 52.0, 20.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 0.0 ],
+						"Play" : [ 1.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
@@ -525,6 +525,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
