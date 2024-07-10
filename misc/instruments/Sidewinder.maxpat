@@ -218,6 +218,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#0" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
