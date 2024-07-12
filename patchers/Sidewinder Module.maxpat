@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1632.0, 304.0, 150.0, 51.0 ],
+					"text" : "Disable auto when generating a note sequence, it's too easy to accidently overwrite the note sequence otherwise."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1560.0, 336.0, 70.0, 20.0 ],
+					"text" : "pvar #2-Auto"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -197,10 +221,10 @@
 					"id" : "obj-124",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1456.0, 368.0, 30.0, 20.0 ],
-					"text" : "t b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 1456.0, 368.0, 40.0, 20.0 ],
+					"text" : "t b b 0"
 				}
 
 			}
@@ -4748,6 +4772,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-124", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-100", 2 ],
 					"source" : [ "obj-127", 0 ]
 				}
@@ -5220,6 +5251,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"order" : 1,
 					"source" : [ "obj-64", 0 ]
 				}
 
