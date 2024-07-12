@@ -63,7 +63,7 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 
 #### Pitch Note Controls
 
-With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
+With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order. Generating a random notes sequence automatically disables **Auto**, so that the generated sequence doesn't accidentally get overwritten.
 
 - **Scale:** The scale the sequence will be generated in
 - **Rev:** Reverse the order of the generated sequence (from ascending to descending)
