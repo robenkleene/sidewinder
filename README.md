@@ -31,9 +31,9 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 - **Auto**: Toggle whether moving a control automatically updates the steps
 - Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer.
 
-When **Auto** is on, making a change automatically updates the steps. When **Auto** is off, use **Set** to update the steps.
+When **Auto** is on, making a change automatically updates the steps. When **Auto** is off, use **Set** to update the steps. When **Auto** is disabled the **U**, **R**, **D**, **L** directional controls appear that allow moving the sequence in the corresponding direction (up, right, down, left). If **Pitch** or **Velocity** only those values will be moved.
 
-**Note:** Due to a technical limitation, if Auto is on, changing *any* parameter that affects the steps (e.g., pulses, steps, rotate, pitch, velocity, or duration) *will overwrite any manual changes made in the step sequencer to pitch, velocity, or duration*.
+**Note:** Due to a technical limitation, if Auto is on, changing *any* parameter that affects the steps (e.g., pulses, steps, rotate, pitch, velocity, or duration) *will overwrite any manual changes made in the step sequencer to pitch, velocity, or duration*. For this reason, generating a random notes sequence automatically disables **Auto**, so that the sequence doesn't accidentally get overwritten.
 
 #### Pulses
 
@@ -63,7 +63,7 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 
 #### Pitch Note Controls
 
-With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order. Generating a random notes sequence automatically disables **Auto**, so that the generated sequence doesn't accidentally get overwritten.
+With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
 
 - **Scale:** The scale the sequence will be generated in
 - **Rev:** Reverse the order of the generated sequence (from ascending to descending)
