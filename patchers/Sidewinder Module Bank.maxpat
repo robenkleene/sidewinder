@@ -945,10 +945,10 @@
  ],
 		"parameters" : 		{
 			"obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
-			"obj-13::obj-143::obj-136" : [ "Down[1]", "Down", 0 ],
-			"obj-13::obj-143::obj-141" : [ "Right[1]", "Right", 0 ],
-			"obj-13::obj-143::obj-142" : [ "Left[1]", "Left", 0 ],
-			"obj-13::obj-143::obj-86" : [ "Up[1]", "Up", 0 ],
+			"obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
+			"obj-13::obj-143::obj-141" : [ "2-Right", "Right", 0 ],
+			"obj-13::obj-143::obj-142" : [ "2-Left", "Left", 0 ],
+			"obj-13::obj-143::obj-86" : [ "2-Up", "Up", 0 ],
 			"obj-13::obj-25" : [ "2-Track", "Track", 0 ],
 			"obj-13::obj-28" : [ "2-Duration", "Dur", 0 ],
 			"obj-13::obj-43" : [ "2-Channel", "Channel", 0 ],
@@ -961,10 +961,10 @@
 			"obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
 			"obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
 			"obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
-			"obj-18::obj-143::obj-136" : [ "Down[2]", "Down", 0 ],
-			"obj-18::obj-143::obj-141" : [ "Right[2]", "Right", 0 ],
-			"obj-18::obj-143::obj-142" : [ "Left[2]", "Left", 0 ],
-			"obj-18::obj-143::obj-86" : [ "Up[2]", "Up", 0 ],
+			"obj-18::obj-143::obj-136" : [ "3-Down", "Down", 0 ],
+			"obj-18::obj-143::obj-141" : [ "3-Right", "Right", 0 ],
+			"obj-18::obj-143::obj-142" : [ "3-Left", "Left", 0 ],
+			"obj-18::obj-143::obj-86" : [ "3-Up", "Up", 0 ],
 			"obj-18::obj-25" : [ "3-Track", "Track", 0 ],
 			"obj-18::obj-28" : [ "3-Duration", "Dur", 0 ],
 			"obj-18::obj-43" : [ "3-Channel", "Channel", 0 ],
@@ -977,10 +977,10 @@
 			"obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
 			"obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
 			"obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
-			"obj-1::obj-143::obj-136" : [ "Down", "Down", 0 ],
-			"obj-1::obj-143::obj-141" : [ "Right", "Right", 0 ],
-			"obj-1::obj-143::obj-142" : [ "Left", "Left", 0 ],
-			"obj-1::obj-143::obj-86" : [ "Up", "Up", 0 ],
+			"obj-1::obj-143::obj-136" : [ "1-Down", "Down", 0 ],
+			"obj-1::obj-143::obj-141" : [ "1-Right", "Right", 0 ],
+			"obj-1::obj-143::obj-142" : [ "1-Left", "Left", 0 ],
+			"obj-1::obj-143::obj-86" : [ "1-Up", "Up", 0 ],
 			"obj-1::obj-25" : [ "1-Track", "Track", 0 ],
 			"obj-1::obj-28" : [ "1-Duration", "Dur", 0 ],
 			"obj-1::obj-43" : [ "1-Channel", "Channel", 0 ],
@@ -993,10 +993,10 @@
 			"obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
 			"obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
 			"obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
-			"obj-21::obj-143::obj-136" : [ "Down[3]", "Down", 0 ],
-			"obj-21::obj-143::obj-141" : [ "Right[3]", "Right", 0 ],
-			"obj-21::obj-143::obj-142" : [ "Left[3]", "Left", 0 ],
-			"obj-21::obj-143::obj-86" : [ "Up[3]", "Up", 0 ],
+			"obj-21::obj-143::obj-136" : [ "4-Down", "Down", 0 ],
+			"obj-21::obj-143::obj-141" : [ "4-Right", "Right", 0 ],
+			"obj-21::obj-143::obj-142" : [ "4-Left", "Left", 0 ],
+			"obj-21::obj-143::obj-86" : [ "4-Up", "Up", 0 ],
 			"obj-21::obj-25" : [ "4-Track", "Track", 0 ],
 			"obj-21::obj-28" : [ "4-Duration", "Dur", 0 ],
 			"obj-21::obj-43" : [ "4-Channel", "Channel", 0 ],
@@ -1047,214 +1047,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-13::obj-11" : 				{
-					"parameter_longname" : "2-Rotate"
-				}
-,
-				"obj-13::obj-143::obj-136" : 				{
-					"parameter_longname" : "Down[1]"
-				}
-,
-				"obj-13::obj-143::obj-141" : 				{
-					"parameter_longname" : "Right[1]"
-				}
-,
-				"obj-13::obj-143::obj-142" : 				{
-					"parameter_longname" : "Left[1]"
-				}
-,
-				"obj-13::obj-143::obj-86" : 				{
-					"parameter_longname" : "Up[1]"
-				}
-,
-				"obj-13::obj-25" : 				{
-					"parameter_longname" : "2-Track"
-				}
-,
-				"obj-13::obj-28" : 				{
-					"parameter_longname" : "2-Duration"
-				}
-,
-				"obj-13::obj-53::obj-1" : 				{
-					"parameter_longname" : "2-Pulses"
-				}
-,
-				"obj-13::obj-53::obj-2" : 				{
-					"parameter_longname" : "2-Steps"
-				}
-,
-				"obj-13::obj-64" : 				{
-					"parameter_longname" : "2-Auto"
-				}
-,
-				"obj-13::obj-65" : 				{
-					"parameter_longname" : "2-Set"
-				}
-,
-				"obj-13::obj-78" : 				{
-					"parameter_longname" : "2-Pitch"
-				}
-,
-				"obj-13::obj-81" : 				{
-					"parameter_longname" : "2-Velocity"
-				}
-,
-				"obj-13::obj-84" : 				{
-					"parameter_longname" : "2-Mode"
-				}
-,
-				"obj-18::obj-11" : 				{
-					"parameter_longname" : "3-Rotate"
-				}
-,
-				"obj-18::obj-143::obj-136" : 				{
-					"parameter_longname" : "Down[2]"
-				}
-,
-				"obj-18::obj-143::obj-141" : 				{
-					"parameter_longname" : "Right[2]"
-				}
-,
-				"obj-18::obj-143::obj-142" : 				{
-					"parameter_longname" : "Left[2]"
-				}
-,
-				"obj-18::obj-143::obj-86" : 				{
-					"parameter_longname" : "Up[2]"
-				}
-,
-				"obj-18::obj-25" : 				{
-					"parameter_longname" : "3-Track"
-				}
-,
-				"obj-18::obj-28" : 				{
-					"parameter_longname" : "3-Duration"
-				}
-,
-				"obj-18::obj-53::obj-1" : 				{
-					"parameter_longname" : "3-Pulses"
-				}
-,
-				"obj-18::obj-53::obj-2" : 				{
-					"parameter_longname" : "3-Steps"
-				}
-,
-				"obj-18::obj-64" : 				{
-					"parameter_longname" : "3-Auto"
-				}
-,
-				"obj-18::obj-65" : 				{
-					"parameter_longname" : "3-Set"
-				}
-,
-				"obj-18::obj-78" : 				{
-					"parameter_longname" : "3-Pitch"
-				}
-,
-				"obj-18::obj-81" : 				{
-					"parameter_longname" : "3-Velocity"
-				}
-,
-				"obj-18::obj-84" : 				{
-					"parameter_longname" : "3-Mode"
-				}
-,
-				"obj-1::obj-11" : 				{
-					"parameter_longname" : "1-Rotate"
-				}
-,
-				"obj-1::obj-25" : 				{
-					"parameter_longname" : "1-Track"
-				}
-,
-				"obj-1::obj-28" : 				{
-					"parameter_longname" : "1-Duration"
-				}
-,
-				"obj-1::obj-53::obj-1" : 				{
-					"parameter_longname" : "1-Pulses"
-				}
-,
-				"obj-1::obj-53::obj-2" : 				{
-					"parameter_longname" : "1-Steps"
-				}
-,
-				"obj-1::obj-64" : 				{
-					"parameter_longname" : "1-Auto"
-				}
-,
-				"obj-1::obj-65" : 				{
-					"parameter_longname" : "1-Set"
-				}
-,
-				"obj-1::obj-78" : 				{
-					"parameter_longname" : "1-Pitch"
-				}
-,
-				"obj-1::obj-81" : 				{
-					"parameter_longname" : "1-Velocity"
-				}
-,
-				"obj-1::obj-84" : 				{
-					"parameter_longname" : "1-Mode"
-				}
-,
-				"obj-21::obj-11" : 				{
-					"parameter_longname" : "4-Rotate"
-				}
-,
-				"obj-21::obj-143::obj-136" : 				{
-					"parameter_longname" : "Down[3]"
-				}
-,
-				"obj-21::obj-143::obj-141" : 				{
-					"parameter_longname" : "Right[3]"
-				}
-,
-				"obj-21::obj-143::obj-142" : 				{
-					"parameter_longname" : "Left[3]"
-				}
-,
-				"obj-21::obj-143::obj-86" : 				{
-					"parameter_longname" : "Up[3]"
-				}
-,
-				"obj-21::obj-25" : 				{
-					"parameter_longname" : "4-Track"
-				}
-,
-				"obj-21::obj-28" : 				{
-					"parameter_longname" : "4-Duration"
-				}
-,
-				"obj-21::obj-53::obj-1" : 				{
-					"parameter_longname" : "4-Pulses"
-				}
-,
-				"obj-21::obj-53::obj-2" : 				{
-					"parameter_longname" : "4-Steps"
-				}
-,
-				"obj-21::obj-64" : 				{
-					"parameter_longname" : "4-Auto"
-				}
-,
-				"obj-21::obj-65" : 				{
-					"parameter_longname" : "4-Set"
-				}
-,
-				"obj-21::obj-78" : 				{
-					"parameter_longname" : "4-Pitch"
-				}
-,
-				"obj-21::obj-81" : 				{
-					"parameter_longname" : "4-Velocity"
-				}
-,
-				"obj-21::obj-84" : 				{
-					"parameter_longname" : "4-Mode"
-				}
-,
 				"obj-7::obj-29::obj-1" : 				{
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
