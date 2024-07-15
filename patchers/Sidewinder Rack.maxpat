@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int: Channel",
+					"id" : "obj-27",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 128.0, 472.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -537,9 +549,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "int" ],
+					"outlettype" : [ "int", "int", "int" ],
 					"patching_rect" : [ 8.0, 200.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 0.0, 576.0, 168.0 ],
@@ -702,6 +714,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-8", 2 ]
 				}
 
 			}
@@ -881,6 +900,10 @@
 ,
 				"obj-8::obj-21::obj-143::obj-86" : 				{
 					"parameter_longname" : "Up[3]"
+				}
+,
+				"obj-8::obj-21::obj-43" : 				{
+					"parameter_longname" : "Channel"
 				}
 ,
 				"obj-8::obj-7::obj-29::obj-1" : 				{
