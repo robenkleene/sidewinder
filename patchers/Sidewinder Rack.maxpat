@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int: Channel",
+					"id" : "obj-27",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 128.0, 472.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.0, 472.0, 30.0, 30.0 ]
+					"patching_rect" : [ 224.0, 472.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -72,7 +84,7 @@
 					"patching_rect" : [ 48.0, 8.0, 52.0, 20.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 1.0 ],
+						"Play" : [ 0.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
@@ -537,9 +549,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "int" ],
+					"outlettype" : [ "int", "int", "int" ],
 					"patching_rect" : [ 8.0, 200.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 0.0, 576.0, 168.0 ],
@@ -707,6 +719,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-8", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -720,8 +739,13 @@
 			"obj-17" : [ "Overwrite", "OW", 0 ],
 			"obj-20" : [ "Randomize", "Rand", 0 ],
 			"obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
+			"obj-8::obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
+			"obj-8::obj-13::obj-143::obj-141" : [ "2-Right", "Right", 0 ],
+			"obj-8::obj-13::obj-143::obj-142" : [ "2-Left", "Left", 0 ],
+			"obj-8::obj-13::obj-143::obj-86" : [ "2-Up", "Up", 0 ],
 			"obj-8::obj-13::obj-25" : [ "2-Track", "Track", 0 ],
 			"obj-8::obj-13::obj-28" : [ "2-Duration", "Dur", 0 ],
+			"obj-8::obj-13::obj-43" : [ "2-Channel", "Channel", 0 ],
 			"obj-8::obj-13::obj-53::obj-1" : [ "2-Pulses", "Pulses", 0 ],
 			"obj-8::obj-13::obj-53::obj-2" : [ "2-Steps", "Steps", 0 ],
 			"obj-8::obj-13::obj-64" : [ "2-Auto", "Auto", 0 ],
@@ -731,8 +755,13 @@
 			"obj-8::obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
 			"obj-8::obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
 			"obj-8::obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
+			"obj-8::obj-18::obj-143::obj-136" : [ "3-Down", "Down", 0 ],
+			"obj-8::obj-18::obj-143::obj-141" : [ "3-Right", "Right", 0 ],
+			"obj-8::obj-18::obj-143::obj-142" : [ "3-Left", "Left", 0 ],
+			"obj-8::obj-18::obj-143::obj-86" : [ "3-Up", "Up", 0 ],
 			"obj-8::obj-18::obj-25" : [ "3-Track", "Track", 0 ],
 			"obj-8::obj-18::obj-28" : [ "3-Duration", "Dur", 0 ],
+			"obj-8::obj-18::obj-43" : [ "3-Channel", "Channel", 0 ],
 			"obj-8::obj-18::obj-53::obj-1" : [ "3-Pulses", "Pulses", 0 ],
 			"obj-8::obj-18::obj-53::obj-2" : [ "3-Steps", "Steps", 0 ],
 			"obj-8::obj-18::obj-64" : [ "3-Auto", "Auto", 0 ],
@@ -742,8 +771,13 @@
 			"obj-8::obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
 			"obj-8::obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
 			"obj-8::obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
+			"obj-8::obj-1::obj-143::obj-136" : [ "1-Down", "Down", 0 ],
+			"obj-8::obj-1::obj-143::obj-141" : [ "1-Right", "Right", 0 ],
+			"obj-8::obj-1::obj-143::obj-142" : [ "1-Left", "Left", 0 ],
+			"obj-8::obj-1::obj-143::obj-86" : [ "1-Up", "Up", 0 ],
 			"obj-8::obj-1::obj-25" : [ "1-Track", "Track", 0 ],
 			"obj-8::obj-1::obj-28" : [ "1-Duration", "Dur", 0 ],
+			"obj-8::obj-1::obj-43" : [ "1-Channel", "Channel", 0 ],
 			"obj-8::obj-1::obj-53::obj-1" : [ "1-Pulses", "Pulses", 0 ],
 			"obj-8::obj-1::obj-53::obj-2" : [ "1-Steps", "Steps", 0 ],
 			"obj-8::obj-1::obj-64" : [ "1-Auto", "Auto", 0 ],
@@ -753,8 +787,13 @@
 			"obj-8::obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
 			"obj-8::obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
 			"obj-8::obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
+			"obj-8::obj-21::obj-143::obj-136" : [ "4-Down", "Down", 0 ],
+			"obj-8::obj-21::obj-143::obj-141" : [ "4-Right", "Right", 0 ],
+			"obj-8::obj-21::obj-143::obj-142" : [ "4-Left", "Left", 0 ],
+			"obj-8::obj-21::obj-143::obj-86" : [ "4-Up", "Up", 0 ],
 			"obj-8::obj-21::obj-25" : [ "4-Track", "Track", 0 ],
 			"obj-8::obj-21::obj-28" : [ "4-Duration", "Dur", 0 ],
+			"obj-8::obj-21::obj-43" : [ "4-Channel", "Channel", 0 ],
 			"obj-8::obj-21::obj-53::obj-1" : [ "4-Pulses", "Pulses", 0 ],
 			"obj-8::obj-21::obj-53::obj-2" : [ "4-Steps", "Steps", 0 ],
 			"obj-8::obj-21::obj-64" : [ "4-Auto", "Auto", 0 ],
@@ -851,6 +890,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Sidewinder Directions.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",

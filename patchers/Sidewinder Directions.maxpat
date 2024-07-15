@@ -101,7 +101,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Left",
+							"parameter_longname" : "#2-Left",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Left",
@@ -130,7 +130,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Right",
+							"parameter_longname" : "#2-Right",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Right",
@@ -159,7 +159,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Down",
+							"parameter_longname" : "#2-Down",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Down",
@@ -188,7 +188,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Up",
+							"parameter_longname" : "#2-Up",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Up",
@@ -233,10 +233,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-136" : [ "Down", "Down", 0 ],
-			"obj-141" : [ "Right", "Right", 0 ],
-			"obj-142" : [ "Left", "Left", 0 ],
-			"obj-86" : [ "Up", "Up", 0 ],
+			"obj-136" : [ "#2-Down", "Down", 0 ],
+			"obj-141" : [ "#2-Right", "Right", 0 ],
+			"obj-142" : [ "#2-Left", "Left", 0 ],
+			"obj-86" : [ "#2-Up", "Up", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

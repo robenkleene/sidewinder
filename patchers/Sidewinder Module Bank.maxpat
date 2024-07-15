@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int: Channel",
+					"id" : "obj-45",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 104.0, 1568.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -385,11 +397,11 @@
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 1176.0, 33.0, 20.0 ],
-					"text" : "pack"
+					"patching_rect" : [ 8.0, 1176.0, 56.0, 20.0 ],
+					"text" : "pack 0 0 0"
 				}
 
 			}
@@ -418,9 +430,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "float", "int", "int" ],
 					"patching_rect" : [ 8.0, 992.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 504.0, 632.0, 168.0 ],
@@ -433,11 +445,11 @@
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 900.0, 33.0, 20.0 ],
-					"text" : "pack"
+					"patching_rect" : [ 8.0, 900.0, 56.0, 20.0 ],
+					"text" : "pack 0 0 0"
 				}
 
 			}
@@ -466,9 +478,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "float", "int", "int" ],
 					"patching_rect" : [ 8.0, 716.0, 576.0, 164.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 336.0, 632.0, 168.0 ],
@@ -481,11 +493,11 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 624.0, 33.0, 20.0 ],
-					"text" : "pack"
+					"patching_rect" : [ 8.0, 624.0, 56.0, 20.0 ],
+					"text" : "pack 0 0 0"
 				}
 
 			}
@@ -514,9 +526,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "float", "int", "int" ],
 					"patching_rect" : [ 8.0, 440.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 168.0, 632.0, 168.0 ],
@@ -542,10 +554,10 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 8.0, 1536.0, 46.0, 20.0 ],
-					"text" : "unpack"
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 8.0, 1536.0, 69.0, 20.0 ],
+					"text" : "unpack 0 0 0"
 				}
 
 			}
@@ -565,11 +577,11 @@
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 352.0, 33.0, 20.0 ],
-					"text" : "pack"
+					"patching_rect" : [ 8.0, 352.0, 56.0, 20.0 ],
+					"text" : "pack 0 0 0"
 				}
 
 			}
@@ -610,9 +622,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "float", "int", "int" ],
 					"patching_rect" : [ 8.0, 168.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 632.0, 168.0 ],
@@ -623,6 +635,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 2 ],
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"source" : [ "obj-1", 1 ]
@@ -652,8 +671,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-11", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 2 ],
+					"source" : [ "obj-13", 2 ]
 				}
 
 			}
@@ -687,6 +720,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 2 ],
+					"source" : [ "obj-18", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
 					"source" : [ "obj-18", 1 ]
 				}
@@ -710,6 +750,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 2 ],
+					"source" : [ "obj-21", 2 ]
 				}
 
 			}
@@ -898,8 +945,13 @@
  ],
 		"parameters" : 		{
 			"obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
+			"obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
+			"obj-13::obj-143::obj-141" : [ "2-Right", "Right", 0 ],
+			"obj-13::obj-143::obj-142" : [ "2-Left", "Left", 0 ],
+			"obj-13::obj-143::obj-86" : [ "2-Up", "Up", 0 ],
 			"obj-13::obj-25" : [ "2-Track", "Track", 0 ],
 			"obj-13::obj-28" : [ "2-Duration", "Dur", 0 ],
+			"obj-13::obj-43" : [ "2-Channel", "Channel", 0 ],
 			"obj-13::obj-53::obj-1" : [ "2-Pulses", "Pulses", 0 ],
 			"obj-13::obj-53::obj-2" : [ "2-Steps", "Steps", 0 ],
 			"obj-13::obj-64" : [ "2-Auto", "Auto", 0 ],
@@ -909,8 +961,13 @@
 			"obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
 			"obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
 			"obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
+			"obj-18::obj-143::obj-136" : [ "3-Down", "Down", 0 ],
+			"obj-18::obj-143::obj-141" : [ "3-Right", "Right", 0 ],
+			"obj-18::obj-143::obj-142" : [ "3-Left", "Left", 0 ],
+			"obj-18::obj-143::obj-86" : [ "3-Up", "Up", 0 ],
 			"obj-18::obj-25" : [ "3-Track", "Track", 0 ],
 			"obj-18::obj-28" : [ "3-Duration", "Dur", 0 ],
+			"obj-18::obj-43" : [ "3-Channel", "Channel", 0 ],
 			"obj-18::obj-53::obj-1" : [ "3-Pulses", "Pulses", 0 ],
 			"obj-18::obj-53::obj-2" : [ "3-Steps", "Steps", 0 ],
 			"obj-18::obj-64" : [ "3-Auto", "Auto", 0 ],
@@ -920,8 +977,13 @@
 			"obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
 			"obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
 			"obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
+			"obj-1::obj-143::obj-136" : [ "1-Down", "Down", 0 ],
+			"obj-1::obj-143::obj-141" : [ "1-Right", "Right", 0 ],
+			"obj-1::obj-143::obj-142" : [ "1-Left", "Left", 0 ],
+			"obj-1::obj-143::obj-86" : [ "1-Up", "Up", 0 ],
 			"obj-1::obj-25" : [ "1-Track", "Track", 0 ],
 			"obj-1::obj-28" : [ "1-Duration", "Dur", 0 ],
+			"obj-1::obj-43" : [ "1-Channel", "Channel", 0 ],
 			"obj-1::obj-53::obj-1" : [ "1-Pulses", "Pulses", 0 ],
 			"obj-1::obj-53::obj-2" : [ "1-Steps", "Steps", 0 ],
 			"obj-1::obj-64" : [ "1-Auto", "Auto", 0 ],
@@ -931,8 +993,13 @@
 			"obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
 			"obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
 			"obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
+			"obj-21::obj-143::obj-136" : [ "4-Down", "Down", 0 ],
+			"obj-21::obj-143::obj-141" : [ "4-Right", "Right", 0 ],
+			"obj-21::obj-143::obj-142" : [ "4-Left", "Left", 0 ],
+			"obj-21::obj-143::obj-86" : [ "4-Up", "Up", 0 ],
 			"obj-21::obj-25" : [ "4-Track", "Track", 0 ],
 			"obj-21::obj-28" : [ "4-Duration", "Dur", 0 ],
+			"obj-21::obj-43" : [ "4-Channel", "Channel", 0 ],
 			"obj-21::obj-53::obj-1" : [ "4-Pulses", "Pulses", 0 ],
 			"obj-21::obj-53::obj-2" : [ "4-Steps", "Steps", 0 ],
 			"obj-21::obj-64" : [ "4-Auto", "Auto", 0 ],
@@ -980,166 +1047,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-13::obj-11" : 				{
-					"parameter_longname" : "2-Rotate"
-				}
-,
-				"obj-13::obj-25" : 				{
-					"parameter_longname" : "2-Track"
-				}
-,
-				"obj-13::obj-28" : 				{
-					"parameter_longname" : "2-Duration"
-				}
-,
-				"obj-13::obj-53::obj-1" : 				{
-					"parameter_longname" : "2-Pulses"
-				}
-,
-				"obj-13::obj-53::obj-2" : 				{
-					"parameter_longname" : "2-Steps"
-				}
-,
-				"obj-13::obj-64" : 				{
-					"parameter_longname" : "2-Auto"
-				}
-,
-				"obj-13::obj-65" : 				{
-					"parameter_longname" : "2-Set"
-				}
-,
-				"obj-13::obj-78" : 				{
-					"parameter_longname" : "2-Pitch"
-				}
-,
-				"obj-13::obj-81" : 				{
-					"parameter_longname" : "2-Velocity"
-				}
-,
-				"obj-13::obj-84" : 				{
-					"parameter_longname" : "2-Mode"
-				}
-,
-				"obj-18::obj-11" : 				{
-					"parameter_longname" : "3-Rotate"
-				}
-,
-				"obj-18::obj-25" : 				{
-					"parameter_longname" : "3-Track"
-				}
-,
-				"obj-18::obj-28" : 				{
-					"parameter_longname" : "3-Duration"
-				}
-,
-				"obj-18::obj-53::obj-1" : 				{
-					"parameter_longname" : "3-Pulses"
-				}
-,
-				"obj-18::obj-53::obj-2" : 				{
-					"parameter_longname" : "3-Steps"
-				}
-,
-				"obj-18::obj-64" : 				{
-					"parameter_longname" : "3-Auto"
-				}
-,
-				"obj-18::obj-65" : 				{
-					"parameter_longname" : "3-Set"
-				}
-,
-				"obj-18::obj-78" : 				{
-					"parameter_longname" : "3-Pitch"
-				}
-,
-				"obj-18::obj-81" : 				{
-					"parameter_longname" : "3-Velocity"
-				}
-,
-				"obj-18::obj-84" : 				{
-					"parameter_longname" : "3-Mode"
-				}
-,
-				"obj-1::obj-11" : 				{
-					"parameter_longname" : "1-Rotate"
-				}
-,
-				"obj-1::obj-25" : 				{
-					"parameter_longname" : "1-Track"
-				}
-,
-				"obj-1::obj-28" : 				{
-					"parameter_longname" : "1-Duration"
-				}
-,
-				"obj-1::obj-53::obj-1" : 				{
-					"parameter_longname" : "1-Pulses"
-				}
-,
-				"obj-1::obj-53::obj-2" : 				{
-					"parameter_longname" : "1-Steps"
-				}
-,
-				"obj-1::obj-64" : 				{
-					"parameter_longname" : "1-Auto"
-				}
-,
-				"obj-1::obj-65" : 				{
-					"parameter_longname" : "1-Set"
-				}
-,
-				"obj-1::obj-78" : 				{
-					"parameter_longname" : "1-Pitch"
-				}
-,
-				"obj-1::obj-81" : 				{
-					"parameter_longname" : "1-Velocity"
-				}
-,
-				"obj-1::obj-84" : 				{
-					"parameter_longname" : "1-Mode"
-				}
-,
-				"obj-21::obj-11" : 				{
-					"parameter_longname" : "4-Rotate"
-				}
-,
-				"obj-21::obj-25" : 				{
-					"parameter_longname" : "4-Track"
-				}
-,
-				"obj-21::obj-28" : 				{
-					"parameter_longname" : "4-Duration"
-				}
-,
-				"obj-21::obj-53::obj-1" : 				{
-					"parameter_longname" : "4-Pulses"
-				}
-,
-				"obj-21::obj-53::obj-2" : 				{
-					"parameter_longname" : "4-Steps"
-				}
-,
-				"obj-21::obj-64" : 				{
-					"parameter_longname" : "4-Auto"
-				}
-,
-				"obj-21::obj-65" : 				{
-					"parameter_longname" : "4-Set"
-				}
-,
-				"obj-21::obj-78" : 				{
-					"parameter_longname" : "4-Pitch"
-				}
-,
-				"obj-21::obj-81" : 				{
-					"parameter_longname" : "4-Velocity"
-				}
-,
-				"obj-21::obj-84" : 				{
-					"parameter_longname" : "4-Mode"
-				}
-,
 				"obj-7::obj-29::obj-1" : 				{
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
@@ -1188,6 +1095,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Sidewinder Directions.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
