@@ -313,10 +313,10 @@
 			"obj-2::obj-17" : [ "Overwrite", "OW", 0 ],
 			"obj-2::obj-20" : [ "Randomize", "Rand", 0 ],
 			"obj-2::obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
-			"obj-2::obj-8::obj-13::obj-143::obj-136" : [ "Down[1]", "Down", 0 ],
-			"obj-2::obj-8::obj-13::obj-143::obj-141" : [ "Right[1]", "Right", 0 ],
-			"obj-2::obj-8::obj-13::obj-143::obj-142" : [ "Left[1]", "Left", 0 ],
-			"obj-2::obj-8::obj-13::obj-143::obj-86" : [ "Up[1]", "Up", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-141" : [ "2-Right", "Right", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-142" : [ "2-Left", "Left", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-86" : [ "2-Up", "Up", 0 ],
 			"obj-2::obj-8::obj-13::obj-25" : [ "2-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-13::obj-28" : [ "2-Duration", "Dur", 0 ],
 			"obj-2::obj-8::obj-13::obj-43" : [ "2-Channel", "Channel", 0 ],
@@ -329,10 +329,10 @@
 			"obj-2::obj-8::obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
 			"obj-2::obj-8::obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
 			"obj-2::obj-8::obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
-			"obj-2::obj-8::obj-18::obj-143::obj-136" : [ "Down[2]", "Down", 0 ],
-			"obj-2::obj-8::obj-18::obj-143::obj-141" : [ "Right[2]", "Right", 0 ],
-			"obj-2::obj-8::obj-18::obj-143::obj-142" : [ "Left[2]", "Left", 0 ],
-			"obj-2::obj-8::obj-18::obj-143::obj-86" : [ "Up[2]", "Up", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-136" : [ "3-Down", "Down", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-141" : [ "3-Right", "Right", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-142" : [ "3-Left", "Left", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-86" : [ "3-Up", "Up", 0 ],
 			"obj-2::obj-8::obj-18::obj-25" : [ "3-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-18::obj-28" : [ "3-Duration", "Dur", 0 ],
 			"obj-2::obj-8::obj-18::obj-43" : [ "3-Channel", "Channel", 0 ],
@@ -345,10 +345,10 @@
 			"obj-2::obj-8::obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
 			"obj-2::obj-8::obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
 			"obj-2::obj-8::obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
-			"obj-2::obj-8::obj-1::obj-143::obj-136" : [ "Down", "Down", 0 ],
-			"obj-2::obj-8::obj-1::obj-143::obj-141" : [ "Right", "Right", 0 ],
-			"obj-2::obj-8::obj-1::obj-143::obj-142" : [ "Left", "Left", 0 ],
-			"obj-2::obj-8::obj-1::obj-143::obj-86" : [ "Up", "Up", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-136" : [ "1-Down", "Down", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-141" : [ "1-Right", "Right", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-142" : [ "1-Left", "Left", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-86" : [ "1-Up", "Up", 0 ],
 			"obj-2::obj-8::obj-1::obj-25" : [ "1-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-1::obj-28" : [ "1-Duration", "Dur", 0 ],
 			"obj-2::obj-8::obj-1::obj-43" : [ "1-Channel", "Channel", 0 ],
@@ -361,10 +361,10 @@
 			"obj-2::obj-8::obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
 			"obj-2::obj-8::obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
 			"obj-2::obj-8::obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
-			"obj-2::obj-8::obj-21::obj-143::obj-136" : [ "Down[3]", "Down", 0 ],
-			"obj-2::obj-8::obj-21::obj-143::obj-141" : [ "Right[3]", "Right", 0 ],
-			"obj-2::obj-8::obj-21::obj-143::obj-142" : [ "Left[3]", "Left", 0 ],
-			"obj-2::obj-8::obj-21::obj-143::obj-86" : [ "Up[3]", "Up", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-136" : [ "4-Down", "Down", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-141" : [ "4-Right", "Right", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-142" : [ "4-Left", "Left", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-86" : [ "4-Up", "Up", 0 ],
 			"obj-2::obj-8::obj-21::obj-25" : [ "4-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-21::obj-28" : [ "4-Duration", "Dur", 0 ],
 			"obj-2::obj-8::obj-21::obj-43" : [ "4-Channel", "Channel", 0 ],
@@ -416,439 +416,46 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-10" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-11" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-13" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-17" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-20" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-11" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-143::obj-136" : 				{
-					"parameter_longname" : "Down[1]"
-				}
-,
-				"obj-2::obj-8::obj-13::obj-143::obj-141" : 				{
-					"parameter_longname" : "Right[1]"
-				}
-,
-				"obj-2::obj-8::obj-13::obj-143::obj-142" : 				{
-					"parameter_longname" : "Left[1]"
-				}
-,
-				"obj-2::obj-8::obj-13::obj-143::obj-86" : 				{
-					"parameter_longname" : "Up[1]"
-				}
-,
-				"obj-2::obj-8::obj-13::obj-25" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-28" : 				{
-					"parameter_initial" : 4.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-53::obj-1" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-53::obj-2" : 				{
-					"parameter_initial" : 3.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-64" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-65" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-78" : 				{
-					"parameter_initial" : 60.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-81" : 				{
-					"parameter_initial" : 127.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-13::obj-84" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-11" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-143::obj-136" : 				{
-					"parameter_longname" : "Down[2]"
-				}
-,
-				"obj-2::obj-8::obj-18::obj-143::obj-141" : 				{
-					"parameter_longname" : "Right[2]"
-				}
-,
-				"obj-2::obj-8::obj-18::obj-143::obj-142" : 				{
-					"parameter_longname" : "Left[2]"
-				}
-,
-				"obj-2::obj-8::obj-18::obj-143::obj-86" : 				{
-					"parameter_longname" : "Up[2]"
-				}
-,
-				"obj-2::obj-8::obj-18::obj-25" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-28" : 				{
-					"parameter_initial" : 4.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-53::obj-1" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-53::obj-2" : 				{
-					"parameter_initial" : 3.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-64" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-65" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-78" : 				{
-					"parameter_initial" : 60.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-81" : 				{
-					"parameter_initial" : 127.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-18::obj-84" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-11" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-25" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-28" : 				{
-					"parameter_initial" : 4.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-53::obj-1" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-53::obj-2" : 				{
-					"parameter_initial" : 3.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-64" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-65" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-78" : 				{
-					"parameter_initial" : 60.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-81" : 				{
-					"parameter_initial" : 127.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-1::obj-84" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-11" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-143::obj-136" : 				{
-					"parameter_longname" : "Down[3]"
-				}
-,
-				"obj-2::obj-8::obj-21::obj-143::obj-141" : 				{
-					"parameter_longname" : "Right[3]"
-				}
-,
-				"obj-2::obj-8::obj-21::obj-143::obj-142" : 				{
-					"parameter_longname" : "Left[3]"
-				}
-,
-				"obj-2::obj-8::obj-21::obj-143::obj-86" : 				{
-					"parameter_longname" : "Up[3]"
-				}
-,
-				"obj-2::obj-8::obj-21::obj-25" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-28" : 				{
-					"parameter_initial" : 4.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-53::obj-1" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-53::obj-2" : 				{
-					"parameter_initial" : 3.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-64" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-65" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-78" : 				{
-					"parameter_initial" : 60.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-81" : 				{
-					"parameter_initial" : 127.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-21::obj-84" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-10" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-104" : 				{
-					"parameter_initial" : 50.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-11" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-110" : 				{
-					"parameter_initial" : 50.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-111" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-15" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-16" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-25" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
 				"obj-2::obj-8::obj-7::obj-29::obj-1" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-29::obj-2" : 				{
-					"parameter_initial" : 32.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
-				"obj-2::obj-8::obj-7::obj-30" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
 				"obj-2::obj-8::obj-7::obj-33::obj-6" : 				{
-					"parameter_initial" : 72.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 0.0, 127.0 ],
 					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-33::obj-7" : 				{
-					"parameter_initial" : 60.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 0.0, 127.0 ],
 					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-35::obj-1" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-35::obj-2" : 				{
-					"parameter_initial" : 32.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 1.0, 128.0 ]
 				}
 ,
-				"obj-2::obj-8::obj-7::obj-38" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-39" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-4::obj-1" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-4::obj-2" : 				{
-					"parameter_initial" : 7.0,
-					"parameter_initial_enable" : 1
-				}
-,
 				"obj-2::obj-8::obj-7::obj-56::obj-1" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 0.0, 127.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-56::obj-2" : 				{
-					"parameter_initial" : 127.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 0.0, 127.0 ]
 				}
 ,
-				"obj-2::obj-8::obj-7::obj-6" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
 				"obj-2::obj-8::obj-7::obj-73::obj-1" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 1.0, 127.0 ]
 				}
 ,
 				"obj-2::obj-8::obj-7::obj-73::obj-2" : 				{
-					"parameter_initial" : 127.0,
-					"parameter_initial_enable" : 1,
 					"parameter_range" : [ 1.0, 127.0 ]
-				}
-,
-				"obj-2::obj-8::obj-7::obj-78" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-8" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-9" : 				{
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-93" : 				{
-					"parameter_initial" : 50.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-8::obj-7::obj-94" : 				{
-					"parameter_initial" : 14.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-9" : 				{
-					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
 				}
 
 			}
