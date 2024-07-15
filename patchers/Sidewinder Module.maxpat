@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 320.0, 100.0, 1296.0, 963.0 ],
+		"rect" : [ 320.0, 100.0, 905.0, 963.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -95,12 +95,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 296.0, 584.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 144.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Channel",
+							"parameter_longname" : "#2-Channel",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 4,
@@ -111,7 +112,7 @@
 
 					}
 ,
-					"varname" : "Channel"
+					"varname" : "#2-Channel"
 				}
 
 			}
@@ -353,6 +354,7 @@
 					"patching_rect" : [ 728.0, 48.0, 52.0, 20.0 ],
 					"restore" : 					{
 						"#2-Auto" : [ 0.0 ],
+						"#2-Channel" : [ 1.0 ],
 						"#2-Duration" : [ 0.0 ],
 						"#2-Mode" : [ 2.0 ],
 						"#2-Pitch" : [ 0.0 ],
@@ -360,8 +362,7 @@
 						"#2-Sequencer" : [ 1, 1, 0, 1, 12, 0, 1, 0.0, 13.0, 0, 0, 0, 0, 0, 0, 0 ],
 						"#2-Set" : [ 0.0 ],
 						"#2-Track" : [ 0.0 ],
-						"#2-Velocity" : [ 0.0 ],
-						"Channel" : [ 1.0 ]
+						"#2-Velocity" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -5974,7 +5975,7 @@
 			"obj-143::obj-86" : [ "Up", "Up", 0 ],
 			"obj-25" : [ "#2-Track", "Track", 0 ],
 			"obj-28" : [ "#2-Duration", "Dur", 0 ],
-			"obj-43" : [ "Channel", "Channel", 0 ],
+			"obj-43" : [ "#2-Channel", "Channel", 0 ],
 			"obj-53::obj-1" : [ "#2-Pulses", "Pulses", 0 ],
 			"obj-53::obj-2" : [ "#2-Steps", "Steps", 0 ],
 			"obj-64" : [ "#2-Auto", "Auto", 0 ],
