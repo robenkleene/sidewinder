@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "int: Channel",
 					"id" : "obj-45",
 					"index" : 0,
 					"maxclass" : "outlet",
