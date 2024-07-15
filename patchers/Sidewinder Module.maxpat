@@ -251,6 +251,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1", "#2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -356,10 +357,10 @@
 						"#2-Auto" : [ 0.0 ],
 						"#2-Channel" : [ 1.0 ],
 						"#2-Duration" : [ 0.0 ],
-						"#2-Mode" : [ 2.0 ],
+						"#2-Mode" : [ 0.0 ],
 						"#2-Pitch" : [ 0.0 ],
 						"#2-Rotate" : [ 0.0 ],
-						"#2-Sequencer" : [ 1, 1, 0, 1, 12, 0, 1, 0.0, 13.0, 0, 0, 0, 0, 0, 0, 0 ],
+						"#2-Sequencer" : [ 1, 3, 0, 1, 12, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
 						"#2-Set" : [ 0.0 ],
 						"#2-Track" : [ 0.0 ],
 						"#2-Velocity" : [ 0.0 ]
@@ -5969,10 +5970,10 @@
  ],
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
-			"obj-143::obj-136" : [ "Down", "Down", 0 ],
-			"obj-143::obj-141" : [ "Right", "Right", 0 ],
-			"obj-143::obj-142" : [ "Left", "Left", 0 ],
-			"obj-143::obj-86" : [ "Up", "Up", 0 ],
+			"obj-143::obj-136" : [ "#2-Down", "Down", 0 ],
+			"obj-143::obj-141" : [ "#2-Right", "Right", 0 ],
+			"obj-143::obj-142" : [ "#2-Left", "Left", 0 ],
+			"obj-143::obj-86" : [ "#2-Up", "Up", 0 ],
 			"obj-25" : [ "#2-Track", "Track", 0 ],
 			"obj-28" : [ "#2-Duration", "Dur", 0 ],
 			"obj-43" : [ "#2-Channel", "Channel", 0 ],
