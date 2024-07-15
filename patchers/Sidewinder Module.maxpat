@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "int: Channel",
 					"id" : "obj-22",
 					"index" : 0,
 					"maxclass" : "outlet",
