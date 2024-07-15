@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 208.0, 89.0, 20.0 ],
+					"patching_rect" : [ 664.0, 248.0, 89.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.0, 176.0, 96.0, 20.0 ],
 					"text" : "Global Transport"
@@ -61,7 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 238.0, 163.0, 22.0 ],
+					"patching_rect" : [ 664.0, 278.0, 163.0, 22.0 ],
 					"text" : "load globaltransport.maxpat"
 				}
 
@@ -75,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 268.0, 54.0, 22.0 ],
+					"patching_rect" : [ 664.0, 308.0, 54.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -87,7 +87,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 808.0, 208.0, 150.0, 74.0 ],
+					"patching_rect" : [ 832.0, 248.0, 150.0, 74.0 ],
 					"text" : "Note that each time a ReWire host stops and starts, a new global transport needs to be create by clicking this. The old one will not continue to update."
 				}
 
@@ -99,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.0, 256.0, 99.0, 20.0 ],
+					"patching_rect" : [ 536.0, 296.0, 99.0, 20.0 ],
 					"text" : "clocksource rewire"
 				}
 
@@ -111,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 256.0, 106.0, 20.0 ],
+					"patching_rect" : [ 424.0, 296.0, 106.0, 20.0 ],
 					"text" : "clocksource internal"
 				}
 
@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 400.0, 216.0, 37.0, 20.0 ],
+					"patching_rect" : [ 424.0, 256.0, 37.0, 20.0 ],
 					"text" : "select"
 				}
 
@@ -134,7 +134,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 176.0, 43.0, 18.0 ],
+					"patching_rect" : [ 448.0, 216.0, 43.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 216.0, 176.0, 43.0, 18.0 ],
 					"text" : "ReWire"
@@ -149,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 400.0, 176.0, 24.0, 24.0 ],
+					"patching_rect" : [ 424.0, 216.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 192.0, 176.0, 24.0, 24.0 ]
 				}
@@ -162,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 80.0, 70.0, 20.0 ],
+					"patching_rect" : [ 672.0, 120.0, 70.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 176.0, 72.0, 20.0 ],
 					"text" : "Audio Status"
@@ -176,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 112.0, 32.0, 20.0 ],
+					"patching_rect" : [ 672.0, 152.0, 32.0, 20.0 ],
 					"text" : "open"
 				}
 
@@ -188,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 688.0, 144.0, 150.0, 51.0 ],
+					"patching_rect" : [ 712.0, 184.0, 150.0, 51.0 ],
 					"text" : "Just to get an Audio Status shortcut. Do I even need the Audio Status since this only sends MIDI?"
 				}
 
@@ -199,7 +199,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.0, 144.0, 32.0, 20.0 ],
+					"patching_rect" : [ 672.0, 184.0, 32.0, 20.0 ],
 					"text" : "dac~"
 				}
 
@@ -211,7 +211,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 9,
 					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-					"patching_rect" : [ 400.0, 296.0, 103.0, 20.0 ],
+					"patching_rect" : [ 424.0, 336.0, 103.0, 20.0 ],
 					"text" : "transport"
 				}
 
@@ -230,9 +230,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Rack.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "int", "" ],
+					"outlettype" : [ "int", "int", "int", "" ],
 					"patching_rect" : [ 8.0, 8.0, 624.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 624.0, 168.0 ],
@@ -313,8 +313,13 @@
 			"obj-2::obj-17" : [ "Overwrite", "OW", 0 ],
 			"obj-2::obj-20" : [ "Randomize", "Rand", 0 ],
 			"obj-2::obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-136" : [ "Down[1]", "Down", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-141" : [ "Right[1]", "Right", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-142" : [ "Left[1]", "Left", 0 ],
+			"obj-2::obj-8::obj-13::obj-143::obj-86" : [ "Up[1]", "Up", 0 ],
 			"obj-2::obj-8::obj-13::obj-25" : [ "2-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-13::obj-28" : [ "2-Duration", "Dur", 0 ],
+			"obj-2::obj-8::obj-13::obj-43" : [ "2-Channel", "Channel", 0 ],
 			"obj-2::obj-8::obj-13::obj-53::obj-1" : [ "2-Pulses", "Pulses", 0 ],
 			"obj-2::obj-8::obj-13::obj-53::obj-2" : [ "2-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-13::obj-64" : [ "2-Auto", "Auto", 0 ],
@@ -324,8 +329,13 @@
 			"obj-2::obj-8::obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
 			"obj-2::obj-8::obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
 			"obj-2::obj-8::obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-136" : [ "Down[2]", "Down", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-141" : [ "Right[2]", "Right", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-142" : [ "Left[2]", "Left", 0 ],
+			"obj-2::obj-8::obj-18::obj-143::obj-86" : [ "Up[2]", "Up", 0 ],
 			"obj-2::obj-8::obj-18::obj-25" : [ "3-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-18::obj-28" : [ "3-Duration", "Dur", 0 ],
+			"obj-2::obj-8::obj-18::obj-43" : [ "3-Channel", "Channel", 0 ],
 			"obj-2::obj-8::obj-18::obj-53::obj-1" : [ "3-Pulses", "Pulses", 0 ],
 			"obj-2::obj-8::obj-18::obj-53::obj-2" : [ "3-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-18::obj-64" : [ "3-Auto", "Auto", 0 ],
@@ -335,8 +345,13 @@
 			"obj-2::obj-8::obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
 			"obj-2::obj-8::obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
 			"obj-2::obj-8::obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-136" : [ "Down", "Down", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-141" : [ "Right", "Right", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-142" : [ "Left", "Left", 0 ],
+			"obj-2::obj-8::obj-1::obj-143::obj-86" : [ "Up", "Up", 0 ],
 			"obj-2::obj-8::obj-1::obj-25" : [ "1-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-1::obj-28" : [ "1-Duration", "Dur", 0 ],
+			"obj-2::obj-8::obj-1::obj-43" : [ "1-Channel", "Channel", 0 ],
 			"obj-2::obj-8::obj-1::obj-53::obj-1" : [ "1-Pulses", "Pulses", 0 ],
 			"obj-2::obj-8::obj-1::obj-53::obj-2" : [ "1-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-1::obj-64" : [ "1-Auto", "Auto", 0 ],
@@ -346,8 +361,13 @@
 			"obj-2::obj-8::obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
 			"obj-2::obj-8::obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
 			"obj-2::obj-8::obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-136" : [ "Down[3]", "Down", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-141" : [ "Right[3]", "Right", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-142" : [ "Left[3]", "Left", 0 ],
+			"obj-2::obj-8::obj-21::obj-143::obj-86" : [ "Up[3]", "Up", 0 ],
 			"obj-2::obj-8::obj-21::obj-25" : [ "4-Track", "Track", 0 ],
 			"obj-2::obj-8::obj-21::obj-28" : [ "4-Duration", "Dur", 0 ],
+			"obj-2::obj-8::obj-21::obj-43" : [ "4-Channel", "Channel", 0 ],
 			"obj-2::obj-8::obj-21::obj-53::obj-1" : [ "4-Pulses", "Pulses", 0 ],
 			"obj-2::obj-8::obj-21::obj-53::obj-2" : [ "4-Steps", "Steps", 0 ],
 			"obj-2::obj-8::obj-21::obj-64" : [ "4-Auto", "Auto", 0 ],
@@ -426,6 +446,22 @@
 					"parameter_initial_enable" : 1
 				}
 ,
+				"obj-2::obj-8::obj-13::obj-143::obj-136" : 				{
+					"parameter_longname" : "Down[1]"
+				}
+,
+				"obj-2::obj-8::obj-13::obj-143::obj-141" : 				{
+					"parameter_longname" : "Right[1]"
+				}
+,
+				"obj-2::obj-8::obj-13::obj-143::obj-142" : 				{
+					"parameter_longname" : "Left[1]"
+				}
+,
+				"obj-2::obj-8::obj-13::obj-143::obj-86" : 				{
+					"parameter_longname" : "Up[1]"
+				}
+,
 				"obj-2::obj-8::obj-13::obj-25" : 				{
 					"parameter_initial" : 0.0,
 					"parameter_initial_enable" : 1
@@ -474,6 +510,22 @@
 				"obj-2::obj-8::obj-18::obj-11" : 				{
 					"parameter_initial" : 0.0,
 					"parameter_initial_enable" : 1
+				}
+,
+				"obj-2::obj-8::obj-18::obj-143::obj-136" : 				{
+					"parameter_longname" : "Down[2]"
+				}
+,
+				"obj-2::obj-8::obj-18::obj-143::obj-141" : 				{
+					"parameter_longname" : "Right[2]"
+				}
+,
+				"obj-2::obj-8::obj-18::obj-143::obj-142" : 				{
+					"parameter_longname" : "Left[2]"
+				}
+,
+				"obj-2::obj-8::obj-18::obj-143::obj-86" : 				{
+					"parameter_longname" : "Up[2]"
 				}
 ,
 				"obj-2::obj-8::obj-18::obj-25" : 				{
@@ -574,6 +626,22 @@
 				"obj-2::obj-8::obj-21::obj-11" : 				{
 					"parameter_initial" : 0.0,
 					"parameter_initial_enable" : 1
+				}
+,
+				"obj-2::obj-8::obj-21::obj-143::obj-136" : 				{
+					"parameter_longname" : "Down[3]"
+				}
+,
+				"obj-2::obj-8::obj-21::obj-143::obj-141" : 				{
+					"parameter_longname" : "Right[3]"
+				}
+,
+				"obj-2::obj-8::obj-21::obj-143::obj-142" : 				{
+					"parameter_longname" : "Left[3]"
+				}
+,
+				"obj-2::obj-8::obj-21::obj-143::obj-86" : 				{
+					"parameter_longname" : "Up[3]"
 				}
 ,
 				"obj-2::obj-8::obj-21::obj-25" : 				{
@@ -789,6 +857,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Sidewinder Directions.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
