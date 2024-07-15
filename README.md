@@ -29,7 +29,8 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 - **On**: Toggle playback for this track
 - **Set**: Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps
-- Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer.
+- Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
+- **Ch**: The MIDI channel that the track outputs to **Note:** Ableton Live merges all MIDI to channel one, limiting the usefulness of this in Live
 
 When **Auto** is on, making a change automatically updates the steps. When **Auto** is off, use **Set** to update the steps. When **Auto** is disabled the **U**, **R**, **D**, **L** directional controls appear that allow moving the sequence in the corresponding direction (up, right, down, left). If **Pitch** or **Velocity** only those values will be moved.
 
