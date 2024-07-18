@@ -97,9 +97,3 @@ function duration(value) {
   arr = arr.slice(0, 2).concat(values);
   outlet(0, arr.join(" "));
 }
-
-// TODO: Remove debugging code
-function log(obj) {
-  // `post` logs to console
-  post(JSON.stringify(obj));
-}

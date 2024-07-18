@@ -66,9 +66,12 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 
 With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
 
+- **Vel:** Whether to randomize velocity
+- **Pitch:** Whether to randomize pitch
+- **Dur:** Whether to randomize duration
 - **Scale:** The scale the sequence will be generated in
 - **Rev:** Reverse the order of the generated sequence (from ascending to descending)
-- **Repeat, Order, Rests:** The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest.
+- **Repeat, Order, Rests:** The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests use a velocity of `0`, so rests will result in `0` velocity notes, even though the `VelMin` minimum is `0`, which can be surprising if you aren't expecting it.
 
 ## Installation
 
