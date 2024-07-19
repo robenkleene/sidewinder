@@ -35,7 +35,7 @@ function trigger_output() {
   var min = values[PITCH_MIN];
   var max = values[PITCH_MAX];
   var base = values[BASE_NOTE];
-  note = base;
+  var note = base;
   if (note < min) {
     note = min;
   }
