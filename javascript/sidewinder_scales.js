@@ -22,7 +22,8 @@ function msg_int(value) {
 
 function list() {
   var arr = arrayfromargs(arguments);
-  values[inlet] = arr.map(Number);
+  var numbers = arr.map(Number)
+  values[inlet] = numbers;
 }
 
 function bang() {
