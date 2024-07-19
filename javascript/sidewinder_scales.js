@@ -60,7 +60,8 @@ function trigger_output() {
     }
     notes.push(note);
   }
-  outlet(0, notes.join(' '));
+  var output = notes.join(' ');
+  outlet(0, output);
 }
 
 function log(obj) {
