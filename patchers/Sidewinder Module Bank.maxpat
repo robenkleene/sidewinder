@@ -1144,17 +1144,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "clementine_list_one_value.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/patchers",
-				"patcherrelativepath" : "../../clementine/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sidewinder_bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_list_one_value.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
