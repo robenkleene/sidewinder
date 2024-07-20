@@ -26,6 +26,11 @@ function list() {
   values[inlet] = numbers;
 }
 
+function reset(value) {
+  var stepCount = values[STEP_COUNT];
+  values[INTERVALS] = new Array(stepCount).fill(0);
+}
+
 function bang() {
   trigger_output();
 }
