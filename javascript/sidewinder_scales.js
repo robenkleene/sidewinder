@@ -27,8 +27,12 @@ function list() {
 }
 
 function reset(value) {
-  var stepCount = values[STEP_COUNT];
-  values[INTERVALS] = new Array(stepCount).fill(0);
+  var count = values[STEP_COUNT];
+  var array = [];
+  for (var i = 0; i < count; i++) {
+    array[i] = 0;
+  }
+  values[INTERVALS] = array;
 }
 
 function bang() {
