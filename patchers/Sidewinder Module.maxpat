@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-141",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1408.0, 416.0, 60.0, 20.0 ],
+					"text" : "r #1-reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-86",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -559,7 +571,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-40",
@@ -1849,7 +1860,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 692.0, 143.0, 685.0, 938.0 ],
+						"rect" : [ 309.0, 145.0, 1385.0, 938.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2105,7 +2116,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 216.0, 200.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_scales",
+										"filename" : "sidewinder_scales.js",
 										"parameter_enable" : 0
 									}
 ,
@@ -5240,6 +5251,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-132", 1 ],
 					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"source" : [ "obj-141", 0 ]
 				}
 
 			}
