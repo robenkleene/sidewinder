@@ -58,7 +58,8 @@ function pitch(value) {
     }
   }
   arr = arr.slice(0, 2).concat(values);
-  outlet(0, arr.join(" "));
+  var pitch = arr.join(" ");
+  outlet(0, pitch);
 }
 
 function velocity(value) {
@@ -79,7 +80,8 @@ function velocity(value) {
     }
   }
   arr = arr.slice(0, 2).concat(values);
-  outlet(0, arr.join(" "));
+  var velocity = arr.join(" ");
+  outlet(0, velocity);
 }
 
 function duration(value) {
@@ -95,5 +97,6 @@ function duration(value) {
     values[i] = DURATION_VALUES[getRandomInt(min, max)];
   }
   arr = arr.slice(0, 2).concat(values);
-  outlet(0, arr.join(" "));
+  var duration = arr.join(" ");
+  outlet(0, duration);
 }

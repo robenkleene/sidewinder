@@ -22,7 +22,17 @@ function msg_int(value) {
 
 function list() {
   var arr = arrayfromargs(arguments);
-  values[inlet] = arr.map(Number);
+  var numbers = arr.map(Number)
+  values[inlet] = numbers;
+}
+
+function reset(value) {
+  var count = values[STEP_COUNT];
+  var array = [];
+  for (var i = 0; i < count; i++) {
+    array[i] = 0;
+  }
+  values[INTERVALS] = array;
 }
 
 function bang() {
@@ -35,7 +45,7 @@ function trigger_output() {
   var min = values[PITCH_MIN];
   var max = values[PITCH_MAX];
   var base = values[BASE_NOTE];
-  note = base;
+  var note = base;
   if (note < min) {
     note = min;
   }
@@ -60,7 +70,8 @@ function trigger_output() {
     }
     notes.push(note);
   }
-  outlet(0, notes.join(' '));
+  var output = notes.join(' ');
+  outlet(0, output);
 }
 
 function log(obj) {

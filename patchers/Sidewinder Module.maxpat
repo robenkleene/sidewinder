@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 490.0, 100.0, 806.0, 964.0 ],
+		"rect" : [ 53.0, 100.0, 1243.0, 964.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-141",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1408.0, 416.0, 60.0, 20.0 ],
+					"text" : "r #1-reset"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-86",
 					"maxclass" : "newobj",
@@ -329,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1560.0, 336.0, 70.0, 20.0 ],
+					"patching_rect" : [ 1504.0, 328.0, 70.0, 20.0 ],
 					"text" : "pvar #2-Auto"
 				}
 
@@ -496,7 +508,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 1456.0, 368.0, 40.0, 20.0 ],
+					"patching_rect" : [ 1456.0, 328.0, 40.0, 20.0 ],
 					"text" : "t b b 0"
 				}
 
@@ -559,7 +571,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-40",
@@ -1464,7 +1475,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1456.0, 336.0, 92.0, 20.0 ],
+					"patching_rect" : [ 1456.0, 296.0, 92.0, 20.0 ],
 					"text" : "r #1-notes_bang"
 				}
 
@@ -1615,7 +1626,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1504.0, 368.0, 107.0, 20.0 ],
+					"patching_rect" : [ 1496.0, 360.0, 107.0, 20.0 ],
 					"text" : "r #1-pitch_intervals"
 				}
 
@@ -1849,7 +1860,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 692.0, 143.0, 685.0, 938.0 ],
+						"rect" : [ 309.0, 145.0, 1385.0, 938.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2067,8 +2078,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 216.0, 150.0, 22.0 ],
-									"text" : "clementine_list_one_value"
+									"patching_rect" : [ 280.0, 216.0, 149.0, 22.0 ],
+									"text" : "sidewinder_list_one_value"
 								}
 
 							}
@@ -2079,8 +2090,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 448.0, 216.0, 150.0, 22.0 ],
-									"text" : "clementine_list_one_value"
+									"patching_rect" : [ 448.0, 216.0, 149.0, 22.0 ],
+									"text" : "sidewinder_list_one_value"
 								}
 
 							}
@@ -2105,7 +2116,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 216.0, 200.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_scales",
+										"filename" : "sidewinder_scales.js",
 										"parameter_enable" : 0
 									}
 ,
@@ -2593,7 +2604,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize.js",
+										"filename" : "sidewinder_randomize",
 										"parameter_enable" : 0
 									}
 ,
@@ -5245,6 +5256,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"source" : [ "obj-141", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-152", 0 ],
 					"source" : [ "obj-143", 0 ]
 				}
@@ -6106,17 +6124,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "clementine_list_one_value.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/clementine/patchers",
-				"patcherrelativepath" : "../../clementine/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sidewinder_bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_list_one_value.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
