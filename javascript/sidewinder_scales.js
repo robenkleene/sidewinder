@@ -27,6 +27,8 @@ function list() {
 }
 
 function reset(value) {
+  values[PITCH_MIN] = values[BASE_NOTE];
+  values[PITCH_MAX] = values[BASE_NOTE];
   var count = values[STEP_COUNT];
   var array = [];
   for (var i = 0; i < count; i++) {
