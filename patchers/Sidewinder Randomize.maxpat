@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1376.0, 872.0, 67.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 104.0, 33.0, 20.0 ],
+					"text" : "Auto"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1376.0, 896.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 128.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "Randomize_Auto",
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "Auto",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+,
+					"varname" : "Randomize_Auto"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-146",
 					"linecount" : 6,
@@ -87,13 +126,14 @@
 						"Randomize_2" : [ 0.0 ],
 						"Randomize_3" : [ 0.0 ],
 						"Randomize_4" : [ 0.0 ],
+						"Randomize_Auto" : [ 0.0 ],
 						"Randomize_Duration" : [ 0.0 ],
 						"Randomize_Notes" : [ 0.0 ],
 						"Randomize_Notes_Order" : [ 0.0 ],
 						"Randomize_Notes_Repeat" : [ 0.0 ],
 						"Randomize_Notes_Rests" : [ 0.0 ],
 						"Randomize_Notes_Reverse" : [ 0.0 ],
-						"Randomize_Notes_Scale" : [ 0.0 ],
+						"Randomize_Notes_Scale" : [ 14.0 ],
 						"Randomize_Pitch" : [ 0.0 ],
 						"Randomize_Pulses" : [ 0.0 ],
 						"Randomize_Rotate" : [ 0.0 ],
@@ -993,7 +1033,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2068,7 +2108,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2446,7 +2486,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 472.0, 136.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 94.0, 40.0, 24.0 ],
+					"presentation_rect" : [ 0.0, 64.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -2477,7 +2517,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 448.0, 112.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 68.0, 40.0, 24.0 ],
+					"presentation_rect" : [ 0.0, 48.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -2508,7 +2548,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 424.0, 88.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 42.0, 40.0, 24.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -2539,7 +2579,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 408.0, 64.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 24.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -3604,6 +3644,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
 			"obj-104" : [ "Randomize_Notes_Order", "Order", 0 ],
 			"obj-11" : [ "Randomize_4", "4", 0 ],
