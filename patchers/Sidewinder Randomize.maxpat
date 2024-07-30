@@ -332,7 +332,7 @@
 						"Randomize_2" : [ 0.0 ],
 						"Randomize_3" : [ 0.0 ],
 						"Randomize_4" : [ 0.0 ],
-						"Randomize_Auto" : [ 7.0 ],
+						"Randomize_Auto" : [ 0.0 ],
 						"Randomize_Duration" : [ 0.0 ],
 						"Randomize_Notes" : [ 0.0 ],
 						"Randomize_Notes_Order" : [ 0.0 ],
