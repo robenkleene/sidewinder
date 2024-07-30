@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bang to trigger randomize",
+					"comment" : "bang: Trigger randomize",
 					"id" : "obj-171",
 					"index" : 0,
 					"maxclass" : "outlet",

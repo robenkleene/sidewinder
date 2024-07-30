@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -84,7 +84,7 @@
 					"patching_rect" : [ 48.0, 8.0, 52.0, 20.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 0.0 ],
+						"Play" : [ 1.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
@@ -549,9 +549,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "int", "int" ],
+					"outlettype" : [ "int", "int", "int", "bang" ],
 					"patching_rect" : [ 8.0, 200.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 0.0, 576.0, 168.0 ],
@@ -719,6 +719,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-8", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-8", 2 ]
 				}
@@ -802,6 +809,7 @@
 			"obj-8::obj-21::obj-8" : [ "4-Sequencer", "Seq", 1 ],
 			"obj-8::obj-21::obj-81" : [ "4-Velocity", "Vel", 0 ],
 			"obj-8::obj-21::obj-84" : [ "4-Mode", "Mode", 0 ],
+			"obj-8::obj-7::obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-8::obj-7::obj-10" : [ "Randomize_3", "3", 0 ],
 			"obj-8::obj-7::obj-104" : [ "Randomize_Notes_Order", "Order", 0 ],
 			"obj-8::obj-7::obj-11" : [ "Randomize_4", "4", 0 ],
