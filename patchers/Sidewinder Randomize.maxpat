@@ -221,13 +221,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1480.0, 1208.0, 33.0, 20.0 ],
+					"patching_rect" : [ 1480.0, 1192.0, 39.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 112.0, 33.0, 20.0 ],
-					"text" : "Auto"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 0.0, 96.0, 40.0, 33.0 ],
+					"text" : "Auto\nSteps"
 				}
 
 			}
@@ -306,7 +308,7 @@
 						"Randomize_2" : [ 0.0 ],
 						"Randomize_3" : [ 0.0 ],
 						"Randomize_4" : [ 0.0 ],
-						"Randomize_Auto" : [ 3.0 ],
+						"Randomize_Auto" : [ 7.0 ],
 						"Randomize_Duration" : [ 0.0 ],
 						"Randomize_Notes" : [ 0.0 ],
 						"Randomize_Notes_Order" : [ 0.0 ],
