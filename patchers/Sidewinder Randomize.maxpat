@@ -3373,7 +3373,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-172", 0 ],
-					"source" : [ "obj-160", 2 ]
+					"source" : [ "obj-160", 1 ]
 				}
 
 			}
