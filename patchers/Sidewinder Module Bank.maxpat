@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "max-for-live",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "bang: Trigger randomize",
+					"id" : "obj-44",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 568.0, 1568.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "int: Channel",
 					"id" : "obj-45",
@@ -275,9 +287,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Randomize.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 8.0, 1272.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 672.0, 632.0, 168.0 ],
@@ -930,6 +942,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -1008,6 +1027,7 @@
 			"obj-21::obj-8" : [ "4-Sequencer", "Seq", 1 ],
 			"obj-21::obj-81" : [ "4-Velocity", "Vel", 0 ],
 			"obj-21::obj-84" : [ "4-Mode", "Mode", 0 ],
+			"obj-7::obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-7::obj-10" : [ "Randomize_3", "3", 0 ],
 			"obj-7::obj-104" : [ "Randomize_Notes_Order", "Order", 0 ],
 			"obj-7::obj-11" : [ "Randomize_4", "4", 0 ],
