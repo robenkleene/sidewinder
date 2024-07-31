@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 100.0, 1243.0, 964.0 ],
+		"rect" : [ 53.0, 100.0, 901.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -609,7 +609,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "messages: Sequencer reset messages",
 									"id" : "obj-28",
 									"index" : 2,
 									"maxclass" : "outlet",
