@@ -39,7 +39,7 @@ function reset(value) {
 
 function pitch(value) {
   var arr = arrayfromargs(messagename, arguments);
-  var values = arr.slice(2)
+  var values = arr.slice(1)
   var repeat = input[INLET_REPEAT];
   var order = input[INLET_ORDER];
   for (var i = 0; i < values.length; i++) {
@@ -57,7 +57,7 @@ function pitch(value) {
       }
     }
   }
-  arr = arr.slice(0, 2).concat(values);
+  arr = arr.slice(0, 1).concat(values);
   var pitch = arr.join(" ");
   outlet(0, pitch);
 }
@@ -70,7 +70,7 @@ function velocity(value) {
     outlet(0, arr.join(" "));
     return;
   }
-  var values = arr.slice(2)
+  var values = arr.slice(1)
   var rests = input[INLET_RESTS];
   for (var i = 0; i < values.length; i++) {
     if (Math.random() < rests) {
@@ -79,7 +79,7 @@ function velocity(value) {
       values[i] = getRandomInt(min, max);
     }
   }
-  arr = arr.slice(0, 2).concat(values);
+  arr = arr.slice(0, 1).concat(values);
   var velocity = arr.join(" ");
   outlet(0, velocity);
 }
@@ -92,11 +92,11 @@ function duration(value) {
     outlet(0, arr.join(" "));
     return;
   }
-  var values = arr.slice(2)
+  var values = arr.slice(1)
   for (var i = 0; i < values.length; i++) {
     values[i] = DURATION_VALUES[getRandomInt(min, max)];
   }
-  arr = arr.slice(0, 2).concat(values);
+  arr = arr.slice(0, 1).concat(values);
   var duration = arr.join(" ");
   outlet(0, duration);
 }
