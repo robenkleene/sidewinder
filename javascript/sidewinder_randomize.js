@@ -16,6 +16,10 @@ DURATION_VALUES = [7.5, 15, 30, 60, 120, 240, 480, 960];
 // Store input
 reset(null);
 
+function bang() {
+  outlet(0, "bang");
+}
+
 function getRandomArbitrary(min, max) {
   if (min == max) {
     return min;
