@@ -129,8 +129,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 288.0, 117.0, 20.0 ],
-					"text" : "30 60 120 240 960 1920"
+					"patching_rect" : [ 528.0, 288.0, 136.0, 20.0 ],
+					"text" : "30 60 120 240 480 960 1920"
 				}
 
 			}
@@ -159,9 +159,9 @@
 					"presentation_rect" : [ 192.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1/64", "1/32", "1/16", "1/8", "1/2", "1" ],
+							"parameter_enum" : [ "1/64", "1/32", "1/16", "1/8", "1/4", "1/2", "1" ],
 							"parameter_longname" : "#2-Division",
-							"parameter_mmax" : 5,
+							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Division",
 							"parameter_type" : 2
