@@ -515,12 +515,12 @@
 					"restore" : 					{
 						"#2-Auto" : [ 0.0 ],
 						"#2-Channel" : [ 1.0 ],
-						"#2-Division" : [ 5.0 ],
+						"#2-Division" : [ 0.0 ],
 						"#2-Duration" : [ 0.0 ],
 						"#2-Mode" : [ 0.0 ],
 						"#2-Pitch" : [ 0.0 ],
 						"#2-Rotate" : [ 0.0 ],
-						"#2-Sequencer" : [ 1, 3, 0, 1, 96, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
+						"#2-Sequencer" : [ 1, 3, 0, 1, 12, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
 						"#2-Set" : [ 0.0 ],
 						"#2-Track" : [ 0.0 ],
 						"#2-Velocity" : [ 0.0 ]
@@ -6419,8 +6419,7 @@
 			}
 , 			{
 				"name" : "sidewinder_randomize.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "C74:/help/max",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
