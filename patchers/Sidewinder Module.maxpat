@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 100.0, 1201.0, 983.0 ],
+		"rect" : [ 53.0, 100.0, 1136.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -93,8 +93,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.0, 40.0, 142.0, 20.0 ],
-					"text" : "7.5 15 30 60 120 240 480 960"
+					"patching_rect" : [ 424.0, 40.0, 125.0, 20.0 ],
+					"text" : "15 30 60 120 240 480 960"
 				}
 
 			}
@@ -141,8 +141,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 288.0, 81.0, 20.0 ],
-					"text" : "64 32 16 8 4 2 1"
+					"patching_rect" : [ 528.0, 288.0, 100.0, 20.0 ],
+					"text" : "128 64 32 16 8 4 2 1"
 				}
 
 			}
@@ -159,9 +159,9 @@
 					"presentation_rect" : [ 192.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
+							"parameter_enum" : [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
 							"parameter_longname" : "#2-Division",
-							"parameter_mmax" : 5,
+							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Division",
 							"parameter_type" : 2
@@ -520,7 +520,7 @@
 						"#2-Mode" : [ 0.0 ],
 						"#2-Pitch" : [ 0.0 ],
 						"#2-Rotate" : [ 0.0 ],
-						"#2-Sequencer" : [ 1, 3, 0, 1, 0, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
+						"#2-Sequencer" : [ 1, 3, 0, 1, 96, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
 						"#2-Set" : [ 0.0 ],
 						"#2-Track" : [ 0.0 ],
 						"#2-Velocity" : [ 0.0 ]
@@ -3448,9 +3448,9 @@
 					"presentation_rect" : [ 528.0, 64.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1/256", "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
+							"parameter_enum" : [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
 							"parameter_longname" : "#2-Duration",
-							"parameter_mmax" : 7,
+							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dur",
 							"parameter_type" : 2,

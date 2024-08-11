@@ -69,9 +69,9 @@
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1/256", "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
+							"parameter_enum" : [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
 							"parameter_longname" : "#1-Max",
-							"parameter_mmax" : 7,
+							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "#2Max",
 							"parameter_type" : 2
@@ -96,9 +96,9 @@
 					"presentation_rect" : [ 0.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1/256", "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
+							"parameter_enum" : [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
 							"parameter_longname" : "#1-Min",
-							"parameter_mmax" : 7,
+							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "#2Min",
 							"parameter_type" : 2
