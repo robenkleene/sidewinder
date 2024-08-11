@@ -46,7 +46,7 @@ When **Auto** is on, making a change automatically updates the steps. When **Aut
 
 - **Pitch:** Set the pitch of the notes
 - **Velocity**: Set the velocity of the notes
-- **Duration**: Set the duration of the notes. The note duration can only be set to `1/256`, `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (this is limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer).
+- **Duration**: Set the duration of the notes. The note duration can only be set to `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (there appears to be an undocumented limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that limits the minimum duration to `7.5` ticks and the maximum duration to `960` ticks).
 
 ### Randomize
 
