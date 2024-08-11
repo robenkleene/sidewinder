@@ -253,7 +253,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.0, 96.0, 40.0, 33.0 ],
-					"text" : "Auto\nSteps"
+					"text" : "Auto\nBeats"
 				}
 
 			}
