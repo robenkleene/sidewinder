@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 224.0, 100.0, 1123.0, 983.0 ],
+		"rect" : [ 224.0, 100.0, 1006.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,145 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1712.0, 544.0, 77.0, 22.0 ],
+					"text" : "s #1-output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1760.0, 472.0, 97.0, 22.0 ],
+					"text" : "r #1-notes_one"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Randomize_Division", "Div" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-46",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Sidewinder Min-Max Duration.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1799.0, 398.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 375.0, 63.0, 45.0, 34.0 ],
+					"varname" : "Division_Min_Max",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1712.0, 512.0, 149.0, 22.0 ],
+					"text" : "sidewinder_random_notes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1728.0, 400.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1728.0, 280.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1728.0, 312.0, 49.0, 22.0 ],
+					"text" : "division"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-125",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1724.0, 248.0, 113.0, 22.0 ],
+					"text" : "loadmess setup 0 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
+					"id" : "obj-147",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1728.0, 368.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 375.0, 47.0, 40.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "Randomize_Duration[1]",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Dur",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Dur",
+					"texton" : "Dur",
+					"varname" : "Randomize_Duration[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-172",
 					"maxclass" : "newobj",
@@ -334,6 +473,7 @@
 						"Randomize_4" : [ 0.0 ],
 						"Randomize_Auto" : [ 0.0 ],
 						"Randomize_Duration" : [ 0.0 ],
+						"Randomize_Duration[1]" : [ 0.0 ],
 						"Randomize_Notes" : [ 0.0 ],
 						"Randomize_Notes_Order" : [ 0.0 ],
 						"Randomize_Notes_Repeat" : [ 0.0 ],
@@ -468,7 +608,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1720.0, 552.0, 79.0, 22.0 ],
+					"patching_rect" : [ 1912.0, 512.0, 79.0, 22.0 ],
 					"text" : "append reset"
 				}
 
@@ -2122,10 +2262,10 @@
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 48.0, 208.0, 1688.0, 22.0 ],
-					"text" : "t s s s s s s s s s"
+					"numoutlets" : 10,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 48.0, 208.0, 1888.0, 22.0 ],
+					"text" : "t s s s s s s s s s s"
 				}
 
 			}
@@ -3071,6 +3211,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 5 ],
+					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-114", 0 ]
 				}
@@ -3164,6 +3311,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
 					"source" : [ "obj-124", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-125", 0 ]
 				}
 
 			}
@@ -3318,6 +3472,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-160", 0 ],
 					"source" : [ "obj-145", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 1 ],
+					"source" : [ "obj-147", 0 ]
 				}
 
 			}
@@ -3582,6 +3743,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 2 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-126", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -3590,7 +3758,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
-					"source" : [ "obj-37", 8 ]
+					"source" : [ "obj-37", 9 ]
 				}
 
 			}
@@ -3626,6 +3794,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-37", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-37", 8 ]
 				}
 
 			}
@@ -3696,6 +3871,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 4 ],
+					"source" : [ "obj-46", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 3 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -3785,6 +3974,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 5 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -3859,6 +4055,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 3 ],
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-74", 0 ]
 				}
 
 			}
@@ -4020,6 +4223,7 @@
 			"obj-11" : [ "Randomize_4", "4", 0 ],
 			"obj-110" : [ "Randomize_Notes_Rests", "Rests", 0 ],
 			"obj-111" : [ "Randomize_Notes_Reverse", "Rev", 0 ],
+			"obj-147" : [ "Randomize_Duration[1]", "Dur", 0 ],
 			"obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-16" : [ "Randomize_Steps", "Steps", 0 ],
 			"obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
@@ -4032,6 +4236,8 @@
 			"obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
 			"obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
+			"obj-46::obj-1" : [ "Randomize_Duration-Min[1]", "DivMin", 0 ],
+			"obj-46::obj-2" : [ "Randomize_Duration-Max[1]", "DivMax", 0 ],
 			"obj-4::obj-1" : [ "Randomize_Duration-Min", "DurMin", 0 ],
 			"obj-4::obj-2" : [ "Randomize_Duration-Max", "DurMax", 0 ],
 			"obj-56::obj-1" : [ "Randomize_Rotate-Min", "RotMin", 0 ],
@@ -4078,6 +4284,14 @@
 ,
 				"obj-35::obj-2" : 				{
 					"parameter_range" : [ 1.0, 128.0 ]
+				}
+,
+				"obj-46::obj-1" : 				{
+					"parameter_longname" : "Randomize_Duration-Min[1]"
+				}
+,
+				"obj-46::obj-2" : 				{
+					"parameter_longname" : "Randomize_Duration-Max[1]"
 				}
 ,
 				"obj-56::obj-1" : 				{
