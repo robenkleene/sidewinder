@@ -40,24 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
+					"id" : "obj-149",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1712.0, 544.0, 77.0, 22.0 ],
-					"text" : "s #1-output"
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1712.0, 544.0, 32.0, 22.0 ],
+					"text" : "gate"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-36",
+					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1760.0, 472.0, 97.0, 22.0 ],
-					"text" : "r #1-notes_one"
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1712.0, 576.0, 77.0, 22.0 ],
+					"text" : "s #1-output"
 				}
 
 			}
@@ -90,11 +90,11 @@
 				"box" : 				{
 					"id" : "obj-61",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1712.0, 512.0, 149.0, 22.0 ],
-					"text" : "sidewinder_random_notes"
+					"patching_rect" : [ 1712.0, 512.0, 113.0, 22.0 ],
+					"text" : "sidewinder_random"
 				}
 
 			}
@@ -162,18 +162,18 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "Randomize_Duration[1]",
+							"parameter_longname" : "Randomize_Division",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Dur",
+							"parameter_shortname" : "Div",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Dur",
-					"texton" : "Dur",
-					"varname" : "Randomize_Duration[1]"
+					"text" : "Div",
+					"texton" : "Div",
+					"varname" : "Randomize_Division"
 				}
 
 			}
@@ -472,8 +472,8 @@
 						"Randomize_3" : [ 0.0 ],
 						"Randomize_4" : [ 0.0 ],
 						"Randomize_Auto" : [ 0.0 ],
+						"Randomize_Division" : [ 0.0 ],
 						"Randomize_Duration" : [ 0.0 ],
-						"Randomize_Duration[1]" : [ 0.0 ],
 						"Randomize_Notes" : [ 0.0 ],
 						"Randomize_Notes_Order" : [ 0.0 ],
 						"Randomize_Notes_Repeat" : [ 0.0 ],
@@ -3211,7 +3211,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 5 ],
+					"destination" : [ "obj-61", 4 ],
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -3477,7 +3477,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 1 ],
+					"destination" : [ "obj-149", 0 ],
 					"source" : [ "obj-147", 0 ]
 				}
 
@@ -3486,6 +3486,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-150", 0 ],
 					"source" : [ "obj-148", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-149", 0 ]
 				}
 
 			}
@@ -3743,13 +3750,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 2 ],
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-126", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -3876,14 +3876,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 4 ],
+					"destination" : [ "obj-61", 3 ],
 					"source" : [ "obj-46", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 3 ],
+					"destination" : [ "obj-61", 2 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -3974,7 +3974,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-149", 1 ],
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -4223,7 +4223,7 @@
 			"obj-11" : [ "Randomize_4", "4", 0 ],
 			"obj-110" : [ "Randomize_Notes_Rests", "Rests", 0 ],
 			"obj-111" : [ "Randomize_Notes_Reverse", "Rev", 0 ],
-			"obj-147" : [ "Randomize_Duration[1]", "Dur", 0 ],
+			"obj-147" : [ "Randomize_Division", "Div", 0 ],
 			"obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-16" : [ "Randomize_Steps", "Steps", 0 ],
 			"obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
