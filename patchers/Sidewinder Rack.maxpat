@@ -84,7 +84,7 @@
 					"patching_rect" : [ 48.0, 8.0, 52.0, 20.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 1.0 ],
+						"Play" : [ 0.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
@@ -753,6 +753,7 @@
 			"obj-8::obj-13::obj-25" : [ "2-Track", "Track", 0 ],
 			"obj-8::obj-13::obj-28" : [ "2-Duration", "Dur", 0 ],
 			"obj-8::obj-13::obj-43" : [ "2-Channel", "Channel", 0 ],
+			"obj-8::obj-13::obj-45" : [ "2-Division", "Division", 0 ],
 			"obj-8::obj-13::obj-53::obj-1" : [ "2-Pulses", "Pulses", 0 ],
 			"obj-8::obj-13::obj-53::obj-2" : [ "2-Steps", "Steps", 0 ],
 			"obj-8::obj-13::obj-64" : [ "2-Auto", "Auto", 0 ],
@@ -769,6 +770,7 @@
 			"obj-8::obj-18::obj-25" : [ "3-Track", "Track", 0 ],
 			"obj-8::obj-18::obj-28" : [ "3-Duration", "Dur", 0 ],
 			"obj-8::obj-18::obj-43" : [ "3-Channel", "Channel", 0 ],
+			"obj-8::obj-18::obj-45" : [ "3-Division", "Division", 0 ],
 			"obj-8::obj-18::obj-53::obj-1" : [ "3-Pulses", "Pulses", 0 ],
 			"obj-8::obj-18::obj-53::obj-2" : [ "3-Steps", "Steps", 0 ],
 			"obj-8::obj-18::obj-64" : [ "3-Auto", "Auto", 0 ],
@@ -785,6 +787,7 @@
 			"obj-8::obj-1::obj-25" : [ "1-Track", "Track", 0 ],
 			"obj-8::obj-1::obj-28" : [ "1-Duration", "Dur", 0 ],
 			"obj-8::obj-1::obj-43" : [ "1-Channel", "Channel", 0 ],
+			"obj-8::obj-1::obj-45" : [ "1-Division", "Division", 0 ],
 			"obj-8::obj-1::obj-53::obj-1" : [ "1-Pulses", "Pulses", 0 ],
 			"obj-8::obj-1::obj-53::obj-2" : [ "1-Steps", "Steps", 0 ],
 			"obj-8::obj-1::obj-64" : [ "1-Auto", "Auto", 0 ],
@@ -801,6 +804,7 @@
 			"obj-8::obj-21::obj-25" : [ "4-Track", "Track", 0 ],
 			"obj-8::obj-21::obj-28" : [ "4-Duration", "Dur", 0 ],
 			"obj-8::obj-21::obj-43" : [ "4-Channel", "Channel", 0 ],
+			"obj-8::obj-21::obj-45" : [ "4-Division", "Division", 0 ],
 			"obj-8::obj-21::obj-53::obj-1" : [ "4-Pulses", "Pulses", 0 ],
 			"obj-8::obj-21::obj-53::obj-2" : [ "4-Steps", "Steps", 0 ],
 			"obj-8::obj-21::obj-64" : [ "4-Auto", "Auto", 0 ],
@@ -815,6 +819,7 @@
 			"obj-8::obj-7::obj-11" : [ "Randomize_4", "4", 0 ],
 			"obj-8::obj-7::obj-110" : [ "Randomize_Notes_Rests", "Rests", 0 ],
 			"obj-8::obj-7::obj-111" : [ "Randomize_Notes_Reverse", "Rev", 0 ],
+			"obj-8::obj-7::obj-147" : [ "Randomize_Division", "Div", 0 ],
 			"obj-8::obj-7::obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-8::obj-7::obj-16" : [ "Randomize_Steps", "Steps", 0 ],
 			"obj-8::obj-7::obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
@@ -827,6 +832,8 @@
 			"obj-8::obj-7::obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
 			"obj-8::obj-7::obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
 			"obj-8::obj-7::obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
+			"obj-8::obj-7::obj-46::obj-1" : [ "Randomize_Division-Min", "DivMin", 0 ],
+			"obj-8::obj-7::obj-46::obj-2" : [ "Randomize_Division-Max", "DivMax", 0 ],
 			"obj-8::obj-7::obj-4::obj-1" : [ "Randomize_Duration-Min", "DurMin", 0 ],
 			"obj-8::obj-7::obj-4::obj-2" : [ "Randomize_Duration-Max", "DurMax", 0 ],
 			"obj-8::obj-7::obj-56::obj-1" : [ "Randomize_Rotate-Min", "RotMin", 0 ],
@@ -1011,8 +1018,7 @@
 			}
 , 			{
 				"name" : "sidewinder_randomize.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "C74:/help/max",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
