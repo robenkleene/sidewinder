@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"Overwrite" : [ 0.0 ],
+					"Overwrite" : [ 1.0 ],
 					"Play" : [ 1.0 ],
 					"Randomize" : [ 0.0 ],
 					"Read" : [ 0.0 ],
@@ -68,6 +68,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -92,7 +93,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 6.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -163,6 +166,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -187,7 +191,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -258,6 +264,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -282,7 +289,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -353,6 +362,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -377,7 +387,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -448,6 +460,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -472,7 +485,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -543,6 +558,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -567,7 +583,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -638,6 +656,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -662,7 +681,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -733,6 +754,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -757,7 +779,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
@@ -828,6 +852,7 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_3" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_4" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Auto" : [ 0.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Division" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Duration" : [ 1.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Randomize_Notes_Order" : [ 50.0 ],
@@ -852,7 +877,9 @@
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Max" : [ 7.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Duration_Min_Max::Randomize_Duration-Min" : [ 0.0 ],
 					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Max" : [ 72.0 ],
-					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ]
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Pitch_Min_Max::Randomize_Pitch-Min" : [ 60.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Max" : [ 6.0 ],
+					"Sidewinder_Module_Rack::Sidewinder_Randomize::Division_Min_Max::Randomize_Division-Min" : [ 0.0 ]
 				}
 
 			}
