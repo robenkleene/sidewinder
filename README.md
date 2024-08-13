@@ -70,7 +70,7 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 - **Notes**: Whether to randomize individual notes. If the notes is off, then randomize for Velocity, Pitch, and Duration will randomize changing those values on the individual track settings. If notes is on, then randomize for those values will create randomize the individual notes (and the track settings will be used for default values, e.g., for off notes with a velocity of 0).
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
 - For Pitch, the top number and bottom pitches are the minimum and maximum pitches
-- **Auto Steps:** Automatically trigger a randomize after ever count number of steps (this is based on the current transport status, e.g., if it's set to `4` and you're currently on beat `2`, it'll trigger the randomize in `2` more beats)
+- **Auto Beats:** Automatically trigger a randomize after every number of beats (this is based on the current transport status, e.g., if it's set to `4` and you're currently on beat `2`, it'll trigger the randomize in `2` more beats)
 
 #### Pitch Note Controls
 
