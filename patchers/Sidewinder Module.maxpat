@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 100.0, 1166.0, 883.0 ],
+		"rect" : [ 53.0, 100.0, 1641.0, 934.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -668,7 +668,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1768.0, 760.0, 63.0, 20.0 ],
+					"patching_rect" : [ 1800.0, 760.0, 63.0, 20.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -677,11 +677,11 @@
 				"box" : 				{
 					"id" : "obj-138",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1720.0, 760.0, 60.0, 20.0 ],
-					"text" : "r #1-pitch"
+					"patching_rect" : [ 1720.0, 760.0, 71.0, 20.0 ],
+					"text" : "pvar #1-pitch"
 				}
 
 			}
@@ -692,7 +692,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1840.0, 760.0, 76.0, 20.0 ],
+					"patching_rect" : [ 1872.0, 760.0, 76.0, 20.0 ],
 					"text" : "r #1-duration"
 				}
 
@@ -1725,24 +1725,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-130",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 128.0, 62.0, 20.0 ],
-					"text" : "s #1-pitch"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-127",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1624.0, 416.0, 60.0, 20.0 ],
-					"text" : "r #1-pitch"
+					"patching_rect" : [ 1624.0, 416.0, 71.0, 20.0 ],
+					"text" : "pvar #1-pitch"
 				}
 
 			}
@@ -3050,11 +3039,11 @@
 				"box" : 				{
 					"id" : "obj-89",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1280.0, 176.0, 60.0, 20.0 ],
-					"text" : "r #1-pitch",
+					"patching_rect" : [ 1280.0, 176.0, 71.0, 20.0 ],
+					"text" : "pvar #1-pitch",
 					"varname" : "u545012659"
 				}
 
@@ -5705,14 +5694,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
@@ -5721,7 +5702,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 1 ],
-					"order" : 0,
 					"source" : [ "obj-18", 1 ]
 				}
 
