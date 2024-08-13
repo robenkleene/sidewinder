@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"Overwrite" : [ 1.0 ],
+					"Overwrite" : [ 0.0 ],
 					"Play" : [ 1.0 ],
 					"Randomize" : [ 0.0 ],
 					"Read" : [ 0.0 ],
