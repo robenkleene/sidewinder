@@ -479,7 +479,7 @@
 						"Randomize_Notes_Repeat" : [ 0.0 ],
 						"Randomize_Notes_Rests" : [ 0.0 ],
 						"Randomize_Notes_Reverse" : [ 0.0 ],
-						"Randomize_Notes_Scale" : [ 14.0 ],
+						"Randomize_Notes_Scale" : [ 0.0 ],
 						"Randomize_Pitch" : [ 0.0 ],
 						"Randomize_Pulses" : [ 0.0 ],
 						"Randomize_Rotate" : [ 0.0 ],
@@ -4236,8 +4236,8 @@
 			"obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
 			"obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
-			"obj-46::obj-1" : [ "Randomize_Duration-Min[1]", "DivMin", 0 ],
-			"obj-46::obj-2" : [ "Randomize_Duration-Max[1]", "DivMax", 0 ],
+			"obj-46::obj-1" : [ "Randomize_Division-Min", "DivMin", 0 ],
+			"obj-46::obj-2" : [ "Randomize_Division-Max", "DivMax", 0 ],
 			"obj-4::obj-1" : [ "Randomize_Duration-Min", "DurMin", 0 ],
 			"obj-4::obj-2" : [ "Randomize_Duration-Max", "DurMax", 0 ],
 			"obj-56::obj-1" : [ "Randomize_Rotate-Min", "RotMin", 0 ],
@@ -4255,59 +4255,6 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-29::obj-1" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-29::obj-2" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-33::obj-6" : 				{
-					"parameter_range" : [ 0.0, 127.0 ],
-					"parameter_unitstyle" : 8
-				}
-,
-				"obj-33::obj-7" : 				{
-					"parameter_range" : [ 0.0, 127.0 ],
-					"parameter_unitstyle" : 8
-				}
-,
-				"obj-35::obj-1" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-35::obj-2" : 				{
-					"parameter_range" : [ 1.0, 128.0 ]
-				}
-,
-				"obj-46::obj-1" : 				{
-					"parameter_longname" : "Randomize_Duration-Min[1]"
-				}
-,
-				"obj-46::obj-2" : 				{
-					"parameter_longname" : "Randomize_Duration-Max[1]"
-				}
-,
-				"obj-56::obj-1" : 				{
-					"parameter_range" : [ 0.0, 127.0 ]
-				}
-,
-				"obj-56::obj-2" : 				{
-					"parameter_range" : [ 0.0, 127.0 ]
-				}
-,
-				"obj-73::obj-1" : 				{
-					"parameter_range" : [ 1.0, 127.0 ]
-				}
-,
-				"obj-73::obj-2" : 				{
-					"parameter_range" : [ 1.0, 127.0 ]
 				}
 
 			}
