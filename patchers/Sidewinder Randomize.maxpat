@@ -80,7 +80,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 1799.0, 398.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.0, 63.0, 45.0, 34.0 ],
+					"presentation_rect" : [ 360.0, 112.0, 45.0, 34.0 ],
 					"varname" : "Division_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -158,7 +158,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1728.0, 368.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.0, 47.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 360.0, 96.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
