@@ -3179,7 +3179,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 32.0, 62.0, 20.0 ],
+					"patching_rect" : [ 80.0, 32.0, 62.0, 20.0 ],
 					"text" : "r #1-steps"
 				}
 
