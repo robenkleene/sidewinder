@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 100.0, 1641.0, 934.0 ],
+		"rect" : [ 53.0, 100.0, 1062.0, 935.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -578,7 +578,7 @@
 						"#2-Division" : [ 0.0 ],
 						"#2-Duration" : [ 0.0 ],
 						"#2-Mode" : [ 0.0 ],
-						"#2-Pitch" : [ 0.0 ],
+						"#2-Pitch" : [ 3.0 ],
 						"#2-Rotate" : [ 0.0 ],
 						"#2-Sequencer" : [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
 						"#2-Set" : [ 0.0 ],
@@ -681,7 +681,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1720.0, 760.0, 71.0, 20.0 ],
-					"text" : "pvar #1-pitch"
+					"text" : "pvar #2-Pitch"
 				}
 
 			}
@@ -1731,7 +1731,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1624.0, 416.0, 71.0, 20.0 ],
-					"text" : "pvar #1-pitch"
+					"text" : "pvar #2-Pitch"
 				}
 
 			}
@@ -3043,7 +3043,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1280.0, 176.0, 71.0, 20.0 ],
-					"text" : "pvar #1-pitch",
+					"text" : "pvar #2-Pitch",
 					"varname" : "u545012659"
 				}
 
@@ -6205,6 +6205,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
+					"order" : 3,
 					"source" : [ "obj-78", 0 ]
 				}
 
