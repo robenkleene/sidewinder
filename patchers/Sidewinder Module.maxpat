@@ -1836,7 +1836,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2000.0, 392.0, 81.0, 20.0 ],
+					"patching_rect" : [ 2016.0, 392.0, 81.0, 20.0 ],
 					"text" : "r #1-pitch_rev"
 				}
 
