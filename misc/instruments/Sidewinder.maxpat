@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 96.0, 20.0 ],
-					"text" : "loadmess preset 1"
+					"patching_rect" : [ 8.0, 8.0, 92.0, 20.0 ],
+					"text" : "loadmess recall 1"
 				}
 
 			}
