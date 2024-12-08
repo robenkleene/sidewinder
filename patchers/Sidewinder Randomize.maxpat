@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 600.0, 100.0, 606.0, 922.0 ],
+		"rect" : [ 34.0, 100.0, 1172.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -25,7 +25,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 336.0, 344.0, 44.0, 15.0 ],
+					"patching_rect" : [ 792.0, 904.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 328.0, 80.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
