@@ -2,43 +2,111 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 600.0, 100.0, 1006.0, 983.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 100.0, 1172.0, 922.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-173",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 336.0, 96.0, 31.0, 22.0 ],
+					"text" : "t b s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-169",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 704.0, 864.0, 66.0, 22.0 ],
+					"text" : "random 24"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-164",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 704.0, 832.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-162",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 704.0, 776.0, 89.0, 22.0 ],
+					"text" : "r #1-randomize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-155",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 256.0, 136.0, 91.0, 22.0 ],
+					"text" : "s #1-randomize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
+					"id" : "obj-36",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 736.0, 808.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 328.0, 80.0, 32.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "Randomize_Notes_Scale_Rand",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "Rand",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Rand",
+					"texton" : "Rand",
+					"varname" : "Randomize_Notes_Scale_Rand"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-161",
 					"maxclass" : "newobj",
@@ -93,8 +161,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1520.0, 1016.0, 150.0, 100.0 ],
-					"presentation_linecount" : 7,
+					"patching_rect" : [ 1520.0, 1016.0, 153.0, 100.0 ],
 					"text" : "Only trigger a randomize if the current beat is higher than the auto beat setting. This prevents a randomize from happening immediately when playback starts."
 				}
 
@@ -226,6 +293,7 @@
 							"parameter_longname" : "Randomize_Division",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Div",
 							"parameter_type" : 2
 						}
@@ -472,6 +540,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Randomize_Auto",
 							"parameter_modmode" : 4,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Auto",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -540,7 +609,8 @@
 						"Randomize_Notes_Repeat" : [ 0.0 ],
 						"Randomize_Notes_Rests" : [ 0.0 ],
 						"Randomize_Notes_Reverse" : [ 0.0 ],
-						"Randomize_Notes_Scale" : [ 14.0 ],
+						"Randomize_Notes_Scale" : [ 13.0 ],
+						"Randomize_Notes_Scale_Rand" : [ 1.0 ],
 						"Randomize_Pitch" : [ 0.0 ],
 						"Randomize_Pulses" : [ 0.0 ],
 						"Randomize_Rotate" : [ 0.0 ],
@@ -900,7 +970,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 608.0, 848.0, 92.0, 22.0 ],
+					"patching_rect" : [ 552.0, 848.0, 92.0, 22.0 ],
 					"text" : "prepend set rev"
 				}
 
@@ -927,15 +997,16 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 608.0, 824.0, 44.0, 15.0 ],
+					"patching_rect" : [ 552.0, 824.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 80.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 360.0, 80.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Randomize_Notes_Reverse",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Rev",
 							"parameter_type" : 2
 						}
@@ -1072,6 +1143,7 @@
 							"parameter_longname" : "Randomize_Notes_Rests",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Rests",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -1099,6 +1171,7 @@
 							"parameter_longname" : "Randomize_Notes_Order",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Order",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -1126,6 +1199,7 @@
 							"parameter_longname" : "Randomize_Notes_Repeat",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Repeat",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -1207,13 +1281,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 704.0, 936.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 80.0, 64.0, 15.0 ],
+					"presentation_rect" : [ 288.0, 80.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Aeolian", "Augmented", "Augmentedfifth", "Bluesmajor", "Bluesminor", "Chromatic", "Diminished", "Dorian", "Halfwhole", "Harmonicminor", "Ionian", "Japanese", "Locrian", "Lydian", "Major", "Melodicminor", "Minor", "Mixolydian", "Oriental", "Pentatonicmajor", "Pentatonicminor", "Phrygian", "Wholehalf", "Wholetone" ],
 							"parameter_longname" : "Randomize_Notes_Scale",
 							"parameter_mmax" : 23,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Scale",
 							"parameter_type" : 2
 						}
@@ -1255,7 +1330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 904.0, 80.0, 22.0 ],
+					"patching_rect" : [ 720.0, 904.0, 80.0, 22.0 ],
 					"text" : "symbol Major"
 				}
 
@@ -1404,6 +1479,7 @@
 							"parameter_longname" : "Randomize_Notes",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Notes",
 							"parameter_type" : 2
 						}
@@ -1438,42 +1514,18 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 758.0, 288.0, 936.0, 677.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 8.0, 8.0 ],
 						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
@@ -1734,15 +1786,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-606"
 					}
 ,
 					"patching_rect" : [ 784.0, 472.0, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p pulses_max"
@@ -1790,6 +1840,7 @@
 							"parameter_longname" : "Randomize_Sequencer",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Seq",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -2306,6 +2357,7 @@
 							"parameter_longname" : "Randomize_Pitch",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 2
 						}
@@ -2361,6 +2413,7 @@
 							"parameter_longname" : "Randomize_Duration",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Dur",
 							"parameter_type" : 2
 						}
@@ -2392,6 +2445,7 @@
 							"parameter_longname" : "Randomize_Rotate",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Rotate",
 							"parameter_type" : 2
 						}
@@ -2423,6 +2477,7 @@
 							"parameter_longname" : "Randomize_Steps",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Steps",
 							"parameter_type" : 2
 						}
@@ -2454,6 +2509,7 @@
 							"parameter_longname" : "Randomize_Pulses",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Pulses",
 							"parameter_type" : 2
 						}
@@ -2473,7 +2529,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 300.0, 60.0, 22.0, 22.0 ],
+					"patching_rect" : [ 304.0, 64.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -2487,7 +2543,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 304.0, 16.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2513,42 +2569,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2854,15 +2884,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-650"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p channel_router"
@@ -2900,6 +2928,7 @@
 							"parameter_longname" : "Randomize_4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "4",
 							"parameter_type" : 2
 						}
@@ -2931,6 +2960,7 @@
 							"parameter_longname" : "Randomize_3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "3",
 							"parameter_type" : 2
 						}
@@ -2962,6 +2992,7 @@
 							"parameter_longname" : "Randomize_2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "2",
 							"parameter_type" : 2
 						}
@@ -2993,6 +3024,7 @@
 							"parameter_longname" : "Randomize_1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "1",
 							"parameter_type" : 2
 						}
@@ -3024,6 +3056,7 @@
 							"parameter_longname" : "Randomize_Velocity",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Vel",
 							"parameter_type" : 2
 						}
@@ -3313,7 +3346,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-173", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -3649,6 +3682,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-164", 1 ],
+					"source" : [ "obj-162", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-169", 0 ],
+					"source" : [ "obj-164", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-151", 0 ],
 					"source" : [ "obj-167", 0 ]
 				}
@@ -3670,6 +3717,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-169", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -3679,6 +3733,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-171", 0 ],
 					"source" : [ "obj-172", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-155", 0 ],
+					"source" : [ "obj-173", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-173", 1 ]
 				}
 
 			}
@@ -3847,6 +3915,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-69", 2 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-164", 0 ],
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -4318,6 +4393,7 @@
 
 			}
  ],
+		"originid" : "pat-598",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
@@ -4336,6 +4412,7 @@
 			"obj-33::obj-7" : [ "Randomize_Pitch-Min", "PchMin", 0 ],
 			"obj-35::obj-1" : [ "Randomize_Steps-Min", "StpMin", 0 ],
 			"obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
+			"obj-36" : [ "Randomize_Notes_Scale_Rand", "Rand", 0 ],
 			"obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
 			"obj-46::obj-1" : [ "Randomize_Division-Min", "DivMin", 0 ],
@@ -4411,42 +4488,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Duration.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Numbox.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_inc.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_notes.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
