@@ -276,7 +276,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Sets the time value between each step.",
+					"annotation" : "Whether to randomize sequencer division.",
 					"annotation_name" : "Randomize Division Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -293,7 +293,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Division Toggle",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_info" : "Sets the time value between each step.",
+							"parameter_info" : "Whether to randomize sequencer division.",
 							"parameter_longname" : "Randomize_Division",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1137,6 +1137,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The percentage chance that each note will be replaced with a rest.",
+					"annotation_name" : "Randomize Rests",
 					"id" : "obj-110",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -1148,6 +1150,8 @@
 					"presentation_rect" : [ 352.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Rests",
+							"parameter_info" : "The percentage chance that each note will be replaced with a rest.",
 							"parameter_longname" : "Randomize_Notes_Rests",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
@@ -1165,6 +1169,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The percentage chance that a pitch in the sequence will have it's order changed (if this is 0, then the pitches of the scale will be in order).",
+					"annotation_name" : "Randomize Order",
 					"id" : "obj-104",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -1176,6 +1182,8 @@
 					"presentation_rect" : [ 320.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Order",
+							"parameter_info" : "The percentage chance that a pitch in the sequence will have it's order changed (if this is 0, then the pitches of the scale will be in order).",
 							"parameter_longname" : "Randomize_Notes_Order",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
@@ -1193,6 +1201,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The percentage chance that the each note will be repeated.",
+					"annotation_name" : "Randomize Repeat Notes",
 					"id" : "obj-93",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -1204,6 +1214,8 @@
 					"presentation_rect" : [ 288.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Repeat Notes",
+							"parameter_info" : "The percentage chance that the each note will be repeated.",
 							"parameter_longname" : "Randomize_Notes_Repeat",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
@@ -2352,7 +2364,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Whether to randomize pitch.",
+					"annotation" : "Whether to randomize sequencer pitch.",
 					"annotation_name" : "Randomize Pitch Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2369,7 +2381,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Pitch Toggle",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_info" : "Whether to randomize pitch.",
+							"parameter_info" : "Whether to randomize sequencer pitch.",
 							"parameter_longname" : "Randomize_Pitch",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2412,7 +2424,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Whether to randomize duration.",
+					"annotation" : "Whether to randomize sequencer duration.",
 					"annotation_name" : "Randomize Duration Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2429,7 +2441,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Duration Toggle",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_info" : "Whether to randomize duration.",
+							"parameter_info" : "Whether to randomize sequencer duration.",
 							"parameter_longname" : "Randomize_Duration",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -3087,7 +3099,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Whether to randomize velocity.",
+					"annotation" : "Whether to randomize sequencer velocity.",
 					"annotation_name" : "Randomize Velocity Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3104,7 +3116,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Velocity Toggle",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_info" : "Whether to randomize velocity.",
+							"parameter_info" : "Whether to randomize sequencer velocity.",
 							"parameter_longname" : "Randomize_Velocity",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
