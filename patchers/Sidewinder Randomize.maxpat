@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1172.0, 922.0 ],
+		"rect" : [ 34.0, 100.0, 725.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -276,6 +276,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Sets the time value between each step.",
+					"annotation_name" : "Randomize Division Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-147",
@@ -289,7 +291,9 @@
 					"presentation_rect" : [ 192.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Division Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Sets the time value between each step.",
 							"parameter_longname" : "Randomize_Division",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -527,6 +531,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If greater than zero, then randomize will automatically be triggered after that number of beats.",
+					"annotation_name" : "Randomize Auto Beats",
 					"id" : "obj-1",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -538,6 +544,8 @@
 					"presentation_rect" : [ 0.0, 128.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Auto Beats",
+							"parameter_info" : "If greater than zero, then randomize will automatically be triggered after that number of beats.",
 							"parameter_longname" : "Randomize_Auto",
 							"parameter_modmode" : 4,
 							"parameter_osc_name" : "<default>",
@@ -609,7 +617,7 @@
 						"Randomize_Notes_Repeat" : [ 0.0 ],
 						"Randomize_Notes_Rests" : [ 0.0 ],
 						"Randomize_Notes_Reverse" : [ 0.0 ],
-						"Randomize_Notes_Scale" : [ 13.0 ],
+						"Randomize_Notes_Scale" : [ 14.0 ],
 						"Randomize_Notes_Scale_Rand" : [ 1.0 ],
 						"Randomize_Pitch" : [ 0.0 ],
 						"Randomize_Pulses" : [ 0.0 ],
@@ -1462,6 +1470,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize the values of each individual note.",
+					"annotation_name" : "Randomize Notes Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-78",
@@ -1475,7 +1485,9 @@
 					"presentation_rect" : [ 240.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Notes Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize the values of each individual note.",
 							"parameter_longname" : "Randomize_Notes",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1787,7 +1799,7 @@
 
 							}
  ],
-						"originid" : "pat-606"
+						"originid" : "pat-12842"
 					}
 ,
 					"patching_rect" : [ 784.0, 472.0, 83.0, 22.0 ],
@@ -2340,6 +2352,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize pitch.",
+					"annotation_name" : "Randomize Pitch Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-39",
@@ -2353,7 +2367,9 @@
 					"presentation_rect" : [ 288.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Pitch Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize pitch.",
 							"parameter_longname" : "Randomize_Pitch",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2396,6 +2412,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize duration.",
+					"annotation_name" : "Randomize Duration Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-30",
@@ -2409,7 +2427,9 @@
 					"presentation_rect" : [ 352.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Duration Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize duration.",
 							"parameter_longname" : "Randomize_Duration",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2428,6 +2448,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize rotate.",
+					"annotation_name" : "Randomize Rotate Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-25",
@@ -2441,7 +2463,9 @@
 					"presentation_rect" : [ 144.0, 32.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Rotate Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize rotate.",
 							"parameter_longname" : "Randomize_Rotate",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2460,6 +2484,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize steps.",
+					"annotation_name" : "Randomize Steps Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-16",
@@ -2473,7 +2499,9 @@
 					"presentation_rect" : [ 96.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Steps Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize steps.",
 							"parameter_longname" : "Randomize_Steps",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2492,6 +2520,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize pulses.",
+					"annotation_name" : "Randomize Pulses Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-15",
@@ -2505,7 +2535,9 @@
 					"presentation_rect" : [ 48.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Pulses Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize pulses.",
 							"parameter_longname" : "Randomize_Pulses",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2885,7 +2917,7 @@
 
 							}
  ],
-						"originid" : "pat-650"
+						"originid" : "pat-12886"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -2911,6 +2943,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize track 4.",
+					"annotation_name" : "Randomize track 4 toggle.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-11",
@@ -2924,7 +2958,9 @@
 					"presentation_rect" : [ 0.0, 64.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize track 4 toggle.",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize track 4.",
 							"parameter_longname" : "Randomize_4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2943,6 +2979,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize track 3.",
+					"annotation_name" : "Randomize Track 3 Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-10",
@@ -2956,7 +2994,9 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Track 3 Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize track 3.",
 							"parameter_longname" : "Randomize_3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2975,6 +3015,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize track 2.",
+					"annotation_name" : "Randomize Track 2 Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-9",
@@ -2988,7 +3030,9 @@
 					"presentation_rect" : [ 0.0, 32.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Track 2 Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize track 2.",
 							"parameter_longname" : "Randomize_2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -3007,6 +3051,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize track 1.",
+					"annotation_name" : "Randomize Track 1 Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-8",
@@ -3020,7 +3066,9 @@
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Track 1 Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize track 1.",
 							"parameter_longname" : "Randomize_1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -3039,6 +3087,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether to randomize velocity.",
+					"annotation_name" : "Randomize Velocity Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-6",
@@ -3052,7 +3102,9 @@
 					"presentation_rect" : [ 240.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Velocity Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether to randomize velocity.",
 							"parameter_longname" : "Randomize_Velocity",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -4393,7 +4445,7 @@
 
 			}
  ],
-		"originid" : "pat-598",
+		"originid" : "pat-12834",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
