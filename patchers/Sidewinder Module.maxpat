@@ -174,7 +174,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "The time between each note in the sequencer.",
+					"annotation" : "The time between each note in the sequencer. Note that the display of the sequencer is locked to 1/16, so the output will not match the display of the sequencer if the dividision is set to anything other than 1/16.",
 					"annotation_name" : "Sequencer Division",
 					"id" : "obj-45",
 					"maxclass" : "live.menu",
@@ -189,7 +189,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Sequencer Division",
 							"parameter_enum" : [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
-							"parameter_info" : "The time between each note in the sequencer.",
+							"parameter_info" : "The time between each note in the sequencer. Note that the display of the sequencer is locked to 1/16, so the output will not match the display of the sequencer if the dividision is set to anything other than 1/16.",
 							"parameter_longname" : "#2-Division",
 							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
@@ -279,6 +279,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The MIDI channel that notes will be sent to. Note that Ableton Live merges all MIDI output to channel one, limiting this usefulness of this in Live.",
+					"annotation_name" : "MIDI Channel",
 					"id" : "obj-43",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -291,6 +293,8 @@
 					"presentation_rect" : [ 144.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "MIDI Channel",
+							"parameter_info" : "The MIDI channel that notes will be sent to. Note that Ableton Live merges all MIDI output to channel one, limiting this usefulness of this in Live.",
 							"parameter_longname" : "#2-Channel",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
@@ -1599,7 +1603,7 @@
 
 							}
  ],
-						"originid" : "pat-13218"
+						"originid" : "pat-13434"
 					}
 ,
 					"patching_rect" : [ 1528.0, 808.0, 101.0, 22.0 ],
@@ -2537,7 +2541,7 @@
 
 							}
  ],
-						"originid" : "pat-13220"
+						"originid" : "pat-13436"
 					}
 ,
 					"patching_rect" : [ 1528.0, 448.0, 448.0, 22.0 ],
@@ -2860,7 +2864,7 @@
 
 							}
  ],
-						"originid" : "pat-13238"
+						"originid" : "pat-13454"
 					}
 ,
 					"patching_rect" : [ 1528.0, 648.0, 240.0, 22.0 ],
@@ -3397,7 +3401,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Rotate the sequencer notes.",
+					"annotation" : "The rotattion of the sequencer notes.",
 					"annotation_name" : "Sequencer Rotate",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
@@ -3411,7 +3415,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Sequencer Rotate",
-							"parameter_info" : "Rotate the sequencer notes.",
+							"parameter_info" : "The rotattion of the sequencer notes.",
 							"parameter_longname" : "#2-Rotate",
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -3440,7 +3444,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Set which value type is shown in the sequencer.",
+					"annotation" : "Set whether All, Pitch, Velocity, or Duration values are shown in the sequencer.",
 					"annotation_name" : "Sequencer Mode",
 					"id" : "obj-84",
 					"maxclass" : "live.tab",
@@ -3457,7 +3461,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Sequencer Mode",
 							"parameter_enum" : [ "All", "Pitch", "Vel", "Dur" ],
-							"parameter_info" : "Set which value type is shown in the sequencer.",
+							"parameter_info" : "Set whether All, Pitch, Velocity, or Duration values are shown in the sequencer.",
 							"parameter_longname" : "#2-Mode",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
@@ -3537,7 +3541,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Set the sequencer to the current settings if Auto is disabled.",
+					"annotation" : "Generate a new sequence with the current settings if Auto is toggled off.",
 					"annotation_name" : "Sequencer Set",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3555,7 +3559,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Sequencer Set",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_info" : "Set the sequencer to the current settings if Auto is disabled.",
+							"parameter_info" : "Generate a new sequence with the current settings if Auto is toggled off.",
 							"parameter_longname" : "#2-Set",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -3888,7 +3892,7 @@
 
 							}
  ],
-						"originid" : "pat-13254"
+						"originid" : "pat-13470"
 					}
 ,
 					"patching_rect" : [ 168.0, 576.0, 79.0, 22.0 ],
@@ -4120,7 +4124,7 @@
 
 							}
  ],
-						"originid" : "pat-13256"
+						"originid" : "pat-13472"
 					}
 ,
 					"patching_rect" : [ 168.0, 280.0, 97.0, 22.0 ],
@@ -4450,7 +4454,7 @@
 
 											}
  ],
-										"originid" : "pat-13260"
+										"originid" : "pat-13476"
 									}
 ,
 									"patching_rect" : [ 420.0, 120.0, 240.0, 22.0 ],
@@ -4749,7 +4753,7 @@
 
 							}
  ],
-						"originid" : "pat-13258"
+						"originid" : "pat-13474"
 					}
 ,
 					"patching_rect" : [ 280.0, 248.0, 119.0, 22.0 ],
@@ -6200,7 +6204,7 @@
 
 			}
  ],
-		"originid" : "pat-13210",
+		"originid" : "pat-13426",
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
 			"obj-143::obj-136" : [ "#2-Down", "Down", 0 ],

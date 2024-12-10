@@ -114,6 +114,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Randomize the sequencer.",
+					"annotation_name" : "Randomize",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-20",
@@ -128,7 +130,9 @@
 					"presentation_rect" : [ 0.0, 144.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Randomize the sequencer.",
 							"parameter_longname" : "Randomize",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -477,8 +481,8 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Store and recall presets.",
-					"hint" : "Store and recall presets.\n\nShift-click on a square to store.\nClick on a square to recall.\nShift-(option|alt)-click on a square to delete.",
+					"annotation" : "Store and recall presets. Shift-click on a square to store. Click on a square to recall. Shift-(option|alt)-click on a square to delete.",
+					"hint" : "",
 					"id" : "obj-22",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -775,7 +779,7 @@
 
 			}
  ],
-		"originid" : "pat-12566",
+		"originid" : "pat-13854",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
