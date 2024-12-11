@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 327.0, 160.0, 593.0, 891.0 ],
-		"bglocked" : 0,
+		"rect" : [ 327.0, 131.0, 593.0, 891.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-4",
@@ -58,6 +35,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The number of steps in the sequencer.",
+					"annotation_name" : "Sequencer Steps",
 					"id" : "obj-2",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -69,10 +48,13 @@
 					"presentation_rect" : [ 0.0, 48.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Sequencer Steps",
+							"parameter_info" : "The number of steps in the sequencer.",
 							"parameter_longname" : "#1-Steps",
 							"parameter_mmax" : 128.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Steps",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -86,6 +68,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The number of notes in the sequencer.",
+					"annotation_name" : "Sequencer Pulses",
 					"id" : "obj-1",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -97,10 +81,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Sequencer Pulses",
+							"parameter_info" : "The number of notes in the sequencer.",
 							"parameter_longname" : "#1-Pulses",
 							"parameter_mmax" : 128.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Pulses",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -356,6 +343,7 @@
 
 			}
  ],
+		"originid" : "pat-11896",
 		"parameters" : 		{
 			"obj-1" : [ "#1-Pulses", "Pulses", 0 ],
 			"obj-2" : [ "#1-Steps", "Steps", 0 ],

@@ -2,42 +2,21 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"openrect" : [ 116.0, 100.0, 626.0, 180.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
 		"devicewidth" : 626.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "max-for-live",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-30",
@@ -45,7 +24,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 656.0, 64.0, 85.0, 20.0 ],
+					"patching_rect" : [ 656.0, 64.0, 93.0, 22.0 ],
 					"text" : "routepass recall"
 				}
 
@@ -82,7 +61,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 72.0, 63.0, 20.0 ],
+					"patching_rect" : [ 96.0, 72.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -106,7 +85,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 48.0, 8.0, 52.0, 20.0 ],
+					"patching_rect" : [ 48.0, 8.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
 						"Play" : [ 1.0 ],
@@ -128,13 +107,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 160.0, 160.0, 59.0, 20.0 ],
+					"patching_rect" : [ 160.0, 160.0, 65.0, 22.0 ],
 					"text" : "randomize"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Randomize the sequencer.",
+					"annotation_name" : "Randomize",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-20",
@@ -149,10 +130,13 @@
 					"presentation_rect" : [ 0.0, 144.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Randomize the sequencer.",
 							"parameter_longname" : "Randomize",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Rand",
 							"parameter_type" : 2
 						}
@@ -171,13 +155,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 128.0, 42.0, 20.0 ],
+					"patching_rect" : [ 96.0, 128.0, 47.0, 22.0 ],
 					"text" : "play $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Toggle playback for this device.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-9",
@@ -192,9 +177,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Toggle playback for this device.",
 							"parameter_longname" : "Play",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Play",
 							"parameter_type" : 2
 						}
@@ -209,6 +196,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If toggled on, \"Write\" overwrites the last loaded presets file. If it's toggled off, then a file dialog will appear.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-17",
@@ -223,9 +211,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "If toggled on, \"Write\" overwrites the last loaded presets file. If it's toggled off, then a file dialog will appear.",
 							"parameter_longname" : "Overwrite",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "OW",
 							"parameter_type" : 2
 						}
@@ -256,6 +246,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Write presets to a JSON file.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-13",
@@ -271,9 +262,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Write presets to a JSON file.",
 							"parameter_longname" : "Write",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Write",
 							"parameter_type" : 2
 						}
@@ -287,6 +280,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Read presets from a JSON file.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-11",
@@ -302,9 +296,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Read presets from a JSON file.",
 							"parameter_longname" : "Read",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Read",
 							"parameter_type" : 2
 						}
@@ -318,6 +314,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Select one of the four tracks or the randomize panel.",
 					"id" : "obj-10",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 5,
@@ -332,9 +329,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "R" ],
+							"parameter_info" : "Select one of the four tracks or the randomize panel.",
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -482,6 +481,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Store and recall presets. Shift-click on a square to store. Click on a square to recall. Shift-(option|alt)-click on a square to delete.",
+					"hint" : "",
 					"id" : "obj-22",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -501,7 +502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 128.0, 60.0, 20.0 ],
+					"patching_rect" : [ 8.0, 128.0, 64.0, 22.0 ],
 					"text" : "offset 0 $1"
 				}
 
@@ -513,7 +514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 8.0, 104.0, 37.0, 20.0 ],
+					"patching_rect" : [ 8.0, 104.0, 41.0, 22.0 ],
 					"text" : "* -168"
 				}
 
@@ -778,6 +779,7 @@
 
 			}
  ],
+		"originid" : "pat-17932",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
@@ -869,6 +871,7 @@
 			"obj-8::obj-7::obj-33::obj-7" : [ "Randomize_Pitch-Min", "PchMin", 0 ],
 			"obj-8::obj-7::obj-35::obj-1" : [ "Randomize_Steps-Min", "StpMin", 0 ],
 			"obj-8::obj-7::obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
+			"obj-8::obj-7::obj-36" : [ "Randomize_Notes_Scale_Rand", "Rand", 0 ],
 			"obj-8::obj-7::obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
 			"obj-8::obj-7::obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
 			"obj-8::obj-7::obj-46::obj-1" : [ "Randomize_Division-Min", "DivMin", 0 ],
@@ -945,139 +948,140 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Sidewinder Directions.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Duration.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Numbox.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Module Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Module.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Pulses-Steps.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Randomize.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder.json",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_bjorklund.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_list_one_value.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_add.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_inc.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_notes.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_split.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_randomize.js",
-				"bootpath" : "C74:/help/max",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_scales.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_toussaint.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_wrapper.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1

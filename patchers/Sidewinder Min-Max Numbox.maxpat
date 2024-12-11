@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 654.0, 342.0, 622.0, 605.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -70,6 +47,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "#1 minimum value.",
+					"annotation_name" : "#1 Min",
 					"id" : "obj-7",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -81,8 +60,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "#1 Min",
+							"parameter_info" : "#1 minimum value.",
 							"parameter_longname" : "#1-Min",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "#2Min",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -96,6 +78,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "#1 maximum value.",
+					"annotation_name" : "#1 Max",
 					"id" : "obj-6",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -107,8 +91,11 @@
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "#1 Max",
+							"parameter_info" : "#1 maximum value.",
 							"parameter_longname" : "#1-Max",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "#2Max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -493,6 +480,7 @@
 
 			}
  ],
+		"originid" : "pat-11150",
 		"parameters" : 		{
 			"obj-6" : [ "#1-Max", "#2Max", 0 ],
 			"obj-7" : [ "#1-Min", "#2Min", 0 ],

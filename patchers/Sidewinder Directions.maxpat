@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 144.0, 640.0, 480.0 ],
-		"bglocked" : 0,
+		"rect" : [ 84.0, 144.0, 1067.0, 710.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -88,6 +65,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Move sequencer notes left.",
+					"annotation_name" : "Sequencer Left",
 					"id" : "obj-142",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -100,10 +79,13 @@
 					"presentation_rect" : [ 72.0, 0.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Sequencer Left",
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Move sequencer notes left.",
 							"parameter_longname" : "#2-Left",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Left",
 							"parameter_type" : 2
 						}
@@ -117,6 +99,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Move sequencer notes right.",
+					"annotation_name" : "Sequencer Right",
 					"id" : "obj-141",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -129,10 +113,13 @@
 					"presentation_rect" : [ 24.0, 0.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Sequencer Right",
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Move sequencer notes right.",
 							"parameter_longname" : "#2-Right",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Right",
 							"parameter_type" : 2
 						}
@@ -146,6 +133,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Move sequencer notes down.",
+					"annotation_name" : "Sequencer Down",
 					"id" : "obj-136",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -158,10 +147,13 @@
 					"presentation_rect" : [ 48.0, 0.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Sequencer Down",
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Move sequencer notes down.",
 							"parameter_longname" : "#2-Down",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Down",
 							"parameter_type" : 2
 						}
@@ -175,6 +167,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Move sequencer notes up.",
+					"annotation_name" : "Sequencer Up",
 					"id" : "obj-86",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -187,10 +181,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Sequencer Up",
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Move sequencer notes up.",
 							"parameter_longname" : "#2-Up",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Up",
 							"parameter_type" : 2
 						}
@@ -232,6 +229,7 @@
 
 			}
  ],
+		"originid" : "pat-11838",
 		"parameters" : 		{
 			"obj-136" : [ "#2-Down", "Down", 0 ],
 			"obj-141" : [ "#2-Right", "Right", 0 ],
