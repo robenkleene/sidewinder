@@ -545,24 +545,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-19",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 8.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 88.0, 40.0, 32.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -779,7 +761,7 @@
 
 			}
  ],
-		"originid" : "pat-17932",
+		"originid" : "pat-19034",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
