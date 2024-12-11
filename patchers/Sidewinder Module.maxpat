@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 100.0, 796.0, 922.0 ],
+		"rect" : [ 53.0, 100.0, 1383.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -1603,7 +1603,7 @@
 
 							}
  ],
-						"originid" : "pat-13434"
+						"originid" : "pat-18988"
 					}
 ,
 					"patching_rect" : [ 1528.0, 808.0, 101.0, 22.0 ],
@@ -2541,7 +2541,7 @@
 
 							}
  ],
-						"originid" : "pat-13436"
+						"originid" : "pat-18990"
 					}
 ,
 					"patching_rect" : [ 1528.0, 448.0, 448.0, 22.0 ],
@@ -2864,7 +2864,7 @@
 
 							}
  ],
-						"originid" : "pat-13454"
+						"originid" : "pat-19008"
 					}
 ,
 					"patching_rect" : [ 1528.0, 648.0, 240.0, 22.0 ],
@@ -3892,7 +3892,7 @@
 
 							}
  ],
-						"originid" : "pat-13470"
+						"originid" : "pat-19024"
 					}
 ,
 					"patching_rect" : [ 168.0, 576.0, 79.0, 22.0 ],
@@ -4124,7 +4124,7 @@
 
 							}
  ],
-						"originid" : "pat-13472"
+						"originid" : "pat-19026"
 					}
 ,
 					"patching_rect" : [ 168.0, 280.0, 97.0, 22.0 ],
@@ -4454,7 +4454,7 @@
 
 											}
  ],
-										"originid" : "pat-13476"
+										"originid" : "pat-19030"
 									}
 ,
 									"patching_rect" : [ 420.0, 120.0, 240.0, 22.0 ],
@@ -4753,7 +4753,7 @@
 
 							}
  ],
-						"originid" : "pat-13474"
+						"originid" : "pat-19028"
 					}
 ,
 					"patching_rect" : [ 280.0, 248.0, 119.0, 22.0 ],
@@ -4875,42 +4875,6 @@
 					}
 ,
 					"text" : "js sidewinder_wrapper.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-263",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 872.0, 104.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 144.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-13",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 872.0, 128.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 528.0, 16.0, 40.0, 48.0 ],
-					"proportion" : 0.39,
-					"rounded" : 10
 				}
 
 			}
@@ -6204,7 +6168,7 @@
 
 			}
  ],
-		"originid" : "pat-13426",
+		"originid" : "pat-18980",
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
 			"obj-143::obj-136" : [ "#2-Down", "Down", 0 ],
