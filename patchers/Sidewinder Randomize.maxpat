@@ -10,12 +10,84 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 725.0, 922.0 ],
+		"rect" : [ 384.0, 100.0, 725.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-158",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 632.0, 56.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 280.0, 48.0, 6.0, 96.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-156",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 616.0, 56.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 240.0, 48.0, 6.0, 96.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 600.0, 56.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 184.0, 32.0, 8.0, 112.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 584.0, 56.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 138.0, 48.0, 6.0, 96.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 568.0, 56.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 48.0, 48.0, 8.0, 96.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 552.0, 56.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 88.0, 48.0, 8.0, 96.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-173",
 					"maxclass" : "newobj",
@@ -1823,7 +1895,7 @@
 
 							}
  ],
-						"originid" : "pat-19308"
+						"originid" : "pat-23952"
 					}
 ,
 					"patching_rect" : [ 784.0, 472.0, 83.0, 22.0 ],
@@ -2941,7 +3013,7 @@
 
 							}
  ],
-						"originid" : "pat-19352"
+						"originid" : "pat-23996"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -4379,7 +4451,7 @@
 
 			}
  ],
-		"originid" : "pat-19300",
+		"originid" : "pat-23944",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
