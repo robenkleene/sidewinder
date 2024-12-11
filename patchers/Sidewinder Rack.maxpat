@@ -314,7 +314,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Which track is selected.",
+					"annotation" : "Select one of the four tracks or the randomize panel.",
 					"id" : "obj-10",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 5,
@@ -329,7 +329,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "R" ],
-							"parameter_info" : "Which track is selected.",
+							"parameter_info" : "Select one of the four tracks or the randomize panel.",
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
@@ -779,7 +779,7 @@
 
 			}
  ],
-		"originid" : "pat-13854",
+		"originid" : "pat-17932",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],

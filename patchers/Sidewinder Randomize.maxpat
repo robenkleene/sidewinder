@@ -76,6 +76,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Whether a random scale should be chosen.",
+					"annotation_name" : "Randomize Scale Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-36",
@@ -89,7 +91,9 @@
 					"presentation_rect" : [ 328.0, 80.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Scale Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Whether a random scale should be chosen.",
 							"parameter_longname" : "Randomize_Notes_Scale_Rand",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -997,6 +1001,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If toggled on, the scale will be generated in descending order, if toggled off, the scale will be generated in in ascending order.",
+					"annotation_name" : "Rnadomize Scale Reverse Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-111",
@@ -1010,7 +1016,9 @@
 					"presentation_rect" : [ 360.0, 80.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Rnadomize Scale Reverse Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "If toggled on, the scale will be generated in descending order, if toggled off, the scale will be generated in in ascending order.",
 							"parameter_longname" : "Randomize_Notes_Reverse",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1293,6 +1301,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The scale that randomized notes will ge generated in.",
+					"annotation_name" : "Randomize Scale",
 					"id" : "obj-94",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -1304,7 +1314,9 @@
 					"presentation_rect" : [ 288.0, 80.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Scale",
 							"parameter_enum" : [ "Aeolian", "Augmented", "Augmentedfifth", "Bluesmajor", "Bluesminor", "Chromatic", "Diminished", "Dorian", "Halfwhole", "Harmonicminor", "Ionian", "Japanese", "Locrian", "Lydian", "Major", "Melodicminor", "Minor", "Mixolydian", "Oriental", "Pentatonicmajor", "Pentatonicminor", "Phrygian", "Wholehalf", "Wholetone" ],
+							"parameter_info" : "The scale that randomized notes will ge generated in.",
 							"parameter_longname" : "Randomize_Notes_Scale",
 							"parameter_mmax" : 23,
 							"parameter_modmode" : 0,
@@ -1811,7 +1823,7 @@
 
 							}
  ],
-						"originid" : "pat-12842"
+						"originid" : "pat-18660"
 					}
 ,
 					"patching_rect" : [ 784.0, 472.0, 83.0, 22.0 ],
@@ -2929,7 +2941,7 @@
 
 							}
  ],
-						"originid" : "pat-12886"
+						"originid" : "pat-18704"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -2956,7 +2968,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Whether to randomize track 4.",
-					"annotation_name" : "Randomize track 4 toggle.",
+					"annotation_name" : "Randomize Track 4 Toggle.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-11",
@@ -2970,7 +2982,7 @@
 					"presentation_rect" : [ 0.0, 64.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Randomize track 4 toggle.",
+							"parameter_annotation_name" : "Randomize Track 4 Toggle.",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Whether to randomize track 4.",
 							"parameter_longname" : "Randomize_4",
@@ -4457,7 +4469,7 @@
 
 			}
  ],
-		"originid" : "pat-12834",
+		"originid" : "pat-18652",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
