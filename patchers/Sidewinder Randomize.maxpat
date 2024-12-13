@@ -17,13 +17,25 @@
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-163",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 752.0, 600.0, 150.0, 114.0 ],
+					"text" : "The randomized steps value becomes the maximum for the pulses (if it's less than the existing maximum). This is to make it less likely for pulses and steps to match which isn't interesting."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-165",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 904.0, 472.0, 61.0, 22.0 ],
-					"text" : "maximum"
+					"patching_rect" : [ 792.0, 568.0, 57.0, 22.0 ],
+					"text" : "minimum"
 				}
 
 			}
@@ -296,8 +308,8 @@
 					"id" : "obj-61",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1712.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -1896,10 +1908,10 @@
 
 							}
  ],
-						"originid" : "pat-2962"
+						"originid" : "pat-5078"
 					}
 ,
-					"patching_rect" : [ 784.0, 472.0, 83.0, 22.0 ],
+					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -2200,8 +2212,8 @@
 					"id" : "obj-72",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1088.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -2380,8 +2392,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 672.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -2416,8 +2428,8 @@
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 880.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -3014,7 +3026,7 @@
 
 							}
  ],
-						"originid" : "pat-3006"
+						"originid" : "pat-5122"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -3764,7 +3776,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 2 ],
+					"destination" : [ "obj-19", 3 ],
 					"source" : [ "obj-165", 0 ]
 				}
 
@@ -3981,15 +3993,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-165", 0 ],
-					"source" : [ "obj-35", 0 ]
+					"destination" : [ "obj-69", 3 ],
+					"source" : [ "obj-35", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 3 ],
-					"source" : [ "obj-35", 1 ]
+					"destination" : [ "obj-69", 2 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -4184,16 +4196,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-165", 1 ],
-					"order" : 0,
-					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
-					"order" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -4306,6 +4309,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"source" : [ "obj-69", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"order" : 1,
 					"source" : [ "obj-69", 0 ]
@@ -4363,7 +4373,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 3 ],
+					"destination" : [ "obj-165", 1 ],
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -4498,7 +4508,7 @@
 
 			}
  ],
-		"originid" : "pat-2954",
+		"originid" : "pat-5070",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
