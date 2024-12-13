@@ -10,12 +10,24 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 384.0, 100.0, 1232.0, 922.0 ],
+		"rect" : [ 34.0, 100.0, 954.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-165",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 904.0, 472.0, 61.0, 22.0 ],
+					"text" : "maximum"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-158",
 					"linecount" : 6,
@@ -1884,7 +1896,7 @@
 
 							}
  ],
-						"originid" : "pat-1780"
+						"originid" : "pat-2962"
 					}
 ,
 					"patching_rect" : [ 784.0, 472.0, 83.0, 22.0 ],
@@ -3002,7 +3014,7 @@
 
 							}
  ],
-						"originid" : "pat-1824"
+						"originid" : "pat-3006"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -3752,6 +3764,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 2 ],
+					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-151", 0 ],
 					"source" : [ "obj-167", 0 ]
 				}
@@ -3962,15 +3981,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 3 ],
-					"source" : [ "obj-35", 1 ]
+					"destination" : [ "obj-165", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 2 ],
-					"source" : [ "obj-35", 0 ]
+					"destination" : [ "obj-69", 3 ],
+					"source" : [ "obj-35", 1 ]
 				}
 
 			}
@@ -4165,7 +4184,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-165", 1 ],
+					"order" : 0,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
+					"order" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -4469,15 +4497,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
-					"source" : [ "obj-99", 0 ]
-				}
-
-			}
  ],
-		"originid" : "pat-1772",
+		"originid" : "pat-2954",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
