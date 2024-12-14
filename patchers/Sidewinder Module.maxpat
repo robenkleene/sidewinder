@@ -3401,7 +3401,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "The rotattion of the sequencer notes.",
+					"annotation" : "The rotation of the sequencer notes.",
 					"annotation_name" : "Sequencer Rotate",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
@@ -3415,7 +3415,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Sequencer Rotate",
-							"parameter_info" : "The rotattion of the sequencer notes.",
+							"parameter_info" : "The rotation of the sequencer notes.",
 							"parameter_longname" : "#2-Rotate",
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
