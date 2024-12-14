@@ -10,12 +10,36 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 384.0, 100.0, 1232.0, 922.0 ],
+		"rect" : [ 34.0, 100.0, 954.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-163",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 752.0, 600.0, 150.0, 114.0 ],
+					"text" : "The randomized steps value becomes the maximum for the pulses (if it's less than the existing maximum). This is to make it less likely for pulses and steps to match which isn't interesting."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-165",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 792.0, 568.0, 57.0, 22.0 ],
+					"text" : "minimum"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-158",
 					"linecount" : 6,
@@ -119,8 +143,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 776.0, 89.0, 22.0 ],
-					"text" : "r #1-randomize"
+					"patching_rect" : [ 704.0, 776.0, 67.0, 22.0 ],
+					"text" : "r #1-trigger"
 				}
 
 			}
@@ -130,8 +154,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 136.0, 91.0, 22.0 ],
-					"text" : "s #1-randomize"
+					"patching_rect" : [ 256.0, 136.0, 69.0, 22.0 ],
+					"text" : "s #1-trigger"
 				}
 
 			}
@@ -284,8 +308,8 @@
 					"id" : "obj-61",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1712.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -1884,10 +1908,10 @@
 
 							}
  ],
-						"originid" : "pat-12"
+						"originid" : "pat-5078"
 					}
 ,
-					"patching_rect" : [ 784.0, 472.0, 83.0, 22.0 ],
+					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -2188,8 +2212,8 @@
 					"id" : "obj-72",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1088.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -2368,8 +2392,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 672.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -2404,8 +2428,8 @@
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 880.0, 512.0, 113.0, 22.0 ],
 					"text" : "sidewinder_random"
 				}
@@ -3002,7 +3026,7 @@
 
 							}
  ],
-						"originid" : "pat-56"
+						"originid" : "pat-5122"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -3752,6 +3776,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 3 ],
+					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-151", 0 ],
 					"source" : [ "obj-167", 0 ]
 				}
@@ -4278,6 +4309,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"source" : [ "obj-69", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"order" : 1,
 					"source" : [ "obj-69", 0 ]
@@ -4335,7 +4373,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 3 ],
+					"destination" : [ "obj-165", 1 ],
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -4469,15 +4507,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
-					"source" : [ "obj-99", 0 ]
-				}
-
-			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-5070",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
