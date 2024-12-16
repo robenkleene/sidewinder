@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 100.0, 1540.0, 922.0 ],
+		"rect" : [ 309.0, 298.0, 1540.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -2694,7 +2694,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize",
+										"filename" : "sidewinder_randomize.js",
 										"parameter_enable" : 0
 									}
 ,
