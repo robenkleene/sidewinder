@@ -92,13 +92,10 @@ function duration(value) {
   var max = input[INLET_DURATION_MAX];
   var min = input[INLET_DURATION_MIN];
   var arr = arrayfromargs(messagename, arguments);
-  if (min == null || max == null) {
-    outlet(0, arr.join(" "));
-    return;
-  }
   var values = arr.slice(1)
   for (var i = 0; i < values.length; i++) {
-    values[i] = DURATION_VALUES[getRandomInt(min, max)];
+    var index = (min == null || max == null) ? values[i]: getRandomInt(min, max);
+    values[i] = DURATION_VALUES[index];
   }
   arr = arr.slice(0, 1).concat(values);
   var duration = arr.join(" ");
