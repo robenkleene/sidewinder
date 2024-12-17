@@ -93,8 +93,9 @@ function duration(value) {
   var min = input[INLET_DURATION_MIN];
   var arr = arrayfromargs(messagename, arguments);
   var values = arr.slice(1)
+  var shouldRandomize = (min == null || max == null);
   for (var i = 0; i < values.length; i++) {
-    var index = (min == null || max == null) ? values[i]: getRandomInt(min, max);
+    var index = shouldRandomize ? values[i]: getRandomInt(min, max);
     values[i] = DURATION_VALUES[index];
   }
   arr = arr.slice(0, 1).concat(values);
