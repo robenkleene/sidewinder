@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,6 +18,38 @@
 		"devicewidth" : 626.0,
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
+					"id" : "obj-19",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 536.0, 304.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "Solo",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "Solo",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Solo",
+					"texton" : "Solo",
+					"varname" : "Solo"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -91,6 +123,7 @@
 						"Play" : [ 1.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
+						"Solo" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
 						"Write" : [ 0.0 ]
 					}
@@ -127,7 +160,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 160.0, 136.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 144.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 0.0, 152.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize",
@@ -325,7 +358,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 8.0, 8.0, 24.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 128.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 40.0, 120.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "R" ],
@@ -761,12 +794,13 @@
 
 			}
  ],
-		"originid" : "pat-19034",
+		"originid" : "pat-5984",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
 			"obj-13" : [ "Write", "Write", 0 ],
 			"obj-17" : [ "Overwrite", "OW", 0 ],
+			"obj-19" : [ "Solo", "Solo", 0 ],
 			"obj-20" : [ "Randomize", "Rand", 0 ],
 			"obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
 			"obj-8::obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
