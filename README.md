@@ -11,6 +11,7 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 ### Global
 
 - **Play**: Toggle playback
+- **Solo**: If toggled on, selecting a track tab will toggle off the other tracks.
 - **1-4 Tabs**: Select which track to display
 - **R Tab**: Display the randomize pan
 - **R**: Trigger randomize
@@ -28,7 +29,7 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 Above the piano roll.
 
-- **On**: Toggle playback for this track
+- **Track**: Toggle playback for this track
 - **Set**: Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps
 - Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer

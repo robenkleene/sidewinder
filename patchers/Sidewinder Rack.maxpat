@@ -91,6 +91,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If toggled on, selecting a track tab will toggle off the other tracks.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-19",
@@ -105,6 +106,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "If toggled on, selecting a track tab will toggle off the other tracks.",
 							"parameter_longname" : "Solo",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -930,7 +932,7 @@
 
 			}
  ],
-		"originid" : "pat-8450",
+		"originid" : "pat-8982",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
