@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 309.0, 298.0, 1540.0, 922.0 ],
+		"rect" : [ 154.0, 100.0, 1540.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -1603,7 +1603,7 @@
 
 							}
  ],
-						"originid" : "pat-980"
+						"originid" : "pat-6314"
 					}
 ,
 					"patching_rect" : [ 1528.0, 808.0, 101.0, 22.0 ],
@@ -2541,7 +2541,7 @@
 
 							}
  ],
-						"originid" : "pat-982"
+						"originid" : "pat-6316"
 					}
 ,
 					"patching_rect" : [ 1528.0, 448.0, 448.0, 22.0 ],
@@ -2694,7 +2694,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize.js",
+										"filename" : "sidewinder_randomize",
 										"parameter_enable" : 0
 									}
 ,
@@ -2864,7 +2864,7 @@
 
 							}
  ],
-						"originid" : "pat-1000"
+						"originid" : "pat-6334"
 					}
 ,
 					"patching_rect" : [ 1528.0, 648.0, 240.0, 22.0 ],
@@ -3892,7 +3892,7 @@
 
 							}
  ],
-						"originid" : "pat-1016"
+						"originid" : "pat-6350"
 					}
 ,
 					"patching_rect" : [ 168.0, 576.0, 79.0, 22.0 ],
@@ -4124,7 +4124,7 @@
 
 							}
  ],
-						"originid" : "pat-1018"
+						"originid" : "pat-6352"
 					}
 ,
 					"patching_rect" : [ 168.0, 280.0, 97.0, 22.0 ],
@@ -4454,7 +4454,7 @@
 
 											}
  ],
-										"originid" : "pat-1022"
+										"originid" : "pat-6356"
 									}
 ,
 									"patching_rect" : [ 420.0, 120.0, 240.0, 22.0 ],
@@ -4753,7 +4753,7 @@
 
 							}
  ],
-						"originid" : "pat-1020"
+						"originid" : "pat-6354"
 					}
 ,
 					"patching_rect" : [ 280.0, 248.0, 119.0, 22.0 ],
@@ -4839,7 +4839,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 168.0, 392.0, 450.0, 165.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 16.0, 472.0, 144.0 ],
+					"presentation_rect" : [ 48.0, 16.0, 472.0, 152.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Sequencer",
@@ -6168,7 +6168,7 @@
 
 			}
  ],
-		"originid" : "pat-972",
+		"originid" : "pat-6306",
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
 			"obj-143::obj-136" : [ "#2-Down", "Down", 0 ],

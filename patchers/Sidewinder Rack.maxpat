@@ -300,7 +300,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 848.0, 248.0, 24.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 592.0, 104.0, 24.0, 16.0 ],
+					"presentation_rect" : [ 592.0, 112.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -351,7 +351,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 880.0, 248.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 600.0, 88.0, 16.0, 16.0 ],
+					"presentation_rect" : [ 600.0, 96.0, 16.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -385,7 +385,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 800.0, 248.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 584.0, 88.0, 16.0, 16.0 ],
+					"presentation_rect" : [ 584.0, 96.0, 16.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -584,7 +584,7 @@
 					"patching_rect" : [ 744.0, 272.0, 32.0, 34.0 ],
 					"pattrstorage" : "Sidewinder",
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 120.0, 40.0, 40.0 ]
+					"presentation_rect" : [ 576.0, 128.0, 40.0, 40.0 ]
 				}
 
 			}
@@ -851,6 +851,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
