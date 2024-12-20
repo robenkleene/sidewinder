@@ -137,13 +137,21 @@ Sidewinder supports Ableton Push. The first knob always controls which tab is vi
 ##### 0. Main
 
 1. `Tab`
-2. `Track`
 2. `Pulses`
 3. `Steps`
 4. `Rotate`
 5. `Pitch`
 6. `Velocity`
 7. `Duration`
+8. `Division`
+
+##### 1. Play
+
+1. `Tab`
+2. `Play`
+3. `Solo`
+4. `Track`
+5. `Auto`
 
 #### Tab 5: Randomize
 
