@@ -2,42 +2,22 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 311.0, 100.0, 908.0, 972.0 ],
-		"bglocked" : 0,
+		"rect" : [ 311.0, 100.0, 908.0, 922.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
 		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "max-for-live",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "bang: Trigger randomize",
@@ -232,7 +212,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 136.0, 80.0, 20.0 ],
+					"patching_rect" : [ 72.0, 136.0, 80.0, 20.0 ],
 					"text" : "r #1-channel1"
 				}
 
@@ -244,7 +224,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 408.0, 80.0, 20.0 ],
+					"patching_rect" : [ 72.0, 408.0, 80.0, 20.0 ],
 					"text" : "r #1-channel2"
 				}
 
@@ -256,7 +236,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 688.0, 80.0, 20.0 ],
+					"patching_rect" : [ 72.0, 688.0, 80.0, 20.0 ],
 					"text" : "r #1-channel3"
 				}
 
@@ -371,11 +351,11 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 8.0, 56.0, 132.0, 20.0 ],
-					"text" : "routepass play randomize"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 8.0, 56.0, 155.0, 20.0 ],
+					"text" : "routepass play randomize solo"
 				}
 
 			}
@@ -386,7 +366,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 176.0, 96.0, 64.0, 20.0 ],
+					"patching_rect" : [ 264.0, 96.0, 64.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -423,7 +403,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 1208.0, 59.0, 20.0 ],
+					"patching_rect" : [ 8.0, 1200.0, 59.0, 20.0 ],
 					"text" : "s #1-note"
 				}
 
@@ -519,7 +499,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 656.0, 59.0, 20.0 ],
+					"patching_rect" : [ 8.0, 648.0, 59.0, 20.0 ],
 					"text" : "s #1-note"
 				}
 
@@ -922,7 +902,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-5", 2 ]
+					"source" : [ "obj-5", 3 ]
 				}
 
 			}
@@ -962,6 +942,7 @@
 
 			}
  ],
+		"originid" : "pat-6566",
 		"parameters" : 		{
 			"obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
 			"obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
@@ -1037,6 +1018,7 @@
 			"obj-7::obj-11" : [ "Randomize_4", "4", 0 ],
 			"obj-7::obj-110" : [ "Randomize_Notes_Rests", "Rests", 0 ],
 			"obj-7::obj-111" : [ "Randomize_Notes_Reverse", "Rev", 0 ],
+			"obj-7::obj-147" : [ "Randomize_Division", "Div", 0 ],
 			"obj-7::obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-7::obj-16" : [ "Randomize_Steps", "Steps", 0 ],
 			"obj-7::obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
@@ -1047,8 +1029,11 @@
 			"obj-7::obj-33::obj-7" : [ "Randomize_Pitch-Min", "PchMin", 0 ],
 			"obj-7::obj-35::obj-1" : [ "Randomize_Steps-Min", "StpMin", 0 ],
 			"obj-7::obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
+			"obj-7::obj-36" : [ "Randomize_Notes_Scale_Rand", "Rand", 0 ],
 			"obj-7::obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
 			"obj-7::obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
+			"obj-7::obj-46::obj-1" : [ "Randomize_Division-Min", "DivMin", 0 ],
+			"obj-7::obj-46::obj-2" : [ "Randomize_Division-Max", "DivMax", 0 ],
 			"obj-7::obj-4::obj-1" : [ "Randomize_Duration-Min", "DurMin", 0 ],
 			"obj-7::obj-4::obj-2" : [ "Randomize_Duration-Max", "DurMax", 0 ],
 			"obj-7::obj-56::obj-1" : [ "Randomize_Rotate-Min", "RotMin", 0 ],
@@ -1120,125 +1105,126 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Sidewinder Directions.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Dial.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Duration.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Min-Max Numbox.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Module.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Pulses-Steps.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidewinder Randomize.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_bjorklund.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_list_one_value.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_add.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_inc.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_notes.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_random_split.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_randomize.js",
-				"bootpath" : "C74:/help/max",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_scales.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_toussaint.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sidewinder_wrapper.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
