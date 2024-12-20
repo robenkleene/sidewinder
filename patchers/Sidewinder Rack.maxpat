@@ -19,6 +19,18 @@
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 192.0, 96.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -198,7 +210,7 @@
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Solo" : [ 0.0 ],
-						"Tab" : [ 0.0 ],
+						"Tab" : [ 1.0 ],
 						"Write" : [ 0.0 ]
 					}
 ,
@@ -665,7 +677,7 @@
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ 0.0, -168.0 ],
 					"outlettype" : [ "int", "int", "int", "bang" ],
 					"patching_rect" : [ 8.0, 264.0, 576.0, 168.0 ],
 					"presentation" : 1,
@@ -766,6 +778,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -884,6 +905,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -932,7 +960,7 @@
 
 			}
  ],
-		"originid" : "pat-9788",
+		"originid" : "pat-13032",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
