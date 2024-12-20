@@ -197,7 +197,7 @@
 						"Play" : [ 1.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
-						"Solo" : [ 1.0 ],
+						"Solo" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
 						"Write" : [ 0.0 ]
 					}
@@ -932,7 +932,7 @@
 
 			}
  ],
-		"originid" : "pat-8982",
+		"originid" : "pat-9788",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
