@@ -20,6 +20,18 @@
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int: Randomize trigger value",
+					"id" : "obj-52",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 560.0, 1568.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -190,7 +202,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 568.0, 1568.0, 30.0, 30.0 ]
+					"patching_rect" : [ 288.0, 1568.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -431,9 +443,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Randomize.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "bang", "" ],
 					"patching_rect" : [ 8.0, 1272.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 672.0, 632.0, 168.0 ],
@@ -1205,6 +1217,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-7", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -1218,7 +1237,7 @@
 
 			}
  ],
-		"originid" : "pat-7658",
+		"originid" : "pat-5100",
 		"parameters" : 		{
 			"obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
 			"obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
@@ -1297,6 +1316,7 @@
 			"obj-7::obj-147" : [ "Randomize_Division", "Div", 0 ],
 			"obj-7::obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-7::obj-16" : [ "Randomize_Steps", "Steps", 0 ],
+			"obj-7::obj-170" : [ "Randomize_Trigger", "Trigger", 0 ],
 			"obj-7::obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
 			"obj-7::obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
 			"obj-7::obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],

@@ -19,6 +19,18 @@
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int: Randomize trigger value",
+					"id" : "obj-38",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 568.0, 472.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -139,11 +151,11 @@
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 656.0, 64.0, 93.0, 22.0 ],
-					"text" : "routepass recall"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 656.0, 64.0, 153.0, 22.0 ],
+					"text" : "routepass recall randomize"
 				}
 
 			}
@@ -676,9 +688,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, -168.0 ],
-					"outlettype" : [ "int", "int", "int", "bang" ],
+					"outlettype" : [ "int", "int", "int", "bang", "" ],
 					"patching_rect" : [ 8.0, 264.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 0.0, 576.0, 168.0 ],
@@ -842,6 +854,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -954,13 +973,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-8", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-13032",
+		"originid" : "pat-5366",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
@@ -1045,6 +1071,7 @@
 			"obj-8::obj-7::obj-147" : [ "Randomize_Division", "Div", 0 ],
 			"obj-8::obj-7::obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-8::obj-7::obj-16" : [ "Randomize_Steps", "Steps", 0 ],
+			"obj-8::obj-7::obj-170" : [ "Randomize_Trigger", "Trigger", 0 ],
 			"obj-8::obj-7::obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
 			"obj-8::obj-7::obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
 			"obj-8::obj-7::obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],

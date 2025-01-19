@@ -34,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1584.0, 896.0, 70.0, 22.0 ],
+					"patching_rect" : [ 1584.0, 1320.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -47,7 +47,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1584.0, 960.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1584.0, 1384.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 48.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -73,7 +73,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1584.0, 928.0, 46.0, 33.0 ],
+					"patching_rect" : [ 1584.0, 1352.0, 46.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 40.0, 16.0, 46.0, 33.0 ],
