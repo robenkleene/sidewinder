@@ -4,25 +4,95 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 954.0, 922.0 ],
+		"rect" : [ 446.0, 100.0, 946.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int: Randomize trigger note",
+					"id" : "obj-174",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1584.0, 1416.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1584.0, 1320.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "If the incoming MIDI note matches this note, than randomize is triggered.",
+					"annotation_name" : "Randomize Trigger",
+					"id" : "obj-170",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1584.0, 1384.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 40.0, 48.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Trigger",
+							"parameter_info" : "If the incoming MIDI note matches this note, than randomize is triggered.",
+							"parameter_longname" : "Randomize_Trigger",
+							"parameter_modmode" : 4,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "Trigger",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 8
+						}
+
+					}
+,
+					"varname" : "Randomize_Trigger"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-166",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1584.0, 1352.0, 46.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 40.0, 16.0, 46.0, 33.0 ],
+					"text" : "Note\nTrigger"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-163",
 					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 600.0, 150.0, 114.0 ],
+					"patching_rect" : [ 752.0, 600.0, 155.0, 114.0 ],
 					"text" : "The randomized steps value becomes the maximum for the pulses (if it's less than the existing maximum). This is to make it less likely for pulses and steps to match which isn't interesting."
 				}
 
@@ -96,7 +166,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 616.0, 56.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 232.0, 16.0, 6.0, 128.0 ]
+					"presentation_rect" : [ 272.0, 16.0, 6.0, 128.0 ]
 				}
 
 			}
@@ -173,7 +243,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 736.0, 808.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 328.0, 80.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 368.0, 80.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Scale Toggle",
@@ -297,7 +367,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 1799.0, 398.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 48.0, 45.0, 34.0 ],
+					"presentation_rect" : [ 232.0, 48.0, 45.0, 34.0 ],
 					"varname" : "Division_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -377,7 +447,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1728.0, 368.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 232.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Division Toggle",
@@ -613,7 +683,7 @@
 					"patching_rect" : [ 1472.0, 930.0, 39.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 0.0, 96.0, 40.0, 33.0 ],
+					"presentation_rect" : [ 40.0, 96.0, 40.0, 33.0 ],
 					"text" : "Auto\nBeats"
 				}
 
@@ -630,7 +700,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1472.0, 962.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 128.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 40.0, 128.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Auto Beats",
@@ -713,6 +783,7 @@
 						"Randomize_Rotate" : [ 0.0 ],
 						"Randomize_Sequencer" : [ 0.0 ],
 						"Randomize_Steps" : [ 0.0 ],
+						"Randomize_Trigger" : [ 0.0 ],
 						"Randomize_Velocity" : [ 0.0 ]
 					}
 ,
@@ -1098,7 +1169,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 552.0, 824.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 80.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 400.0, 80.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Rnadomize Scale Reverse Toggle",
@@ -1240,7 +1311,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 592.0, 608.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 96.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 392.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Rests",
@@ -1272,7 +1343,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 552.0, 608.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 96.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 360.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Order",
@@ -1304,7 +1375,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 512.0, 608.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 96.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 328.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Repeat Notes",
@@ -1396,7 +1467,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 704.0, 936.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 80.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 328.0, 80.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Scale",
@@ -1591,7 +1662,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 160.0, 768.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 16.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 328.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Notes Toggle",
@@ -1637,7 +1708,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1908,7 +1979,7 @@
 
 							}
  ],
-						"originid" : "pat-5078"
+						"originid" : "pat-7260"
 					}
 ,
 					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
@@ -1992,7 +2063,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 552.0, 400.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 48.0, 40.0, 34.0 ],
+					"presentation_rect" : [ 328.0, 48.0, 40.0, 34.0 ],
 					"varname" : "Pitch_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -2041,7 +2112,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 1599.0, 398.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 48.0, 45.0, 34.0 ],
+					"presentation_rect" : [ 392.0, 48.0, 45.0, 34.0 ],
 					"varname" : "Duration_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -2090,7 +2161,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 1389.0, 338.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 48.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 280.0, 48.0, 40.0, 96.0 ],
 					"varname" : "Velocity_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -2115,7 +2186,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 1176.0, 344.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 48.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 184.0, 48.0, 40.0, 96.0 ],
 					"varname" : "Rotate_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -2140,7 +2211,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 968.0, 336.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 48.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 136.0, 48.0, 40.0, 96.0 ],
 					"varname" : "Steps_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -2165,7 +2236,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 760.0, 336.0, 45.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 48.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 88.0, 48.0, 40.0, 96.0 ],
 					"varname" : "Pulses_Min_Max",
 					"viewvisibility" : 1
 				}
@@ -2473,7 +2544,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 480.0, 376.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 328.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Pitch Toggle",
@@ -2533,7 +2604,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1528.0, 368.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 392.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Duration Toggle",
@@ -2569,7 +2640,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1104.0, 376.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 32.0, 40.0, 16.0 ],
+					"presentation_rect" : [ 184.0, 32.0, 40.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Rotate Toggle",
@@ -2605,7 +2676,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 896.0, 376.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 136.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Steps Toggle",
@@ -2641,7 +2712,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 688.0, 376.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 88.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Pulses Toggle",
@@ -2712,7 +2783,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3026,7 +3097,7 @@
 
 							}
  ],
-						"originid" : "pat-5122"
+						"originid" : "pat-7304"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -3064,7 +3135,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 472.0, 136.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 64.0, 40.0, 16.0 ],
+					"presentation_rect" : [ 0.0, 104.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Track 4 Toggle.",
@@ -3100,7 +3171,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 448.0, 112.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 48.0, 40.0, 16.0 ],
+					"presentation_rect" : [ 0.0, 80.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Track 3 Toggle",
@@ -3136,7 +3207,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 424.0, 88.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 40.0, 16.0 ],
+					"presentation_rect" : [ 0.0, 56.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Track 2 Toggle",
@@ -3172,7 +3243,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 408.0, 64.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 16.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 40.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Track 1 Toggle",
@@ -3208,7 +3279,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1312.0, 368.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 32.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 280.0, 32.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize Velocity Toggle",
@@ -3813,6 +3884,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"source" : [ "obj-170", 0 ]
 				}
 
 			}
@@ -4495,6 +4573,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
 					"source" : [ "obj-93", 0 ]
 				}
@@ -4508,7 +4593,7 @@
 
 			}
  ],
-		"originid" : "pat-5070",
+		"originid" : "pat-7252",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
@@ -4519,6 +4604,7 @@
 			"obj-147" : [ "Randomize_Division", "Div", 0 ],
 			"obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-16" : [ "Randomize_Steps", "Steps", 0 ],
+			"obj-170" : [ "Randomize_Trigger", "Trigger", 0 ],
 			"obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
 			"obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
 			"obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],
