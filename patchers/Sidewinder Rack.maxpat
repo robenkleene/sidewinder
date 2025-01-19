@@ -19,6 +19,18 @@
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 720.0, 104.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "int: Randomize trigger value",
 					"id" : "obj-38",
 					"index" : 0,
@@ -854,15 +866,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-30", 1 ]
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-30", 0 ]
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-30", 1 ]
 				}
 
 			}
@@ -919,6 +931,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -986,7 +1005,7 @@
 
 			}
  ],
-		"originid" : "pat-5366",
+		"originid" : "pat-6716",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
