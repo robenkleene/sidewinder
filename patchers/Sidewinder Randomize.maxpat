@@ -10,12 +10,36 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 626.0, 101.0, 1248.0, 922.0 ],
+		"rect" : [ 446.0, 100.0, 946.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "int: Randomize trigger note",
+					"id" : "obj-174",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1584.0, 1416.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1584.0, 896.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-170",
 					"maxclass" : "live.numbox",
@@ -23,16 +47,16 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1584.0, 976.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1584.0, 960.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 48.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Randomize_Trigger",
-							"parameter_modmode" : 3,
+							"parameter_modmode" : 4,
 							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Trigger",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 8
 						}
 
@@ -49,7 +73,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1584.0, 944.0, 46.0, 33.0 ],
+					"patching_rect" : [ 1584.0, 928.0, 46.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 40.0, 16.0, 46.0, 33.0 ],
@@ -64,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 600.0, 153.0, 114.0 ],
+					"patching_rect" : [ 752.0, 600.0, 155.0, 114.0 ],
 					"text" : "The randomized steps value becomes the maximum for the pulses (if it's less than the existing maximum). This is to make it less likely for pulses and steps to match which isn't interesting."
 				}
 
@@ -755,7 +779,7 @@
 						"Randomize_Rotate" : [ 0.0 ],
 						"Randomize_Sequencer" : [ 0.0 ],
 						"Randomize_Steps" : [ 0.0 ],
-						"Randomize_Trigger" : [ 0.0 ],
+						"Randomize_Trigger" : [ 5.0 ],
 						"Randomize_Velocity" : [ 0.0 ]
 					}
 ,
@@ -1951,7 +1975,7 @@
 
 							}
  ],
-						"originid" : "pat-4290"
+						"originid" : "pat-4730"
 					}
 ,
 					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
@@ -3069,7 +3093,7 @@
 
 							}
  ],
-						"originid" : "pat-4334"
+						"originid" : "pat-4774"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -3861,6 +3885,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"source" : [ "obj-170", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-171", 0 ],
 					"source" : [ "obj-172", 0 ]
 				}
@@ -4538,6 +4569,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
 					"source" : [ "obj-93", 0 ]
 				}
@@ -4551,7 +4589,7 @@
 
 			}
  ],
-		"originid" : "pat-4282",
+		"originid" : "pat-4722",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
