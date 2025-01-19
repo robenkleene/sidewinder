@@ -41,6 +41,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If the incoming MIDI note matches this note, than randomize is triggered.",
+					"annotation_name" : "Randomize Trigger",
 					"id" : "obj-170",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -52,6 +54,8 @@
 					"presentation_rect" : [ 40.0, 48.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Trigger",
+							"parameter_info" : "If the incoming MIDI note matches this note, than randomize is triggered.",
 							"parameter_longname" : "Randomize_Trigger",
 							"parameter_modmode" : 4,
 							"parameter_osc_name" : "<default>",
@@ -779,7 +783,7 @@
 						"Randomize_Rotate" : [ 0.0 ],
 						"Randomize_Sequencer" : [ 0.0 ],
 						"Randomize_Steps" : [ 0.0 ],
-						"Randomize_Trigger" : [ 5.0 ],
+						"Randomize_Trigger" : [ 0.0 ],
 						"Randomize_Velocity" : [ 0.0 ]
 					}
 ,
@@ -1975,7 +1979,7 @@
 
 							}
  ],
-						"originid" : "pat-4730"
+						"originid" : "pat-7260"
 					}
 ,
 					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
@@ -3093,7 +3097,7 @@
 
 							}
  ],
-						"originid" : "pat-4774"
+						"originid" : "pat-7304"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -4589,7 +4593,7 @@
 
 			}
  ],
-		"originid" : "pat-4722",
+		"originid" : "pat-7252",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
