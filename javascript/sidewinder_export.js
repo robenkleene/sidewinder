@@ -9,6 +9,7 @@ function bang() {
   var interval = d.get("interval");
   d.clear();
   var notes = makeNotes(pitches, durations, velocities, durations, interval);
+  d.set("notes", notes);
 }
 
 function makeNotes(pitches, durations, velocities, durations, interval) {
