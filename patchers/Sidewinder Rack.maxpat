@@ -31,18 +31,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "int: Randomize trigger value",
-					"id" : "obj-38",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 568.0, 472.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -192,7 +180,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 472.0, 30.0, 30.0 ]
+					"patching_rect" : [ 288.0, 472.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -216,7 +204,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 472.0, 30.0, 30.0 ]
+					"patching_rect" : [ 344.0, 472.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -230,11 +218,11 @@
 					"patching_rect" : [ 48.0, 8.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 1.0 ],
+						"Play" : [ 0.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Solo" : [ 0.0 ],
-						"Tab" : [ 1.0 ],
+						"Tab" : [ 0.0 ],
 						"Write" : [ 0.0 ]
 					}
 ,
@@ -670,7 +658,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 472.0, 30.0, 30.0 ]
+					"patching_rect" : [ 144.0, 472.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -700,9 +688,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 5,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, -168.0 ],
-					"outlettype" : [ "int", "int", "int", "bang", "" ],
+					"outlettype" : [ "int", "int", "int", "bang" ],
 					"patching_rect" : [ 8.0, 264.0, 576.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 0.0, 576.0, 168.0 ],
@@ -715,7 +703,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -731,7 +719,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -992,20 +980,13 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"source" : [ "obj-8", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-6716",
+		"originid" : "pat-15012",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
@@ -1091,6 +1072,7 @@
 			"obj-8::obj-7::obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-8::obj-7::obj-16" : [ "Randomize_Steps", "Steps", 0 ],
 			"obj-8::obj-7::obj-170" : [ "Randomize_Trigger", "Trigger", 0 ],
+			"obj-8::obj-7::obj-175" : [ "Randomize_Trigger_Set", "Set", 0 ],
 			"obj-8::obj-7::obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
 			"obj-8::obj-7::obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
 			"obj-8::obj-7::obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],
