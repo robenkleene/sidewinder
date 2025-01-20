@@ -17,6 +17,42 @@
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "If on, the next note will set the randomize note trigger (without triggering a randomize).",
+					"annotation_name" : "Randomize Set Trigger",
+					"automation" : "Off",
+					"automationon" : "On",
+					"id" : "obj-175",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1704.0, 1352.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 40.0, 64.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_annotation_name" : "Randomize Set Trigger",
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "If on, the next note will set the randomize note trigger (without triggering a randomize).",
+							"parameter_longname" : "Randomize_Set_Trigger",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "Set",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Set",
+					"texton" : "Set",
+					"varname" : "Randomize_Set_Trigger"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "int: Randomize trigger note",
 					"id" : "obj-174",
 					"index" : 0,
@@ -782,6 +818,7 @@
 						"Randomize_Pulses" : [ 0.0 ],
 						"Randomize_Rotate" : [ 0.0 ],
 						"Randomize_Sequencer" : [ 0.0 ],
+						"Randomize_Set_Trigger" : [ 0.0 ],
 						"Randomize_Steps" : [ 0.0 ],
 						"Randomize_Trigger" : [ 0.0 ],
 						"Randomize_Velocity" : [ 0.0 ]
@@ -1979,7 +2016,7 @@
 
 							}
  ],
-						"originid" : "pat-7260"
+						"originid" : "pat-9784"
 					}
 ,
 					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
@@ -3097,7 +3134,7 @@
 
 							}
  ],
-						"originid" : "pat-7304"
+						"originid" : "pat-9828"
 					}
 ,
 					"patching_rect" : [ 390.0, 165.0, 99.0, 22.0 ],
@@ -4593,7 +4630,7 @@
 
 			}
  ],
-		"originid" : "pat-7252",
+		"originid" : "pat-9776",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
@@ -4605,6 +4642,7 @@
 			"obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-16" : [ "Randomize_Steps", "Steps", 0 ],
 			"obj-170" : [ "Randomize_Trigger", "Trigger", 0 ],
+			"obj-175" : [ "Randomize_Set_Trigger", "Set", 0 ],
 			"obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
 			"obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
 			"obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],
