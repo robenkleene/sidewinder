@@ -10,19 +10,47 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 304.0, 107.0, 915.0, 922.0 ],
+		"rect" : [ 304.0, 107.0, 1452.0, 1085.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 888.0, 736.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 888.0, 680.0, 118.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "sidewinder_export",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js sidewinder_export"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-175",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 904.0, 616.0, 32.0, 22.0 ],
+					"patching_rect" : [ 904.0, 640.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -33,9 +61,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
-					"outlettype" : [ "export", "int", "bang", "int", "clear" ],
-					"patching_rect" : [ 888.0, 584.0, 108.0, 22.0 ],
-					"text" : "t export 0 b 1 clear"
+					"outlettype" : [ "bang", "int", "bang", "int", "clear" ],
+					"patching_rect" : [ 888.0, 584.0, 81.0, 22.0 ],
+					"text" : "t b 0 b 1 clear"
 				}
 
 			}
@@ -46,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 888.0, 648.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1016.0, 680.0, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"legacy" : 0,
@@ -54,7 +82,7 @@
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "dict"
+					"text" : "dict export"
 				}
 
 			}
@@ -65,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 792.0, 616.0, 81.0, 22.0 ],
+					"patching_rect" : [ 784.0, 664.0, 81.0, 22.0 ],
 					"text" : "dump_to_dict"
 				}
 
@@ -1689,7 +1717,7 @@
 
 							}
  ],
-						"originid" : "pat-34723"
+						"originid" : "pat-40009"
 					}
 ,
 					"patching_rect" : [ 1528.0, 808.0, 101.0, 22.0 ],
@@ -2627,7 +2655,7 @@
 
 							}
  ],
-						"originid" : "pat-34725"
+						"originid" : "pat-40011"
 					}
 ,
 					"patching_rect" : [ 1528.0, 448.0, 448.0, 22.0 ],
@@ -2950,7 +2978,7 @@
 
 							}
  ],
-						"originid" : "pat-34743"
+						"originid" : "pat-40029"
 					}
 ,
 					"patching_rect" : [ 1528.0, 648.0, 240.0, 22.0 ],
@@ -3978,7 +4006,7 @@
 
 							}
  ],
-						"originid" : "pat-34759"
+						"originid" : "pat-40045"
 					}
 ,
 					"patching_rect" : [ 168.0, 576.0, 79.0, 22.0 ],
@@ -4210,7 +4238,7 @@
 
 							}
  ],
-						"originid" : "pat-34761"
+						"originid" : "pat-40047"
 					}
 ,
 					"patching_rect" : [ 168.0, 280.0, 97.0, 22.0 ],
@@ -4540,7 +4568,7 @@
 
 											}
  ],
-										"originid" : "pat-34765"
+										"originid" : "pat-40051"
 									}
 ,
 									"patching_rect" : [ 420.0, 120.0, 240.0, 22.0 ],
@@ -4839,7 +4867,7 @@
 
 							}
  ],
-						"originid" : "pat-34763"
+						"originid" : "pat-40049"
 					}
 ,
 					"patching_rect" : [ 280.0, 248.0, 119.0, 22.0 ],
@@ -5550,21 +5578,35 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-174", 0 ]
+					"source" : [ "obj-174", 4 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-175", 0 ],
-					"source" : [ "obj-174", 2 ]
+					"source" : [ "obj-174", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-175", 0 ],
+					"source" : [ "obj-174", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-174", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
-					"source" : [ "obj-174", 1 ]
+					"source" : [ "obj-174", 2 ]
 				}
 
 			}
@@ -5685,6 +5727,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -6310,7 +6359,7 @@
 
 			}
  ],
-		"originid" : "pat-34715",
+		"originid" : "pat-40001",
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
 			"obj-13" : [ "Export", "Export", 0 ],
@@ -6358,6 +6407,13 @@
 			}
 , 			{
 				"name" : "sidewinder_bjorklund.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_export.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
