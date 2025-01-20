@@ -218,11 +218,11 @@
 					"patching_rect" : [ 48.0, 8.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 1.0 ],
+						"Play" : [ 0.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Solo" : [ 0.0 ],
-						"Tab" : [ 1.0 ],
+						"Tab" : [ 0.0 ],
 						"Write" : [ 0.0 ]
 					}
 ,
@@ -986,7 +986,7 @@
 
 			}
  ],
-		"originid" : "pat-12194",
+		"originid" : "pat-15012",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
@@ -1072,7 +1072,7 @@
 			"obj-8::obj-7::obj-15" : [ "Randomize_Pulses", "Pulses", 0 ],
 			"obj-8::obj-7::obj-16" : [ "Randomize_Steps", "Steps", 0 ],
 			"obj-8::obj-7::obj-170" : [ "Randomize_Trigger", "Trigger", 0 ],
-			"obj-8::obj-7::obj-175" : [ "Randomize_Set_Trigger", "Set", 0 ],
+			"obj-8::obj-7::obj-175" : [ "Randomize_Trigger_Set", "Set", 0 ],
 			"obj-8::obj-7::obj-25" : [ "Randomize_Rotate", "Rotate", 0 ],
 			"obj-8::obj-7::obj-29::obj-1" : [ "Randomize_Pulses-Min", "PlsMin", 0 ],
 			"obj-8::obj-7::obj-29::obj-2" : [ "Randomize_Pulses-Max", "PlsMax", 0 ],
