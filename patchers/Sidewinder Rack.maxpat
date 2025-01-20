@@ -124,7 +124,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 240.0, 40.0, 44.0, 15.0 ],
+					"patching_rect" : [ 240.0, 24.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -218,7 +218,7 @@
 					"patching_rect" : [ 48.0, 8.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 0.0 ],
+						"Play" : [ 1.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Solo" : [ 0.0 ],
@@ -689,7 +689,7 @@
 					"name" : "Sidewinder Module Bank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"offset" : [ 0.0, -168.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int", "int", "bang" ],
 					"patching_rect" : [ 8.0, 264.0, 576.0, 168.0 ],
 					"presentation" : 1,
@@ -986,7 +986,7 @@
 
 			}
  ],
-		"originid" : "pat-15012",
+		"originid" : "pat-28745",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
