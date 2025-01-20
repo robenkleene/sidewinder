@@ -19,6 +19,34 @@
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 976.0, 680.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "Export",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "Export",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Export",
+					"varname" : "Export"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -217,6 +245,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 48.0, 8.0, 56.0, 22.0 ],
 					"restore" : 					{
+						"Export" : [ 0.0 ],
 						"Overwrite" : [ 0.0 ],
 						"Play" : [ 1.0 ],
 						"Randomize" : [ 0.0 ],
@@ -986,7 +1015,7 @@
 
 			}
  ],
-		"originid" : "pat-28745",
+		"originid" : "pat-34131",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
@@ -994,6 +1023,7 @@
 			"obj-17" : [ "Overwrite", "OW", 0 ],
 			"obj-19" : [ "Solo", "Solo", 0 ],
 			"obj-20" : [ "Randomize", "Rand", 0 ],
+			"obj-38" : [ "Export", "Export", 0 ],
 			"obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
 			"obj-8::obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
 			"obj-8::obj-13::obj-143::obj-141" : [ "2-Right", "Right", 0 ],
