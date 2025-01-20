@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "toggle: 1 if set randomize trigger is on, 0 otherwise",
 					"id" : "obj-177",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -2075,7 +2075,7 @@
 
 							}
  ],
-						"originid" : "pat-9784"
+						"originid" : "pat-10596"
 					}
 ,
 					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
@@ -3169,7 +3169,7 @@
 
 							}
  ],
-						"originid" : "pat-9828"
+						"originid" : "pat-10640"
 					}
 ,
 					"patching_rect" : [ 438.0, 165.0, 99.0, 22.0 ],
@@ -4693,7 +4693,7 @@
 
 			}
  ],
-		"originid" : "pat-9776",
+		"originid" : "pat-10588",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
