@@ -72,6 +72,7 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
 - For Pitch, the top number and bottom pitches are the minimum and maximum pitches
 - **Note Trigger:** If the incoming MIDI note matches this note, than randomize is triggered (i.e., this is a way to trigger randomize via MIDI)
+- **Set Note Trigger:** The next incoming note will set the note trigger value without triggering randomize
 - **Auto Beats:** Automatically trigger a randomize after every number of beats (this is based on the current transport status, e.g., if it's set to `4` and you're currently on beat `2`, it'll trigger the randomize in `2` more beats)
 
 #### Pitch Note Controls
