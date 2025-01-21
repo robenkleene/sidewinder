@@ -9,7 +9,9 @@ function bang() {
   var interval = d.get("interval");
   d.clear();
   var notes = makeNotes(pitches, durations, velocities, durations, interval);
-  d.set("notes", notes);
+  var notesContainer = {};
+  notesContainer["notes"] = notes;
+  d.parse(JSON.stringify(notesContainer));
 }
 
 function makeNotes(pitches, durations, velocities, durations, interval) {

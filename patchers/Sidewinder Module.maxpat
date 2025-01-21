@@ -17,17 +17,6 @@
 		"objectsnaponopen" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-92",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 888.0, 736.0, 32.0, 22.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -35,7 +24,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 888.0, 680.0, 118.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sidewinder_export",
+						"filename" : "sidewinder_export.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -1717,7 +1706,7 @@
 
 							}
  ],
-						"originid" : "pat-40009"
+						"originid" : "pat-40139"
 					}
 ,
 					"patching_rect" : [ 1528.0, 808.0, 101.0, 22.0 ],
@@ -2655,7 +2644,7 @@
 
 							}
  ],
-						"originid" : "pat-40011"
+						"originid" : "pat-40141"
 					}
 ,
 					"patching_rect" : [ 1528.0, 448.0, 448.0, 22.0 ],
@@ -2978,7 +2967,7 @@
 
 							}
  ],
-						"originid" : "pat-40029"
+						"originid" : "pat-40159"
 					}
 ,
 					"patching_rect" : [ 1528.0, 648.0, 240.0, 22.0 ],
@@ -4006,7 +3995,7 @@
 
 							}
  ],
-						"originid" : "pat-40045"
+						"originid" : "pat-40175"
 					}
 ,
 					"patching_rect" : [ 168.0, 576.0, 79.0, 22.0 ],
@@ -4238,7 +4227,7 @@
 
 							}
  ],
-						"originid" : "pat-40047"
+						"originid" : "pat-40177"
 					}
 ,
 					"patching_rect" : [ 168.0, 280.0, 97.0, 22.0 ],
@@ -4568,7 +4557,7 @@
 
 											}
  ],
-										"originid" : "pat-40051"
+										"originid" : "pat-40181"
 									}
 ,
 									"patching_rect" : [ 420.0, 120.0, 240.0, 22.0 ],
@@ -4867,7 +4856,7 @@
 
 							}
  ],
-						"originid" : "pat-40049"
+						"originid" : "pat-40179"
 					}
 ,
 					"patching_rect" : [ 280.0, 248.0, 119.0, 22.0 ],
@@ -5732,13 +5721,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -6359,7 +6341,7 @@
 
 			}
  ],
-		"originid" : "pat-40001",
+		"originid" : "pat-40131",
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
 			"obj-13" : [ "Export", "Export", 0 ],
