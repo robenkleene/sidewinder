@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 304.0, 107.0, 1452.0, 1085.0 ],
+		"rect" : [ 533.0, 159.0, 1452.0, 1085.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -22,7 +22,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 888.0, 680.0, 118.0, 22.0 ],
+					"patching_rect" : [ 904.0, 688.0, 118.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sidewinder_export.js",
 						"parameter_enable" : 0
@@ -39,7 +39,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 904.0, 640.0, 32.0, 22.0 ],
+					"patching_rect" : [ 872.0, 640.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -49,10 +49,10 @@
 					"id" : "obj-174",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "bang", "int", "bang", "int", "clear" ],
-					"patching_rect" : [ 888.0, 584.0, 81.0, 22.0 ],
-					"text" : "t b 0 b 1 clear"
+					"numoutlets" : 6,
+					"outlettype" : [ "export", "bang", "int", "bang", "int", "clear" ],
+					"patching_rect" : [ 888.0, 584.0, 118.0, 22.0 ],
+					"text" : "t export b 0 b 1 clear"
 				}
 
 			}
@@ -63,7 +63,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 1016.0, 680.0, 64.0, 22.0 ],
+					"patching_rect" : [ 1032.0, 688.0, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"legacy" : 0,
@@ -82,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 664.0, 81.0, 22.0 ],
+					"patching_rect" : [ 776.0, 640.0, 81.0, 22.0 ],
 					"text" : "dump_to_dict"
 				}
 
@@ -1706,7 +1706,7 @@
 
 							}
  ],
-						"originid" : "pat-40139"
+						"originid" : "pat-40221"
 					}
 ,
 					"patching_rect" : [ 1528.0, 808.0, 101.0, 22.0 ],
@@ -2644,7 +2644,7 @@
 
 							}
  ],
-						"originid" : "pat-40141"
+						"originid" : "pat-40223"
 					}
 ,
 					"patching_rect" : [ 1528.0, 448.0, 448.0, 22.0 ],
@@ -2967,7 +2967,7 @@
 
 							}
  ],
-						"originid" : "pat-40159"
+						"originid" : "pat-40241"
 					}
 ,
 					"patching_rect" : [ 1528.0, 648.0, 240.0, 22.0 ],
@@ -3995,7 +3995,7 @@
 
 							}
  ],
-						"originid" : "pat-40175"
+						"originid" : "pat-40257"
 					}
 ,
 					"patching_rect" : [ 168.0, 576.0, 79.0, 22.0 ],
@@ -4227,7 +4227,7 @@
 
 							}
  ],
-						"originid" : "pat-40177"
+						"originid" : "pat-40259"
 					}
 ,
 					"patching_rect" : [ 168.0, 280.0, 97.0, 22.0 ],
@@ -4557,7 +4557,7 @@
 
 											}
  ],
-										"originid" : "pat-40181"
+										"originid" : "pat-40263"
 									}
 ,
 									"patching_rect" : [ 420.0, 120.0, 240.0, 22.0 ],
@@ -4856,7 +4856,7 @@
 
 							}
  ],
-						"originid" : "pat-40179"
+						"originid" : "pat-40261"
 					}
 ,
 					"patching_rect" : [ 280.0, 248.0, 119.0, 22.0 ],
@@ -5567,6 +5567,20 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-174", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-175", 0 ],
 					"source" : [ "obj-174", 4 ]
 				}
 
@@ -5574,28 +5588,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-175", 0 ],
-					"source" : [ "obj-174", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-175", 0 ],
-					"source" : [ "obj-174", 1 ]
+					"source" : [ "obj-174", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-174", 0 ]
+					"source" : [ "obj-174", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
-					"source" : [ "obj-174", 2 ]
+					"source" : [ "obj-174", 3 ]
 				}
 
 			}
@@ -6341,7 +6348,7 @@
 
 			}
  ],
-		"originid" : "pat-40131",
+		"originid" : "pat-40213",
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
 			"obj-13" : [ "Export", "Export", 0 ],
