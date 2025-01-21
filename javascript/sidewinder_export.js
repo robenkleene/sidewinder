@@ -1,7 +1,7 @@
 // Inlets & Outlets
 inlets = 1;
 
-WHOLE_NOTE_TICKS = 1920;
+TICKS_PER_BEAT = 480;
 
 function bang() {
   var d = new Dict("export");
@@ -25,10 +25,10 @@ function makeNotes(pitches, durations, velocities, durations, interval) {
       note["start_time"] = startTime;
       note["pitch"] = pitches[i];
       note["velocity"] = velocities[i];
-      note["duration"] = durations[i] / WHOLE_NOTE_TICKS;
+      note["duration"] = durations[i] / TICKS_PER_BEAT;
       notes.push(note);
     }
-    startTime += interval / WHOLE_NOTE_TICKS;
+    startTime += interval / TICKS_PER_BEAT;
   }
   return notes;
 }
