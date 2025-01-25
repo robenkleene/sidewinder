@@ -1218,9 +1218,10 @@
 
 			}
  ],
-		"originid" : "pat-14486",
+		"originid" : "pat-5046",
 		"parameters" : 		{
 			"obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
+			"obj-13::obj-13" : [ "2-Export", "Export", 0 ],
 			"obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
 			"obj-13::obj-143::obj-141" : [ "2-Right", "Right", 0 ],
 			"obj-13::obj-143::obj-142" : [ "2-Left", "Left", 0 ],
@@ -1238,6 +1239,7 @@
 			"obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
 			"obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
 			"obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
+			"obj-18::obj-13" : [ "3-Export", "Export", 0 ],
 			"obj-18::obj-143::obj-136" : [ "3-Down", "Down", 0 ],
 			"obj-18::obj-143::obj-141" : [ "3-Right", "Right", 0 ],
 			"obj-18::obj-143::obj-142" : [ "3-Left", "Left", 0 ],
@@ -1255,6 +1257,7 @@
 			"obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
 			"obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
 			"obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
+			"obj-1::obj-13" : [ "1-Export", "Export", 0 ],
 			"obj-1::obj-143::obj-136" : [ "1-Down", "Down", 0 ],
 			"obj-1::obj-143::obj-141" : [ "1-Right", "Right", 0 ],
 			"obj-1::obj-143::obj-142" : [ "1-Left", "Left", 0 ],
@@ -1272,6 +1275,7 @@
 			"obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
 			"obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
 			"obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
+			"obj-21::obj-13" : [ "4-Export", "Export", 0 ],
 			"obj-21::obj-143::obj-136" : [ "4-Down", "Down", 0 ],
 			"obj-21::obj-143::obj-141" : [ "4-Right", "Right", 0 ],
 			"obj-21::obj-143::obj-142" : [ "4-Left", "Left", 0 ],
@@ -1432,6 +1436,13 @@
 			}
 , 			{
 				"name" : "sidewinder_bjorklund.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_export.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",

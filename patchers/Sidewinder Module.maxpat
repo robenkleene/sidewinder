@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 533.0, 159.0, 1452.0, 1085.0 ],
+		"rect" : [ 242.0, 100.0, 1150.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -24,7 +24,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 904.0, 688.0, 118.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sidewinder_export.js",
+						"filename" : "sidewinder_export",
 						"parameter_enable" : 0
 					}
 ,
@@ -102,7 +102,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Export",
+							"parameter_longname" : "#2-Export",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -113,7 +113,7 @@
 					}
 ,
 					"text" : "Export",
-					"varname" : "Export"
+					"varname" : "#2-Export"
 				}
 
 			}
@@ -644,14 +644,14 @@
 						"#2-Channel" : [ 1.0 ],
 						"#2-Division" : [ 0.0 ],
 						"#2-Duration" : [ 0.0 ],
+						"#2-Export" : [ 0.0 ],
 						"#2-Mode" : [ 0.0 ],
 						"#2-Pitch" : [ 3.0 ],
 						"#2-Rotate" : [ 0.0 ],
 						"#2-Sequencer" : [ 1, 3, 0, 1, 2, 0, 3, 62.684210526315802, 83.684210526315823, 0, 0, 60, 101, 4, 127, 127, 80, 83, 4, 127, 127, 71, 57, 4, 127, 127 ],
 						"#2-Set" : [ 0.0 ],
 						"#2-Track" : [ 0.0 ],
-						"#2-Velocity" : [ 0.0 ],
-						"Export" : [ 0.0 ]
+						"#2-Velocity" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1706,7 +1706,7 @@
 
 							}
  ],
-						"originid" : "pat-40221"
+						"originid" : "pat-2480"
 					}
 ,
 					"patching_rect" : [ 1528.0, 808.0, 101.0, 22.0 ],
@@ -2644,7 +2644,7 @@
 
 							}
  ],
-						"originid" : "pat-40223"
+						"originid" : "pat-2482"
 					}
 ,
 					"patching_rect" : [ 1528.0, 448.0, 448.0, 22.0 ],
@@ -2967,7 +2967,7 @@
 
 							}
  ],
-						"originid" : "pat-40241"
+						"originid" : "pat-2500"
 					}
 ,
 					"patching_rect" : [ 1528.0, 648.0, 240.0, 22.0 ],
@@ -3995,7 +3995,7 @@
 
 							}
  ],
-						"originid" : "pat-40257"
+						"originid" : "pat-2516"
 					}
 ,
 					"patching_rect" : [ 168.0, 576.0, 79.0, 22.0 ],
@@ -4227,7 +4227,7 @@
 
 							}
  ],
-						"originid" : "pat-40259"
+						"originid" : "pat-2518"
 					}
 ,
 					"patching_rect" : [ 168.0, 280.0, 97.0, 22.0 ],
@@ -4557,7 +4557,7 @@
 
 											}
  ],
-										"originid" : "pat-40263"
+										"originid" : "pat-2522"
 									}
 ,
 									"patching_rect" : [ 420.0, 120.0, 240.0, 22.0 ],
@@ -4856,7 +4856,7 @@
 
 							}
  ],
-						"originid" : "pat-40261"
+						"originid" : "pat-2520"
 					}
 ,
 					"patching_rect" : [ 280.0, 248.0, 119.0, 22.0 ],
@@ -6348,10 +6348,10 @@
 
 			}
  ],
-		"originid" : "pat-40213",
+		"originid" : "pat-2472",
 		"parameters" : 		{
 			"obj-11" : [ "#2-Rotate", "Rotate", 0 ],
-			"obj-13" : [ "Export", "Export", 0 ],
+			"obj-13" : [ "#2-Export", "Export", 0 ],
 			"obj-143::obj-136" : [ "#2-Down", "Down", 0 ],
 			"obj-143::obj-141" : [ "#2-Right", "Right", 0 ],
 			"obj-143::obj-142" : [ "#2-Left", "Left", 0 ],
