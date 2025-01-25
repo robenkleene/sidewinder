@@ -19,34 +19,6 @@
 		"subpatcher_template" : "max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "live.text",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 976.0, 680.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Export",
-							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
-							"parameter_shortname" : "Export",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : "Export",
-					"varname" : "Export"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -245,7 +217,6 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 48.0, 8.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"Export" : [ 0.0 ],
 						"Overwrite" : [ 0.0 ],
 						"Play" : [ 1.0 ],
 						"Randomize" : [ 0.0 ],
@@ -1015,7 +986,7 @@
 
 			}
  ],
-		"originid" : "pat-34131",
+		"originid" : "pat-3652",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
@@ -1023,8 +994,8 @@
 			"obj-17" : [ "Overwrite", "OW", 0 ],
 			"obj-19" : [ "Solo", "Solo", 0 ],
 			"obj-20" : [ "Randomize", "Rand", 0 ],
-			"obj-38" : [ "Export", "Export", 0 ],
 			"obj-8::obj-13::obj-11" : [ "2-Rotate", "Rotate", 0 ],
+			"obj-8::obj-13::obj-13" : [ "2-Export", "Export", 0 ],
 			"obj-8::obj-13::obj-143::obj-136" : [ "2-Down", "Down", 0 ],
 			"obj-8::obj-13::obj-143::obj-141" : [ "2-Right", "Right", 0 ],
 			"obj-8::obj-13::obj-143::obj-142" : [ "2-Left", "Left", 0 ],
@@ -1042,6 +1013,7 @@
 			"obj-8::obj-13::obj-81" : [ "2-Velocity", "Vel", 0 ],
 			"obj-8::obj-13::obj-84" : [ "2-Mode", "Mode", 0 ],
 			"obj-8::obj-18::obj-11" : [ "3-Rotate", "Rotate", 0 ],
+			"obj-8::obj-18::obj-13" : [ "3-Export", "Export", 0 ],
 			"obj-8::obj-18::obj-143::obj-136" : [ "3-Down", "Down", 0 ],
 			"obj-8::obj-18::obj-143::obj-141" : [ "3-Right", "Right", 0 ],
 			"obj-8::obj-18::obj-143::obj-142" : [ "3-Left", "Left", 0 ],
@@ -1059,6 +1031,7 @@
 			"obj-8::obj-18::obj-81" : [ "3-Velocity", "Vel", 0 ],
 			"obj-8::obj-18::obj-84" : [ "3-Mode", "Mode", 0 ],
 			"obj-8::obj-1::obj-11" : [ "1-Rotate", "Rotate", 0 ],
+			"obj-8::obj-1::obj-13" : [ "1-Export", "Export", 0 ],
 			"obj-8::obj-1::obj-143::obj-136" : [ "1-Down", "Down", 0 ],
 			"obj-8::obj-1::obj-143::obj-141" : [ "1-Right", "Right", 0 ],
 			"obj-8::obj-1::obj-143::obj-142" : [ "1-Left", "Left", 0 ],
@@ -1076,6 +1049,7 @@
 			"obj-8::obj-1::obj-81" : [ "1-Velocity", "Vel", 0 ],
 			"obj-8::obj-1::obj-84" : [ "1-Mode", "Mode", 0 ],
 			"obj-8::obj-21::obj-11" : [ "4-Rotate", "Rotate", 0 ],
+			"obj-8::obj-21::obj-13" : [ "4-Export", "Export", 0 ],
 			"obj-8::obj-21::obj-143::obj-136" : [ "4-Down", "Down", 0 ],
 			"obj-8::obj-21::obj-143::obj-141" : [ "4-Right", "Right", 0 ],
 			"obj-8::obj-21::obj-143::obj-142" : [ "4-Left", "Left", 0 ],
@@ -1251,6 +1225,13 @@
 			}
 , 			{
 				"name" : "sidewinder_bjorklund.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidewinder_export.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
