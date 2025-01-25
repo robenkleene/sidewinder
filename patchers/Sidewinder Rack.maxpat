@@ -218,7 +218,7 @@
 					"patching_rect" : [ 48.0, 8.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Overwrite" : [ 0.0 ],
-						"Play" : [ 1.0 ],
+						"Play" : [ 0.0 ],
 						"Randomize" : [ 0.0 ],
 						"Read" : [ 0.0 ],
 						"Solo" : [ 0.0 ],
@@ -986,7 +986,7 @@
 
 			}
  ],
-		"originid" : "pat-3652",
+		"originid" : "pat-5574",
 		"parameters" : 		{
 			"obj-10" : [ "Tab", "Tab", 0 ],
 			"obj-11" : [ "Read", "Read", 0 ],
