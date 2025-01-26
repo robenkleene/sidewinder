@@ -361,14 +361,14 @@
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
-							"parameter_shortname" : "Rand",
+							"parameter_shortname" : "Rscl",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "Rand",
-					"texton" : "Rand",
+					"text" : "Rscl",
+					"texton" : "Rscl",
 					"varname" : "Randomize_Notes_Scale_Rand"
 				}
 
@@ -2088,7 +2088,7 @@
 
 							}
  ],
-						"originid" : "pat-20774"
+						"originid" : "pat-11750"
 					}
 ,
 					"patching_rect" : [ 792.0, 472.0, 83.0, 22.0 ],
@@ -3182,7 +3182,7 @@
 
 							}
  ],
-						"originid" : "pat-20818"
+						"originid" : "pat-11794"
 					}
 ,
 					"patching_rect" : [ 438.0, 165.0, 99.0, 22.0 ],
@@ -4734,7 +4734,7 @@
 
 			}
  ],
-		"originid" : "pat-20766",
+		"originid" : "pat-11742",
 		"parameters" : 		{
 			"obj-1" : [ "Randomize_Auto", "Auto", 0 ],
 			"obj-10" : [ "Randomize_3", "3", 0 ],
@@ -4755,7 +4755,7 @@
 			"obj-33::obj-7" : [ "Randomize_Pitch-Min", "PchMin", 0 ],
 			"obj-35::obj-1" : [ "Randomize_Steps-Min", "StpMin", 0 ],
 			"obj-35::obj-2" : [ "Randomize_Steps-Max", "StpMax", 0 ],
-			"obj-36" : [ "Randomize_Notes_Scale_Rand", "Rand", 0 ],
+			"obj-36" : [ "Randomize_Notes_Scale_Rand", "Rscl", 0 ],
 			"obj-38" : [ "Randomize_Sequencer", "Seq", 0 ],
 			"obj-39" : [ "Randomize_Pitch", "Pitch", 0 ],
 			"obj-46::obj-1" : [ "Randomize_Division-Min", "DivMin", 0 ],
