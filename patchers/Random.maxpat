@@ -231,7 +231,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 30.0, 180.0, 285.0, 22.0 ],
-					"text" : "sidewinder_random_inc"
+					"text" : "RandomIncrement"
 				}
 
 			}
@@ -392,7 +392,7 @@
  ],
 		"originid" : "pat-3740",
 		"dependency_cache" : [ 			{
-				"name" : "sidewinder_random_inc.maxpat",
+				"name" : "RandomIncrement.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

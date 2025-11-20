@@ -125,7 +125,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2360.0, 112.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_split"
+					"text" : "RandomSplits"
 				}
 
 			}
@@ -137,7 +137,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 2360.0, 208.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_add"
+					"text" : "RandomAdd"
 				}
 
 			}
@@ -2284,7 +2284,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 280.0, 216.0, 149.0, 22.0 ],
-									"text" : "sidewinder_list_one_value"
+									"text" : "ListOneVal"
 								}
 
 							}
@@ -2296,7 +2296,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 448.0, 216.0, 149.0, 22.0 ],
-									"text" : "sidewinder_list_one_value"
+									"text" : "ListOneVal"
 								}
 
 							}
@@ -2664,7 +2664,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1264.0, 112.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_split"
+					"text" : "RandomSplits"
 				}
 
 			}
@@ -2676,7 +2676,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2144.0, 112.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_split"
+					"text" : "RandomSplits"
 				}
 
 			}
@@ -2688,7 +2688,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1944.0, 112.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_split"
+					"text" : "RandomSplits"
 				}
 
 			}
@@ -2700,7 +2700,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1760.0, 112.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_split"
+					"text" : "RandomSplits"
 				}
 
 			}
@@ -2712,7 +2712,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1592.0, 112.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_split"
+					"text" : "RandomSplits"
 				}
 
 			}
@@ -2724,7 +2724,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1432.0, 112.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_split"
+					"text" : "RandomSplits"
 				}
 
 			}
@@ -2987,7 +2987,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1264.0, 208.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_add"
+					"text" : "RandomAdd"
 				}
 
 			}
@@ -3072,7 +3072,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 2144.0, 208.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_add"
+					"text" : "RandomAdd"
 				}
 
 			}
@@ -3084,7 +3084,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1944.0, 208.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_add"
+					"text" : "RandomAdd"
 				}
 
 			}
@@ -3096,7 +3096,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1760.0, 208.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_add"
+					"text" : "RandomAdd"
 				}
 
 			}
@@ -3108,7 +3108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1432.0, 208.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_add"
+					"text" : "RandomAdd"
 				}
 
 			}
@@ -3216,7 +3216,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1592.0, 208.0, 152.0, 22.0 ],
-					"text" : "sidewinder_random_add"
+					"text" : "RandomAdd"
 				}
 
 			}
@@ -6516,21 +6516,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_list_one_value.maxpat",
+				"name" : "ListOneVal.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_add.maxpat",
+				"name" : "RandomAdd.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_split.maxpat",
+				"name" : "RandomSplits.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

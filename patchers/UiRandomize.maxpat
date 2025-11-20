@@ -489,7 +489,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1712.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "Random"
 				}
 
 			}
@@ -2359,7 +2359,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.0, 512.0, 149.0, 22.0 ],
-					"text" : "sidewinder_random_notes"
+					"text" : "RandomNotes"
 				}
 
 			}
@@ -2371,7 +2371,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1512.0, 512.0, 149.0, 22.0 ],
-					"text" : "sidewinder_random_notes"
+					"text" : "RandomNotes"
 				}
 
 			}
@@ -2383,7 +2383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1304.0, 512.0, 149.0, 22.0 ],
-					"text" : "sidewinder_random_notes"
+					"text" : "RandomNotes"
 				}
 
 			}
@@ -2395,7 +2395,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1088.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "Random"
 				}
 
 			}
@@ -2575,7 +2575,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 672.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "Random"
 				}
 
 			}
@@ -2611,7 +2611,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 880.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "Random"
 				}
 
 			}
@@ -4851,21 +4851,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random.maxpat",
+				"name" : "Random.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_inc.maxpat",
+				"name" : "RandomIncrement.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_notes.maxpat",
+				"name" : "RandomNotes.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
