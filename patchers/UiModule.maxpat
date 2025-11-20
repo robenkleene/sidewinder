@@ -558,7 +558,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Directions.maxpat",
+					"name" : "UiDirections.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
@@ -3774,7 +3774,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Pulses-Steps.maxpat",
+					"name" : "UiPulsesSteps.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -6488,14 +6488,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Sidewinder Directions.maxpat",
+				"name" : "UiDirections.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Pulses-Steps.maxpat",
+				"name" : "UiPulsesSteps.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

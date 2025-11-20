@@ -686,7 +686,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Module Bank.maxpat",
+					"name" : "UiModuleBank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
@@ -1161,56 +1161,56 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Sidewinder Directions.maxpat",
+				"name" : "UiDirections.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Dial.maxpat",
+				"name" : "UiMinMaxDial.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Duration.maxpat",
+				"name" : "UiMinMaxDur.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Numbox.maxpat",
+				"name" : "UiMinMaxNumbox.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Module Bank.maxpat",
+				"name" : "UiModuleBank.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Module.maxpat",
+				"name" : "UiModule.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Pulses-Steps.maxpat",
+				"name" : "UiPulsesSteps.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Randomize.maxpat",
+				"name" : "UiRandomize.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

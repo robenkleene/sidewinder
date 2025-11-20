@@ -222,7 +222,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Rack.maxpat",
+					"name" : "UiModuleRack.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
@@ -230,7 +230,7 @@
 					"patching_rect" : [ 8.0, 40.0, 624.0, 168.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 624.0, 168.0 ],
-					"varname" : "Sidewinder Rack",
+					"varname" : "UiModuleRack",
 					"viewvisibility" : 1
 				}
 
@@ -476,63 +476,63 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Sidewinder Directions.maxpat",
+				"name" : "UiDirections.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Dial.maxpat",
+				"name" : "UiMinMaxDial.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Duration.maxpat",
+				"name" : "UiMinMaxDur.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Numbox.maxpat",
+				"name" : "UiMinMaxNumbox.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Module Bank.maxpat",
+				"name" : "UiModuleBank.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Module.maxpat",
+				"name" : "UiModule.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Pulses-Steps.maxpat",
+				"name" : "UiPulsesSteps.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Rack.maxpat",
+				"name" : "UiModuleRack.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Randomize.maxpat",
+				"name" : "UiRandomize.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
