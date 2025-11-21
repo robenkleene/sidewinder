@@ -489,7 +489,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1712.0, 512.0, 113.0, 22.0 ],
-					"text" : "Random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -2395,7 +2395,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1088.0, 512.0, 113.0, 22.0 ],
-					"text" : "Random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -2575,7 +2575,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 672.0, 512.0, 113.0, 22.0 ],
-					"text" : "Random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -2611,7 +2611,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 880.0, 512.0, 113.0, 22.0 ],
-					"text" : "Random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -4851,7 +4851,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Random.maxpat",
+				"name" : "RandomParam.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

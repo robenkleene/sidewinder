@@ -208,7 +208,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 328.0, 113.0, 22.0 ],
-					"text" : "Random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -363,7 +363,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Random.maxpat",
+				"name" : "RandomParam.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
