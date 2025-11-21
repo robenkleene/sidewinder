@@ -1664,7 +1664,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 856.0, 896.0, 169.0, 22.0 ],
-					"text" : "import sidewinder_scales.json"
+					"text" : "import Scales.json"
 				}
 
 			}

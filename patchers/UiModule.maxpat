@@ -24,11 +24,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 904.0, 688.0, 118.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sidewinder_export",
+						"filename" : "Export",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js sidewinder_export"
+					"text" : "js Export"
 				}
 
 			}
@@ -2321,11 +2321,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 216.0, 200.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_scales",
+										"filename" : "Scales",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js sidewinder_scales"
+									"text" : "js Scales"
 								}
 
 							}
@@ -2797,11 +2797,11 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 104.0, 408.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "sidewinder_randomize",
+										"filename" : "Randomize",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js sidewinder_randomize"
+									"text" : "js Randomize"
 								}
 
 							}
@@ -3359,11 +3359,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 536.0, 145.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sidewinder_bjorklund.js",
+						"filename" : "Bjorklund.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js sidewinder_bjorklund.js"
+					"text" : "js Bjorklund.js"
 				}
 
 			}
@@ -3376,11 +3376,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 512.0, 145.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sidewinder_toussaint.js",
+						"filename" : "Toussaint.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js sidewinder_toussaint.js"
+					"text" : "js Toussaint.js"
 				}
 
 			}
@@ -5080,11 +5080,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 256.0, 139.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sidewinder_wrapper.js",
+						"filename" : "Wrapper.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js sidewinder_wrapper.js"
+					"text" : "js Wrapper.js"
 				}
 
 			}
@@ -6502,14 +6502,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_bjorklund.js",
+				"name" : "Bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_export.js",
+				"name" : "Export.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
@@ -6537,28 +6537,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_randomize.js",
+				"name" : "Randomize.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_scales.js",
+				"name" : "Scales.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_toussaint.js",
+				"name" : "Toussaint.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_wrapper.js",
+				"name" : "Wrapper.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",

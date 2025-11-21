@@ -546,7 +546,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_bjorklund.js",
+				"name" : "Bjorklund.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
@@ -595,28 +595,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_randomize.js",
+				"name" : "Randomize.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_scales.js",
+				"name" : "Scales.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_toussaint.js",
+				"name" : "Toussaint.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_wrapper.js",
+				"name" : "Wrapper.js",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
