@@ -468,7 +468,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Duration.maxpat",
+					"name" : "UiMinMaxDur.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -489,7 +489,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1712.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -1664,7 +1664,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 856.0, 896.0, 169.0, 22.0 ],
-					"text" : "import sidewinder_scales.json"
+					"text" : "import Scales.json"
 				}
 
 			}
@@ -2165,7 +2165,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Numbox.maxpat",
+					"name" : "UiMinMaxNumbox.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2214,7 +2214,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Duration.maxpat",
+					"name" : "UiMinMaxDur.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2263,7 +2263,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Dial.maxpat",
+					"name" : "UiMinMaxDial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2288,7 +2288,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Dial.maxpat",
+					"name" : "UiMinMaxDial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2313,7 +2313,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Dial.maxpat",
+					"name" : "UiMinMaxDial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2338,7 +2338,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Sidewinder Min-Max Dial.maxpat",
+					"name" : "UiMinMaxDial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2359,7 +2359,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.0, 512.0, 149.0, 22.0 ],
-					"text" : "sidewinder_random_notes"
+					"text" : "RandomNotes"
 				}
 
 			}
@@ -2371,7 +2371,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1512.0, 512.0, 149.0, 22.0 ],
-					"text" : "sidewinder_random_notes"
+					"text" : "RandomNotes"
 				}
 
 			}
@@ -2383,7 +2383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1304.0, 512.0, 149.0, 22.0 ],
-					"text" : "sidewinder_random_notes"
+					"text" : "RandomNotes"
 				}
 
 			}
@@ -2395,7 +2395,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 1088.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -2575,7 +2575,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 672.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -2611,7 +2611,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 880.0, 512.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -4830,42 +4830,42 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Sidewinder Min-Max Dial.maxpat",
+				"name" : "UiMinMaxDial.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Duration.maxpat",
+				"name" : "UiMinMaxDur.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder Min-Max Numbox.maxpat",
+				"name" : "UiMinMaxNumbox.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random.maxpat",
+				"name" : "RandomParam.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_inc.maxpat",
+				"name" : "RandomIncrement.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_notes.maxpat",
+				"name" : "RandomNotes.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

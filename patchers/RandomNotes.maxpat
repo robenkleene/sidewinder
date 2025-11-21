@@ -208,7 +208,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 328.0, 113.0, 22.0 ],
-					"text" : "sidewinder_random"
+					"text" : "RandomParam"
 				}
 
 			}
@@ -363,14 +363,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "sidewinder_random.maxpat",
+				"name" : "RandomParam.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sidewinder_random_inc.maxpat",
+				"name" : "RandomIncrement.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
