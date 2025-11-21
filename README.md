@@ -89,7 +89,7 @@ With the **Notes** is off, only the minimum and maximum pitches are used. If **N
 
 ## Installation
 
-Drag `max-for-live/Sidewinder.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
+Drag `max-for-live/Sidewinder.amxd` to `Ableton > User Library/Presets/MIDI Effects/Max MIDI Effect/`.
 
 ## Source Files
 
