@@ -1203,7 +1203,7 @@
             "obj-7::obj-6": [ "RandomizeVel", "Vel", 0 ],
             "obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "VelMin", 0 ],
             "obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "VelMax", 0 ],
-            "obj-7::obj-78": [ "Randomize_Notes", "Notes", 0 ],
+            "obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
             "obj-7::obj-8": [ "Randomize_1", "1", 0 ],
             "obj-7::obj-9": [ "Randomize_2", "2", 0 ],
             "obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],

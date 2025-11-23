@@ -801,7 +801,7 @@
                         "RandomizeTriggerSet": [ 0.0 ],
                         "RandomizeDivision": [ 0.0 ],
                         "RandomizeDur": [ 0.0 ],
-                        "Randomize_Notes": [ 0.0 ],
+                        "RandomizeNotes": [ 0.0 ],
                         "RandomizeNotesReverse": [ 0.0 ],
                         "RandomizePitch": [ 0.0 ],
                         "RandomizePulses": [ 0.0 ],
@@ -1598,7 +1598,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Notes",
+                            "parameter_longname": "RandomizeNotes",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Notes",
@@ -1607,7 +1607,7 @@
                     },
                     "text": "Notes",
                     "texton": "Notes",
-                    "varname": "Randomize_Notes"
+                    "varname": "RandomizeNotes"
                 }
             },
             {
@@ -4216,7 +4216,7 @@
             "obj-6": [ "RandomizeVel", "Vel", 0 ],
             "obj-73::obj-1": [ "RandomizeVel-Min", "VelMin", 0 ],
             "obj-73::obj-2": [ "RandomizeVel-Max", "VelMax", 0 ],
-            "obj-78": [ "Randomize_Notes", "Notes", 0 ],
+            "obj-78": [ "RandomizeNotes", "Notes", 0 ],
             "obj-8": [ "Randomize1", "1", 0 ],
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
