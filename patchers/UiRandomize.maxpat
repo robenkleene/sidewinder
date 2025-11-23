@@ -507,7 +507,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Division",
+                            "parameter_longname": "RandomizeDivision",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Div",
@@ -516,7 +516,7 @@
                     },
                     "text": "Div",
                     "texton": "Div",
-                    "varname": "Randomize_Division"
+                    "varname": "RandomizeDivision"
                 }
             },
             {
@@ -799,16 +799,16 @@
                         "RandomizeNotesScaleRand": [ 1.0 ],
                         "RandomizeTrigger": [ 0.0 ],
                         "RandomizeTriggerSet": [ 0.0 ],
-                        "Randomize_Division": [ 0.0 ],
-                        "Randomize_Duration": [ 0.0 ],
+                        "RandomizeDivision": [ 0.0 ],
+                        "RandomizeDur": [ 0.0 ],
                         "Randomize_Notes": [ 0.0 ],
-                        "Randomize_Notes_Reverse": [ 0.0 ],
-                        "Randomize_Pitch": [ 0.0 ],
-                        "Randomize_Pulses": [ 0.0 ],
-                        "Randomize_Rotate": [ 0.0 ],
-                        "Randomize_Sequencer": [ 0.0 ],
-                        "Randomize_Steps": [ 0.0 ],
-                        "Randomize_Velocity": [ 0.0 ]
+                        "RandomizeNotesReverse": [ 0.0 ],
+                        "RandomizePitch": [ 0.0 ],
+                        "RandomizePulses": [ 0.0 ],
+                        "RandomizeRotate": [ 0.0 ],
+                        "RandomizeSequencer": [ 0.0 ],
+                        "RandomizeSteps": [ 0.0 ],
+                        "RandomizeVel": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u457004162"
@@ -1164,7 +1164,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Notes_Reverse",
+                            "parameter_longname": "RandomizeNotesReverse",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Rev",
@@ -1173,7 +1173,7 @@
                     },
                     "text": "Rev",
                     "texton": "Rev",
-                    "varname": "Randomize_Notes_Reverse"
+                    "varname": "RandomizeNotesReverse"
                 }
             },
             {
@@ -1919,7 +1919,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "none", "random", "scramble" ],
-                            "parameter_longname": "Randomize_Sequencer",
+                            "parameter_longname": "RandomizeSequencer",
                             "parameter_mmax": 2,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Seq",
@@ -1927,7 +1927,7 @@
                             "parameter_unitstyle": 9
                         }
                     },
-                    "varname": "Randomize_Sequencer"
+                    "varname": "RandomizeSequencer"
                 }
             },
             {
@@ -2400,7 +2400,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Pitch",
+                            "parameter_longname": "RandomizePitch",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Pitch",
@@ -2409,7 +2409,7 @@
                     },
                     "text": "Pitch",
                     "texton": "Pitch",
-                    "varname": "Randomize_Pitch"
+                    "varname": "RandomizePitch"
                 }
             },
             {
@@ -2452,7 +2452,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Duration",
+                            "parameter_longname": "RandomizeDur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dur",
@@ -2461,7 +2461,7 @@
                     },
                     "text": "Dur",
                     "texton": "Dur",
-                    "varname": "Randomize_Duration"
+                    "varname": "RandomizeDur"
                 }
             },
             {
@@ -2482,7 +2482,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Rotate",
+                            "parameter_longname": "RandomizeRotate",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Rotate",
@@ -2491,7 +2491,7 @@
                     },
                     "text": "Rotate",
                     "texton": "Rotate",
-                    "varname": "Randomize_Rotate"
+                    "varname": "RandomizeRotate"
                 }
             },
             {
@@ -2512,7 +2512,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Steps",
+                            "parameter_longname": "RandomizeSteps",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Steps",
@@ -2521,7 +2521,7 @@
                     },
                     "text": "Steps",
                     "texton": "Steps",
-                    "varname": "Randomize_Steps"
+                    "varname": "RandomizeSteps"
                 }
             },
             {
@@ -2542,7 +2542,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Pulses",
+                            "parameter_longname": "RandomizePulses",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Pulses",
@@ -2551,7 +2551,7 @@
                     },
                     "text": "Pulses",
                     "texton": "Pulses",
-                    "varname": "Randomize_Pulses"
+                    "varname": "RandomizePulses"
                 }
             },
             {
@@ -3014,7 +3014,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize_Velocity",
+                            "parameter_longname": "RandomizeVel",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Vel",
@@ -3023,7 +3023,7 @@
                     },
                     "text": "Vel",
                     "texton": "Vel",
-                    "varname": "Randomize_Velocity"
+                    "varname": "RandomizeVel"
                 }
             }
         ],
@@ -4190,32 +4190,32 @@
             "obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
             "obj-11": [ "Randomize4", "4", 0 ],
             "obj-110": [ "RandomizeNotesRests", "Rests", 0 ],
-            "obj-111": [ "Randomize_Notes_Reverse", "Rev", 0 ],
-            "obj-147": [ "Randomize_Division", "Div", 0 ],
-            "obj-15": [ "Randomize_Pulses", "Pulses", 0 ],
-            "obj-16": [ "Randomize_Steps", "Steps", 0 ],
+            "obj-111": [ "RandomizeNotesReverse", "Rev", 0 ],
+            "obj-147": [ "RandomizeDivision", "Div", 0 ],
+            "obj-15": [ "RandomizePulses", "Pulses", 0 ],
+            "obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
-            "obj-25": [ "Randomize_Rotate", "Rotate", 0 ],
-            "obj-29::obj-1": [ "Randomize_Pulses-Min", "PlsMin", 0 ],
-            "obj-29::obj-2": [ "Randomize_Pulses-Max", "PlsMax", 0 ],
-            "obj-30": [ "Randomize_Duration", "Dur", 0 ],
-            "obj-33::obj-6": [ "Randomize_Pitch-Max", "PchMax", 0 ],
-            "obj-33::obj-7": [ "Randomize_Pitch-Min", "PchMin", 0 ],
-            "obj-35::obj-1": [ "Randomize_Steps-Min", "StpMin", 0 ],
-            "obj-35::obj-2": [ "Randomize_Steps-Max", "StpMax", 0 ],
+            "obj-25": [ "RandomizeRotate", "Rotate", 0 ],
+            "obj-29::obj-1": [ "RandomizePulses-Min", "PlsMin", 0 ],
+            "obj-29::obj-2": [ "RandomizePulses-Max", "PlsMax", 0 ],
+            "obj-30": [ "RandomizeDur", "Dur", 0 ],
+            "obj-33::obj-6": [ "RandomizePitch-Max", "PchMax", 0 ],
+            "obj-33::obj-7": [ "RandomizePitch-Min", "PchMin", 0 ],
+            "obj-35::obj-1": [ "RandomizeSteps-Min", "StpMin", 0 ],
+            "obj-35::obj-2": [ "RandomizeSteps-Max", "StpMax", 0 ],
             "obj-36": [ "RandomizeNotesScaleRand", "Rscl", 0 ],
-            "obj-38": [ "Randomize_Sequencer", "Seq", 0 ],
-            "obj-39": [ "Randomize_Pitch", "Pitch", 0 ],
-            "obj-46::obj-1": [ "Randomize_Division-Min", "DivMin", 0 ],
-            "obj-46::obj-2": [ "Randomize_Division-Max", "DivMax", 0 ],
-            "obj-4::obj-1": [ "Randomize_Duration-Min", "DurMin", 0 ],
-            "obj-4::obj-2": [ "Randomize_Duration-Max", "DurMax", 0 ],
-            "obj-56::obj-1": [ "Randomize_Rotate-Min", "RotMin", 0 ],
-            "obj-56::obj-2": [ "Randomize_Rotate-Max", "RotMax", 0 ],
-            "obj-6": [ "Randomize_Velocity", "Vel", 0 ],
-            "obj-73::obj-1": [ "Randomize_Velocity-Min", "VelMin", 0 ],
-            "obj-73::obj-2": [ "Randomize_Velocity-Max", "VelMax", 0 ],
+            "obj-38": [ "RandomizeSequencer", "Seq", 0 ],
+            "obj-39": [ "RandomizePitch", "Pitch", 0 ],
+            "obj-46::obj-1": [ "RandomizeDivision-Min", "DivMin", 0 ],
+            "obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
+            "obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
+            "obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
+            "obj-56::obj-1": [ "RandomizeRotate-Min", "RotMin", 0 ],
+            "obj-56::obj-2": [ "RandomizeRotate-Max", "RotMax", 0 ],
+            "obj-6": [ "RandomizeVel", "Vel", 0 ],
+            "obj-73::obj-1": [ "RandomizeVel-Min", "VelMin", 0 ],
+            "obj-73::obj-2": [ "RandomizeVel-Max", "VelMax", 0 ],
             "obj-78": [ "Randomize_Notes", "Notes", 0 ],
             "obj-8": [ "Randomize1", "1", 0 ],
             "obj-9": [ "Randomize2", "2", 0 ],
@@ -4223,57 +4223,57 @@
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "parameter_overrides": {
                 "obj-29::obj-1": {
-                    "parameter_longname": "Randomize_Pulses-Min",
+                    "parameter_longname": "RandomizePulses-Min",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
                 "obj-29::obj-2": {
-                    "parameter_longname": "Randomize_Pulses-Max",
+                    "parameter_longname": "RandomizePulses-Max",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
                 "obj-33::obj-6": {
-                    "parameter_longname": "Randomize_Pitch-Max",
+                    "parameter_longname": "RandomizePitch-Max",
                     "parameter_range": [ 0.0, 127.0 ],
                     "parameter_unitstyle": 8
                 },
                 "obj-33::obj-7": {
-                    "parameter_longname": "Randomize_Pitch-Min",
+                    "parameter_longname": "RandomizePitch-Min",
                     "parameter_range": [ 0.0, 127.0 ],
                     "parameter_unitstyle": 8
                 },
                 "obj-35::obj-1": {
-                    "parameter_longname": "Randomize_Steps-Min",
+                    "parameter_longname": "RandomizeSteps-Min",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
                 "obj-35::obj-2": {
-                    "parameter_longname": "Randomize_Steps-Max",
+                    "parameter_longname": "RandomizeSteps-Max",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
                 "obj-46::obj-1": {
-                    "parameter_longname": "Randomize_Division-Min"
+                    "parameter_longname": "RandomizeDivision-Min"
                 },
                 "obj-46::obj-2": {
-                    "parameter_longname": "Randomize_Division-Max"
+                    "parameter_longname": "RandomizeDivision-Max"
                 },
                 "obj-4::obj-1": {
-                    "parameter_longname": "Randomize_Duration-Min"
+                    "parameter_longname": "RandomizeDur-Min"
                 },
                 "obj-4::obj-2": {
-                    "parameter_longname": "Randomize_Duration-Max"
+                    "parameter_longname": "RandomizeDur-Max"
                 },
                 "obj-56::obj-1": {
-                    "parameter_longname": "Randomize_Rotate-Min",
+                    "parameter_longname": "RandomizeRotate-Min",
                     "parameter_range": [ 0.0, 127.0 ]
                 },
                 "obj-56::obj-2": {
-                    "parameter_longname": "Randomize_Rotate-Max",
+                    "parameter_longname": "RandomizeRotate-Max",
                     "parameter_range": [ 0.0, 127.0 ]
                 },
                 "obj-73::obj-1": {
-                    "parameter_longname": "Randomize_Velocity-Min",
+                    "parameter_longname": "RandomizeVel-Min",
                     "parameter_range": [ 1.0, 127.0 ]
                 },
                 "obj-73::obj-2": {
-                    "parameter_longname": "Randomize_Velocity-Max",
+                    "parameter_longname": "RandomizeVel-Max",
                     "parameter_range": [ 1.0, 127.0 ]
                 }
             },
