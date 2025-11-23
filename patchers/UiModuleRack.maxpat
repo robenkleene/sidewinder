@@ -584,7 +584,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 744.0, 216.0, 123.0, 20.0 ],
-					"text" : "pattrstorage Sidewinder"
+					"text" : "pattrstorage Presets"
 				}
 
 			}
@@ -605,8 +605,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage Sidewinder",
-					"varname" : "Sidewinder"
+					"text" : "pattrstorage Presets",
+					"varname" : "Presets"
 				}
 
 			}
@@ -620,7 +620,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 744.0, 272.0, 32.0, 34.0 ],
-					"pattrstorage" : "Sidewinder",
+					"pattrstorage" : "Presets",
 					"presentation" : 1,
 					"presentation_rect" : [ 576.0, 128.0, 40.0, 40.0 ]
 				}
@@ -1217,7 +1217,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder.json",
+				"name" : "Presets.json",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

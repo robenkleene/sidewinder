@@ -539,7 +539,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sidewinder.json",
+				"name" : "Presets.json",
 				"bootpath" : "/Users/Shared/Max 9/Packages/sidewinder/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
