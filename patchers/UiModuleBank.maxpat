@@ -1173,9 +1173,9 @@
             "obj-21::obj-81": [ "4-Vel", "Vel", 0 ],
             "obj-21::obj-84": [ "4-Mode", "Mode", 0 ],
             "obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
-            "obj-7::obj-10": [ "Randomize_3", "3", 0 ],
+            "obj-7::obj-10": [ "Randomize3", "3", 0 ],
             "obj-7::obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
-            "obj-7::obj-11": [ "Randomize_4", "4", 0 ],
+            "obj-7::obj-11": [ "Randomize4", "4", 0 ],
             "obj-7::obj-110": [ "RandomizeNotesRests", "Rests", 0 ],
             "obj-7::obj-111": [ "RandomizeNotesReverse", "Rev", 0 ],
             "obj-7::obj-147": [ "RandomizeDivision", "Div", 0 ],
@@ -1204,8 +1204,8 @@
             "obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "VelMin", 0 ],
             "obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "VelMax", 0 ],
             "obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
-            "obj-7::obj-8": [ "Randomize_1", "1", 0 ],
-            "obj-7::obj-9": [ "Randomize_2", "2", 0 ],
+            "obj-7::obj-8": [ "Randomize1", "1", 0 ],
+            "obj-7::obj-9": [ "Randomize2", "2", 0 ],
             "obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "parameter_overrides": {
@@ -1213,13 +1213,13 @@
                     "parameter_longname": "RandomizeAuto"
                 },
                 "obj-7::obj-10": {
-                    "parameter_longname": "Randomize_3"
+                    "parameter_longname": "Randomize3"
                 },
                 "obj-7::obj-104": {
                     "parameter_longname": "RandomizeNotesOrder"
                 },
                 "obj-7::obj-11": {
-                    "parameter_longname": "Randomize_4"
+                    "parameter_longname": "Randomize4"
                 },
                 "obj-7::obj-110": {
                     "parameter_longname": "RandomizeNotesRests"
@@ -1288,10 +1288,10 @@
                     "parameter_range": [ 1.0, 127.0 ]
                 },
                 "obj-7::obj-8": {
-                    "parameter_longname": "Randomize_1"
+                    "parameter_longname": "Randomize1"
                 },
                 "obj-7::obj-9": {
-                    "parameter_longname": "Randomize_2"
+                    "parameter_longname": "Randomize2"
                 },
                 "obj-7::obj-93": {
                     "parameter_longname": "RandomizeNotesRepeat"
