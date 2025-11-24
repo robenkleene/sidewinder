@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 242.0, 100.0, 1297.0, 1085.0 ],
+        "rect": [ 242.0, 100.0, 1237.0, 1085.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -61,6 +61,7 @@
                     "outlettype": [ "dictionary", "", "", "", "" ],
                     "patching_rect": [ 1032.0, 688.0, 64.0, 22.0 ],
                     "saved_object_attributes": {
+                        "legacy": 1,
                         "parameter_enable": 0,
                         "parameter_mappable": 0
                     },
@@ -3051,7 +3052,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 168.0, 360.0, 32.0, 22.0 ],
+                    "patching_rect": [ 168.0, 336.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -3068,7 +3069,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "control messages",
                     "id": "obj-26",
                     "index": 0,
                     "maxclass": "inlet",
@@ -3402,7 +3403,7 @@
             },
             {
                 "box": {
-                    "comment": "int: Pitch",
+                    "comment": "(int) pitch",
                     "id": "obj-57",
                     "index": 0,
                     "maxclass": "outlet",
@@ -3733,9 +3734,10 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 786.0, 207.0, 620.0, 480.0 ],
+                        "rect": [ 1559.0, 266.0, 620.0, 480.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -3881,7 +3883,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 168.0, 280.0, 97.0, 22.0 ],
+                    "patching_rect": [ 176.0, 280.0, 97.0, 22.0 ],
                     "text": "p Transportation"
                 }
             },
@@ -5737,6 +5739,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
