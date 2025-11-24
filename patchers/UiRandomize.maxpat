@@ -792,22 +792,22 @@
                         "Randomize3": [ 0.0 ],
                         "Randomize4": [ 0.0 ],
                         "RandomizeAuto": [ 0.0 ],
-                        "RandomizeNotesOrder": [ 0.0 ],
-                        "RandomizeNotesRepeat": [ 0.0 ],
-                        "RandomizeNotesRests": [ 0.0 ],
-                        "RandomizeNotesScale": [ 14.0 ],
-                        "RandomizeNotesScaleRand": [ 1.0 ],
-                        "RandomizeTrigger": [ 0.0 ],
-                        "RandomizeTriggerSet": [ 0.0 ],
                         "RandomizeDivision": [ 0.0 ],
                         "RandomizeDur": [ 0.0 ],
                         "RandomizeNotes": [ 0.0 ],
+                        "RandomizeNotesOrder": [ 0.0 ],
+                        "RandomizeNotesRepeat": [ 0.0 ],
+                        "RandomizeNotesRests": [ 0.0 ],
                         "RandomizeNotesReverse": [ 0.0 ],
+                        "RandomizeNotesScale": [ 0.0 ],
+                        "RandomizeNotesScaleRand": [ 0.0 ],
                         "RandomizePitch": [ 0.0 ],
                         "RandomizePulses": [ 0.0 ],
                         "RandomizeRotate": [ 0.0 ],
                         "RandomizeSequencer": [ 0.0 ],
                         "RandomizeSteps": [ 0.0 ],
+                        "RandomizeTrigger": [ 0.0 ],
+                        "RandomizeTriggerSet": [ 0.0 ],
                         "RandomizeVel": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -4221,6 +4221,14 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",

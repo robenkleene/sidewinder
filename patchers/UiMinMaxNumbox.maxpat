@@ -428,6 +428,14 @@
         "parameters": {
             "obj-6": [ "#1-Max", "#2Max", 0 ],
             "obj-7": [ "#1-Min", "#2Min", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

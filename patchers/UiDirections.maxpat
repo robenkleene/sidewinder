@@ -203,6 +203,14 @@
             "obj-141": [ "#2-Right", "Right", 0 ],
             "obj-142": [ "#2-Left", "Left", 0 ],
             "obj-86": [ "#2-Up", "Up", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

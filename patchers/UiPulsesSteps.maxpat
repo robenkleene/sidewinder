@@ -307,6 +307,14 @@
         "parameters": {
             "obj-1": [ "#1-Pulses", "Pulses", 0 ],
             "obj-2": [ "#1-Steps", "Steps", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

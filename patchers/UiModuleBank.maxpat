@@ -1208,96 +1208,46 @@
             "obj-7::obj-9": [ "Randomize2", "2", 0 ],
             "obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
-                "obj-7::obj-1": {
-                    "parameter_longname": "RandomizeAuto"
-                },
-                "obj-7::obj-10": {
-                    "parameter_longname": "Randomize3"
-                },
-                "obj-7::obj-104": {
-                    "parameter_longname": "RandomizeNotesOrder"
-                },
-                "obj-7::obj-11": {
-                    "parameter_longname": "Randomize4"
-                },
-                "obj-7::obj-110": {
-                    "parameter_longname": "RandomizeNotesRests"
-                },
-                "obj-7::obj-170": {
-                    "parameter_longname": "RandomizeTrigger"
-                },
-                "obj-7::obj-175": {
-                    "parameter_longname": "RandomizeTriggerSet"
-                },
                 "obj-7::obj-29::obj-1": {
-                    "parameter_longname": "RandomizePulses-Min",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
                 "obj-7::obj-29::obj-2": {
-                    "parameter_longname": "RandomizePulses-Max",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
                 "obj-7::obj-33::obj-6": {
-                    "parameter_longname": "RandomizePitch-Max",
                     "parameter_range": [ 0.0, 127.0 ],
                     "parameter_unitstyle": 8
                 },
                 "obj-7::obj-33::obj-7": {
-                    "parameter_longname": "RandomizePitch-Min",
                     "parameter_range": [ 0.0, 127.0 ],
                     "parameter_unitstyle": 8
                 },
                 "obj-7::obj-35::obj-1": {
-                    "parameter_longname": "RandomizeSteps-Min",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
                 "obj-7::obj-35::obj-2": {
-                    "parameter_longname": "RandomizeSteps-Max",
                     "parameter_range": [ 1.0, 128.0 ]
                 },
-                "obj-7::obj-36": {
-                    "parameter_longname": "RandomizeNotesScaleRand"
-                },
-                "obj-7::obj-46::obj-1": {
-                    "parameter_longname": "RandomizeDivision-Min"
-                },
-                "obj-7::obj-46::obj-2": {
-                    "parameter_longname": "RandomizeDivision-Max"
-                },
-                "obj-7::obj-4::obj-1": {
-                    "parameter_longname": "RandomizeDur-Min"
-                },
-                "obj-7::obj-4::obj-2": {
-                    "parameter_longname": "RandomizeDur-Max"
-                },
                 "obj-7::obj-56::obj-1": {
-                    "parameter_longname": "RandomizeRotate-Min",
                     "parameter_range": [ 0.0, 127.0 ]
                 },
                 "obj-7::obj-56::obj-2": {
-                    "parameter_longname": "RandomizeRotate-Max",
                     "parameter_range": [ 0.0, 127.0 ]
                 },
                 "obj-7::obj-73::obj-1": {
-                    "parameter_longname": "RandomizeVel-Min",
                     "parameter_range": [ 1.0, 127.0 ]
                 },
                 "obj-7::obj-73::obj-2": {
-                    "parameter_longname": "RandomizeVel-Max",
                     "parameter_range": [ 1.0, 127.0 ]
-                },
-                "obj-7::obj-8": {
-                    "parameter_longname": "Randomize1"
-                },
-                "obj-7::obj-9": {
-                    "parameter_longname": "Randomize2"
-                },
-                "obj-7::obj-93": {
-                    "parameter_longname": "RandomizeNotesRepeat"
-                },
-                "obj-7::obj-94": {
-                    "parameter_longname": "RandomizeNotesScale"
                 }
             },
             "inherited_shortname": 1
