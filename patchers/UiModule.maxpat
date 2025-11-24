@@ -309,7 +309,7 @@
             },
             {
                 "box": {
-                    "comment": "int: Channel",
+                    "comment": "(int) ch",
                     "id": "obj-22",
                     "index": 0,
                     "maxclass": "outlet",
@@ -357,16 +357,16 @@
                     "presentation_rect": [ 144.0, 0.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#2-Channel",
+                            "parameter_longname": "#2-Ch",
                             "parameter_mmax": 16.0,
                             "parameter_mmin": 1.0,
                             "parameter_modmode": 4,
-                            "parameter_shortname": "Channel",
+                            "parameter_shortname": "Ch",
                             "parameter_type": 1,
                             "parameter_unitstyle": 0
                         }
                     },
-                    "varname": "#2-Channel"
+                    "varname": "#2-Ch"
                 }
             },
             {
@@ -580,7 +580,7 @@
                     "patching_rect": [ 728.0, 48.0, 56.0, 22.0 ],
                     "restore": {
                         "#2-Auto": [ 0.0 ],
-                        "#2-Channel": [ 1.0 ],
+                        "#2-Ch": [ 1.0 ],
                         "#2-Division": [ 0.0 ],
                         "#2-Duration": [ 0.0 ],
                         "#2-Export": [ 0.0 ],
@@ -5727,7 +5727,7 @@
             "obj-143::obj-86": [ "#2-Up", "Up", 0 ],
             "obj-25": [ "#2-Track", "Track", 0 ],
             "obj-28": [ "#2-Duration", "Dur", 0 ],
-            "obj-43": [ "#2-Channel", "Channel", 0 ],
+            "obj-43": [ "#2-Ch", "Ch", 0 ],
             "obj-45": [ "#2-Division", "Division", 0 ],
             "obj-53::obj-1": [ "#2-Pulses", "Pulses", 0 ],
             "obj-53::obj-2": [ "#2-Steps", "Steps", 0 ],
