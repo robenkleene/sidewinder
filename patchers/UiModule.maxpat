@@ -582,7 +582,7 @@
                         "#2-Auto": [ 0.0 ],
                         "#2-Ch": [ 1.0 ],
                         "#2-Division": [ 0.0 ],
-                        "#2-Duration": [ 0.0 ],
+                        "#2-Dur": [ 0.0 ],
                         "#2-Export": [ 0.0 ],
                         "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 3.0 ],
@@ -690,7 +690,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1904.0, 760.0, 98.0, 22.0 ],
-                    "text": "pvar #2-Duration"
+                    "text": "pvar #2-Dur"
                 }
             },
             {
@@ -1840,7 +1840,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1920.0, 392.0, 98.0, 22.0 ],
-                    "text": "pvar #2-Duration"
+                    "text": "pvar #2-Dur"
                 }
             },
             {
@@ -2117,7 +2117,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "float: Duration",
+                                    "comment": "float: Dur",
                                     "id": "obj-5",
                                     "index": 7,
                                     "maxclass": "inlet",
@@ -2804,7 +2804,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2144.0, 240.0, 139.0, 22.0 ],
-                    "text": "pattrforward #2-Duration"
+                    "text": "pattrforward #2-Dur"
                 }
             },
             {
@@ -2815,7 +2815,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2160.0, 176.0, 98.0, 22.0 ],
-                    "text": "pvar #2-Duration",
+                    "text": "pvar #2-Dur",
                     "varname": "u010007744"
                 }
             },
@@ -3124,7 +3124,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
-                            "parameter_longname": "#2-Duration",
+                            "parameter_longname": "#2-Dur",
                             "parameter_mmax": 6,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dur",
@@ -3132,7 +3132,7 @@
                             "parameter_unitstyle": 9
                         }
                     },
-                    "varname": "#2-Duration"
+                    "varname": "#2-Dur"
                 }
             },
             {
@@ -5726,7 +5726,7 @@
             "obj-143::obj-142": [ "#2-Left", "Left", 0 ],
             "obj-143::obj-86": [ "#2-Up", "Up", 0 ],
             "obj-25": [ "#2-Track", "Track", 0 ],
-            "obj-28": [ "#2-Duration", "Dur", 0 ],
+            "obj-28": [ "#2-Dur", "Dur", 0 ],
             "obj-43": [ "#2-Ch", "Ch", 0 ],
             "obj-45": [ "#2-Division", "Division", 0 ],
             "obj-53::obj-1": [ "#2-Pulses", "Pulses", 0 ],
