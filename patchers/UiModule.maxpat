@@ -590,7 +590,7 @@
                         "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 62.6842105263158, 83.68421052631582, 0, 0, 60, 101, 4, 127, 127, 80, 83, 4, 127, 127, 71, 57, 4, 127, 127 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 0.0 ],
-                        "#2-Velocity": [ 0.0 ]
+                        "#2-Vel": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -1851,7 +1851,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1832.0, 392.0, 94.0, 22.0 ],
-                    "text": "pvar #2-Velocity"
+                    "text": "pvar #2-Vel"
                 }
             },
             {
@@ -2105,7 +2105,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "int: Velocity",
+                                    "comment": "(int) velocity",
                                     "id": "obj-6",
                                     "index": 6,
                                     "maxclass": "inlet",
@@ -2945,7 +2945,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1944.0, 240.0, 135.0, 22.0 ],
-                    "text": "pattrforward #2-Velocity"
+                    "text": "pattrforward #2-Vel"
                 }
             },
             {
@@ -2956,7 +2956,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1960.0, 176.0, 94.0, 22.0 ],
-                    "text": "pvar #2-Velocity",
+                    "text": "pvar #2-Vel",
                     "varname": "u236012777"
                 }
             },
@@ -3226,14 +3226,14 @@
                     "presentation_rect": [ 528.0, 16.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#2-Velocity",
+                            "parameter_longname": "#2-Vel",
                             "parameter_modmode": 0,
                             "parameter_shortname": "Vel",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
                     },
-                    "varname": "#2-Velocity"
+                    "varname": "#2-Vel"
                 }
             },
             {
@@ -3391,7 +3391,7 @@
             },
             {
                 "box": {
-                    "comment": "int: Velocity",
+                    "comment": "(int) velocity",
                     "id": "obj-59",
                     "index": 0,
                     "maxclass": "outlet",
@@ -3563,7 +3563,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "int: Velocity",
+                                    "comment": "(int) velocity",
                                     "id": "obj-3",
                                     "index": 2,
                                     "maxclass": "outlet",
@@ -5735,7 +5735,7 @@
             "obj-65": [ "#2-Set", "Set", 0 ],
             "obj-78": [ "#2-Pitch", "Pitch", 0 ],
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
-            "obj-81": [ "#2-Velocity", "Vel", 0 ],
+            "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
             "inherited_shortname": 1
         },

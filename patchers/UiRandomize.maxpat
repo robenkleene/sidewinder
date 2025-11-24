@@ -2024,7 +2024,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandomizeVelocity", "Vel" ],
+                    "args": [ "RandomizeVel", "Vel" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -2042,7 +2042,7 @@
                     "patching_rect": [ 1389.0, 338.0, 45.0, 105.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 280.0, 48.0, 40.0, 96.0 ],
-                    "varname": "VelocityMinMax",
+                    "varname": "VelMinMax",
                     "viewvisibility": 1
                 }
             },
