@@ -68,10 +68,10 @@
                     "ModuleRack::Module4::4-Vel": [ 127.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Pulses": [ 1.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Steps": [ 3.0 ],
-                    "ModuleRack::Randomize::Randomize_1": [ 1.0 ],
-                    "ModuleRack::Randomize::Randomize_2": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_3": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_4": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize1": [ 1.0 ],
+                    "ModuleRack::Randomize::Randomize2": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize3": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize4": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeAuto": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeDivision": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeDur": [ 1.0 ],
@@ -105,9 +105,7 @@
                     "ModuleRack::Randomize::DivisionMinMax::RandomizeDivision-Max": [ 6.0 ],
                     "ModuleRack::Randomize::DivisionMinMax::RandomizeDivision-Min": [ 0.0 ]
                 }
-
-            }
-,
+            },
             "2": {
                 "id": 2,
                 "data": {
@@ -174,10 +172,10 @@
                     "ModuleRack::Module4::4-Vel": [ 127.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Pulses": [ 1.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Steps": [ 3.0 ],
-                    "ModuleRack::Randomize::Randomize_1": [ 1.0 ],
-                    "ModuleRack::Randomize::Randomize_2": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_3": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_4": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize1": [ 1.0 ],
+                    "ModuleRack::Randomize::Randomize2": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize3": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize4": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeAuto": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeDivision": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeDur": [ 1.0 ],
@@ -211,9 +209,7 @@
                     "ModuleRack::Randomize::DivisionMinMax::RandomizeDivision-Max": [ 6.0 ],
                     "ModuleRack::Randomize::DivisionMinMax::RandomizeDivision-Min": [ 0.0 ]
                 }
-
-            }
-,
+            },
             "3": {
                 "id": 3,
                 "data": {
@@ -280,10 +276,10 @@
                     "ModuleRack::Module4::4-Vel": [ 127.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Pulses": [ 1.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Steps": [ 3.0 ],
-                    "ModuleRack::Randomize::Randomize_1": [ 1.0 ],
-                    "ModuleRack::Randomize::Randomize_2": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_3": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_4": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize1": [ 1.0 ],
+                    "ModuleRack::Randomize::Randomize2": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize3": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize4": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeAuto": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeDivision": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeDur": [ 0.0 ],
@@ -317,9 +313,7 @@
                     "ModuleRack::Randomize::DivisionMinMax::RandomizeDivision-Max": [ 6.0 ],
                     "ModuleRack::Randomize::DivisionMinMax::RandomizeDivision-Min": [ 0.0 ]
                 }
-
-            }
-,
+            },
             "4": {
                 "id": 4,
                 "data": {
@@ -386,10 +380,10 @@
                     "ModuleRack::Module4::4-Vel": [ 127.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Pulses": [ 1.0 ],
                     "ModuleRack::Module4::PulsesSteps::4-Steps": [ 3.0 ],
-                    "ModuleRack::Randomize::Randomize_1": [ 1.0 ],
-                    "ModuleRack::Randomize::Randomize_2": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_3": [ 0.0 ],
-                    "ModuleRack::Randomize::Randomize_4": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize1": [ 1.0 ],
+                    "ModuleRack::Randomize::Randomize2": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize3": [ 0.0 ],
+                    "ModuleRack::Randomize::Randomize4": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeAuto": [ 0.0 ],
                     "ModuleRack::Randomize::RandomizeDivision": [ 1.0 ],
                     "ModuleRack::Randomize::RandomizeDur": [ 1.0 ],
