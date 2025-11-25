@@ -201,7 +201,7 @@
                     "patching_rect": [ 48.0, 8.0, 56.0, 22.0 ],
                     "restore": {
                         "Overwrite": [ 0.0 ],
-                        "Play": [ 0.0 ],
+                        "Play": [ 1.0 ],
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
                         "Solo": [ 0.0 ],
@@ -626,7 +626,7 @@
                     "patching_rect": [ 8.0, 264.0, 576.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 576.0, 168.0 ],
-                    "varname": "ModuleRack",
+                    "varname": "ModuleBank",
                     "viewvisibility": 1
                 }
             }
@@ -994,14 +994,6 @@
             "obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "obj-9": [ "Play", "Play", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-8::obj-7::obj-29::obj-1": {
                     "parameter_range": [ 1.0, 128.0 ]
