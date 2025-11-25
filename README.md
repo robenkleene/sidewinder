@@ -6,6 +6,26 @@ Sidewinder is an Euclidean sequencer for [Max for Live](https://www.ableton.com/
 
 The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) computes greatest common divisor of two numbers. Godfried Toussaint discovered its musical applications and published them in ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). Applied to music, the algorithm takes `k` pulses (notes) and distributes them as equidistant as possible in `n` steps.
 
+## Installation
+
+### Installing in Ableton Live
+
+Drag `Sidewinder/Sidewinder.amxd` to the `User Library` (e.g., under `User Library/Presets/MIDI Effects/Max MIDI Effects/`).
+
+### Installing in Ableton Push standalone mode
+
+1. Launch Push in standalone mode
+2. In Live's sidebar, select `Places > Push`
+3. Drag `Sidewinder/Sidewinder.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/MIDI Effects/Max MIDI Effects/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
+
+### Using the Device on Push
+
+After Sidewinder has been installed in the Push `User Library`, the device can be added by choosing it under `Device > User Library`.
+
+## Opening in Max Directly
+
+To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`.
+
 ## Interface
 
 ### Global
@@ -99,8 +119,8 @@ To open any of the `maxpat` files, the Sidewinder folder should be in your [Proj
 
 Two JavaScript implementations of the algorithm are included (annotated as [Literate CoffeeScript](http://coffeescript.org/#literate)):
 
-- [`bjorklund.litcoffee`](source/src/coffee/bjorklund.litcoffee): This follows the description of the algorithm verbatim from ["Structural properties of Euclidean rhythms"](http://student.ulb.ac.be/~ptaslaki/publications/structuralProperties.pdf), but it also gets slightly different results than the examples listed in Toussaint's other paper.
-- [`toussaint.litcoffee`](source/src/coffee/toussaint.litcoffee): This version is slightly more elegant, and it's corrected to get identical results to the examples listed in ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf).
+- [`Bjorklund.js`](Sidewinder/Bjorklund.js): This follows the description of the algorithm verbatim from ["Structural properties of Euclidean rhythms"](http://student.ulb.ac.be/~ptaslaki/publications/structuralProperties.pdf), but it also gets slightly different results than the examples listed in Toussaint's other paper.
+- [`Toussaint.js`](Sidewinder/Toussaint.js): This version is slightly more elegant, and it's corrected to get identical results to the examples listed in ["The Euclidean Algorithm Generates Traditional Musical Rhythms"](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf).
 
 The sequencer uses the `toussaint` version by default.
 

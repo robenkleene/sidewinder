@@ -215,7 +215,7 @@
                     "patching_rect": [ 8.0, 40.0, 624.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 8.0, 624.0, 168.0 ],
-                    "varname": "UiModuleRack",
+                    "varname": "ModuleRack",
                     "viewvisibility": 1
                 }
             }
@@ -398,14 +398,6 @@
             "obj-2::obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-2::obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "obj-2::obj-9": [ "Play", "Play", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-10": {
                     "parameter_initial": 0.0,
