@@ -8,15 +8,29 @@ The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) com
 
 ## Installation
 
+### Freezing the `.amxd`
+
+Before the device is added to the `User Library` in Ableton Live or Ableton Push, the device should be frozen.
+
+The latest version of the frozen device can be downloaded from [the Sidewinder page on the Max for Live site](https://maxforlive.com/library/device/5794/sidewinder).
+
+The device can be frozen manually by following these steps:
+
+1. Open Ableton Live and drag `Sidewinder/Sidewinder.amxd` to the Device area (where it says `Drop an instrument or Sample here`).
+2. Click the disclosure icon in the upper right of the device and choose `Edit in Max`.
+3. In the Max window, click the `Freeze Device` icon in the bottom bar that looks like a snow flake, then choose `File > Save As...` to save the frozen device to a temporary location.
+
+Note that this file can be deleted after the device has been added to the `User Library`.
+
 ### Installing in Ableton Live
 
-Drag `Sidewinder/Sidewinder.amxd` to the `User Library` (e.g., under `User Library/Presets/MIDI Effects/Max MIDI Effects/`).
+Drag the frozen `Sidewinder.amxd` to the `User Library` (e.g., under `User Library/Presets/MIDI Effects/Max MIDI Effect/`).
 
 ### Installing in Ableton Push standalone mode
 
 1. Launch Push in standalone mode
 2. In Live's sidebar, select `Places > Push`
-3. Drag `Sidewinder/Sidewinder.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/MIDI Effects/Max MIDI Effects/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
+3. Drag the frozen `Sidewinder.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/MIDI Effects/Max MIDI Effect/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
 
 ### Using the Device on Push
 
