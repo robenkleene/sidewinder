@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -588,7 +588,7 @@
                         "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 0.0 ],
                         "#2-Rotate": [ 0.0 ],
-                        "#2-Sequencer": [ 1, 3, 0, 1, 12, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
+                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 0.0 ],
                         "#2-Vel": [ 0.0 ]
@@ -739,7 +739,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1867,7 +1867,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2464,7 +2464,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3476,7 +3476,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3729,14 +3729,16 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1559.0, 266.0, 620.0, 480.0 ],
+                        "rect": [ 654.0, 268.0, 620.0, 480.0 ],
+                        "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -3745,7 +3747,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 225.0, 75.0, 153.0, 47.0 ],
+                                    "patching_rect": [ 176.0, 48.0, 153.0, 47.0 ],
                                     "text": "128n because 1/128 is the smallest supported note value"
                                 }
                             },
@@ -3756,7 +3758,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 90.0, 210.0, 81.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 144.0, 81.0, 22.0 ],
                                     "text": "prepend time"
                                 }
                             },
@@ -3767,7 +3769,7 @@
                                     "numinlets": 6,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 90.0, 165.0, 103.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 112.0, 103.0, 22.0 ],
                                     "text": "pack 0 0 0. 0. 0 0"
                                 }
                             },
@@ -3779,7 +3781,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 90.0, 255.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 48.0, 176.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -3791,7 +3793,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 45.0, 30.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 8.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -3801,7 +3803,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 9,
                                     "outlettype": [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-                                    "patching_rect": [ 90.0, 120.0, 103.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 80.0, 103.0, 22.0 ],
                                     "text": "transport"
                                 }
                             },
@@ -3812,7 +3814,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "bang" ],
-                                    "patching_rect": [ 90.0, 75.0, 123.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 48.0, 123.0, 22.0 ],
                                     "text": "metro @interval 128n"
                                 }
                             }
@@ -3920,7 +3922,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3978,7 +3980,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5738,6 +5740,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
