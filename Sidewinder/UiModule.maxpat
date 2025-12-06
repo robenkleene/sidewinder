@@ -1784,7 +1784,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1264.0, 472.0, 191.0, 22.0 ],
-                    "text": "s #1-pitch_randomize_parameters"
+                    "text": "s #1-PitchRandomizeParameters"
                 }
             },
             {
@@ -1817,7 +1817,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1560.0, 496.0, 189.0, 22.0 ],
-                    "text": "r #1-pitch_randomize_parameters"
+                    "text": "r #1-PitchRandomizeParameters"
                 }
             },
             {
