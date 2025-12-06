@@ -3461,7 +3461,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 8.0, 384.0, 62.0, 22.0 ],
-                    "text": "s #1-bang"
+                    "text": "s #1-Bang"
                 }
             },
             {
@@ -3471,7 +3471,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 344.0, 160.0, 62.0, 22.0 ],
-                    "text": "s #1-bang"
+                    "text": "s #1-Bang"
                 }
             },
             {
@@ -3482,7 +3482,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 528.0, 104.0, 60.0, 22.0 ],
-                    "text": "r #1-bang"
+                    "text": "r #1-Bang"
                 }
             },
             {
