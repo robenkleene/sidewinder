@@ -1592,7 +1592,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1528.0, 296.0, 96.0, 22.0 ],
-                    "text": "r #1-notes_bang"
+                    "text": "r #1-NotesBang"
                 }
             },
             {
@@ -1602,7 +1602,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 920.0, 176.0, 98.0, 22.0 ],
-                    "text": "s #1-notes_bang"
+                    "text": "s #1-NotesBang"
                 }
             },
             {
@@ -1709,7 +1709,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1296.0, 656.0, 112.0, 22.0 ],
-                    "text": "s #1-pitch_intervals"
+                    "text": "s #1-PitchIntervals"
                 }
             },
             {
@@ -1720,7 +1720,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1552.0, 360.0, 110.0, 22.0 ],
-                    "text": "r #1-pitch_intervals"
+                    "text": "r #1-PitchIntervals"
                 }
             },
             {
@@ -1741,7 +1741,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1264.0, 592.0, 84.0, 22.0 ],
-                    "text": "s #1-pitch_rev"
+                    "text": "s #1-PitchRev"
                 }
             },
             {
@@ -1752,7 +1752,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2016.0, 392.0, 82.0, 22.0 ],
-                    "text": "r #1-pitch_rev"
+                    "text": "r #1-PitchRev"
                 }
             },
             {
@@ -1838,7 +1838,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1264.0, 376.0, 98.0, 22.0 ],
-                    "text": "s #1-pitch_range"
+                    "text": "s #1-PitchRange"
                 }
             },
             {
@@ -1849,7 +1849,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1712.0, 392.0, 96.0, 22.0 ],
-                    "text": "r #1-pitch_range"
+                    "text": "r #1-PitchRange"
                 }
             },
             {
