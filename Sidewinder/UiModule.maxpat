@@ -668,7 +668,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 408.0, 248.0, 119.0, 22.0 ],
+                    "patching_rect": [ 400.0, 248.0, 119.0, 22.0 ],
                     "text": "r #1-StepSequencer"
                 }
             },
@@ -3010,7 +3010,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 200.0, 248.0, 81.0, 22.0 ],
+                    "patching_rect": [ 184.0, 248.0, 81.0, 22.0 ],
                     "text": "s #1-Random"
                 }
             },
@@ -3021,7 +3021,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 200.0, 216.0, 95.0, 22.0 ],
+                    "patching_rect": [ 184.0, 216.0, 95.0, 22.0 ],
                     "text": "route randomize"
                 }
             },
@@ -3460,7 +3460,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 384.0, 62.0, 22.0 ],
+                    "patching_rect": [ 8.0, 384.0, 63.0, 22.0 ],
                     "text": "s #1-Bang"
                 }
             },
@@ -3470,7 +3470,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 344.0, 160.0, 62.0, 22.0 ],
+                    "patching_rect": [ 344.0, 160.0, 63.0, 22.0 ],
                     "text": "s #1-Bang"
                 }
             },
@@ -3481,7 +3481,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 528.0, 104.0, 60.0, 22.0 ],
+                    "patching_rect": [ 528.0, 104.0, 61.0, 22.0 ],
                     "text": "r #1-Bang"
                 }
             },
@@ -3905,7 +3905,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 176.0, 280.0, 97.0, 22.0 ],
+                    "patching_rect": [ 168.0, 280.0, 97.0, 22.0 ],
                     "text": "p Transportation"
                 }
             },
@@ -4463,7 +4463,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 280.0, 248.0, 119.0, 22.0 ],
+                    "patching_rect": [ 272.0, 248.0, 119.0, 22.0 ],
                     "text": "p LiveStepController"
                 }
             },
@@ -5767,6 +5767,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
