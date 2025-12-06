@@ -314,7 +314,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 616.0, 1264.0, 86.0, 20.0 ],
-                    "text": "r #1-randomize"
+                    "text": "r #1-Randomize"
                 }
             },
             {
@@ -324,7 +324,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 8.0, 1472.0, 88.0, 20.0 ],
-                    "text": "s #1-randomize"
+                    "text": "s #1-Randomize"
                 }
             },
             {
