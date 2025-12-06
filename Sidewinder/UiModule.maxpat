@@ -9,12 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 242.0, 100.0, 1237.0, 1085.0 ],
+        "rect": [ 486.0, 167.0, 1501.0, 1130.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-164",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 896.0, 376.0, 116.0, 22.0 ],
+                    "text": "print transportoutput"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-92",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 896.0, 304.0, 94.0, 22.0 ],
+                    "text": "print playerinput"
+                }
+            },
             {
                 "box": {
                     "id": "obj-168",
@@ -1604,7 +1624,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1592.0, 392.0, 97.0, 22.0 ],
-                    "text": "r #1-pulsesvalue"
+                    "text": "r #1-PulsesVal"
                 }
             },
             {
@@ -2871,7 +2891,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 24.0, 200.0, 93.0, 22.0 ],
-                    "text": "s #1-stepsvalue"
+                    "text": "s #1-StepsVal"
                 }
             },
             {
@@ -2881,7 +2901,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 24.0, 176.0, 99.0, 22.0 ],
-                    "text": "s #1-pulsesvalue"
+                    "text": "s #1-PulsesVal"
                 }
             },
             {
@@ -2892,7 +2912,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 80.0, 32.0, 62.0, 22.0 ],
-                    "text": "r #1-steps"
+                    "text": "r #1-Steps"
                 }
             },
             {
@@ -2903,7 +2923,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 8.0, 32.0, 68.0, 22.0 ],
-                    "text": "r #1-pulses"
+                    "text": "r #1-Pulses"
                 }
             },
             {
@@ -2925,7 +2945,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1608.0, 176.0, 91.0, 22.0 ],
-                    "text": "r #1-stepsvalue"
+                    "text": "r #1-StepsVal"
                 }
             },
             {
@@ -2936,7 +2956,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1464.0, 176.0, 97.0, 22.0 ],
-                    "text": "r #1-pulsesvalue"
+                    "text": "r #1-PulsesVal"
                 }
             },
             {
@@ -2946,7 +2966,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1592.0, 240.0, 64.0, 22.0 ],
-                    "text": "s #1-steps"
+                    "text": "s #1-Steps"
                 }
             },
             {
@@ -2956,7 +2976,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1432.0, 240.0, 70.0, 22.0 ],
-                    "text": "s #1-pulses"
+                    "text": "s #1-Pulses"
                 }
             },
             {
@@ -3001,7 +3021,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 920.0, 16.0, 74.0, 22.0 ],
-                    "text": "r #1-random"
+                    "text": "r #1-Random"
                 }
             },
             {
@@ -3011,7 +3031,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 200.0, 248.0, 76.0, 22.0 ],
-                    "text": "s #1-random"
+                    "text": "s #1-Random"
                 }
             },
             {
@@ -3755,10 +3775,11 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 654.0, 268.0, 620.0, 480.0 ],
+                        "rect": [ 1599.0, 375.0, 620.0, 480.0 ],
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -4997,7 +5018,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-164", 0 ],
+                    "order": 0,
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
+                    "order": 1,
                     "source": [ "obj-16", 0 ]
                 }
             },
@@ -5166,6 +5195,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-27", 0 ],
+                    "order": 1,
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-92", 0 ],
+                    "order": 0,
                     "source": [ "obj-26", 0 ]
                 }
             },
@@ -5766,6 +5803,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
