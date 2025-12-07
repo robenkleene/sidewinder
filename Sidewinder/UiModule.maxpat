@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 715.0, 216.0, 1491.0, 1130.0 ],
+        "rect": [ 475.0, 159.0, 1491.0, 1130.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -3032,7 +3032,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 480.0, 169.0, 33.0 ],
+                    "patching_rect": [ 2168.0, 392.0, 169.0, 33.0 ],
                     "text": "Add these so they're included when the device is frozen"
                 }
             },
@@ -3043,7 +3043,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 536.0, 145.0, 22.0 ],
+                    "patching_rect": [ 2168.0, 448.0, 145.0, 22.0 ],
                     "saved_object_attributes": {
                         "filename": "Bjorklund.js",
                         "parameter_enable": 0
@@ -3058,7 +3058,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 512.0, 145.0, 22.0 ],
+                    "patching_rect": [ 2168.0, 424.0, 145.0, 22.0 ],
                     "saved_object_attributes": {
                         "filename": "Toussaint.js",
                         "parameter_enable": 0
@@ -3460,7 +3460,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 384.0, 63.0, 22.0 ],
+                    "patching_rect": [ 8.0, 376.0, 63.0, 22.0 ],
                     "text": "s #1-Bang"
                 }
             },
