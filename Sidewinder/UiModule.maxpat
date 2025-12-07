@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 486.0, 167.0, 1501.0, 1130.0 ],
+        "rect": [ 715.0, 216.0, 1491.0, 1130.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -178,7 +178,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 528.0, 344.0, 71.0, 22.0 ],
+                    "patching_rect": [ 528.0, 352.0, 71.0, 22.0 ],
                     "text": "interval $1n"
                 }
             },
@@ -233,7 +233,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "int" ],
-                    "patching_rect": [ 528.0, 264.0, 29.5, 22.0 ],
+                    "patching_rect": [ 528.0, 256.0, 29.5, 22.0 ],
                     "text": "t b i"
                 }
             },
@@ -244,7 +244,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 528.0, 240.0, 29.5, 22.0 ],
+                    "patching_rect": [ 528.0, 224.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -255,7 +255,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 528.0, 312.0, 37.0, 22.0 ],
+                    "patching_rect": [ 528.0, 320.0, 37.0, 22.0 ],
                     "text": "zl.nth"
                 }
             },
@@ -280,7 +280,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 528.0, 216.0, 56.0, 15.0 ],
+                    "patching_rect": [ 528.0, 200.0, 56.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 192.0, 0.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -609,7 +609,7 @@
                         "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 0.0 ],
                         "#2-Rotate": [ 0.0 ],
-                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
+                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 77, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 1.0 ],
                         "#2-Vel": [ 0.0 ]
@@ -3350,7 +3350,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 280.0, 344.0, 54.0, 22.0 ],
+                    "patching_rect": [ 272.0, 344.0, 54.0, 22.0 ],
                     "text": "zoom_fit"
                 }
             },
@@ -3361,7 +3361,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 280.0, 312.0, 31.0, 22.0 ],
+                    "patching_rect": [ 272.0, 312.0, 31.0, 22.0 ],
                     "text": "t b s"
                 }
             },
@@ -3755,11 +3755,10 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1599.0, 375.0, 620.0, 480.0 ],
+                        "rect": [ 1631.0, 573.0, 620.0, 480.0 ],
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -3779,7 +3778,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 48.0, 144.0, 81.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 216.0, 81.0, 22.0 ],
                                     "text": "prepend time"
                                 }
                             },
@@ -3790,7 +3789,7 @@
                                     "numinlets": 6,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 48.0, 112.0, 103.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 184.0, 103.0, 22.0 ],
                                     "text": "pack 0 0 0. 0. 0 0"
                                 }
                             },
@@ -3802,7 +3801,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 48.0, 176.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 48.0, 248.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -5348,7 +5347,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-172", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-45", 0 ]
                 }
             },
