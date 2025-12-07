@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 475.0, 159.0, 1491.0, 1130.0 ],
+        "rect": [ 374.0, 153.0, 1491.0, 1130.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -3697,7 +3697,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 456.0, 568.0, 46.0, 20.0 ],
+                    "patching_rect": [ 448.0, 576.0, 46.0, 20.0 ],
                     "text": "Debug"
                 }
             },
@@ -3708,7 +3708,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 456.0, 584.0, 132.0, 22.0 ],
+                    "patching_rect": [ 448.0, 600.0, 132.0, 22.0 ],
                     "text": "Open Global Transport"
                 }
             },
@@ -3721,7 +3721,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 456.0, 614.0, 163.0, 22.0 ],
+                    "patching_rect": [ 448.0, 630.0, 163.0, 22.0 ],
                     "text": "load globaltransport.maxpat"
                 }
             },
@@ -3734,7 +3734,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 456.0, 644.0, 54.0, 22.0 ],
+                    "patching_rect": [ 448.0, 660.0, 54.0, 22.0 ],
                     "text": "pcontrol"
                 }
             },
