@@ -3755,10 +3755,11 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1631.0, 573.0, 620.0, 480.0 ],
+                        "rect": [ 1134.0, 647.0, 620.0, 480.0 ],
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -4649,7 +4650,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-7", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-11", 0 ]
                 }
             },
@@ -5347,7 +5348,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-172", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-45", 0 ]
                 }
             },
@@ -5766,14 +5767,6 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
