@@ -3779,7 +3779,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 176.0, 48.0, 153.0, 47.0 ],
+                                    "patching_rect": [ 160.0, 80.0, 153.0, 47.0 ],
                                     "text": "128n because 1/128 is the smallest supported note value"
                                 }
                             },
@@ -3846,8 +3846,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "bang" ],
-                                    "patching_rect": [ 48.0, 48.0, 123.0, 22.0 ],
-                                    "text": "metro @interval 128n"
+                                    "patching_rect": [ 48.0, 48.0, 214.0, 22.0 ],
+                                    "text": "metro @interval 128n @quantize 128n"
                                 }
                             }
                         ],
@@ -5784,14 +5784,6 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
