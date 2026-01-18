@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 446.0, 100.0, 1826.0, 1160.0 ],
+        "rect": [ 214.0, 571.0, 1826.0, 1160.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -190,7 +190,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 792.0, 568.0, 57.0, 22.0 ],
+                    "patching_rect": [ 792.0, 512.0, 57.0, 22.0 ],
                     "text": "minimum"
                 }
             },
@@ -441,7 +441,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 1728.0, 280.0, 58.0, 22.0 ],
+                    "patching_rect": [ 1728.0, 272.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -452,7 +452,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1728.0, 312.0, 49.0, 22.0 ],
+                    "patching_rect": [ 1728.0, 304.0, 49.0, 22.0 ],
                     "text": "division"
                 }
             },
@@ -463,7 +463,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1724.0, 248.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1728.0, 240.0, 113.0, 22.0 ],
                     "text": "loadmess setup 0 8"
                 }
             },
@@ -799,7 +799,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1000.0, 296.0, 77.0, 22.0 ],
+                    "patching_rect": [ 1000.0, 304.0, 77.0, 22.0 ],
                     "text": "loadmess 32"
                 }
             },
@@ -821,7 +821,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 792.0, 296.0, 77.0, 22.0 ],
+                    "patching_rect": [ 784.0, 304.0, 77.0, 22.0 ],
                     "text": "loadmess 32"
                 }
             },
@@ -1813,7 +1813,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 792.0, 472.0, 77.0, 22.0 ],
+                    "patching_rect": [ 792.0, 480.0, 77.0, 22.0 ],
                     "text": "p PulsesMax"
                 }
             },
@@ -1895,7 +1895,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1104.0, 248.0, 126.0, 22.0 ],
+                    "patching_rect": [ 1104.0, 240.0, 126.0, 22.0 ],
                     "text": "loadmess setup 0 127"
                 }
             },
@@ -1941,7 +1941,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1312.0, 248.0, 126.0, 22.0 ],
+                    "patching_rect": [ 1312.0, 240.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 127"
                 }
             },
@@ -1952,7 +1952,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 896.0, 248.0, 126.0, 22.0 ],
+                    "patching_rect": [ 896.0, 240.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 128"
                 }
             },
@@ -2136,7 +2136,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 1528.0, 280.0, 58.0, 22.0 ],
+                    "patching_rect": [ 1520.0, 272.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -2147,7 +2147,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1528.0, 312.0, 52.0, 22.0 ],
+                    "patching_rect": [ 1520.0, 304.0, 52.0, 22.0 ],
                     "text": "duration"
                 }
             },
@@ -2158,7 +2158,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 1314.0, 278.0, 58.0, 22.0 ],
+                    "patching_rect": [ 1312.0, 272.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -2169,7 +2169,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1314.0, 308.0, 49.0, 22.0 ],
+                    "patching_rect": [ 1312.0, 304.0, 49.0, 22.0 ],
                     "text": "velocity"
                 }
             },
@@ -2180,7 +2180,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 1104.0, 280.0, 58.0, 22.0 ],
+                    "patching_rect": [ 1104.0, 272.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -2191,7 +2191,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1104.0, 312.0, 59.0, 22.0 ],
+                    "patching_rect": [ 1104.0, 304.0, 59.0, 22.0 ],
                     "text": "rotate"
                 }
             },
@@ -2202,7 +2202,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 688.0, 280.0, 58.0, 22.0 ],
+                    "patching_rect": [ 688.0, 272.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -2235,7 +2235,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 896.0, 280.0, 58.0, 22.0 ],
+                    "patching_rect": [ 896.0, 272.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -2309,7 +2309,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1524.0, 248.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1520.0, 240.0, 113.0, 22.0 ],
                     "text": "loadmess setup 0 8"
                 }
             },
@@ -4031,6 +4031,12 @@
                     "destination": [ "obj-88", 0 ],
                     "source": [ "obj-94", 1 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 1 ],
+                    "source": [ "obj-99", 0 ]
+                }
             }
         ],
         "parameters": {
@@ -4070,6 +4076,14 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",
