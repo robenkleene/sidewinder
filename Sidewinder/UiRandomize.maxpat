@@ -9,12 +9,23 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 214.0, 571.0, 1826.0, 1160.0 ],
+        "rect": [ 517.0, 117.0, 1826.0, 1160.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-54",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 136.0, 136.0, 65.0, 22.0 ],
+                    "text": "randomize"
+                }
+            },
             {
                 "box": {
                     "id": "obj-177",
@@ -88,8 +99,8 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 104.0, 56.0, 121.0, 22.0 ],
-                    "text": "routepass randomize"
+                    "patching_rect": [ 104.0, 56.0, 91.0, 22.0 ],
+                    "text": "routepass bang"
                 }
             },
             {
@@ -256,9 +267,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 136.0, 96.0, 31.0, 22.0 ],
-                    "text": "t b s"
+                    "outlettype": [ "bang", "bang" ],
+                    "patching_rect": [ 104.0, 96.0, 32.0, 22.0 ],
+                    "text": "t b b"
                 }
             },
             {
@@ -2462,7 +2473,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 59.0, 119.0, 640.0, 480.0 ],
+                        "rect": [ 1805.0, 658.0, 640.0, 480.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2740,7 +2752,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 438.0, 165.0, 99.0, 22.0 ],
+                    "patching_rect": [ 200.0, 168.0, 99.0, 22.0 ],
                     "text": "p channel_router"
                 }
             },
@@ -2767,7 +2779,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 520.0, 136.0, 44.0, 15.0 ],
+                    "patching_rect": [ 282.0, 139.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 104.0, 40.0, 24.0 ],
                     "saved_attribute_attributes": {
@@ -2797,7 +2809,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 496.0, 112.0, 44.0, 15.0 ],
+                    "patching_rect": [ 258.0, 115.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 80.0, 40.0, 24.0 ],
                     "saved_attribute_attributes": {
@@ -2827,7 +2839,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 472.0, 88.0, 44.0, 15.0 ],
+                    "patching_rect": [ 234.0, 91.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 56.0, 40.0, 24.0 ],
                     "saved_attribute_attributes": {
@@ -2857,7 +2869,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 456.0, 64.0, 44.0, 15.0 ],
+                    "patching_rect": [ 218.0, 67.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 32.0, 40.0, 24.0 ],
                     "saved_attribute_attributes": {
@@ -3417,7 +3429,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-34", 0 ],
+                    "destination": [ "obj-54", 0 ],
                     "source": [ "obj-173", 1 ]
                 }
             },
@@ -3791,6 +3803,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-54", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-72", 3 ],
                     "source": [ "obj-56", 1 ]
                 }
@@ -4076,14 +4094,6 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",
