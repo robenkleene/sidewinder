@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 517.0, 117.0, 1826.0, 1160.0 ],
+        "rect": [ 267.0, 92.0, 1826.0, 1160.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -854,7 +854,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 552.0, 248.0, 58.0, 22.0 ],
+                    "patching_rect": [ 560.0, 248.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -865,7 +865,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 568.0, 344.0, 81.0, 22.0 ],
+                    "patching_rect": [ 576.0, 344.0, 81.0, 22.0 ],
                     "text": "setup 0 127 8"
                 }
             },
@@ -876,7 +876,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "bang", "bang" ],
-                    "patching_rect": [ 552.0, 280.0, 42.0, 22.0 ],
+                    "patching_rect": [ 560.0, 280.0, 42.0, 22.0 ],
                     "text": "t b b b"
                 }
             },
@@ -887,7 +887,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 584.0, 312.0, 29.5, 22.0 ],
+                    "patching_rect": [ 592.0, 312.0, 29.5, 22.0 ],
                     "text": "72"
                 }
             },
@@ -898,7 +898,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 552.0, 312.0, 29.5, 22.0 ],
+                    "patching_rect": [ 560.0, 312.0, 29.5, 22.0 ],
                     "text": "60"
                 }
             },
@@ -1892,7 +1892,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 552.0, 400.0, 45.0, 45.0 ],
+                    "patching_rect": [ 560.0, 408.0, 45.0, 45.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 328.0, 48.0, 40.0, 34.0 ],
                     "varname": "PitchMinMax",
@@ -2473,7 +2473,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1805.0, 658.0, 640.0, 480.0 ],
+                        "rect": [ 1584.0, 519.0, 640.0, 480.0 ],
                         "visible": 1,
                         "boxes": [
                             {
@@ -2753,7 +2753,7 @@
                         ]
                     },
                     "patching_rect": [ 200.0, 168.0, 99.0, 22.0 ],
-                    "text": "p channel_router"
+                    "text": "p ChannelRouter"
                 }
             },
             {
@@ -4094,6 +4094,14 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",
