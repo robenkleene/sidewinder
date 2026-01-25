@@ -29,11 +29,12 @@
             {
                 "box": {
                     "id": "obj-168",
+                    "linecount": 3,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 112.0, 312.0, 129.0, 20.0 ],
-                    "text": "Enable Play for testing"
+                    "patching_rect": [ 88.0, 376.0, 80.0, 47.0 ],
+                    "text": "Toggle Enables Play for testing"
                 }
             },
             {
