@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 374.0, 153.0, 1491.0, 1130.0 ],
+        "rect": [ 1135.0, 113.0, 1491.0, 1130.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -771,7 +771,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1899,7 +1899,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2496,7 +2496,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3039,12 +3039,12 @@
             {
                 "box": {
                     "id": "obj-35",
-                    "linecount": 2,
+                    "linecount": 8,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 2168.0, 392.0, 169.0, 33.0 ],
-                    "text": "Add these so they're included when the device is frozen"
+                    "patching_rect": [ 8.0, 512.0, 80.0, 114.0 ],
+                    "text": "Add JavaScript files so they're included when the device is frozen"
                 }
             },
             {
@@ -3054,7 +3054,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 2168.0, 448.0, 145.0, 22.0 ],
+                    "patching_rect": [ 8.0, 648.0, 83.0, 22.0 ],
                     "saved_object_attributes": {
                         "filename": "Bjorklund.js",
                         "parameter_enable": 0
@@ -3069,7 +3069,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 2168.0, 424.0, 145.0, 22.0 ],
+                    "patching_rect": [ 8.0, 624.0, 83.0, 22.0 ],
                     "saved_object_attributes": {
                         "filename": "Toussaint.js",
                         "parameter_enable": 0
@@ -3508,7 +3508,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3761,7 +3761,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3954,7 +3954,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4012,7 +4012,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5784,6 +5784,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
