@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1035.0, 113.0, 1491.0, 1130.0 ],
+        "rect": [ 292.0, 115.0, 1830.0, 1130.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -3022,19 +3022,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 184.0, 248.0, 81.0, 22.0 ],
+                    "patching_rect": [ 256.0, 192.0, 81.0, 22.0 ],
                     "text": "s #1-Random"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-34",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 184.0, 216.0, 95.0, 22.0 ],
-                    "text": "route randomize"
                 }
             },
             {
@@ -3093,11 +3082,11 @@
                 "box": {
                     "id": "obj-27",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 168.0, 152.0, 91.0, 22.0 ],
-                    "text": "route play track"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 168.0, 152.0, 150.0, 22.0 ],
+                    "text": "route play track randomize"
                 }
             },
             {
@@ -5202,7 +5191,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-34", 0 ],
+                    "destination": [ "obj-39", 0 ],
                     "source": [ "obj-27", 2 ]
                 }
             },
@@ -5229,12 +5218,6 @@
                 "patchline": {
                     "destination": [ "obj-156", 0 ],
                     "source": [ "obj-31", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-39", 0 ],
-                    "source": [ "obj-34", 0 ]
                 }
             },
             {
@@ -5785,6 +5768,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
