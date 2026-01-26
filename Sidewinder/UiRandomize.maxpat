@@ -2397,7 +2397,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 1584.0, 519.0, 640.0, 480.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -3975,6 +3974,14 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",
