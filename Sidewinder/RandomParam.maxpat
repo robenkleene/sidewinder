@@ -65,7 +65,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 202.0, 224.0, 57.0, 22.0 ],
+                    "patching_rect": [ 208.0, 224.0, 57.0, 22.0 ],
                     "text": "tosymbol"
                 }
             },
@@ -82,24 +82,13 @@
             },
             {
                 "box": {
-                    "id": "obj-75",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 138.0, 224.0, 57.0, 22.0 ],
-                    "text": "tosymbol"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-72",
                     "maxclass": "newobj",
-                    "numinlets": 4,
+                    "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 10.0, 256.0, 208.0, 22.0 ],
-                    "text": "sprintf %s %s %s %s"
+                    "patching_rect": [ 10.0, 256.0, 101.0, 22.0 ],
+                    "text": "sprintf %s %s %s"
                 }
             },
             {
@@ -244,7 +233,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-72", 3 ],
+                    "destination": [ "obj-72", 2 ],
                     "source": [ "obj-12", 0 ]
                 }
             },
@@ -258,18 +247,6 @@
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "source": [ "obj-14", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-75", 0 ],
-                    "source": [ "obj-16", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-75", 0 ],
-                    "source": [ "obj-19", 0 ]
                 }
             },
             {
@@ -340,12 +317,6 @@
                 "patchline": {
                     "destination": [ "obj-10", 1 ],
                     "source": [ "obj-72", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-72", 2 ],
-                    "source": [ "obj-75", 0 ]
                 }
             },
             {
