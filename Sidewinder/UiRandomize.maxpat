@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 262.0, 125.0, 1826.0, 1160.0 ],
+        "rect": [ 105.0, 143.0, 1826.0, 1160.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -452,8 +452,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1792.0, 472.0, 103.0, 22.0 ],
-                    "text": "loadmess division"
+                    "patching_rect": [ 1792.0, 472.0, 105.0, 22.0 ],
+                    "text": "loadmess Division"
                 }
             },
             {
@@ -2114,8 +2114,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 520.0, 440.0, 89.0, 22.0 ],
-                    "text": "loadmess pitch"
+                    "patching_rect": [ 520.0, 440.0, 90.0, 22.0 ],
+                    "text": "loadmess Pitch"
                 }
             },
             {
@@ -2125,8 +2125,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1560.0, 472.0, 107.0, 22.0 ],
-                    "text": "loadmess duration"
+                    "patching_rect": [ 1560.0, 472.0, 83.0, 22.0 ],
+                    "text": "loadmess Dur"
                 }
             },
             {
@@ -2136,8 +2136,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1352.0, 448.0, 103.0, 22.0 ],
-                    "text": "loadmess velocity"
+                    "patching_rect": [ 1352.0, 448.0, 80.0, 22.0 ],
+                    "text": "loadmess Vel"
                 }
             },
             {
@@ -2147,8 +2147,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1168.0, 472.0, 94.0, 22.0 ],
-                    "text": "loadmess rotate"
+                    "patching_rect": [ 1168.0, 472.0, 99.0, 22.0 ],
+                    "text": "loadmess Rotate"
                 }
             },
             {
@@ -2158,8 +2158,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 768.0, 448.0, 98.0, 22.0 ],
-                    "text": "loadmess pulses"
+                    "patching_rect": [ 768.0, 448.0, 99.0, 22.0 ],
+                    "text": "loadmess Pulses"
                 }
             },
             {
@@ -2180,8 +2180,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 960.0, 472.0, 92.0, 22.0 ],
-                    "text": "loadmess steps"
+                    "patching_rect": [ 960.0, 472.0, 94.0, 22.0 ],
+                    "text": "loadmess Steps"
                 }
             },
             {
@@ -3974,14 +3974,6 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",
