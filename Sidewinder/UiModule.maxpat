@@ -34,7 +34,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 88.0, 376.0, 82.0, 60.0 ],
-                    "text": "Toggle  playback for testing this patch alone"
+                    "text": "Toggle playback for testing this patch alone"
                 }
             },
             {
@@ -5768,6 +5768,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
