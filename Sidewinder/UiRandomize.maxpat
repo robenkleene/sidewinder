@@ -22,8 +22,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 256.0, 544.0, 105.0, 22.0 ],
-                    "text": "prepend scramble"
+                    "patching_rect": [ 256.0, 512.0, 101.0, 22.0 ],
+                    "text": "append scramble"
                 }
             },
             {
@@ -1835,7 +1835,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 256.0, 512.0, 49.0, 22.0 ],
+                    "patching_rect": [ 256.0, 544.0, 49.0, 22.0 ],
                     "text": "append"
                 }
             },
@@ -3598,7 +3598,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-50", 0 ],
+                    "destination": [ "obj-43", 0 ],
                     "source": [ "obj-37", 1 ]
                 }
             },
@@ -3664,7 +3664,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-81", 0 ],
+                    "destination": [ "obj-50", 0 ],
                     "source": [ "obj-43", 0 ]
                 }
             },
@@ -3712,7 +3712,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-43", 0 ],
+                    "destination": [ "obj-81", 0 ],
                     "source": [ "obj-50", 0 ]
                 }
             },
@@ -3991,14 +3991,6 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",
