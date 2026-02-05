@@ -9,12 +9,22 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 358.0, 147.0, 1705.0, 1017.0 ],
+        "rect": [ 338.0, 135.0, 1705.0, 1017.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-52",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1136.0, 80.0, 67.0, 22.0 ],
+                    "text": "s #1-Reset"
+                }
+            },
             {
                 "box": {
                     "id": "obj-71",
@@ -2765,11 +2775,11 @@
                 "box": {
                     "id": "obj-42",
                     "maxclass": "newobj",
-                    "numinlets": 7,
-                    "numoutlets": 7,
-                    "outlettype": [ "", "", "", "", "", "", "" ],
-                    "patching_rect": [ 920.0, 48.0, 234.0, 22.0 ],
-                    "text": "route bang scramble Pulses Steps Vel Dur"
+                    "numinlets": 8,
+                    "numoutlets": 8,
+                    "outlettype": [ "", "", "", "", "", "", "", "" ],
+                    "patching_rect": [ 920.0, 48.0, 264.0, 22.0 ],
+                    "text": "route bang scramble Pulses Steps Vel Dur reset"
                 }
             },
             {
@@ -5047,8 +5057,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-55", 0 ],
+                    "destination": [ "obj-52", 0 ],
                     "source": [ "obj-42", 6 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-55", 0 ],
+                    "source": [ "obj-42", 7 ]
                 }
             },
             {
@@ -5382,6 +5398,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
