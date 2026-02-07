@@ -712,7 +712,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1152.0, 680.0, 87.0, 22.0 ],
+                    "patching_rect": [ 1152.0, 688.0, 87.0, 22.0 ],
                     "text": "r #1-Sequence"
                 }
             },
@@ -733,7 +733,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1136.0, 800.0, 118.0, 22.0 ],
+                    "patching_rect": [ 1136.0, 792.0, 118.0, 22.0 ],
                     "text": "s #1-StepSequencer"
                 }
             },
@@ -744,7 +744,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1432.0, 712.0, 70.0, 22.0 ],
+                    "patching_rect": [ 1496.0, 688.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -755,7 +755,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1344.0, 712.0, 79.0, 22.0 ],
+                    "patching_rect": [ 1424.0, 656.0, 79.0, 22.0 ],
                     "text": "pvar #2-Pitch"
                 }
             },
@@ -766,7 +766,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1512.0, 712.0, 72.0, 22.0 ],
+                    "patching_rect": [ 1520.0, 720.0, 72.0, 22.0 ],
                     "text": "pvar #2-Dur"
                 }
             },
@@ -777,7 +777,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1136.0, 712.0, 38.0, 22.0 ],
+                    "patching_rect": [ 1136.0, 720.0, 38.0, 22.0 ],
                     "text": "zl.reg"
                 }
             },
@@ -799,7 +799,7 @@
                     "numinlets": 4,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 1184.0, 712.0, 155.0, 22.0 ],
+                    "patching_rect": [ 1208.0, 720.0, 155.0, 22.0 ],
                     "text": "route pitch velocity duration"
                 }
             },
@@ -1615,7 +1615,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 1136.0, 760.0, 400.0, 22.0 ],
+                    "patching_rect": [ 1136.0, 752.0, 456.0, 22.0 ],
                     "text": "p NoteDistributor"
                 }
             },
@@ -5324,14 +5324,6 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
