@@ -9,12 +9,23 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 262.0, 125.0, 1826.0, 1160.0 ],
+        "rect": [ 284.0, 140.0, 1826.0, 1160.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-43",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 256.0, 512.0, 101.0, 22.0 ],
+                    "text": "append scramble"
+                }
+            },
             {
                 "box": {
                     "id": "obj-54",
@@ -427,7 +438,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1799.0, 398.0, 45.0, 45.0 ],
+                    "patching_rect": [ 1784.0, 424.0, 45.0, 45.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 232.0, 48.0, 45.0, 34.0 ],
                     "varname": "DivisionMinMax",
@@ -452,8 +463,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1792.0, 472.0, 103.0, 22.0 ],
-                    "text": "loadmess division"
+                    "patching_rect": [ 1784.0, 480.0, 105.0, 22.0 ],
+                    "text": "loadmess Division"
                 }
             },
             {
@@ -463,7 +474,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1728.0, 240.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1720.0, 392.0, 113.0, 22.0 ],
                     "text": "loadmess setup 0 8"
                 }
             },
@@ -479,7 +490,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1736.0, 480.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1728.0, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 232.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -799,7 +810,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1000.0, 304.0, 77.0, 22.0 ],
+                    "patching_rect": [ 984.0, 328.0, 77.0, 22.0 ],
                     "text": "loadmess 32"
                 }
             },
@@ -810,7 +821,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 968.0, 272.0, 70.0, 22.0 ],
+                    "patching_rect": [ 960.0, 296.0, 70.0, 22.0 ],
                     "text": "loadmess 1"
                 }
             },
@@ -978,7 +989,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 256.0, 544.0, 77.0, 22.0 ],
+                    "patching_rect": [ 256.0, 576.0, 77.0, 22.0 ],
                     "text": "s #1-output"
                 }
             },
@@ -1011,7 +1022,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1360.0, 480.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1352.0, 448.0, 97.0, 22.0 ],
                     "text": "r #1-notes_one"
                 }
             },
@@ -1022,7 +1033,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1560.0, 440.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1560.0, 448.0, 97.0, 22.0 ],
                     "text": "r #1-notes_one"
                 }
             },
@@ -1824,7 +1835,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 256.0, 512.0, 49.0, 22.0 ],
+                    "patching_rect": [ 256.0, 544.0, 49.0, 22.0 ],
                     "text": "append"
                 }
             },
@@ -1895,7 +1906,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1104.0, 240.0, 126.0, 22.0 ],
+                    "patching_rect": [ 1104.0, 336.0, 126.0, 22.0 ],
                     "text": "loadmess setup 0 127"
                 }
             },
@@ -1927,7 +1938,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1592.0, 368.0, 45.0, 45.0 ],
+                    "patching_rect": [ 1608.0, 392.0, 45.0, 45.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 392.0, 48.0, 45.0, 34.0 ],
                     "varname": "DurMinMax",
@@ -1941,7 +1952,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1312.0, 240.0, 126.0, 22.0 ],
+                    "patching_rect": [ 1320.0, 304.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 127"
                 }
             },
@@ -1952,7 +1963,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 896.0, 240.0, 126.0, 22.0 ],
+                    "patching_rect": [ 920.0, 264.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 128"
                 }
             },
@@ -1973,7 +1984,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1408.0, 336.0, 45.0, 105.0 ],
+                    "patching_rect": [ 1400.0, 336.0, 45.0, 105.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 280.0, 48.0, 40.0, 96.0 ],
                     "varname": "VelMinMax",
@@ -1997,7 +2008,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1176.0, 344.0, 45.0, 105.0 ],
+                    "patching_rect": [ 1160.0, 368.0, 45.0, 105.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 184.0, 48.0, 40.0, 96.0 ],
                     "varname": "RotateMinMax",
@@ -2021,7 +2032,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 968.0, 336.0, 45.0, 105.0 ],
+                    "patching_rect": [ 960.0, 360.0, 45.0, 105.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 48.0, 40.0, 96.0 ],
                     "varname": "StepsMinMax",
@@ -2114,8 +2125,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 520.0, 440.0, 89.0, 22.0 ],
-                    "text": "loadmess pitch"
+                    "patching_rect": [ 520.0, 440.0, 90.0, 22.0 ],
+                    "text": "loadmess Pitch"
                 }
             },
             {
@@ -2125,8 +2136,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1560.0, 472.0, 107.0, 22.0 ],
-                    "text": "loadmess duration"
+                    "patching_rect": [ 1576.0, 480.0, 83.0, 22.0 ],
+                    "text": "loadmess Dur"
                 }
             },
             {
@@ -2136,8 +2147,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1352.0, 448.0, 103.0, 22.0 ],
-                    "text": "loadmess velocity"
+                    "patching_rect": [ 1368.0, 480.0, 80.0, 22.0 ],
+                    "text": "loadmess Vel"
                 }
             },
             {
@@ -2147,8 +2158,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1168.0, 472.0, 94.0, 22.0 ],
-                    "text": "loadmess rotate"
+                    "patching_rect": [ 1168.0, 480.0, 99.0, 22.0 ],
+                    "text": "loadmess Rotate"
                 }
             },
             {
@@ -2158,8 +2169,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 768.0, 448.0, 98.0, 22.0 ],
-                    "text": "loadmess pulses"
+                    "patching_rect": [ 760.0, 448.0, 99.0, 22.0 ],
+                    "text": "loadmess Pulses"
                 }
             },
             {
@@ -2180,8 +2191,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 960.0, 472.0, 92.0, 22.0 ],
-                    "text": "loadmess steps"
+                    "patching_rect": [ 960.0, 472.0, 94.0, 22.0 ],
+                    "text": "loadmess Steps"
                 }
             },
             {
@@ -2243,7 +2254,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1520.0, 240.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1544.0, 360.0, 113.0, 22.0 ],
                     "text": "loadmess setup 0 8"
                 }
             },
@@ -2259,7 +2270,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1528.0, 368.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1528.0, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 392.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2289,7 +2300,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1112.0, 480.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1112.0, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 184.0, 32.0, 40.0, 16.0 ],
                     "saved_attribute_attributes": {
@@ -2821,7 +2832,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1312.0, 368.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1312.0, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 280.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -3587,7 +3598,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-50", 0 ],
+                    "destination": [ "obj-43", 0 ],
                     "source": [ "obj-37", 1 ]
                 }
             },
@@ -3649,6 +3660,12 @@
                 "patchline": {
                     "destination": [ "obj-48", 0 ],
                     "source": [ "obj-41", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-50", 0 ],
+                    "source": [ "obj-43", 0 ]
                 }
             },
             {
@@ -3974,14 +3991,6 @@
             "obj-9": [ "Randomize2", "2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-29::obj-1": {
                     "parameter_longname": "RandomizePulses-Min",
