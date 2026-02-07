@@ -17,11 +17,22 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-34",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1040.0, 80.0, 70.0, 22.0 ],
+                    "text": "route range"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-52",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1136.0, 88.0, 67.0, 22.0 ],
+                    "patching_rect": [ 1136.0, 80.0, 67.0, 22.0 ],
                     "text": "s #1-Reset"
                 }
             },
@@ -4935,6 +4946,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-103", 0 ],
+                    "source": [ "obj-34", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-49", 0 ],
                     "source": [ "obj-36", 0 ]
                 }
@@ -4989,12 +5006,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-103", 0 ],
-                    "source": [ "obj-42", 4 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-125", 0 ],
                     "source": [ "obj-42", 5 ]
                 }
@@ -5009,6 +5020,12 @@
                 "patchline": {
                     "destination": [ "obj-129", 0 ],
                     "source": [ "obj-42", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-42", 4 ]
                 }
             },
             {
@@ -5324,6 +5341,14 @@
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "obj-81": [ "#2-Vel", "Vel", 0 ],
             "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
