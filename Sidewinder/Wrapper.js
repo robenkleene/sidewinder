@@ -19,6 +19,6 @@ function msg_int(value) {
 function bang() {
   var pulses = values[0];
   var steps = values[1];
-  var result = generate(values[0], values[1]);
+  var result = generate(pulses, steps);
   outlet(0, result);
 }
