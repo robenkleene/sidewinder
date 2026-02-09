@@ -10,13 +10,13 @@ function bang() {
   var durations = d.get("duration");
   var interval = d.get("interval");
   d.clear();
-  var notes = makeNotes(pitches, durations, velocities, durations, interval);
+  var notes = makeNotes(pitches, velocities, durations, interval);
   var notesContainer = {};
   notesContainer["notes"] = notes;
   d.parse(JSON.stringify(notesContainer));
 }
 
-function makeNotes(pitches, durations, velocities, durations, interval) {
+function makeNotes(pitches, velocities, durations, interval) {
   var startTime = 0;
   var notes = [];
   for (var i = 0; i < pitches.length; i++) {

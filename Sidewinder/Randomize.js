@@ -24,7 +24,7 @@ function getRandomArbitrary(min, max) {
   if (min == max) {
     return min;
   }
-  return Math.floor(Math.random() * (max - min) + min) + 1;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function getRandomInt(min, max) {
@@ -93,9 +93,9 @@ function duration(value) {
   var min = input[INLET_DURATION_MIN];
   var arr = arrayfromargs(messagename, arguments);
   var values = arr.slice(1)
-  var shouldRandomize = (min == null || max == null);
+  var useOriginal = (min == null || max == null);
   for (var i = 0; i < values.length; i++) {
-    var index = shouldRandomize ? values[i]: getRandomInt(min, max);
+    var index = useOriginal ? values[i]: getRandomInt(min, max);
     values[i] = DURATION_VALUES[index];
   }
   arr = arr.slice(0, 1).concat(values);
