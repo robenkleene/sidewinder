@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -25,7 +25,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 8.0, 92.0, 20.0 ],
+                    "patching_rect": [ 8.0, 8.0, 102.0, 22.0 ],
                     "text": "loadmess recall 1"
                 }
             },
@@ -36,9 +36,9 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 664.0, 280.0, 89.0, 20.0 ],
+                    "patching_rect": [ 664.0, 280.0, 97.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 88.0, 176.0, 96.0, 20.0 ],
+                    "presentation_rect": [ 88.0, 176.0, 97.0, 22.0 ],
                     "text": "Global Transport"
                 }
             },
@@ -71,7 +71,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 832.0, 280.0, 150.0, 74.0 ],
+                    "patching_rect": [ 832.0, 280.0, 160.0, 87.0 ],
                     "text": "Note that each time a ReWire host stops and starts, a new global transport needs to be create by clicking this. The old one will not continue to update."
                 }
             },
@@ -82,7 +82,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 536.0, 328.0, 99.0, 20.0 ],
+                    "patching_rect": [ 536.0, 328.0, 108.0, 22.0 ],
                     "text": "clocksource rewire"
                 }
             },
@@ -93,7 +93,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 424.0, 328.0, 106.0, 20.0 ],
+                    "patching_rect": [ 424.0, 328.0, 115.0, 22.0 ],
                     "text": "clocksource internal"
                 }
             },
@@ -104,7 +104,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 424.0, 288.0, 37.0, 20.0 ],
+                    "patching_rect": [ 424.0, 288.0, 40.0, 22.0 ],
                     "text": "select"
                 }
             },
@@ -114,9 +114,9 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 448.0, 248.0, 43.0, 18.0 ],
+                    "patching_rect": [ 448.0, 248.0, 49.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 216.0, 176.0, 43.0, 18.0 ],
+                    "presentation_rect": [ 216.0, 176.0, 49.0, 20.0 ],
                     "text": "ReWire"
                 }
             },
@@ -140,9 +140,9 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 672.0, 152.0, 70.0, 20.0 ],
+                    "patching_rect": [ 672.0, 152.0, 77.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 176.0, 72.0, 20.0 ],
+                    "presentation_rect": [ 8.0, 176.0, 77.0, 22.0 ],
                     "text": "Audio Status"
                 }
             },
@@ -153,7 +153,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 672.0, 184.0, 32.0, 20.0 ],
+                    "patching_rect": [ 672.0, 184.0, 35.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -164,7 +164,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 712.0, 216.0, 150.0, 51.0 ],
+                    "patching_rect": [ 712.0, 216.0, 152.0, 60.0 ],
                     "text": "Just to get an Audio Status shortcut. Do I even need the Audio Status since this only sends MIDI?"
                 }
             },
@@ -174,7 +174,7 @@
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 672.0, 216.0, 32.0, 20.0 ],
+                    "patching_rect": [ 672.0, 216.0, 35.0, 22.0 ],
                     "text": "dac~"
                 }
             },
@@ -185,7 +185,7 @@
                     "numinlets": 2,
                     "numoutlets": 9,
                     "outlettype": [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-                    "patching_rect": [ 424.0, 368.0, 103.0, 20.0 ],
+                    "patching_rect": [ 424.0, 368.0, 103.0, 22.0 ],
                     "text": "transport"
                 }
             },
@@ -392,6 +392,14 @@
             "obj-2::obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-2::obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "obj-2::obj-9": [ "Play", "Play", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-2::obj-10": {
                     "parameter_initial": 0.0,

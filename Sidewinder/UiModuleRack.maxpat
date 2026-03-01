@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -428,7 +428,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 880.0, 272.0, 32.0, 20.0 ],
+                    "patching_rect": [ 880.0, 272.0, 34.0, 22.0 ],
                     "text": "write"
                 }
             },
@@ -439,7 +439,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 800.0, 280.0, 30.0, 20.0 ],
+                    "patching_rect": [ 800.0, 280.0, 33.0, 22.0 ],
                     "text": "read"
                 }
             },
@@ -450,7 +450,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 744.0, 320.0, 81.0, 20.0 ],
+                    "patching_rect": [ 744.0, 320.0, 89.0, 22.0 ],
                     "text": "storagewindow"
                 }
             },
@@ -461,7 +461,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 848.0, 272.0, 29.5, 20.0 ],
+                    "patching_rect": [ 848.0, 272.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -472,7 +472,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 848.0, 336.0, 58.0, 20.0 ],
+                    "patching_rect": [ 848.0, 336.0, 63.0, 22.0 ],
                     "text": "writeagain"
                 }
             },
@@ -483,7 +483,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 848.0, 304.0, 46.0, 20.0 ],
+                    "patching_rect": [ 848.0, 304.0, 52.0, 22.0 ],
                     "text": "gate 2 1"
                 }
             },
@@ -494,7 +494,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 744.0, 160.0, 53.0, 20.0 ],
+                    "patching_rect": [ 744.0, 160.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -505,7 +505,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 744.0, 216.0, 123.0, 20.0 ],
+                    "patching_rect": [ 744.0, 216.0, 123.0, 22.0 ],
                     "text": "pattrstorage Presets"
                 }
             },
@@ -516,7 +516,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 800.0, 360.0, 123.0, 20.0 ],
+                    "patching_rect": [ 800.0, 360.0, 123.0, 22.0 ],
                     "saved_object_attributes": {
                         "client_rect": [ 4, 44, 358, 172 ],
                         "parameter_enable": 0,
@@ -974,6 +974,14 @@
             "obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "obj-9": [ "Play", "Play", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-8::obj-7::obj-29::obj-1": {
                     "parameter_range": [ 1.0, 128.0 ]
