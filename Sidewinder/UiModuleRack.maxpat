@@ -324,8 +324,6 @@
             },
             {
                 "box": {
-                    "fontname": "Ableton Sans Medium Regular",
-                    "fontsize": 11.0,
                     "hidden": 1,
                     "id": "obj-4",
                     "maxclass": "comment",
@@ -425,8 +423,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-32",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -438,8 +434,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-28",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -451,8 +445,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-18",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -464,8 +456,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -477,8 +467,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-14",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -490,8 +478,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-12",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -503,8 +489,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-26",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -516,8 +500,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-25",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -529,8 +511,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 1,

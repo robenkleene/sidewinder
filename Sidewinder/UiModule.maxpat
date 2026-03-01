@@ -3481,8 +3481,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial",
-                    "fontsize": 12.0,
                     "id": "obj-3",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -3494,8 +3492,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial",
-                    "fontsize": 12.0,
                     "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -3731,8 +3727,6 @@
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 13.0,
                                     "id": "obj-37",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -3744,8 +3738,6 @@
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 13.0,
                                     "id": "obj-36",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -3973,8 +3965,6 @@
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 13.0,
                                     "id": "obj-40",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -4293,7 +4283,6 @@
                     "annotation": "The sequencer.",
                     "annotation_name": "Sequencer",
                     "fontface": 0,
-                    "fontname": "Arial",
                     "id": "obj-8",
                     "maxclass": "live.step",
                     "numinlets": 1,

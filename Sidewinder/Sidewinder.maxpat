@@ -44,8 +44,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial",
-                    "fontsize": 12.0,
                     "id": "obj-3",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -57,8 +55,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial",
-                    "fontsize": 12.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 1,
