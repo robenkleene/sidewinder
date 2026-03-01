@@ -12,8 +12,6 @@
         "openrect": [ 62.0, 230.0, 642.0, 214.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
