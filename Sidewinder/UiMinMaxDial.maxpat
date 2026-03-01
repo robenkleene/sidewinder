@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -399,14 +399,6 @@
         "parameters": {
             "obj-1": [ "#1-Min", "#2Min", 0 ],
             "obj-2": [ "#1-Max", "#2Max", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
