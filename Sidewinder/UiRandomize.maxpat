@@ -11,9 +11,6 @@
         "classnamespace": "box",
         "rect": [ 284.0, 140.0, 1826.0, 1160.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -1584,9 +1581,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 758.0, 288.0, 936.0, 677.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "boxes": [
                             {
                                 "box": {

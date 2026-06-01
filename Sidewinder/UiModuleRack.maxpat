@@ -12,9 +12,6 @@
         "openrect": [ 116.0, 100.0, 626.0, 180.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "devicewidth": 626.0,
         "subpatcher_template": "max-for-live",
         "boxes": [

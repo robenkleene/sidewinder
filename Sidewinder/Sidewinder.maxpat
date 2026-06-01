@@ -12,9 +12,6 @@
         "openrect": [ 62.0, 230.0, 642.0, 214.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "devicewidth": 642.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
