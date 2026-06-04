@@ -52,6 +52,7 @@ To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`.
 
 #### Presets
 
+- **Export**: Export the notes dictionary as JSON (this can then be imported into a MIDI region using a MIDI generator or transformer that supports imports like [Middleware](https://github.com/robenkleene/middleware))
 - **R**: Read presets from a file
 - **W**: Write the presets to a file
 - **OW**: When toggled on, **W** will automatically write again to the same file
