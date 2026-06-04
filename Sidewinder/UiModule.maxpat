@@ -57,31 +57,6 @@
             },
             {
                 "box": {
-                    "annotation": "The note velocity for the sequencer.",
-                    "annotation_name": "Sequencer Velocity",
-                    "id": "obj-81",
-                    "maxclass": "live.dial",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 344.0, 40.0, 41.0, 48.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 533.0, 19.0, 41.0, 48.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "#2-Vel2",
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Vel",
-                            "parameter_type": 0,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "#2-Vel2"
-                }
-            },
-            {
-                "box": {
                     "fontname": "Ableton Sans Medium",
                     "fontsize": 9.0,
                     "id": "obj-80",
@@ -840,8 +815,7 @@
                         "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 68, 62, 5, 126, 126, 61, 106, 5, 126, 126, 78, 88, 5, 126, 126 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 1.0 ],
-                        "#2-Vel": [ 0.0 ],
-                        "#2-Vel2": [ 0.0 ]
+                        "#2-Vel": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -5422,12 +5396,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-38", 0 ],
-                    "source": [ "obj-81", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-86", 1 ]
                 }
@@ -5482,7 +5450,6 @@
             "obj-77": [ "#2-Vel", "Vel", 0 ],
             "obj-78": [ "#2-Pitch", "Pitch", 0 ],
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
-            "obj-81": [ "#2-Vel2", "Vel", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
