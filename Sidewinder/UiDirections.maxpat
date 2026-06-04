@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 84.0, 144.0, 1067.0, 710.0 ],
+        "rect": [ 1202.0, 476.0, 552.0, 710.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -58,8 +58,15 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "Move sequencer notes left.",
                     "annotation_name": "Sequencer Left",
+                    "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "bgoncolor": [ 0.9450980392156862, 0.9450980392156862, 0.9450980392156862, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
                     "id": "obj-142",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -69,8 +76,29 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 72.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 72.0, 0.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 10.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "bgcolor": {
+                            "expression": ""
+                        },
+                        "bgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": ""
+                        },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_longname": "#2-Left",
@@ -80,14 +108,21 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "L",
+                    "text": "◀",
                     "varname": "#2-Left"
                 }
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "Move sequencer notes right.",
                     "annotation_name": "Sequencer Right",
+                    "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "bgoncolor": [ 0.9450980392156862, 0.9450980392156862, 0.9450980392156862, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
                     "id": "obj-141",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -97,8 +132,29 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 24.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 24.0, 0.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 20.0, 10.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "bgcolor": {
+                            "expression": ""
+                        },
+                        "bgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": ""
+                        },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_longname": "#2-Right",
@@ -108,14 +164,21 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "R",
+                    "text": "▶",
                     "varname": "#2-Right"
                 }
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "Move sequencer notes down.",
                     "annotation_name": "Sequencer Down",
+                    "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "bgoncolor": [ 0.9450980392156862, 0.9450980392156862, 0.9450980392156862, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
                     "id": "obj-136",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -125,8 +188,29 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 48.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 10.0, 20.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "bgcolor": {
+                            "expression": ""
+                        },
+                        "bgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": ""
+                        },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_longname": "#2-Down",
@@ -136,14 +220,21 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "D",
+                    "text": "▼",
                     "varname": "#2-Down"
                 }
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "Move sequencer notes up.",
                     "annotation_name": "Sequencer Up",
+                    "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "bgoncolor": [ 0.9450980392156862, 0.9450980392156862, 0.9450980392156862, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
                     "id": "obj-86",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -153,8 +244,29 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 0.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 10.0, 0.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "bgcolor": {
+                            "expression": ""
+                        },
+                        "bgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": ""
+                        },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_longname": "#2-Up",
@@ -164,7 +276,7 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "U",
+                    "text": "▲",
                     "varname": "#2-Up"
                 }
             }
@@ -200,6 +312,14 @@
             "obj-141": [ "#2-Right", "Right", 0 ],
             "obj-142": [ "#2-Left", "Left", 0 ],
             "obj-86": [ "#2-Up", "Up", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

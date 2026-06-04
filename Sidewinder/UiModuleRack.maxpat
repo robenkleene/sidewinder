@@ -314,7 +314,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 848.0, 248.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 592.0, 112.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 647.0, 112.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -357,7 +357,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 880.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 600.0, 96.0, 16.0, 16.0 ],
+                    "presentation_rect": [ 655.0, 96.0, 16.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -386,7 +386,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 800.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 584.0, 96.0, 16.0, 16.0 ],
+                    "presentation_rect": [ 639.0, 96.0, 16.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -525,7 +525,7 @@
                     "patching_rect": [ 744.0, 272.0, 32.0, 34.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 576.0, 128.0, 40.0, 40.0 ]
+                    "presentation_rect": [ 631.0, 128.0, 40.0, 40.0 ]
                 }
             },
             {
@@ -859,10 +859,11 @@
             "obj-8::obj-13::obj-53::obj-2": [ "2-Steps", "Steps", 0 ],
             "obj-8::obj-13::obj-64": [ "2-Auto", "Auto", 0 ],
             "obj-8::obj-13::obj-65": [ "2-Set", "Set", 0 ],
+            "obj-8::obj-13::obj-72": [ "2-Mode", "Mode", 0 ],
+            "obj-8::obj-13::obj-77": [ "2-Vel[1]", "Vel", 0 ],
             "obj-8::obj-13::obj-78": [ "2-Pitch", "Pitch", 0 ],
             "obj-8::obj-13::obj-8": [ "2-Sequencer", "Seq", 1 ],
             "obj-8::obj-13::obj-81": [ "2-Vel", "Vel", 0 ],
-            "obj-8::obj-13::obj-84": [ "2-Mode", "Mode", 0 ],
             "obj-8::obj-18::obj-11": [ "3-Rotate", "Rotate", 0 ],
             "obj-8::obj-18::obj-13": [ "3-Export", "Export", 0 ],
             "obj-8::obj-18::obj-143::obj-136": [ "3-Down", "Down", 0 ],
@@ -877,10 +878,11 @@
             "obj-8::obj-18::obj-53::obj-2": [ "3-Steps", "Steps", 0 ],
             "obj-8::obj-18::obj-64": [ "3-Auto", "Auto", 0 ],
             "obj-8::obj-18::obj-65": [ "3-Set", "Set", 0 ],
+            "obj-8::obj-18::obj-72": [ "3-Mode", "Mode", 0 ],
+            "obj-8::obj-18::obj-77": [ "3-Vel[1]", "Vel", 0 ],
             "obj-8::obj-18::obj-78": [ "3-Pitch", "Pitch", 0 ],
             "obj-8::obj-18::obj-8": [ "3-Sequencer", "Seq", 1 ],
             "obj-8::obj-18::obj-81": [ "3-Vel", "Vel", 0 ],
-            "obj-8::obj-18::obj-84": [ "3-Mode", "Mode", 0 ],
             "obj-8::obj-1::obj-11": [ "1-Rotate", "Rotate", 0 ],
             "obj-8::obj-1::obj-13": [ "1-Export", "Export", 0 ],
             "obj-8::obj-1::obj-143::obj-136": [ "1-Down", "Down", 0 ],
@@ -895,10 +897,11 @@
             "obj-8::obj-1::obj-53::obj-2": [ "1-Steps", "Steps", 0 ],
             "obj-8::obj-1::obj-64": [ "1-Auto", "Auto", 0 ],
             "obj-8::obj-1::obj-65": [ "1-Set", "Set", 0 ],
+            "obj-8::obj-1::obj-72": [ "1-Mode", "Mode", 0 ],
+            "obj-8::obj-1::obj-77": [ "1-Vel[1]", "Vel", 0 ],
             "obj-8::obj-1::obj-78": [ "1-Pitch", "Pitch", 0 ],
             "obj-8::obj-1::obj-8": [ "1-Sequencer", "Seq", 1 ],
             "obj-8::obj-1::obj-81": [ "1-Vel", "Vel", 0 ],
-            "obj-8::obj-1::obj-84": [ "1-Mode", "Mode", 0 ],
             "obj-8::obj-21::obj-11": [ "4-Rotate", "Rotate", 0 ],
             "obj-8::obj-21::obj-13": [ "4-Export", "Export", 0 ],
             "obj-8::obj-21::obj-143::obj-136": [ "4-Down", "Down", 0 ],
@@ -913,10 +916,11 @@
             "obj-8::obj-21::obj-53::obj-2": [ "4-Steps", "Steps", 0 ],
             "obj-8::obj-21::obj-64": [ "4-Auto", "Auto", 0 ],
             "obj-8::obj-21::obj-65": [ "4-Set", "Set", 0 ],
+            "obj-8::obj-21::obj-72": [ "4-Mode", "Mode", 0 ],
+            "obj-8::obj-21::obj-77": [ "4-Vel[1]", "Vel", 0 ],
             "obj-8::obj-21::obj-78": [ "4-Pitch", "Pitch", 0 ],
             "obj-8::obj-21::obj-8": [ "4-Sequencer", "Seq", 1 ],
             "obj-8::obj-21::obj-81": [ "4-Vel", "Vel", 0 ],
-            "obj-8::obj-21::obj-84": [ "4-Mode", "Mode", 0 ],
             "obj-8::obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
             "obj-8::obj-7::obj-10": [ "Randomize3", "3", 0 ],
             "obj-8::obj-7::obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
@@ -963,6 +967,30 @@
                 }
             },
             "parameter_overrides": {
+                "obj-8::obj-13::obj-77": {
+                    "parameter_longname": "2-Vel[1]"
+                },
+                "obj-8::obj-13::obj-81": {
+                    "parameter_longname": "2-Vel"
+                },
+                "obj-8::obj-18::obj-77": {
+                    "parameter_longname": "3-Vel[1]"
+                },
+                "obj-8::obj-18::obj-81": {
+                    "parameter_longname": "3-Vel"
+                },
+                "obj-8::obj-1::obj-77": {
+                    "parameter_longname": "1-Vel[1]"
+                },
+                "obj-8::obj-1::obj-81": {
+                    "parameter_longname": "1-Vel"
+                },
+                "obj-8::obj-21::obj-77": {
+                    "parameter_longname": "4-Vel[1]"
+                },
+                "obj-8::obj-21::obj-81": {
+                    "parameter_longname": "4-Vel"
+                },
                 "obj-8::obj-7::obj-29::obj-1": {
                     "parameter_range": [ 1.0, 128.0 ]
                 },
@@ -998,6 +1026,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }

@@ -4,14 +4,134 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 338.0, 135.0, 1705.0, 1017.0 ],
+        "rect": [ 910.0, 305.0, 1063.0, 613.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 10.0,
+                    "id": "obj-83",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 278.0, 18.0, 44.0, 18.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 532.0, 26.0, 44.0, 18.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
+                        }
+                    },
+                    "text": "Velocity",
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-77",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 280.0, 35.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 531.0, 45.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "#2-Vel",
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Vel",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "#2-Vel"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "The note velocity for the sequencer.",
+                    "annotation_name": "Sequencer Velocity",
+                    "id": "obj-81",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 344.0, 40.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 533.0, 19.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "#2-Vel2",
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Vel",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "#2-Vel2"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.0,
+                    "id": "obj-80",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 331.0, 337.0, 30.0, 17.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 442.0, 1.0, 30.0, 17.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        }
+                    },
+                    "text": "Show",
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ]
+                }
+            },
+            {
+                "box": {
+                    "activebgcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "id": "obj-72",
+                    "maxclass": "live.menu",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 372.0, 339.5, 55.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 474.0, 2.0, 55.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_control_selection"
+                        },
+                        "bordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "All", "Pitch", "Velocity", "Duration" ],
+                            "parameter_longname": "#2-Mode",
+                            "parameter_mmax": 3,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Mode",
+                            "parameter_type": 2
+                        }
+                    },
+                    "varname": "#2-Mode"
+                }
+            },
             {
                 "box": {
                     "id": "obj-50",
@@ -262,7 +382,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 648.0, 624.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 528.0, 80.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 83.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -388,7 +508,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 200.0, 56.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 192.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 329.0, 1.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
@@ -459,13 +579,15 @@
             },
             {
                 "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.0,
                     "id": "obj-33",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 272.0, 664.0, 24.0, 20.0 ],
+                    "patching_rect": [ 272.0, 664.0, 20.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 120.0, 0.0, 24.0, 20.0 ],
+                    "presentation_rect": [ 257.0, 1.0, 20.0, 17.0 ],
                     "text": "Ch"
                 }
             },
@@ -482,7 +604,7 @@
                     "parameter_mappable": 0,
                     "patching_rect": [ 296.0, 664.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 144.0, 0.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 281.0, 1.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#2-Ch",
@@ -638,7 +760,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 632.0, 408.0, 96.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 256.0, 0.0, 96.0, 16.0 ],
+                    "presentation_rect": [ 526.0, 131.0, 40.0, 35.0 ],
                     "varname": "#2-Directions",
                     "viewvisibility": 1
                 }
@@ -715,10 +837,11 @@
                         "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 0.0 ],
                         "#2-Rotate": [ 0.0 ],
-                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 77, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
+                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 68, 62, 5, 126, 126, 61, 106, 5, 126, 126, 78, 88, 5, 126, 126 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 1.0 ],
-                        "#2-Vel": [ 0.0 ]
+                        "#2-Vel": [ 0.0 ],
+                        "#2-Vel2": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -845,7 +968,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1970,7 +2093,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2498,7 +2621,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2869,7 +2992,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 88.0, 320.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 100.0, 2.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2897,7 +3020,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 424.0, -40.0, 48.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 528.0, 64.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 67.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
@@ -2935,7 +3058,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 56.0, 64.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 3.0, 116.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#2-Rotate",
@@ -2961,60 +3084,6 @@
             },
             {
                 "box": {
-                    "annotation": "Set whether All, Pitch, Velocity, or Duration values are shown in the sequencer.",
-                    "annotation_name": "Sequencer Mode",
-                    "id": "obj-84",
-                    "maxclass": "live.tab",
-                    "num_lines_patching": 1,
-                    "num_lines_presentation": 1,
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 368.0, 312.0, 100.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 352.0, 0.0, 168.0, 16.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "All", "Pitch", "Vel", "Dur" ],
-                            "parameter_longname": "#2-Mode",
-                            "parameter_mmax": 3,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Mode",
-                            "parameter_type": 2,
-                            "parameter_unitstyle": 9
-                        }
-                    },
-                    "varname": "#2-Mode"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The note velocity for the sequencer.",
-                    "annotation_name": "Sequencer Velocity",
-                    "id": "obj-81",
-                    "maxclass": "live.dial",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 344.0, 40.0, 41.0, 48.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 528.0, 16.0, 41.0, 48.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "#2-Vel",
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Vel",
-                            "parameter_type": 0,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "#2-Vel"
-                }
-            },
-            {
-                "box": {
                     "annotation": "The note pitch for the sequencer.",
                     "annotation_name": "Sequencer Pitch",
                     "id": "obj-78",
@@ -3025,7 +3094,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 528.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#2-Pitch",
@@ -3053,7 +3122,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 464.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 170.0, 2.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -3082,7 +3151,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 512.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 80.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 210.0, 2.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -3161,7 +3230,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 8.0, 64.0, 40.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 40.0, 96.0 ],
+                    "presentation_rect": [ 3.0, 4.0, 40.0, 108.0 ],
                     "varname": "PulsesSteps",
                     "viewvisibility": 1
                 }
@@ -3252,7 +3321,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3499,7 +3568,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3688,7 +3757,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3740,7 +3809,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4209,7 +4278,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 368.0, 344.0, 57.0, 22.0 ],
+                    "patching_rect": [ 372.0, 368.0, 57.0, 22.0 ],
                     "text": "mode $1"
                 }
             },
@@ -4261,8 +4330,13 @@
                 "box": {
                     "annotation": "The sequencer.",
                     "annotation_name": "Sequencer",
+                    "bgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "bgrulercolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "bgunitcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 1.0 ],
                     "fontface": 0,
                     "id": "obj-8",
+                    "loopbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "maxclass": "live.step",
                     "numinlets": 1,
                     "numoutlets": 5,
@@ -4270,8 +4344,26 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 168.0, 472.0, 450.0, 165.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 16.0, 472.0, 152.0 ],
+                    "presentation_rect": [ 57.0, 20.0, 472.0, 144.0 ],
                     "saved_attribute_attributes": {
+                        "bgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "bgrulercolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "bgunitcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "loopbordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
                         "valueof": {
                             "parameter_initial": [ 1, 3, 0, 1, 12, 0, 3, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 0, 4, 0, 0 ],
                             "parameter_initial_enable": 1,
@@ -4283,6 +4375,7 @@
                             "parameter_type": 3
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Sequencer"
                 }
             },
@@ -4299,6 +4392,46 @@
                         "parameter_enable": 0
                     },
                     "text": "js Wrapper.js"
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-66",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 761.0, 830.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 47.0, 169.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "id": "obj-68",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 616.0, 830.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 49.0, 0.0, 536.0, 169.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        }
+                    }
                 }
             }
         ],
@@ -5219,6 +5352,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "order": 0,
+                    "source": [ "obj-72", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-48", 0 ],
+                    "order": 1,
+                    "source": [ "obj-72", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-74", 0 ],
                     "source": [ "obj-73", 0 ]
                 }
@@ -5233,6 +5380,13 @@
                 "patchline": {
                     "destination": [ "obj-73", 0 ],
                     "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-38", 0 ],
+                    "order": 0,
+                    "source": [ "obj-77", 0 ]
                 }
             },
             {
@@ -5269,22 +5423,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-38", 0 ],
-                    "order": 1,
                     "source": [ "obj-81", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-14", 0 ],
-                    "order": 0,
-                    "source": [ "obj-84", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-48", 0 ],
-                    "order": 1,
-                    "source": [ "obj-84", 0 ]
                 }
             },
             {
@@ -5339,10 +5478,11 @@
             "obj-53::obj-2": [ "#2-Steps", "Steps", 0 ],
             "obj-64": [ "#2-Auto", "Auto", 0 ],
             "obj-65": [ "#2-Set", "Set", 0 ],
+            "obj-72": [ "#2-Mode", "Mode", 0 ],
+            "obj-77": [ "#2-Vel", "Vel", 0 ],
             "obj-78": [ "#2-Pitch", "Pitch", 0 ],
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
-            "obj-81": [ "#2-Vel", "Vel", 0 ],
-            "obj-84": [ "#2-Mode", "Mode", 0 ],
+            "obj-81": [ "#2-Vel2", "Vel", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -5353,6 +5493,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }
