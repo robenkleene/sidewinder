@@ -348,32 +348,6 @@
             },
             {
                 "box": {
-                    "id": "obj-13",
-                    "maxclass": "live.text",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 550.5, 444.5, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 533.0, 83.0, 44.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-Export",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Export",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Export",
-                    "varname": "#2-Export"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-158",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -808,7 +782,6 @@
                         "#2-Ch": [ 1.0 ],
                         "#2-Division": [ 0.0 ],
                         "#2-Dur": [ 0.0 ],
-                        "#2-Export": [ 0.0 ],
                         "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 0.0 ],
                         "#2-Rotate": [ 0.0 ],
@@ -4628,12 +4601,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-174", 0 ],
-                    "source": [ "obj-13", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-94", 3 ],
                     "source": [ "obj-131", 2 ]
                 }
@@ -5439,7 +5406,6 @@
         ],
         "parameters": {
             "obj-11": [ "#2-Rotate", "Rotate", 0 ],
-            "obj-13": [ "#2-Export", "Export", 0 ],
             "obj-143::obj-136": [ "#2-Down", "Down", 0 ],
             "obj-143::obj-141": [ "#2-Right", "Right", 0 ],
             "obj-143::obj-142": [ "#2-Left", "Left", 0 ],

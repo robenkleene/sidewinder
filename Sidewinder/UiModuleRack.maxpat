@@ -17,6 +17,65 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-43",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 442.75, 72.0, 29.5, 22.0 ],
+                    "text": "+ 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 413.0, 110.0, 89.0, 22.0 ],
+                    "text": "prepend export"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-42",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 373.0, 72.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 629.0, 76.5, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "#2-Export",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Export",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Export",
+                    "varname": "#2-Export"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-40",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 373.0, 144.0, 59.0, 22.0 ],
+                    "text": "export 0"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-25",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -241,6 +300,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 928.0, 72.0, 56.0, 22.0 ],
                     "restore": {
+                        "#2-Export": [ 0.0 ],
                         "Overwrite": [ 0.0 ],
                         "Play": [ 1.0 ],
                         "Randomize": [ 0.0 ],
@@ -729,6 +789,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-40", 1 ],
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-28", 0 ]
                 }
@@ -813,8 +879,26 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-40", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-tabs", 0 ],
                     "source": [ "obj-41", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-40", 0 ],
+                    "source": [ "obj-42", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-43", 0 ]
                 }
             },
             {
@@ -862,28 +946,35 @@
             {
                 "patchline": {
                     "destination": [ "obj-25", 0 ],
-                    "order": 2,
-                    "source": [ "obj-tabs", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-31", 1 ],
-                    "order": 1,
-                    "source": [ "obj-tabs", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-5", 0 ],
                     "order": 3,
                     "source": [ "obj-tabs", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
+                    "destination": [ "obj-31", 1 ],
+                    "order": 2,
+                    "source": [ "obj-tabs", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-43", 0 ],
                     "order": 0,
+                    "source": [ "obj-tabs", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "order": 4,
+                    "source": [ "obj-tabs", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "order": 1,
                     "source": [ "obj-tabs", 0 ]
                 }
             }
@@ -895,8 +986,8 @@
             "obj-17": [ "Overwrite", "OW", 0 ],
             "obj-19": [ "Solo", "Solo", 0 ],
             "obj-20": [ "Randomize", "Rand", 0 ],
+            "obj-42": [ "#2-Export", "Export", 0 ],
             "obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
-            "obj-8::obj-13::obj-13": [ "2-Export", "Export", 0 ],
             "obj-8::obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
             "obj-8::obj-13::obj-143::obj-141": [ "2-Right", "Right", 0 ],
             "obj-8::obj-13::obj-143::obj-142": [ "2-Left", "Left", 0 ],
@@ -913,9 +1004,7 @@
             "obj-8::obj-13::obj-77": [ "2-Vel[1]", "Vel", 0 ],
             "obj-8::obj-13::obj-78": [ "2-Pitch", "Pitch", 0 ],
             "obj-8::obj-13::obj-8": [ "2-Sequencer", "Seq", 1 ],
-            "obj-8::obj-13::obj-81": [ "2-Vel", "Vel", 0 ],
             "obj-8::obj-18::obj-11": [ "3-Rotate", "Rotate", 0 ],
-            "obj-8::obj-18::obj-13": [ "3-Export", "Export", 0 ],
             "obj-8::obj-18::obj-143::obj-136": [ "3-Down", "Down", 0 ],
             "obj-8::obj-18::obj-143::obj-141": [ "3-Right", "Right", 0 ],
             "obj-8::obj-18::obj-143::obj-142": [ "3-Left", "Left", 0 ],
@@ -932,9 +1021,7 @@
             "obj-8::obj-18::obj-77": [ "3-Vel[1]", "Vel", 0 ],
             "obj-8::obj-18::obj-78": [ "3-Pitch", "Pitch", 0 ],
             "obj-8::obj-18::obj-8": [ "3-Sequencer", "Seq", 1 ],
-            "obj-8::obj-18::obj-81": [ "3-Vel", "Vel", 0 ],
             "obj-8::obj-1::obj-11": [ "1-Rotate", "Rotate", 0 ],
-            "obj-8::obj-1::obj-13": [ "1-Export", "Export", 0 ],
             "obj-8::obj-1::obj-143::obj-136": [ "1-Down", "Down", 0 ],
             "obj-8::obj-1::obj-143::obj-141": [ "1-Right", "Right", 0 ],
             "obj-8::obj-1::obj-143::obj-142": [ "1-Left", "Left", 0 ],
@@ -951,9 +1038,7 @@
             "obj-8::obj-1::obj-77": [ "1-Vel[1]", "Vel", 0 ],
             "obj-8::obj-1::obj-78": [ "1-Pitch", "Pitch", 0 ],
             "obj-8::obj-1::obj-8": [ "1-Sequencer", "Seq", 1 ],
-            "obj-8::obj-1::obj-81": [ "1-Vel", "Vel", 0 ],
             "obj-8::obj-21::obj-11": [ "4-Rotate", "Rotate", 0 ],
-            "obj-8::obj-21::obj-13": [ "4-Export", "Export", 0 ],
             "obj-8::obj-21::obj-143::obj-136": [ "4-Down", "Down", 0 ],
             "obj-8::obj-21::obj-143::obj-141": [ "4-Right", "Right", 0 ],
             "obj-8::obj-21::obj-143::obj-142": [ "4-Left", "Left", 0 ],
@@ -970,7 +1055,6 @@
             "obj-8::obj-21::obj-77": [ "4-Vel[1]", "Vel", 0 ],
             "obj-8::obj-21::obj-78": [ "4-Pitch", "Pitch", 0 ],
             "obj-8::obj-21::obj-8": [ "4-Sequencer", "Seq", 1 ],
-            "obj-8::obj-21::obj-81": [ "4-Vel", "Vel", 0 ],
             "obj-8::obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
             "obj-8::obj-7::obj-10": [ "Randomize3", "3", 0 ],
             "obj-8::obj-7::obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
@@ -1025,26 +1109,14 @@
                 "obj-8::obj-13::obj-77": {
                     "parameter_longname": "2-Vel[1]"
                 },
-                "obj-8::obj-13::obj-81": {
-                    "parameter_longname": "2-Vel"
-                },
                 "obj-8::obj-18::obj-77": {
                     "parameter_longname": "3-Vel[1]"
-                },
-                "obj-8::obj-18::obj-81": {
-                    "parameter_longname": "3-Vel"
                 },
                 "obj-8::obj-1::obj-77": {
                     "parameter_longname": "1-Vel[1]"
                 },
-                "obj-8::obj-1::obj-81": {
-                    "parameter_longname": "1-Vel"
-                },
                 "obj-8::obj-21::obj-77": {
                     "parameter_longname": "4-Vel[1]"
-                },
-                "obj-8::obj-21::obj-81": {
-                    "parameter_longname": "4-Vel"
                 },
                 "obj-8::obj-7::obj-29::obj-1": {
                     "parameter_range": [ 1.0, 128.0 ]
