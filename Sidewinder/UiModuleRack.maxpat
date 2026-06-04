@@ -17,6 +17,39 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 34.0, 120.0, 72.0, 22.0 ],
+                    "text": "prepend set"
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-tabs",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabs.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 45.5, 5.5, 49.0, 93.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 33.0, 49.0, 93.0 ],
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
                     "id": "obj-38",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -413,8 +446,6 @@
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 8.0, 8.0, 24.0, 88.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 32.0, 40.0, 120.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1", "2", "3", "4", "R" ],
@@ -504,7 +535,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 800.0, 360.0, 123.0, 22.0 ],
                     "saved_object_attributes": {
-                        "client_rect": [ 4, 44, 358, 172 ],
+                        "client_rect": [ 1057, 45, 1440, 407 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -600,22 +631,7 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-31", 1 ],
-                    "order": 1,
-                    "source": [ "obj-10", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-5", 0 ],
-                    "order": 2,
-                    "source": [ "obj-10", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "order": 0,
+                    "destination": [ "obj-tabs", 0 ],
                     "source": [ "obj-10", 0 ]
                 }
             },
@@ -707,6 +723,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-28", 0 ]
                 }
@@ -791,7 +813,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 0 ],
+                    "destination": [ "obj-tabs", 0 ],
                     "source": [ "obj-41", 0 ]
                 }
             },
@@ -835,6 +857,34 @@
                 "patchline": {
                     "destination": [ "obj-21", 0 ],
                     "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "order": 2,
+                    "source": [ "obj-tabs", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 1 ],
+                    "order": 1,
+                    "source": [ "obj-tabs", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "order": 3,
+                    "source": [ "obj-tabs", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "order": 0,
+                    "source": [ "obj-tabs", 0 ]
                 }
             }
         ],
@@ -958,6 +1008,11 @@
             "obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "obj-9": [ "Play", "Play", 0 ],
+            "obj-tabs::obj-13": [ "TabTrack1", "TabTrack1", 0 ],
+            "obj-tabs::obj-22": [ "TabTrack4", "TabTrack4", 0 ],
+            "obj-tabs::obj-23": [ "TabRand", "TabRand", 0 ],
+            "obj-tabs::obj-7": [ "TabOsc2", "TabTrack2", 0 ],
+            "obj-tabs::obj-9": [ "TabTrack3", "TabTrack3", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
