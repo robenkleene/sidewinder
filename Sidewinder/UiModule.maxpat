@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 910.0, 305.0, 1616.0, 1041.0 ],
+        "rect": [ 296.0, 172.0, 1501.0, 1041.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -68,17 +68,19 @@
                     "presentation_rect": [ 442.0, 1.0, 30.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
-                            "expression": "themecolor.live_lcd_control_fg"
+                            "expression": "themecolor.live_display_scale_text"
                         }
                     },
                     "text": "Show",
-                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ]
+                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
                 }
             },
             {
                 "box": {
-                    "activebgcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
-                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "focusbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "hltcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-72",
                     "maxclass": "live.menu",
                     "numinlets": 1,
@@ -90,10 +92,22 @@
                     "presentation_rect": [ 474.0, 2.0, 55.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
-                            "expression": "themecolor.live_control_selection"
+                            "expression": "themecolor.live_lcd_bg"
                         },
                         "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
                             "expression": "themecolor.live_display_line_one"
+                        },
+                        "hltcolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "tricolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
                         },
                         "valueof": {
                             "parameter_enum": [ "All", "Pitch", "Velocity", "Duration" ],
@@ -104,6 +118,8 @@
                             "parameter_type": 2
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "tricolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Mode"
                 }
             },
@@ -447,8 +463,12 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
                     "annotation": "The time between each note in the sequencer. Note that the display of the sequencer is locked to 1/16, so the output will not match the display of the sequencer if the dividision is set to anything other than 1/16.",
                     "annotation_name": "Sequencer Division",
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "hltcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-45",
                     "maxclass": "live.menu",
                     "numinlets": 1,
@@ -457,8 +477,26 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 200.0, 56.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 329.0, 1.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 376.0, 2.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "hltcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "tricolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
                         "valueof": {
                             "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
                             "parameter_longname": "#2-Division",
@@ -468,6 +506,8 @@
                             "parameter_type": 2
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "tricolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Division"
                 }
             },
@@ -536,14 +576,22 @@
                     "numoutlets": 0,
                     "patching_rect": [ 272.0, 808.5, 20.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 257.0, 1.0, 20.0, 17.0 ],
-                    "text": "Ch"
+                    "presentation_rect": [ 531.0, 91.0, 20.0, 17.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_display_scale_text"
+                        }
+                    },
+                    "text": "Ch",
+                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
                 }
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.8745098039215686, 0.8745098039215686, 0.8745098039215686, 0.0 ],
                     "annotation": "The MIDI channel that notes will be sent to. Note that Ableton Live merges all MIDI output to channel one, limiting this usefulness of this in Live.",
                     "annotation_name": "MIDI Channel",
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
                     "id": "obj-43",
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -553,8 +601,17 @@
                     "parameter_mappable": 0,
                     "patching_rect": [ 296.0, 808.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 281.0, 1.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 531.0, 110.0, 15.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
                         "valueof": {
                             "parameter_longname": "#2-Ch",
                             "parameter_mmax": 16.0,
@@ -565,6 +622,7 @@
                             "parameter_unitstyle": 0
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Ch"
                 }
             },
@@ -3031,8 +3089,11 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.8745098039215686, 0.8745098039215686, 0.8745098039215686, 0.0 ],
                     "annotation": "The note pitch for the sequencer.",
                     "annotation_name": "Sequencer Pitch",
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-78",
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -3043,6 +3104,18 @@
                     "presentation": 1,
                     "presentation_rect": [ 533.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
                         "valueof": {
                             "parameter_longname": "#2-Pitch",
                             "parameter_modmode": 0,
@@ -3051,6 +3124,7 @@
                             "parameter_unitstyle": 8
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Pitch"
                 }
             },
