@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 296.0, 172.0, 1501.0, 1041.0 ],
+        "rect": [ 995.0, 239.0, 1501.0, 1041.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -34,6 +34,9 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-77",
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -44,6 +47,18 @@
                     "presentation": 1,
                     "presentation_rect": [ 531.0, 45.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
                         "valueof": {
                             "parameter_longname": "#2-Vel",
                             "parameter_modmode": 4,
@@ -52,6 +67,7 @@
                             "parameter_unitstyle": 0
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Vel"
                 }
             },
@@ -89,7 +105,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 372.0, 339.5, 55.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 474.0, 2.0, 55.0, 15.0 ],
+                    "presentation_rect": [ 474.0, 2.0, 28.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -477,7 +493,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 200.0, 56.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 376.0, 2.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 376.0, 2.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -2985,10 +3001,13 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "Toggle whether this track is enabled.",
                     "annotation_name": "Track Toggle",
                     "automation": "Off",
                     "automationon": "On",
+                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-25",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2999,6 +3018,15 @@
                     "presentation": 1,
                     "presentation_rect": [ 100.0, 2.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "bordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "#2-Track",
@@ -3015,8 +3043,13 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
                     "annotation": "The note duration for the sequencer.",
                     "annotation_name": "Sequencer Duration",
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "hltcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "hlttextcolor": [ 0.07058823529411765, 0.07058823529411765, 0.07058823529411765, 1.0 ],
                     "id": "obj-28",
                     "maxclass": "live.menu",
                     "numinlets": 1,
@@ -3027,6 +3060,27 @@
                     "presentation": 1,
                     "presentation_rect": [ 533.0, 67.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "hltcolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "hlttextcolor": {
+                            "expression": "themecolor.live_control_fg"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "tricolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
                         "valueof": {
                             "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
                             "parameter_longname": "#2-Dur",
@@ -3037,6 +3091,8 @@
                             "parameter_unitstyle": 9
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "tricolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Dur"
                 }
             },
