@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -68,7 +68,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 832.0, 280.0, 160.0, 87.0 ],
+                    "patching_rect": [ 832.0, 280.0, 162.0, 87.0 ],
                     "text": "Note that each time a ReWire host stops and starts, a new global transport needs to be create by clicking this. The old one will not continue to update."
                 }
             },
@@ -161,7 +161,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 712.0, 216.0, 152.0, 60.0 ],
+                    "patching_rect": [ 712.0, 216.0, 155.0, 60.0 ],
                     "text": "Just to get an Audio Status shortcut. Do I even need the Audio Status since this only sends MIDI?"
                 }
             },
@@ -202,7 +202,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int", "int", "int", "" ],
+                    "outlettype": [ "int", "int", "int", "int" ],
                     "patching_rect": [ 8.0, 40.0, 624.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 8.0, 624.0, 168.0 ],
@@ -280,8 +280,8 @@
             "obj-2::obj-17": [ "Overwrite", "OW", 0 ],
             "obj-2::obj-19": [ "Solo", "Solo", 0 ],
             "obj-2::obj-20": [ "Randomize", "Rand", 0 ],
+            "obj-2::obj-42": [ "0-Export", "Export", 0 ],
             "obj-2::obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
-            "obj-2::obj-8::obj-13::obj-13": [ "2-Export", "Export", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-141": [ "2-Right", "Right", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-142": [ "2-Left", "Left", 0 ],
@@ -294,12 +294,11 @@
             "obj-2::obj-8::obj-13::obj-53::obj-2": [ "2-Steps", "Steps", 0 ],
             "obj-2::obj-8::obj-13::obj-64": [ "2-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-13::obj-65": [ "2-Set", "Set", 0 ],
+            "obj-2::obj-8::obj-13::obj-72": [ "2-Mode", "Mode", 0 ],
+            "obj-2::obj-8::obj-13::obj-77": [ "2-Vel", "Vel", 0 ],
             "obj-2::obj-8::obj-13::obj-78": [ "2-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-13::obj-8": [ "2-Sequencer", "Seq", 1 ],
-            "obj-2::obj-8::obj-13::obj-81": [ "2-Vel", "Vel", 0 ],
-            "obj-2::obj-8::obj-13::obj-84": [ "2-Mode", "Mode", 0 ],
             "obj-2::obj-8::obj-18::obj-11": [ "3-Rotate", "Rotate", 0 ],
-            "obj-2::obj-8::obj-18::obj-13": [ "3-Export", "Export", 0 ],
             "obj-2::obj-8::obj-18::obj-143::obj-136": [ "3-Down", "Down", 0 ],
             "obj-2::obj-8::obj-18::obj-143::obj-141": [ "3-Right", "Right", 0 ],
             "obj-2::obj-8::obj-18::obj-143::obj-142": [ "3-Left", "Left", 0 ],
@@ -312,12 +311,11 @@
             "obj-2::obj-8::obj-18::obj-53::obj-2": [ "3-Steps", "Steps", 0 ],
             "obj-2::obj-8::obj-18::obj-64": [ "3-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-18::obj-65": [ "3-Set", "Set", 0 ],
+            "obj-2::obj-8::obj-18::obj-72": [ "3-Mode", "Mode", 0 ],
+            "obj-2::obj-8::obj-18::obj-77": [ "3-Vel", "Vel", 0 ],
             "obj-2::obj-8::obj-18::obj-78": [ "3-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-18::obj-8": [ "3-Sequencer", "Seq", 1 ],
-            "obj-2::obj-8::obj-18::obj-81": [ "3-Vel", "Vel", 0 ],
-            "obj-2::obj-8::obj-18::obj-84": [ "3-Mode", "Mode", 0 ],
             "obj-2::obj-8::obj-1::obj-11": [ "1-Rotate", "Rotate", 0 ],
-            "obj-2::obj-8::obj-1::obj-13": [ "1-Export", "Export", 0 ],
             "obj-2::obj-8::obj-1::obj-143::obj-136": [ "1-Down", "Down", 0 ],
             "obj-2::obj-8::obj-1::obj-143::obj-141": [ "1-Right", "Right", 0 ],
             "obj-2::obj-8::obj-1::obj-143::obj-142": [ "1-Left", "Left", 0 ],
@@ -330,12 +328,11 @@
             "obj-2::obj-8::obj-1::obj-53::obj-2": [ "1-Steps", "Steps", 0 ],
             "obj-2::obj-8::obj-1::obj-64": [ "1-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-1::obj-65": [ "1-Set", "Set", 0 ],
+            "obj-2::obj-8::obj-1::obj-72": [ "1-Mode", "Mode", 0 ],
+            "obj-2::obj-8::obj-1::obj-77": [ "1-Vel", "Vel", 0 ],
             "obj-2::obj-8::obj-1::obj-78": [ "1-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-1::obj-8": [ "1-Sequencer", "Seq", 1 ],
-            "obj-2::obj-8::obj-1::obj-81": [ "1-Vel", "Vel", 0 ],
-            "obj-2::obj-8::obj-1::obj-84": [ "1-Mode", "Mode", 0 ],
             "obj-2::obj-8::obj-21::obj-11": [ "4-Rotate", "Rotate", 0 ],
-            "obj-2::obj-8::obj-21::obj-13": [ "4-Export", "Export", 0 ],
             "obj-2::obj-8::obj-21::obj-143::obj-136": [ "4-Down", "Down", 0 ],
             "obj-2::obj-8::obj-21::obj-143::obj-141": [ "4-Right", "Right", 0 ],
             "obj-2::obj-8::obj-21::obj-143::obj-142": [ "4-Left", "Left", 0 ],
@@ -348,10 +345,10 @@
             "obj-2::obj-8::obj-21::obj-53::obj-2": [ "4-Steps", "Steps", 0 ],
             "obj-2::obj-8::obj-21::obj-64": [ "4-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-21::obj-65": [ "4-Set", "Set", 0 ],
+            "obj-2::obj-8::obj-21::obj-72": [ "4-Mode", "Mode", 0 ],
+            "obj-2::obj-8::obj-21::obj-77": [ "4-Vel", "Vel", 0 ],
             "obj-2::obj-8::obj-21::obj-78": [ "4-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-21::obj-8": [ "4-Sequencer", "Seq", 1 ],
-            "obj-2::obj-8::obj-21::obj-81": [ "4-Vel", "Vel", 0 ],
-            "obj-2::obj-8::obj-21::obj-84": [ "4-Mode", "Mode", 0 ],
             "obj-2::obj-8::obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
             "obj-2::obj-8::obj-7::obj-10": [ "Randomize3", "3", 0 ],
             "obj-2::obj-8::obj-7::obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
@@ -388,7 +385,11 @@
             "obj-2::obj-8::obj-7::obj-9": [ "Randomize2", "2", 0 ],
             "obj-2::obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-2::obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
-            "obj-2::obj-9": [ "Play", "Play", 0 ],
+            "obj-2::obj-tabs::obj-13": [ "TabTrack1", "TabTrack1", 0 ],
+            "obj-2::obj-tabs::obj-22": [ "TabTrack4", "TabTrack4", 0 ],
+            "obj-2::obj-tabs::obj-23": [ "TabRand", "TabRand", 0 ],
+            "obj-2::obj-tabs::obj-7": [ "TabOsc2", "TabTrack2", 0 ],
+            "obj-2::obj-tabs::obj-9": [ "TabTrack3", "TabTrack3", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -423,10 +424,6 @@
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-13::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-13::obj-13": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -485,19 +482,7 @@
                 "obj-2::obj-8::obj-13::obj-8": {
                     "parameter_initial": [ 1, 3, 0, 1, 12, 0, 3, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 0, 4, 0, 0 ]
                 },
-                "obj-2::obj-8::obj-13::obj-81": {
-                    "parameter_initial": 127.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-13::obj-84": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
                 "obj-2::obj-8::obj-18::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-18::obj-13": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -556,19 +541,7 @@
                 "obj-2::obj-8::obj-18::obj-8": {
                     "parameter_initial": [ 1, 3, 0, 1, 12, 0, 3, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 0, 4, 0, 0 ]
                 },
-                "obj-2::obj-8::obj-18::obj-81": {
-                    "parameter_initial": 127.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-18::obj-84": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
                 "obj-2::obj-8::obj-1::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-1::obj-13": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -627,19 +600,7 @@
                 "obj-2::obj-8::obj-1::obj-8": {
                     "parameter_initial": [ 1, 3, 0, 1, 12, 0, 3, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 0, 4, 0, 0 ]
                 },
-                "obj-2::obj-8::obj-1::obj-81": {
-                    "parameter_initial": 127.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-1::obj-84": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
                 "obj-2::obj-8::obj-21::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-21::obj-13": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -697,14 +658,6 @@
                 },
                 "obj-2::obj-8::obj-21::obj-8": {
                     "parameter_initial": [ 1, 3, 0, 1, 12, 0, 3, 60.0, 73.0, 0, 0, 60, 127, 4, 0, 0, 60, 0, 4, 0, 0, 60, 0, 4, 0, 0 ]
-                },
-                "obj-2::obj-8::obj-21::obj-81": {
-                    "parameter_initial": 127.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-8::obj-21::obj-84": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-7::obj-1": {
                     "parameter_initial": 0.0,
@@ -861,14 +814,20 @@
                 "obj-2::obj-8::obj-7::obj-94": {
                     "parameter_initial": 14.0,
                     "parameter_initial_enable": 1
-                },
-                "obj-2::obj-9": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
                 }
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }

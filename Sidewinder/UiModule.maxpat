@@ -9,9 +9,69 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 995.0, 239.0, 1501.0, 1041.0 ],
+        "rect": [ 249.0, 235.0, 1501.0, 1041.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.0,
+                    "id": "obj-87",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 761.0, 226.0, 125.0, 17.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 101.0, 2.0, 29.0, 17.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_display_scale_text"
+                        }
+                    },
+                    "text": "Pitch",
+                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.0,
+                    "id": "obj-84",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 679.0, 257.0, 123.0, 17.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 251.0, 2.0, 44.0, 17.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_display_scale_text"
+                        }
+                    },
+                    "text": "Duration",
+                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.0,
+                    "id": "obj-81",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 481.0, 429.0, 119.0, 17.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 365.0, 2.0, 40.0, 17.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_display_scale_text"
+                        }
+                    },
+                    "text": "Division",
+                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                }
+            },
             {
                 "box": {
                     "fontname": "Ableton Sans Medium",
@@ -22,7 +82,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 278.0, 18.0, 44.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 532.0, 26.0, 44.0, 18.0 ],
+                    "presentation_rect": [ 174.0, 1.5, 44.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -45,7 +105,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 35.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 45.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 220.0, 3.0, 29.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -81,7 +141,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 331.0, 337.0, 30.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 442.0, 1.0, 30.0, 17.0 ],
+                    "presentation_rect": [ 472.0, 2.0, 30.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_display_scale_text"
@@ -105,7 +165,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 372.0, 339.5, 55.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 474.0, 2.0, 28.0, 15.0 ],
+                    "presentation_rect": [ 504.0, 3.0, 28.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -493,7 +553,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 200.0, 56.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 376.0, 2.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 416.0, 3.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -592,7 +652,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 272.0, 808.5, 20.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 91.0, 20.0, 17.0 ],
+                    "presentation_rect": [ 541.0, 2.0, 20.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_display_scale_text"
@@ -617,7 +677,7 @@
                     "parameter_mappable": 0,
                     "patching_rect": [ 296.0, 808.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 110.0, 15.0, 15.0 ],
+                    "presentation_rect": [ 557.0, 3.0, 15.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -783,7 +843,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 632.0, 552.5, 96.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 526.0, 131.0, 40.0, 35.0 ],
+                    "presentation_rect": [ 531.0, 129.0, 40.0, 35.0 ],
                     "varname": "#2-Directions",
                     "viewvisibility": 1
                 }
@@ -852,14 +912,14 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 728.0, 48.0, 56.0, 22.0 ],
                     "restore": {
-                        "#2-Auto": [ 0.0 ],
+                        "#2-Auto": [ 1.0 ],
                         "#2-Ch": [ 1.0 ],
-                        "#2-Division": [ 0.0 ],
+                        "#2-Division": [ 2.0 ],
                         "#2-Dur": [ 0.0 ],
                         "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 0.0 ],
                         "#2-Rotate": [ 0.0 ],
-                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 68, 62, 5, 126, 126, 61, 106, 5, 126, 126, 78, 88, 5, 126, 126 ],
+                        "#2-Sequencer": [ 1, 3, 0, 1, 6, 0, 3, 59.0, 80.0, 0, 0, 68, 62, 5, 126, 126, 61, 106, 5, 126, 126, 78, 88, 5, 126, 126 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 1.0 ],
                         "#2-Vel": [ 0.0 ]
@@ -3016,7 +3076,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 88.0, 320.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 100.0, 2.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 53.0, 3.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -3058,7 +3118,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 424.0, -40.0, 48.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 67.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -3158,7 +3218,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 121.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -3186,10 +3246,14 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "Generate a new sequence with the current settings if Auto is toggled off.",
                     "annotation_name": "Sequencer Set",
                     "automation": "Off",
                     "automationon": "On",
+                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-65",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -3199,8 +3263,20 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 464.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 170.0, 2.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 531.0, 111.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "activebgoncolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "bordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "#2-Set",
@@ -3216,10 +3292,13 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "If toggled on, changing settings automatically updates the sequencer, if toggled off, use the Set button to update the sequence.",
                     "annotation_name": "Sequencer Auto",
                     "automation": "Off",
                     "automationon": "On",
+                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-64",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -3228,8 +3307,17 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 512.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 210.0, 2.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 531.0, 94.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "bordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "#2-Auto",
@@ -5385,15 +5473,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-149", 0 ],
-                    "order": 1,
-                    "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-21", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-64", 0 ]
                 }
             },
