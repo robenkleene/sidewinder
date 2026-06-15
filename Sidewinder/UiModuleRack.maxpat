@@ -103,7 +103,7 @@
                     "outlettype": [ "int" ],
                     "patching_rect": [ 45.5, 5.5, 49.0, 93.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 33.0, 49.0, 93.0 ],
+                    "presentation_rect": [ 2.0, -1.0, 49.0, 93.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -208,9 +208,13 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "activetextoncolor": [ 0.07058823529411765, 0.07058823529411765, 0.07058823529411765, 1.0 ],
                     "annotation": "If toggled on, selecting a track tab will toggle off the other tracks.",
                     "automation": "Off",
                     "automationon": "On",
+                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-19",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -219,8 +223,20 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 240.0, 24.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 581.0, 3.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "activetextoncolor": {
+                            "expression": "themecolor.live_control_fg"
+                        },
+                        "bordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "Solo",
