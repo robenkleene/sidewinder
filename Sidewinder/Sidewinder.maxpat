@@ -9,12 +9,91 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 62.0, 230.0, 642.0, 214.0 ],
+        "rect": [ 62.0, 230.0, 721.0, 169.0 ],
+        "openrect": [ 0.0, 0.0, 721.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 642.0,
+        "devicewidth": 721.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 424.0, 255.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 675.0, 150.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "ReWire",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "ReWire",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "ReWire",
+                    "texton": "ReWire",
+                    "varname": "ReWire"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 672.0, 155.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 673.0, 3.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "DAC",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "DAC",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "DAC",
+                    "varname": "DAC"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 664.0, 284.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 673.0, 19.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "Transport",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Transport",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Transport",
+                    "varname": "Transport"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -24,19 +103,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 8.0, 8.0, 102.0, 22.0 ],
                     "text": "loadmess recall 1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-40",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 664.0, 280.0, 97.0, 22.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 88.0, 176.0, 97.0, 22.0 ],
-                    "text": "Global Transport"
                 }
             },
             {
@@ -107,44 +173,6 @@
             },
             {
                 "box": {
-                    "id": "obj-14",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 448.0, 248.0, 49.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 216.0, 176.0, 49.0, 20.0 ],
-                    "text": "ReWire"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-11",
-                    "maxclass": "toggle",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 424.0, 248.0, 24.0, 24.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 192.0, 176.0, 24.0, 24.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-16",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 672.0, 152.0, 77.0, 22.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 8.0, 176.0, 77.0, 22.0 ],
-                    "text": "Audio Status"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-12",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -205,7 +233,7 @@
                     "outlettype": [ "int", "int", "int", "int" ],
                     "patching_rect": [ 8.0, 40.0, 624.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 8.0, 624.0, 168.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 673.0, 168.0 ],
                     "varname": "ModuleRack",
                     "viewvisibility": 1
                 }
@@ -214,14 +242,14 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-15", 0 ],
-                    "source": [ "obj-11", 0 ]
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-12", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "source": [ "obj-12", 0 ]
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-13", 0 ]
                 }
             },
             {
@@ -234,12 +262,6 @@
                 "patchline": {
                     "destination": [ "obj-20", 0 ],
                     "source": [ "obj-15", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-12", 0 ],
-                    "source": [ "obj-16", 0 ]
                 }
             },
             {
@@ -262,18 +284,25 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-40", 0 ]
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-6", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-6", 0 ]
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-12", 0 ],
+                    "source": [ "obj-9", 0 ]
                 }
             }
         ],
         "parameters": {
+            "obj-13": [ "ReWire", "ReWire", 0 ],
             "obj-2::obj-10": [ "Tab", "Tab", 0 ],
             "obj-2::obj-11": [ "Read", "Read", 0 ],
             "obj-2::obj-13": [ "Write", "Write", 0 ],
@@ -281,6 +310,8 @@
             "obj-2::obj-19": [ "Solo", "Solo", 0 ],
             "obj-2::obj-20": [ "Randomize", "Rand", 0 ],
             "obj-2::obj-42": [ "0-Export", "Export", 0 ],
+            "obj-2::obj-72": [ "PresetsLoad", "Load", 0 ],
+            "obj-2::obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-2::obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-141": [ "2-Right", "Right", 0 ],
@@ -390,6 +421,8 @@
             "obj-2::obj-tabs::obj-23": [ "TabRand", "TabRand", 0 ],
             "obj-2::obj-tabs::obj-7": [ "TabOsc2", "TabTrack2", 0 ],
             "obj-2::obj-tabs::obj-9": [ "TabTrack3", "TabTrack3", 0 ],
+            "obj-8": [ "Transport", "Transport", 0 ],
+            "obj-9": [ "DAC", "DAC", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

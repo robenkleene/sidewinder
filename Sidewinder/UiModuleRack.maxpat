@@ -9,10 +9,8 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 116.0, 100.0, 626.0, 180.0 ],
-        "openrectmode": 0,
+        "rect": [ 200.0, 372.0, 993.0, 551.0 ],
         "openinpresentation": 1,
-        "devicewidth": 626.0,
         "subpatcher_template": "max-for-live",
         "boxes": [
             {
@@ -145,7 +143,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 373.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 627.0, 154.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 627.0, 150.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -440,7 +438,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 160.0, 200.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 152.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 150.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -468,7 +466,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 848.0, 248.0, 44.0, 15.5 ],
                     "presentation": 1,
-                    "presentation_rect": [ 627.0, 137.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 627.0, 133.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -486,19 +484,6 @@
             },
             {
                 "box": {
-                    "hidden": 1,
-                    "id": "obj-4",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 0.0, 234.0, 132.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 170.0, 132.0, 20.0 ],
-                    "text": "Device vertical limit"
-                }
-            },
-            {
-                "box": {
                     "annotation": "Write presets to a JSON file.",
                     "automation": "Off",
                     "automationon": "On",
@@ -511,7 +496,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 908.0, 248.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 626.0, 120.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 626.0, 116.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -540,7 +525,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 800.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 626.0, 103.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 626.0, 99.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -677,7 +662,7 @@
                     "patching_rect": [ 744.0, 272.0, 32.0, 34.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 629.0, 36.0, 40.0, 64.0 ]
+                    "presentation_rect": [ 629.0, 41.0, 40.0, 52.0 ]
                 }
             },
             {
