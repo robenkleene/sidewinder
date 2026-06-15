@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 249.0, 235.0, 1501.0, 1041.0 ],
+        "rect": [ 869.0, 386.0, 711.0, 825.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -22,14 +22,14 @@
                     "numoutlets": 0,
                     "patching_rect": [ 761.0, 226.0, 125.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 101.0, 2.0, 29.0, 17.0 ],
+                    "presentation_rect": [ 98.0, 2.0, 29.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
-                            "expression": "themecolor.live_display_scale_text"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         }
                     },
                     "text": "Pitch",
-                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
                 }
             },
             {
@@ -45,11 +45,11 @@
                     "presentation_rect": [ 251.0, 2.0, 44.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
-                            "expression": "themecolor.live_display_scale_text"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         }
                     },
                     "text": "Duration",
-                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
                 }
             },
             {
@@ -65,11 +65,11 @@
                     "presentation_rect": [ 531.0, 53.0, 40.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
-                            "expression": "themecolor.live_display_scale_text"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         }
                     },
                     "text": "Division",
-                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
                 }
             },
             {
@@ -82,14 +82,14 @@
                     "numoutlets": 0,
                     "patching_rect": [ 278.0, 18.0, 44.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 174.0, 1.5, 44.0, 18.0 ],
+                    "presentation_rect": [ 164.0, 2.0, 44.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
-                            "expression": "themecolor.live_display_scale_text"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         }
                     },
                     "text": "Velocity",
-                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
                 }
             },
             {
@@ -105,7 +105,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 35.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 220.0, 3.0, 29.0, 15.0 ],
+                    "presentation_rect": [ 201.0, 3.0, 29.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -144,11 +144,11 @@
                     "presentation_rect": [ 472.0, 2.0, 30.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
-                            "expression": "themecolor.live_display_scale_text"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         }
                     },
                     "text": "Show",
-                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
                 }
             },
             {
@@ -553,7 +553,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 200.0, 56.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 532.0, 72.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 532.0, 72.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -652,14 +652,14 @@
                     "numoutlets": 0,
                     "patching_rect": [ 272.0, 808.5, 20.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 89.0, 20.0, 17.0 ],
+                    "presentation_rect": [ 532.0, 89.0, 20.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
-                            "expression": "themecolor.live_display_scale_text"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         }
                     },
                     "text": "Ch",
-                    "textcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.4980392156862745 ]
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
                 }
             },
             {
@@ -668,6 +668,7 @@
                     "annotation": "The MIDI channel that notes will be sent to. Note that Ableton Live merges all MIDI output to channel one, limiting this usefulness of this in Live.",
                     "annotation_name": "MIDI Channel",
                     "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "focusbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "id": "obj-43",
                     "maxclass": "live.numbox",
                     "numinlets": 1,
@@ -677,13 +678,16 @@
                     "parameter_mappable": 0,
                     "patching_rect": [ 296.0, 808.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 108.0, 15.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 108.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
                         },
                         "bordercolor": {
                             "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": "themecolor.live_display_line_one"
                         },
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg"
@@ -699,6 +703,7 @@
                         }
                     },
                     "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "textjustification": 0,
                     "varname": "#2-Ch"
                 }
             },
@@ -914,15 +919,15 @@
                     "restore": {
                         "#2-Auto": [ 1.0 ],
                         "#2-Ch": [ 1.0 ],
-                        "#2-Division": [ 0.0 ],
+                        "#2-Division": [ 1.0 ],
                         "#2-Dur": [ 0.0 ],
                         "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 0.0 ],
                         "#2-Rotate": [ 0.0 ],
-                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 68, 62, 5, 126, 126, 61, 106, 5, 126, 126, 78, 88, 5, 126, 126 ],
+                        "#2-Sequencer": [ 1, 3, 0, 1, 3, 0, 3, 59.0, 80.0, 0, 0, 68, 62, 5, 126, 126, 61, 106, 5, 126, 126, 78, 88, 5, 126, 126 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 1.0 ],
-                        "#2-Vel": [ 0.0 ]
+                        "#2-Vel": [ 127.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -3218,7 +3223,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 135.0, 3.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 126.0, 3.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -3241,6 +3246,7 @@
                         }
                     },
                     "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "textjustification": 0,
                     "varname": "#2-Pitch"
                 }
             },
