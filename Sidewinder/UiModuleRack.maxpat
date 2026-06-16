@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 200.0, 372.0, 1815.0, 772.0 ],
+        "rect": [ 362.0, 388.0, 1815.0, 772.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -244,17 +244,6 @@
                     "outlettype": [ "bang" ],
                     "patching_rect": [ 720.0, 104.0, 22.0, 22.0 ],
                     "text": "t b"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-37",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 240.0, 224.0, 47.0, 22.0 ],
-                    "text": "solo $1"
                 }
             },
             {
@@ -777,12 +766,6 @@
                 "patchline": {
                     "destination": [ "obj-12", 1 ],
                     "source": [ "obj-32", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-8", 0 ],
-                    "source": [ "obj-37", 0 ]
                 }
             },
             {
