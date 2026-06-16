@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -1575,7 +1575,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2396,12 +2396,13 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
                         "rect": [ 1584.0, 519.0, 640.0, 480.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2476,8 +2477,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 485.0, 190.0, 101.0, 22.0 ],
-                                    "text": "append channel4"
+                                    "patching_rect": [ 485.0, 190.0, 85.0, 22.0 ],
+                                    "text": "append track4"
                                 }
                             },
                             {
@@ -2487,8 +2488,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 365.0, 190.0, 101.0, 22.0 ],
-                                    "text": "append channel3"
+                                    "patching_rect": [ 365.0, 190.0, 85.0, 22.0 ],
+                                    "text": "append track3"
                                 }
                             },
                             {
@@ -2498,8 +2499,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 245.0, 190.0, 101.0, 22.0 ],
-                                    "text": "append channel2"
+                                    "patching_rect": [ 245.0, 190.0, 85.0, 22.0 ],
+                                    "text": "append track2"
                                 }
                             },
                             {
@@ -2509,8 +2510,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 125.0, 190.0, 101.0, 22.0 ],
-                                    "text": "append channel1"
+                                    "patching_rect": [ 125.0, 190.0, 85.0, 22.0 ],
+                                    "text": "append track1"
                                 }
                             },
                             {
@@ -2679,8 +2680,8 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 200.0, 168.0, 99.0, 22.0 ],
-                    "text": "p ChannelRouter"
+                    "patching_rect": [ 200.0, 168.0, 84.0, 22.0 ],
+                    "text": "p TrackRouter"
                 }
             },
             {
