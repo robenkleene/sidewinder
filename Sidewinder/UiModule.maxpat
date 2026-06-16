@@ -9,9 +9,76 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 869.0, 386.0, 711.0, 825.0 ],
+        "rect": [ 296.0, 92.0, 928.0, 960.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "activebgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "activetextcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "activetextoncolor": [ 0.07058823529411765, 0.07058823529411765, 0.07058823529411765, 1.0 ],
+                    "annotation": "If toggled on, selecting a track tab will toggle off the other tracks.",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "bordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "id": "obj-89",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 359.0, 808.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 533.0, 3.0, 40.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        },
+                        "activetextcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "activetextoncolor": {
+                            "expression": "themecolor.live_control_fg"
+                        },
+                        "bordercolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "Solo",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Solo",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Solo",
+                    "texton": "Solo",
+                    "varname": "Solo"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-88",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 359.0, 840.5, 95.0, 22.0 ],
+                    "text": "prepend solo #2"
+                }
+            },
+            {
+                "box": {
+                    "comment": "(message) control messages",
+                    "id": "obj-13",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 359.0, 872.5, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "fontname": "Ableton Sans Medium",
@@ -928,7 +995,8 @@
                         "#2-Sequencer": [ 1, 3, 0, 1, 96, 0, 3, 59.0, 80.0, 0, 0, 68, 62, 5, 126, 126, 61, 106, 5, 126, 126, 78, 88, 5, 126, 126 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 1.0 ],
-                        "#2-Vel": [ 127.0 ]
+                        "#2-Vel": [ 127.0 ],
+                        "Solo": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -3691,7 +3759,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 448.0, 800.5, 46.0, 20.0 ],
+                    "patching_rect": [ 761.0, 840.0, 46.0, 20.0 ],
                     "text": "Debug"
                 }
             },
@@ -3702,7 +3770,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 448.0, 824.5, 132.0, 22.0 ],
+                    "patching_rect": [ 761.0, 864.0, 132.0, 22.0 ],
                     "text": "Open Global Transport"
                 }
             },
@@ -3713,7 +3781,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 448.0, 854.5, 163.0, 22.0 ],
+                    "patching_rect": [ 761.0, 894.0, 163.0, 22.0 ],
                     "text": "load globaltransport.maxpat"
                 }
             },
@@ -3724,7 +3792,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 448.0, 884.5, 54.0, 22.0 ],
+                    "patching_rect": [ 761.0, 924.0, 54.0, 22.0 ],
                     "text": "pcontrol"
                 }
             },
@@ -5599,6 +5667,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-88", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-88", 0 ],
+                    "source": [ "obj-89", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-167", 0 ],
                     "source": [ "obj-91", 0 ]
                 }
@@ -5640,6 +5720,7 @@
             "obj-77": [ "#2-Vel", "Vel", 0 ],
             "obj-78": [ "#2-Pitch", "Pitch", 0 ],
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
+            "obj-89": [ "Solo", "Solo", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

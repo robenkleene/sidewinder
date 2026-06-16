@@ -15,6 +15,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-55",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 565.0, 1515.0, 65.0, 22.0 ],
+                    "text": "randomize"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-53",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -187,13 +198,13 @@
             },
             {
                 "box": {
-                    "comment": "(bang) trigger randomize",
+                    "comment": "(message) control messages",
                     "id": "obj-44",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 560.0, 1600.0, 30.0, 30.0 ]
+                    "patching_rect": [ 565.0, 1600.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -1011,6 +1022,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-44", 0 ],
+                    "source": [ "obj-55", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-51", 0 ],
                     "source": [ "obj-56", 0 ]
                 }
@@ -1107,7 +1124,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-44", 0 ],
+                    "destination": [ "obj-55", 0 ],
                     "source": [ "obj-7", 1 ]
                 }
             },
@@ -1126,7 +1143,6 @@
         ],
         "parameters": {
             "obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
-            "obj-13::obj-13": [ "2-Export", "Export", 0 ],
             "obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
             "obj-13::obj-143::obj-141": [ "2-Right", "Right", 0 ],
             "obj-13::obj-143::obj-142": [ "2-Left", "Left", 0 ],
@@ -1144,7 +1160,6 @@
             "obj-13::obj-78": [ "2-Pitch", "Pitch", 0 ],
             "obj-13::obj-8": [ "2-Sequencer", "Seq", 1 ],
             "obj-18::obj-11": [ "3-Rotate", "Rotate", 0 ],
-            "obj-18::obj-13": [ "3-Export", "Export", 0 ],
             "obj-18::obj-143::obj-136": [ "3-Down", "Down", 0 ],
             "obj-18::obj-143::obj-141": [ "3-Right", "Right", 0 ],
             "obj-18::obj-143::obj-142": [ "3-Left", "Left", 0 ],
@@ -1162,7 +1177,6 @@
             "obj-18::obj-78": [ "3-Pitch", "Pitch", 0 ],
             "obj-18::obj-8": [ "3-Sequencer", "Seq", 1 ],
             "obj-1::obj-11": [ "1-Rotate", "Rotate", 0 ],
-            "obj-1::obj-13": [ "1-Export", "Export", 0 ],
             "obj-1::obj-143::obj-136": [ "1-Down", "Down", 0 ],
             "obj-1::obj-143::obj-141": [ "1-Right", "Right", 0 ],
             "obj-1::obj-143::obj-142": [ "1-Left", "Left", 0 ],
@@ -1180,7 +1194,6 @@
             "obj-1::obj-78": [ "1-Pitch", "Pitch", 0 ],
             "obj-1::obj-8": [ "1-Sequencer", "Seq", 1 ],
             "obj-21::obj-11": [ "4-Rotate", "Rotate", 0 ],
-            "obj-21::obj-13": [ "4-Export", "Export", 0 ],
             "obj-21::obj-143::obj-136": [ "4-Down", "Down", 0 ],
             "obj-21::obj-143::obj-141": [ "4-Right", "Right", 0 ],
             "obj-21::obj-143::obj-142": [ "4-Left", "Left", 0 ],
