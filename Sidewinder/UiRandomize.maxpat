@@ -9,9 +9,112 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 284.0, 140.0, 924.0, 673.0 ],
+        "rect": [ 117.0, 103.0, 1432.0, 693.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-220",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 1618.0, 1273.0, 19.0, 22.0 ],
+                    "text": "t i"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-224",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 1722.0, 1242.0, 22.0, 22.0 ],
+                    "text": "t b"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-230",
+                    "linecount": 7,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1682.0, 1274.0, 103.0, 100.0 ],
+                    "text": "Sending `-1` disables the note filter so that all notes playback. (the randomize note is disabled for playback.)"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-228",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1682.0, 1242.0, 29.5, 22.0 ],
+                    "text": "-1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-225",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "" ],
+                    "patching_rect": [ 1682.0, 1210.0, 50.0, 22.0 ],
+                    "text": "select 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-223",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 1682.0, 1177.0, 29.5, 22.0 ],
+                    "text": "t i i"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-222",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1618.0, 1210.0, 32.0, 22.0 ],
+                    "text": "gate"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-51",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1682.0, 1154.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 503.0, 32.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandTrigToggle",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Trig",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Trig",
+                    "texton": "Trig",
+                    "varname": "RandTrigToggle"
+                }
+            },
             {
                 "box": {
                     "id": "obj-43",
@@ -41,7 +144,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1768.0, 1160.0, 70.0, 22.0 ],
+                    "patching_rect": [ 1815.0, 1138.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -52,7 +155,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 1768.0, 1240.0, 29.5, 22.0 ],
+                    "patching_rect": [ 1815.0, 1218.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -63,7 +166,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 1768.0, 1344.0, 40.0, 22.0 ],
+                    "patching_rect": [ 1815.0, 1322.0, 40.0, 22.0 ],
                     "text": "select"
                 }
             },
@@ -74,7 +177,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1768.0, 1280.0, 42.0, 22.0 ],
+                    "patching_rect": [ 1815.0, 1258.0, 42.0, 22.0 ],
                     "text": "gate 2"
                 }
             },
@@ -85,7 +188,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "int", "int" ],
-                    "patching_rect": [ 1800.0, 1240.0, 41.0, 22.0 ],
+                    "patching_rect": [ 1847.0, 1218.0, 41.0, 22.0 ],
                     "text": "notein"
                 }
             },
@@ -96,7 +199,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1688.0, 1120.0, 29.5, 22.0 ],
+                    "patching_rect": [ 1735.0, 1098.0, 29.5, 22.0 ],
                     "text": "t i 0"
                 }
             },
@@ -123,9 +226,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1768.0, 1208.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1815.0, 1186.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 64.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 503.0, 65.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -148,7 +251,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1584.0, 1120.0, 70.0, 22.0 ],
+                    "patching_rect": [ 1631.0, 1098.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -162,9 +265,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1584.0, 1184.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1631.0, 1162.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 48.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 503.0, 49.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeTrigger",
@@ -175,20 +278,6 @@
                         }
                     },
                     "varname": "RandomizeTrigger"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-166",
-                    "linecount": 2,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1584.0, 1152.0, 46.0, 33.0 ],
-                    "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 40.0, 16.0, 46.0, 33.0 ],
-                    "text": "Note\nTrigger"
                 }
             },
             {
@@ -694,16 +783,16 @@
             },
             {
                 "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.5,
                     "id": "obj-18",
-                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1472.0, 930.0, 39.0, 33.0 ],
+                    "patching_rect": [ 1472.0, 930.0, 32.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 40.0, 96.0, 40.0, 33.0 ],
-                    "text": "Auto\nBeats"
+                    "presentation_rect": [ 510.5, 111.0, 29.0, 18.0 ],
+                    "text": "Auto"
                 }
             },
             {
@@ -718,7 +807,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1472.0, 962.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 128.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 503.0, 129.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeAuto",
@@ -773,6 +862,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 912.0, 120.0, 56.0, 22.0 ],
                     "restore": {
+                        "RandTrigToggle": [ 0.0 ],
                         "Randomize1": [ 0.0 ],
                         "Randomize2": [ 0.0 ],
                         "Randomize3": [ 0.0 ],
@@ -2708,7 +2798,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 282.0, 139.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 104.0, 40.0, 24.0 ],
+                    "presentation_rect": [ 179.0, 283.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2719,8 +2809,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "4",
-                    "texton": "4",
+                    "text": "Track 4",
+                    "texton": "Track 4",
                     "varname": "Randomize4"
                 }
             },
@@ -2738,7 +2828,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 258.0, 115.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 80.0, 40.0, 24.0 ],
+                    "presentation_rect": [ 132.0, 283.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2749,8 +2839,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "3",
-                    "texton": "3",
+                    "text": "Track 3",
+                    "texton": "Track 3",
                     "varname": "Randomize3"
                 }
             },
@@ -2768,7 +2858,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 234.0, 91.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 56.0, 40.0, 24.0 ],
+                    "presentation_rect": [ 85.0, 283.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2779,8 +2869,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "2",
-                    "texton": "2",
+                    "text": "Track 2",
+                    "texton": "Track 2",
                     "varname": "Randomize2"
                 }
             },
@@ -2796,9 +2886,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 218.0, 67.0, 44.0, 15.0 ],
+                    "patching_rect": [ 211.0, 68.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 32.0, 40.0, 24.0 ],
+                    "presentation_rect": [ 39.0, 283.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2809,8 +2899,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "1",
-                    "texton": "1",
+                    "text": "Track 1",
+                    "texton": "Track 1",
                     "varname": "Randomize1"
                 }
             },
@@ -3332,7 +3422,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-174", 1 ],
+                    "destination": [ "obj-222", 1 ],
                     "source": [ "obj-170", 0 ]
                 }
             },
@@ -3424,6 +3514,54 @@
                 "patchline": {
                     "destination": [ "obj-29", 0 ],
                     "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-174", 1 ],
+                    "source": [ "obj-220", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-220", 0 ],
+                    "source": [ "obj-222", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-222", 0 ],
+                    "source": [ "obj-223", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-225", 0 ],
+                    "source": [ "obj-223", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-170", 0 ],
+                    "source": [ "obj-224", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-224", 0 ],
+                    "source": [ "obj-225", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-228", 0 ],
+                    "source": [ "obj-225", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-220", 0 ],
+                    "source": [ "obj-228", 0 ]
                 }
             },
             {
@@ -3712,6 +3850,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-223", 0 ],
+                    "source": [ "obj-51", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-34", 0 ],
                     "source": [ "obj-54", 0 ]
                 }
@@ -3975,6 +4119,7 @@
             "obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
             "obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
             "obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
+            "obj-51": [ "RandTrigToggle", "Trig", 0 ],
             "obj-56::obj-1": [ "RandomizeRotate-Min", "RotMin", 0 ],
             "obj-56::obj-2": [ "RandomizeRotate-Max", "RotMax", 0 ],
             "obj-6": [ "RandomizeVel", "Vel", 0 ],
