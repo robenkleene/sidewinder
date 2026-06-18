@@ -9,9 +9,21 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 127.0, 100.0, 975.0, 911.0 ],
+        "rect": [ 660.0, 133.0, 975.0, 911.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 74.0, 107.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -95,11 +107,11 @@
                 "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 64.0, 69.0, 22.0 ],
-                    "text": "route setup"
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 8.0, 64.0, 85.0, 22.0 ],
+                    "text": "route setup int"
                 }
             },
             {
@@ -324,6 +336,12 @@
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-4", 2 ]
                 }
             },
             {

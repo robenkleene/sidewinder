@@ -14,6 +14,18 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-55",
+                    "linecount": 4,
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1542.0, 284.0, 151.0, 62.0 ],
+                    "text": "loadmess script sendbox RandomizeDur-Max presentation_rect 0. 25. 46. 15."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-220",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -3886,6 +3898,12 @@
                 "patchline": {
                     "destination": [ "obj-34", 0 ],
                     "source": [ "obj-54", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-55", 0 ]
                 }
             },
             {
