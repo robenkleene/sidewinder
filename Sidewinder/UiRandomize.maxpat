@@ -14,14 +14,24 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-55",
-                    "linecount": 4,
+                    "id": "obj-57",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1542.0, 284.0, 151.0, 62.0 ],
-                    "text": "loadmess script sendbox RandomizeDur-Max presentation_rect 0. 25. 46. 15."
+                    "patching_rect": [ 480.0, 235.0, 427.0, 22.0 ],
+                    "text": "loadmess script sendbox RandomizePitch-Max presentation_rect 0. 16. 46. 15."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-55",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1544.0, 328.0, 420.0, 22.0 ],
+                    "text": "loadmess script sendbox RandomizeDur-Max presentation_rect 0. 16. 46. 15."
                 }
             },
             {
@@ -111,7 +121,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1682.0, 1154.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 488.0, 32.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 390.5, 3.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -240,7 +250,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1815.0, 1186.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 488.0, 65.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 390.5, 19.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -279,7 +289,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1631.0, 1162.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 488.0, 49.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 390.5, 38.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeTrigger",
@@ -426,7 +436,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 736.0, 808.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 339.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 338.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -791,7 +801,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1472.0, 930.0, 32.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 496.0, 111.0, 29.0, 18.0 ],
+                    "presentation_rect": [ 398.0, 111.0, 29.0, 18.0 ],
                     "text": "Auto"
                 }
             },
@@ -807,7 +817,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1472.0, 962.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 488.0, 129.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 390.0, 129.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeAuto",
@@ -941,7 +951,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 560.0, 248.0, 58.0, 22.0 ],
+                    "patching_rect": [ 560.0, 264.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -952,7 +962,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 576.0, 344.0, 81.0, 22.0 ],
+                    "patching_rect": [ 572.0, 350.0, 81.0, 22.0 ],
                     "text": "setup 0 127 8"
                 }
             },
@@ -963,7 +973,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "bang", "bang" ],
-                    "patching_rect": [ 560.0, 280.0, 42.0, 22.0 ],
+                    "patching_rect": [ 560.0, 292.0, 42.0, 22.0 ],
                     "text": "t b b b"
                 }
             },
@@ -974,7 +984,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 592.0, 312.0, 29.5, 22.0 ],
+                    "patching_rect": [ 607.0, 322.0, 29.5, 22.0 ],
                     "text": "72"
                 }
             },
@@ -985,7 +995,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 560.0, 312.0, 29.5, 22.0 ],
+                    "patching_rect": [ 560.0, 322.0, 29.5, 22.0 ],
                     "text": "60"
                 }
             },
@@ -1203,7 +1213,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 552.0, 824.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 339.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 338.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1330,7 +1340,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 592.0, 608.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 341.5, 39.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 248.0, 96.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesRests",
@@ -1356,7 +1366,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 552.0, 608.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 341.5, 96.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 295.0, 96.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesOrder",
@@ -1382,7 +1392,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 512.0, 608.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 387.0, 39.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 341.0, 96.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesRepeat",
@@ -1463,7 +1473,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 704.0, 936.0, 100.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 293.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 292.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Aeolian", "Augmented", "Augmentedfifth", "Bluesmajor", "Bluesminor", "Chromatic", "Diminished", "Dorian", "Halfwhole", "Harmonicminor", "Ionian", "Japanese", "Locrian", "Lydian", "Major", "Melodicminor", "Minor", "Mixolydian", "Oriental", "Pentatonicmajor", "Pentatonicminor", "Phrygian", "Wholehalf", "Wholetone" ],
@@ -1637,7 +1647,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 160.0, 768.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 246.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 245.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1978,7 +1988,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 560.0, 384.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 246.0, 38.0, 46.0, 96.0 ],
+                    "presentation_rect": [ 245.0, 38.0, 46.0, 33.0 ],
                     "varname": "PitchMinMax",
                     "viewvisibility": 1
                 }
@@ -2024,7 +2034,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1608.0, 392.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 293.0, 38.0, 46.0, 96.0 ],
+                    "presentation_rect": [ 292.0, 38.0, 46.0, 33.0 ],
                     "varname": "DurMinMax",
                     "viewvisibility": 1
                 }
@@ -2304,7 +2314,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 480.0, 376.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 246.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 245.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2356,7 +2366,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1528.0, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 293.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 292.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2965,7 +2975,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1013.0, 26.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 242.0, 0.0, 240.0, 152.0 ],
+                    "presentation_rect": [ 242.0, 0.0, 145.0, 152.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -3916,6 +3926,12 @@
                 "patchline": {
                     "destination": [ "obj-72", 2 ],
                     "source": [ "obj-56", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-33", 0 ],
+                    "source": [ "obj-57", 0 ]
                 }
             },
             {
