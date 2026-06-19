@@ -9,18 +9,18 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 825.0, 111.0, 1823.0, 1246.0 ],
+        "rect": [ 703.0, 101.0, 1823.0, 1246.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
             {
                 "box": {
                     "id": "obj-75",
-                    "linecount": 15,
+                    "linecount": 14,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 697.0, 16.0, 150.0, 208.0 ],
+                    "patching_rect": [ 697.0, 16.0, 153.0, 194.0 ],
                     "text": "Solo is disabled for now, we already have a track button and we don't currently have wiring to disable playback for a track without also toggling that track off via the `Track` button. Also `Solo` is complicated because it requires keeping track of a running state of the tracks that have `Solo` toggled on somewhere in order to solo multiple tracks at once."
                 }
             },
@@ -1170,25 +1170,26 @@
             "obj-7::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-7::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-7::obj-25": [ "RandomizeRotate", "Rotate", 0 ],
-            "obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "PlsMin", 0 ],
-            "obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "PlsMax", 0 ],
+            "obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
+            "obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
             "obj-7::obj-30": [ "RandomizeDur", "Dur", 0 ],
             "obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "PchMax", 0 ],
             "obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "PchMin", 0 ],
-            "obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "StpMin", 0 ],
-            "obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "StpMax", 0 ],
-            "obj-7::obj-36": [ "RandomizeNotesScaleRand", "Rscl", 0 ],
+            "obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
+            "obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "Max", 0 ],
+            "obj-7::obj-36": [ "RandomizeNotesScaleRand", "Scale", 0 ],
             "obj-7::obj-38": [ "RandomizeSequencer", "Seq", 0 ],
             "obj-7::obj-39": [ "RandomizePitch", "Pitch", 0 ],
             "obj-7::obj-46::obj-1": [ "RandomizeDivision-Min", "DivMin", 0 ],
             "obj-7::obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
             "obj-7::obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
             "obj-7::obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
-            "obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "RotMin", 0 ],
-            "obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "RotMax", 0 ],
+            "obj-7::obj-51": [ "RandTrigToggle", "Trig", 0 ],
+            "obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
+            "obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
             "obj-7::obj-6": [ "RandomizeVel", "Vel", 0 ],
-            "obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "VelMin", 0 ],
-            "obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "VelMax", 0 ],
+            "obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
+            "obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
             "obj-7::obj-8": [ "Randomize1", "1", 0 ],
             "obj-7::obj-9": [ "Randomize2", "2", 0 ],
@@ -1238,6 +1239,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }
