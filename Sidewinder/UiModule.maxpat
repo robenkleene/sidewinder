@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 468.0, 859.0, 684.0, 400.0 ],
+        "rect": [ 1510.0, 863.0, 684.0, 400.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -84,7 +84,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 481.0, 429.0, 119.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 529.0, 56.0, 40.0, 17.0 ],
+                    "presentation_rect": [ 434.0, 56.0, 40.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -164,7 +164,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 331.0, 337.0, 30.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 461.0, 2.0, 30.0, 17.0 ],
+                    "presentation_rect": [ 366.0, 2.0, 30.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -188,7 +188,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 372.0, 339.5, 55.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 489.0, 3.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 394.0, 3.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -576,7 +576,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 200.0, 56.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 72.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 72.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -675,7 +675,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 272.0, 808.5, 20.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 530.0, 92.0, 20.0, 17.0 ],
+                    "presentation_rect": [ 435.0, 92.0, 20.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -701,7 +701,7 @@
                     "parameter_mappable": 0,
                     "patching_rect": [ 296.0, 808.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 108.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 108.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -871,7 +871,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 632.0, 552.5, 96.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 129.0, 44.0, 35.0 ],
+                    "presentation_rect": [ 436.0, 129.0, 44.0, 35.0 ],
                     "varname": "#2-Directions",
                     "viewvisibility": 1
                 }
@@ -3292,7 +3292,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 464.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 35.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 35.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -3336,7 +3336,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 512.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 19.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 19.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -4538,7 +4538,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 168.0, 616.5, 450.0, 165.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 57.0, 20.0, 472.0, 144.0 ],
+                    "presentation_rect": [ 57.0, 20.0, 377.0, 144.0 ],
                     "saved_attribute_attributes": {
                         "bgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -4619,7 +4619,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 616.0, 974.5, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 49.0, 0.0, 528.0, 169.0 ],
+                    "presentation_rect": [ 49.0, 0.0, 433.0, 169.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {

@@ -89,7 +89,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 997.0, 301.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 626.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "PresetsSelect",
@@ -116,7 +116,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 961.0, 248.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 626.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -165,7 +165,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 373.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 627.0, 150.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 534.0, 150.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -365,7 +365,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 848.0, 248.0, 44.0, 15.5 ],
                     "presentation": 1,
-                    "presentation_rect": [ 627.0, 133.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 534.0, 133.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -395,7 +395,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 908.0, 248.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 626.0, 116.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 533.0, 116.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -424,7 +424,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 800.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 626.0, 99.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 533.0, 99.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -561,7 +561,7 @@
                     "patching_rect": [ 744.0, 272.0, 32.0, 34.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 629.0, 41.0, 40.0, 52.0 ]
+                    "presentation_rect": [ 536.0, 41.0, 40.0, 52.0 ]
                 }
             },
             {
@@ -627,7 +627,7 @@
                     "outlettype": [ "int", "int", "int", "" ],
                     "patching_rect": [ 8.0, 264.0, 576.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 576.0, 168.0 ],
+                    "presentation_rect": [ 48.0, 0.0, 483.0, 168.0 ],
                     "varname": "ModuleBank",
                     "viewvisibility": 1
                 }
@@ -925,7 +925,6 @@
             "obj-8::obj-13::obj-77": [ "2-Vel[1]", "Vel", 0 ],
             "obj-8::obj-13::obj-78": [ "2-Pitch", "Pitch", 0 ],
             "obj-8::obj-13::obj-8": [ "2-Sequencer", "Seq", 1 ],
-            "obj-8::obj-13::obj-89": [ "Solo[2]", "Solo", 0 ],
             "obj-8::obj-18::obj-11": [ "3-Rotate", "Rotate", 0 ],
             "obj-8::obj-18::obj-143::obj-136": [ "3-Down", "Down", 0 ],
             "obj-8::obj-18::obj-143::obj-141": [ "3-Right", "Right", 0 ],
@@ -943,7 +942,6 @@
             "obj-8::obj-18::obj-77": [ "3-Vel[1]", "Vel", 0 ],
             "obj-8::obj-18::obj-78": [ "3-Pitch", "Pitch", 0 ],
             "obj-8::obj-18::obj-8": [ "3-Sequencer", "Seq", 1 ],
-            "obj-8::obj-18::obj-89": [ "Solo[1]", "Solo", 0 ],
             "obj-8::obj-1::obj-11": [ "1-Rotate", "Rotate", 0 ],
             "obj-8::obj-1::obj-143::obj-136": [ "1-Down", "Down", 0 ],
             "obj-8::obj-1::obj-143::obj-141": [ "1-Right", "Right", 0 ],
@@ -961,7 +959,6 @@
             "obj-8::obj-1::obj-77": [ "1-Vel[1]", "Vel", 0 ],
             "obj-8::obj-1::obj-78": [ "1-Pitch", "Pitch", 0 ],
             "obj-8::obj-1::obj-8": [ "1-Sequencer", "Seq", 1 ],
-            "obj-8::obj-1::obj-89": [ "Solo[3]", "Solo", 0 ],
             "obj-8::obj-21::obj-11": [ "4-Rotate", "Rotate", 0 ],
             "obj-8::obj-21::obj-143::obj-136": [ "4-Down", "Down", 0 ],
             "obj-8::obj-21::obj-143::obj-141": [ "4-Right", "Right", 0 ],
@@ -979,7 +976,6 @@
             "obj-8::obj-21::obj-77": [ "4-Vel[1]", "Vel", 0 ],
             "obj-8::obj-21::obj-78": [ "4-Pitch", "Pitch", 0 ],
             "obj-8::obj-21::obj-8": [ "4-Sequencer", "Seq", 1 ],
-            "obj-8::obj-21::obj-89": [ "Solo", "Solo", 0 ],
             "obj-8::obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
             "obj-8::obj-7::obj-10": [ "Randomize3", "3", 0 ],
             "obj-8::obj-7::obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
@@ -992,25 +988,26 @@
             "obj-8::obj-7::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-8::obj-7::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-8::obj-7::obj-25": [ "RandomizeRotate", "Rotate", 0 ],
-            "obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "PlsMin", 0 ],
-            "obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "PlsMax", 0 ],
+            "obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
+            "obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
             "obj-8::obj-7::obj-30": [ "RandomizeDur", "Dur", 0 ],
             "obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "PchMax", 0 ],
             "obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "PchMin", 0 ],
-            "obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "StpMin", 0 ],
-            "obj-8::obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "StpMax", 0 ],
-            "obj-8::obj-7::obj-36": [ "RandomizeNotesScaleRand", "Rscl", 0 ],
+            "obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
+            "obj-8::obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "Max", 0 ],
+            "obj-8::obj-7::obj-36": [ "RandomizeNotesScaleRand", "Scale", 0 ],
             "obj-8::obj-7::obj-38": [ "RandomizeSequencer", "Seq", 0 ],
             "obj-8::obj-7::obj-39": [ "RandomizePitch", "Pitch", 0 ],
             "obj-8::obj-7::obj-46::obj-1": [ "RandomizeDivision-Min", "DivMin", 0 ],
             "obj-8::obj-7::obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
             "obj-8::obj-7::obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
             "obj-8::obj-7::obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
-            "obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "RotMin", 0 ],
-            "obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "RotMax", 0 ],
+            "obj-8::obj-7::obj-51": [ "RandTrigToggle", "Trig", 0 ],
+            "obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
+            "obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
             "obj-8::obj-7::obj-6": [ "RandomizeVel", "Vel", 0 ],
-            "obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "VelMin", 0 ],
-            "obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "VelMax", 0 ],
+            "obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
+            "obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-8::obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
             "obj-8::obj-7::obj-8": [ "Randomize1", "1", 0 ],
             "obj-8::obj-7::obj-9": [ "Randomize2", "2", 0 ],
@@ -1033,20 +1030,11 @@
                 "obj-8::obj-13::obj-77": {
                     "parameter_longname": "2-Vel[1]"
                 },
-                "obj-8::obj-13::obj-89": {
-                    "parameter_longname": "Solo[2]"
-                },
                 "obj-8::obj-18::obj-77": {
                     "parameter_longname": "3-Vel[1]"
                 },
-                "obj-8::obj-18::obj-89": {
-                    "parameter_longname": "Solo[1]"
-                },
                 "obj-8::obj-1::obj-77": {
                     "parameter_longname": "1-Vel[1]"
-                },
-                "obj-8::obj-1::obj-89": {
-                    "parameter_longname": "Solo[3]"
                 },
                 "obj-8::obj-21::obj-77": {
                     "parameter_longname": "4-Vel[1]"

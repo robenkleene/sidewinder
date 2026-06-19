@@ -9,11 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 62.0, 230.0, 721.0, 169.0 ],
-        "openrect": [ 0.0, 0.0, 721.0, 169.0 ],
+        "openrect": [ 62.0, 230.0, 629.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 721.0,
+        "devicewidth": 629.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -26,7 +25,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 424.0, 255.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 675.0, 150.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 583.0, 150.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -53,7 +52,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 672.0, 155.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 673.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 581.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -79,7 +78,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 664.0, 284.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 673.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 581.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -233,7 +232,7 @@
                     "outlettype": [ "int", "int", "int", "int" ],
                     "patching_rect": [ 8.0, 40.0, 624.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 673.0, 168.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 583.0, 168.0 ],
                     "varname": "ModuleRack",
                     "viewvisibility": 1
                 }
@@ -307,7 +306,6 @@
             "obj-2::obj-11": [ "Read", "Read", 0 ],
             "obj-2::obj-13": [ "Write", "Write", 0 ],
             "obj-2::obj-17": [ "Overwrite", "OW", 0 ],
-            "obj-2::obj-19": [ "Solo", "Solo", 0 ],
             "obj-2::obj-20": [ "Randomize", "Rand", 0 ],
             "obj-2::obj-42": [ "0-Export", "Export", 0 ],
             "obj-2::obj-72": [ "PresetsLoad", "Load", 0 ],
@@ -392,25 +390,26 @@
             "obj-2::obj-8::obj-7::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-2::obj-8::obj-7::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-2::obj-8::obj-7::obj-25": [ "RandomizeRotate", "Rotate", 0 ],
-            "obj-2::obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "PlsMin", 0 ],
-            "obj-2::obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "PlsMax", 0 ],
+            "obj-2::obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
+            "obj-2::obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-30": [ "RandomizeDur", "Dur", 0 ],
             "obj-2::obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "PchMax", 0 ],
             "obj-2::obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "PchMin", 0 ],
-            "obj-2::obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "StpMin", 0 ],
-            "obj-2::obj-8::obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "StpMax", 0 ],
-            "obj-2::obj-8::obj-7::obj-36": [ "RandomizeNotesScaleRand", "Rscl", 0 ],
+            "obj-2::obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
+            "obj-2::obj-8::obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "Max", 0 ],
+            "obj-2::obj-8::obj-7::obj-36": [ "RandomizeNotesScaleRand", "Scale", 0 ],
             "obj-2::obj-8::obj-7::obj-38": [ "RandomizeSequencer", "Seq", 0 ],
             "obj-2::obj-8::obj-7::obj-39": [ "RandomizePitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-7::obj-46::obj-1": [ "RandomizeDivision-Min", "DivMin", 0 ],
             "obj-2::obj-8::obj-7::obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
             "obj-2::obj-8::obj-7::obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
             "obj-2::obj-8::obj-7::obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
-            "obj-2::obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "RotMin", 0 ],
-            "obj-2::obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "RotMax", 0 ],
+            "obj-2::obj-8::obj-7::obj-51": [ "RandTrigToggle", "Trig", 0 ],
+            "obj-2::obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
+            "obj-2::obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-6": [ "RandomizeVel", "Vel", 0 ],
-            "obj-2::obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "VelMin", 0 ],
-            "obj-2::obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "VelMax", 0 ],
+            "obj-2::obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
+            "obj-2::obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
             "obj-2::obj-8::obj-7::obj-8": [ "Randomize1", "1", 0 ],
             "obj-2::obj-8::obj-7::obj-9": [ "Randomize2", "2", 0 ],
@@ -445,10 +444,6 @@
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-17": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-2::obj-19": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
