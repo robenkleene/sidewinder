@@ -627,7 +627,7 @@
                     "outlettype": [ "int", "int", "int", "" ],
                     "patching_rect": [ 8.0, 264.0, 576.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 483.0, 168.0 ],
+                    "presentation_rect": [ 48.0, 0.0, 483.0, 169.0 ],
                     "varname": "ModuleBank",
                     "viewvisibility": 1
                 }
