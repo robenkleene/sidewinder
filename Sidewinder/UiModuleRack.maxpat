@@ -15,6 +15,28 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-21",
+                    "linecount": 7,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 214.0, 120.0, 150.0, 100.0 ],
+                    "text": "Start playback, this use to be a toggle button, e.g., the device could be turned on and off by toggling a `Play` button. But this is redundant in Live with toggling the device off."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 117.0, 120.0, 95.0, 22.0 ],
+                    "text": "loadmess play 1"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-15",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -868,6 +890,12 @@
                 "patchline": {
                     "destination": [ "obj-82", 0 ],
                     "source": [ "obj-83", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-9", 0 ]
                 }
             },
             {

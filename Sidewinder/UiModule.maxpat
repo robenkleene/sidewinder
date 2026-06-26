@@ -42,7 +42,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 761.0, 226.0, 125.0, 17.0 ],
+                    "patching_rect": [ 337.0, 32.0, 29.0, 17.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 98.0, 2.0, 29.0, 17.0 ],
                     "saved_attribute_attributes": {
@@ -62,7 +62,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 679.0, 257.0, 123.0, 17.0 ],
+                    "patching_rect": [ 476.5, -41.0, 44.0, 17.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 257.0, 2.0, 44.0, 17.0 ],
                     "saved_attribute_attributes": {
@@ -82,7 +82,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 481.0, 429.0, 119.0, 17.0 ],
+                    "patching_rect": [ 589.5, 199.0, 40.0, 17.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 434.0, 56.0, 40.0, 17.0 ],
                     "saved_attribute_attributes": {
@@ -827,29 +827,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 632.0, 584.5, 29.5, 22.0 ],
                     "text": "up"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-149",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 592.0, 104.0, 216.0, 22.0 ],
-                    "text": "script sendbox #2-Directions hidden $1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-144",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 592.0, 136.0, 67.0, 22.0 ],
-                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-                    "text": "thispatcher"
                 }
             },
             {
@@ -3713,7 +3690,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 761.0, 840.0, 46.0, 20.0 ],
+                    "patching_rect": [ 888.0, 823.0, 46.0, 20.0 ],
                     "text": "Debug"
                 }
             },
@@ -3724,7 +3701,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 761.0, 864.0, 132.0, 22.0 ],
+                    "patching_rect": [ 888.0, 846.0, 132.0, 22.0 ],
                     "text": "Open Global Transport"
                 }
             },
@@ -3735,7 +3712,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 761.0, 894.0, 163.0, 22.0 ],
+                    "patching_rect": [ 888.0, 876.0, 163.0, 22.0 ],
                     "text": "load globaltransport.maxpat"
                 }
             },
@@ -3746,7 +3723,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 761.0, 924.0, 54.0, 22.0 ],
+                    "patching_rect": [ 888.0, 906.0, 54.0, 22.0 ],
                     "text": "pcontrol"
                 }
             },
@@ -4982,12 +4959,6 @@
                 "patchline": {
                     "destination": [ "obj-142", 0 ],
                     "source": [ "obj-146", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-144", 0 ],
-                    "source": [ "obj-149", 0 ]
                 }
             },
             {
