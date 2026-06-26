@@ -66,16 +66,11 @@ Above the piano roll.
 
 - **Track**: Toggle playback for this track
 - **Set**: Set the steps based on the current settings
-- **Auto**: Toggle whether moving a control automatically updates the steps
+- **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
 - Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
 - **Ch**: The MIDI channel that the track outputs to **Note:** Ableton Live merges all MIDI to channel one, limiting the usefulness of this in Live
 - **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
-
-#### Auto
-
-When **Auto** is on, making a change automatically updates the steps. When **Auto** is off, use **Set** to update the steps. When **Auto** is disabled the **U**, **R**, **D**, **L** directional controls appear that allow moving the sequence in the corresponding direction (up, right, down, left). If **Pitch** or **Velocity** only those values will be moved.
-
-**Note:** Due to a technical limitation, if Auto is on, changing *any* parameter that affects the steps (e.g., pulses, steps, rotate, pitch, velocity, or duration) *will overwrite any manual changes made in the step sequencer to pitch, velocity, or duration*. For this reason, generating a random notes sequence automatically disables **Auto**, so that the sequence doesn't accidentally get overwritten.
+- Directions: Only visible when `Auto` is toggled off. Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
 
 #### Pulses
 
