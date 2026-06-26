@@ -20,7 +20,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 697.0, 16.0, 153.0, 194.0 ],
+                    "patching_rect": [ 697.0, 16.0, 157.0, 194.0 ],
                     "text": "Solo is disabled for now, we already have a track button and we don't currently have wiring to disable playback for a track without also toggling that track off via the `Track` button. Also `Solo` is complicated because it requires keeping track of a running state of the tracks that have `Solo` toggled on somewhere in order to solo multiple tracks at once."
                 }
             },

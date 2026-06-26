@@ -20,7 +20,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 214.0, 120.0, 150.0, 100.0 ],
+                    "patching_rect": [ 214.0, 120.0, 153.0, 100.0 ],
                     "text": "Start playback, this use to be a toggle button, e.g., the device could be turned on and off by toggling a `Play` button. But this is redundant in Live with toggling the device off."
                 }
             },
@@ -191,7 +191,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-Export",
+                            "parameter_longname": "Export",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Export",
@@ -199,7 +199,7 @@
                         }
                     },
                     "text": "Export",
-                    "varname": "#2-Export"
+                    "varname": "Export"
                 }
             },
             {
@@ -322,7 +322,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 960.0, 176.0, 56.0, 22.0 ],
                     "restore": {
-                        "#2-Export": [ 0.0 ],
+                        "Export": [ 0.0 ],
                         "Overwrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
@@ -933,7 +933,7 @@
             "obj-13": [ "Write", "Write", 0 ],
             "obj-17": [ "Overwrite", "OW", 0 ],
             "obj-20": [ "Randomize", "Rand", 0 ],
-            "obj-42": [ "#2-Export", "Export", 0 ],
+            "obj-42": [ "Export", "Export", 0 ],
             "obj-72": [ "PresetsLoad", "Load", 0 ],
             "obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
@@ -950,7 +950,7 @@
             "obj-8::obj-13::obj-64": [ "2-Auto", "Auto", 0 ],
             "obj-8::obj-13::obj-65": [ "2-Set", "Set", 0 ],
             "obj-8::obj-13::obj-72": [ "2-Mode", "Mode", 0 ],
-            "obj-8::obj-13::obj-77": [ "2-Vel[1]", "Vel", 0 ],
+            "obj-8::obj-13::obj-77": [ "2-Vel", "Vel", 0 ],
             "obj-8::obj-13::obj-78": [ "2-Pitch", "Pitch", 0 ],
             "obj-8::obj-13::obj-8": [ "2-Sequencer", "Seq", 1 ],
             "obj-8::obj-18::obj-11": [ "3-Rotate", "Rotate", 0 ],
@@ -967,7 +967,7 @@
             "obj-8::obj-18::obj-64": [ "3-Auto", "Auto", 0 ],
             "obj-8::obj-18::obj-65": [ "3-Set", "Set", 0 ],
             "obj-8::obj-18::obj-72": [ "3-Mode", "Mode", 0 ],
-            "obj-8::obj-18::obj-77": [ "3-Vel[1]", "Vel", 0 ],
+            "obj-8::obj-18::obj-77": [ "3-Vel", "Vel", 0 ],
             "obj-8::obj-18::obj-78": [ "3-Pitch", "Pitch", 0 ],
             "obj-8::obj-18::obj-8": [ "3-Sequencer", "Seq", 1 ],
             "obj-8::obj-1::obj-11": [ "1-Rotate", "Rotate", 0 ],
@@ -984,7 +984,7 @@
             "obj-8::obj-1::obj-64": [ "1-Auto", "Auto", 0 ],
             "obj-8::obj-1::obj-65": [ "1-Set", "Set", 0 ],
             "obj-8::obj-1::obj-72": [ "1-Mode", "Mode", 0 ],
-            "obj-8::obj-1::obj-77": [ "1-Vel[1]", "Vel", 0 ],
+            "obj-8::obj-1::obj-77": [ "1-Vel", "Vel", 0 ],
             "obj-8::obj-1::obj-78": [ "1-Pitch", "Pitch", 0 ],
             "obj-8::obj-1::obj-8": [ "1-Sequencer", "Seq", 1 ],
             "obj-8::obj-21::obj-11": [ "4-Rotate", "Rotate", 0 ],
@@ -1001,7 +1001,7 @@
             "obj-8::obj-21::obj-64": [ "4-Auto", "Auto", 0 ],
             "obj-8::obj-21::obj-65": [ "4-Set", "Set", 0 ],
             "obj-8::obj-21::obj-72": [ "4-Mode", "Mode", 0 ],
-            "obj-8::obj-21::obj-77": [ "4-Vel[1]", "Vel", 0 ],
+            "obj-8::obj-21::obj-77": [ "4-Vel", "Vel", 0 ],
             "obj-8::obj-21::obj-78": [ "4-Pitch", "Pitch", 0 ],
             "obj-8::obj-21::obj-8": [ "4-Sequencer", "Seq", 1 ],
             "obj-8::obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
@@ -1055,18 +1055,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-8::obj-13::obj-77": {
-                    "parameter_longname": "2-Vel[1]"
-                },
-                "obj-8::obj-18::obj-77": {
-                    "parameter_longname": "3-Vel[1]"
-                },
-                "obj-8::obj-1::obj-77": {
-                    "parameter_longname": "1-Vel[1]"
-                },
-                "obj-8::obj-21::obj-77": {
-                    "parameter_longname": "4-Vel[1]"
-                },
                 "obj-8::obj-7::obj-29::obj-1": {
                     "parameter_range": [ 1.0, 128.0 ]
                 },
@@ -1103,8 +1091,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"

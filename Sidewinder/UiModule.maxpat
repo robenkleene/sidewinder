@@ -14,13 +14,45 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-90",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 726.0, 152.0, 181.0, 22.0 ],
+                    "text": "script sendbox #2-Set hidden $1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-93",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 695.0, 74.5, 150.0, 33.0 ],
+                    "text": "Sync values when `Auto` is toggled on."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-85",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "" ],
+                    "patching_rect": [ 637.5, 75.0, 50.0, 22.0 ],
+                    "text": "select 1"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-98",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 661.25, 216.0, 196.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "script respondtoclick #2-Sequencer"
                 }
             },
@@ -54,7 +86,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 682.0, 241.0, 150.0, 100.0 ],
-                    "text": "Hide direction pad and disable `live.step` interaction when auto is on because otherwise the sequencer values get out of sync with the auto values."
+                    "text": "Hide direction pad, `Set`, and disable `live.step` interaction when auto is on because otherwise the sequencer values get out of sync with the auto values."
                 }
             },
             {
@@ -64,7 +96,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 632.0, 112.0, 216.0, 22.0 ],
+                    "patching_rect": [ 637.5, 125.0, 216.0, 22.0 ],
                     "text": "script sendbox #2-Directions hidden $1"
                 }
             },
@@ -1009,15 +1041,15 @@
                     "restore": {
                         "#2-Auto": [ 0.0 ],
                         "#2-Ch": [ 1.0 ],
-                        "#2-Division": [ 6.0 ],
-                        "#2-Dur": [ 1.0 ],
-                        "#2-Mode": [ 3.0 ],
+                        "#2-Division": [ 0.0 ],
+                        "#2-Dur": [ 0.0 ],
+                        "#2-Mode": [ 0.0 ],
                         "#2-Pitch": [ 0.0 ],
                         "#2-Rotate": [ 0.0 ],
-                        "#2-Sequencer": [ 1, 3, 0, 1, 96, 0, 3, 59.0, 80.0, 0, 0, 77, 62, 5, 126, 126, 67, 106, 4, 126, 126, 60, 88, 3, 126, 126 ],
+                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
                         "#2-Set": [ 0.0 ],
-                        "#2-Track": [ 1.0 ],
-                        "#2-Vel": [ 127.0 ]
+                        "#2-Track": [ 0.0 ],
+                        "#2-Vel": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -4599,7 +4631,6 @@
                     "id": "obj-8",
                     "loopbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "maxclass": "live.step",
-                    "mode": 3,
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "", "", "", "", "" ],
@@ -5591,21 +5622,35 @@
             {
                 "patchline": {
                     "destination": [ "obj-149", 0 ],
-                    "order": 1,
-                    "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-21", 0 ],
                     "order": 2,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-92", 0 ],
+                    "destination": [ "obj-21", 0 ],
+                    "order": 4,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-85", 0 ],
+                    "order": 3,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 0 ],
                     "order": 0,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-92", 0 ],
+                    "order": 1,
                     "source": [ "obj-64", 0 ]
                 }
             },
@@ -5717,6 +5762,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-36", 0 ],
+                    "source": [ "obj-85", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-86", 1 ]
                 }
@@ -5731,6 +5782,12 @@
                 "patchline": {
                     "destination": [ "obj-13", 0 ],
                     "source": [ "obj-88", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-144", 0 ],
+                    "source": [ "obj-90", 0 ]
                 }
             },
             {
