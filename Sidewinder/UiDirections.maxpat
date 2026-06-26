@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1202.0, 476.0, 552.0, 710.0 ],
+        "rect": [ 945.0, 421.0, 552.0, 710.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -76,7 +76,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 72.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 10.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 9.0, 14.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -132,7 +132,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 24.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 20.0, 10.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 19.0, 10.0, 12.0, 12.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -188,7 +188,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 48.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 10.0, 20.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 9.0, 19.0, 14.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -244,7 +244,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 0.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 10.0, 0.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 9.0, 0.0, 14.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
