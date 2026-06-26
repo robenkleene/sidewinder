@@ -14,6 +14,40 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-89",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 704.0, 144.0, 150.0, 74.0 ],
+                    "text": "Hide direction pad when auto is on because otherwise the sequencer values get out of sync with the auto values."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-149",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 632.0, 112.0, 216.0, 22.0 ],
+                    "text": "script sendbox #2-Directions hidden $1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-144",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 632.0, 144.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-95",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -4998,6 +5032,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-144", 0 ],
+                    "source": [ "obj-149", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-150", 0 ]
                 }
@@ -5512,6 +5552,13 @@
                 "patchline": {
                     "destination": [ "obj-46", 0 ],
                     "source": [ "obj-63", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-149", 0 ],
+                    "order": 0,
+                    "source": [ "obj-64", 0 ]
                 }
             },
             {
