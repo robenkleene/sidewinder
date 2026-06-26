@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1510.0, 863.0, 684.0, 400.0 ],
+        "rect": [ 369.0, 92.0, 1640.0, 1138.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -102,7 +102,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 278.0, 18.0, 44.0, 18.0 ],
+                    "patching_rect": [ 280.0, 10.0, 44.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 170.0, 2.0, 44.0, 18.0 ],
                     "saved_attribute_attributes": {
@@ -3488,7 +3488,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 344.0, 160.0, 63.0, 22.0 ],
+                    "patching_rect": [ 368.0, 152.0, 63.0, 22.0 ],
                     "text": "s #1-Bang"
                 }
             },
