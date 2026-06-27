@@ -18,12 +18,12 @@ var ENCODERS = [
 ];
 
 var BUTTONS = [
-["-", "$1-Track",            "$1-Auto",                "-",                   "-",                    "-",                   "-"],
-["-", "RandomizePulses",     "-",                      "RandomizeSteps",      "-",                    "RandomizeRotate",     "PresetsLoad"],
-["-", "RandomizeVel",        "-",                      "RandomizePitch",      "-",                    "RandomizeDur",        "-"],
-["-", "RandomizeDivision",   "Randomize1",             "Randomize2",          "Randomize3",           "Randomize4",          "-"],
-["-", "RandomizeNotes",      "RandomizeNotesReverse",  "RandomizeNotesRests", "RandomizeNotesRepeat", "RandomizeNotesOrder", "RandomizeNotesScaleRand"],
-["-", "RandomizeTriggerSet", "RandomizeTriggerToggle", "-",                   "-",                    "-",                   "-"],
+["-", "$1-Track",            "$1-Auto",                "-",                   "-",                    "-",                   "-",                       "-"],
+["-", "RandomizePulses",     "-",                      "RandomizeSteps",      "-",                    "RandomizeRotate",     "-",                       "PresetsLoad"],
+["-", "RandomizeVel",        "-",                      "RandomizePitch",      "-",                    "RandomizeDur",        "-",                       "-"],
+["-", "RandomizeDivision",   "Randomize1",             "Randomize2",          "Randomize3",           "Randomize4",          "-",                       "-"],
+["-", "RandomizeNotes",      "RandomizeNotesReverse",  "RandomizeNotesRests", "RandomizeNotesRepeat", "RandomizeNotesOrder", "RandomizeNotesScaleRand", "-"],
+["-", "RandomizeTriggerSet", "RandomizeTriggerToggle", "-",                   "-",                    "-",                   "-",                       "-"],
 ];
 
 // State
