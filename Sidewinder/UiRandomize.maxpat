@@ -128,12 +128,12 @@
                             "parameter_longname": "RandomizeTriggerToggle",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Trig",
+                            "parameter_shortname": "Trigger",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Trig",
-                    "texton": "Trig",
+                    "text": "Trigger",
+                    "texton": "Trigger",
                     "varname": "RandomizeTriggerToggle"
                 }
             },
@@ -595,12 +595,12 @@
                             "parameter_longname": "RandomizeDivision",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Div",
+                            "parameter_shortname": "Division",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Div",
-                    "texton": "Div",
+                    "text": "Division",
+                    "texton": "Division",
                     "varname": "RandomizeDivision"
                 }
             },
@@ -1224,8 +1224,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "Rev",
-                    "texton": "Rev",
+                    "text": "Reverse",
+                    "texton": "Reverse",
                     "varname": "RandomizeNotesReverse"
                 }
             },
@@ -2373,12 +2373,12 @@
                             "parameter_longname": "RandomizeDur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Dur",
+                            "parameter_shortname": "Duration",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Dur",
-                    "texton": "Dur",
+                    "text": "Duration",
+                    "texton": "Duration",
                     "varname": "RandomizeDur"
                 }
             },
@@ -2815,7 +2815,7 @@
                             "parameter_longname": "Randomize4",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "4",
+                            "parameter_shortname": "Track 4",
                             "parameter_type": 2
                         }
                     },
@@ -2845,7 +2845,7 @@
                             "parameter_longname": "Randomize3",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "3",
+                            "parameter_shortname": "Track 3",
                             "parameter_type": 2
                         }
                     },
@@ -2875,7 +2875,7 @@
                             "parameter_longname": "Randomize2",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "2",
+                            "parameter_shortname": "Track 2",
                             "parameter_type": 2
                         }
                     },
@@ -2905,7 +2905,7 @@
                             "parameter_longname": "Randomize1",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "1",
+                            "parameter_shortname": "Track 1",
                             "parameter_type": 2
                         }
                     },
@@ -2935,12 +2935,12 @@
                             "parameter_longname": "RandomizeVel",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Vel",
+                            "parameter_shortname": "Velocity",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Vel",
-                    "texton": "Vel",
+                    "text": "Velocity",
+                    "texton": "Velocity",
                     "varname": "RandomizeVel"
                 }
             },
@@ -4156,12 +4156,12 @@
         ],
         "parameters": {
             "obj-1": [ "RandomizeAuto", "Auto", 0 ],
-            "obj-10": [ "Randomize3", "3", 0 ],
+            "obj-10": [ "Randomize3", "Track 3", 0 ],
             "obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
-            "obj-11": [ "Randomize4", "4", 0 ],
+            "obj-11": [ "Randomize4", "Track 4", 0 ],
             "obj-110": [ "RandomizeNotesRests", "Rests", 0 ],
             "obj-111": [ "RandomizeNotesReverse", "Rev", 0 ],
-            "obj-147": [ "RandomizeDivision", "Div", 0 ],
+            "obj-147": [ "RandomizeDivision", "Division", 0 ],
             "obj-15": [ "RandomizePulses", "Pulses", 0 ],
             "obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
@@ -4169,27 +4169,27 @@
             "obj-25": [ "RandomizeRotate", "Rotate", 0 ],
             "obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
-            "obj-30": [ "RandomizeDur", "Dur", 0 ],
-            "obj-33::obj-6": [ "RandomizePitch-Max", "PchMax", 0 ],
-            "obj-33::obj-7": [ "RandomizePitch-Min", "PchMin", 0 ],
+            "obj-30": [ "RandomizeDur", "Duration", 0 ],
+            "obj-33::obj-6": [ "RandomizePitch-Max", "Max", 0 ],
+            "obj-33::obj-7": [ "RandomizePitch-Min", "Min", 0 ],
             "obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
             "obj-35::obj-2": [ "RandomizeSteps-Max", "Max", 0 ],
             "obj-36": [ "RandomizeNotesScaleRand", "Scale", 0 ],
             "obj-38": [ "RandomizeSequencer", "Seq", 0 ],
             "obj-39": [ "RandomizePitch", "Pitch", 0 ],
-            "obj-46::obj-1": [ "RandomizeDivision-Min", "DivMin", 0 ],
-            "obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
-            "obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
-            "obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
-            "obj-51": [ "RandomizeTriggerToggle", "Trig", 0 ],
+            "obj-46::obj-1": [ "RandomizeDivision-Min", "Min", 0 ],
+            "obj-46::obj-2": [ "RandomizeDivision-Max", "Max", 0 ],
+            "obj-4::obj-1": [ "RandomizeDur-Min", "Min", 0 ],
+            "obj-4::obj-2": [ "RandomizeDur-Max", "Max", 0 ],
+            "obj-51": [ "RandomizeTriggerToggle", "Trigger", 0 ],
             "obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
             "obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
-            "obj-6": [ "RandomizeVel", "Vel", 0 ],
+            "obj-6": [ "RandomizeVel", "Velocity", 0 ],
             "obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
             "obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-78": [ "RandomizeNotes", "Notes", 0 ],
-            "obj-8": [ "Randomize1", "1", 0 ],
-            "obj-9": [ "Randomize2", "2", 0 ],
+            "obj-8": [ "Randomize1", "Track 1", 0 ],
+            "obj-9": [ "Randomize2", "Track 2", 0 ],
             "obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "parameterbanks": {

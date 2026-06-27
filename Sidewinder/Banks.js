@@ -9,21 +9,19 @@ var INLET_TAB = 0;
 // Track banks first, then self-contained randomize banks. Randomize banks pair
 // each toggle (button) above its `-Min` encoder, with `-Max` in the next slot.
 var ENCODERS = [
-["Main",         "Tab", "$1-Pulses",             "$1-Steps",              "$1-Rotate",          "$1-Pitch",           "$1-Vel",              "$1-Dur",              "$1-Division"],
-["Rand Steps",   "Tab", "RandomizePulses-Min",   "RandomizePulses-Max",   "RandomizeSteps-Min", "RandomizeSteps-Max", "RandomizeRotate-Min", "RandomizeRotate-Max", "PresetsSelect"],
-["Rand Notes",   "Tab", "RandomizeVel-Min",      "RandomizeVel-Max",      "RandomizePitch-Min", "RandomizePitch-Max", "RandomizeDur-Min",    "RandomizeDur-Max",    "-"],
-["Rand Tracks",  "Tab", "RandomizeDivision-Min", "RandomizeDivision-Max", "-",                  "-",                  "-",                   "-",                   "-"],
-["Rand Scale",   "Tab", "RandomizeNotesScale",   "-",                     "-",                  "-",                  "-",                   "-",                   "-"],
-["Rand Trigger", "Tab", "RandomizeTrigger",      "RandomizeAuto",         "-",                  "-",                  "-",                   "-",                   "-"],
+["Main",        "Tab", "$1-Pulses",             "$1-Steps",              "$1-Rotate",          "$1-Pitch",           "$1-Vel",              "$1-Dur",              "$1-Division"],
+["Rand Tracks", "Tab", "RandomizeDivision-Min", "RandomizeDivision-Max", "-",                  "-",                  "-",                   "RandomizeTrigger",    "RandomizeAuto"],
+["Rand Steps",  "Tab", "RandomizePulses-Min",   "RandomizePulses-Max",   "RandomizeSteps-Min", "RandomizeSteps-Max", "RandomizeRotate-Min", "RandomizeRotate-Max", "PresetsSelect"],
+["Rand Notes",  "Tab", "RandomizeVel-Min",      "RandomizeVel-Max",      "RandomizePitch-Min", "RandomizePitch-Max", "RandomizeDur-Min",    "RandomizeDur-Max",    "-"],
+["Rand Scale",  "Tab", "RandomizeNotesScale",   "-",                     "-",                  "-",                  "-",                   "-",                   "-"],
 ];
 
 var BUTTONS = [
-["-", "$1-Track",            "$1-Auto",                "-",                   "-",                    "-",                   "-",                       "-"],
-["-", "RandomizePulses",     "-",                      "RandomizeSteps",      "-",                    "RandomizeRotate",     "-",                       "PresetsLoad"],
-["-", "RandomizeVel",        "-",                      "RandomizePitch",      "-",                    "RandomizeDur",        "-",                       "-"],
-["-", "RandomizeDivision",   "Randomize1",             "Randomize2",          "Randomize3",           "Randomize4",          "-",                       "-"],
-["-", "RandomizeNotes",      "RandomizeNotesReverse",  "RandomizeNotesRests", "RandomizeNotesRepeat", "RandomizeNotesOrder", "RandomizeNotesScaleRand", "-"],
-["-", "RandomizeTriggerSet", "RandomizeTriggerToggle", "-",                   "-",                    "-",                   "-",                       "-"],
+["-", "$1-Track",          "$1-Auto",               "-",                   "-",                    "-",                   "-",                       "-"],
+["-", "RandomizeDivision", "Randomize1",            "Randomize2",          "Randomize3",           "Randomize4",          "RandomizeTriggerSet",     "RandomizeTriggerToggle"],
+["-", "RandomizePulses",   "-",                     "RandomizeSteps",      "-",                    "RandomizeRotate",     "-",                       "PresetsLoad"],
+["-", "RandomizeVel",      "-",                     "RandomizePitch",      "-",                    "RandomizeDur",        "-",                       "-"],
+["-", "RandomizeNotes",    "RandomizeNotesReverse", "RandomizeNotesRests", "RandomizeNotesRepeat", "RandomizeNotesOrder", "RandomizeNotesScaleRand", "-"],
 ];
 
 // State
