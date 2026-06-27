@@ -266,7 +266,7 @@
                         "valueof": {
                             "parameter_longname": "#2-Vel",
                             "parameter_modmode": 4,
-                            "parameter_shortname": "Vel",
+                            "parameter_shortname": "Velocity",
                             "parameter_type": 1,
                             "parameter_unitstyle": 0
                         }
@@ -3273,7 +3273,7 @@
                             "parameter_longname": "#2-Dur",
                             "parameter_mmax": 6,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Dur",
+                            "parameter_shortname": "Duration",
                             "parameter_type": 2,
                             "parameter_unitstyle": 9
                         }
@@ -5622,35 +5622,35 @@
             {
                 "patchline": {
                     "destination": [ "obj-149", 0 ],
-                    "order": 2,
-                    "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-21", 0 ],
-                    "order": 4,
-                    "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-85", 0 ],
                     "order": 3,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "order": 5,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-85", 0 ],
+                    "order": 4,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-90", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-92", 0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-64", 0 ]
                 }
             },
@@ -5852,7 +5852,7 @@
             "obj-143::obj-142": [ "#2-Left", "Left", 0 ],
             "obj-143::obj-86": [ "#2-Up", "Up", 0 ],
             "obj-25": [ "#2-Track", "Track", 0 ],
-            "obj-28": [ "#2-Dur", "Dur", 0 ],
+            "obj-28": [ "#2-Dur", "Duration", 0 ],
             "obj-43": [ "#2-Ch", "Ch", 0 ],
             "obj-45": [ "#2-Division", "Division", 0 ],
             "obj-53::obj-1": [ "#2-Pulses", "Pulses", 0 ],
@@ -5860,7 +5860,7 @@
             "obj-64": [ "#2-Auto", "Auto", 0 ],
             "obj-65": [ "#2-Set", "Set", 0 ],
             "obj-72": [ "#2-Mode", "Mode", 0 ],
-            "obj-77": [ "#2-Vel", "Vel", 0 ],
+            "obj-77": [ "#2-Vel", "Velocity", 0 ],
             "obj-78": [ "#2-Pitch", "Pitch", 0 ],
             "obj-8": [ "#2-Sequencer", "Seq", 1 ],
             "parameterbanks": {
