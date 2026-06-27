@@ -125,7 +125,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandTrigToggle",
+                            "parameter_longname": "RandomizeTriggerToggle",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Trig",
@@ -134,7 +134,7 @@
                     },
                     "text": "Trig",
                     "texton": "Trig",
-                    "varname": "RandTrigToggle"
+                    "varname": "RandomizeTriggerToggle"
                 }
             },
             {
@@ -872,7 +872,6 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 912.0, 120.0, 56.0, 22.0 ],
                     "restore": {
-                        "RandTrigToggle": [ 0.0 ],
                         "Randomize1": [ 0.0 ],
                         "Randomize2": [ 0.0 ],
                         "Randomize3": [ 0.0 ],
@@ -894,6 +893,7 @@
                         "RandomizeSteps": [ 0.0 ],
                         "RandomizeTrigger": [ 0.0 ],
                         "RandomizeTriggerSet": [ 0.0 ],
+                        "RandomizeTriggerToggle": [ 0.0 ],
                         "RandomizeVel": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -4181,7 +4181,7 @@
             "obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
             "obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
             "obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
-            "obj-51": [ "RandTrigToggle", "Trig", 0 ],
+            "obj-51": [ "RandomizeTriggerToggle", "Trig", 0 ],
             "obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
             "obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
             "obj-6": [ "RandomizeVel", "Vel", 0 ],
