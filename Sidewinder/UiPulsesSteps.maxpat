@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 504.0, 172.0, 967.0, 988.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -99,7 +96,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 128.0, 96.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 48.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 55.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Steps",
@@ -393,6 +390,14 @@
         "parameters": {
             "obj-1": [ "#1-Pulses", "Pulses", 0 ],
             "obj-2": [ "#1-Steps", "Steps", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

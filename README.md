@@ -38,45 +38,36 @@ After Sidewinder has been installed in the Push `User Library`, the device can b
 
 ## Opening in Max Directly
 
-To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`.
+![Sidewinder in Max](assets/max.png)
 
-## Interface
+To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`, Sidewinder has some some additional features when opened outside of Live:
 
-### Global
+- **ReWire**: Toggles whether to use a ReWire host as a clock source
+- **Clock**: Show the global transport
 
-- **Play**: Toggle playback
-- **Solo**: If toggled on, selecting a track tab will toggle off the other tracks.
-- **1-4 Tabs**: Select which track to display
-- **R Tab**: Display the randomize pan
-- **R**: Trigger randomize
+## Presets
 
-#### Presets
+Presets are available either when opening in Max directly, or by choosing `Edit in Max` in Live (and dragging the Max window size larger to expose the preset controls).
 
-- **R**: Read presets from a file
-- **W**: Write the presets to a file
-- **OW**: When toggled on, **W** will automatically write again to the same file
+- **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
+- **Select**: Choose the selected preset
+- **Read**: Read presets from a file
+- **Write**: Write the presets to a file
+- **Overwrite**: When toggled on, **Write** will automatically write again to the sample file
+- **Export**: Export the notes dictionary as JSON (this can then be imported into a MIDI region using a MIDI generator or transformer that supports imports like [Middleware](https://github.com/robenkleene/middleware))
 - To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
 
-### Tracks
+## Parameter Reference
 
-Above the piano roll.
+### Tabs
 
-- **Track**: Toggle playback for this track
-- **Set**: Set the steps based on the current settings
-- **Auto**: Toggle whether moving a control automatically updates the steps
-- Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
-- **Ch**: The MIDI channel that the track outputs to **Note:** Ableton Live merges all MIDI to channel one, limiting the usefulness of this in Live
-- **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
+- **Track 1-4**: Select which track to display
+- **Rand** tab: Display the randomize pan
+- **Rand** button: Trigger randomize
 
-#### Auto
-
-When **Auto** is on, making a change automatically updates the steps. When **Auto** is off, use **Set** to update the steps. When **Auto** is disabled the **U**, **R**, **D**, **L** directional controls appear that allow moving the sequence in the corresponding direction (up, right, down, left). If **Pitch** or **Velocity** only those values will be moved.
-
-**Note:** Due to a technical limitation, if Auto is on, changing *any* parameter that affects the steps (e.g., pulses, steps, rotate, pitch, velocity, or duration) *will overwrite any manual changes made in the step sequencer to pitch, velocity, or duration*. For this reason, generating a random notes sequence automatically disables **Auto**, so that the sequence doesn't accidentally get overwritten.
-
-#### Pulses
+### Pulses
 
 To the left of the piano roll.
 
@@ -84,42 +75,47 @@ To the left of the piano roll.
 - **Steps**: Set the total number of steps
 - **Rotate**: Set the offset for the pulses
 
-#### Notes
+### Sequencer
 
-To the right of the piano roll.
-
-- **Pitch:** Set the pitch of the notes
+- **Track**: Toggle playback for this track
+- **Pitch**: Set the pitch of the notes
 - **Velocity**: Set the velocity of the notes
 - **Duration**: Set the duration of the notes. The note duration can only be set to `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (there appears to be an undocumented limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that limits the minimum duration to `7.5` ticks and the maximum duration to `960` ticks).
+- **Show**: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
+- **Set** (only visible when `Auto` is toggled off): Set the steps based on the current settings
+- **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
+- **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
+- **Ch**: The MIDI channel that the track outputs to (note that Ableton Live actually merges all MIDI to channel one, limiting the usefulness of this in Live)
+- Directions (only visible when `Auto` is toggled off): Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
 
 ### Randomize
 
-![Randomize](Randomize.png)
+![Randomize](assets/rand.png)
 
 Randomize generates a random sequence. The **Notes** setting is significant, with that setting turned off, a sequence that plays a single note will be generated. If it's turned on, a sequence playing different notes from a scale will be generated.
 
-- **1-4 Buttons:** Which tracks to randomize
-- **Pulses, Steps, Rotate:** Whether to randomize those parameters. When randomizing pulses and steps, the randomized steps value *overrides the maximum for pulses* (unless the randomize pulses maximum is already less than the randomized steps value). This is because the pulses value can never go above steps value, so if we didn't override the maximum for pulses, then all randomized pulses values above the randomized steps value would be forced to be the steps value (i.e., steps and pulses values would be equal, which doesn't make for interesting patterns).
-- **Min:** Minimum random amount
-- **Max:** Maximum random amount
+- **Track 1-4**: Which tracks to randomize
+- **Pulses, Steps, Rotate**: Whether to randomize those parameters. When randomizing pulses and steps, the randomized steps value *overrides the maximum for pulses* (unless the randomize pulses maximum is already less than the randomized steps value). This is because the pulses value can never go above steps value, so if we didn't override the maximum for pulses, then all randomized pulses values above the randomized steps value would be forced to be the steps value (i.e., steps and pulses values would be equal, which doesn't make for interesting patterns).
+- **Min**: Minimum random amount
+- **Max**: Maximum random amount
 - **Notes**: Whether to randomize individual notes. If the notes is off, then randomize for Velocity, Pitch, and Duration will randomize changing those values on the individual track settings. If notes is on, then randomize for those values will create randomize the individual notes (and the track settings will be used for default values, e.g., for off notes with a velocity of 0).
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
 - For Pitch, the top number and bottom pitches are the minimum and maximum pitches
-- **Note Trigger:** If the incoming MIDI note matches this note, than randomize is triggered (i.e., this is a way to trigger randomize via MIDI)
-- **Set Note Trigger:** The next incoming note will set the note trigger value without triggering randomize
-- **Auto Beats:** Automatically trigger a randomize after every number of beats (this is based on the current transport status, e.g., if it's set to `4` and you're currently on beat `2`, it'll trigger the randomize in `2` more beats)
+- **Note Trigger**: If the incoming MIDI note matches this note, than randomize is triggered (i.e., this is a way to trigger randomize via MIDI)
+- **Set Note Trigger**: The next incoming note will set the note trigger value without triggering randomize
+- **Auto Beats**: Automatically trigger a randomize after every number of beats (this is based on the current transport status, e.g., if it's set to `4` and you're currently on beat `2`, it'll trigger the randomize in `2` more beats)
 
 #### Pitch Note Controls
 
 With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
 
-- **Vel:** Whether to randomize velocity
-- **Pitch:** Whether to randomize pitch
-- **Dur:** Whether to randomize duration
-- **Scale:** The scale the sequence will be generated in
-- **Rand:** Randomize the scale
-- **Rev:** Reverse the order of the generated sequence (from ascending to descending)
-- **Repeat, Order, Rests:** The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests use a velocity of `0`, so rests will result in `0` velocity notes, even though the `VelMin` minimum is `0`, which can be surprising if you aren't expecting it.
+- **Velocity**: Whether to randomize velocity
+- **Pitch**: Whether to randomize pitch
+- **Duration**: Whether to randomize duration
+- **Scale**: The scale the sequence will be generated in
+- **Rand**: Randomize the scale
+- **Reverse**: Reverse the order of the generated sequence (i.e., from ascending to descending)
+- **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests use a velocity of `0`, so rests will result in `0` velocity notes, even though the `VelMin` minimum is `0`, which can be surprising if you aren't expecting it.
 
 ## Installation
 

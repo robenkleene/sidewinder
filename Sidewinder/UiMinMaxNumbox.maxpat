@@ -4,17 +4,26 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 265.0, 309.0, 1344.0, 791.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 74.0, 110.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
+                }
+            },
             {
                 "box": {
                     "id": "obj-1",
@@ -54,12 +63,12 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 8.0, 304.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Min",
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Min",
+                            "parameter_shortname": "Min",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
@@ -79,12 +88,12 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 128.0, 304.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 58.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Max",
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Max",
+                            "parameter_shortname": "Max",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
@@ -129,11 +138,11 @@
                 "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 64.0, 69.0, 22.0 ],
-                    "text": "route setup"
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 8.0, 64.0, 85.0, 22.0 ],
+                    "text": "route setup int"
                 }
             },
             {
@@ -378,6 +387,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-4", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-17", 0 ],
                     "source": [ "obj-4", 0 ]
                 }
@@ -426,8 +441,16 @@
             }
         ],
         "parameters": {
-            "obj-6": [ "#1-Max", "#2Max", 0 ],
-            "obj-7": [ "#1-Min", "#2Min", 0 ],
+            "obj-6": [ "#1-Max", "Max", 0 ],
+            "obj-7": [ "#1-Min", "Min", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
