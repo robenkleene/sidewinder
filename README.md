@@ -38,27 +38,34 @@ After Sidewinder has been installed in the Push `User Library`, the device can b
 
 ## Opening in Max Directly
 
-To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`.
+![Sidewinder in Max](assets/max.png)
 
-## Interface
+To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`, Sidewinder has some some additional features when opened outside of Live:
 
-### Global
+- **ReWire**: Toggles whether to use a ReWire host as a clock source
+- **Clock**: Show the global transport
 
-- **Play**: Toggle playback
-- **Solo**: If toggled on, selecting a track tab will toggle off the other tracks.
-- **1-4 Tabs**: Select which track to display
-- **R Tab**: Display the randomize pan
-- **R**: Trigger randomize
+## Presets
 
-#### Presets
+Presets are available either when opening in Max directly, or by choosing `Edit in Max` in Live (and dragging the Max window size larger to expose the preset controls).
 
-- **Export**: Export the notes dictionary as JSON (this can then be imported into a MIDI region using a MIDI generator or transformer that supports imports like [Middleware](https://github.com/robenkleene/middleware))
+- **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
+- **Select**: Choose the selected preset
 - **Read**: Read presets from a file
 - **Write**: Write the presets to a file
-- **Overwrite**: When toggled on, **W** will automatically write again to the same file
+- **Overwrite**: When toggled on, **Write** will automatically write again to the sample file
+- **Export**: Export the notes dictionary as JSON (this can then be imported into a MIDI region using a MIDI generator or transformer that supports imports like [Middleware](https://github.com/robenkleene/middleware))
 - To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
+
+## Parameter Reference
+
+### Tabs
+
+- **Track 1-4**: Select which track to display
+- **Rand** tab: Display the randomize pan
+- **Rand** button: Trigger randomize
 
 ### Tracks
 
