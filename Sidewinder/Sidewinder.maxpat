@@ -9,10 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 62.0, 230.0, 629.0, 169.0 ],
+        "openrect": [ 62.0, 230.0, 583.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 629.0,
+        "devicewidth": 583.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -25,7 +25,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 424.0, 255.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 583.0, 150.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 120.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -45,34 +45,6 @@
             },
             {
                 "box": {
-                    "id": "obj-9",
-                    "maxclass": "live.text",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 672.0, 155.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 581.0, 3.0, 46.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
-                            "parameter_initial": [ 0.0 ],
-                            "parameter_initial_enable": 1,
-                            "parameter_longname": "DAC",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "DAC",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "DAC",
-                    "varname": "DAC"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-8",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -82,7 +54,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 664.0, 284.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 581.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 135.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -95,7 +67,7 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "Transport",
+                    "text": "Clock",
                     "varname": "Transport"
                 }
             },
@@ -150,7 +122,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 536.0, 328.0, 108.0, 22.0 ],
+                    "patching_rect": [ 541.0, 328.0, 108.0, 22.0 ],
                     "text": "clocksource rewire"
                 }
             },
@@ -174,38 +146,6 @@
                     "outlettype": [ "bang", "" ],
                     "patching_rect": [ 424.0, 288.0, 40.0, 22.0 ],
                     "text": "select"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-12",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 672.0, 184.0, 35.0, 22.0 ],
-                    "text": "open"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-10",
-                    "linecount": 4,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 712.0, 216.0, 155.0, 60.0 ],
-                    "text": "Just to get an Audio Status shortcut. Do I even need the Audio Status since this only sends MIDI?"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-7",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 0,
-                    "patching_rect": [ 672.0, 216.0, 35.0, 22.0 ],
-                    "text": "dac~"
                 }
             },
             {
@@ -245,12 +185,6 @@
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "source": [ "obj-12", 0 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
@@ -298,12 +232,6 @@
                     "destination": [ "obj-3", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-12", 0 ],
-                    "source": [ "obj-9", 0 ]
-                }
             }
         ],
         "parameters": {
@@ -322,7 +250,7 @@
             "obj-2::obj-8::obj-13::obj-143::obj-142": [ "2-Left", "Left", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-86": [ "2-Up", "Up", 0 ],
             "obj-2::obj-8::obj-13::obj-25": [ "2-Track", "Track", 0 ],
-            "obj-2::obj-8::obj-13::obj-28": [ "2-Dur", "Dur", 0 ],
+            "obj-2::obj-8::obj-13::obj-28": [ "2-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-13::obj-43": [ "2-Ch", "Ch", 0 ],
             "obj-2::obj-8::obj-13::obj-45": [ "2-Division", "Division", 0 ],
             "obj-2::obj-8::obj-13::obj-53::obj-1": [ "2-Pulses", "Pulses", 0 ],
@@ -330,7 +258,7 @@
             "obj-2::obj-8::obj-13::obj-64": [ "2-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-13::obj-65": [ "2-Set", "Set", 0 ],
             "obj-2::obj-8::obj-13::obj-72": [ "2-Mode", "Mode", 0 ],
-            "obj-2::obj-8::obj-13::obj-77": [ "2-Vel", "Vel", 0 ],
+            "obj-2::obj-8::obj-13::obj-77": [ "2-Vel", "Velocity", 0 ],
             "obj-2::obj-8::obj-13::obj-78": [ "2-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-13::obj-8": [ "2-Sequencer", "Seq", 1 ],
             "obj-2::obj-8::obj-18::obj-11": [ "3-Rotate", "Rotate", 0 ],
@@ -339,7 +267,7 @@
             "obj-2::obj-8::obj-18::obj-143::obj-142": [ "3-Left", "Left", 0 ],
             "obj-2::obj-8::obj-18::obj-143::obj-86": [ "3-Up", "Up", 0 ],
             "obj-2::obj-8::obj-18::obj-25": [ "3-Track", "Track", 0 ],
-            "obj-2::obj-8::obj-18::obj-28": [ "3-Dur", "Dur", 0 ],
+            "obj-2::obj-8::obj-18::obj-28": [ "3-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-18::obj-43": [ "3-Ch", "Ch", 0 ],
             "obj-2::obj-8::obj-18::obj-45": [ "3-Division", "Division", 0 ],
             "obj-2::obj-8::obj-18::obj-53::obj-1": [ "3-Pulses", "Pulses", 0 ],
@@ -347,7 +275,7 @@
             "obj-2::obj-8::obj-18::obj-64": [ "3-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-18::obj-65": [ "3-Set", "Set", 0 ],
             "obj-2::obj-8::obj-18::obj-72": [ "3-Mode", "Mode", 0 ],
-            "obj-2::obj-8::obj-18::obj-77": [ "3-Vel", "Vel", 0 ],
+            "obj-2::obj-8::obj-18::obj-77": [ "3-Vel", "Velocity", 0 ],
             "obj-2::obj-8::obj-18::obj-78": [ "3-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-18::obj-8": [ "3-Sequencer", "Seq", 1 ],
             "obj-2::obj-8::obj-1::obj-11": [ "1-Rotate", "Rotate", 0 ],
@@ -356,7 +284,7 @@
             "obj-2::obj-8::obj-1::obj-143::obj-142": [ "1-Left", "Left", 0 ],
             "obj-2::obj-8::obj-1::obj-143::obj-86": [ "1-Up", "Up", 0 ],
             "obj-2::obj-8::obj-1::obj-25": [ "1-Track", "Track", 0 ],
-            "obj-2::obj-8::obj-1::obj-28": [ "1-Dur", "Dur", 0 ],
+            "obj-2::obj-8::obj-1::obj-28": [ "1-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-1::obj-43": [ "1-Ch", "Ch", 0 ],
             "obj-2::obj-8::obj-1::obj-45": [ "1-Division", "Division", 0 ],
             "obj-2::obj-8::obj-1::obj-53::obj-1": [ "1-Pulses", "Pulses", 0 ],
@@ -364,7 +292,7 @@
             "obj-2::obj-8::obj-1::obj-64": [ "1-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-1::obj-65": [ "1-Set", "Set", 0 ],
             "obj-2::obj-8::obj-1::obj-72": [ "1-Mode", "Mode", 0 ],
-            "obj-2::obj-8::obj-1::obj-77": [ "1-Vel", "Vel", 0 ],
+            "obj-2::obj-8::obj-1::obj-77": [ "1-Vel", "Velocity", 0 ],
             "obj-2::obj-8::obj-1::obj-78": [ "1-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-1::obj-8": [ "1-Sequencer", "Seq", 1 ],
             "obj-2::obj-8::obj-21::obj-11": [ "4-Rotate", "Rotate", 0 ],
@@ -373,7 +301,7 @@
             "obj-2::obj-8::obj-21::obj-143::obj-142": [ "4-Left", "Left", 0 ],
             "obj-2::obj-8::obj-21::obj-143::obj-86": [ "4-Up", "Up", 0 ],
             "obj-2::obj-8::obj-21::obj-25": [ "4-Track", "Track", 0 ],
-            "obj-2::obj-8::obj-21::obj-28": [ "4-Dur", "Dur", 0 ],
+            "obj-2::obj-8::obj-21::obj-28": [ "4-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-21::obj-43": [ "4-Ch", "Ch", 0 ],
             "obj-2::obj-8::obj-21::obj-45": [ "4-Division", "Division", 0 ],
             "obj-2::obj-8::obj-21::obj-53::obj-1": [ "4-Pulses", "Pulses", 0 ],
@@ -381,16 +309,16 @@
             "obj-2::obj-8::obj-21::obj-64": [ "4-Auto", "Auto", 0 ],
             "obj-2::obj-8::obj-21::obj-65": [ "4-Set", "Set", 0 ],
             "obj-2::obj-8::obj-21::obj-72": [ "4-Mode", "Mode", 0 ],
-            "obj-2::obj-8::obj-21::obj-77": [ "4-Vel", "Vel", 0 ],
+            "obj-2::obj-8::obj-21::obj-77": [ "4-Vel", "Velocity", 0 ],
             "obj-2::obj-8::obj-21::obj-78": [ "4-Pitch", "Pitch", 0 ],
             "obj-2::obj-8::obj-21::obj-8": [ "4-Sequencer", "Seq", 1 ],
             "obj-2::obj-8::obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
-            "obj-2::obj-8::obj-7::obj-10": [ "Randomize3", "3", 0 ],
+            "obj-2::obj-8::obj-7::obj-10": [ "Randomize3", "Track 3", 0 ],
             "obj-2::obj-8::obj-7::obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
-            "obj-2::obj-8::obj-7::obj-11": [ "Randomize4", "4", 0 ],
+            "obj-2::obj-8::obj-7::obj-11": [ "Randomize4", "Track 4", 0 ],
             "obj-2::obj-8::obj-7::obj-110": [ "RandomizeNotesRests", "Rests", 0 ],
             "obj-2::obj-8::obj-7::obj-111": [ "RandomizeNotesReverse", "Rev", 0 ],
-            "obj-2::obj-8::obj-7::obj-147": [ "RandomizeDivision", "Div", 0 ],
+            "obj-2::obj-8::obj-7::obj-147": [ "RandomizeDivision", "Division", 0 ],
             "obj-2::obj-8::obj-7::obj-15": [ "RandomizePulses", "Pulses", 0 ],
             "obj-2::obj-8::obj-7::obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-2::obj-8::obj-7::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
@@ -398,27 +326,27 @@
             "obj-2::obj-8::obj-7::obj-25": [ "RandomizeRotate", "Rotate", 0 ],
             "obj-2::obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
-            "obj-2::obj-8::obj-7::obj-30": [ "RandomizeDur", "Dur", 0 ],
-            "obj-2::obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "PchMax", 0 ],
-            "obj-2::obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "PchMin", 0 ],
+            "obj-2::obj-8::obj-7::obj-30": [ "RandomizeDur", "Duration", 0 ],
+            "obj-2::obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "Max", 0 ],
+            "obj-2::obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-36": [ "RandomizeNotesScaleRand", "Scale", 0 ],
             "obj-2::obj-8::obj-7::obj-38": [ "RandomizeSequencer", "Seq", 0 ],
             "obj-2::obj-8::obj-7::obj-39": [ "RandomizePitch", "Pitch", 0 ],
-            "obj-2::obj-8::obj-7::obj-46::obj-1": [ "RandomizeDivision-Min", "DivMin", 0 ],
-            "obj-2::obj-8::obj-7::obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
-            "obj-2::obj-8::obj-7::obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
-            "obj-2::obj-8::obj-7::obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
-            "obj-2::obj-8::obj-7::obj-51": [ "RandTrigToggle", "Trig", 0 ],
+            "obj-2::obj-8::obj-7::obj-46::obj-1": [ "RandomizeDivision-Min", "Min", 0 ],
+            "obj-2::obj-8::obj-7::obj-46::obj-2": [ "RandomizeDivision-Max", "Max", 0 ],
+            "obj-2::obj-8::obj-7::obj-4::obj-1": [ "RandomizeDur-Min", "Min", 0 ],
+            "obj-2::obj-8::obj-7::obj-4::obj-2": [ "RandomizeDur-Max", "Max", 0 ],
+            "obj-2::obj-8::obj-7::obj-51": [ "RandTrigToggle", "Trigger", 0 ],
             "obj-2::obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
-            "obj-2::obj-8::obj-7::obj-6": [ "RandomizeVel", "Vel", 0 ],
+            "obj-2::obj-8::obj-7::obj-6": [ "RandomizeVel", "Velocity", 0 ],
             "obj-2::obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
-            "obj-2::obj-8::obj-7::obj-8": [ "Randomize1", "1", 0 ],
-            "obj-2::obj-8::obj-7::obj-9": [ "Randomize2", "2", 0 ],
+            "obj-2::obj-8::obj-7::obj-8": [ "Randomize1", "Track 1", 0 ],
+            "obj-2::obj-8::obj-7::obj-9": [ "Randomize2", "Track 2", 0 ],
             "obj-2::obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-2::obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "obj-2::obj-tabs::obj-13": [ "TabTrack1", "TabTrack1", 0 ],
@@ -427,7 +355,6 @@
             "obj-2::obj-tabs::obj-7": [ "TabOsc2", "TabTrack2", 0 ],
             "obj-2::obj-tabs::obj-9": [ "TabTrack3", "TabTrack3", 0 ],
             "obj-8": [ "Transport", "Transport", 0 ],
-            "obj-9": [ "DAC", "DAC", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -839,7 +766,8 @@
                 },
                 "obj-2::obj-8::obj-7::obj-51": {
                     "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
+                    "parameter_initial_enable": 1,
+                    "parameter_longname": "RandTrigToggle"
                 },
                 "obj-2::obj-8::obj-7::obj-56::obj-1": {
                     "parameter_initial": 0.0,
