@@ -67,19 +67,7 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 - **Rand** tab: Display the randomize pan
 - **Rand** button: Trigger randomize
 
-### Tracks
-
-Above the piano roll.
-
-- **Track**: Toggle playback for this track
-- **Set**: Set the steps based on the current settings
-- **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
-- Type Tabs: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
-- **Ch**: The MIDI channel that the track outputs to **Note:** Ableton Live merges all MIDI to channel one, limiting the usefulness of this in Live
-- **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
-- Directions: Only visible when `Auto` is toggled off. Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
-
-#### Pulses
+### Pulses
 
 To the left of the piano roll.
 
@@ -87,13 +75,18 @@ To the left of the piano roll.
 - **Steps**: Set the total number of steps
 - **Rotate**: Set the offset for the pulses
 
-#### Notes
+### Sequencer
 
-To the right of the piano roll.
-
+- **Track**: Toggle playback for this track
 - **Pitch:** Set the pitch of the notes
 - **Velocity**: Set the velocity of the notes
 - **Duration**: Set the duration of the notes. The note duration can only be set to `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (there appears to be an undocumented limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that limits the minimum duration to `7.5` ticks and the maximum duration to `960` ticks).
+- **Show**: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
+- **Set** (only visible when `Auto` is toggled off): Set the steps based on the current settings
+- **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
+- **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
+- **Ch**: The MIDI channel that the track outputs to **Note:** Ableton Live merges all MIDI to channel one, limiting the usefulness of this in Live
+- Directions (only visible when `Auto` is toggled off): Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
 
 ### Randomize
 
