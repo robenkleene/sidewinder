@@ -94,7 +94,7 @@ To the left of the piano roll.
 
 Randomize generates a random sequence. The **Notes** setting is significant, with that setting turned off, a sequence that plays a single note will be generated. If it's turned on, a sequence playing different notes from a scale will be generated.
 
-- **1-4 Buttons:** Which tracks to randomize
+- **Track 1-4:** Which tracks to randomize
 - **Pulses, Steps, Rotate:** Whether to randomize those parameters. When randomizing pulses and steps, the randomized steps value *overrides the maximum for pulses* (unless the randomize pulses maximum is already less than the randomized steps value). This is because the pulses value can never go above steps value, so if we didn't override the maximum for pulses, then all randomized pulses values above the randomized steps value would be forced to be the steps value (i.e., steps and pulses values would be equal, which doesn't make for interesting patterns).
 - **Min:** Minimum random amount
 - **Max:** Maximum random amount
@@ -109,12 +109,12 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 
 With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
 
-- **Vel:** Whether to randomize velocity
+- **Velocity:** Whether to randomize velocity
 - **Pitch:** Whether to randomize pitch
-- **Dur:** Whether to randomize duration
+- **Duration:** Whether to randomize duration
 - **Scale:** The scale the sequence will be generated in
 - **Rand:** Randomize the scale
-- **Rev:** Reverse the order of the generated sequence (from ascending to descending)
+- **Reverse:** Reverse the order of the generated sequence (i.e., from ascending to descending)
 - **Repeat, Order, Rests:** The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests use a velocity of `0`, so rests will result in `0` velocity notes, even though the `VelMin` minimum is `0`, which can be surprising if you aren't expecting it.
 
 ## Installation
