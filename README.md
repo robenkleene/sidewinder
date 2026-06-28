@@ -53,9 +53,9 @@ To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`.
 #### Presets
 
 - **Export**: Export the notes dictionary as JSON (this can then be imported into a MIDI region using a MIDI generator or transformer that supports imports like [Middleware](https://github.com/robenkleene/middleware))
-- **R**: Read presets from a file
-- **W**: Write the presets to a file
-- **OW**: When toggled on, **W** will automatically write again to the same file
+- **Read**: Read presets from a file
+- **Write**: Write the presets to a file
+- **Overwrite**: When toggled on, **W** will automatically write again to the same file
 - To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
@@ -90,7 +90,7 @@ To the right of the piano roll.
 
 ### Randomize
 
-![Randomize](Randomize.png)
+![Randomize](assets/rand.png)
 
 Randomize generates a random sequence. The **Notes** setting is significant, with that setting turned off, a sequence that plays a single note will be generated. If it's turned on, a sequence playing different notes from a scale will be generated.
 
