@@ -9,10 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 62.0, 230.0, 583.0, 169.0 ],
+        "openrect": [ 62.0, 230.0, 581.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 583.0,
+        "devicewidth": 581.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -178,7 +178,7 @@
                     "outlettype": [ "int", "int", "int", "int" ],
                     "patching_rect": [ 8.0, 40.0, 624.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 583.0, 168.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 581.0, 168.0 ],
                     "varname": "ModuleRack",
                     "viewvisibility": 1
                 }

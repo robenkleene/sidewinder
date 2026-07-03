@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 362.0, 388.0, 1815.0, 772.0 ],
+        "rect": [ 657.0, 439.0, 1815.0, 772.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -111,7 +111,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 997.0, 301.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 531.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "PresetsSelect",
@@ -138,7 +138,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 961.0, 248.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 531.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -187,7 +187,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 373.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 534.0, 150.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 532.0, 150.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -242,7 +242,7 @@
                     "outlettype": [ "int" ],
                     "patching_rect": [ 45.5, 5.5, 49.0, 93.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, -1.0, 49.0, 93.0 ],
+                    "presentation_rect": [ 0.0, -1.0, 49.0, 93.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -359,7 +359,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 160.0, 200.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 150.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 150.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -387,7 +387,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 848.0, 248.0, 44.0, 15.5 ],
                     "presentation": 1,
-                    "presentation_rect": [ 534.0, 133.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 532.0, 133.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -417,7 +417,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 908.0, 248.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 116.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 531.0, 116.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -446,7 +446,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 800.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 533.0, 99.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 531.0, 99.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -583,7 +583,7 @@
                     "patching_rect": [ 744.0, 272.0, 32.0, 34.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 536.0, 41.0, 40.0, 52.0 ]
+                    "presentation_rect": [ 534.0, 41.0, 40.0, 52.0 ]
                 }
             },
             {
@@ -649,7 +649,7 @@
                     "outlettype": [ "int", "int", "int", "" ],
                     "patching_rect": [ 8.0, 264.0, 576.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 483.0, 169.0 ],
+                    "presentation_rect": [ 46.0, 0.0, 483.0, 169.0 ],
                     "varname": "ModuleBank",
                     "viewvisibility": 1
                 }
@@ -1005,12 +1005,12 @@
             "obj-8::obj-21::obj-78": [ "4-Pitch", "Pitch", 0 ],
             "obj-8::obj-21::obj-8": [ "4-Sequencer", "Seq", 1 ],
             "obj-8::obj-7::obj-1": [ "RandomizeAuto", "Auto", 0 ],
-            "obj-8::obj-7::obj-10": [ "Randomize3", "3", 0 ],
+            "obj-8::obj-7::obj-10": [ "Randomize3", "Track 3", 0 ],
             "obj-8::obj-7::obj-104": [ "RandomizeNotesOrder", "Order", 0 ],
-            "obj-8::obj-7::obj-11": [ "Randomize4", "4", 0 ],
+            "obj-8::obj-7::obj-11": [ "Randomize4", "Track 4", 0 ],
             "obj-8::obj-7::obj-110": [ "RandomizeNotesRests", "Rests", 0 ],
             "obj-8::obj-7::obj-111": [ "RandomizeNotesReverse", "Rev", 0 ],
-            "obj-8::obj-7::obj-147": [ "RandomizeDivision", "Div", 0 ],
+            "obj-8::obj-7::obj-147": [ "RandomizeDivision", "Division", 0 ],
             "obj-8::obj-7::obj-15": [ "RandomizePulses", "Pulses", 0 ],
             "obj-8::obj-7::obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-8::obj-7::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
@@ -1018,27 +1018,27 @@
             "obj-8::obj-7::obj-25": [ "RandomizeRotate", "Rotate", 0 ],
             "obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
-            "obj-8::obj-7::obj-30": [ "RandomizeDur", "Dur", 0 ],
-            "obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "PchMax", 0 ],
-            "obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "PchMin", 0 ],
+            "obj-8::obj-7::obj-30": [ "RandomizeDur", "Duration", 0 ],
+            "obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "Max", 0 ],
+            "obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "Min", 0 ],
             "obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
             "obj-8::obj-7::obj-35::obj-2": [ "RandomizeSteps-Max", "Max", 0 ],
             "obj-8::obj-7::obj-36": [ "RandomizeNotesScaleRand", "Scale", 0 ],
             "obj-8::obj-7::obj-38": [ "RandomizeSequencer", "Seq", 0 ],
             "obj-8::obj-7::obj-39": [ "RandomizePitch", "Pitch", 0 ],
-            "obj-8::obj-7::obj-46::obj-1": [ "RandomizeDivision-Min", "DivMin", 0 ],
-            "obj-8::obj-7::obj-46::obj-2": [ "RandomizeDivision-Max", "DivMax", 0 ],
-            "obj-8::obj-7::obj-4::obj-1": [ "RandomizeDur-Min", "DurMin", 0 ],
-            "obj-8::obj-7::obj-4::obj-2": [ "RandomizeDur-Max", "DurMax", 0 ],
-            "obj-8::obj-7::obj-51": [ "RandomizeTriggerToggle", "Trig", 0 ],
+            "obj-8::obj-7::obj-46::obj-1": [ "RandomizeDivision-Min", "Min", 0 ],
+            "obj-8::obj-7::obj-46::obj-2": [ "RandomizeDivision-Max", "Max", 0 ],
+            "obj-8::obj-7::obj-4::obj-1": [ "RandomizeDur-Min", "Min", 0 ],
+            "obj-8::obj-7::obj-4::obj-2": [ "RandomizeDur-Max", "Max", 0 ],
+            "obj-8::obj-7::obj-51": [ "RandomizeTriggerToggle", "Trigger", 0 ],
             "obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
             "obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
-            "obj-8::obj-7::obj-6": [ "RandomizeVel", "Vel", 0 ],
+            "obj-8::obj-7::obj-6": [ "RandomizeVel", "Velocity", 0 ],
             "obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
             "obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-8::obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
-            "obj-8::obj-7::obj-8": [ "Randomize1", "1", 0 ],
-            "obj-8::obj-7::obj-9": [ "Randomize2", "2", 0 ],
+            "obj-8::obj-7::obj-8": [ "Randomize1", "Track 1", 0 ],
+            "obj-8::obj-7::obj-9": [ "Randomize2", "Track 2", 0 ],
             "obj-8::obj-7::obj-93": [ "RandomizeNotesRepeat", "Repeat", 0 ],
             "obj-8::obj-7::obj-94": [ "RandomizeNotesScale", "Scale", 0 ],
             "obj-tabs::obj-13": [ "TabTrack1", "TabTrack1", 0 ],
