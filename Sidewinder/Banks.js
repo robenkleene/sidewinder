@@ -3,8 +3,14 @@ autowatch = 1;
 
 // Inlets & Outlets
 inlets = 1;
-outlets = 1;
+outlets = 2;
 var INLET_TAB = 0;
+var OUTLET_BANK = 0;
+var OUTLET_DONE = 1;
+
+setinletassist(INLET_TAB, "(bang, int) trigger bank messages, tab");
+setoutletassist(OUTLET_BANK, "(message) bank control messages");
+setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
 // Track banks first, then self-contained randomize banks. Randomize banks pair
 // each toggle (button) above its `-Min` encoder, with `-Max` in the next slot.
@@ -55,8 +61,10 @@ function update() {
 
   // Only banks `0-1` contain tokens (e.g., `$1`) and only banks with tokens need to be updated
   for (var i = 0; i < 2; i++) {
-    outlet(0, bankMessage(i));
+    outlet(OUTLET_BANK, bankMessage(i));
   }
+
+  outlet(OUTLET_DONE, "bang");
 }
 
 function msg_int(value) {
@@ -69,8 +77,10 @@ function bang() {
   currentTab = DEFAULT_TAB;
 
   for (var i = 0; i < ENCODERS.length; i++) {
-    outlet(0, bankMessage(i));
+    outlet(OUTLET_BANK, bankMessage(i));
   }
+
+  outlet(OUTLET_DONE, "bang");
 }
 
 function log(obj) {
