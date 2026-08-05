@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 657.0, 439.0, 1815.0, 772.0 ],
+        "rect": [ 657.0, 439.0, 1320.0, 772.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -399,7 +399,7 @@
                         }
                     },
                     "text": "Overwrite",
-                    "texton": "OW",
+                    "texton": "Overwrite",
                     "varname": "Overwrite"
                 }
             },
