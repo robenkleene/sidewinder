@@ -25,7 +25,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 424.0, 255.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 120.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 16.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -54,7 +54,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 664.0, 284.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 135.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 533.0, 0.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],

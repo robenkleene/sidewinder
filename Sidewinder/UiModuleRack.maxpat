@@ -9,10 +9,24 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 657.0, 439.0, 1320.0, 772.0 ],
+        "rect": [ 877.0, 575.0, 1320.0, 772.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 10.0,
+                    "id": "obj-84",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 98.0, 37.0, 18.0 ],
+                    "text": "Preset"
+                }
+            },
             {
                 "box": {
                     "id": "obj-21",
@@ -111,7 +125,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 997.0, 301.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 116.5, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "PresetsSelect",
@@ -138,7 +152,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 961.0, 248.25, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 531.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 133.5, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -583,7 +597,7 @@
                     "patching_rect": [ 744.0, 272.0, 32.0, 34.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 534.0, 41.0, 40.0, 52.0 ]
+                    "presentation_rect": [ 534.0, 33.0, 40.0, 64.0 ]
                 }
             },
             {
