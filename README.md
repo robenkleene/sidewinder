@@ -49,8 +49,6 @@ To open in Max directly without Live, open `Sidewinder/Sidewinder.maxpat`, Sidew
 
 Presets are available either when opening in Max directly, or by choosing `Edit in Max` in Live (and dragging the Max window size larger to expose the preset controls).
 
-- **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
-- **Select**: Choose the selected preset
 - **Read**: Read presets from a file
 - **Write**: Write the presets to a file
 - **Overwrite**: When toggled on, **Write** will automatically write again to the sample file
@@ -61,11 +59,13 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 ## Parameter Reference
 
-### Tabs
+### Global
 
 - **Track 1-4**: Select which track to display
 - **Rand** tab: Display the randomize pan
 - **Rand** button: Trigger randomize
+- **Select**: Choose the selected preset
+- **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
 
 ### Pulses
 
