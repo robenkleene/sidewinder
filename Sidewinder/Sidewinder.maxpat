@@ -585,7 +585,7 @@
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-1::obj-78": {
-                    "parameter_initial": 60.0,
+                    "parameter_initial": 36.0,
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-21::obj-11": {
