@@ -588,6 +588,9 @@
                     "parameter_initial": 36.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-2::obj-8::obj-1::obj-8": {
+                    "parameter_initial": [ 1, 3, 0, 1, 12, 0, 3, 36.0, 49.0, 0, 0, 36, 127, 4, 0, 0, 36, 0, 4, 0, 0, 36, 0, 4, 0, 0 ]
+                },
                 "obj-2::obj-8::obj-21::obj-11": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
