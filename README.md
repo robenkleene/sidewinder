@@ -134,18 +134,25 @@ Two JavaScript implementations of the algorithm are included (annotated as [Lite
 
 The sequencer uses the `toussaint` version by default.
 
+## Ableton Push
+
+Sidewinder supports Ableton Push. The first knob always controls which tab is visible. There's `Main` and `Play` banks for each of the four tracks, and the randomize parameters are across `Randomize`, `Toggles`, `Tracks`, `Ranges`, `Notes`, and `Trigger`.
+
 ## Presets
 
 Four of the nine preset slots have default stored presets:
 
-1. **Init**: This preset restores Sidewinder to its default state
+
+1. **Init**: Default state
+
+2. **Four on the Floor**: Demo techno rhythm
+3. **Hand Percussion**: Demo hand percussion
+4. **Drift**:
+
 2. **Randomize Melody**: This preset starts with randomize settings appropriate for generating random melodies
 3. **Randomize Rhythm**: This preset just randomizes velocity, so patterns can be generated with each pulse having a random velocity
-4. **Chaos**: Turns on most randomization settings.
-
-## Ableton Push
-
-Sidewinder supports Ableton Push. The first knob always controls which tab is visible. There's `Main` and `Play` banks for each of the four tracks, and the randomize parameters are across `Randomize`, `Toggles`, `Tracks`, `Ranges`, `Notes`, and `Trigger`.
+3. **Randomize Velocity**: This preset just randomizes velocity, so patterns can be generated with each pulse having a random velocity
+4. **Randomize All**: Turns on most randomization settings.
 
 ## Example Rhythms
 
