@@ -146,8 +146,11 @@ Four of the nine preset slots have default stored presets:
 1. **Init**: Default state
 
 2. **Four on the Floor**: Demo techno rhythm
-3. **Hand Percussion**: Demo hand percussion
+3. **Latin**: Demo hand percussion
 4. **Drift**:
+5. **Drift**:
+6. **Tuned**:
+7. **Mutate**:
 
 2. **Randomize Melody**: This preset starts with randomize settings appropriate for generating random melodies
 3. **Randomize Rhythm**: This preset just randomizes velocity, so patterns can be generated with each pulse having a random velocity
