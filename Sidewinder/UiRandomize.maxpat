@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 606.0, 124.0, 1911.0, 1199.0 ],
+        "rect": [ 367.0, 92.0, 1911.0, 1199.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -309,7 +309,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 752.0, 600.0, 155.0, 114.0 ],
+                    "patching_rect": [ 788.0, 568.0, 155.0, 114.0 ],
                     "text": "The randomized steps value becomes the maximum for the pulses (if it's less than the existing maximum). This is to make it less likely for pulses and steps to match which isn't interesting."
                 }
             },
@@ -940,7 +940,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 760.0, 272.0, 70.0, 22.0 ],
+                    "patching_rect": [ 704.0, 304.0, 70.0, 22.0 ],
                     "text": "loadmess 1"
                 }
             },
@@ -1680,7 +1680,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 758.0, 288.0, 936.0, 677.0 ],
+                        "rect": [ 638.0, 284.0, 936.0, 677.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -2011,7 +2011,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 688.0, 240.0, 126.0, 22.0 ],
+                    "patching_rect": [ 684.0, 272.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 128"
                 }
             },
