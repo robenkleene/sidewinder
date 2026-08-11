@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 117.0, 103.0, 1911.0, 1199.0 ],
+        "rect": [ 606.0, 124.0, 1911.0, 1199.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -436,7 +436,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 736.0, 808.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 338.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 338.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1213,7 +1213,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 552.0, 824.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 338.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 338.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1473,7 +1473,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 704.0, 936.0, 100.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 292.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 338.0, 38.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Aeolian", "Augmented", "Augmentedfifth", "Bluesmajor", "Bluesminor", "Chromatic", "Diminished", "Dorian", "Halfwhole", "Harmonicminor", "Ionian", "Japanese", "Locrian", "Lydian", "Major", "Melodicminor", "Minor", "Mixolydian", "Oriental", "Pentatonicmajor", "Pentatonicminor", "Phrygian", "Wholehalf", "Wholetone" ],
@@ -1647,7 +1647,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 160.0, 768.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 245.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 291.5, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],

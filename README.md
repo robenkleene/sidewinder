@@ -142,7 +142,6 @@ Sidewinder supports Ableton Push. The first knob always controls which tab is vi
 
 Four of the nine preset slots have default stored presets:
 
-
 1. **Init**: Default state
 2. **Randomize Rhythm**: This preset just randomizes velocity, so patterns can be generated with each pulse having a random velocity
 3. **Randomize Melody**: This preset starts with randomize settings appropriate for generating random melodies
