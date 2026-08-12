@@ -30,7 +30,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1544.0, 328.0, 420.0, 22.0 ],
+                    "patching_rect": [ 1542.6, 336.0, 420.0, 22.0 ],
                     "text": "loadmess script sendbox RandomizeDur-Max presentation_rect 0. 16. 46. 15."
                 }
             },
@@ -513,7 +513,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1712.0, 544.0, 77.0, 22.0 ],
+                    "patching_rect": [ 1708.0, 544.0, 77.0, 22.0 ],
                     "text": "s #1-output"
                 }
             },
@@ -534,7 +534,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1784.0, 424.0, 45.0, 45.0 ],
+                    "patching_rect": [ 1743.0, 400.0, 50.0, 78.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 145.0, 38.0, 46.0, 76.0 ],
                     "varname": "DivisionMinMax",
@@ -548,7 +548,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 1712.0, 512.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1708.0, 512.0, 89.0, 22.0 ],
                     "text": "RandomParam"
                 }
             },
@@ -559,7 +559,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1784.0, 480.0, 105.0, 22.0 ],
+                    "patching_rect": [ 1780.0, 484.5, 105.0, 22.0 ],
                     "text": "loadmess Division"
                 }
             },
@@ -570,7 +570,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1720.0, 392.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1743.0, 368.0, 113.0, 22.0 ],
                     "text": "loadmess setup 0 8"
                 }
             },
@@ -586,7 +586,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1728.0, 488.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1725.5, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 144.0, 19.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
@@ -907,7 +907,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 984.0, 328.0, 77.0, 22.0 ],
+                    "patching_rect": [ 953.5, 328.0, 77.0, 22.0 ],
                     "text": "loadmess 32"
                 }
             },
@@ -918,7 +918,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 960.0, 296.0, 70.0, 22.0 ],
+                    "patching_rect": [ 937.0, 300.0, 70.0, 22.0 ],
                     "text": "loadmess 1"
                 }
             },
@@ -929,7 +929,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 784.0, 304.0, 77.0, 22.0 ],
+                    "patching_rect": [ 782.0, 322.0, 77.0, 22.0 ],
                     "text": "loadmess 32"
                 }
             },
@@ -940,7 +940,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 704.0, 304.0, 70.0, 22.0 ],
+                    "patching_rect": [ 707.0, 322.0, 70.0, 22.0 ],
                     "text": "loadmess 1"
                 }
             },
@@ -962,7 +962,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 572.0, 350.0, 81.0, 22.0 ],
+                    "patching_rect": [ 583.0, 346.0, 81.0, 22.0 ],
                     "text": "setup 0 127 8"
                 }
             },
@@ -984,7 +984,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 607.0, 322.0, 29.5, 22.0 ],
+                    "patching_rect": [ 608.75, 322.0, 29.5, 22.0 ],
                     "text": "72"
                 }
             },
@@ -1006,7 +1006,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1920.0, 512.0, 79.0, 22.0 ],
+                    "patching_rect": [ 1917.0, 512.0, 79.0, 22.0 ],
                     "text": "append reset"
                 }
             },
@@ -1026,7 +1026,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1512.0, 544.0, 77.0, 22.0 ],
+                    "patching_rect": [ 1503.0, 544.0, 77.0, 22.0 ],
                     "text": "s #1-output"
                 }
             },
@@ -1036,7 +1036,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1304.0, 544.0, 77.0, 22.0 ],
+                    "patching_rect": [ 1295.5, 544.0, 77.0, 22.0 ],
                     "text": "s #1-output"
                 }
             },
@@ -1108,7 +1108,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 512.0, 472.0, 97.0, 22.0 ],
+                    "patching_rect": [ 490.4, 472.0, 97.0, 22.0 ],
                     "text": "r #1-notes_one"
                 }
             },
@@ -1119,7 +1119,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1352.0, 448.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1321.9, 448.0, 97.0, 22.0 ],
                     "text": "r #1-notes_one"
                 }
             },
@@ -1130,7 +1130,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1560.0, 448.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1529.4, 451.0, 97.0, 22.0 ],
                     "text": "r #1-notes_one"
                 }
             },
@@ -1986,7 +1986,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 560.0, 384.0, 45.0, 45.0 ],
+                    "patching_rect": [ 560.0, 390.0, 49.0, 36.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 245.0, 38.0, 46.0, 33.0 ],
                     "varname": "PitchMinMax",
@@ -2000,7 +2000,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1104.0, 336.0, 126.0, 22.0 ],
+                    "patching_rect": [ 1123.0, 307.0, 126.0, 22.0 ],
                     "text": "loadmess setup 0 127"
                 }
             },
@@ -2011,7 +2011,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 684.0, 272.0, 126.0, 22.0 ],
+                    "patching_rect": [ 679.0, 292.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 128"
                 }
             },
@@ -2032,7 +2032,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1608.0, 392.0, 45.0, 45.0 ],
+                    "patching_rect": [ 1542.6, 403.5, 45.0, 34.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 292.0, 38.0, 46.0, 33.0 ],
                     "varname": "DurMinMax",
@@ -2046,7 +2046,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1320.0, 304.0, 126.0, 22.0 ],
+                    "patching_rect": [ 1335.0, 280.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 127"
                 }
             },
@@ -2057,7 +2057,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 920.0, 264.0, 126.0, 22.0 ],
+                    "patching_rect": [ 915.0, 272.0, 126.0, 22.0 ],
                     "text": "loadmess setup 1 128"
                 }
             },
@@ -2078,7 +2078,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1400.0, 336.0, 45.0, 105.0 ],
+                    "patching_rect": [ 1335.0, 314.0, 42.0, 112.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 193.5, 38.0, 41.0, 113.0 ],
                     "varname": "VelMinMax",
@@ -2102,7 +2102,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1160.0, 368.0, 45.0, 105.0 ],
+                    "patching_rect": [ 1123.0, 339.0, 42.0, 115.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 99.5, 38.0, 41.0, 113.0 ],
                     "varname": "RotateMinMax",
@@ -2126,7 +2126,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 960.0, 360.0, 45.0, 105.0 ],
+                    "patching_rect": [ 915.0, 362.0, 42.0, 111.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 52.5, 38.0, 41.0, 113.0 ],
                     "varname": "StepsMinMax",
@@ -2150,7 +2150,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 760.0, 336.0, 45.0, 105.0 ],
+                    "patching_rect": [ 707.0, 356.0, 42.0, 114.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
                     "varname": "PulsesMinMax",
@@ -2164,7 +2164,7 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 464.0, 512.0, 149.0, 22.0 ],
+                    "patching_rect": [ 464.0, 512.0, 85.0, 22.0 ],
                     "text": "RandomNotes"
                 }
             },
@@ -2175,7 +2175,7 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1512.0, 512.0, 149.0, 22.0 ],
+                    "patching_rect": [ 1503.0, 512.0, 85.0, 22.0 ],
                     "text": "RandomNotes"
                 }
             },
@@ -2186,7 +2186,7 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1304.0, 512.0, 149.0, 22.0 ],
+                    "patching_rect": [ 1295.5, 512.0, 85.0, 22.0 ],
                     "text": "RandomNotes"
                 }
             },
@@ -2197,7 +2197,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 1088.0, 512.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1088.0, 512.0, 89.0, 22.0 ],
                     "text": "RandomParam"
                 }
             },
@@ -2208,7 +2208,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 480.0, 408.0, 70.0, 22.0 ],
+                    "patching_rect": [ 379.0, 559.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -2219,7 +2219,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 520.0, 440.0, 90.0, 22.0 ],
+                    "patching_rect": [ 530.0, 435.5, 90.0, 22.0 ],
                     "text": "loadmess Pitch"
                 }
             },
@@ -2230,7 +2230,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1576.0, 480.0, 83.0, 22.0 ],
+                    "patching_rect": [ 1569.0, 480.0, 83.0, 22.0 ],
                     "text": "loadmess Dur"
                 }
             },
@@ -2241,7 +2241,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1368.0, 480.0, 80.0, 22.0 ],
+                    "patching_rect": [ 1366.75, 480.0, 80.0, 22.0 ],
                     "text": "loadmess Vel"
                 }
             },
@@ -2252,7 +2252,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1168.0, 480.0, 99.0, 22.0 ],
+                    "patching_rect": [ 1158.0, 480.0, 99.0, 22.0 ],
                     "text": "loadmess Rotate"
                 }
             },
@@ -2274,7 +2274,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 672.0, 512.0, 113.0, 22.0 ],
+                    "patching_rect": [ 672.0, 512.0, 89.0, 22.0 ],
                     "text": "RandomParam"
                 }
             },
@@ -2285,7 +2285,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 960.0, 472.0, 94.0, 22.0 ],
+                    "patching_rect": [ 960.0, 480.0, 94.0, 22.0 ],
                     "text": "loadmess Steps"
                 }
             },
@@ -2296,7 +2296,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 880.0, 512.0, 113.0, 22.0 ],
+                    "patching_rect": [ 880.0, 512.0, 89.0, 22.0 ],
                     "text": "RandomParam"
                 }
             },
@@ -2312,7 +2312,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 480.0, 376.0, 44.0, 15.0 ],
+                    "patching_rect": [ 477.2, 439.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 245.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2348,7 +2348,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1544.0, 360.0, 113.0, 22.0 ],
+                    "patching_rect": [ 1569.0, 361.5, 113.0, 22.0 ],
                     "text": "loadmess setup 0 8"
                 }
             },
@@ -2364,7 +2364,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1528.0, 488.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1516.2, 483.5, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 292.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2394,7 +2394,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1112.0, 488.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1105.5, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 97.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2424,7 +2424,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 904.0, 480.0, 44.0, 15.0 ],
+                    "patching_rect": [ 897.5, 483.5, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 50.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2454,7 +2454,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 696.0, 480.0, 44.0, 15.0 ],
+                    "patching_rect": [ 689.5, 483.5, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 3.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2926,7 +2926,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1312.0, 488.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1308.7, 488.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 191.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
