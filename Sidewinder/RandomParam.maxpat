@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -62,7 +62,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 208.0, 224.0, 57.0, 22.0 ],
+                    "patching_rect": [ 136.0, 224.0, 57.0, 22.0 ],
                     "text": "tosymbol"
                 }
             },
@@ -130,7 +130,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 400.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 404.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -165,7 +165,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 74.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 69.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -210,7 +210,7 @@
                     "numinlets": 4,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 26.0, 160.0, 338.0, 22.0 ],
+                    "patching_rect": [ 21.333333333333343, 161.0, 338.0, 22.0 ],
                     "text": "RandomIncrement"
                 }
             }
