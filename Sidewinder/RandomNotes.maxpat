@@ -18,7 +18,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 512.0, 32.0, 22.0 ],
+                    "patching_rect": [ 192.0, 480.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -214,20 +214,20 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "order": 1,
                     "source": [ "obj-3", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-69", 1 ],
-                    "order": 0,
-                    "source": [ "obj-3", 0 ]
+                    "order": 1,
+                    "source": [ "obj-4", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
+                    "order": 0,
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -247,7 +247,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-8", 1 ],
+                    "destination": [ "obj-6", 0 ],
                     "source": [ "obj-69", 0 ]
                 }
             },

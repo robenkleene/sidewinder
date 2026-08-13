@@ -1591,35 +1591,24 @@
             },
             {
                 "box": {
+                    "id": "obj-103",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 195.0, 806.0, 162.0, 74.0 ],
+                    "text": "`RandomNotes` takes `0` for value mode and `2` for notes mode. (`1` is increment mode, which is currently unused.)"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-101",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 176.0, 824.0, 33.0, 22.0 ],
-                    "text": "== 1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-102",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 160.0, 856.0, 29.5, 22.0 ],
-                    "text": "+ 0"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-103",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 160.0, 792.0, 29.5, 22.0 ],
-                    "text": "t i i"
+                    "patching_rect": [ 160.0, 804.5, 29.5, 22.0 ],
+                    "text": "* 2"
                 }
             },
             {
@@ -3008,26 +2997,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-102", 1 ],
-                    "source": [ "obj-101", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-127", 0 ],
-                    "source": [ "obj-102", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-101", 0 ],
-                    "source": [ "obj-103", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-102", 0 ],
-                    "source": [ "obj-103", 0 ]
+                    "source": [ "obj-101", 0 ]
                 }
             },
             {
@@ -4038,7 +4009,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-103", 0 ],
+                    "destination": [ "obj-101", 0 ],
                     "order": 1,
                     "source": [ "obj-78", 0 ]
                 }
