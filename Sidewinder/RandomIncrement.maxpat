@@ -4,13 +4,24 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 512.0, 128.0, 745.0, 894.0 ],
+        "rect": [ 1720.0, 228.0, 745.0, 894.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-15",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 383.0, 8.0, 150.0, 47.0 ],
+                    "text": "`RandomIncrement` generates the random number."
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",

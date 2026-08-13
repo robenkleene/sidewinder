@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-13",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 521.0, 8.0, 150.0, 47.0 ],
+                    "text": "`RandomParam` constructs the randomize message."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 2,

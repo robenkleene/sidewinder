@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-10",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 506.0, 8.0, 150.0, 47.0 ],
+                    "text": "`RandomNotes` adds the \"notes\" mode to `RandomParam`."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 2,
