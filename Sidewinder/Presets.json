@@ -19,7 +19,6 @@
                     "ModuleBank::Module1::1-Pitch": [ 36.0 ],
                     "ModuleBank::Module1::1-Rotate": [ 0.0 ],
                     "ModuleBank::Module1::1-Sequencer": [ 1, 3, 0, 1, 12, 0, 3, 36.0, 49.0, 0, 0, 36, 127, 4, 0, 0, 36, 0, 4, 0, 0, 36, 0, 4, 0, 0 ],
-                    :wqa
                     "ModuleBank::Module1::1-Set": [ 0.0 ],
                     "ModuleBank::Module1::1-Track": [ 1.0 ],
                     "ModuleBank::Module1::1-Vel": [ 127.0 ],
