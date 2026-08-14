@@ -268,7 +268,7 @@
                     "ModuleBank::Randomize::Randomize3": [ 0.0 ],
                     "ModuleBank::Randomize::Randomize4": [ 0.0 ],
                     "ModuleBank::Randomize::RandomizeAuto": [ 0.0 ],
-                    "ModuleBank::Randomize::RandomizeDivision": [ 1.0 ],
+                    "ModuleBank::Randomize::RandomizeDivision": [ 0.0 ],
                     "ModuleBank::Randomize::RandomizeDur": [ 1.0 ],
                     "ModuleBank::Randomize::RandomizeNotes": [ 1.0 ],
                     "ModuleBank::Randomize::RandomizeNotesOrder": [ 50.0 ],
