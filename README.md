@@ -140,17 +140,13 @@ Sidewinder supports Ableton Push. The first knob always controls which tab is vi
 
 ## Presets
 
-Four of the nine preset slots have default stored presets:
-
 1. **Init**: Default state
-2. **Randomize Rhythm**: This preset just randomizes velocity, so patterns can be generated with each pulse having a random velocity
-3. **Randomize Melody**: This preset starts with randomize settings appropriate for generating random melodies
-4. **Randomize Velocity**: This preset just randomizes velocity, so patterns can be generated with each pulse having a random velocity
-5. **Four on the Floor**: Demo techno rhythm
-6. **Latin**: Demo hand percussion
-7. **Drift**:
-8. **Pitched**:
-9. **Mutate**:
+2. **Randomize Rhythm**: Randomize settings for rhythms
+3. **Randomize Melody**: Randomize settings for melodies
+4. **Four on the Floor**: 4/4 rhythm demo
+5. **Latin**: Hand percussion demo
+6. **Polyrhythm**: Polyrhythm demo
+7. **Mutate**: 4/4 rhythm demo that randomizes
 
 ## Example Rhythms
 
