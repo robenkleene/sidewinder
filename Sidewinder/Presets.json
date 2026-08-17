@@ -273,7 +273,7 @@
                     "ModuleBank::Randomize::RandomizeNotes": [ 1.0 ],
                     "ModuleBank::Randomize::RandomizeNotesOrder": [ 50.0 ],
                     "ModuleBank::Randomize::RandomizeNotesRepeat": [ 50.0 ],
-                    "ModuleBank::Randomize::RandomizeNotesRests": [ 50.0 ],
+                    "ModuleBank::Randomize::RandomizeNotesRests": [ 0.0 ],
                     "ModuleBank::Randomize::RandomizeNotesReverse": [ 0.0 ],
                     "ModuleBank::Randomize::RandomizeNotesScale": [ 14.0 ],
                     "ModuleBank::Randomize::RandomizeNotesScaleRand": [ 1.0 ],
