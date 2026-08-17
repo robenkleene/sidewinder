@@ -14,6 +14,61 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "linecount": 7,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 232.0, 560.0, 152.0, 100.0 ],
+                    "text": "Only clamp once the device is fully initialized. Otherwise a value arriving mid-restore can drag the other value with it, and that write is then stored as if it were an edit."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "bang", "int", "int" ],
+                    "patching_rect": [ 232.0, 496.0, 105.0, 22.0 ],
+                    "text": "live.thisdevice"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 232.0, 528.0, 29.5, 22.0 ],
+                    "text": "1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 40.0, 560.0, 34.0, 22.0 ],
+                    "text": "gate"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 160.0, 560.0, 34.0, 22.0 ],
+                    "text": "gate"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -136,6 +191,17 @@
             },
             {
                 "box": {
+                    "id": "obj-27",
+                    "linecount": 6,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 352.0, 232.0, 170.0, 87.0 ],
+                    "text": "`setup` configures the parameter only, it never writes values. Values belong to `pattrstorage` and to the Live parameter state, and a default written here would race both."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -175,7 +241,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 128.0, 568.0, 30.0, 30.0 ]
+                    "patching_rect": [ 128.0, 624.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -186,7 +252,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 568.0, 30.0, 30.0 ]
+                    "patching_rect": [ 8.0, 624.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -301,7 +367,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
+                    "destination": [ "obj-24", 1 ],
                     "source": [ "obj-14", 0 ]
                 }
             },
@@ -359,6 +425,38 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-24", 0 ],
+                    "order": 1,
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "order": 0,
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "order": 1,
                     "source": [ "obj-3", 0 ]
@@ -411,18 +509,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "source": [ "obj-5", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "source": [ "obj-5", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-3", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
@@ -435,7 +521,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 0 ],
+                    "destination": [ "obj-25", 1 ],
                     "source": [ "obj-8", 0 ]
                 }
             }
