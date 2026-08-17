@@ -143,7 +143,7 @@ Sidewinder supports Ableton Push. The first knob always controls which tab is vi
 1. **Init**: Default state
 2. **Randomize Rhythm**: Randomize settings for rhythms
 3. **Randomize Melody**: Randomize settings for melodies
-4. **Dance**: 4/4 rhythm demo
+4. **House**: 4/4 rhythm demo
 5. **Latin**: Hand percussion demo
 6. **Polyrhythm**: Polyrhythm demo
 7. **Mutate**: 4/4 rhythm demo that randomizes
