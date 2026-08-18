@@ -154,18 +154,37 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 
 ## Demos
 
+- [House](assets/demo/house.wav): 4/4 rhythm demo
+- [Latin](assets/demo/latin.wav): Hand percussion demo
+- [Polyrhythm](assets/demo/polyrhythm.wav): Polyrhythm demo
+- [Mutate](assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
 
+### Reconstructing
 
-### Videos
+#### House
 
-Command to convert all `.wav` in the current directory to videos with waveforms with `ffmpeg`:
+- Kick
+- Snare
+- Hi-Hat
+- Cymbal
 
-```
-for f in *.wav; do
-  ffmpeg -i "$f" -filter_complex \
-    "[0:a]showwaves=s=320x320:mode=cline:rate=30:colors=0xE8E8E8,format=yuv420p[v]" \
-    -map "[v]" -map 0:a \
-    -c:v libx264 -c:a aac -b:a 320k -movflags +faststart \
-    "${f%.wav}.mp4"
-done
-```
+#### Latin
+
+- Bongo Low
+- Bongo High
+- Conga Low
+- Conga High
+
+#### Polyrhythm
+
+- 909 Kick
+- Hi-Hat
+- Tom
+- Cowbell
+
+#### Mutate
+
+- 909 Kick
+- Clap
+- Hi-Hat
+- Cymbal
