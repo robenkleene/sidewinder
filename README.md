@@ -161,30 +161,32 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 
 ### Reconstructing
 
+To reconstruct this demo loops in Ableton Live, setup a track with Sidewinder with the appropriate preset loaded, followed by a Drum Rack with the first four slots slots (`C1--D#1`) using the named preset from [Thwomp](https://github.com/robenkleene/thwomp):
+
 #### House
 
-- Kick
-- Snare
-- Hi-Hat
-- Cymbal
+1. Kick
+2. Snare
+3. Hi-Hat
+4. Cymbal
 
 #### Latin
 
-- Bongo Low
-- Bongo High
-- Conga Low
-- Conga High
+1. Bongo Low
+2. Bongo High
+3. Conga Low
+4. Conga High
 
 #### Polyrhythm
 
-- 909 Kick
-- Hi-Hat
-- Tom
-- Cowbell
+1. 808 Kick
+2. Hi-Hat
+3. Tom
+4. Cowbell
 
 #### Mutate
 
-- 909 Kick
-- Clap
-- Hi-Hat
-- Cymbal
+1. 909 Kick
+2. Clap
+3. Hi-Hat
+4. Cymbal
