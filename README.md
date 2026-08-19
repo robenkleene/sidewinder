@@ -154,10 +154,10 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 
 ## Demos
 
-- [House](assets/demo/house.wav): 4/4 rhythm demo
-- [Latin](assets/demo/latin.wav): Hand percussion demo
-- [Polyrhythm](assets/demo/polyrhythm.wav): Polyrhythm demo
-- [Mutate](assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
+- [House](https://github.com/robenkleene/sidewinder/raw/HEAD/assets/demo/house.wav): 4/4 rhythm demo
+- [Latin](https://github.com/robenkleene/sidewinder/raw/HEAD/assets/demo/latin.wav): Hand percussion demo
+- [Polyrhythm](https://github.com/robenkleene/sidewinder/raw/HEAD/assets/demo/polyrhythm.wav): Polyrhythm demo
+- [Mutate](https://github.com/robenkleene/sidewinder/raw/HEAD/assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
 
 ### Reconstructing
 
