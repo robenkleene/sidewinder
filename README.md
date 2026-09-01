@@ -145,12 +145,13 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 ## Presets
 
 1. **Init**: Default state
-2. **Randomize Rhythm**: Randomize settings for rhythms
-3. **Randomize Melody**: Randomize settings for melodies
-4. **House**: 4/4 rhythm demo
-5. **Latin**: Hand percussion demo
-6. **Polyrhythm**: Polyrhythm demo
-7. **Mutate**: 4/4 rhythm demo that randomizes
+2. **Randomize Polyrhythm**: Randomize settings for polyrhythms
+3. **Randomize Bar Rhythm**: Randomize settings for four bar rhythms
+4. **Randomize Melody**: Randomize settings for melodies
+5. **House**: 4/4 rhythm demo
+6. **Latin**: Hand percussion demo
+7. **Polyrhythm**: Polyrhythm demo
+8. **Mutate**: 4/4 rhythm demo that randomizes
 
 ## Demos
 
