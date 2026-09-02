@@ -147,11 +147,14 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 1. **Init**: Default state
 2. **Randomize Polyrhythm**: Randomize settings for polyrhythms
 3. **Randomize Bar Rhythm**: Randomize settings for four bar rhythms
-4. **Randomize Melody**: Randomize settings for melodies
-5. **House**: 4/4 rhythm demo
-6. **Latin**: Hand percussion demo
-7. **Polyrhythm**: Polyrhythm demo
-8. **Mutate**: 4/4 rhythm demo that randomizes
+4. **Randomize Bass**: Randomize settings for bass lines
+5. **Randomize Bar Bass**: Randomize settings for four bar bass lines
+6. **Randomize Melody**: Randomize settings for melodies
+7. **Randomize Bar Melody**: Randomize settings for four bar melodies
+8. **House**: 4/4 rhythm demo
+9. **Latin**: Hand percussion demo
+10. **Polyrhythm**: Polyrhythm demo
+11. **Mutate**: 4/4 rhythm demo that randomizes
 
 ## Demos
 
