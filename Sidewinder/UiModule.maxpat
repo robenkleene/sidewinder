@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -1209,7 +1209,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2334,7 +2334,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2862,7 +2862,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3647,13 +3647,69 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1037.0, 289.0, 640.0, 480.0 ],
+                        "rect": [ 1037.0, 289.0, 1182.0, 859.0 ],
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-12",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "patching_rect": [ 130.0, 162.0, 33.0, 22.0 ],
+                                    "text": "> 0"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-13",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 42.0, 222.0, 45.0, 22.0 ],
+                                    "text": "gate"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-14",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 174.0, 228.0, 120.0, 22.0 ],
+                                    "text": "translate ticks ms"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-16",
+                                    "linecount": 5,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 167.0, 110.0, 234.0, 74.0 ],
+                                    "text": "`gate` on `> 0` because a step with a velocity of `0` is a rest, and passing it to `makenote` sends a note on with a velocity of `0`, which is a note off that cuts the previous note short."
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-17",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 200.0, 262.0, 233.0, 60.0 ],
+                                    "text": "`@repeatmode 1` because otherwise the note off already scheduled for the previous note cuts short a retrigger of the same pitch."
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-11",
@@ -3694,8 +3750,8 @@
                                     "numinlets": 3,
                                     "numoutlets": 2,
                                     "outlettype": [ "float", "float" ],
-                                    "patching_rect": [ 42.0, 222.0, 63.0, 22.0 ],
-                                    "text": "makenote"
+                                    "patching_rect": [ 42.0, 262.0, 151.0, 22.0 ],
+                                    "text": "makenote @repeatmode 1"
                                 }
                             },
                             {
@@ -3717,7 +3773,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 87.0, 267.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 87.0, 307.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -3728,7 +3784,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 42.0, 267.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 42.0, 307.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -3765,6 +3821,24 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-13", 0 ],
+                                    "source": [ "obj-12", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-5", 0 ],
+                                    "source": [ "obj-13", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-5", 2 ],
+                                    "source": [ "obj-14", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-10", 0 ],
                                     "source": [ "obj-4", 1 ]
                                 }
@@ -3777,13 +3851,21 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-5", 2 ],
+                                    "destination": [ "obj-12", 0 ],
+                                    "order": 0,
+                                    "source": [ "obj-4", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-14", 0 ],
                                     "source": [ "obj-4", 3 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-5", 1 ],
+                                    "order": 1,
                                     "source": [ "obj-4", 2 ]
                                 }
                             },
@@ -3801,7 +3883,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-5", 0 ],
+                                    "destination": [ "obj-13", 1 ],
                                     "source": [ "obj-9", 0 ]
                                 }
                             }
@@ -3866,7 +3948,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4107,7 +4189,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4159,7 +4241,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },

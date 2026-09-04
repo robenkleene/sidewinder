@@ -115,7 +115,7 @@ With the **Notes** is off, only the minimum and maximum pitches are used. If **N
 - **Scale**: The scale the sequence will be generated in
 - **Rand**: Randomize the scale
 - **Reverse**: Reverse the order of the generated sequence (i.e., from ascending to descending)
-- **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests use a velocity of `0`, so rests will result in `0` velocity notes, even though the `VelMin` minimum is `0`, which can be surprising if you aren't expecting it.
+- **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests are steps with a velocity of `0`, and those steps don't output a note at all, so the `VelMin` minimum of `0` never produces an audible note.
 
 ## Installation
 
