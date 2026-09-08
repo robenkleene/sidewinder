@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 877.0, 575.0, 1320.0, 772.0 ],
+        "rect": [ 344.0, 352.0, 1320.0, 772.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -376,11 +376,12 @@
                     "presentation_rect": [ 0.0, 150.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_button_mode": "Momentary",
                             "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "Randomize",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Rand",
+                            "parameter_shortname": "Randomize",
                             "parameter_type": 2
                         }
                     },
@@ -946,7 +947,7 @@
             "obj-11": [ "Read", "Read", 0 ],
             "obj-13": [ "Write", "Write", 0 ],
             "obj-17": [ "Overwrite", "OW", 0 ],
-            "obj-20": [ "Randomize", "Rand", 0 ],
+            "obj-20": [ "Randomize", "Randomize", 0 ],
             "obj-42": [ "Export", "Export", 0 ],
             "obj-72": [ "PresetsLoad", "Load", 0 ],
             "obj-77": [ "PresetsSelect", "Select", 0 ],
