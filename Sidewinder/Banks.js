@@ -16,16 +16,16 @@ setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 // each toggle (button) above its `-Min` encoder, with `-Max` in the next slot.
 var ENCODERS = [
 ["Main",        "Tab", "$1-Pulses",             "$1-Steps",              "$1-Rotate",          "$1-Pitch",           "$1-Vel",              "$1-Dur",              "$1-Division"],
-["Rand Tracks", "Tab", "RandomizeDivision-Min", "RandomizeDivision-Max", "-",                  "-",                  "-",                   "RandomizeAuto",       "-"],
-["Rand Steps",  "Tab", "RandomizePulses-Min",   "RandomizePulses-Max",   "RandomizeSteps-Min", "RandomizeSteps-Max", "RandomizeRotate-Min", "RandomizeRotate-Max", "PresetsSelect"],
+["Rand Tracks", "Tab", "RandomizeDivision-Min", "RandomizeDivision-Max", "-",                  "-",                  "-",                   "RandomizeAuto",       "PresetsSelect"],
+["Rand Steps",  "Tab", "RandomizePulses-Min",   "RandomizePulses-Max",   "RandomizeSteps-Min", "RandomizeSteps-Max", "RandomizeRotate-Min", "RandomizeRotate-Max", "-"],
 ["Rand Notes",  "Tab", "RandomizeVel-Min",      "RandomizeVel-Max",      "RandomizePitch-Min", "RandomizePitch-Max", "RandomizeDur-Min",    "RandomizeDur-Max",    "-"],
 ["Rand Scale",  "Tab", "RandomizeNotesScale",   "-",                     "-",                  "-",                  "-",                   "-",                   "-"],
 ];
 
 var BUTTONS = [
 ["-", "$1-Track",          "$1-Auto",               "-",                   "-",                    "-",                   "-",                       "-"],
-["-", "RandomizeDivision", "Randomize1",            "Randomize2",          "Randomize3",           "Randomize4",          "Randomize",               "-"],
-["-", "RandomizePulses",   "-",                     "RandomizeSteps",      "-",                    "RandomizeRotate",     "-",                       "PresetsLoad"],
+["-", "RandomizeDivision", "Randomize1",            "Randomize2",          "Randomize3",           "Randomize4",          "Randomize",               "PresetsLoad"],
+["-", "RandomizePulses",   "-",                     "RandomizeSteps",      "-",                    "RandomizeRotate",     "-",                       "-"],
 ["-", "RandomizeVel",      "-",                     "RandomizePitch",      "-",                    "RandomizeDur",        "-",                       "-"],
 ["-", "RandomizeNotes",    "RandomizeNotesReverse", "RandomizeNotesRests", "RandomizeNotesRepeat", "RandomizeNotesOrder", "RandomizeNotesScaleRand", "-"],
 ];
