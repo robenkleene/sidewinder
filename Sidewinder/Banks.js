@@ -16,7 +16,7 @@ setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 // each toggle (button) above its `-Min` encoder, with `-Max` in the next slot.
 var ENCODERS = [
 ["Main",        "Tab", "$1-Pulses",             "$1-Steps",              "$1-Rotate",          "$1-Pitch",           "$1-Vel",              "$1-Dur",              "$1-Division"],
-["Rand Tracks", "Tab", "RandomizeDivision-Min", "RandomizeDivision-Max", "-",                  "-",                  "-",                   "-",                   "RandomizeAuto"],
+["Rand Tracks", "Tab", "RandomizeDivision-Min", "RandomizeDivision-Max", "-",                  "-",                  "-",                   "RandomizeAuto",       "-"],
 ["Rand Steps",  "Tab", "RandomizePulses-Min",   "RandomizePulses-Max",   "RandomizeSteps-Min", "RandomizeSteps-Max", "RandomizeRotate-Min", "RandomizeRotate-Max", "PresetsSelect"],
 ["Rand Notes",  "Tab", "RandomizeVel-Min",      "RandomizeVel-Max",      "RandomizePitch-Min", "RandomizePitch-Max", "RandomizeDur-Min",    "RandomizeDur-Max",    "-"],
 ["Rand Scale",  "Tab", "RandomizeNotesScale",   "-",                     "-",                  "-",                  "-",                   "-",                   "-"],
