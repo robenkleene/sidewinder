@@ -2,7 +2,7 @@
 autowatch = 1;
 
 // Inlets & Outlets
-inlets = 8;
+inlets = 9;
 outlets = 1;
 INLET_ORDER = 1;
 INLET_REPEAT = 2;
@@ -11,6 +11,7 @@ INLET_VELOCITY_MIN = 4;
 INLET_VELOCITY_MAX = 5;
 INLET_DURATION_MIN = 6;
 INLET_DURATION_MAX = 7;
+INLET_ROOT = 8;
 DURATION_VALUES = [15, 30, 60, 120, 240, 480, 960];
 
 // Store input
@@ -38,7 +39,7 @@ function msg_float(value) {
 }
 
 function reset(value) {
-  input = [[], 0, 0, 0, null, null, null, null];
+  input = [[], 0, 0, 0, null, null, null, null, 0];
 }
 
 function pitch(value) {
@@ -46,6 +47,12 @@ function pitch(value) {
   var values = arr.slice(1)
   var repeat = input[INLET_REPEAT];
   var order = input[INLET_ORDER];
+  var root = input[INLET_ROOT];
+  for (var i = 0; i < values.length; i++) {
+    if (Math.random() < root) {
+      values[i] = values[0];
+    }
+  }
   for (var i = 0; i < values.length; i++) {
     if (Math.random() < repeat) {
       if (i + 1 < values.length) {
