@@ -41,19 +41,29 @@ function bang() {
   trigger_output();
 }
 
+// Find the nearest note of the same pitch class that's inside the range.
+function rootInRange(base, min, max) {
+  var note = base;
+  while (note < min) {
+    note += OCTAVE_SIZE;
+  }
+  while (note - OCTAVE_SIZE >= min) {
+    note -= OCTAVE_SIZE;
+  }
+  if (note > max) {
+    // Clamp to the range if no note of the same pitch class is in the range.
+    return base < min ? min : max;
+  }
+  return note;
+}
+
 function trigger_output() {
   var intervals = values[INTERVALS];
   var stepCount = values[STEP_COUNT];
   var min = values[PITCH_MIN];
   var max = values[PITCH_MAX];
   var base = values[BASE_NOTE];
-  var note = base;
-  if (note < min) {
-    note = min;
-  }
-  if (note > max) {
-    note = max;
-  }
+  var note = rootInRange(base, min, max);
 
   var notes = [note]
   for (var i = 0; i < stepCount - 1; i++) {

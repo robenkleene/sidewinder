@@ -109,6 +109,8 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 
 With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
 
+The sequence starts from the track's **Pitch**, which is the root of the generated notes. If the track's pitch is outside the pitch **Min** and **Max**, then it's moved by octave to the nearest note of the same pitch class inside the range (if the range doesn't contain the track's pitch in any octave, then the nearest value in the range is used).
+
 - **Velocity**: Whether to randomize velocity
 - **Pitch**: Whether to randomize pitch
 - **Duration**: Whether to randomize duration
