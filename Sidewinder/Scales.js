@@ -47,10 +47,10 @@ function rootInRange(base, min, max) {
   while (note < min) {
     note += OCTAVE_SIZE;
   }
-  while (note - OCTAVE_SIZE >= min) {
+  while (note > max) {
     note -= OCTAVE_SIZE;
   }
-  if (note > max) {
+  if (note < min) {
     // Clamp to the range if no note of the same pitch class is in the range.
     return base < min ? min : max;
   }
