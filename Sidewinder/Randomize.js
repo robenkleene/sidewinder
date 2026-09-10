@@ -39,7 +39,7 @@ function msg_float(value) {
 }
 
 function reset(value) {
-  input = [[], 0, 0, 0, null, null, null, null, 0];
+  input = [[], 0, 0, 0, 0, null, null, null, null];
 }
 
 function pitch(value) {
