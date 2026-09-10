@@ -1199,17 +1199,6 @@
             },
             {
                 "box": {
-                    "id": "obj-137",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1573.3333333333333, 877.0, 72.0, 22.0 ],
-                    "text": "pvar #2-Dur"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-132",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1362,7 +1351,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "int: Default duration",
+                                    "comment": "int: Default duration in ticks",
                                     "id": "obj-7",
                                     "index": 7,
                                     "maxclass": "inlet",
@@ -1661,7 +1650,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "list: Sequence of durations",
+                                    "comment": "list: Sequence of durations in ticks",
                                     "id": "obj-4",
                                     "index": 4,
                                     "maxclass": "inlet",
@@ -4887,7 +4876,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-94", 6 ],
-                    "source": [ "obj-137", 0 ]
+                    "source": [ "obj-150", 0 ]
                 }
             },
             {
