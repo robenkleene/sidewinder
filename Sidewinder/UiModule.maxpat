@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 235.0, 425.0, 2049.0, 1138.0 ],
+        "rect": [ 150.0, 174.0, 2049.0, 1138.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -30,7 +30,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 1656.0, 676.0, 29.5, 22.0 ],
+                    "patching_rect": [ 1208.0, 817.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -41,7 +41,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1656.0, 708.0, 52.0, 22.0 ],
+                    "patching_rect": [ 1208.0, 849.0, 52.0, 22.0 ],
                     "text": "gate 2 1"
                 }
             },
@@ -52,19 +52,8 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1712.0, 740.0, 37.0, 22.0 ],
+                    "patching_rect": [ 1241.0, 881.0, 37.0, 22.0 ],
                     "text": "zl.rev"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-187",
-                    "linecount": 4,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1560.0, 576.0, 233.0, 60.0 ],
-                    "text": "`zl.rev` runs after `p NoteRandomizer` because `Randomize.js` takes the root from the first note, which is only the root while the sequence still ascends."
                 }
             },
             {
@@ -1161,7 +1150,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1152.0, 708.0, 87.0, 22.0 ],
+                    "patching_rect": [ 1085.0, 840.5, 87.0, 22.0 ],
                     "text": "r #1-Sequence"
                 }
             },
@@ -1182,7 +1171,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1136.0, 812.0, 118.0, 22.0 ],
+                    "patching_rect": [ 1136.0, 954.0, 118.0, 22.0 ],
                     "text": "s #1-StepSequencer"
                 }
             },
@@ -1193,7 +1182,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1496.0, 708.0, 70.0, 22.0 ],
+                    "patching_rect": [ 1500.3333333333333, 854.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -1204,7 +1193,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1424.0, 676.0, 79.0, 22.0 ],
+                    "patching_rect": [ 1427.3333333333333, 824.0, 79.0, 22.0 ],
                     "text": "pvar #2-Pitch"
                 }
             },
@@ -1215,7 +1204,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1520.0, 740.0, 72.0, 22.0 ],
+                    "patching_rect": [ 1573.3333333333333, 877.0, 72.0, 22.0 ],
                     "text": "pvar #2-Dur"
                 }
             },
@@ -1226,7 +1215,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1136.0, 740.0, 38.0, 22.0 ],
+                    "patching_rect": [ 1136.0, 877.0, 38.0, 22.0 ],
                     "text": "zl.reg"
                 }
             },
@@ -1248,7 +1237,7 @@
                     "numinlets": 4,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 1208.0, 740.0, 155.0, 22.0 ],
+                    "patching_rect": [ 1241.0, 747.0, 155.0, 22.0 ],
                     "text": "route pitch velocity duration"
                 }
             },
@@ -2059,7 +2048,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 1136.0, 772.0, 456.0, 22.0 ],
+                    "patching_rect": [ 1136.0, 914.0, 456.0, 22.0 ],
                     "text": "p NoteDistributor"
                 }
             },
@@ -2124,7 +2113,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1085.0, 740.0, 43.0, 22.0 ],
+                    "patching_rect": [ 1660.0, 877.0, 43.0, 22.0 ],
                     "text": "clear"
                 }
             },
@@ -2252,7 +2241,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1576.0, 400.0, 81.0, 22.0 ],
+                    "patching_rect": [ 1208.0, 781.0, 81.0, 22.0 ],
                     "text": "r #1-PitchRev"
                 }
             },
@@ -2848,7 +2837,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 1136.0, 616.0, 293.2857142857142, 22.0 ],
                     "saved_object_attributes": {
-                        "filename": "Randomize",
+                        "filename": "Randomize.js",
                         "parameter_enable": 0
                     },
                     "text": "js Randomize"
@@ -3416,8 +3405,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1037.0, 289.0, 1182.0, 859.0 ],
-                        "visible": 1,
+                        "rect": [ 1188.0, 343.0, 1182.0, 859.0 ],
                         "boxes": [
                             {
                                 "box": {
