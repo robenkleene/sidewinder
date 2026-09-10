@@ -38,7 +38,7 @@
                         "valueof": {
                             "parameter_longname": "RandomizeNotesRoot",
                             "parameter_mmax": 100.0,
-                            "parameter_modmode": 4,
+                            "parameter_modmode": 0,
                             "parameter_shortname": "Root",
                             "parameter_type": 1,
                             "parameter_unitstyle": 5
