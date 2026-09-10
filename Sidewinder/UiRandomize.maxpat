@@ -36,7 +36,7 @@
                     "presentation_rect": [ 436.0, 96.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "Root",
+                            "parameter_longname": "RandomizeNotesRoot",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "Root",
@@ -44,7 +44,7 @@
                             "parameter_unitstyle": 5
                         }
                     },
-                    "varname": "Root"
+                    "varname": "RandomizeNotesRoot"
                 }
             },
             {
@@ -908,6 +908,7 @@
                         "RandomizeNotesRepeat": [ 0.0 ],
                         "RandomizeNotesRests": [ 5.0 ],
                         "RandomizeNotesReverse": [ 0.0 ],
+                        "RandomizeNotesRoot": [ 2.0 ],
                         "RandomizeNotesScale": [ 14.0 ],
                         "RandomizeNotesScaleRand": [ 0.0 ],
                         "RandomizePitch": [ 0.0 ],
@@ -918,8 +919,7 @@
                         "RandomizeTrigger": [ 0.0 ],
                         "RandomizeTriggerSet": [ 0.0 ],
                         "RandomizeTriggerToggle": [ 0.0 ],
-                        "RandomizeVel": [ 0.0 ],
-                        "Root": [ 2.0 ]
+                        "RandomizeVel": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u457004162"
@@ -3893,7 +3893,7 @@
             "obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
             "obj-30": [ "RandomizeDur", "Duration", 0 ],
-            "obj-32": [ "Root", "Root", 0 ],
+            "obj-32": [ "RandomizeNotesRoot", "Root", 0 ],
             "obj-33::obj-6": [ "RandomizePitch-Max", "Max", 0 ],
             "obj-33::obj-7": [ "RandomizePitch-Min", "Min", 0 ],
             "obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
