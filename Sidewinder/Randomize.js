@@ -12,6 +12,8 @@ INLET_VELOCITY_MIN = 5;
 INLET_VELOCITY_MAX = 6;
 INLET_DURATION_MIN = 7;
 INLET_DURATION_MAX = 8;
+// `DURATION_VALUES` are the *only* values `live.step` can store. Any value
+// that's not in this list is rounded up to the next value.
 DURATION_VALUES = [15, 30, 60, 120, 240, 480, 960];
 
 // Store input

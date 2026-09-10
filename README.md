@@ -80,7 +80,7 @@ To the left of the piano roll.
 - **Track**: Toggle playback for this track
 - **Pitch**: Set the pitch of the notes
 - **Velocity**: Set the velocity of the notes
-- **Duration**: Set the duration of the notes. The note duration can only be set to `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (there appears to be an undocumented limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that limits the minimum duration to `7.5` ticks and the maximum duration to `960` ticks).
+- **Duration**: Set the duration of the notes. The note duration can only be set to `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (this is an undocumented limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer, which stores durations only on a doubling ladder of tick values between `7.5` and `960` [anything in between is rounded up]).
 - **Show**: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
 - **Set** (only visible when `Auto` is toggled off): Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
