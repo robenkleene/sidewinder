@@ -1196,7 +1196,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 525.5, 764.5, 136.0, 22.0 ],
-                    "text": "parameters $1 $2 $3"
+                    "text": "parameters $1 $2 $3 $4"
                 }
             },
             {
