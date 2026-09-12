@@ -84,6 +84,7 @@ To the left of the piano roll.
 - **Show**: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
 - **Set** (only visible when `Auto` is toggled off): Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
+- **Merge**: Toggle whether consecutive notes are merged (note this adds a single tick to note durations in order to force consecutive notes to overlap).
 - **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
 - **Ch**: The MIDI channel that the track outputs to (note that Ableton Live actually merges all MIDI to channel one, limiting the usefulness of this in Live)
 - Directions (only visible when `Auto` is toggled off): Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
