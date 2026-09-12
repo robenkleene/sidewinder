@@ -9,9 +9,93 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 367.0, 92.0, 1416.0, 1199.0 ],
+        "rect": [ 204.0, 102.0, 1774.0, 1063.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-231",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "int" ],
+                    "patching_rect": [ 1846.0, 360.0, 89.0, 22.0 ],
+                    "text": "RandomParam"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-232",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1916.0, 328.0, 97.0, 22.0 ],
+                    "text": "loadmess Merge"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-233",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1977.0, 298.0, 71.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-234",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1898.0, 298.0, 71.0, 22.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-235",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1846.0, 392.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "Whether to randomize whether repeated notes are merged.",
+                    "annotation_name": "Randomize Merge Toggle",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-24",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1846.0, 332.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 245.0, 3.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "RandomizeMerge",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Merge",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Merge",
+                    "texton": "Merge",
+                    "varname": "RandomizeMerge"
+                }
+            },
             {
                 "box": {
                     "id": "obj-68",
@@ -65,7 +149,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1542.6, 336.0, 420.0, 22.0 ],
+                    "patching_rect": [ 1408.0, 362.0, 420.0, 22.0 ],
                     "text": "loadmess script sendbox RandomizeDur-Max presentation_rect 0. 16. 46. 15."
                 }
             },
@@ -903,6 +987,7 @@
                         "RandomizeAuto": [ 0.0 ],
                         "RandomizeDivision": [ 0.0 ],
                         "RandomizeDur": [ 0.0 ],
+                        "RandomizeMerge": [ 0.0 ],
                         "RandomizeNotes": [ 0.0 ],
                         "RandomizeNotesOrder": [ 0.0 ],
                         "RandomizeNotesRepeat": [ 0.0 ],
@@ -943,7 +1028,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1917.0, 512.0, 79.0, 22.0 ],
+                    "patching_rect": [ 2045.7777777777778, 512.0, 79.0, 22.0 ],
                     "text": "append reset"
                 }
             },
@@ -2195,10 +2280,10 @@
                     "id": "obj-37",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 10,
-                    "outlettype": [ "", "", "", "", "", "", "", "", "", "" ],
-                    "patching_rect": [ 48.0, 208.0, 1888.0, 22.0 ],
-                    "text": "t s s s s s s s s s s"
+                    "numoutlets": 11,
+                    "outlettype": [ "", "", "", "", "", "", "", "", "", "", "" ],
+                    "patching_rect": [ 48.0, 208.0, 2016.7777777777778, 22.0 ],
+                    "text": "t s s s s s s s s s s s"
                 }
             },
             {
@@ -3357,6 +3442,36 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-235", 0 ],
+                    "source": [ "obj-231", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-231", 4 ],
+                    "source": [ "obj-232", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-231", 2 ],
+                    "source": [ "obj-233", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-231", 3 ],
+                    "source": [ "obj-234", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-231", 1 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-72", 1 ],
                     "source": [ "obj-25", 0 ]
                 }
@@ -3480,7 +3595,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-137", 0 ],
-                    "source": [ "obj-37", 9 ]
+                    "source": [ "obj-37", 10 ]
                 }
             },
             {
@@ -3493,6 +3608,12 @@
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "source": [ "obj-37", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-231", 0 ],
+                    "source": [ "obj-37", 9 ]
                 }
             },
             {
@@ -3889,6 +4010,7 @@
             "obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
+            "obj-24": [ "RandomizeMerge", "Merge", 0 ],
             "obj-25": [ "RandomizeRotate", "Rotate", 0 ],
             "obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
