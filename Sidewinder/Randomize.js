@@ -2,22 +2,26 @@
 autowatch = 1;
 
 // Inlets & Outlets
-inlets = 10;
+inlets = 11;
 outlets = 1;
 INLET_REPEAT = 1;
 INLET_ORDER = 2;
 INLET_RESTS = 3;
 INLET_ROOT = 4;
 INLET_OCTAVE = 5;
-INLET_VELOCITY_MIN = 6;
-INLET_VELOCITY_MAX = 7;
-INLET_DURATION_MIN = 8;
-INLET_DURATION_MAX = 9;
+INLET_ACCENT = 6;
+INLET_VELOCITY_MIN = 7;
+INLET_VELOCITY_MAX = 8;
+INLET_DURATION_MIN = 9;
+INLET_DURATION_MAX = 10;
 OCTAVE_SIZE = 12;
 MIDI_MAX = 127;
 // `DURATION_VALUES` are the *only* values `live.step` can store. Any value
 // that's not in this list is rounded up to the next value.
 DURATION_VALUES = [15, 30, 60, 120, 240, 480, 960];
+
+// External Dependencies
+include("Toussaint");
 
 // Store input
 reset(null);
@@ -44,7 +48,7 @@ function msg_float(value) {
 }
 
 function reset(value) {
-  input = [[], 0, 0, 0, 0, 0, null, null, null, null];
+  input = [[], 0, 0, 0, 0, 0, 0, null, null, null, null];
 }
 
 function pitch(value) {
@@ -97,9 +101,18 @@ function velocity(value) {
   }
   var values = arr.slice(1)
   var rests = input[INLET_RESTS];
+  // `accent` of `0` is randomized velocity
+  // `accent` greater than `0` is percentage of notes in a Euclidean sequence
+  // of the same length that use the `max`, the rest use `min`
+  var accent = input[INLET_ACCENT];
+  var accents = accent > 0
+    ? toussaint(Math.round(accent * values.length), values.length)
+    : null;
   for (var i = 0; i < values.length; i++) {
     if (Math.random() < rests) {
       values[i] = 0;
+    } else if (accents) {
+      values[i] = accents[i] ? max : min;
     } else {
       values[i] = getRandomInt(min, max);
     }
