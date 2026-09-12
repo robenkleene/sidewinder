@@ -102,6 +102,7 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 - **Notes**: Whether to randomize individual notes. If the notes is off, then randomize for Velocity, Pitch, and Duration will randomize changing those values on the individual track settings. If notes is on, then randomize for those values will create randomize the individual notes (and the track settings will be used for default values, e.g., for off notes with a velocity of 0).
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
 - For Pitch, the top number and bottom pitches are the minimum and maximum pitches
+- **Merge**: Whether to randomize each track's **Merge** setting
 - **Note Trigger**: If the incoming MIDI note matches this note, than randomize is triggered (i.e., this is a way to trigger randomize via MIDI)
 - **Set Note Trigger**: The next incoming note will set the note trigger value without triggering randomize
 - **Auto Beats**: Automatically trigger a randomize after every number of beats (this is based on the current transport status, e.g., if it's set to `4` and you're currently on beat `2`, it'll trigger the randomize in `2` more beats)
@@ -117,6 +118,9 @@ The sequence starts from the track's **Pitch**, which is the root of the generat
 - **Duration**: Whether to randomize duration
 - **Scale**: The scale the sequence will be generated in
 - **Rand**: Randomize the scale
+- **Tonal**: Only choose from the scales that are tonal
+- **Chord**: Only choose notes from the scale in a chord (every other degree)
+- **Root**: The percentage chance that each note is replaced by the root. Higher values pull the sequence toward a single note, which is what makes a bass line sound like a bass line rather than a run through a scale. The root is the track's **Pitch**, as described above.
 - **Reverse**: Reverse the order of the generated sequence (i.e., from ascending to descending)
 - **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests are steps with a velocity of `0`, and those steps don't output a note at all, so the `VelMin` minimum of `0` never produces an audible note.
 
@@ -139,7 +143,7 @@ The sequencer uses the `toussaint` version by default.
 
 ## Ableton Push
 
-Sidewinder supports Ableton Push. The first knob always controls which tab is visible. There's `Main` and `Play` banks for each of the four tracks, and the randomize parameters are across `Randomize`, `Toggles`, `Tracks`, `Ranges`, `Notes`, and `Trigger`.
+Sidewinder supports Ableton Push. The first knob always controls which tab is visible.
 
 ## Patterns
 
