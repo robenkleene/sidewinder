@@ -105,9 +105,13 @@ function velocity(value) {
   // `accent` greater than `0` is percentage of notes in a Euclidean sequence
   // of the same length that use the `max`, the rest use `min`
   var accent = input[INLET_ACCENT];
-  var accents = accent > 0
-    ? toussaint(Math.round(accent * values.length), values.length)
-    : null;
+  // At least one accent whenever `accent` is on, otherwise a low enough
+  // percentage rounds down to none and every note sits at `min`
+  var accents = null;
+  if (accent > 0) {
+    var count = Math.round(accent * values.length);
+    accents = toussaint(count > 0 ? count : 1, values.length);
+  }
   for (var i = 0; i < values.length; i++) {
     if (Math.random() < rests) {
       values[i] = 0;
