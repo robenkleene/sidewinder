@@ -14,7 +14,7 @@
         "boxes": [
             {
                 "box": {
-                    "annotation": "The percentage chance that each note is accented, spread evenly across the sequence. If greater than 0, then accented notes use the velocity Max and the rest use the Min.",
+                    "annotation": "The percentage of notes that are accented, spread evenly across the sequence. If greater than 0, then accented notes use the velocity Max and the rest use the Min.",
                     "annotation_name": "Randomize Notes Accent",
                     "id": "obj-249",
                     "maxclass": "live.dial",
@@ -66,7 +66,7 @@
             },
             {
                 "box": {
-                    "annotation": "Whether randomized scales only include notes from a chord (every other degree).",
+                    "annotation": "Whether the scale only includes notes from a chord (every other degree).",
                     "annotation_name": "Randomize Scale Chord Toggle",
                     "automation": "Off",
                     "automationon": "On",
@@ -346,6 +346,8 @@
             },
             {
                 "box": {
+                    "annotation": "The percentage chance that each note is replaced by the root, which is the track's Pitch.",
+                    "annotation_name": "Randomize Notes Root",
                     "id": "obj-32",
                     "maxclass": "live.dial",
                     "numinlets": 1,

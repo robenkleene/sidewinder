@@ -84,7 +84,7 @@ To the left of the piano roll.
 - **Show**: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
 - **Set** (only visible when `Auto` is toggled off): Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
-- **Merge**: Toggle whether consecutive notes are merged (note this adds a single tick to note durations in order to force consecutive notes to overlap).
+- **Merge**: Toggle whether consecutive notes of the same pitch are merged into one held note (note this adds a single tick to note durations in order to force consecutive notes to overlap).
 - **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
 - **Ch**: The MIDI channel that the track outputs to (note that Ableton Live actually merges all MIDI to channel one, limiting the usefulness of this in Live)
 - Directions (only visible when `Auto` is toggled off): Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
@@ -121,8 +121,8 @@ The sequence starts from the track's **Pitch**, which is the root of the generat
 - **Tonal**: Only choose from the scales that are tonal
 - **Chord**: Only choose notes from the scale in a chord (every other degree)
 - **Root**: The percentage chance that each note is replaced by the root. Higher values pull the sequence toward a single note, which is what makes a bass line sound like a bass line rather than a run through a scale. The root is the track's **Pitch**, as described above.
-- **Octave**: The percentage chance that each note jumps an octave (in either direction)
-- **Accent**: The percentage of notes that are accented. If this is greater than `0` than the velocity **Min** value becomes the unaccented velocity, and **Max** becomes the accented velocity. Accented notes use a second Euclidean pattern of the same length as the current pattern, and the percentage is the percentage of pulses that are accented. (Merged notes keep the first notes velocity.)
+- **Octave**: The percentage chance that each note jumps an octave (in either direction, and this ignores the pitch **Min** and **Max**, so a jumped note can fall outside them)
+- **Accent**: The percentage of notes that are accented. If this is greater than `0` then the velocity **Min** value becomes the unaccented velocity, and **Max** becomes the accented velocity. Accented notes use a second Euclidean pattern with one step per pulse, and the percentage is the percentage of pulses that are accented. (Merged notes keep the first note's velocity.)
 - **Reverse**: Reverse the order of the generated sequence (i.e., from ascending to descending)
 - **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests are steps with a velocity of `0`, and those steps don't output a note at all, so the `VelMin` minimum of `0` never produces an audible note.
 
