@@ -9,9 +9,35 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 310.0, 122.0, 1774.0, 1063.0 ],
+        "rect": [ 208.0, 92.0, 1774.0, 1063.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "annotation": "The percentage chance that each note jumps an octave (in either direction).",
+                    "annotation_name": "Randomize Notes Octave",
+                    "id": "obj-248",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 727.0, 664.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 486.0, 96.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "RandomizeNotesOctave",
+                            "parameter_mmax": 100.0,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Octave",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 5
+                        }
+                    },
+                    "varname": "RandomizeNotesOctave"
+                }
+            },
             {
                 "box": {
                     "annotation": "Whether randomized scales only include notes from a chord (every other degree).",
@@ -285,11 +311,11 @@
                 "box": {
                     "id": "obj-68",
                     "maxclass": "newobj",
-                    "numinlets": 4,
+                    "numinlets": 5,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 525.5, 728.0, 81.0, 22.0 ],
-                    "text": "pak 0. 0. 0. 0."
+                    "patching_rect": [ 525.5, 728.0, 95.0, 22.0 ],
+                    "text": "pak 0. 0. 0. 0. 0."
                 }
             },
             {
@@ -1174,6 +1200,7 @@
                         "RandomizeDur": [ 0.0 ],
                         "RandomizeMerge": [ 0.0 ],
                         "RandomizeNotes": [ 0.0 ],
+                        "RandomizeNotesOctave": [ 2.0 ],
                         "RandomizeNotesOrder": [ 0.0 ],
                         "RandomizeNotesRepeat": [ 0.0 ],
                         "RandomizeNotesRests": [ 5.0 ],
@@ -1467,8 +1494,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 525.5, 764.5, 136.0, 22.0 ],
-                    "text": "parameters $1 $2 $3 $4"
+                    "patching_rect": [ 525.5, 764.5, 153.0, 22.0 ],
+                    "text": "parameters $1 $2 $3 $4 $5"
                 }
             },
             {
@@ -3743,6 +3770,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-68", 4 ],
+                    "source": [ "obj-248", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-72", 1 ],
                     "source": [ "obj-25", 0 ]
                 }
@@ -4289,6 +4322,7 @@
             "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-24": [ "RandomizeMerge", "Merge", 0 ],
             "obj-244": [ "RandomizeNotesScaleChord", "Chord", 0 ],
+            "obj-248": [ "RandomizeNotesOctave", "Octave", 0 ],
             "obj-25": [ "RandomizeRotate", "Rotate", 0 ],
             "obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],

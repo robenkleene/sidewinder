@@ -2156,7 +2156,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1376.0, 584.0, 67.0, 22.0 ],
+                    "patching_rect": [ 1379.8095238095239, 584.0, 67.0, 22.0 ],
                     "text": "unpack 0 0"
                 }
             },
@@ -2167,7 +2167,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1376.0, 552.0, 145.0, 22.0 ],
+                    "patching_rect": [ 1379.8095238095239, 552.0, 145.0, 22.0 ],
                     "text": "r #1-NotesRandomizeDur"
                 }
             },
@@ -2283,10 +2283,10 @@
                     "id": "obj-111",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 4,
-                    "outlettype": [ "float", "float", "float", "float" ],
-                    "patching_rect": [ 1170.2857142857142, 520.0, 101.0, 22.0 ],
-                    "text": "unpack 0. 0. 0. 0."
+                    "numoutlets": 5,
+                    "outlettype": [ "float", "float", "float", "float", "float" ],
+                    "patching_rect": [ 1170.2857142857142, 520.0, 114.0, 22.0 ],
+                    "text": "unpack 0. 0. 0. 0. 0."
                 }
             },
             {
@@ -2308,7 +2308,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 936.0, 392.0, 55.0, 22.0 ],
-                    "text": "zl.slice 5"
+                    "text": "zl.slice 6"
                 }
             },
             {
@@ -2328,7 +2328,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1320.0, 400.0, 95.0, 22.0 ],
+                    "patching_rect": [ 1320.0, 392.0, 95.0, 22.0 ],
                     "text": "r #1-PitchRange"
                 }
             },
@@ -2822,7 +2822,7 @@
                 "box": {
                     "id": "obj-96",
                     "maxclass": "newobj",
-                    "numinlets": 9,
+                    "numinlets": 10,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1136.0, 616.0, 293.2857142857142, 22.0 ],
@@ -3447,7 +3447,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 176.0, 321.5, 150.0, 87.0 ],
+                                    "patching_rect": [ 176.0, 321.5, 153.0, 87.0 ],
                                     "text": "`@repeatmode` can never be `0` because otherwise the note off already scheduled for the previous note cuts short a retrigger of the same pitch."
                                 }
                             },
@@ -4862,6 +4862,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-96", 5 ],
+                    "source": [ "obj-111", 4 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-96", 4 ],
                     "source": [ "obj-111", 3 ]
                 }
@@ -4886,25 +4892,25 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 8 ],
+                    "destination": [ "obj-96", 9 ],
                     "source": [ "obj-112", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 7 ],
+                    "destination": [ "obj-96", 8 ],
                     "source": [ "obj-112", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 6 ],
+                    "destination": [ "obj-96", 7 ],
                     "source": [ "obj-113", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 5 ],
+                    "destination": [ "obj-96", 6 ],
                     "source": [ "obj-113", 0 ]
                 }
             },
@@ -5843,7 +5849,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-38", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-77", 0 ]
                 }
             },

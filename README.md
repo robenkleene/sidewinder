@@ -121,6 +121,7 @@ The sequence starts from the track's **Pitch**, which is the root of the generat
 - **Tonal**: Only choose from the scales that are tonal
 - **Chord**: Only choose notes from the scale in a chord (every other degree)
 - **Root**: The percentage chance that each note is replaced by the root. Higher values pull the sequence toward a single note, which is what makes a bass line sound like a bass line rather than a run through a scale. The root is the track's **Pitch**, as described above.
+- **Octave**: The percentage chance that each note jumps an octave (in either direction)
 - **Reverse**: Reverse the order of the generated sequence (i.e., from ascending to descending)
 - **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests are steps with a velocity of `0`, and those steps don't output a note at all, so the `VelMin` minimum of `0` never produces an audible note.
 
