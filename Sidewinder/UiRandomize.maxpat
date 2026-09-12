@@ -14,6 +14,73 @@
         "boxes": [
             {
                 "box": {
+                    "annotation": "Whether randomized scales only include notes from a chord (every other degree).",
+                    "annotation_name": "Randomize Scale Chord Toggle",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-244",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1034.0, 1360.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 436.0, 52.5, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "RandomizeNotesScaleChord",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Chord",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Chord",
+                    "texton": "Chord",
+                    "varname": "RandomizeNotesScaleChord"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-245",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 1034.0, 1386.0, 29.5, 22.0 ],
+                    "text": "+ 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-246",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1034.0, 1417.0, 55.0, 22.0 ],
+                    "text": "gate 2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-247",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1070.0, 1454.0, 71.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "filename": "Chords",
+                        "parameter_enable": 0
+                    },
+                    "text": "js Chords"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-236",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -102,7 +169,7 @@
             },
             {
                 "box": {
-                    "annotation": "Whether a randomized scale is restricted to the scales that have a tonal centre.",
+                    "annotation": "Whether to restrict randomized scale to tonal scales.",
                     "annotation_name": "Randomize Scale Tonal Toggle",
                     "automation": "Off",
                     "automationon": "On",
@@ -1113,6 +1180,7 @@
                         "RandomizeNotesReverse": [ 0.0 ],
                         "RandomizeNotesRoot": [ 2.0 ],
                         "RandomizeNotesScale": [ 14.0 ],
+                        "RandomizeNotesScaleChord": [ 0.0 ],
                         "RandomizeNotesScaleRand": [ 1.0 ],
                         "RandomizeNotesScaleRandTonal": [ 1.0 ],
                         "RandomizePitch": [ 0.0 ],
@@ -1521,7 +1589,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 861.0, 1450.0, 72.0, 22.0 ],
+                    "patching_rect": [ 861.0, 1509.0, 72.0, 22.0 ],
                     "text": "prepend set"
                 }
             },
@@ -3645,6 +3713,36 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-245", 0 ],
+                    "source": [ "obj-244", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-246", 0 ],
+                    "source": [ "obj-245", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-112", 0 ],
+                    "source": [ "obj-246", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-247", 0 ],
+                    "source": [ "obj-246", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-112", 0 ],
+                    "source": [ "obj-247", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-72", 1 ],
                     "source": [ "obj-25", 0 ]
                 }
@@ -4106,7 +4204,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-112", 0 ],
+                    "destination": [ "obj-246", 1 ],
                     "source": [ "obj-84", 0 ]
                 }
             },
@@ -4190,6 +4288,7 @@
             "obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-24": [ "RandomizeMerge", "Merge", 0 ],
+            "obj-244": [ "RandomizeNotesScaleChord", "Chord", 0 ],
             "obj-25": [ "RandomizeRotate", "Rotate", 0 ],
             "obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
