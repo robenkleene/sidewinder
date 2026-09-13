@@ -116,8 +116,8 @@ The sequence starts from the track's **Pitch**, which is the root of the generat
 - **Velocity**: Whether to randomize velocity
 - **Pitch**: Whether to randomize pitch
 - **Duration**: Whether to randomize duration
-- **Scale**: The scale the sequence will be generated in
-- **Rand**: Randomize the scale
+- **Scale** menu: The scale the sequence will be generated in
+- **Scale** button: Randomize the scale
 - **Tonal**: Only choose from the scales that are tonal
 - **Chord**: Only choose notes from the scale in a chord (every other degree)
 - **Root**: The percentage chance that each note is replaced by the root. Higher values pull the sequence toward a single note, which is what makes a bass line sound like a bass line rather than a run through a scale. The root is the track's **Pitch**, as described above.

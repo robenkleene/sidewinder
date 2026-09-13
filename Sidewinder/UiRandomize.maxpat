@@ -1629,7 +1629,7 @@
             },
             {
                 "box": {
-                    "annotation": "The scale that randomized notes will ge generated in.",
+                    "annotation": "The scale that randomized notes will be generated in.",
                     "annotation_name": "Randomize Scale",
                     "id": "obj-94",
                     "maxclass": "live.menu",
