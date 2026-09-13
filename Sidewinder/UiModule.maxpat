@@ -9,11 +9,13 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 431.0, 117.0, 2049.0, 1138.0 ],
+        "rect": [ 438.0, 143.0, 1554.0, 1138.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
+                    "activefgdialcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "activeneedlecolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "annotation": "The percentage of notes that are accented, spread evenly across the sequence. An accented note plays at the maximum velocity.",
                     "annotation_name": "Accent",
                     "id": "obj-189",
@@ -24,8 +26,17 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 587.0, 46.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 490.0, 40.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 437.5, 116.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
+                        "activefgdialcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "activeneedlecolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg"
+                        },
                         "valueof": {
                             "parameter_longname": "#2-Accent",
                             "parameter_mmax": 100.0,
@@ -35,6 +46,7 @@
                             "parameter_unitstyle": 5
                         }
                     },
+                    "textcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "varname": "#2-Accent"
                 }
             },
@@ -256,7 +268,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 440.5, -57.5, 44.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 251.0, 2.0, 44.0, 17.0 ],
+                    "presentation_rect": [ 218.0, 2.0, 44.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -276,7 +288,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 547.0, 290.5, 40.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 434.0, 56.0, 40.0, 17.0 ],
+                    "presentation_rect": [ 434.0, 37.0, 40.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -296,7 +308,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 344.0, 50.0, 44.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 170.0, 2.0, 44.0, 18.0 ],
+                    "presentation_rect": [ 151.0, 2.0, 44.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -319,7 +331,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 344.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 213.0, 3.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 193.0, 3.0, 23.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -356,7 +368,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 331.0, 337.0, 30.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 353.0, 2.0, 30.0, 17.0 ],
+                    "presentation_rect": [ 305.0, 2.0, 30.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -380,7 +392,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 372.0, 339.5, 55.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 381.0, 3.0, 53.0, 15.0 ],
+                    "presentation_rect": [ 337.0, 3.0, 53.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -801,7 +813,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 486.0, 291.5, 56.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 438.0, 72.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 434.0, 56.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -900,7 +912,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 272.0, 832.0, 20.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 435.0, 92.0, 20.0, 17.0 ],
+                    "presentation_rect": [ 434.0, 73.0, 20.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -926,7 +938,7 @@
                     "parameter_mappable": 0,
                     "patching_rect": [ 296.0, 832.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 438.0, 108.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 454.0, 74.0, 20.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1073,7 +1085,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 632.0, 552.5, 96.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 442.0, 129.0, 33.0, 35.0 ],
+                    "presentation_rect": [ 437.0, 94.0, 42.0, 20.0 ],
                     "varname": "#2-Directions",
                     "viewvisibility": 1
                 }
@@ -1142,18 +1154,19 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 920.0, -43.5, 56.0, 22.0 ],
                     "restore": {
+                        "#2-Accent": [ 0.0 ],
                         "#2-Auto": [ 0.0 ],
-                        "#2-Ch": [ 1.0 ],
+                        "#2-Ch": [ 16.0 ],
                         "#2-Division": [ 0.0 ],
                         "#2-Dur": [ 0.0 ],
                         "#2-Merge": [ 0.0 ],
-                        "#2-Mode": [ 0.0 ],
-                        "#2-Pitch": [ 0.0 ],
+                        "#2-Mode": [ 3.0 ],
+                        "#2-Pitch": [ 38.99999999999996 ],
                         "#2-Rotate": [ 0.0 ],
                         "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 0.0 ],
-                        "#2-Vel": [ 0.0 ]
+                        "#2-Vel": [ 127.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -3047,7 +3060,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 444.0, -36.5, 48.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 294.0, 3.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 260.0, 3.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -3147,7 +3160,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 72.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 126.0, 3.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 126.0, 3.0, 25.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -3193,7 +3206,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 491.0, 78.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 438.0, 35.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 20.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -3237,7 +3250,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 228.0, 795.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 438.0, 3.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 396.0, 3.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -3279,7 +3292,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 539.0, 78.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 438.0, 19.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 3.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -4698,6 +4711,7 @@
                     "id": "obj-8",
                     "loopbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "maxclass": "live.step",
+                    "mode": 3,
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "", "", "", "", "" ],
@@ -4796,12 +4810,6 @@
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-96", 10 ],
-                    "source": [ "obj-189", 1 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-60", 0 ],
@@ -5436,6 +5444,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-96", 10 ],
+                    "source": [ "obj-189", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-167", 0 ],
                     "source": [ "obj-2", 1 ]
                 }
@@ -6013,8 +6027,8 @@
             "obj-143::obj-141": [ "#2-Right", "Right", 0 ],
             "obj-143::obj-142": [ "#2-Left", "Left", 0 ],
             "obj-143::obj-86": [ "#2-Up", "Up", 0 ],
-            "obj-189": [ "#2-Accent", "Accent", 0 ],
             "obj-188": [ "#2-Merge", "Merge", 0 ],
+            "obj-189": [ "#2-Accent", "Accent", 0 ],
             "obj-25": [ "#2-Track", "Track", 0 ],
             "obj-28": [ "#2-Dur", "Duration", 0 ],
             "obj-43": [ "#2-Ch", "Ch", 0 ],

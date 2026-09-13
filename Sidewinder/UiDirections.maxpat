@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -76,7 +76,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 72.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 9.0, 14.0, 14.0 ],
+                    "presentation_rect": [ 0.0, 2.0, 14.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -132,7 +132,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 24.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 19.0, 10.0, 12.0, 12.0 ],
+                    "presentation_rect": [ 29.0, 3.0, 12.0, 12.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -188,7 +188,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 48.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 9.0, 19.0, 14.0, 14.0 ],
+                    "presentation_rect": [ 18.0, 2.0, 14.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -244,7 +244,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 0.0, 0.0, 24.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 9.0, 0.0, 14.0, 14.0 ],
+                    "presentation_rect": [ 10.0, 3.0, 14.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
