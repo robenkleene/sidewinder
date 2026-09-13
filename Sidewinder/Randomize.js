@@ -9,11 +9,11 @@ INLET_ORDER = 2;
 INLET_RESTS = 3;
 INLET_ROOT = 4;
 INLET_OCTAVE = 5;
-INLET_ACCENT = 6;
-INLET_VELOCITY_MIN = 7;
-INLET_VELOCITY_MAX = 8;
-INLET_DURATION_MIN = 9;
-INLET_DURATION_MAX = 10;
+INLET_VELOCITY_MIN = 6;
+INLET_VELOCITY_MAX = 7;
+INLET_DURATION_MIN = 8;
+INLET_DURATION_MAX = 9;
+INLET_ACCENT = 10;
 OCTAVE_SIZE = 12;
 MIDI_MAX = 127;
 // `DURATION_VALUES` are the *only* values `live.step` can store. Any value
@@ -48,7 +48,7 @@ function msg_float(value) {
 }
 
 function reset(value) {
-  input = [[], 0, 0, 0, 0, 0, 0, null, null, null, null];
+  input = [[], 0, 0, 0, 0, 0, null, null, null, null, 0];
 }
 
 function pitch(value) {
@@ -106,7 +106,7 @@ function velocity(value) {
   // of the same length that use the `max`, the rest use `min`
   var accent = input[INLET_ACCENT];
   // At least one accent whenever `accent` is on, otherwise a low enough
-  // percentage rounds down to none and every note sits at `min`
+  // percentage rounds down to none and nothing is accented
   var accents = null;
   if (accent > 0) {
     var count = Math.round(accent * values.length);
@@ -115,8 +115,8 @@ function velocity(value) {
   for (var i = 0; i < values.length; i++) {
     if (Math.random() < rests) {
       values[i] = 0;
-    } else if (accents) {
-      values[i] = accents[i] ? max : min;
+    } else if (accents && accents[i]) {
+      values[i] = MIDI_MAX;
     } else {
       values[i] = getRandomInt(min, max);
     }

@@ -14,6 +14,32 @@
         "boxes": [
             {
                 "box": {
+                    "annotation": "The percentage of notes that are accented, spread evenly across the sequence. An accented note plays at the maximum velocity.",
+                    "annotation_name": "Accent",
+                    "id": "obj-189",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 587.0, 46.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 490.0, 40.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "#2-Accent",
+                            "parameter_mmax": 100.0,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Accent",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 5
+                        }
+                    },
+                    "varname": "#2-Accent"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-69",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -2283,10 +2309,10 @@
                     "id": "obj-111",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 6,
-                    "outlettype": [ "float", "float", "float", "float", "float", "float" ],
+                    "numoutlets": 5,
+                    "outlettype": [ "float", "float", "float", "float", "float" ],
                     "patching_rect": [ 1170.2857142857142, 520.0, 114.0, 22.0 ],
-                    "text": "unpack 0. 0. 0. 0. 0. 0."
+                    "text": "unpack 0. 0. 0. 0. 0."
                 }
             },
             {
@@ -2308,7 +2334,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 936.0, 392.0, 55.0, 22.0 ],
-                    "text": "zl.slice 7"
+                    "text": "zl.slice 6"
                 }
             },
             {
@@ -4772,8 +4798,8 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-96", 6 ],
-                    "source": [ "obj-111", 5 ]
+                    "destination": [ "obj-96", 10 ],
+                    "source": [ "obj-189", 1 ]
                 }
             },
             {
@@ -4898,25 +4924,25 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 10 ],
+                    "destination": [ "obj-96", 9 ],
                     "source": [ "obj-112", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 9 ],
+                    "destination": [ "obj-96", 8 ],
                     "source": [ "obj-112", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 8 ],
+                    "destination": [ "obj-96", 7 ],
                     "source": [ "obj-113", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-96", 7 ],
+                    "destination": [ "obj-96", 6 ],
                     "source": [ "obj-113", 0 ]
                 }
             },
@@ -5987,6 +6013,7 @@
             "obj-143::obj-141": [ "#2-Right", "Right", 0 ],
             "obj-143::obj-142": [ "#2-Left", "Left", 0 ],
             "obj-143::obj-86": [ "#2-Up", "Up", 0 ],
+            "obj-189": [ "#2-Accent", "Accent", 0 ],
             "obj-188": [ "#2-Merge", "Merge", 0 ],
             "obj-25": [ "#2-Track", "Track", 0 ],
             "obj-28": [ "#2-Dur", "Duration", 0 ],

@@ -84,6 +84,7 @@ To the left of the piano roll.
 - **Show**: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
 - **Set** (only visible when `Auto` is toggled off): Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
+- **Accent**: The percentage of notes that are accented, spread evenly across the sequence with the same Euclidean algorithm as the pulses. An accented note plays at the maximum velocity.
 - **Merge**: Toggle whether consecutive notes of the same pitch are merged into one held note (note this adds a single tick to note durations in order to force consecutive notes to overlap).
 - **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
 - **Ch**: The MIDI channel that the track outputs to (note that Ableton Live actually merges all MIDI to channel one, limiting the usefulness of this in Live)
@@ -102,6 +103,7 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 - **Notes**: Whether to randomize individual notes. If the notes is off, then randomize for Velocity, Pitch, and Duration will randomize changing those values on the individual track settings. If notes is on, then randomize for those values will create randomize the individual notes (and the track settings will be used for default values, e.g., for off notes with a velocity of 0).
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
 - For Pitch, the top number and bottom pitches are the minimum and maximum pitches
+- **Accent**: Whether to randomize each track's **Accent** setting
 - **Merge**: Whether to randomize each track's **Merge** setting
 - **Note Trigger**: If the incoming MIDI note matches this note, than randomize is triggered (i.e., this is a way to trigger randomize via MIDI)
 - **Set Note Trigger**: The next incoming note will set the note trigger value without triggering randomize
@@ -122,7 +124,6 @@ The sequence starts from the track's **Pitch**, which is the root of the generat
 - **Chord**: Only choose notes from the scale in a chord (every other degree)
 - **Root**: The percentage chance that each note is replaced by the root. Higher values pull the sequence toward a single note, which is what makes a bass line sound like a bass line rather than a run through a scale. The root is the track's **Pitch**, as described above.
 - **Octave**: The percentage chance that each note jumps an octave (in either direction, and this ignores the pitch **Min** and **Max**, so a jumped note can fall outside them)
-- **Accent**: The percentage of notes that are accented. If this is greater than `0` then the velocity **Min** value becomes the unaccented velocity, and **Max** becomes the accented velocity. Accented notes use a second Euclidean pattern with one step per pulse, and the percentage is the percentage of pulses that are accented. (Merged notes keep the first note's velocity.)
 - **Reverse**: Reverse the order of the generated sequence (i.e., from ascending to descending)
 - **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests are steps with a velocity of `0`, and those steps don't output a note at all, so the `VelMin` minimum of `0` never produces an audible note.
 

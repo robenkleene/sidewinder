@@ -14,28 +14,88 @@
         "boxes": [
             {
                 "box": {
-                    "annotation": "The percentage of notes that are accented, spread evenly across the sequence. If greater than 0, then accented notes use the velocity Max and the rest use the Min.",
-                    "annotation_name": "Randomize Notes Accent",
-                    "id": "obj-249",
-                    "maxclass": "live.dial",
+                    "annotation": "Whether to randomize each track's Accent setting.",
+                    "annotation_name": "Randomize Accent Toggle",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-250",
+                    "maxclass": "live.text",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
+                    "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 777.0, 664.0, 41.0, 48.0 ],
+                    "patching_rect": [ 880.0, 600.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 298.0, 99.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 586.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "RandomizeNotesAccent",
-                            "parameter_mmax": 100.0,
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "RandomizeAccent",
+                            "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Accent",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 5
+                            "parameter_type": 2
                         }
                     },
-                    "varname": "RandomizeNotesAccent"
+                    "text": "Accent",
+                    "texton": "Accent",
+                    "varname": "RandomizeAccent"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "RandomizeAccent", "Acc" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-251",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxDial.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 880.0, 632.0, 42.0, 113.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 586.0, 38.0, 41.0, 113.0 ],
+                    "varname": "AccentMinMax",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-252",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "int" ],
+                    "patching_rect": [ 880.0, 760.0, 89.0, 22.0 ],
+                    "text": "RandomParam"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-253",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 980.0, 728.0, 103.0, 22.0 ],
+                    "text": "loadmess Accent"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-254",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 880.0, 792.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
                 }
             },
             {
@@ -326,11 +386,11 @@
                 "box": {
                     "id": "obj-68",
                     "maxclass": "newobj",
-                    "numinlets": 6,
+                    "numinlets": 5,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 525.5, 728.0, 108.0, 22.0 ],
-                    "text": "pak 0. 0. 0. 0. 0. 0."
+                    "text": "pak 0. 0. 0. 0. 0."
                 }
             },
             {
@@ -1190,12 +1250,12 @@
                         "Randomize2": [ 0.0 ],
                         "Randomize3": [ 0.0 ],
                         "Randomize4": [ 0.0 ],
+                        "RandomizeAccent": [ 0.0 ],
                         "RandomizeAuto": [ 0.0 ],
                         "RandomizeDivision": [ 0.0 ],
                         "RandomizeDur": [ 0.0 ],
                         "RandomizeMerge": [ 0.0 ],
                         "RandomizeNotes": [ 1.0 ],
-                        "RandomizeNotesAccent": [ 0.0 ],
                         "RandomizeNotesOctave": [ 2.0 ],
                         "RandomizeNotesOrder": [ 0.0 ],
                         "RandomizeNotesRepeat": [ 0.0 ],
@@ -1491,7 +1551,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 525.5, 764.5, 169.0, 22.0 ],
-                    "text": "parameters $1 $2 $3 $4 $5 $6"
+                    "text": "parameters $1 $2 $3 $4 $5"
                 }
             },
             {
@@ -2490,10 +2550,10 @@
                     "id": "obj-37",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 11,
-                    "outlettype": [ "", "", "", "", "", "", "", "", "", "", "" ],
+                    "numoutlets": 12,
+                    "outlettype": [ "", "", "", "", "", "", "", "", "", "", "", "" ],
                     "patching_rect": [ 48.0, 208.0, 2099.0, 22.0 ],
-                    "text": "t s s s s s s s s s s s"
+                    "text": "t s s s s s s s s s s s s"
                 }
             },
             {
@@ -3130,6 +3190,42 @@
             }
         ],
         "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-252", 0 ],
+                    "source": [ "obj-37", 10 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-252", 1 ],
+                    "source": [ "obj-250", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-252", 2 ],
+                    "source": [ "obj-251", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-252", 3 ],
+                    "source": [ "obj-251", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-252", 4 ],
+                    "source": [ "obj-253", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-254", 0 ],
+                    "source": [ "obj-252", 0 ]
+                }
+            },
             {
                 "patchline": {
                     "destination": [ "obj-157", 0 ],
@@ -3772,12 +3868,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-68", 5 ],
-                    "source": [ "obj-249", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-72", 1 ],
                     "source": [ "obj-25", 0 ]
                 }
@@ -3901,7 +3991,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-137", 0 ],
-                    "source": [ "obj-37", 10 ]
+                    "source": [ "obj-37", 11 ]
                 }
             },
             {
@@ -4310,10 +4400,10 @@
             "obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
+            "obj-250": [ "RandomizeAccent", "Accent", 0 ],
             "obj-24": [ "RandomizeMerge", "Merge", 0 ],
             "obj-244": [ "RandomizeNotesScaleChord", "Chord", 0 ],
             "obj-248": [ "RandomizeNotesOctave", "Octave", 0 ],
-            "obj-249": [ "RandomizeNotesAccent", "Accent", 0 ],
             "obj-25": [ "RandomizeRotate", "Rotate", 0 ],
             "obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
