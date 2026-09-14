@@ -167,7 +167,7 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 ## Demos
 
 - [Polyrhythm](assets/demo/polyrhythm.wav): Polyrhythm demo
-- [Rhythm](assets/demo/house.wav): 4/4 rhythm demo
+- [Rhythm](assets/demo/rhythm.wav): 4/4 rhythm demo
 - [Latin](assets/demo/latin.wav): Hand percussion demo
 - [Mutate](assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
 
