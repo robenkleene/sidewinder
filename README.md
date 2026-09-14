@@ -155,29 +155,34 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 ## Presets
 
 1. **Init**: Default state
-2. **Randomize Polyrhythm**: Randomize settings for polyrhythms
-3. **Randomize Bar Rhythm**: Randomize settings for four bar rhythms
+2. **Polyrhythm**: Polyrhythm demo, with randomize settings for polyrhythms
+3. **Rhythm**: 4/4 rhythm demo, with randomize settings for four bar rhythms
 4. **Randomize Bass**: Randomize settings for bass lines
 5. **Randomize Bar Bass**: Randomize settings for four bar bass lines
 6. **Randomize Melody**: Randomize settings for melodies
 7. **Randomize Bar Melody**: Randomize settings for four bar melodies
-8. **House**: 4/4 rhythm demo
-9. **Latin**: Hand percussion demo
-10. **Polyrhythm**: Polyrhythm demo
-11. **Mutate**: 4/4 rhythm demo that randomizes
+8. **Latin**: Hand percussion demo
+9. **Mutate**: 4/4 rhythm demo that randomizes
 
 ## Demos
 
-- [House](assets/demo/house.wav): 4/4 rhythm demo
-- [Latin](assets/demo/latin.wav): Hand percussion demo
 - [Polyrhythm](assets/demo/polyrhythm.wav): Polyrhythm demo
+- [Rhythm](assets/demo/house.wav): 4/4 rhythm demo
+- [Latin](assets/demo/latin.wav): Hand percussion demo
 - [Mutate](assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
 
 ### Reconstructing
 
 To reconstruct this demo loops in Ableton Live, setup a track with Sidewinder with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from [Thwomp](https://github.com/robenkleene/thwomp).
 
-#### House
+#### Polyrhythm
+
+1. 808 Kick
+2. Hi-Hat
+3. Tom
+4. Cowbell
+
+#### Rhythm
 
 1. Kick
 2. Snare
@@ -190,13 +195,6 @@ To reconstruct this demo loops in Ableton Live, setup a track with Sidewinder wi
 2. Bongo High
 3. Conga Low
 4. Conga High
-
-#### Polyrhythm
-
-1. 808 Kick
-2. Hi-Hat
-3. Tom
-4. Cowbell
 
 #### Mutate
 
