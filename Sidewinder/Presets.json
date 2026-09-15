@@ -4,6 +4,7 @@
         "slots": {
             "1": {
                 "id": 1,
+                "name": "Init",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -104,6 +105,7 @@
             },
             "2": {
                 "id": 2,
+                "name": "Polyrhythm",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -204,6 +206,7 @@
             },
             "3": {
                 "id": 3,
+                "name": "Rhythm",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -304,6 +307,7 @@
             },
             "4": {
                 "id": 4,
+                "name": "Bass",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -404,6 +408,7 @@
             },
             "5": {
                 "id": 5,
+                "name": "Bassline",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -504,6 +509,7 @@
             },
             "6": {
                 "id": 6,
+                "name": "Melody",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -604,6 +610,7 @@
             },
             "7": {
                 "id": 7,
+                "name": "Topline",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -704,6 +711,7 @@
             },
             "8": {
                 "id": 8,
+                "name": "Latin",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
@@ -804,6 +812,7 @@
             },
             "9": {
                 "id": 9,
+                "name": "Mutate",
                 "data": {
                     "Export": [ 0.0 ],
                     "Overwrite": [ 0.0 ],
