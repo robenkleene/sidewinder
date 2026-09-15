@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 638.0, 349.0, 1320.0, 772.0 ],
+        "rect": [ 298.0, 285.0, 1843.0, 1041.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -111,30 +111,31 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 972.0, 321.25, 32.0, 22.0 ],
+                    "patching_rect": [ 971.5, 359.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
             {
                 "box": {
+                    "annotation": "The preset to recall. Names come from the preset file, a preset with no name shows its number.",
+                    "annotation_name": "Preset Select",
                     "id": "obj-77",
-                    "maxclass": "live.numbox",
+                    "maxclass": "live.menu",
                     "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 997.0, 301.25, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 116.5, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
                             "parameter_longname": "PresetsSelect",
-                            "parameter_mmax": 128.0,
-                            "parameter_mmin": 1.0,
-                            "parameter_modmode": 4,
+                            "parameter_mmax": 8,
+                            "parameter_modmode": 0,
                             "parameter_shortname": "Select",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
+                            "parameter_type": 2
                         }
                     },
                     "varname": "PresetsSelect"
@@ -668,6 +669,338 @@
                     "varname": "ModuleBank",
                     "viewvisibility": 1
                 }
+            },
+            {
+                "box": {
+                    "id": "obj-100",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patcher": {
+                        "fileversion": 1,
+                        "appversion": {
+                            "major": 9,
+                            "minor": 1,
+                            "revision": 5,
+                            "architecture": "x64",
+                            "modernui": 1
+                        },
+                        "classnamespace": "box",
+                        "rect": [ 134.0, 164.0, 1192.0, 817.0 ],
+                        "visible": 1,
+                        "boxes": [
+                            {
+                                "box": {
+                                    "comment": "(message) `slotname` replies from the pattrstorage outlet",
+                                    "id": "obj-1",
+                                    "index": 1,
+                                    "maxclass": "inlet",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 50.0, 40.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "(bang) rebuild the preset name list",
+                                    "id": "obj-2",
+                                    "index": 2,
+                                    "maxclass": "inlet",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "patching_rect": [ 330.0, 40.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-3",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 160.0, 112.0, 126.0, 60.0 ],
+                                    "text": "Preset format: `slotname <number> <name>` then `slotname done`"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-4",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 50.0, 110.0, 100.0, 22.0 ],
+                                    "text": "route slotname"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-5",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 50.0, 150.0, 80.0, 22.0 ],
+                                    "text": "route done"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-7",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 95.0, 192.0, 400.0, 22.0 ],
+                                    "text": "if $s2 == <undefined> || $s2 == (undefined) then $i1 else $s2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-8",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 95.0, 244.0, 100.0, 22.0 ],
+                                    "text": "prepend append"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 50.0, 284.0, 91.0, 22.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-11",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 50.0, 324.0, 70.0, 22.0 ],
+                                    "text": "zl.slice 1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-12",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 130.0, 324.0, 145.0, 60.0 ],
+                                    "text": "omit slot `0` which is emitted by `getslotnamelist` but never contains a preset"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-13",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 50.0, 409.0, 180.0, 22.0 ],
+                                    "text": "prepend _parameter_range"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "(message) `_parameter_range` for the preset `live.menu`",
+                                    "id": "obj-14",
+                                    "index": 1,
+                                    "maxclass": "outlet",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 50.0, 459.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-15",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "bang", "bang" ],
+                                    "patching_rect": [ 330.0, 110.0, 40.0, 22.0 ],
+                                    "text": "t b b"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-16",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 351.0, 150.0, 40.0, 22.0 ],
+                                    "text": "set"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-17",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 396.0, 150.0, 141.0, 20.0 ],
+                                    "text": "Clear message with `set`"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-18",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 330.0, 364.0, 110.0, 22.0 ],
+                                    "text": "getslotnamelist"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "(message) `getslotnamelist` for pattrstorage",
+                                    "id": "obj-19",
+                                    "index": 2,
+                                    "maxclass": "outlet",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 330.0, 414.0, 30.0, 30.0 ]
+                                }
+                            }
+                        ],
+                        "lines": [
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-4", 0 ],
+                                    "source": [ "obj-1", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-13", 0 ],
+                                    "source": [ "obj-11", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-14", 0 ],
+                                    "source": [ "obj-13", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-16", 0 ],
+                                    "source": [ "obj-15", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-18", 0 ],
+                                    "source": [ "obj-15", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-16", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-19", 0 ],
+                                    "source": [ "obj-18", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-15", 0 ],
+                                    "source": [ "obj-2", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-5", 0 ],
+                                    "source": [ "obj-4", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-7", 0 ],
+                                    "source": [ "obj-5", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-7", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-8", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-11", 0 ],
+                                    "source": [ "obj-9", 0 ]
+                                }
+                            }
+                        ]
+                    },
+                    "patching_rect": [ 800.0, 410.0, 120.0, 22.0 ],
+                    "text": "p PresetNames"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-101",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "bang", "int", "int" ],
+                    "patching_rect": [ 600.0, 370.0, 110.0, 22.0 ],
+                    "text": "live.thisdevice"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-102",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 997.0, 328.0, 30.0, 22.0 ],
+                    "text": "+ 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-103",
+                    "linecount": 4,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 926.0, 410.0, 123.0, 60.0 ],
+                    "text": "Rebuild the preset `live.menu` names on load and after a preset is stored."
+                }
             }
         ],
         "lines": [
@@ -675,6 +1008,30 @@
                 "patchline": {
                     "destination": [ "obj-tabs", 0 ],
                     "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-100", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-77", 0 ],
+                    "source": [ "obj-100", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-100", 1 ],
+                    "source": [ "obj-101", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-79", 1 ],
+                    "source": [ "obj-102", 0 ]
                 }
             },
             {
@@ -741,6 +1098,18 @@
                 "patchline": {
                     "destination": [ "obj-24", 0 ],
                     "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-100", 1 ],
+                    "source": [ "obj-22", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-100", 0 ],
+                    "source": [ "obj-23", 0 ]
                 }
             },
             {
@@ -855,7 +1224,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-79", 1 ],
+                    "destination": [ "obj-102", 0 ],
                     "source": [ "obj-77", 0 ]
                 }
             },
