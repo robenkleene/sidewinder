@@ -242,7 +242,6 @@
             "obj-2::obj-17": [ "Overwrite", "Overwrite", 0 ],
             "obj-2::obj-20": [ "Randomize", "Randomize", 0 ],
             "obj-2::obj-42": [ "Export", "Export", 0 ],
-            "obj-2::obj-72": [ "PresetsLoad", "Load", 0 ],
             "obj-2::obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-2::obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
@@ -404,13 +403,14 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
-                "obj-2::obj-72": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
                 "obj-2::obj-77": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1,
+                    "parameter_invisible": 0,
+                    "parameter_modmode": 0,
+                    "parameter_range": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
+                    "parameter_type": 2,
+                    "parameter_unitstyle": 10
                 },
                 "obj-2::obj-8::obj-13::obj-11": {
                     "parameter_initial": 0.0,
@@ -429,6 +429,14 @@
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-13::obj-143::obj-86": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-13::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-13::obj-189": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -499,6 +507,14 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-2::obj-8::obj-18::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-18::obj-189": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
                 "obj-2::obj-8::obj-18::obj-25": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
@@ -566,6 +582,14 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-2::obj-8::obj-1::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-1::obj-189": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
                 "obj-2::obj-8::obj-1::obj-25": {
                     "parameter_initial": 1.0,
                     "parameter_initial_enable": 1
@@ -630,6 +654,14 @@
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-21::obj-143::obj-86": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-21::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-21::obj-189": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -724,8 +756,32 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-2::obj-8::obj-7::obj-24": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-244": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-248": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
                 "obj-2::obj-8::obj-7::obj-25": {
                     "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-250": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-251::obj-1": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-251::obj-2": {
+                    "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-7::obj-29::obj-1": {
@@ -740,6 +796,10 @@
                 },
                 "obj-2::obj-8::obj-7::obj-30": {
                     "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-32": {
+                    "parameter_initial": 2.0,
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-7::obj-33::obj-6": {
@@ -808,6 +868,10 @@
                     "parameter_range": [ 0.0, 127.0 ]
                 },
                 "obj-2::obj-8::obj-7::obj-6": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-62": {
                     "parameter_initial": 1.0,
                     "parameter_initial_enable": 1
                 },
