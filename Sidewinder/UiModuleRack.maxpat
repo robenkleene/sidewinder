@@ -23,7 +23,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 98.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 0.0, 115.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
@@ -94,7 +94,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 972.5, 277.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 116.5, 42.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 133.5, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
