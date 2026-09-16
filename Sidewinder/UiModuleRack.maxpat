@@ -130,7 +130,7 @@
                     "presentation_rect": [ 1.0, 116.5, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
+                            "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "4", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
                             "parameter_longname": "PresetsSelect",
                             "parameter_mmax": 8,
                             "parameter_modmode": 0,
@@ -687,9 +687,20 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 134.0, 164.0, 1192.0, 817.0 ],
+                        "rect": [ 825.0, 470.0, 1192.0, 817.0 ],
                         "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-10",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 290.0, 232.0, 150.0, 47.0 ],
+                                    "text": "Unnamed presets just get named with their preset number"
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "(message) `slotname` replies from the pattrstorage outlet",
@@ -772,11 +783,13 @@
                             {
                                 "box": {
                                     "id": "obj-9",
+                                    "linecount": 5,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 398.0, 91.0, 22.0 ]
+                                    "patching_rect": [ 50.0, 398.0, 101.0, 76.0 ],
+                                    "text": "0 Init Polyrhythm Rhythm 4 Bassline Melody Topline Latin Mutate"
                                 }
                             },
                             {
@@ -881,11 +894,11 @@
                                 "box": {
                                     "id": "obj-20",
                                     "maxclass": "newobj",
-                                    "numinlets": 2,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "" ],
-                                    "patching_rect": [ 111.0, 232.0, 120.0, 22.0 ],
-                                    "text": "route (undefined)"
+                                    "numinlets": 3,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
+                                    "patching_rect": [ 111.0, 232.0, 175.0, 22.0 ],
+                                    "text": "route (undefined) <(unnamed)>"
                                 }
                             },
                             {
@@ -895,7 +908,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 212.0, 273.0, 70.0, 22.0 ],
+                                    "patching_rect": [ 267.0, 289.0, 70.0, 22.0 ],
                                     "text": "zl.nth 1"
                                 }
                             },
@@ -906,7 +919,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 177.0, 192.0, 139.0, 33.0 ],
+                                    "patching_rect": [ 177.0, 192.0, 141.0, 33.0 ],
                                     "text": "Reversed so `route` can match the `(undefined)`"
                                 }
                             }
@@ -963,6 +976,12 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-21", 0 ],
+                                    "source": [ "obj-20", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
                                     "source": [ "obj-20", 1 ]
                                 }
                             },
