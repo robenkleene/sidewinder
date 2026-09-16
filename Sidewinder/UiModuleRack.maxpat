@@ -130,7 +130,7 @@
                     "presentation_rect": [ 1.0, 116.5, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "4", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
+                            "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
                             "parameter_longname": "PresetsSelect",
                             "parameter_mmax": 8,
                             "parameter_modmode": 0,
