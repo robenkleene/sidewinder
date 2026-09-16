@@ -751,11 +751,11 @@
                                 "box": {
                                     "id": "obj-7",
                                     "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 95.0, 192.0, 400.0, 22.0 ],
-                                    "text": "if $s2 == <undefined> || $s2 == (undefined) then $i1 else $s2"
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 111.0, 192.0, 60.0, 22.0 ],
+                                    "text": "zl.rev"
                                 }
                             },
                             {
@@ -765,7 +765,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 95.0, 244.0, 100.0, 22.0 ],
+                                    "patching_rect": [ 111.0, 331.0, 100.0, 22.0 ],
                                     "text": "prepend append"
                                 }
                             },
@@ -776,7 +776,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 284.0, 91.0, 22.0 ]
+                                    "patching_rect": [ 50.0, 398.0, 91.0, 22.0 ]
                                 }
                             },
                             {
@@ -786,7 +786,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 50.0, 324.0, 70.0, 22.0 ],
+                                    "patching_rect": [ 50.0, 438.0, 70.0, 22.0 ],
                                     "text": "zl.slice 1"
                                 }
                             },
@@ -797,7 +797,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 130.0, 324.0, 145.0, 60.0 ],
+                                    "patching_rect": [ 125.0, 438.0, 145.0, 60.0 ],
                                     "text": "omit slot `0` which is emitted by `getslotnamelist` but never contains a preset"
                                 }
                             },
@@ -808,7 +808,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 409.0, 180.0, 22.0 ],
+                                    "patching_rect": [ 101.0, 542.0, 180.0, 22.0 ],
                                     "text": "prepend _parameter_range"
                                 }
                             },
@@ -820,7 +820,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 50.0, 459.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 101.0, 594.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -841,7 +841,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 351.0, 150.0, 40.0, 22.0 ],
+                                    "patching_rect": [ 351.0, 320.0, 40.0, 22.0 ],
                                     "text": "set"
                                 }
                             },
@@ -851,7 +851,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 396.0, 150.0, 141.0, 20.0 ],
+                                    "patching_rect": [ 398.0, 321.0, 141.0, 20.0 ],
                                     "text": "Clear message with `set`"
                                 }
                             },
@@ -875,6 +875,39 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 330.0, 414.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-20",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 111.0, 232.0, 120.0, 22.0 ],
+                                    "text": "route (undefined)"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-21",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 212.0, 273.0, 70.0, 22.0 ],
+                                    "text": "zl.nth 1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-22",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 177.0, 192.0, 139.0, 33.0 ],
+                                    "text": "Reversed so `route` can match the `(undefined)`"
                                 }
                             }
                         ],
@@ -929,6 +962,24 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-21", 0 ],
+                                    "source": [ "obj-20", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-20", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-21", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-5", 0 ],
                                     "source": [ "obj-4", 0 ]
                                 }
@@ -947,7 +998,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-8", 0 ],
+                                    "destination": [ "obj-20", 0 ],
                                     "source": [ "obj-7", 0 ]
                                 }
                             },
