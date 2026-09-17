@@ -61,7 +61,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 880.0, 632.0, 42.0, 113.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 193.0, 38.0, 41.0, 110.0 ],
+                    "presentation_rect": [ 193.0, 38.0, 41.0, 108.0 ],
                     "varname": "AccentMinMax",
                     "viewvisibility": 1
                 }
@@ -110,7 +110,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 727.0, 664.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 389.5, 39.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 341.5, 38.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesOctave",
@@ -506,7 +506,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1682.0, 1154.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 441.0, 3.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 3.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -635,7 +635,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1815.0, 1186.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 441.0, 19.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 19.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -674,7 +674,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1631.0, 1162.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 441.0, 38.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 35.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeTrigger",
@@ -921,7 +921,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1743.0, 400.0, 50.0, 78.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 238.0, 116.0, 46.0, 36.0 ],
+                    "presentation_rect": [ 238.0, 116.0, 46.0, 30.0 ],
                     "varname": "DivisionMinMax",
                     "viewvisibility": 1
                 }
@@ -1175,7 +1175,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1472.0, 930.0, 32.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 448.0, 118.0, 29.0, 18.0 ],
+                    "presentation_rect": [ 438.0, 114.0, 29.0, 18.0 ],
                     "text": "Auto"
                 }
             },
@@ -1191,7 +1191,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1472.0, 962.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 440.0, 136.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 438.0, 131.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeAuto",
@@ -1566,7 +1566,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 628.0, 664.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 295.0, 100.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 295.0, 98.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesRests",
@@ -1592,7 +1592,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 577.5, 664.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 340.0, 39.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 388.5, 38.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesOrder",
@@ -1618,7 +1618,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 525.5, 664.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 340.0, 98.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 388.5, 98.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesRepeat",
@@ -2295,7 +2295,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1335.0, 323.5, 42.0, 112.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 147.0, 38.0, 41.0, 110.0 ],
+                    "presentation_rect": [ 147.0, 38.0, 41.0, 108.0 ],
                     "varname": "VelMinMax",
                     "viewvisibility": 1
                 }
@@ -2319,7 +2319,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1123.0, 322.0, 42.0, 115.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 100.0, 38.0, 41.0, 110.0 ],
+                    "presentation_rect": [ 100.0, 38.0, 41.0, 108.0 ],
                     "varname": "RotateMinMax",
                     "viewvisibility": 1
                 }
@@ -2343,7 +2343,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 915.0, 324.0, 42.0, 111.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 53.0, 38.0, 41.0, 110.0 ],
+                    "presentation_rect": [ 53.0, 38.0, 41.0, 108.0 ],
                     "varname": "StepsMinMax",
                     "viewvisibility": 1
                 }
@@ -2367,7 +2367,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 706.0, 322.5, 42.0, 114.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 38.0, 41.0, 110.0 ],
+                    "presentation_rect": [ 5.0, 38.0, 41.0, 108.0 ],
                     "varname": "PulsesMinMax",
                     "viewvisibility": 1
                 }
