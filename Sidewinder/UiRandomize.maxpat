@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 226.0, 244.0, 2300.0, 1103.0 ],
+        "rect": [ 799.0, 332.0, 966.0, 1014.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -26,7 +26,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 880.0, 600.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 191.0, 20.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 191.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -61,7 +61,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 880.0, 632.0, 42.0, 113.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 193.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 193.0, 38.0, 41.0, 110.0 ],
                     "varname": "AccentMinMax",
                     "viewvisibility": 1
                 }
@@ -138,7 +138,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1034.0, 1360.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 387.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 386.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -282,7 +282,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 792.0, 772.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 387.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 386.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -405,7 +405,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 679.0, 664.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 39.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 295.0, 38.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesRoot",
@@ -821,7 +821,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 712.0, 772.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 340.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 339.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1255,7 +1255,7 @@
                         "RandomizeDivision": [ 0.0 ],
                         "RandomizeDur": [ 0.0 ],
                         "RandomizeMerge": [ 0.0 ],
-                        "RandomizeNotes": [ 0.0 ],
+                        "RandomizeNotes": [ 1.0 ],
                         "RandomizeNotesOctave": [ 0.0 ],
                         "RandomizeNotesOrder": [ 0.0 ],
                         "RandomizeNotesRepeat": [ 0.0 ],
@@ -1505,7 +1505,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 552.0, 824.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 293.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 292.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1566,7 +1566,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 628.0, 664.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 99.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 295.0, 100.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandomizeNotesRests",
@@ -1699,7 +1699,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 706.0, 1251.0, 100.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 340.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 339.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Aeolian", "Augmented", "Augmentedfifth", "Bluesmajor", "Bluesminor", "Chromatic", "Diminished", "Dorian", "Halfwhole", "Harmonicminor", "Ionian", "Japanese", "Locrian", "Lydian", "Major", "Melodicminor", "Minor", "Mixolydian", "Oriental", "Pentatonicmajor", "Pentatonicminor", "Phrygian", "Wholehalf", "Wholetone" ],
@@ -1862,7 +1862,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 160.0, 768.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 293.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 292.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -2295,7 +2295,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1335.0, 323.5, 42.0, 112.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 146.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 147.0, 38.0, 41.0, 110.0 ],
                     "varname": "VelMinMax",
                     "viewvisibility": 1
                 }
@@ -2319,7 +2319,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1123.0, 322.0, 42.0, 115.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 99.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 100.0, 38.0, 41.0, 110.0 ],
                     "varname": "RotateMinMax",
                     "viewvisibility": 1
                 }
@@ -2343,7 +2343,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 915.0, 324.0, 42.0, 111.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 52.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 53.0, 38.0, 41.0, 110.0 ],
                     "varname": "StepsMinMax",
                     "viewvisibility": 1
                 }
@@ -2367,7 +2367,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 706.0, 322.5, 42.0, 114.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 5.0, 38.0, 41.0, 110.0 ],
                     "varname": "PulsesMinMax",
                     "viewvisibility": 1
                 }
@@ -3159,7 +3159,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1160.0, 26.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 289.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 287.0, 152.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -3179,7 +3179,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1013.0, 26.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 291.0, 0.0, 146.0, 152.0 ],
+                    "presentation_rect": [ 289.0, 0.0, 146.0, 152.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
