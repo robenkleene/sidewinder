@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 799.0, 332.0, 966.0, 1014.0 ],
+        "rect": [ 225.0, 183.0, 966.0, 1014.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1255,7 +1255,7 @@
                         "RandomizeDivision": [ 0.0 ],
                         "RandomizeDur": [ 0.0 ],
                         "RandomizeMerge": [ 0.0 ],
-                        "RandomizeNotes": [ 1.0 ],
+                        "RandomizeNotes": [ 0.0 ],
                         "RandomizeNotesOctave": [ 0.0 ],
                         "RandomizeNotesOrder": [ 0.0 ],
                         "RandomizeNotesRepeat": [ 0.0 ],
@@ -3159,7 +3159,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1160.0, 26.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 287.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 287.0, 169.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -3179,7 +3179,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1013.0, 26.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 289.0, 0.0, 146.0, 152.0 ],
+                    "presentation_rect": [ 289.0, 0.0, 146.0, 169.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
