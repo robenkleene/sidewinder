@@ -25,9 +25,9 @@ var ENCODERS = [
 var BUTTONS = [
 ["-",  "$1-Track",           "$1-Merge",                      "$1-Auto",                "-",                    "-",                     "-",                    "-"],
 ["-",  "RandomizeDivision",  "Randomize1",                    "Randomize2",             "Randomize3",           "Randomize4",            "Randomize",            "-"],
-["-",  "RandomizePulses",    "-",                             "RandomizeSteps",         "-",                    "RandomizeRotate",       "-",                    "-"],
-["-",  "RandomizeVel",       "-",                             "RandomizePitch",         "-",                    "RandomizeDur",          "-",                    "-"],
-["-",  "RandomizeNotes",     "RandomizeNotesScaleRandTonal",  "RandomizeNotesReverse",  "RandomizeNotesRests",  "RandomizeNotesRepeat",  "RandomizeNotesOrder",  "RandomizeNotesScaleRand"],
+["-",  "RandomizePulses",    "RandomizeMerge",                             "RandomizeSteps",         "-",                    "RandomizeRotate",       "-",                    "-"],
+["-",  "RandomizeVel",       "-",                             "RandomizePitch",         "-",                    "RandomizeDur",          "-",                     "RandomizeNotesReverse"],
+["-",  "RandomizeNotes",     "RandomizeNotesScaleRandTonal",  "RandomizeNotesRests",  "RandomizeNotesRepeat",  "RandomizeNotesOrder",  "RandomizeNotesScaleRand", "RandomizeNotesScaleChord"],
 ];
 
 // State
