@@ -16,10 +16,10 @@ setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 // each toggle (button) above its `-Min` encoder, with `-Max` in the next slot.
 var ENCODERS = [
 ["Main",         "Tab",  "$1-Pulses",              "$1-Steps",               "$1-Rotate",           "$1-Pitch",            "$1-Vel",               "$1-Dur",               "PresetsSelect"],
-["Rand Tracks",  "Tab",  "RandomizeDivision-Min",  "RandomizeDivision-Max",  "$1-Division",         "$1-Accent",,          "-",                    "RandomizeAuto",        "-"],
+["Rand Tracks",  "Tab",  "RandomizeDivision-Min",  "RandomizeDivision-Max",  "$1-Division",         "$1-Accent",           "-",                    "RandomizeAuto",        "-"],
 ["Rand Steps",   "Tab",  "RandomizePulses-Min",    "RandomizePulses-Max",    "RandomizeSteps-Min",  "RandomizeSteps-Max",  "RandomizeRotate-Min",  "RandomizeRotate-Max",  "-"],
-["Rand Notes",   "Tab",  "RandomizeVel-Min",       "RandomizeVel-Max",       "RandomizePitch-Min",  "RandomizePitch-Max",  "RandomizeDur-Min",     "RandomizeDur-Max",     "-"],
-["Rand Scale",   "Tab",  "RandomizeAccent-Min",    "RandomizeAccent-Max",    "RandomizeNotesScale", "RandomizeNotesRoot",  "RandomizeNotesRepeat", "RandomizeNotesOrder",  "-"],
+["Rand Notes",   "Tab",  "RandomizeVel-Min",       "RandomizeVel-Max",       "RandomizePitch-Min",  "RandomizePitch-Max",  "RandomizeDur-Min",     "RandomizeDur-Max",     "RandomizeNotesOctave"],
+["Rand Scale",   "Tab",  "RandomizeAccent-Min",    "RandomizeAccent-Max",    "RandomizeNotesScale", "RandomizeNotesRoot",  "RandomizeNotesRepeat", "RandomizeNotesOrder",  "RandomizeNotesRests"],
 ];
 
 var BUTTONS = [
