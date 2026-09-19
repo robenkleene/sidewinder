@@ -158,7 +158,7 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 2. **Polyrhythm**: Polyrhythm demo, with randomize settings for polyrhythms
 3. **Rhythm**: 4/4 rhythm demo, with randomize settings for four bar rhythms
 4. **Bass**: Bass line demo, with randomize settings for bass lines
-5. **Bassline**: Four bar bass line demo, with randomize settings for four bar bass lines
+5. **Bassline**: One bar bass line demo, with randomize settings for bar locked bass lines
 6. **Melody**: Melody demo, with randomize settings for melodies
 7. **Topline**: Four bar melody demo, with randomize settings for four bar melodies
 8. **Latin**: Hand percussion demo
