@@ -21,7 +21,7 @@ MIDI_MAX = 127;
 DURATION_VALUES = [15, 30, 60, 120, 240, 480, 960];
 
 // External Dependencies
-include("Toussaint");
+include("Accent");
 
 // Store input
 reset(null);
@@ -105,13 +105,8 @@ function velocity(value) {
   // `accent` greater than `0` is percentage of notes in a Euclidean sequence
   // of the same length that use the `max`, the rest use `min`
   var accent = input[INLET_ACCENT];
-  // At least one accent whenever `accent` is on, otherwise a low enough
-  // percentage rounds down to none and nothing is accented
-  var accents = null;
-  if (accent > 0) {
-    var count = Math.round(accent * values.length);
-    accents = toussaint(count > 0 ? count : 1, values.length);
-  }
+
+  var accents = accentedNotes(accent, values.length);
   for (var i = 0; i < values.length; i++) {
     if (Math.random() < rests) {
       values[i] = 0;
