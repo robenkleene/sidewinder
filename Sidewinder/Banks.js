@@ -12,8 +12,6 @@ setinletassist(INLET_TAB, "(bang, int) trigger bank messages, tab");
 setoutletassist(OUTLET_BANK, "(message) bank control messages");
 setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
-// Track banks first, then self-contained randomize banks. Randomize banks pair
-// each toggle (button) above its `-Min` encoder, with `-Max` in the next slot.
 // Re-align with `sed 's/, */,\t/g' | column -t -s $'\t'`
 var ENCODERS = [
 ["Main",         "Tab",  "PresetsSelect",        "$1-Pulses",            "$1-Steps",              "$1-Rotate",            "$1-Pitch",             "$1-Vel",                 "$1-Accent"],
