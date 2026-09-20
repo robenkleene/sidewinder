@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 298.0, 285.0, 1843.0, 1041.0 ],
+        "rect": [ 798.0, 313.0, 1348.0, 1041.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -79,12 +79,12 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1023.0, 272.0, 154.0, 60.0 ],
-                    "text": "`Select` is excluded from `pattr` because otherwise loading a patch also triggers a preset load."
+                    "text": "`PresetsSelect` is excluded from `pattr` because otherwise loading a patch also triggers a preset load."
                 }
             },
             {
                 "box": {
-                    "annotation": "The preset to recall. Names come from the preset file, a preset with no name shows its number.",
+                    "annotation": "The preset to recall.",
                     "annotation_name": "Preset Select",
                     "id": "obj-77",
                     "maxclass": "live.menu",
@@ -207,7 +207,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 744.0, 216.0, 171.0, 22.0 ],
+                    "patching_rect": [ 664.0, 216.0, 171.0, 22.0 ],
                     "text": "loadmess pattrstorage Presets"
                 }
             },
@@ -535,7 +535,7 @@
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "preset", "int", "preset", "int", "" ],
-                    "patching_rect": [ 744.0, 272.0, 32.0, 34.0 ],
+                    "patching_rect": [ 664.0, 272.0, 112.0, 30.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
                     "presentation_rect": [ 534.0, 33.0, 40.0, 64.0 ]
@@ -626,9 +626,19 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 825.0, 470.0, 1192.0, 817.0 ],
-                        "visible": 1,
+                        "rect": [ 521.0, 434.0, 1192.0, 817.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-103",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 556.0, 35.0, 123.0, 60.0 ],
+                                    "text": "Rebuild the preset `live.menu` names on load and after a preset is stored."
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-10",
@@ -985,7 +995,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "int", "int" ],
-                    "patching_rect": [ 600.0, 370.0, 110.0, 22.0 ],
+                    "patching_rect": [ 932.5, 370.0, 110.0, 22.0 ],
                     "text": "live.thisdevice"
                 }
             },
@@ -998,17 +1008,6 @@
                     "outlettype": [ "int" ],
                     "patching_rect": [ 972.5, 304.0, 30.0, 22.0 ],
                     "text": "+ 1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-103",
-                    "linecount": 4,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 926.0, 410.0, 123.0, 60.0 ],
-                    "text": "Rebuild the preset `live.menu` names on load and after a preset is stored."
                 }
             }
         ],
