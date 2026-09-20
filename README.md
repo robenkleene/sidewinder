@@ -64,7 +64,7 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 - **Track 1-4**: Select which track to display
 - **Rand** tab: Display the randomize pan
 - **Rand** button: Trigger randomize
-- **Select**: Choose the selected preset
+- **Preset**: Load a preset
 - **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
 
 ### Pulses

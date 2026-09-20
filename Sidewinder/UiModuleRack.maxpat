@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 798.0, 313.0, 1348.0, 1041.0 ],
+        "rect": [ 798.0, 306.0, 1348.0, 1041.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -78,7 +78,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1023.0, 272.0, 154.0, 60.0 ],
+                    "patching_rect": [ 1023.0, 272.0, 157.0, 60.0 ],
                     "text": "`PresetsSelect` is excluded from `pattr` because otherwise loading a patch also triggers a preset load."
                 }
             },
@@ -101,7 +101,7 @@
                             "parameter_longname": "PresetsSelect",
                             "parameter_mmax": 8,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Select",
+                            "parameter_shortname": "Preset",
                             "parameter_type": 2
                         }
                     },
@@ -1288,7 +1288,7 @@
             "obj-17": [ "Overwrite", "Overwrite", 0 ],
             "obj-20": [ "Randomize", "Randomize", 0 ],
             "obj-42": [ "Export", "Export", 0 ],
-            "obj-77": [ "PresetsSelect", "Select", 0 ],
+            "obj-77": [ "PresetsSelect", "Preset", 0 ],
             "obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
             "obj-8::obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
             "obj-8::obj-13::obj-143::obj-141": [ "2-Right", "Right", 0 ],
