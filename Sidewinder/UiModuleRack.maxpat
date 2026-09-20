@@ -715,7 +715,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 111.0, 331.0, 100.0, 22.0 ],
+                                    "patching_rect": [ 111.0, 332.0, 100.0, 22.0 ],
                                     "text": "prepend append"
                                 }
                             },
@@ -727,7 +727,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 398.0, 101.0, 76.0 ],
+                                    "patching_rect": [ 50.0, 423.0, 101.0, 76.0 ],
                                     "text": "0 Init Polyrhythm Rhythm Bass Bassline Melody Topline Latin Mutate"
                                 }
                             },
@@ -738,7 +738,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 50.0, 438.0, 70.0, 22.0 ],
+                                    "patching_rect": [ 50.0, 519.0, 70.0, 22.0 ],
                                     "text": "zl.slice 1"
                                 }
                             },
@@ -749,7 +749,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 125.0, 438.0, 145.0, 60.0 ],
+                                    "patching_rect": [ 125.0, 519.0, 145.0, 60.0 ],
                                     "text": "omit slot `0` which is emitted by `getslotnamelist` but never contains a preset"
                                 }
                             },
@@ -760,7 +760,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 101.0, 542.0, 180.0, 22.0 ],
+                                    "patching_rect": [ 101.0, 623.0, 180.0, 22.0 ],
                                     "text": "prepend _parameter_range"
                                 }
                             },
@@ -772,7 +772,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 101.0, 594.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 101.0, 675.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -793,7 +793,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 351.0, 320.0, 40.0, 22.0 ],
+                                    "patching_rect": [ 351.0, 289.0, 40.0, 22.0 ],
                                     "text": "set"
                                 }
                             },
@@ -847,7 +847,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 267.0, 289.0, 70.0, 22.0 ],
+                                    "patching_rect": [ 267.0, 283.0, 70.0, 22.0 ],
                                     "text": "zl.nth 1"
                                 }
                             },
