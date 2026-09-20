@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -19,7 +19,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 232.0, 560.0, 152.0, 100.0 ],
+                    "patching_rect": [ 232.0, 560.0, 155.0, 100.0 ],
                     "text": "Only clamp once the device is fully initialized. Otherwise a value arriving mid-restore can drag the other value with it, and that write is then stored as if it were an edit."
                 }
             },
@@ -143,7 +143,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 128.0, 304.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 58.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Max",
@@ -196,7 +196,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 352.0, 232.0, 170.0, 87.0 ],
+                    "patching_rect": [ 352.0, 232.0, 172.0, 87.0 ],
                     "text": "`setup` configures the parameter only, it never writes values. Values belong to `pattrstorage` and to the Live parameter state, and a default written here would race both."
                 }
             },

@@ -80,10 +80,12 @@ To the left of the piano roll.
 - **Track**: Toggle playback for this track
 - **Pitch**: Set the pitch of the notes
 - **Velocity**: Set the velocity of the notes
-- **Duration**: Set the duration of the notes. The note duration can only be set to `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (there appears to be an undocumented limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that limits the minimum duration to `7.5` ticks and the maximum duration to `960` ticks).
+- **Duration**: Set the duration of the notes. The note duration can only be set to `1/128` `1/64`, `1/32`, `1/16`,  `1/8`, `1/4`, or `1/2` notes (this is an undocumented limitation of the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer, which stores durations only on a doubling ladder of tick values between `7.5` and `960` [anything in between is rounded up]).
 - **Show**: Select between showing **All**, **Pitch**, **Velocity**, or  **Duration** in the step sequencer
 - **Set** (only visible when `Auto` is toggled off): Set the steps based on the current settings
 - **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
+- **Accent**: The percentage of notes that are accented, spread evenly across the sequence with the same Euclidean algorithm as the pulses. An accented note plays at the maximum velocity.
+- **Merge**: Toggle whether consecutive notes of the same pitch are merged into one held note (note this adds a single tick to note durations in order to force consecutive notes to overlap).
 - **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
 - **Ch**: The MIDI channel that the track outputs to (note that Ableton Live actually merges all MIDI to channel one, limiting the usefulness of this in Live)
 - Directions (only visible when `Auto` is toggled off): Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
@@ -101,6 +103,8 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 - **Notes**: Whether to randomize individual notes. If the notes is off, then randomize for Velocity, Pitch, and Duration will randomize changing those values on the individual track settings. If notes is on, then randomize for those values will create randomize the individual notes (and the track settings will be used for default values, e.g., for off notes with a velocity of 0).
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
 - For Pitch, the top number and bottom pitches are the minimum and maximum pitches
+- **Accent**: Whether to randomize each track's **Accent** setting
+- **Merge**: Whether to randomize each track's **Merge** setting
 - **Note Trigger**: If the incoming MIDI note matches this note, than randomize is triggered (i.e., this is a way to trigger randomize via MIDI)
 - **Set Note Trigger**: The next incoming note will set the note trigger value without triggering randomize
 - **Auto Beats**: Automatically trigger a randomize after every number of beats (this is based on the current transport status, e.g., if it's set to `4` and you're currently on beat `2`, it'll trigger the randomize in `2` more beats)
@@ -109,11 +113,17 @@ Randomize generates a random sequence. The **Notes** setting is significant, wit
 
 With the **Notes** is off, only the minimum and maximum pitches are used. If **Notes** is on, Sidewinder generates a note sequence and provides additional parameters to randomize the sequence. If all the additional randomization parameters are off, the sequence generated will simply generate notes in the selected scale in order.
 
+The sequence starts from the track's **Pitch**, which is the root of the generated notes. If the track's pitch is outside the pitch **Min** and **Max**, then it's moved by octave to the nearest note of the same pitch class inside the range (if the range doesn't contain the track's pitch in any octave, then the nearest value in the range is used).
+
 - **Velocity**: Whether to randomize velocity
 - **Pitch**: Whether to randomize pitch
 - **Duration**: Whether to randomize duration
-- **Scale**: The scale the sequence will be generated in
-- **Rand**: Randomize the scale
+- **Scale** menu: The scale the sequence will be generated in
+- **Scale** button: Randomize the scale
+- **Tonal**: Only choose from the scales that are tonal
+- **Chord**: Only choose notes from the scale in a chord (every other degree)
+- **Root**: The percentage chance that each note is replaced by the root. Higher values pull the sequence toward a single note, which is what makes a bass line sound like a bass line rather than a run through a scale. The root is the track's **Pitch**, as described above.
+- **Octave**: The percentage chance that each note jumps an octave (in either direction, and this ignores the pitch **Min** and **Max**, so a jumped note can fall outside them)
 - **Reverse**: Reverse the order of the generated sequence (i.e., from ascending to descending)
 - **Repeat, Order, Rests**: The percentage chance that each note will be affected when generating the note sequence. Repeat is the percentage chance each note will be repeated, Order is the percentage change each note will be have it's position in the sequence randomized, and Rests is the percentage chance the note will be replaced by a rest. **Note:** Rests are steps with a velocity of `0`, and those steps don't output a note at all, so the `VelMin` minimum of `0` never produces an audible note.
 
@@ -136,7 +146,7 @@ The sequencer uses the `toussaint` version by default.
 
 ## Ableton Push
 
-Sidewinder supports Ableton Push. The first knob always controls which tab is visible. There's `Main` and `Play` banks for each of the four tracks, and the randomize parameters are across `Randomize`, `Toggles`, `Tracks`, `Ranges`, `Notes`, and `Trigger`.
+Sidewinder supports Ableton Push. The first knob always controls which tab is visible.
 
 ## Patterns
 
@@ -145,29 +155,34 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 ## Presets
 
 1. **Init**: Default state
-2. **Randomize Polyrhythm**: Randomize settings for polyrhythms
-3. **Randomize Bar Rhythm**: Randomize settings for four bar rhythms
-4. **Randomize Bass**: Randomize settings for bass lines
-5. **Randomize Bar Bass**: Randomize settings for four bar bass lines
-6. **Randomize Melody**: Randomize settings for melodies
-7. **Randomize Bar Melody**: Randomize settings for four bar melodies
-8. **House**: 4/4 rhythm demo
-9. **Latin**: Hand percussion demo
-10. **Polyrhythm**: Polyrhythm demo
-11. **Mutate**: 4/4 rhythm demo that randomizes
+2. **Polyrhythm**: Polyrhythm demo, with randomize settings for polyrhythms
+3. **Rhythm**: 4/4 rhythm demo, with randomize settings for four bar rhythms
+4. **Bass**: Bass line demo, with randomize settings for bass lines
+5. **Bassline**: One bar bass line demo, with randomize settings for bar locked bass lines
+6. **Melody**: Melody demo, with randomize settings for melodies
+7. **Topline**: Four bar melody demo, with randomize settings for four bar melodies
+8. **Latin**: Hand percussion demo
+9. **Mutate**: 4/4 rhythm demo that randomizes
 
 ## Demos
 
-- [House](assets/demo/house.wav): 4/4 rhythm demo
-- [Latin](assets/demo/latin.wav): Hand percussion demo
 - [Polyrhythm](assets/demo/polyrhythm.wav): Polyrhythm demo
+- [Rhythm](assets/demo/rhythm.wav): 4/4 rhythm demo
+- [Latin](assets/demo/latin.wav): Hand percussion demo
 - [Mutate](assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
 
 ### Reconstructing
 
 To reconstruct this demo loops in Ableton Live, setup a track with Sidewinder with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from [Thwomp](https://github.com/robenkleene/thwomp).
 
-#### House
+#### Polyrhythm
+
+1. 808 Kick
+2. Hi-Hat
+3. Tom
+4. Cowbell
+
+#### Rhythm
 
 1. Kick
 2. Snare
@@ -180,13 +195,6 @@ To reconstruct this demo loops in Ableton Live, setup a track with Sidewinder wi
 2. Bongo High
 3. Conga Low
 4. Conga High
-
-#### Polyrhythm
-
-1. 808 Kick
-2. Hi-Hat
-3. Tom
-4. Cowbell
 
 #### Mutate
 

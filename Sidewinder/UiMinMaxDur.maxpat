@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 660.0, 133.0, 975.0, 911.0 ],
+        "rect": [ 233.0, 275.0, 975.0, 911.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -19,7 +19,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 364.0, 604.0, 152.0, 100.0 ],
+                    "patching_rect": [ 364.0, 604.0, 155.0, 100.0 ],
                     "text": "Only clamp once the device is fully initialized. Otherwise a value arriving mid-restore can drag the other value with it, and that write is then stored as if it were an edit."
                 }
             },
@@ -107,7 +107,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 128.0, 280.0, 48.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 58.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],

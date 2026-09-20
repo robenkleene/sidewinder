@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -239,16 +239,17 @@
             "obj-2::obj-10": [ "Tab", "Tab", 0 ],
             "obj-2::obj-11": [ "Read", "Read", 0 ],
             "obj-2::obj-13": [ "Write", "Write", 0 ],
-            "obj-2::obj-17": [ "Overwrite", "OW", 0 ],
-            "obj-2::obj-20": [ "Randomize", "Rand", 0 ],
+            "obj-2::obj-17": [ "Overwrite", "Overwrite", 0 ],
+            "obj-2::obj-20": [ "Randomize", "Randomize", 0 ],
             "obj-2::obj-42": [ "Export", "Export", 0 ],
-            "obj-2::obj-72": [ "PresetsLoad", "Load", 0 ],
             "obj-2::obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-2::obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-141": [ "2-Right", "Right", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-142": [ "2-Left", "Left", 0 ],
             "obj-2::obj-8::obj-13::obj-143::obj-86": [ "2-Up", "Up", 0 ],
+            "obj-2::obj-8::obj-13::obj-188": [ "2-Merge", "Merge", 0 ],
+            "obj-2::obj-8::obj-13::obj-189": [ "2-Accent", "Accent", 0 ],
             "obj-2::obj-8::obj-13::obj-25": [ "2-Track", "Track", 0 ],
             "obj-2::obj-8::obj-13::obj-28": [ "2-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-13::obj-43": [ "2-Ch", "Ch", 0 ],
@@ -266,6 +267,8 @@
             "obj-2::obj-8::obj-18::obj-143::obj-141": [ "3-Right", "Right", 0 ],
             "obj-2::obj-8::obj-18::obj-143::obj-142": [ "3-Left", "Left", 0 ],
             "obj-2::obj-8::obj-18::obj-143::obj-86": [ "3-Up", "Up", 0 ],
+            "obj-2::obj-8::obj-18::obj-188": [ "3-Merge", "Merge", 0 ],
+            "obj-2::obj-8::obj-18::obj-189": [ "3-Accent", "Accent", 0 ],
             "obj-2::obj-8::obj-18::obj-25": [ "3-Track", "Track", 0 ],
             "obj-2::obj-8::obj-18::obj-28": [ "3-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-18::obj-43": [ "3-Ch", "Ch", 0 ],
@@ -283,6 +286,8 @@
             "obj-2::obj-8::obj-1::obj-143::obj-141": [ "1-Right", "Right", 0 ],
             "obj-2::obj-8::obj-1::obj-143::obj-142": [ "1-Left", "Left", 0 ],
             "obj-2::obj-8::obj-1::obj-143::obj-86": [ "1-Up", "Up", 0 ],
+            "obj-2::obj-8::obj-1::obj-188": [ "1-Merge", "Merge", 0 ],
+            "obj-2::obj-8::obj-1::obj-189": [ "1-Accent", "Accent", 0 ],
             "obj-2::obj-8::obj-1::obj-25": [ "1-Track", "Track", 0 ],
             "obj-2::obj-8::obj-1::obj-28": [ "1-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-1::obj-43": [ "1-Ch", "Ch", 0 ],
@@ -300,6 +305,8 @@
             "obj-2::obj-8::obj-21::obj-143::obj-141": [ "4-Right", "Right", 0 ],
             "obj-2::obj-8::obj-21::obj-143::obj-142": [ "4-Left", "Left", 0 ],
             "obj-2::obj-8::obj-21::obj-143::obj-86": [ "4-Up", "Up", 0 ],
+            "obj-2::obj-8::obj-21::obj-188": [ "4-Merge", "Merge", 0 ],
+            "obj-2::obj-8::obj-21::obj-189": [ "4-Accent", "Accent", 0 ],
             "obj-2::obj-8::obj-21::obj-25": [ "4-Track", "Track", 0 ],
             "obj-2::obj-8::obj-21::obj-28": [ "4-Dur", "Duration", 0 ],
             "obj-2::obj-8::obj-21::obj-43": [ "4-Ch", "Ch", 0 ],
@@ -323,10 +330,17 @@
             "obj-2::obj-8::obj-7::obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-2::obj-8::obj-7::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-2::obj-8::obj-7::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
+            "obj-2::obj-8::obj-7::obj-24": [ "RandomizeMerge", "Merge", 0 ],
+            "obj-2::obj-8::obj-7::obj-244": [ "RandomizeNotesScaleChord", "Chord", 0 ],
+            "obj-2::obj-8::obj-7::obj-248": [ "RandomizeNotesOctave", "Octave", 0 ],
             "obj-2::obj-8::obj-7::obj-25": [ "RandomizeRotate", "Rotate", 0 ],
+            "obj-2::obj-8::obj-7::obj-250": [ "RandomizeAccent", "Accent", 0 ],
+            "obj-2::obj-8::obj-7::obj-251::obj-1": [ "RandomizeAccent-Min", "Min", 0 ],
+            "obj-2::obj-8::obj-7::obj-251::obj-2": [ "RandomizeAccent-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-30": [ "RandomizeDur", "Duration", 0 ],
+            "obj-2::obj-8::obj-7::obj-32": [ "RandomizeNotesRoot", "Root", 0 ],
             "obj-2::obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
@@ -342,6 +356,7 @@
             "obj-2::obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-6": [ "RandomizeVel", "Velocity", 0 ],
+            "obj-2::obj-8::obj-7::obj-62": [ "RandomizeNotesScaleRandTonal", "Tonal", 0 ],
             "obj-2::obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
             "obj-2::obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-2::obj-8::obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
@@ -388,13 +403,14 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
-                "obj-2::obj-72": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
                 "obj-2::obj-77": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1,
+                    "parameter_invisible": 0,
+                    "parameter_modmode": 0,
+                    "parameter_range": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
+                    "parameter_type": 2,
+                    "parameter_unitstyle": 10
                 },
                 "obj-2::obj-8::obj-13::obj-11": {
                     "parameter_initial": 0.0,
@@ -413,6 +429,14 @@
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-13::obj-143::obj-86": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-13::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-13::obj-189": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -483,6 +507,14 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-2::obj-8::obj-18::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-18::obj-189": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
                 "obj-2::obj-8::obj-18::obj-25": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
@@ -550,6 +582,14 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-2::obj-8::obj-1::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-1::obj-189": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
                 "obj-2::obj-8::obj-1::obj-25": {
                     "parameter_initial": 1.0,
                     "parameter_initial_enable": 1
@@ -614,6 +654,14 @@
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-21::obj-143::obj-86": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-21::obj-188": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-21::obj-189": {
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
@@ -708,8 +756,32 @@
                     "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-2::obj-8::obj-7::obj-24": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-244": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-248": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
                 "obj-2::obj-8::obj-7::obj-25": {
                     "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-250": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-251::obj-1": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-251::obj-2": {
+                    "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-7::obj-29::obj-1": {
@@ -724,6 +796,10 @@
                 },
                 "obj-2::obj-8::obj-7::obj-30": {
                     "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-32": {
+                    "parameter_initial": 2.0,
                     "parameter_initial_enable": 1
                 },
                 "obj-2::obj-8::obj-7::obj-33::obj-6": {
@@ -792,6 +868,10 @@
                     "parameter_range": [ 0.0, 127.0 ]
                 },
                 "obj-2::obj-8::obj-7::obj-6": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-2::obj-8::obj-7::obj-62": {
                     "parameter_initial": 1.0,
                     "parameter_initial_enable": 1
                 },

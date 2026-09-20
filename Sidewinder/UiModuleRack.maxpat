@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 344.0, 352.0, 1320.0, 772.0 ],
+        "rect": [ 298.0, 285.0, 1843.0, 1041.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
@@ -23,7 +23,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 98.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 0.0, 115.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
@@ -74,98 +74,38 @@
             {
                 "box": {
                     "id": "obj-85",
-                    "linecount": 5,
+                    "linecount": 4,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1054.0, 244.25, 154.0, 74.0 ],
-                    "text": "`Load` and `Select` are excluded from `pattr` because otherwise loading a patch would also toggle these states."
+                    "patching_rect": [ 1023.0, 272.0, 154.0, 60.0 ],
+                    "text": "`Select` is excluded from `pattr` because otherwise loading a patch also triggers a preset load."
                 }
             },
             {
                 "box": {
-                    "id": "obj-83",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 961.0, 270.25, 29.5, 22.0 ],
-                    "text": "t i i"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-82",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 997.0, 270.25, 50.0, 22.0 ],
-                    "text": "select 1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-79",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 972.0, 321.25, 32.0, 22.0 ],
-                    "text": "gate"
-                }
-            },
-            {
-                "box": {
+                    "annotation": "The preset to recall. Names come from the preset file, a preset with no name shows its number.",
+                    "annotation_name": "Preset Select",
                     "id": "obj-77",
-                    "maxclass": "live.numbox",
+                    "maxclass": "live.menu",
                     "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 997.0, 301.25, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 1.0, 116.5, 42.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "PresetsSelect",
-                            "parameter_mmax": 128.0,
-                            "parameter_mmin": 1.0,
-                            "parameter_modmode": 4,
-                            "parameter_shortname": "Select",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "PresetsSelect"
-                }
-            },
-            {
-                "box": {
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-72",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 961.0, 248.25, 44.0, 15.0 ],
+                    "patching_rect": [ 972.5, 277.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 133.5, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "PresetsLoad",
-                            "parameter_mmax": 1,
+                            "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
+                            "parameter_longname": "PresetsSelect",
+                            "parameter_mmax": 8,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Load",
+                            "parameter_shortname": "Select",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Load",
-                    "texton": "Load",
-                    "varname": "PresetsLoad"
+                    "varname": "PresetsSelect"
                 }
             },
             {
@@ -334,7 +274,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 960.0, 176.0, 56.0, 22.0 ],
+                    "patching_rect": [ 976.0, 216.0, 56.0, 22.0 ],
                     "restore": {
                         "Export": [ 0.0 ],
                         "Overwrite": [ 0.0 ],
@@ -409,7 +349,7 @@
                             "parameter_longname": "Overwrite",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "OW",
+                            "parameter_shortname": "Overwrite",
                             "parameter_type": 2
                         }
                     },
@@ -575,9 +515,9 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 800.0, 360.0, 123.0, 22.0 ],
+                    "patching_rect": [ 800.0, 370.0, 123.0, 22.0 ],
                     "saved_object_attributes": {
-                        "client_rect": [ 1057, 45, 1440, 407 ],
+                        "client_rect": [ 4, 44, 358, 172 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -668,6 +608,408 @@
                     "varname": "ModuleBank",
                     "viewvisibility": 1
                 }
+            },
+            {
+                "box": {
+                    "id": "obj-100",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patcher": {
+                        "fileversion": 1,
+                        "appversion": {
+                            "major": 9,
+                            "minor": 1,
+                            "revision": 5,
+                            "architecture": "x64",
+                            "modernui": 1
+                        },
+                        "classnamespace": "box",
+                        "rect": [ 825.0, 470.0, 1192.0, 817.0 ],
+                        "visible": 1,
+                        "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-10",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 290.0, 232.0, 150.0, 47.0 ],
+                                    "text": "Unnamed presets just get named with their preset number"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "(message) `slotname` replies from the pattrstorage outlet",
+                                    "id": "obj-1",
+                                    "index": 1,
+                                    "maxclass": "inlet",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 50.0, 40.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "(bang) rebuild the preset name list",
+                                    "id": "obj-2",
+                                    "index": 2,
+                                    "maxclass": "inlet",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "patching_rect": [ 330.0, 40.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-3",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 160.0, 112.0, 126.0, 60.0 ],
+                                    "text": "Preset format: `slotname <number> <name>` then `slotname done`"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-4",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 50.0, 110.0, 100.0, 22.0 ],
+                                    "text": "route slotname"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-5",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 50.0, 150.0, 80.0, 22.0 ],
+                                    "text": "route done"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-7",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 111.0, 192.0, 60.0, 22.0 ],
+                                    "text": "zl.rev"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-8",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 111.0, 331.0, 100.0, 22.0 ],
+                                    "text": "prepend append"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "linecount": 5,
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 50.0, 398.0, 101.0, 76.0 ],
+                                    "text": "0 Init Polyrhythm Rhythm Bass Bassline Melody Topline Latin Mutate"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-11",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 50.0, 438.0, 70.0, 22.0 ],
+                                    "text": "zl.slice 1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-12",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 125.0, 438.0, 145.0, 60.0 ],
+                                    "text": "omit slot `0` which is emitted by `getslotnamelist` but never contains a preset"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-13",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 101.0, 542.0, 180.0, 22.0 ],
+                                    "text": "prepend _parameter_range"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "(message) `_parameter_range` for the preset `live.menu`",
+                                    "id": "obj-14",
+                                    "index": 1,
+                                    "maxclass": "outlet",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 101.0, 594.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-15",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "bang", "bang" ],
+                                    "patching_rect": [ 330.0, 110.0, 40.0, 22.0 ],
+                                    "text": "t b b"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-16",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 351.0, 320.0, 40.0, 22.0 ],
+                                    "text": "set"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-17",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 398.0, 321.0, 141.0, 20.0 ],
+                                    "text": "Clear message with `set`"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-18",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 330.0, 364.0, 110.0, 22.0 ],
+                                    "text": "getslotnamelist"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "(message) `getslotnamelist` for pattrstorage",
+                                    "id": "obj-19",
+                                    "index": 2,
+                                    "maxclass": "outlet",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 330.0, 414.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-20",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
+                                    "patching_rect": [ 111.0, 232.0, 175.0, 22.0 ],
+                                    "text": "route (undefined) <(unnamed)>"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-21",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 267.0, 289.0, 70.0, 22.0 ],
+                                    "text": "zl.nth 1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-22",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 177.0, 192.0, 141.0, 33.0 ],
+                                    "text": "Reversed so `route` can match the `(undefined)`"
+                                }
+                            }
+                        ],
+                        "lines": [
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-4", 0 ],
+                                    "source": [ "obj-1", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-13", 0 ],
+                                    "source": [ "obj-11", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-14", 0 ],
+                                    "source": [ "obj-13", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-16", 0 ],
+                                    "source": [ "obj-15", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-18", 0 ],
+                                    "source": [ "obj-15", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-16", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-19", 0 ],
+                                    "source": [ "obj-18", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-15", 0 ],
+                                    "source": [ "obj-2", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-21", 0 ],
+                                    "source": [ "obj-20", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-20", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-20", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-21", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-5", 0 ],
+                                    "source": [ "obj-4", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-7", 0 ],
+                                    "source": [ "obj-5", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-20", 0 ],
+                                    "source": [ "obj-7", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-8", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-11", 0 ],
+                                    "source": [ "obj-9", 0 ]
+                                }
+                            }
+                        ]
+                    },
+                    "patching_rect": [ 800.0, 410.0, 120.0, 22.0 ],
+                    "text": "p PresetNames"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-101",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "bang", "int", "int" ],
+                    "patching_rect": [ 600.0, 370.0, 110.0, 22.0 ],
+                    "text": "live.thisdevice"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-102",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 972.5, 304.0, 30.0, 22.0 ],
+                    "text": "+ 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-103",
+                    "linecount": 4,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 926.0, 410.0, 123.0, 60.0 ],
+                    "text": "Rebuild the preset `live.menu` names on load and after a preset is stored."
+                }
             }
         ],
         "lines": [
@@ -675,6 +1017,30 @@
                 "patchline": {
                     "destination": [ "obj-tabs", 0 ],
                     "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-100", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-77", 0 ],
+                    "source": [ "obj-100", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-100", 1 ],
+                    "source": [ "obj-101", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-102", 0 ]
                 }
             },
             {
@@ -745,6 +1111,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-100", 1 ],
+                    "source": [ "obj-22", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-100", 0 ],
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-24", 0 ]
                 }
@@ -775,15 +1153,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-72", 0 ],
-                    "order": 1,
-                    "source": [ "obj-3", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-77", 0 ],
-                    "order": 0,
                     "source": [ "obj-3", 1 ]
                 }
             },
@@ -849,20 +1219,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-83", 0 ],
-                    "source": [ "obj-72", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-79", 1 ],
+                    "destination": [ "obj-102", 0 ],
                     "source": [ "obj-77", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-22", 0 ],
-                    "source": [ "obj-79", 0 ]
                 }
             },
             {
@@ -887,24 +1245,6 @@
                 "patchline": {
                     "destination": [ "obj-27", 0 ],
                     "source": [ "obj-8", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-77", 0 ],
-                    "source": [ "obj-82", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-79", 0 ],
-                    "source": [ "obj-83", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-82", 0 ],
-                    "source": [ "obj-83", 0 ]
                 }
             },
             {
@@ -946,16 +1286,17 @@
             "obj-10": [ "Tab", "Tab", 0 ],
             "obj-11": [ "Read", "Read", 0 ],
             "obj-13": [ "Write", "Write", 0 ],
-            "obj-17": [ "Overwrite", "OW", 0 ],
+            "obj-17": [ "Overwrite", "Overwrite", 0 ],
             "obj-20": [ "Randomize", "Randomize", 0 ],
             "obj-42": [ "Export", "Export", 0 ],
-            "obj-72": [ "PresetsLoad", "Load", 0 ],
             "obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-8::obj-13::obj-11": [ "2-Rotate", "Rotate", 0 ],
             "obj-8::obj-13::obj-143::obj-136": [ "2-Down", "Down", 0 ],
             "obj-8::obj-13::obj-143::obj-141": [ "2-Right", "Right", 0 ],
             "obj-8::obj-13::obj-143::obj-142": [ "2-Left", "Left", 0 ],
             "obj-8::obj-13::obj-143::obj-86": [ "2-Up", "Up", 0 ],
+            "obj-8::obj-13::obj-188": [ "2-Merge", "Merge", 0 ],
+            "obj-8::obj-13::obj-189": [ "2-Accent", "Accent", 0 ],
             "obj-8::obj-13::obj-25": [ "2-Track", "Track", 0 ],
             "obj-8::obj-13::obj-28": [ "2-Dur", "Duration", 0 ],
             "obj-8::obj-13::obj-43": [ "2-Ch", "Ch", 0 ],
@@ -973,6 +1314,8 @@
             "obj-8::obj-18::obj-143::obj-141": [ "3-Right", "Right", 0 ],
             "obj-8::obj-18::obj-143::obj-142": [ "3-Left", "Left", 0 ],
             "obj-8::obj-18::obj-143::obj-86": [ "3-Up", "Up", 0 ],
+            "obj-8::obj-18::obj-188": [ "3-Merge", "Merge", 0 ],
+            "obj-8::obj-18::obj-189": [ "3-Accent", "Accent", 0 ],
             "obj-8::obj-18::obj-25": [ "3-Track", "Track", 0 ],
             "obj-8::obj-18::obj-28": [ "3-Dur", "Duration", 0 ],
             "obj-8::obj-18::obj-43": [ "3-Ch", "Ch", 0 ],
@@ -990,6 +1333,8 @@
             "obj-8::obj-1::obj-143::obj-141": [ "1-Right", "Right", 0 ],
             "obj-8::obj-1::obj-143::obj-142": [ "1-Left", "Left", 0 ],
             "obj-8::obj-1::obj-143::obj-86": [ "1-Up", "Up", 0 ],
+            "obj-8::obj-1::obj-188": [ "1-Merge", "Merge", 0 ],
+            "obj-8::obj-1::obj-189": [ "1-Accent", "Accent", 0 ],
             "obj-8::obj-1::obj-25": [ "1-Track", "Track", 0 ],
             "obj-8::obj-1::obj-28": [ "1-Dur", "Duration", 0 ],
             "obj-8::obj-1::obj-43": [ "1-Ch", "Ch", 0 ],
@@ -1007,6 +1352,8 @@
             "obj-8::obj-21::obj-143::obj-141": [ "4-Right", "Right", 0 ],
             "obj-8::obj-21::obj-143::obj-142": [ "4-Left", "Left", 0 ],
             "obj-8::obj-21::obj-143::obj-86": [ "4-Up", "Up", 0 ],
+            "obj-8::obj-21::obj-188": [ "4-Merge", "Merge", 0 ],
+            "obj-8::obj-21::obj-189": [ "4-Accent", "Accent", 0 ],
             "obj-8::obj-21::obj-25": [ "4-Track", "Track", 0 ],
             "obj-8::obj-21::obj-28": [ "4-Dur", "Duration", 0 ],
             "obj-8::obj-21::obj-43": [ "4-Ch", "Ch", 0 ],
@@ -1030,10 +1377,17 @@
             "obj-8::obj-7::obj-16": [ "RandomizeSteps", "Steps", 0 ],
             "obj-8::obj-7::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-8::obj-7::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
+            "obj-8::obj-7::obj-24": [ "RandomizeMerge", "Merge", 0 ],
+            "obj-8::obj-7::obj-244": [ "RandomizeNotesScaleChord", "Chord", 0 ],
+            "obj-8::obj-7::obj-248": [ "RandomizeNotesOctave", "Octave", 0 ],
             "obj-8::obj-7::obj-25": [ "RandomizeRotate", "Rotate", 0 ],
+            "obj-8::obj-7::obj-250": [ "RandomizeAccent", "Accent", 0 ],
+            "obj-8::obj-7::obj-251::obj-1": [ "RandomizeAccent-Min", "Min", 0 ],
+            "obj-8::obj-7::obj-251::obj-2": [ "RandomizeAccent-Max", "Max", 0 ],
             "obj-8::obj-7::obj-29::obj-1": [ "RandomizePulses-Min", "Min", 0 ],
             "obj-8::obj-7::obj-29::obj-2": [ "RandomizePulses-Max", "Max", 0 ],
             "obj-8::obj-7::obj-30": [ "RandomizeDur", "Duration", 0 ],
+            "obj-8::obj-7::obj-32": [ "RandomizeNotesRoot", "Root", 0 ],
             "obj-8::obj-7::obj-33::obj-6": [ "RandomizePitch-Max", "Max", 0 ],
             "obj-8::obj-7::obj-33::obj-7": [ "RandomizePitch-Min", "Min", 0 ],
             "obj-8::obj-7::obj-35::obj-1": [ "RandomizeSteps-Min", "Min", 0 ],
@@ -1049,6 +1403,7 @@
             "obj-8::obj-7::obj-56::obj-1": [ "RandomizeRotate-Min", "Min", 0 ],
             "obj-8::obj-7::obj-56::obj-2": [ "RandomizeRotate-Max", "Max", 0 ],
             "obj-8::obj-7::obj-6": [ "RandomizeVel", "Velocity", 0 ],
+            "obj-8::obj-7::obj-62": [ "RandomizeNotesScaleRandTonal", "Tonal", 0 ],
             "obj-8::obj-7::obj-73::obj-1": [ "RandomizeVel-Min", "Min", 0 ],
             "obj-8::obj-7::obj-73::obj-2": [ "RandomizeVel-Max", "Max", 0 ],
             "obj-8::obj-7::obj-78": [ "RandomizeNotes", "Notes", 0 ],
