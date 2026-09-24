@@ -678,17 +678,6 @@
             },
             {
                 "box": {
-                    "id": "obj-177",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1815.0, 1138.0, 70.0, 22.0 ],
-                    "text": "loadmess 0"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-176",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -781,17 +770,6 @@
                     "text": "Set",
                     "texton": "Set",
                     "varname": "RandomizeTriggerSet"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-92",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1631.0, 1098.0, 70.0, 22.0 ],
-                    "text": "loadmess 0"
                 }
             },
             {
@@ -1971,17 +1949,6 @@
             },
             {
                 "box": {
-                    "id": "obj-83",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 160.0, 736.0, 70.0, 22.0 ],
-                    "text": "loadmess 0"
-                }
-            },
-            {
-                "box": {
                     "annotation": "Whether to randomize the values of each individual note.",
                     "annotation_name": "Randomize Notes Toggle",
                     "automation": "Off",
@@ -2546,17 +2513,6 @@
                     "outlettype": [ "", "int" ],
                     "patching_rect": [ 1088.0, 512.0, 89.0, 22.0 ],
                     "text": "RandomParam"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-71",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 379.0, 559.0, 70.0, 22.0 ],
-                    "text": "loadmess 0"
                 }
             },
             {
@@ -3842,12 +3798,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-175", 0 ],
-                    "source": [ "obj-177", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-173", 0 ],
                     "source": [ "obj-178", 0 ]
                 }
@@ -4665,12 +4615,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-78", 0 ],
-                    "source": [ "obj-83", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-246", 1 ],
                     "source": [ "obj-84", 0 ]
                 }
@@ -4721,12 +4665,6 @@
                 "patchline": {
                     "destination": [ "obj-89", 0 ],
                     "source": [ "obj-91", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-170", 0 ],
-                    "source": [ "obj-92", 0 ]
                 }
             },
             {
