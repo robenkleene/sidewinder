@@ -280,7 +280,6 @@
                         "Overwrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
-                        "Tab": [ 0.0 ],
                         "Write": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -1152,7 +1151,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "order": 1,
+                    "source": [ "obj-3", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-77", 0 ],
+                    "order": 0,
                     "source": [ "obj-3", 1 ]
                 }
             },
