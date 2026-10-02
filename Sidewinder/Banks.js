@@ -4,21 +4,21 @@ autowatch = 1;
 // Inlets & Outlets
 inlets = 1;
 outlets = 2;
-var INLET_TAB = 0;
+var INLET_TRACK = 0;
 var OUTLET_BANK = 0;
 var OUTLET_DONE = 1;
 
-setinletassist(INLET_TAB, "(bang, int) trigger bank messages, tab");
+setinletassist(INLET_TRACK, "(bang, int) trigger bank messages, track");
 setoutletassist(OUTLET_BANK, "(message) bank control messages");
 setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
 // Re-align with `sed 's/, */,\t/g' | column -t -s $'\t'`
 var ENCODERS = [
-["Main",         "Tab",  "PresetsSelect",        "$1-Pulses",            "$1-Steps",              "$1-Rotate",            "$1-Pitch",             "$1-Vel",                 "$1-Accent"],
-["Rand Tracks",  "Tab",  "RandomizeAuto",        "-",                    "-",                     "$1-Dur",               "$1-Division",          "RandomizeDivision-Min",  "RandomizeDivision-Max"],
-["Rand Steps",   "Tab",  "RandomizePulses-Min",  "RandomizePulses-Max",  "RandomizeSteps-Min",    "RandomizeSteps-Max",   "RandomizeRotate-Min",  "RandomizeRotate-Max",    "-"],
-["Rand Notes",   "Tab",  "RandomizeVel-Min",     "RandomizeVel-Max",     "RandomizePitch-Min",    "RandomizePitch-Max",   "RandomizeDur-Min",     "RandomizeDur-Max",       "RandomizeNotesOctave"],
-["Rand Scale",   "Tab",  "RandomizeNotesScale",  "RandomizeNotesRoot",   "RandomizeNotesRepeat",  "RandomizeNotesOrder",  "RandomizeNotesRests",  "RandomizeAccent-Min",    "RandomizeAccent-Max"],
+["Main",         "BanksTrack",  "PresetsSelect",        "$1-Pulses",            "$1-Steps",              "$1-Rotate",            "$1-Pitch",             "$1-Vel",                 "$1-Accent"],
+["Rand Tracks",  "BanksTrack",  "RandomizeAuto",        "-",                    "-",                     "$1-Dur",               "$1-Division",          "RandomizeDivision-Min",  "RandomizeDivision-Max"],
+["Rand Steps",   "BanksTrack",  "RandomizePulses-Min",  "RandomizePulses-Max",  "RandomizeSteps-Min",    "RandomizeSteps-Max",   "RandomizeRotate-Min",  "RandomizeRotate-Max",    "-"],
+["Rand Notes",   "BanksTrack",  "RandomizeVel-Min",     "RandomizeVel-Max",     "RandomizePitch-Min",    "RandomizePitch-Max",   "RandomizeDur-Min",     "RandomizeDur-Max",       "RandomizeNotesOctave"],
+["Rand Scale",   "BanksTrack",  "RandomizeNotesScale",  "RandomizeNotesRoot",   "RandomizeNotesRepeat",  "RandomizeNotesOrder",  "RandomizeNotesRests",  "RandomizeAccent-Min",    "RandomizeAccent-Max"],
 ];
 
 var BUTTONS = [
@@ -30,13 +30,13 @@ var BUTTONS = [
 ];
 
 // State
-var DEFAULT_TAB = 1;
-var currentTab = DEFAULT_TAB;
+var DEFAULT_TRACK = 1;
+var currentTrack = DEFAULT_TRACK;
 
 function replaceTokens(tokens) {
   var out = [];
   for (var j = 0; j < tokens.length; j++) {
-    out.push(tokens[j].replace("$1", String(currentTab)));
+    out.push(tokens[j].replace("$1", String(currentTrack)));
   }
   return out;
 }
@@ -54,7 +54,7 @@ function bankMessage(i) {
 }
 
 function update() {
-  if (currentTab < 0 || currentTab > 4) {
+  if (currentTrack < 1 || currentTrack > 4) {
     return;
   }
 
@@ -67,13 +67,13 @@ function update() {
 }
 
 function msg_int(value) {
-  currentTab = value;
+  currentTrack = value;
   update();
 }
 
-// Init for setting up banks, sets to default values and dumps all tabs
+// Init for setting up banks, sets to default values and dumps all banks
 function bang() {
-  currentTab = DEFAULT_TAB;
+  currentTrack = DEFAULT_TRACK;
 
   for (var i = 0; i < ENCODERS.length; i++) {
     outlet(OUTLET_BANK, bankMessage(i));

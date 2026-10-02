@@ -144,7 +144,7 @@ The sequencer uses the `toussaint` version by default.
 
 ## Ableton Push
 
-Sidewinder supports Ableton Push. The first knob always controls which tab is visible.
+Sidewinder supports Ableton Push. The first knob always controls which track the banks control.
 
 ## Patterns
 
