@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 938.0, 236.0, 1554.0, 1138.0 ],
+        "rect": [ 938.0, 209.0, 1554.0, 1138.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -4165,7 +4165,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 584.0, 294.0, 1100.0, 626.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -5980,42 +5979,42 @@
             {
                 "patchline": {
                     "destination": [ "obj-123", 0 ],
-                    "order": 0,
-                    "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-137", 0 ],
                     "order": 1,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
+                    "destination": [ "obj-137", 0 ],
+                    "order": 2,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-21", 0 ],
-                    "order": 5,
+                    "order": 6,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-70", 0 ],
-                    "order": 4,
+                    "order": 5,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-85", 0 ],
-                    "order": 3,
+                    "order": 4,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-92", 0 ],
-                    "order": 2,
+                    "order": 3,
                     "source": [ "obj-64", 0 ]
                 }
             },

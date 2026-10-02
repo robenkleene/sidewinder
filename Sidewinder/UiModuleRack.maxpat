@@ -23,7 +23,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 115.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 3.0, 132.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
@@ -94,7 +94,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 972.5, 277.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 133.5, 42.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 149.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
@@ -176,28 +176,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 34.0, 120.0, 72.0, 22.0 ],
                     "text": "prepend set"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-tabs",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabs.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 45.5, 5.5, 49.0, 93.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, -1.0, 49.0, 93.0 ],
-                    "viewvisibility": 1
                 }
             },
             {
@@ -312,7 +290,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 160.0, 200.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 150.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 90.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_button_mode": "Momentary",
@@ -1007,6 +985,48 @@
                     "outlettype": [ "int" ],
                     "patching_rect": [ 972.5, 304.0, 30.0, 22.0 ],
                     "text": "+ 1"
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-66",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 758.0, 627.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 87.0, 44.0, 82.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-tabs",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabs.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 45.5, 5.5, 49.0, 93.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, -1.0, 49.0, 93.0 ],
+                    "viewvisibility": 1
                 }
             }
         ],
