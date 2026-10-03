@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 938.0, 209.0, 1554.0, 1138.0 ],
+        "rect": [ 864.0, 92.0, 1006.0, 1187.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -58,8 +58,9 @@
             },
             {
                 "box": {
-                    "activefgdialcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
-                    "activeneedlecolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "activedialcolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
+                    "activefgdialcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "activeneedlecolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "annotation": "The percentage of notes that are accented, spread evenly across the sequence. An accented note plays at the maximum velocity.",
                     "annotation_name": "Accent",
                     "id": "obj-189",
@@ -72,11 +73,14 @@
                     "presentation": 1,
                     "presentation_rect": [ 437.5, 116.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
+                        "activedialcolor": {
+                            "expression": "themecolor.live_display_line_one"
+                        },
                         "activefgdialcolor": {
-                            "expression": "themecolor.live_lcd_control_fg"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         },
                         "activeneedlecolor": {
-                            "expression": "themecolor.live_lcd_control_fg"
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
                         },
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg"
@@ -1176,7 +1180,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 920.0, -43.5, 56.0, 22.0 ],
                     "restore": {
-                        "#2-Accent": [ 0.0 ],
+                        "#2-Accent": [ 15.0 ],
                         "#2-Auto": [ 0.0 ],
                         "#2-Ch": [ 16.0 ],
                         "#2-Division": [ 0.0 ],
