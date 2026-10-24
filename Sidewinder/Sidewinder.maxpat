@@ -237,6 +237,7 @@
         "parameters": {
             "obj-13": [ "ReWire", "ReWire", 0 ],
             "obj-2::obj-10": [ "Tab", "Tab", 0 ],
+            "obj-2::obj-105": [ "PresetsLoad", "Load", 0 ],
             "obj-2::obj-11": [ "Read", "Read", 0 ],
             "obj-2::obj-13": [ "Write", "Write", 0 ],
             "obj-2::obj-17": [ "Overwrite", "Overwrite", 0 ],

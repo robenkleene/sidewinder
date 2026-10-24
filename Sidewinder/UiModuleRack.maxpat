@@ -3,16 +3,67 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 798.0, 306.0, 1348.0, 1041.0 ],
+        "rect": [ 346.0, 95.0, 1348.0, 929.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "annotation": "Recall the selected preset.",
+                    "annotation_name": "Preset Load",
+                    "id": "obj-105",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 922.0, 277.0, 40.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 3.0, 149.0, 38.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_button_mode": "Momentary",
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "PresetsLoad",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Load",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Load",
+                    "varname": "PresetsLoad"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-104",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 972.5, 336.0, 29.5, 22.0 ],
+                    "text": "i"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-103",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 922.0, 304.0, 29.5, 22.0 ],
+                    "text": "t b"
+                }
+            },
             {
                 "box": {
                     "fontname": "Ableton Sans Medium",
@@ -23,7 +74,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 132.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 1.0, 116.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
@@ -74,12 +125,12 @@
             {
                 "box": {
                     "id": "obj-85",
-                    "linecount": 4,
+                    "linecount": 8,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1023.0, 272.0, 157.0, 60.0 ],
-                    "text": "`PresetsSelect` is excluded from `pattr` because otherwise loading a patch also triggers a preset load."
+                    "patching_rect": [ 1023.0, 272.0, 243.0, 114.0 ],
+                    "text": "`PresetsSelect` only selects the preset and `PresetsLoad` recalls it, because Live restores `PresetsSelect` every time the device reloads (e.g., choosing `Edit in Max` and closing the Max window), and if that restore recalled the preset it would overwrite the restored parameters with the preset's values."
                 }
             },
             {
@@ -94,7 +145,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 972.5, 277.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 149.0, 38.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 133.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
@@ -259,6 +310,23 @@
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
                         "Write": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "Export": {
+                            "id": "obj-42"
+                        },
+                        "Overwrite": {
+                            "id": "obj-17"
+                        },
+                        "Randomize": {
+                            "id": "obj-20"
+                        },
+                        "Read": {
+                            "id": "obj-11"
+                        },
+                        "Write": {
+                            "id": "obj-13"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u669009127"
@@ -597,8 +665,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1057,8 +1125,26 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-22", 0 ],
+                    "destination": [ "obj-104", 1 ],
                     "source": [ "obj-102", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-104", 0 ],
+                    "source": [ "obj-103", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-104", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-103", 0 ],
+                    "source": [ "obj-105", 0 ]
                 }
             },
             {
@@ -1172,6 +1258,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-10", 0 ],
+                    "order": 2,
+                    "source": [ "obj-3", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-105", 0 ],
                     "order": 1,
                     "source": [ "obj-3", 1 ]
                 }
@@ -1310,6 +1403,7 @@
         ],
         "parameters": {
             "obj-10": [ "Tab", "Tab", 0 ],
+            "obj-105": [ "PresetsLoad", "Load", 0 ],
             "obj-11": [ "Read", "Read", 0 ],
             "obj-13": [ "Write", "Write", 0 ],
             "obj-17": [ "Overwrite", "Overwrite", 0 ],

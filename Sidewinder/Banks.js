@@ -22,7 +22,7 @@ var ENCODERS = [
 ];
 
 var BUTTONS = [
-["-",  "$1-Track",         "$1-Auto",                  "-",                             "-",                         "-",                "-",                  "$1-Merge"],
+["-",  "PresetsLoad",      "$1-Track",                 "$1-Auto",                       "-",                         "-",                "-",                  "$1-Merge"],
 ["-",  "Randomize",        "Randomize1",               "Randomize2",                    "Randomize3",                "Randomize4",       "RandomizeDivision",  "-"],
 ["-",  "RandomizePulses",  "-",                        "RandomizeSteps",                "-",                         "RandomizeRotate",  "-",                  "-"],
 ["-",  "RandomizeVel",     "-",                        "RandomizePitch",                "-",                         "RandomizeDur",     "-",                  "RandomizeNotesReverse"],
