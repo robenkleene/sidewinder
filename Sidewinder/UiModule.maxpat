@@ -26,23 +26,23 @@
             {
                 "box": {
                     "id": "obj-911",
-                    "linecount": 9,
+                    "linecount": 8,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 900.0, 478.5, 181.0, 127.0 ],
+                    "patching_rect": [ 900.0, 478.5, 185.0, 114.0 ],
                     "text": "Division is output again once the device has loaded, because `live.step` stores an `interval` in its sequence, and Live restores the Sequencer after the Division, which put the interval back to the stored one. `deferlow` waits until the restore is done"
                 }
             },
             {
                 "box": {
                     "id": "obj-147",
-                    "linecount": 6,
+                    "linecount": 8,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 900.0, 325.0, 151.0, 87.0 ],
-                    "text": "`live.step` has a default pattern until it's loaded, so just hide it until the devices is loaded so we don't see that default pattern."
+                    "patching_rect": [ 957.0, 330.0, 147.0, 114.0 ],
+                    "text": "`live.step` shows a default pattern until its steps are restored, so it stays hidden until then. Live restores the steps after `live.thisdevice` bangs, so it's shown after `deferlow`."
                 }
             },
             {
@@ -5737,15 +5737,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-192", 0 ],
-                    "order": 1,
-                    "source": [ "obj-191", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-910", 0 ],
-                    "order": 0,
                     "source": [ "obj-191", 0 ]
                 }
             },
@@ -6302,7 +6294,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-192", 0 ],
+                    "order": 0,
+                    "source": [ "obj-910", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-45", 0 ],
+                    "order": 1,
                     "source": [ "obj-910", 0 ]
                 }
             },
