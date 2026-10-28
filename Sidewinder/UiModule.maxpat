@@ -853,7 +853,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 486.0, 379.5, 119.0, 22.0 ],
-                    "text": "128 64 32 16 8 4 2 1"
+                    "text": "64 32 16 8 4 2 1"
                 }
             },
             {
@@ -893,9 +893,9 @@
                             "expression": "themecolor.live_lcd_control_fg"
                         },
                         "valueof": {
-                            "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
+                            "parameter_enum": [ "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
                             "parameter_longname": "#2-Division",
-                            "parameter_mmax": 6,
+                            "parameter_mmax": 5,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Division",
                             "parameter_type": 2
@@ -3965,12 +3965,12 @@
                             {
                                 "box": {
                                     "id": "obj-9",
-                                    "linecount": 3,
+                                    "linecount": 5,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 120.0, 114.0, 153.0, 47.0 ],
-                                    "text": "128n because 1/128 is the smallest supported note value"
+                                    "patching_rect": [ 120.0, 114.0, 153.0, 73.0 ],
+                                    "text": "128n because 1/128 is the shortest Duration, and it's finer than the shortest Division, 1/64, so a `time` message lands on every step boundary"
                                 }
                             },
                             {

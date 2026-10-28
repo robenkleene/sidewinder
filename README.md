@@ -71,7 +71,7 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 To the left of the piano roll.
 
-- **Pulses**: Set the number of pulses (notes)
+- **Pulses**: Set the number of pulses (notes). Pulses at or above **Steps** turns every step on.
 - **Steps**: Set the total number of steps
 - **Rotate**: Set the offset for the pulses
 
@@ -86,7 +86,7 @@ To the left of the piano roll.
 - **Auto**: Toggle whether moving a control automatically updates the steps. The step sequencer can only be manually edited if toggled off.
 - **Accent**: The percentage of notes that are accented, spread evenly across the sequence with the same Euclidean algorithm as the pulses. An accented note plays at the maximum velocity.
 - **Merge**: Toggle whether consecutive notes of the same pitch are merged into one held note (note this adds a single tick to note durations in order to force consecutive notes to overlap).
-- **Division**: Sets the value between each step (this is different than **Duration**, which can for example overlap steps). There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
+- **Division**: Sets the value between each step, from `1/64` to `1/2` (this is different than **Duration**, which can for example overlap steps). There's no `1/128` because [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) runs an `interval` of `128n` as 20-tick steps, so it can't play `1/128` evenly. There's limitation with the [`live.step`](https://docs.cycling74.com/max8/refpages/live.step) sequencer that each step in the sequencer represents `1/16` note, this means the display of the sequencer will actually be different from the MIDI output, if this value is set to anything other than `1/16`.
 - **Ch**: The MIDI channel that the track outputs to (note that Ableton Live actually merges all MIDI to channel one, limiting the usefulness of this in Live)
 - Directions (only visible when `Auto` is toggled off): Move the sequencer note pitches up, down, left, or right. If **Show** is set to `Velocity` or `Duration`, then velocity or duration values are affected instead.
 
@@ -97,9 +97,9 @@ To the left of the piano roll.
 Randomize generates a random sequence. The **Notes** setting is significant, with that setting turned off, a sequence that plays a single note will be generated. If it's turned on, a sequence playing different notes from a scale will be generated.
 
 - **Track 1-4**: Which tracks to randomize
-- **Pulses, Steps, Rotate**: Whether to randomize those parameters. When randomizing pulses and steps, the randomized steps value *overrides the maximum for pulses* (unless the randomize pulses maximum is already less than the randomized steps value). This is because the pulses value can never go above steps value, so if we didn't override the maximum for pulses, then all randomized pulses values above the randomized steps value would be forced to be the steps value (i.e., steps and pulses values would be equal, which doesn't make for interesting patterns).
+- **Pulses, Steps, Rotate**: Whether to randomize those parameters. When randomizing pulses and steps, the randomized steps value *overrides the maximum for pulses* (unless the randomize pulses maximum is already less than the randomized steps value). This is because any pulses value at or above the steps value turns every step on, so if we didn't override the maximum for pulses, then all randomized pulses values above the randomized steps value would play every step (which doesn't make for interesting patterns).
 - **Min**: Minimum random amount
-- **Max**: Maximum random amount
+- **Max**: Maximum random amount (**Min** can be set above **Max**, the lower of the two is used as the minimum)
 - **Notes**: Whether to randomize individual notes. If the notes is off, then randomize for Velocity, Pitch, and Duration will randomize changing those values on the individual track settings. If notes is on, then randomize for those values will create randomize the individual notes (and the track settings will be used for default values, e.g., for off notes with a velocity of 0).
 - For Duration, the top number and bottom numbers are the minimum and maximum duration in ticks
 - For Pitch, the top number and bottom pitches are the minimum and maximum pitches
