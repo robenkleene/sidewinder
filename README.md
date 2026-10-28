@@ -171,7 +171,7 @@ See a [list of example inputs to generate traditional rhythms](patterns.md).
 
 ### Reconstructing
 
-To reconstruct this demo loops in Ableton Live, setup a track with Sidewinder with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from [Thwomp](https://github.com/robenkleene/thwomp).
+To reconstruct this demo loops in Ableton Live, setup a track with Sidewinder with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from [Thump](https://github.com/robenkleene/thump).
 
 #### Polyrhythm
 
