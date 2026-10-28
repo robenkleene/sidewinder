@@ -670,7 +670,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 136.0, 136.0, 65.0, 22.0 ],
+                    "patching_rect": [ 56.0, 136.0, 65.0, 22.0 ],
                     "text": "randomize"
                 }
             },
@@ -907,7 +907,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 56.0, 136.0, 69.0, 22.0 ],
+                    "patching_rect": [ 136.0, 136.0, 69.0, 22.0 ],
                     "text": "s #1-trigger"
                 }
             },
@@ -1743,7 +1743,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 525.5, 764.5, 169.0, 22.0 ],
+                    "patching_rect": [ 525.5, 761.0, 169.0, 22.0 ],
                     "text": "parameters $1 $2 $3 $4 $5"
                 }
             },
@@ -1935,7 +1935,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 722.0, 1219.0, 80.0, 22.0 ],
+                    "patching_rect": [ 722.0, 1211.0, 80.0, 22.0 ],
                     "text": "symbol Major"
                 }
             },
@@ -3874,13 +3874,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-155", 0 ],
-                    "source": [ "obj-173", 0 ]
+                    "source": [ "obj-173", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-54", 0 ],
-                    "source": [ "obj-173", 1 ]
+                    "source": [ "obj-173", 0 ]
                 }
             },
             {
