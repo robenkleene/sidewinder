@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -982,7 +982,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "patching_rect": [ 1408.0, 1064.0, 29.5, 22.0 ],
-                    "text": ">"
+                    "text": ">="
                 }
             },
             {
@@ -1018,7 +1018,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiMinMaxDur.maxpat",
+                    "name": "UiMinMaxDiv.maxpat",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -1210,7 +1210,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 1408.0, 970.0, 29.5, 22.0 ],
+                    "patching_rect": [ 1408.0, 988.0, 29.5, 22.0 ],
                     "text": "+"
                 }
             },
@@ -1221,7 +1221,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 1392.0, 930.0, 29.5, 22.0 ],
+                    "patching_rect": [ 1408.0, 958.5, 29.5, 22.0 ],
                     "text": "*"
                 }
             },
@@ -1277,7 +1277,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1472.0, 930.0, 32.0, 18.0 ],
+                    "patching_rect": [ 1478.0, 942.0, 32.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 387.0, 114.0, 29.0, 18.0 ],
                     "text": "Auto"
@@ -1379,6 +1379,95 @@
                         "RandomizeTriggerSet": [ 0.0 ],
                         "RandomizeTriggerToggle": [ 0.0 ],
                         "RandomizeVel": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "Randomize1": {
+                            "id": "obj-8"
+                        },
+                        "Randomize2": {
+                            "id": "obj-9"
+                        },
+                        "Randomize3": {
+                            "id": "obj-10"
+                        },
+                        "Randomize4": {
+                            "id": "obj-11"
+                        },
+                        "RandomizeAccent": {
+                            "id": "obj-250"
+                        },
+                        "RandomizeAuto": {
+                            "id": "obj-1"
+                        },
+                        "RandomizeDivision": {
+                            "id": "obj-147"
+                        },
+                        "RandomizeDur": {
+                            "id": "obj-30"
+                        },
+                        "RandomizeMerge": {
+                            "id": "obj-24"
+                        },
+                        "RandomizeNotes": {
+                            "id": "obj-78"
+                        },
+                        "RandomizeNotesOctave": {
+                            "id": "obj-248"
+                        },
+                        "RandomizeNotesOrder": {
+                            "id": "obj-104"
+                        },
+                        "RandomizeNotesRepeat": {
+                            "id": "obj-93"
+                        },
+                        "RandomizeNotesRests": {
+                            "id": "obj-110"
+                        },
+                        "RandomizeNotesReverse": {
+                            "id": "obj-111"
+                        },
+                        "RandomizeNotesRoot": {
+                            "id": "obj-32"
+                        },
+                        "RandomizeNotesScale": {
+                            "id": "obj-94"
+                        },
+                        "RandomizeNotesScaleChord": {
+                            "id": "obj-244"
+                        },
+                        "RandomizeNotesScaleRand": {
+                            "id": "obj-36"
+                        },
+                        "RandomizeNotesScaleRandTonal": {
+                            "id": "obj-62"
+                        },
+                        "RandomizePitch": {
+                            "id": "obj-39"
+                        },
+                        "RandomizePulses": {
+                            "id": "obj-15"
+                        },
+                        "RandomizeRotate": {
+                            "id": "obj-25"
+                        },
+                        "RandomizeSequencer": {
+                            "id": "obj-38"
+                        },
+                        "RandomizeSteps": {
+                            "id": "obj-16"
+                        },
+                        "RandomizeTrigger": {
+                            "id": "obj-170"
+                        },
+                        "RandomizeTriggerSet": {
+                            "id": "obj-175"
+                        },
+                        "RandomizeTriggerToggle": {
+                            "id": "obj-51"
+                        },
+                        "RandomizeVel": {
+                            "id": "obj-6"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u457004162"
@@ -1982,8 +2071,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2781,8 +2870,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3280,6 +3369,28 @@
                     "patching_rect": [ 555.0, 1036.0, 100.0, 22.0 ],
                     "text": "expr $i1 * $i2"
                 }
+            },
+            {
+                "box": {
+                    "id": "obj-256",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 1384.0, 920.0, 29.5, 22.0 ],
+                    "text": "- 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-257",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1158.0, 920.0, 220.0, 47.0 ],
+                    "text": "`- 1` because `transport` counts bars from 1, which started the beat count a bar ahead."
+                }
             }
         ],
         "lines": [
@@ -3620,7 +3731,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-45", 0 ],
+                    "destination": [ "obj-256", 0 ],
                     "source": [ "obj-151", 0 ]
                 }
             },
@@ -4072,6 +4183,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-45", 0 ],
+                    "source": [ "obj-256", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-148", 0 ],
                     "source": [ "obj-26", 1 ]
                 }
@@ -4327,7 +4444,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-153", 0 ],
-                    "source": [ "obj-44", 1 ]
+                    "source": [ "obj-44", 0 ]
                 }
             },
             {

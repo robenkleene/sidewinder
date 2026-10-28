@@ -129,7 +129,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1023.0, 272.0, 243.0, 114.0 ],
+                    "patching_rect": [ 1053.0, 274.0, 243.0, 114.0 ],
                     "text": "`PresetsSelect` only selects the preset and `PresetsLoad` recalls it, because Live restores `PresetsSelect` every time the device reloads (e.g., choosing `Edit in Max` and closing the Max window), and if that restore recalled the preset it would overwrite the restored parameters with the preset's values."
                 }
             },
@@ -238,6 +238,40 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 664.0, 216.0, 171.0, 22.0 ],
                     "text": "loadmess pattrstorage Presets"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-910",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 664.0, 400.0, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-911",
+                    "linecount": 4,
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 664.0, 432.0, 247.0, 62.0 ],
+                    "text": "priority ModuleBank::Module1::1-Division 1, priority ModuleBank::Module2::2-Division 1, priority ModuleBank::Module3::3-Division 1, priority ModuleBank::Module4::4-Division 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-912",
+                    "linecount": 7,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 926.0, 437.0, 240.0, 100.0 ],
+                    "text": "`priority` restores each track's Division after its Sequencer, because `live.step` stores an `interval` in its sequence, and restoring the Sequencer after the Division put the interval back to the one stored in the preset, so a track recalled at 1/8 played at 1/16"
                 }
             },
             {
@@ -561,6 +595,12 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 800.0, 370.0, 123.0, 22.0 ],
+                    "priority": {
+                        "ModuleBank::Module1::1-Division": 1,
+                        "ModuleBank::Module2::2-Division": 1,
+                        "ModuleBank::Module3::3-Division": 1,
+                        "ModuleBank::Module4::4-Division": 1
+                    },
                     "saved_object_attributes": {
                         "client_rect": [ 4, 44, 358, 172 ],
                         "parameter_enable": 0,
@@ -916,6 +956,29 @@
                                     "patching_rect": [ 177.0, 192.0, 141.0, 33.0 ],
                                     "text": "Reversed so `route` can match the `(undefined)`"
                                 }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-104",
+                                    "linecount": 2,
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 101.0, 575.0, 380.0, 22.0 ],
+                                    "text": "zl.change Init Polyrhythm Rhythm Bass Bassline Melody Topline Latin Mutate"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-105",
+                                    "linecount": 7,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 300.0, 480.0, 240.0, 87.0 ],
+                                    "text": "`zl.change` only rebuilds the menu when the preset names differ from its arguments, which match the names the menu saves with. Sending `_parameter_range` on every load changed a parameter from inside the device, which makes Live stop following PresetsSelect's automation"
+                                }
                             }
                         ],
                         "lines": [
@@ -928,6 +991,12 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-13", 0 ],
+                                    "source": [ "obj-104", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-104", 0 ],
                                     "source": [ "obj-11", 1 ]
                                 }
                             },
@@ -1370,6 +1439,18 @@
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-911", 0 ],
+                    "source": [ "obj-910", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-911", 0 ]
                 }
             },
             {
