@@ -242,6 +242,40 @@
             },
             {
                 "box": {
+                    "id": "obj-910",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 664.0, 400.0, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-911",
+                    "linecount": 4,
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 664.0, 432.0, 247.0, 62.0 ],
+                    "text": "priority ModuleBank::Module1::1-Division 1, priority ModuleBank::Module2::2-Division 1, priority ModuleBank::Module3::3-Division 1, priority ModuleBank::Module4::4-Division 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-912",
+                    "linecount": 7,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 926.0, 437.0, 240.0, 100.0 ],
+                    "text": "`priority` restores each track's Division after its Sequencer, because `live.step` stores an `interval` in its sequence, and restoring the Sequencer after the Division put the interval back to the one stored in the preset, so a track recalled at 1/8 played at 1/16"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-39",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -561,6 +595,12 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 800.0, 370.0, 123.0, 22.0 ],
+                    "priority": {
+                        "ModuleBank::Module1::1-Division": 1,
+                        "ModuleBank::Module2::2-Division": 1,
+                        "ModuleBank::Module3::3-Division": 1,
+                        "ModuleBank::Module4::4-Division": 1
+                    },
                     "saved_object_attributes": {
                         "client_rect": [ 4, 44, 358, 172 ],
                         "parameter_enable": 0,
@@ -1399,6 +1439,18 @@
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-911", 0 ],
+                    "source": [ "obj-910", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-911", 0 ]
                 }
             },
             {

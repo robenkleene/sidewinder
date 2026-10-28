@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -14,12 +14,34 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-910",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 900.0, 421.0, 55.0, 22.0 ],
+                    "text": "deferlow"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-911",
+                    "linecount": 9,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 900.0, 478.5, 181.0, 127.0 ],
+                    "text": "Division is output again once the device has loaded, because `live.step` stores an `interval` in its sequence, and Live restores the Sequencer after the Division, which put the interval back to the stored one. `deferlow` waits until the restore is done"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-147",
                     "linecount": 6,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 895.0, 356.0, 150.0, 87.0 ],
+                    "patching_rect": [ 900.0, 325.0, 151.0, 87.0 ],
                     "text": "`live.step` has a default pattern until it's loaded, so just hide it until the devices is loaded so we don't see that default pattern."
                 }
             },
@@ -1222,10 +1244,51 @@
                         "#2-Mode": [ 3.0 ],
                         "#2-Pitch": [ 38.99999999999996 ],
                         "#2-Rotate": [ 0.0 ],
-                        "#2-Sequencer": [ 1, 3, 0, 1, 2, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
+                        "#2-Sequencer": [ 1, 3, 0, 1, 3, 0, 3, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127 ],
                         "#2-Set": [ 0.0 ],
                         "#2-Track": [ 0.0 ],
                         "#2-Vel": [ 127.0 ]
+                    },
+                    "restore_extra": {
+                        "#2-Accent": {
+                            "id": "obj-189"
+                        },
+                        "#2-Auto": {
+                            "id": "obj-64"
+                        },
+                        "#2-Ch": {
+                            "id": "obj-43"
+                        },
+                        "#2-Division": {
+                            "id": "obj-45"
+                        },
+                        "#2-Dur": {
+                            "id": "obj-28"
+                        },
+                        "#2-Merge": {
+                            "id": "obj-188"
+                        },
+                        "#2-Mode": {
+                            "id": "obj-72"
+                        },
+                        "#2-Pitch": {
+                            "id": "obj-78"
+                        },
+                        "#2-Rotate": {
+                            "id": "obj-11"
+                        },
+                        "#2-Sequencer": {
+                            "id": "obj-8"
+                        },
+                        "#2-Set": {
+                            "id": "obj-65"
+                        },
+                        "#2-Track": {
+                            "id": "obj-25"
+                        },
+                        "#2-Vel": {
+                            "id": "obj-77"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u530013978"
@@ -1340,8 +1403,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2485,8 +2548,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2992,7 +3055,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 512.0, 80.0, 114.0 ],
+                    "patching_rect": [ 8.0, 511.0, 80.0, 114.0 ],
                     "text": "Add JavaScript files so they're included when the device is frozen"
                 }
             },
@@ -3444,7 +3507,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int", "int" ],
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 8.0, 64.0, 40.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 3.0, 4.0, 40.0, 108.0 ],
@@ -3537,8 +3600,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3954,8 +4017,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3965,7 +4028,7 @@
                             {
                                 "box": {
                                     "id": "obj-9",
-                                    "linecount": 5,
+                                    "linecount": 6,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -4195,8 +4258,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4247,8 +4310,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4895,7 +4958,6 @@
                     "bgunitcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
                     "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 1.0 ],
                     "fontface": 0,
-                    "hidden": 1,
                     "id": "obj-8",
                     "loopbordercolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 1.0 ],
                     "maxclass": "live.step",
@@ -5676,6 +5738,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-192", 0 ],
+                    "order": 1,
+                    "source": [ "obj-191", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-910", 0 ],
+                    "order": 0,
                     "source": [ "obj-191", 0 ]
                 }
             },
@@ -6029,42 +6099,42 @@
             {
                 "patchline": {
                     "destination": [ "obj-123", 0 ],
-                    "order": 0,
-                    "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-137", 0 ],
                     "order": 1,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
+                    "destination": [ "obj-137", 0 ],
+                    "order": 2,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-21", 0 ],
-                    "order": 5,
+                    "order": 6,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-70", 0 ],
-                    "order": 4,
+                    "order": 5,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-85", 0 ],
-                    "order": 3,
+                    "order": 4,
                     "source": [ "obj-64", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-92", 0 ],
-                    "order": 2,
+                    "order": 3,
                     "source": [ "obj-64", 0 ]
                 }
             },
@@ -6145,7 +6215,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-38", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-77", 0 ]
                 }
             },
@@ -6228,6 +6298,12 @@
                 "patchline": {
                     "destination": [ "obj-167", 0 ],
                     "source": [ "obj-91", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-45", 0 ],
+                    "source": [ "obj-910", 0 ]
                 }
             },
             {
