@@ -129,7 +129,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1023.0, 272.0, 243.0, 114.0 ],
+                    "patching_rect": [ 1053.0, 274.0, 243.0, 114.0 ],
                     "text": "`PresetsSelect` only selects the preset and `PresetsLoad` recalls it, because Live restores `PresetsSelect` every time the device reloads (e.g., choosing `Edit in Max` and closing the Max window), and if that restore recalled the preset it would overwrite the restored parameters with the preset's values."
                 }
             },
@@ -916,6 +916,29 @@
                                     "patching_rect": [ 177.0, 192.0, 141.0, 33.0 ],
                                     "text": "Reversed so `route` can match the `(undefined)`"
                                 }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-104",
+                                    "linecount": 2,
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 101.0, 575.0, 380.0, 22.0 ],
+                                    "text": "zl.change Init Polyrhythm Rhythm Bass Bassline Melody Topline Latin Mutate"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-105",
+                                    "linecount": 7,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 300.0, 480.0, 240.0, 87.0 ],
+                                    "text": "`zl.change` only rebuilds the menu when the preset names differ from its arguments, which match the names the menu saves with. Sending `_parameter_range` on every load changed a parameter from inside the device, which makes Live stop following PresetsSelect's automation"
+                                }
                             }
                         ],
                         "lines": [
@@ -928,6 +951,12 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-13", 0 ],
+                                    "source": [ "obj-104", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-104", 0 ],
                                     "source": [ "obj-11", 1 ]
                                 }
                             },
